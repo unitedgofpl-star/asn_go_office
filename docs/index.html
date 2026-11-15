@@ -74,6 +74,7 @@
     <div class="stat"><b id="sDraft">0</b><span>Draft</span></div>
     <div class="stat"><b id="sWork">0/8</b><span>Sedang kerja</span></div>
     <div class="stat"><b id="sClock">--:--</b><span>Waktu WIT</span></div>
+    <div class="stat"><b id="sLast">—</b><span id="sLastL">Aktif terakhir</span></div>
   </div>
 </div>
 
@@ -281,11 +282,11 @@ function bubble(){
   const c=document.createElement("canvas");c.width=640;c.height=200;const g=c.getContext("2d");
   const tex=new THREE.CanvasTexture(c);const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:tex,transparent:true,depthTest:false}));
   sp.scale.set(5.2,1.62,1);sp.renderOrder=11;
-  sp.userData.set=(t)=>{g.clearRect(0,0,640,200);g.font="500 34px Poppins, sans-serif";
+  sp.userData.set=(t,chat)=>{g.clearRect(0,0,640,200);g.font=(chat?"italic 500 ":"500 ")+"34px Poppins, sans-serif";
     const words=t.split(" ");let lines=[""];words.forEach(w=>{const tst=(lines[lines.length-1]+" "+w).trim();if(g.measureText(tst).width>560&&lines.length<2)lines.push(w);else lines[lines.length-1]=tst;});
     lines=lines.slice(0,2);if(t.length>60)lines[1]=(lines[1]||"").slice(0,26)+"…";
-    g.fillStyle="#FFF6E6";roundRect(g,10,10,620,150,30);g.fill();g.beginPath();g.moveTo(300,158);g.lineTo(320,195);g.lineTo(345,158);g.fill();
-    g.strokeStyle="#E63946";g.lineWidth=6;roundRect(g,10,10,620,150,30);g.stroke();
+    g.fillStyle=chat?"#FFFFFF":"#FFF6E6";roundRect(g,10,10,620,150,30);g.fill();g.beginPath();g.moveTo(300,158);g.lineTo(320,195);g.lineTo(345,158);g.fill();
+    g.strokeStyle=chat?"#9AA7B8":"#E63946";g.lineWidth=6;roundRect(g,10,10,620,150,30);g.stroke();
     g.fillStyle="#0B1F3A";lines.forEach((l,i)=>g.fillText(l,36,70+i*46));tex.needsUpdate=true;};
   return sp;
 }
@@ -365,7 +366,7 @@ function setAgent(key,status,msg){
 function renderUI(){
   let working=0;
   KEYS.forEach(k=>{const a=state.agents[k],p=people[k];const w=a.status!=="idle";if(w)working++;
-    p.bub.visible=w;if(w)p.bub.userData.set(a.last);
+    const am=ambient[k];p.bub.visible=w||!!am;if(w)p.bub.userData.set(a.last);else if(am)p.bub.userData.set(am.text,true);
     p.glow.material.emissive.set(w?"#F4B942":"#2b6cb0");p.glow.material.emissiveIntensity=w?.9:.25;
     p.lamp.material.color.set(w?"#ff9f0a":"#34c759");p.lamp.material.emissive.set(w?"#ff9f0a":"#34c759");});
   $("sWork").textContent=working+"/8";$("sPub").textContent=state.stats.published;$("sDraft").textContent=state.stats.drafts;
@@ -431,6 +432,50 @@ function detectRepo(){
   return null;
 }
 const REPO=detectRepo();
+// ---------------- SUASANA KANTOR (obrolan & gerak santai) ----------------
+const ambient={};
+const CHAT={
+  kepala:["Tim, jangan lupa cek Telegram ya","Draft besok sudah aman?","Target minggu ini: 7 carousel!","Rapat singkat 5 menit?"],
+  riset:["Ada berita baru soal SPBE nih","Cek tren dana desa minggu ini…","Topik AI lagi naik daun","Mencatat ide dari berita pagi"],
+  naskah:["Hook-nya kurang nendang… revisi","Bikin judul yang bikin penasaran","Ngopi dulu ☕ biar lancar nulis","Kata 'efisien' terlalu sering 😅"],
+  qc:["Nomor regulasi wajib dicek!","EYD aman, lanjut","Hati-hati klaim angka","Etika ASN nomor satu"],
+  desain:["Navy + emas memang elegan","Pose Cicilia yang mana ya?","Font Poppins tetap juara","Rapikan jarak antar slide"],
+  humas:["Jam tayang terbaik 19.00 WIT","Siap terbit kalau Bos setuju","Cek link lynk.id di bio","Balas komentar nanti malam"],
+  cuan:["Generator Naskah Dinas laris!","CTA jangan terlalu jualan","Siapkan promo akhir bulan","Link di bio sudah benar?"],
+  analis:["Carousel prompt paling disimpan","Reach naik minggu ini 📈","Catat jam ramai audiens","Siapkan laporan Senin"],
+};
+let replaying=false;
+function idleKeys(){return KEYS.filter(k=>state.agents[k].status==="idle"&&!ambient[k]);}
+setInterval(()=>{
+  if(document.hidden)return;
+  const now=Date.now();
+  Object.keys(ambient).forEach(k=>{if(ambient[k].until<now){delete ambient[k];}});
+  const free=idleKeys();
+  if(free.length&&Object.keys(ambient).length<2){
+    const k=free[Math.floor(Math.random()*free.length)];
+    const lines=CHAT[k];ambient[k]={text:lines[Math.floor(Math.random()*lines.length)],until:now+4200,start:now};
+  }
+  renderUI();
+},2600);
+
+async function replay(entries){
+  // entries: dari terlama ke terbaru
+  while(busy)await wait(500);
+  replaying=true;busy=true;let prev=null;
+  for(const e of entries){
+    const k=e.agent;if(!AGENTS[k])continue;
+    delete ambient[k];
+    if(prev&&prev!==k)flyPaper(prev,k,k==="humas"?"#E63946":"#fff");
+    state.agents[k]={status:"working",last:e.msg,at:e.at};renderUI();
+    await wait(2300);
+    state.agents[k]={status:"idle",last:e.msg+" ✓",at:e.at};renderUI();
+    if(/terbit/i.test(e.msg)&&k==="humas")ringGong();
+    prev=k;
+  }
+  replaying=false;busy=false;renderUI();
+}
+const seen=new Set();let firstLoad=true;
+
 async function loadLive(){
   if(!REPO)return;
   try{
@@ -438,8 +483,20 @@ async function loadLive(){
     if(!r.ok)throw 0;const d=await r.json();
     state.live=true;$("mode").textContent="LIVE";$("mode").classList.add("live");
     const prevPub=state.stats.published;
-    Object.entries(d.agents||{}).forEach(([k,a])=>{if(state.agents[k])state.agents[k]={status:a.status,last:a.last,at:a.at||""};});
+    if(!busy)Object.entries(d.agents||{}).forEach(([k,a])=>{if(state.agents[k])state.agents[k]={status:"idle",last:a.last,at:a.at||""};});
     state.log=(d.log||[]).map(l=>({at:l.at||"",agent:l.agent,msg:l.msg}));
+    // aktivitas baru → diputar ulang sebagai animasi; kunjungan pertama → putar 8 aktivitas terakhir
+    const key=l=>l.at+"|"+l.agent+"|"+l.msg;
+    let fresh=state.log.filter(l=>!seen.has(key(l)));
+    state.log.forEach(l=>seen.add(key(l)));
+    if(firstLoad)fresh=fresh.slice(0,8);
+    // buang pasangan "Menerima perintah / selesai diproses" yang berulang
+    fresh=fresh.filter((l,i,a)=>!(i>0&&a[i-1].agent===l.agent&&a[i-1].msg===l.msg));
+    if(fresh.length)replay(fresh.slice().reverse());
+    firstLoad=false;
+    if(d.updated){const up=new Date(d.updated),mins=Math.round((Date.now()-up)/60000);
+      $("sLast").textContent=up.toLocaleTimeString("id-ID",{hour:"2-digit",minute:"2-digit",timeZone:"Asia/Jayapura"});
+      $("sLastL").textContent=mins<6?"Kantor sedang piket":mins<60?`${mins} menit lalu`:mins<1440?`${Math.round(mins/60)} jam lalu`:`${Math.round(mins/1440)} hari lalu`;}
     state.stats.published=(d.stats||{}).published||0;
     state.stats.drafts=Object.values(d.drafts||{}).filter(x=>x.status==="draft"||x.status==="approved").length;
     if(state.stats.published>prevPub&&prevPub>0)ringGong();
@@ -460,8 +517,11 @@ const clock=new THREE.Clock();
 function tick(){
   const dt=Math.min(clock.getDelta(),.05),t=clock.elapsedTime;
   KEYS.forEach(k=>{const p=people[k],w=state.agents[k].status!=="idle";
-    p.body.position.y=1.1+Math.sin(t*1.6+p.phase)*.025;
-    p.head.rotation.y=w?Math.sin(t*2+p.phase)*.12:Math.sin(t*.5+p.phase)*.35;
+    const am=ambient[k];
+    p.body.position.y=1.1+Math.sin(t*1.6+p.phase)*.025+(am?.18+Math.sin(t*4)*.03:0);
+    p.body.rotation.y+=((am?Math.sin(p.phase)*.9:0)-p.body.rotation.y)*Math.min(1,dt*4);
+    p.head.rotation.y=w?Math.sin(t*2+p.phase)*.12:am?Math.sin(t*3)*.25:Math.sin(t*.5+p.phase)*.35;
+    if(am)p.bub.position.y=(AGENTS[k].big?6.6:6)+Math.sin(t*2)*.06;
     p.arms.forEach((a,i)=>a.rotation.x=w?Math.sin(t*14+i*Math.PI)*.12:0);
     if(w)p.bub.position.y=(AGENTS[k].big?6.6:6)+Math.sin(t*3)*.08;});
   holo.rotation.y+=dt*1.5;holo.position.y=2.75+Math.sin(t*2)*.12;
