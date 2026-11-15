@@ -39,13 +39,10 @@ def run(cfg, state):
         # 3. Webhook (webhook aktif = polling tidak menerima pesan)
         wh = telegram.raw("getWebhookInfo")
         url = (wh.get("result") or {}).get("url")
-        if url and env("TELEGRAM_MODE").lower() != "webhook":
-            telegram.raw("deleteWebhook")
-            say(WARN, f"Webhook aktif ({url}) memblokir polling → SUDAH DIHAPUS otomatis.")
-        elif url:
-            say(OK, f"Mode webhook (Cloudflare) aktif: {url}")
+        if url:
+            say(OK, f"Bot instan (Cloudflare Worker) aktif: {url}")
         else:
-            say(OK, "Tidak ada webhook — mode polling siap.")
+            say(WARN, "Cloudflare Worker belum terpasang — bot hanya membalas saat Run workflow mode poll. Lihat cloudflare/PANDUAN.md")
 
         # 4. Chat ID yang terlihat (bantu menemukan TELEGRAM_CHAT_ID)
         ups = telegram.raw("getUpdates", {"offset": -10, "timeout": 0})

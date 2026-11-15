@@ -1,17 +1,20 @@
 name: Kantor Virtual ASN GO
 
 on:
+  # Model sama dengan Kantor United Go: perintah Telegram masuk lewat Cloudflare Worker (instan),
+  # jadwal hanya beberapa kali sehari (GitHub bisa terlambat, jadi jangan andalkan jadwal rapat).
   schedule:
-    - cron: "*/5 * * * *"    # Pak Kepala piket ±4,5 menit (long polling) + Mbak Humas terbitkan yang jatuh tempo
     - cron: "0 22 * * *"     # 07:00 WIT — tim produksi membuat draft harian
+    - cron: "0 10 * * *"     # 19:00 WIT — Mbak Humas menerbitkan draft yang sudah disetujui
     - cron: "0 1 * * 1"      # Senin 10:00 WIT — laporan mingguan Kak Analis
-  repository_dispatch:
-    types: [telegram]        # mode instan (opsional, via Cloudflare Worker)
   workflow_dispatch:
     inputs:
       mode:
-        description: "poll | cek | daily | weekly | demo"
+        description: "poll | cek | daily | weekly | event | demo"
         default: "poll"
+      update:
+        description: "(diisi otomatis oleh bot Telegram)"
+        default: ""
 
 concurrency:
   group: kantor
@@ -39,7 +42,6 @@ jobs:
             "schedule:0 22 * * *") echo "mode=daily" >> $GITHUB_OUTPUT ;;
             "schedule:0 1 * * 1")  echo "mode=weekly" >> $GITHUB_OUTPUT ;;
             schedule:*)            echo "mode=poll" >> $GITHUB_OUTPUT ;;
-            repository_dispatch:*) echo "mode=event" >> $GITHUB_OUTPUT ;;
             *)                     echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT ;;
           esac
 
@@ -53,7 +55,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           IMAGE_MODE: ${{ secrets.IMAGE_MODE }}
-          TELEGRAM_MODE: ${{ secrets.TELEGRAM_MODE }}
+          UPDATE_JSON: ${{ inputs.update }}
         run: python -m office.main ${{ steps.m.outputs.mode }}
 
       - name: Simpan buku kerja kantor

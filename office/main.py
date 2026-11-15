@@ -43,6 +43,15 @@ FMT_LABEL = {
 }
 
 
+VIA_WEBHOOK = False  # True bila perintah datang lewat Cloudflare Worker (Worker sudah membalas "diterima")
+
+
+def ack(text):
+    """Balasan cepat 'perintah diterima' — dilewati bila Worker sudah mengirimnya."""
+    if not VIA_WEBHOOK:
+        telegram.send(text)
+
+
 def esc(s):
     return html.escape(str(s or ""))
 
@@ -125,10 +134,10 @@ def handle_command(cfg, state, text):
     if cmd in ("/start", "/bantuan", "/help"):
         telegram.send(HELP)
     elif cmd == "/buat":
-        telegram.send("👷 Siap Bos! Tim mulai produksi carousel... (± 1–2 menit)")
+        ack("👷 Siap Bos! Tim mulai produksi carousel... (± 1–2 menit)")
         create_draft(cfg, state, topic=(text.split(maxsplit=1)[1] if arg else None))
     elif cmd == "/buat_promo":
-        telegram.send("💰 Bang Cuan & tim menyiapkan konten soft-selling...")
+        ack("💰 Bang Cuan & tim menyiapkan konten soft-selling...")
         create_draft(cfg, state, fmt="carousel_promo", product_id=arg or None)
     elif cmd == "/ide":
         telegram.send("💡 <b>Ide konten dari Bu Naskah:</b>\n\n" + esc(naskah.ideas(cfg, state)))
@@ -146,7 +155,7 @@ def handle_command(cfg, state, text):
     elif cmd == "/terbit":
         drafts[arg]["status"] = "approved"
         drafts[arg]["scheduled_at"] = now_wit().isoformat(timespec="minutes")
-        telegram.send(f"🚀 #{arg} masuk antrean terbit (dieksekusi di putaran berikutnya, ± 15 menit).")
+        telegram.send(f"🚀 #{arg} sedang diterbitkan ke IG & FB...")
     elif cmd == "/tolak":
         drafts[arg]["status"] = "rejected"
         telegram.send(f"🗑 #{arg} dibuang.")
@@ -155,7 +164,7 @@ def handle_command(cfg, state, text):
             telegram.send("Format: /revisi [id] [catatan]")
         else:
             d = drafts[arg]
-            telegram.send(f"✍️ Bu Naskah merevisi #{arg}...")
+            ack(f"✍️ Bu Naskah merevisi #{arg}...")
             p = next((x["id"] for x in cfg["pillars"] if x["name"] == d["pillar"]), None)
             create_draft(cfg, state, topic=d["topic"], pillar_id=p, fmt=d["format"],
                          product_id=d.get("product") if d["format"] == "carousel_promo" else None,
@@ -182,7 +191,8 @@ def handle_command(cfg, state, text):
 
 def handle_callback(cfg, state, cb):
     action, _, did = cb.get("data", "").partition(":")
-    telegram.answer_callback(cb["id"])
+    if not VIA_WEBHOOK:
+        telegram.answer_callback(cb["id"])
     mapping = {"ok": "/setuju", "now": "/terbit", "no": "/tolak", "redo": "/revisi"}
     if action in mapping:
         handle_command(cfg, state, f"{mapping[action]} {did}")
@@ -204,7 +214,7 @@ def handle_update(cfg, state, upd):
             handle_command(cfg, state, msg["text"])
         elif msg.get("text"):
             # pesan bebas = permintaan topik
-            telegram.send("👷 Saya anggap itu topik konten baru. Tim mulai bekerja...")
+            ack("👷 Saya anggap itu topik konten baru. Tim mulai bekerja...")
             create_draft(cfg, state, topic=msg["text"])
     except Exception as e:
         telegram.send(f"⚠️ Ada kendala: {esc(e)}")
@@ -222,7 +232,8 @@ def run(mode):
             # Jaga kantor tetap "melek" selama POLL_SECONDS (default 4,5 menit) dengan long polling,
             # jadi bot membalas dalam hitungan detik, bukan menunggu putaran berikutnya.
             import time
-            end = time.time() + int(os.environ.get("POLL_SECONDS", "270"))
+            webhook = ((telegram.raw("getWebhookInfo") or {}).get("result") or {}).get("url")
+            end = time.time() + (0 if webhook else int(os.environ.get("POLL_SECONDS", "270")))
             humas.publish_due(cfg, state)
             while time.time() < end:
                 wait = max(1, min(25, int(end - time.time())))
@@ -240,8 +251,14 @@ def run(mode):
             from . import diagnosa
             diagnosa.run(cfg, state)
         elif mode == "event":
-            ev = json.load(open(os.environ["GITHUB_EVENT_PATH"]))
-            upd = (ev.get("client_payload") or {}).get("update")
+            global VIA_WEBHOOK
+            VIA_WEBHOOK = True
+            raw = os.environ.get("UPDATE_JSON", "").strip()
+            if raw:
+                upd = json.loads(raw)
+            else:
+                ev = json.load(open(os.environ["GITHUB_EVENT_PATH"]))
+                upd = (ev.get("client_payload") or {}).get("update")
             if upd:
                 handle_update(cfg, state, upd)
             humas.publish_due(cfg, state)
