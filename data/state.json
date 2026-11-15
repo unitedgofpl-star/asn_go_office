@@ -166,7 +166,7 @@
   },
   "11160622": {
    "id": "11160622",
-   "status": "draft",
+   "status": "approved",
    "created": "2026-11-16T06:22+09:00",
    "pillar": "AI untuk Kerja Kantor",
    "topic": "buat caraousel baru tentang pemilihan kepala desa",
@@ -246,7 +246,7 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 06:22"
+   "at": "2026-11-16 06:25"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
@@ -292,6 +292,16 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 06:25",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 06:25",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 06:22",
    "agent": "kepala",
@@ -581,22 +591,12 @@
    "at": "2026-11-15 21:43",
    "agent": "qc",
    "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-15 21:43",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Kerjaan Kantor Numpuk? 4 Tools Gratis Ini Solusinya\""
-  },
-  {
-   "at": "2026-11-15 21:42",
-   "agent": "naskah",
-   "msg": "Menulis carousel: tips produktivitas ASN pakai tools digital gratis"
   }
  ],
  "stats": {
   "published": 2,
   "drafts": 3
  },
- "updated": "2026-11-16T06:22+09:00",
+ "updated": "2026-11-16T06:25+09:00",
  "cuan_rot": 3
 }
