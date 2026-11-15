@@ -1,37 +1,112 @@
 {
  "tg_offset": 726417685,
  "auto_publish": null,
- "drafts": {},
+ "drafts": {
+  "11152145": {
+   "id": "11152145",
+   "status": "draft",
+   "created": "2026-11-15T21:45+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "tips produktivitas ASN pakai tools digital gratis",
+   "format": "carousel_promo",
+   "product": "naskah",
+   "content": {
+    "hook": "Kerjaan Kantor Numpuk? Tools Gratis Ini Solusinya!",
+    "subtitle": "Biar tugas cepat kelar tanpa stres berlebih, Rekan ASN!",
+    "cover_pose": "presentasi",
+    "items": [
+     {
+      "title": "Catat Instan dengan AI",
+      "sub": "Ubah suara jadi teks rapat tanpa ribet.",
+      "icon": "🎙️"
+     },
+     {
+      "title": "Rapikan File Otomatis",
+      "sub": "Kelola dokumen arsip desa jadi lebih rapi.",
+      "icon": "📁"
+     },
+     {
+      "title": "Desain Laporan Kilat",
+      "sub": "Bikin materi paparan instan dan profesional.",
+      "icon": "🎨"
+     },
+     {
+      "title": "Generator Naskah Dinas",
+      "sub": "Bantu susun draf surat resmi dengan cepat.",
+      "icon": "⚡"
+     }
+    ],
+    "details": [
+     {
+      "title": "Catat Instan dengan AI",
+      "body": "Gunakan tools transkripsi suara untuk merangkum hasil rapat dinas atau musyawarah desa secara otomatis. Menghemat waktu pengetikan manual!",
+      "icon": "🎙️"
+     },
+     {
+      "title": "Generator Naskah Dinas",
+      "body": "Manfaatkan teknologi untuk membantu menyusun draf nota dinas atau undangan sesuai kaidah. Pastikan selalu melakukan verifikasi ulang sebelum dicetak.",
+      "icon": "⚡"
+     }
+    ],
+    "note": "Selalu sesuaikan penggunaan aplikasi dengan aturan keamanan data instansi masing-masing.",
+    "cta": "Mau kerjaan makin cepat selesai? Cek tautan di bio kami!",
+    "caption": "Halo Rekan ASN dan Sobat Desa! Sering merasa waktu habis hanya untuk merapikan format surat atau mengetik notula rapat? Tenang, mari manfaatkan teknologi untuk meringankan beban kerja harian agar bisa lebih fokus pada pelayanan publik.\n\nYuk, gunakan tools digital yang tepat untuk mendongkrak produktivitas Anda di kantor! SIMPAN postingan ini dan BAGIKAN ke rekan kerja Anda ya.\n\nApa tools digital andalan Rekan ASN di kantor? Tulis di komentar!\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#DigitalisasiASN",
+     "#SobatDesa",
+     "#ProduktivitasKerja",
+     "#TipsASN",
+     "#PemerintahanDesa",
+     "#ASNIndonesia"
+    ],
+    "_qc": {
+     "issues": [
+      "Penyebutan 'Generator Naskah Dinas kami' berpotensi menimbulkan salah paham seolah-olah ada aplikasi resmi instansi tertentu yang dipromosikan.",
+      "Beberapa teks pada body detail dan caption perlu disesuaikan agar lebih padat dan sesuai kaidah EYD serta batas maksimal 45 kata per slide."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11152145/slide_01.jpg",
+    "public/11152145/slide_02.jpg",
+    "public/11152145/slide_03.jpg",
+    "public/11152145/slide_04.jpg",
+    "public/11152145/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-16T19:00+09:00"
+  }
+ },
  "agents": {
   "kepala": {
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-15 19:35"
+   "at": "2026-11-15 21:45"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
    "status": "idle",
-   "last": "Siap bekerja",
-   "at": ""
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-15 21:42"
   },
   "naskah": {
    "name": "Bu Naskah (Penulis Konten)",
    "status": "idle",
-   "last": "Siap bekerja",
-   "at": ""
+   "last": "Draft selesai: \"Kerjaan Kantor Numpuk? 4 Tools Gratis Ini Solusinya\"",
+   "at": "2026-11-15 21:43"
   },
   "qc": {
    "name": "Pak Verifikator (Cek Fakta & Regulasi)",
    "status": "idle",
-   "last": "Siap bekerja",
-   "at": ""
+   "last": "QC selesai — risiko rendah, 2 catatan",
+   "at": "2026-11-15 21:45"
   },
   "desain": {
    "name": "Mas Desain (Desainer Carousel)",
    "status": "idle",
-   "last": "Siap bekerja",
-   "at": ""
+   "last": "5 slide siap (1080x1350)",
+   "at": "2026-11-15 21:45"
   },
   "humas": {
    "name": "Mbak Humas (Publisher IG & FB)",
@@ -42,8 +117,8 @@
   "cuan": {
    "name": "Bang Cuan (Sales lynk.id)",
    "status": "idle",
-   "last": "Siap bekerja",
-   "at": ""
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-15 21:42"
   },
   "analis": {
    "name": "Kak Analis (Laporan Performa)",
@@ -53,6 +128,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-15 21:45",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-15 21:45",
+   "agent": "kepala",
+   "msg": "Draft #11152145 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-15 21:45",
+   "agent": "desain",
+   "msg": "5 slide siap (1080x1350)"
+  },
+  {
+   "at": "2026-11-15 21:45",
+   "agent": "desain",
+   "msg": "Mendesain carousel + Cicilia..."
+  },
+  {
+   "at": "2026-11-15 21:45",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 2 catatan"
+  },
+  {
+   "at": "2026-11-15 21:43",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-15 21:43",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Kerjaan Kantor Numpuk? 4 Tools Gratis Ini Solusinya\""
+  },
+  {
+   "at": "2026-11-15 21:42",
+   "agent": "naskah",
+   "msg": "Menulis carousel: tips produktivitas ASN pakai tools digital gratis"
+  },
+  {
+   "at": "2026-11-15 21:42",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-15 21:42",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-15 21:42",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-15 21:42",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-15 21:42",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-15 19:35",
    "agent": "kepala",
@@ -156,7 +296,8 @@
  ],
  "stats": {
   "published": 0,
-  "drafts": 0
+  "drafts": 1
  },
- "updated": "2026-11-15T19:39+09:00"
+ "updated": "2026-11-15T21:45+09:00",
+ "cuan_rot": 1
 }
