@@ -4,7 +4,7 @@
  "drafts": {
   "11152145": {
    "id": "11152145",
-   "status": "draft",
+   "status": "published",
    "created": "2026-11-15T21:45+09:00",
    "pillar": "Digitalisasi ASN",
    "topic": "tips produktivitas ASN pakai tools digital gratis",
@@ -74,7 +74,14 @@
     "public/11152145/slide_04.jpg",
     "public/11152145/slide_05.jpg"
    ],
-   "scheduled_at": "2026-11-16T19:00+09:00"
+   "scheduled_at": "2026-11-15T21:49+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Dfw0ahiD4yf/"
+   },
+   "published_at": "2026-11-15T21:49+09:00",
+   "errors": [
+    "FB: Meta API: (#200) The permission(s) pages_manage_posts are not available. It could because either they are deprecated or need to be approved by App Review."
+   ]
   }
  },
  "agents": {
@@ -82,7 +89,7 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-15 21:45"
+   "at": "2026-11-15 21:49"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
@@ -111,8 +118,8 @@
   "humas": {
    "name": "Mbak Humas (Publisher IG & FB)",
    "status": "idle",
-   "last": "Siap bekerja",
-   "at": ""
+   "last": "#11152145 → ig",
+   "at": "2026-11-15 21:49"
   },
   "cuan": {
    "name": "Bang Cuan (Sales lynk.id)",
@@ -128,6 +135,26 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-15 21:49",
+   "agent": "humas",
+   "msg": "#11152145 → ig"
+  },
+  {
+   "at": "2026-11-15 21:49",
+   "agent": "humas",
+   "msg": "Menerbitkan #11152145 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-15 21:49",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-15 21:49",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-15 21:45",
    "agent": "kepala",
@@ -295,9 +322,9 @@
   }
  ],
  "stats": {
-  "published": 0,
+  "published": 1,
   "drafts": 1
  },
- "updated": "2026-11-15T21:45+09:00",
+ "updated": "2026-11-15T21:49+09:00",
  "cuan_rot": 1
 }
