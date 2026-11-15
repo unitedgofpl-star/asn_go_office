@@ -163,6 +163,82 @@
    },
    "published_at": "2026-11-15T22:27+09:00",
    "errors": []
+  },
+  "11160622": {
+   "id": "11160622",
+   "status": "draft",
+   "created": "2026-11-16T06:22+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "buat caraousel baru tentang pemilihan kepala desa",
+   "format": "carousel_tutorial",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin Panitia Pilkades Anti-Ribet Pakai AI",
+    "subtitle": "Panduan praktis percepat administrasi pemilihan kepala desa",
+    "cover_pose": "presentasi",
+    "items": [
+     {
+      "title": "Susun Jadwal Tahapan",
+      "sub": "Gunakan AI untuk buat timeline akurat",
+      "icon": "📅"
+     },
+     {
+      "title": "Buat Draf Tata Tertib",
+      "sub": "Generate rancangan tatib kilat dengan ChatGPT",
+      "icon": "📝"
+     },
+     {
+      "title": "Desain Poster Sosialisasi",
+      "sub": "Bikin infografis ajakan nyoblos pakai Canva",
+      "icon": "🎨"
+     },
+     {
+      "title": "Rekap DPT Otomatis",
+      "sub": "Rapikan data pemilih tetap pakai Excel AI",
+      "icon": "📊"
+     }
+    ],
+    "details": [
+     {
+      "title": "Susun Jadwal Tahapan",
+      "sub": "Gunakan AI untuk buat timeline akurat",
+      "icon": "📅",
+      "body": "Halo Rekan ASN! Gunakan prompt pada AI untuk menyusun draf jadwal tahapan Pilkades dari persiapan hingga pelantikan. Pastikan untuk selalu menyesuaikannya dengan pedoman terbaru."
+     },
+     {
+      "title": "Buat Draf Tata Tertib",
+      "sub": "Generate rancangan tatib kilat dengan ChatGPT",
+      "icon": "📝",
+      "body": "Minta AI membuat kerangka tata tertib pemilihan. Jangan lupa tinjau kembali isinya bersama tim agar selaras dengan peraturan daerah setempat."
+     }
+    ],
+    "note": "Selalu rujuk pada Permendagri dan Perda terkait Pilkades.",
+    "cta": "Simpan postingan ini agar mudah dipraktikkan nanti, Sobat Desa!",
+    "caption": "Halo Rekan ASN dan Sobat Desa! Menjelang pemilihan kepala desa, urusan administrasi sering kali menyita waktu. Gunakan trik praktis pemanfaatan teknologi untuk membantu menyusun jadwal tahapan, draf tata tertib, hingga rekapitulasi data agar pekerjaan lebih efisien. Selalu pastikan regulasi yang digunakan tetap berpedoman pada ketentuan peraturan perundang-undangan yang berlaku di daerah masing-masing ya. Yuk, simpan dan bagikan postingan ini ke rekan panitia lainnya!\n\n🛠 Mau lebih cepat? cek Generator Naskah Dinas — link di bio (https://lynk.id/USERNAME_ANDA).\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#Pilkades",
+     "#DigitalisasiDesa",
+     "#AIPerkantoran",
+     "#SobatDesa",
+     "#ASNGoDigital"
+    ],
+    "_qc": {
+     "issues": [
+      "Memperbaiki nama panggilan yang tidak sesuai konteks akun pemerintahan (Cicilia) menjadi netral atau sesuai standar.",
+      "Memastikan semua teks di bawah batas maksimal 45 kata per slide/bagian.",
+      "Memperhalus EYD dan memastikan kepatuhan terhadap etika ASN."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11160622/slide_01.jpg",
+    "public/11160622/slide_02.jpg",
+    "public/11160622/slide_03.jpg",
+    "public/11160622/slide_04.jpg",
+    "public/11160622/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-16T19:00+09:00"
   }
  },
  "agents": {
@@ -170,31 +246,31 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-15 23:06"
+   "at": "2026-11-16 06:22"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-15 22:19"
+   "at": "2026-11-16 06:20"
   },
   "naskah": {
    "name": "Bu Naskah (Penulis Konten)",
    "status": "idle",
-   "last": "Draft selesai: \"Bikin RPJMDes & RKPDes Tanpa Pusing Tujuh Keliling\"",
-   "at": "2026-11-15 22:21"
+   "last": "Draft selesai: \"Bikin Panitia Pilkades Anti-Ribet Pakai AI\"",
+   "at": "2026-11-16 06:22"
   },
   "qc": {
    "name": "Pak Verifikator (Cek Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 3 catatan",
-   "at": "2026-11-15 22:23"
+   "last": "QC selesai — risiko rendah, 3 catatan",
+   "at": "2026-11-16 06:22"
   },
   "desain": {
    "name": "Mas Desain (Desainer Carousel)",
    "status": "idle",
    "last": "5 slide siap (1080x1350)",
-   "at": "2026-11-15 22:23"
+   "at": "2026-11-16 06:22"
   },
   "humas": {
    "name": "Mbak Humas (Publisher IG & FB)",
@@ -206,7 +282,7 @@
    "name": "Bang Cuan (Sales lynk.id)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-15 22:19"
+   "at": "2026-11-16 06:20"
   },
   "analis": {
    "name": "Kak Analis (Laporan Performa)",
@@ -216,6 +292,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 06:22",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 06:22",
+   "agent": "kepala",
+   "msg": "Draft #11160622 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-16 06:22",
+   "agent": "desain",
+   "msg": "5 slide siap (1080x1350)"
+  },
+  {
+   "at": "2026-11-16 06:22",
+   "agent": "desain",
+   "msg": "Mendesain carousel + Cicilia..."
+  },
+  {
+   "at": "2026-11-16 06:22",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 3 catatan"
+  },
+  {
+   "at": "2026-11-16 06:22",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-16 06:22",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Bikin Panitia Pilkades Anti-Ribet Pakai AI\""
+  },
+  {
+   "at": "2026-11-16 06:20",
+   "agent": "naskah",
+   "msg": "Menulis carousel: buat caraousel baru tentang pemilihan kepala desa"
+  },
+  {
+   "at": "2026-11-16 06:20",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-16 06:20",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-16 06:20",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-16 06:20",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-16 06:20",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-15 23:06",
    "agent": "kepala",
@@ -450,77 +591,12 @@
    "at": "2026-11-15 21:42",
    "agent": "naskah",
    "msg": "Menulis carousel: tips produktivitas ASN pakai tools digital gratis"
-  },
-  {
-   "at": "2026-11-15 21:42",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-15 21:42",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-15 21:42",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-15 21:42",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-15 21:42",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
   }
  ],
  "stats": {
   "published": 2,
-  "drafts": 2
+  "drafts": 3
  },
- "updated": "2026-11-15T23:06+09:00",
- "cuan_rot": 2
+ "updated": "2026-11-16T06:22+09:00",
+ "cuan_rot": 3
 }
