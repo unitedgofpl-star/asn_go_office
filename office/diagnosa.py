@@ -72,15 +72,12 @@ def run(cfg, state):
 
     # 6. Gemini
     if env("GEMINI_API_KEY"):
-        from .llm import gemini_model
-        model = gemini_model()
         try:
-            r = requests.post(
-                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={env('GEMINI_API_KEY')}",
-                json={"contents": [{"parts": [{"text": "Jawab: OK"}]}]}, timeout=60)
-            say(OK if r.ok else BAD, f"Gemini ({model}): {'berfungsi' if r.ok else r.json().get('error', {}).get('message', r.text)[:160]}")
+            from . import llm
+            out = llm._gemini("Jawab satu kata: OK", "Asisten singkat.", False)
+            say(OK, f"Gemini berfungsi ({', '.join(llm.gemini_models())})")
         except Exception as e:
-            say(BAD, f"Gemini error: {e}")
+            say(BAD, f"Gemini: {str(e)[:200]}")
 
     # 7. Meta
     if env("META_PAGE_TOKEN"):
