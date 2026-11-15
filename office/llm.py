@@ -60,7 +60,7 @@ def _gemini(prompt: str, system: str, as_json: bool) -> str:
     for model in gemini_models():  # server penuh / timeout → coba model berikutnya
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
         try:
-            r = requests.post(url, json=body, timeout=90)
+            r = requests.post(url, json=body, timeout=60)
             if r.status_code in (429, 500, 503, 504):
                 last = f"{model}: {r.status_code} {r.text[:120]}"
                 print("Gemini sibuk, coba model lain →", last)

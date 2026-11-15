@@ -74,8 +74,8 @@ def run(cfg, state):
     if env("GEMINI_API_KEY"):
         try:
             from . import llm
-            out = llm._gemini("Jawab satu kata: OK", "Asisten singkat.", False)
-            say(OK, f"Gemini berfungsi ({', '.join(llm.gemini_models())})")
+            jawab = llm._gemini("Jawab satu kata: OK", "Asisten singkat.", False)
+            say(OK, f"Gemini berfungsi (jawaban: {jawab.strip()[:20]})")
         except Exception as e:
             say(BAD, f"Gemini: {str(e)[:200]}")
 
