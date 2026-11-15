@@ -1,0 +1,61 @@
+{
+ "tg_offset": 0,
+ "auto_publish": null,
+ "drafts": {},
+ "agents": {
+  "kepala": {
+   "name": "Pak Kepala (Manajer & Router Telegram)",
+   "status": "idle",
+   "last": "Siap bekerja",
+   "at": ""
+  },
+  "riset": {
+   "name": "Mbak Riset (Peneliti Tren)",
+   "status": "idle",
+   "last": "Siap bekerja",
+   "at": ""
+  },
+  "naskah": {
+   "name": "Bu Naskah (Penulis Konten)",
+   "status": "idle",
+   "last": "Siap bekerja",
+   "at": ""
+  },
+  "qc": {
+   "name": "Pak Verifikator (Cek Fakta & Regulasi)",
+   "status": "idle",
+   "last": "Siap bekerja",
+   "at": ""
+  },
+  "desain": {
+   "name": "Mas Desain (Desainer Carousel)",
+   "status": "idle",
+   "last": "Siap bekerja",
+   "at": ""
+  },
+  "humas": {
+   "name": "Mbak Humas (Publisher IG & FB)",
+   "status": "idle",
+   "last": "Siap bekerja",
+   "at": ""
+  },
+  "cuan": {
+   "name": "Bang Cuan (Sales lynk.id)",
+   "status": "idle",
+   "last": "Siap bekerja",
+   "at": ""
+  },
+  "analis": {
+   "name": "Kak Analis (Laporan Performa)",
+   "status": "idle",
+   "last": "Siap bekerja",
+   "at": ""
+  }
+ },
+ "log": [],
+ "stats": {
+  "published": 0,
+  "drafts": 0
+ },
+ "updated": "2026-11-15T13:28+09:00"
+}
