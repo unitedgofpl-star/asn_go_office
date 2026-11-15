@@ -37,6 +37,15 @@ def _frame(slide_path, cfg, idx, total):
     return bg
 
 
+def _ffmpeg():
+    """ffmpeg bawaan paket imageio-ffmpeg (selalu ada setelah pip install); cadangan: ffmpeg sistem."""
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:
+        return "ffmpeg"
+
+
 def make_video(cfg, draft_id, image_paths, seconds=3.5):
     out = PUBLIC / draft_id / "tiktok.mp4"
     tmp = Path(tempfile.mkdtemp())
@@ -47,7 +56,7 @@ def make_video(cfg, draft_id, image_paths, seconds=3.5):
         lst.append(f"file '{fp}'\nduration {seconds}")
     lst.append(f"file '{tmp / f'f{len(image_paths):02d}.jpg'}'")  # syarat concat: frame terakhir diulang
     (tmp / "list.txt").write_text("\n".join(lst))
-    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"),
+    cmd = [_ffmpeg(), "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"),
            "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
            "-vf", "fps=30,format=yuv420p", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
            "-c:a", "aac", "-shortest", "-movflags", "+faststart", str(out)]
