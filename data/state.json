@@ -170,7 +170,7 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-15 23:05"
+   "at": "2026-11-15 23:06"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
@@ -199,8 +199,8 @@
   "humas": {
    "name": "Mbak Humas (Publisher IG & FB)",
    "status": "idle",
-   "last": "Paket TikTok gagal: [Errno 2] No such file or directory: 'ffmpeg'",
-   "at": "2026-11-15 22:52"
+   "last": "Paket TikTok #11152223 dikirim ke Bos",
+   "at": "2026-11-15 23:06"
   },
   "cuan": {
    "name": "Bang Cuan (Sales lynk.id)",
@@ -216,6 +216,26 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-15 23:06",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-15 23:06",
+   "agent": "humas",
+   "msg": "Paket TikTok #11152223 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-15 23:06",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11152223..."
+  },
+  {
+   "at": "2026-11-15 23:06",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-15 23:05",
    "agent": "kepala",
@@ -495,32 +515,12 @@
    "at": "2026-11-15 19:35",
    "agent": "kepala",
    "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 19:35",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
   }
  ],
  "stats": {
   "published": 2,
   "drafts": 2
  },
- "updated": "2026-11-15T23:05+09:00",
+ "updated": "2026-11-15T23:06+09:00",
  "cuan_rot": 2
 }
