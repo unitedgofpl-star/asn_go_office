@@ -9,11 +9,39 @@ def _base():
     return f"https://graph.facebook.com/{env('GRAPH_VERSION', 'v21.0')}"
 
 
+_PAGE_TOKEN = None
+
+
 def _token():
-    t = env("META_PAGE_TOKEN")
+    """Kembalikan token Page. Jika secret berisi token PENGGUNA, ambil token Page-nya otomatis."""
+    global _PAGE_TOKEN
+    if _PAGE_TOKEN:
+        return _PAGE_TOKEN
+    t = env("META_PAGE_TOKEN").strip().strip('"')
     if not t:
         raise RuntimeError("META_PAGE_TOKEN belum diisi di GitHub Secrets.")
+    page = env("FB_PAGE_ID")
+    try:
+        me = requests.get(f"{_base()}/me", params={"access_token": t}, timeout=30).json()
+        if page and me.get("id") and me["id"] != page:
+            pg = requests.get(f"{_base()}/{page}", params={"fields": "access_token", "access_token": t}, timeout=30).json()
+            if pg.get("access_token"):
+                print("META_PAGE_TOKEN berisi token pengguna; token Page diambil otomatis.")
+                t = pg["access_token"]
+    except Exception as e:
+        print("Cek jenis token gagal:", e)
+    _PAGE_TOKEN = t
     return t
+
+
+def token_info():
+    """Untuk diagnosa: (nama pemilik token, apakah token Page, apakah bisa diturunkan ke Page)."""
+    t = env("META_PAGE_TOKEN").strip().strip('"')
+    me = requests.get(f"{_base()}/me", params={"access_token": t}, timeout=30).json()
+    if "error" in me:
+        return None, me["error"].get("message")
+    is_page = me.get("id") == env("FB_PAGE_ID")
+    return me.get("name"), ("Page" if is_page else "pengguna")
 
 
 def _check(r):

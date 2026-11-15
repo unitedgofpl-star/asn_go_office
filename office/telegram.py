@@ -1,5 +1,6 @@
 """Telegram Bot API — saluran perintah antara Anda (Bos) dan kantor."""
 import json
+import re
 from contextlib import ExitStack
 
 import requests
@@ -9,8 +10,15 @@ from .core import env
 API = "https://api.telegram.org/bot{token}/{method}"
 
 
+def bot_token():
+    """Bersihkan salah salin umum: spasi, tanda kutip, awalan 'bot', atau URL lengkap."""
+    t = env("TELEGRAM_BOT_TOKEN").strip().strip('"').strip("'")
+    m = re.search(r"(\d{6,}:[A-Za-z0-9_-]{30,})", t)
+    return m.group(1) if m else t
+
+
 def _call(method: str, data=None, files=None, timeout=60):
-    token = env("TELEGRAM_BOT_TOKEN")
+    token = bot_token()
     if not token:
         print(f"[telegram:dry-run] {method} {str(data)[:200]}")
         return {}
@@ -62,7 +70,7 @@ def get_updates(offset: int, wait: int = 0):
 
 def raw(method: str, data=None):
     """Panggilan mentah yang mengembalikan seluruh respons (untuk diagnosa)."""
-    token = env("TELEGRAM_BOT_TOKEN")
+    token = bot_token()
     try:
         return requests.post(API.format(token=token, method=method), data=data, timeout=30).json()
     except Exception as e:

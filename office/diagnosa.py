@@ -24,8 +24,12 @@ def run(cfg, state):
         say(OK if v else BAD, f"Secret {name}: {'terisi' if v else 'KOSONG — isi di Settings → Secrets → Actions'}")
 
     # 2. Token bot
-    tok = env("TELEGRAM_BOT_TOKEN")
+    tok = telegram.bot_token()
     if tok:
+        import re as _re
+        if not _re.fullmatch(r"\d{6,}:[A-Za-z0-9_-]{30,}", tok):
+            say(BAD, f"Format TELEGRAM_BOT_TOKEN salah (panjang {len(tok)} karakter). Token yang benar berbentuk "
+                     "angka:huruf, contoh 7712345678:AAH... (±46 karakter). Salin dari @BotFather → /mybots → API Token.")
         me = telegram.raw("getMe")
         if me.get("ok"):
             say(OK, f"Token bot valid: @{me['result']['username']}")
@@ -68,7 +72,8 @@ def run(cfg, state):
 
     # 6. Gemini
     if env("GEMINI_API_KEY"):
-        model = env("GEMINI_MODEL", "gemini-2.5-flash")
+        from .llm import gemini_model
+        model = gemini_model()
         try:
             r = requests.post(
                 f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={env('GEMINI_API_KEY')}",
@@ -81,11 +86,21 @@ def run(cfg, state):
     if env("META_PAGE_TOKEN"):
         try:
             v = env("GRAPH_VERSION", "v21.0")
-            r = requests.get(f"https://graph.facebook.com/{v}/me", params={"access_token": env("META_PAGE_TOKEN")}, timeout=30).json()
-            say(OK if "id" in r else BAD, f"Token Meta: {'valid untuk ' + r.get('name', '') if 'id' in r else r.get('error', {}).get('message')}")
+            from . import meta
+            name, kind = meta.token_info()
+            if name is None:
+                say(BAD, f"Token Meta: {kind}")
+            elif kind == "Page":
+                say(OK, f"Token Meta: token Page '{name}' (permanen)")
+            else:
+                pt = meta._token()
+                ok = pt != env("META_PAGE_TOKEN").strip().strip('"')
+                say(WARN if ok else BAD, f"Token Meta milik pengguna '{name}'. "
+                    + ("Token Page diambil otomatis (berfungsi, tapi ikut kedaluwarsa ±60 hari; sebaiknya simpan token Page)." if ok
+                       else "Token Page TIDAK bisa diambil — pastikan izin pages_show_list & Page dicentang."))
             if env("IG_USER_ID"):
                 r = requests.get(f"https://graph.facebook.com/{v}/{env('IG_USER_ID')}",
-                                 params={"fields": "username", "access_token": env("META_PAGE_TOKEN")}, timeout=30).json()
+                                 params={"fields": "username", "access_token": meta._token()}, timeout=30).json()
                 say(OK if "username" in r else BAD, f"Instagram: {'@' + r['username'] if 'username' in r else r.get('error', {}).get('message')}")
         except Exception as e:
             say(BAD, f"Meta error: {e}")

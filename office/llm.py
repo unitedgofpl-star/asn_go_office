@@ -8,9 +8,45 @@ import requests
 from .core import env
 
 
+_MODEL = None
+
+
+def gemini_model() -> str:
+    """Pakai GEMINI_MODEL bila diisi; jika tidak, cari model 'flash' teks terbaru yang tersedia untuk key ini."""
+    global _MODEL
+    if _MODEL:
+        return _MODEL
+    if env("GEMINI_MODEL"):
+        _MODEL = env("GEMINI_MODEL")
+        return _MODEL
+    try:
+        r = requests.get("https://generativelanguage.googleapis.com/v1beta/models",
+                         params={"key": env("GEMINI_API_KEY"), "pageSize": 200}, timeout=30)
+        names = []
+        for m in r.json().get("models", []):
+            n = m["name"].split("/")[-1]
+            if "generateContent" not in m.get("supportedGenerationMethods", []):
+                continue
+            if "flash" not in n or any(x in n for x in ("image", "tts", "audio", "live", "embed", "thinking", "exp")):
+                continue
+            names.append(n)
+
+        def rank(n):
+            ver = re.findall(r"(\d+(?:\.\d+)?)", n)
+            v = float(ver[0]) if ver else 0
+            return (v, "lite" not in n, "preview" not in n, n.endswith("latest") is False)
+        if names:
+            _MODEL = sorted(names, key=rank)[-1]
+    except Exception as e:
+        print("Gagal membaca daftar model Gemini:", e)
+    _MODEL = _MODEL or "gemini-flash-latest"
+    print("Model Gemini dipakai:", _MODEL)
+    return _MODEL
+
+
 def _gemini(prompt: str, system: str, as_json: bool) -> str:
     key = env("GEMINI_API_KEY")
-    model = env("GEMINI_MODEL", "gemini-2.5-flash")
+    model = gemini_model()
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
     body = {
         "systemInstruction": {"parts": [{"text": system}]},
