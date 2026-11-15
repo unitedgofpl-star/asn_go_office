@@ -82,6 +82,81 @@
    "errors": [
     "FB: Meta API: (#200) The permission(s) pages_manage_posts are not available. It could because either they are deprecated or need to be approved by App Review."
    ]
+  },
+  "11152223": {
+   "id": "11152223",
+   "status": "draft",
+   "created": "2026-11-15T22:23+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "perencanaan RPJMDes, RKPDes, APBDes, Siskeudes",
+   "format": "carousel_promo",
+   "product": "naskah",
+   "content": {
+    "hook": "Tips Efektif Menyusun RPJMDes & RKPDes",
+    "subtitle": "Panduan perencanaan desa yang sistematis dan tepat sasaran.",
+    "cover_pose": "presentasi",
+    "items": [
+     {
+      "title": "Kumpulkan Data Dusun",
+      "sub": "Lakukan musyawarah dusun untuk menyerap aspirasi warga.",
+      "icon": "📋"
+     },
+     {
+      "title": "Susun RPJMDes",
+      "sub": "Tentukan visi, misi, dan arah kebijakan pembangunan desa.",
+      "icon": "🎯"
+     },
+     {
+      "title": "Turunkan ke RKPDes",
+      "sub": "Tetapkan prioritas kegiatan tahunan yang mendesak.",
+      "icon": "📅"
+     },
+     {
+      "title": "Input ke Siskeudes",
+      "sub": "Integrasikan perencanaan ke dalam aplikasi resmi.",
+      "icon": "💻"
+     }
+    ],
+    "details": [
+     {
+      "title": "Susun RPJMDes",
+      "body": "Pastikan dokumen RPJMDes selaras dengan arah pembangunan kabupaten. Libatkan unsur masyarakat agar program pembangunan benar-benar menjawab kebutuhan warga dan sesuai regulasi.",
+      "icon": "🎯"
+     },
+     {
+      "title": "Input ke Siskeudes",
+      "body": "Gunakan data RKPDes yang telah disepakati dalam musrenbangdes untuk diinput ke Siskeudes demi kelancaran penyusunan APBDes yang transparan dan akuntabel.",
+      "icon": "💻"
+     }
+    ],
+    "note": "Selalu rujuk pada regulasi terbaru terkait pedoman pengelolaan keuangan desa di instansi Anda.",
+    "cta": "Simpan postingan ini sebagai panduan perencanaan desa Anda!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Musim perencanaan desa seperti RPJMDes, RKPDes, hingga APBDes memang membutuhkan ketelitian tinggi. Kuncinya ada pada kedisiplinan data dan sinkronisasi dengan aplikasi Siskeudes. Jangan sampai ada kegiatan tertinggal atau kesalahan input anggaran. Pastikan koordinasi antar perangkat desa berjalan optimal agar proses administrasi lancar. Bagaimana persiapan Siskeudes di desa Sobat bulan ini? Tulis di kolom komentar ya!\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#ASN",
+     "#PemerintahanDesa",
+     "#Siskeudes",
+     "#PerencanaanDesa",
+     "#AparaturDesa",
+     "#PerangkatDesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Penyebutan angka 6 tahun pada RPJMDes berpotensi tidak akurat jika terjadi perubahan regulasi (UU Desa terbaru), disarankan menggunakan istilah masa jabatan kepala desa.",
+      "Promosi penjualan produk komersial (Generator Naskah Dinas) dalam caption akun edukasi ASN dianggap kurang etis dan melanggar kode etik ASN terkait pemanfaatan jabatan/akses untuk kepentingan pribadi/komersial.",
+      "Penggunaan kalimat 'pusing tujuh keliling' kurang formal untuk konten edukasi pemerintahan."
+     ],
+     "risk": "sedang"
+    }
+   },
+   "images": [
+    "public/11152223/slide_01.jpg",
+    "public/11152223/slide_02.jpg",
+    "public/11152223/slide_03.jpg",
+    "public/11152223/slide_04.jpg",
+    "public/11152223/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-16T19:00+09:00"
   }
  },
  "agents": {
@@ -89,31 +164,31 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-15 21:49"
+   "at": "2026-11-15 22:23"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-15 21:42"
+   "at": "2026-11-15 22:19"
   },
   "naskah": {
    "name": "Bu Naskah (Penulis Konten)",
    "status": "idle",
-   "last": "Draft selesai: \"Kerjaan Kantor Numpuk? 4 Tools Gratis Ini Solusinya\"",
-   "at": "2026-11-15 21:43"
+   "last": "Draft selesai: \"Bikin RPJMDes & RKPDes Tanpa Pusing Tujuh Keliling\"",
+   "at": "2026-11-15 22:21"
   },
   "qc": {
    "name": "Pak Verifikator (Cek Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-15 21:45"
+   "last": "QC selesai — risiko sedang, 3 catatan",
+   "at": "2026-11-15 22:23"
   },
   "desain": {
    "name": "Mas Desain (Desainer Carousel)",
    "status": "idle",
    "last": "5 slide siap (1080x1350)",
-   "at": "2026-11-15 21:45"
+   "at": "2026-11-15 22:23"
   },
   "humas": {
    "name": "Mbak Humas (Publisher IG & FB)",
@@ -125,7 +200,7 @@
    "name": "Bang Cuan (Sales lynk.id)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-15 21:42"
+   "at": "2026-11-15 22:19"
   },
   "analis": {
    "name": "Kak Analis (Laporan Performa)",
@@ -135,6 +210,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-15 22:23",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-15 22:23",
+   "agent": "kepala",
+   "msg": "Draft #11152223 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-15 22:23",
+   "agent": "desain",
+   "msg": "5 slide siap (1080x1350)"
+  },
+  {
+   "at": "2026-11-15 22:23",
+   "agent": "desain",
+   "msg": "Mendesain carousel + Cicilia..."
+  },
+  {
+   "at": "2026-11-15 22:23",
+   "agent": "qc",
+   "msg": "QC selesai — risiko sedang, 3 catatan"
+  },
+  {
+   "at": "2026-11-15 22:21",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-15 22:21",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Bikin RPJMDes & RKPDes Tanpa Pusing Tujuh Keliling\""
+  },
+  {
+   "at": "2026-11-15 22:19",
+   "agent": "naskah",
+   "msg": "Menulis carousel: perencanaan RPJMDes, RKPDes, APBDes, Siskeudes"
+  },
+  {
+   "at": "2026-11-15 22:19",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-15 22:19",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-15 22:19",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-15 22:19",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-15 22:19",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-15 21:49",
    "agent": "humas",
@@ -323,8 +463,8 @@
  ],
  "stats": {
   "published": 1,
-  "drafts": 1
+  "drafts": 2
  },
- "updated": "2026-11-15T21:49+09:00",
- "cuan_rot": 1
+ "updated": "2026-11-15T22:23+09:00",
+ "cuan_rot": 2
 }
