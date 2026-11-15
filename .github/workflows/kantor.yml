@@ -61,6 +61,7 @@ jobs:
         run: |
           git config user.name "kantor-bot"
           git config user.email "kantor-bot@users.noreply.github.com"
+          mkdir -p data public && touch data/.gitkeep public/.gitkeep
           git add data public
           git diff --cached --quiet && exit 0
           git commit -m "kantor: ${{ steps.m.outputs.mode }} $(date -u +%FT%TZ)"
