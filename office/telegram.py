@@ -53,6 +53,17 @@ def answer_callback(cb_id: str, text: str = "Diproses ✅"):
     return _call("answerCallbackQuery", {"callback_query_id": cb_id, "text": text})
 
 
-def get_updates(offset: int):
-    res = _call("getUpdates", {"offset": offset, "timeout": 0, "allowed_updates": json.dumps(["message", "callback_query"])})
+def get_updates(offset: int, wait: int = 0):
+    """wait > 0 = long polling: Telegram menahan koneksi sampai ada pesan (balasan nyaris instan)."""
+    res = _call("getUpdates", {"offset": offset, "timeout": wait,
+                               "allowed_updates": json.dumps(["message", "callback_query"])}, timeout=wait + 15)
     return res if isinstance(res, list) else []
+
+
+def raw(method: str, data=None):
+    """Panggilan mentah yang mengembalikan seluruh respons (untuk diagnosa)."""
+    token = env("TELEGRAM_BOT_TOKEN")
+    try:
+        return requests.post(API.format(token=token, method=method), data=data, timeout=30).json()
+    except Exception as e:
+        return {"ok": False, "description": str(e)}

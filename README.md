@@ -115,6 +115,11 @@ Edit `config.yaml`:
 Buka tab **Actions** → *Kantor Virtual ASN GO* → **Run workflow** → mode `daily`.
 Dalam 1–2 menit pratinjau carousel masuk ke Telegram. Tekan **✅ Setujui**.
 
+### 7b. Bot tidak merespons? Jalankan "cek"
+Buka **Actions** → *Kantor Virtual ASN GO* → **Run workflow** → mode `cek`. Dalam ±1 menit, log (dan Telegram Anda) menampilkan
+✅/❌ untuk token bot, chat ID, webhook, Gemini, dan Meta, lengkap dengan cara memperbaikinya.
+Chat ID yang benar juga ditampilkan di sana, asalkan Anda sudah mengirim pesan ke bot terlebih dahulu.
+
 ### 8. Kantor 3D (dashboard live)
 Buka **Settings → Pages** → Source `main` / folder `/docs` → Save.
 Kantor 3D akan tampil di `https://<username>.github.io/asn-go-office/?repo=<username>/asn-go-office`
@@ -125,8 +130,8 @@ dan menampilkan status setiap karyawan secara live dari `data/state.json`.
 ## Catatan penting
 - **Mode persetujuan aktif secara default.** Untuk niche pemerintahan, satu kesalahan nomor regulasi bisa merusak kredibilitas.
   Setelah Anda percaya pada hasilnya, ketik `/otomatis on`.
-- **Kecepatan respons bot:** dalam mode gratis standar, perintah dibaca setiap ±15 menit (jadwal GitHub kadang molor 5–10 menit).
-  Kalau ingin balasan ±1 menit, pasang `cloudflare/worker.js` (gratis); panduannya ada di file tersebut.
+- **Kecepatan respons bot:** setiap 5 menit kantor "piket" selama ±4,5 menit dengan long polling, jadi biasanya bot membalas dalam hitungan detik.
+  Jadwal GitHub kadang molor, sehingga sesekali ada jeda beberapa menit. Agar selalu instan, pasang `cloudflare/worker.js` (gratis) dan isi secret `TELEGRAM_MODE` = `webhook`.
 - **Batas gratis:** Gemini free tier cukup untuk ±20–40 carousel per hari. Instagram API membatasi 50 posting per 24 jam.
 - **Batas yang tidak bisa diatasi tanpa biaya:** auto-reply DM/komentar butuh server yang selalu menyala dan App Review Meta,
   jadi belum termasuk. Gunakan `/promo` untuk menyiapkan teks balasan cepat.

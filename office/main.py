@@ -6,6 +6,7 @@ Pemakaian (dipanggil oleh GitHub Actions):
     python -m office.main weekly   # laporan performa mingguan
     python -m office.main event    # proses update Telegram dari webhook (mode instan, opsional)
     python -m office.main demo     # uji desain tanpa API apa pun
+    python -m office.main cek      # cek kesehatan: token, chat ID, webhook, Gemini, Meta
 """
 import datetime as dt
 import html
@@ -218,11 +219,26 @@ def run(mode):
         if mode == "daily":
             create_draft(cfg, state)
         elif mode == "poll":
-            for upd in telegram.get_updates(state.d["tg_offset"]):
-                state.d["tg_offset"] = upd["update_id"] + 1
-                state.save()  # simpan offset dulu agar perintah tidak terulang bila error
-                handle_update(cfg, state, upd)
+            # Jaga kantor tetap "melek" selama POLL_SECONDS (default 4,5 menit) dengan long polling,
+            # jadi bot membalas dalam hitungan detik, bukan menunggu putaran berikutnya.
+            import time
+            end = time.time() + int(os.environ.get("POLL_SECONDS", "270"))
             humas.publish_due(cfg, state)
+            while time.time() < end:
+                wait = max(1, min(25, int(end - time.time())))
+                t0 = time.time()
+                batch = telegram.get_updates(state.d["tg_offset"], wait=wait)
+                if not batch and time.time() - t0 < 1:
+                    time.sleep(3)  # token salah/koneksi putus: jangan membanjiri API
+                for upd in batch:
+                    state.d["tg_offset"] = upd["update_id"] + 1
+                    state.save()  # simpan offset dulu agar perintah tidak terulang bila error
+                    handle_update(cfg, state, upd)
+                    state.save()
+            humas.publish_due(cfg, state)
+        elif mode == "cek":
+            from . import diagnosa
+            diagnosa.run(cfg, state)
         elif mode == "event":
             ev = json.load(open(os.environ["GITHUB_EVENT_PATH"]))
             upd = (ev.get("client_payload") or {}).get("update")
