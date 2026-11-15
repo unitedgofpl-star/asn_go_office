@@ -80,6 +80,12 @@ post_hour_wit: 19
 # terbit setelah Anda tekan ✅. SANGAT disarankan untuk niche pemerintahan.
 require_approval: true
 
+# TikTok: setiap konten terbit, bot mengirim paket TikTok (video 9:16 + caption) ke Telegram.
+tiktok:
+  enabled: true
+  handle: "@asn_go_digital"
+  hashtags: ["#fyp", "#asn", "#pns", "#pppk", "#perangkatdesa", "#tipskerja"]
+
 # Produk digital Anda (lynk.id). Agent Sales akan menyelipkan CTA.
 lynk_url: "https://lynk.id/USERNAME_ANDA"
 products:

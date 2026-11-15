@@ -16,7 +16,7 @@ import sys
 
 from . import telegram
 from .core import State, load_config, now_wit, WIT, AGENTS
-from .agents import riset, naskah, desain, humas, cuan, analis, foto
+from .agents import riset, naskah, desain, humas, cuan, analis, foto, tiktok
 
 HELP = """🏢 <b>Kantor Virtual ASN GO Digitals</b>
 Perintah untuk Bos:
@@ -31,6 +31,7 @@ Perintah untuk Bos:
 /revisi [id] [catatan] — tulis ulang dengan catatan
 /tolak [id] — buang draft
 /promo [id_produk] — copy promosi WA/Story
+/tiktok [id] — kirim ulang paket TikTok (video + caption)
 /produk — daftar produk lynk.id
 /laporan — laporan performa
 /status — apa yang sedang dikerjakan karyawan
@@ -169,6 +170,9 @@ def handle_command(cfg, state, text):
             create_draft(cfg, state, topic=d["topic"], pillar_id=p, fmt=d["format"],
                          product_id=d.get("product") if d["format"] == "carousel_promo" else None,
                          notes=rest or "buat lebih menarik dan lebih praktis", base=arg)
+    elif cmd == "/tiktok":
+        did = arg or next((k for k, v in sorted(drafts.items(), reverse=True) if v.get("status") in ("published", "approved", "draft")), "")
+        tiktok.send_package(cfg, state, did)
     elif cmd == "/produk":
         rows = [f"• <code>{p['id']}</code> — {esc(p['name'])} ({p['price']})\n  {p['url']}" for p in cfg.get("products", [])]
         telegram.send("🛒 <b>Produk lynk.id</b>\n" + "\n".join(rows))

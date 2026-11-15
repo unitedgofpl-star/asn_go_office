@@ -46,6 +46,9 @@ def publish(cfg, state, draft_id):
         msg += "\n⚠️ " + "\n⚠️ ".join(errors)
     telegram.send(msg)
     state.done("humas", f"#{draft_id} → {', '.join(result) or 'gagal'}")
+    if result and cfg.get("tiktok", {}).get("enabled", True):
+        from . import tiktok
+        tiktok.send_package(cfg, state, draft_id)
 
 
 def publish_due(cfg, state):

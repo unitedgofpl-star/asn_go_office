@@ -26,6 +26,7 @@ Perintah untuk Bos:
 /revisi [id] [catatan] — tulis ulang dengan catatan
 /tolak [id] — buang draft
 /promo [id_produk] — copy promosi WA/Story
+/tiktok [id] — paket TikTok (video + caption)
 /produk — daftar produk lynk.id
 /laporan — laporan performa
 /status — apa yang sedang dikerjakan karyawan
@@ -42,6 +43,7 @@ const SLOW = {
   "/laporan": "📊 Kak Analis menarik data Instagram (±1–2 menit).",
   "/ide": "💡 Bu Naskah sedang brainstorm (±1 menit).",
   "/promo": "💰 Bang Cuan menulis copy promo (±1 menit).",
+  "/tiktok": "📱 Mbak Humas membuat video TikTok (±1–2 menit).",
 };
 
 export default {

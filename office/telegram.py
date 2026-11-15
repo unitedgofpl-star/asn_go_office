@@ -57,6 +57,12 @@ def send_album(paths, caption="", chat_id=None):
         return _call("sendMediaGroup", {"chat_id": chat_id or owner_chat(), "media": json.dumps(media)}, files, timeout=120)
 
 
+def send_video(path, caption="", chat_id=None):
+    with open(path, "rb") as f:
+        return _call("sendVideo", {"chat_id": chat_id or owner_chat(), "caption": caption[:1000], "supports_streaming": "true"},
+                     {"video": f}, timeout=180)
+
+
 def answer_callback(cb_id: str, text: str = "Diproses ✅"):
     return _call("answerCallbackQuery", {"callback_query_id": cb_id, "text": text})
 
