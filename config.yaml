@@ -1,0 +1,113 @@
+# =====================================================================
+#  KANTOR VIRTUAL @asn_go_digitals — konfigurasi utama
+#  Ubah file ini saja untuk mengatur gaya konten, jadwal, dan produk.
+# =====================================================================
+
+brand:
+  handle: "@asn_go_digitals"
+  name: "ASN GO Digitals"
+  tagline: "Digitalisasi ASN • Pemerintahan Desa • AI"
+  wordmark: "ASN GO DIGITALS"
+  audience: >
+    ASN (PNS & PPPK), perangkat desa, kepala desa, pendamping desa, operator
+    SIPD/Siskeudes, dan pegawai pemda yang ingin kerja lebih cepat dengan
+    teknologi digital dan AI.
+  voice: >
+    Bahasa Indonesia santai-profesional, seperti rekan kerja senior yang jago
+    teknologi. Praktis, langkah demi langkah, tanpa jargon berlebihan.
+    Sapaan: "Rekan ASN", "Sobat Desa". Boleh sedikit humor kantor.
+  # Warna carousel (hex). Navy + merah-putih + emas batik.
+  colors:
+    bg: "#0B1F3A"
+    bg2: "#12305A"
+    accent: "#E63946"
+    gold: "#F4B942"
+    text: "#FFFFFF"
+    muted: "#B8C4D6"
+
+# Virtual influencer — wajah akun di cover & slide penutup.
+# Foto pose ada di assets/influencer/*.png (latar sudah dihapus). Tambah pose baru = tambah file PNG
+# lalu tulis namanya di poses.
+influencer:
+  name: "Cicilia"
+  persona: >
+    ASN muda yang melek teknologi, ramah, sabar menjelaskan, suka berbagi trik kerja cepat
+    pakai AI dan aplikasi digital. Menyapa dengan "Halo Rekan ASN & Sobat Desa!".
+  poses: [melipat_tangan, presentasi, berdiri]
+  # Arahan gaya untuk foto AI (mode Gemini). Ubah sesuai keinginan Anda.
+  style_guard: "Seragam dikenakan rapi dan sopan dengan kancing atas terpasang, pose profesional."
+  # Label transparansi AI (dianjurkan Meta untuk gambar realistis buatan AI).
+  disclosure: "🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI."
+
+# Tiga pilar konten (sesuai bio). Agent memutar pilar per hari.
+pillars:
+  - id: asn
+    name: "Digitalisasi ASN"
+    topics:
+      - SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Office
+      - tips produktivitas ASN pakai tools digital gratis
+      - keamanan data & tanda tangan elektronik (TTE/BSrE)
+      - Google Workspace / Excel untuk laporan kantor
+  - id: desa
+    name: "Pemerintahan Desa"
+    topics:
+      - administrasi desa, tata naskah dinas desa, SK Kades, Perdes
+      - perencanaan RPJMDes, RKPDes, APBDes, Siskeudes
+      - dana desa, BUMDes, pelaporan & pertanggungjawaban
+      - digitalisasi layanan desa, website desa, Prodeskel/IDM
+  - id: ai
+    name: "AI untuk Kerja Kantor"
+    topics:
+      - prompt ChatGPT/Claude/Gemini untuk surat dinas, notulen, laporan
+      - AI untuk membuat bahan paparan, ringkasan regulasi, analisis data
+      - etika & keamanan data saat pakai AI di instansi
+      - tools AI gratis untuk ASN dan perangkat desa
+
+# Format konten mingguan (0=Senin ... 6=Minggu). Waktu dalam WIT.
+weekly_plan:
+  0: {pillar: ai,   format: carousel_tutorial}
+  1: {pillar: desa, format: carousel_tutorial}
+  2: {pillar: asn,  format: carousel_listicle}
+  3: {pillar: ai,   format: carousel_prompt}     # "contekan prompt"
+  4: {pillar: desa, format: carousel_listicle}
+  5: {pillar: asn,  format: carousel_mitos}       # mitos vs fakta
+  6: {pillar: any,  format: carousel_promo}       # soft-selling produk lynk.id
+
+# Jam posting harian (WIT). GitHub Actions memakai UTC (WIT = UTC+9).
+post_hour_wit: 19
+
+# Mode persetujuan: true = setiap draft dikirim ke Telegram dulu dan baru
+# terbit setelah Anda tekan ✅. SANGAT disarankan untuk niche pemerintahan.
+require_approval: true
+
+# Produk digital Anda (lynk.id). Agent Sales akan menyelipkan CTA.
+lynk_url: "https://lynk.id/USERNAME_ANDA"
+products:
+  - id: naskah
+    name: "Generator Naskah Dinas"
+    price: "Rp49.000"
+    url: "https://lynk.id/USERNAME_ANDA/generator-naskah-dinas"
+    pitch: >
+      Buat surat dinas, nota dinas, undangan, dan SK sesuai tata naskah dinas
+      dalam hitungan menit. Tinggal isi, jadi.
+    match_pillars: [desa, asn, ai]
+  - id: prompt-pack
+    name: "Paket Prompt AI untuk ASN"
+    price: "Rp29.000"
+    url: "https://lynk.id/USERNAME_ANDA/prompt-asn"
+    pitch: "100+ prompt siap pakai untuk laporan, notulen, paparan, dan analisis."
+    match_pillars: [ai, asn]
+
+# Sumber riset tren (RSS gratis). Tambah/hapus sesuka hati.
+research_queries:
+  - "SPBE ASN digital"
+  - "ASN PPPK kebijakan terbaru"
+  - "dana desa"
+  - "pemerintahan desa digital"
+  - "kecerdasan buatan pemerintahan Indonesia"
+  - "KemenPANRB"
+  - "Kemendes PDT"
+
+hashtags:
+  base: ["#ASN", "#PNS", "#PPPK", "#PerangkatDesa", "#PemerintahanDesa", "#AIuntukASN", "#DigitalisasiASN"]
+  max: 12

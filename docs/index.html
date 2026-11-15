@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kantor Virtual ASN GO Digitals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#0B1F3A;--navy2:#12305A;--red:#E63946;--gold:#F4B942;--cream:#FFF6E6;--muted:#B8C4D6}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;overflow:hidden;background:#0a1628;font-family:Poppins,system-ui,sans-serif;color:#fff}
+  #scene{position:fixed;inset:0}
+  .hud{position:fixed;pointer-events:none;z-index:2}
+  .hud > *{pointer-events:auto}
+  #top{top:14px;left:14px;right:14px;display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:12px;background:rgba(11,31,58,.82);backdrop-filter:blur(8px);border:1px solid rgba(244,185,66,.35);padding:10px 16px 10px 10px;border-radius:16px}
+  .logo{width:44px;height:44px;border-radius:12px;background:var(--red);display:grid;place-items:center;font-weight:700;font-size:17px;box-shadow:inset 0 -4px 0 rgba(0,0,0,.2)}
+  .brand h1{margin:0;font-size:16px;line-height:1.2}
+  .brand p{margin:0;font-size:11.5px;color:var(--muted)}
+  .stats{display:flex;gap:8px;flex-wrap:wrap}
+  .stat{background:rgba(11,31,58,.82);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.12);padding:8px 14px;border-radius:14px;min-width:92px}
+  .stat b{display:block;font-size:19px;color:var(--gold)}
+  .stat span{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+  #mode{font-size:11px;padding:3px 9px;border-radius:99px;background:rgba(230,57,70,.18);color:#ffb3b9;border:1px solid rgba(230,57,70,.5);margin-left:8px;white-space:nowrap}
+  #mode.live{background:rgba(52,199,89,.18);color:#9ef0b4;border-color:rgba(52,199,89,.5)}
+  #log{left:14px;bottom:14px;width:min(380px,calc(100vw - 28px));max-height:36vh;background:rgba(11,31,58,.86);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:12px 14px;overflow:auto}
+  #log h3{margin:0 0 8px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+  .li{font-size:12px;line-height:1.45;padding:5px 0;border-top:1px dashed rgba(255,255,255,.08);display:flex;gap:8px}
+  .li i{font-style:normal;color:var(--muted);flex:0 0 auto;font-size:11px;padding-top:1px}
+  .li em{font-style:normal;color:var(--gold);font-weight:500}
+  #actions{right:14px;bottom:14px;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+  .tg{background:rgba(11,31,58,.86);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:10px;width:min(300px,calc(100vw - 28px))}
+  .tg h3{margin:2px 4px 8px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:6px}
+  .cmds{display:flex;flex-wrap:wrap;gap:6px}
+  button{font-family:inherit;cursor:pointer;border:0;border-radius:10px;padding:8px 11px;font-size:12px;font-weight:500;background:#1d3d6b;color:#fff;transition:.15s}
+  button:hover{background:#28538f;transform:translateY(-1px)}
+  button.primary{background:var(--red)}
+  button.primary:hover{background:#ff4d5a}
+  #panel{top:50%;right:14px;transform:translate(120%,-50%);width:min(340px,calc(100vw - 28px));background:var(--cream);color:var(--navy);border-radius:20px;padding:0;overflow:hidden;transition:transform .35s cubic-bezier(.2,.9,.3,1.2);box-shadow:0 20px 60px rgba(0,0,0,.45)}
+  #panel.open{transform:translate(0,-50%)}
+  .ph{padding:18px 18px 14px;color:#fff;position:relative;background:var(--navy)}
+  .ph .batik{position:absolute;inset:0;opacity:.18;background-image:radial-gradient(circle at 50% 0,transparent 9px,var(--gold) 10px,transparent 11px),radial-gradient(circle at 0 50%,transparent 9px,var(--gold) 10px,transparent 11px);background-size:22px 22px}
+  .ph h2{margin:0;font-size:19px;position:relative}
+  .ph p{margin:3px 0 0;font-size:12px;color:var(--gold);position:relative}
+  .ph .x{position:absolute;right:10px;top:10px;background:rgba(255,255,255,.12);width:30px;height:30px;padding:0;border-radius:50%}
+  .pb{padding:14px 18px 18px;font-size:13px;line-height:1.55}
+  .pb h4{margin:12px 0 4px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#a0442a}
+  .pb code{background:#0B1F3A;color:var(--gold);padding:2px 7px;border-radius:6px;font-size:12px;display:inline-block;margin:2px 3px 2px 0}
+  .now{background:#fff;border-left:4px solid var(--red);padding:8px 10px;border-radius:8px;font-size:12.5px}
+  #hint{top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(11,31,58,.9);padding:14px 20px;border-radius:14px;font-size:13px;text-align:center;transition:opacity .6s}
+  #hint.gone{opacity:0;pointer-events:none}
+  @media (max-width:720px){
+    #log{max-height:22vh;bottom:auto;top:auto;bottom:calc(14px + 150px)}
+    .stats .stat:nth-child(n+3){display:none}
+    #panel{top:auto;bottom:14px;transform:translate(0,130%)}
+    #panel.open{transform:translate(0,0)}
+  }
+</style>
+</head>
+<body>
+<div id="scene"></div>
+
+<div class="hud" id="top">
+  <div class="brand">
+    <div class="logo">AG</div>
+    <div>
+      <h1>Kantor Virtual ASN GO Digitals <span id="mode">MODE DEMO</span></h1>
+      <p>@asn_go_digitals • Digitalisasi ASN • Pemerintahan Desa • AI</p>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat"><b id="sPub">0</b><span>Terbit</span></div>
+    <div class="stat"><b id="sDraft">0</b><span>Draft</span></div>
+    <div class="stat"><b id="sWork">0/8</b><span>Sedang kerja</span></div>
+    <div class="stat"><b id="sClock">--:--</b><span>Waktu WIT</span></div>
+  </div>
+</div>
+
+<div class="hud" id="log"><h3>Buku Agenda Kantor</h3><div id="logList"></div></div>
+
+<div class="hud" id="actions">
+  <div class="tg">
+    <h3>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="#2AABEE"><path d="M9.8 15.6 9.6 19c.4 0 .6-.2.8-.4l2-1.9 4.1 3c.8.4 1.3.2 1.5-.7l2.7-12.7c.3-1.1-.4-1.6-1.2-1.3L3.7 10.3c-1.1.4-1.1 1-.2 1.3l4.1 1.3 9.6-6c.5-.3.9-.1.5.2"/></svg>
+      Simulasi perintah Telegram
+    </h3>
+    <div class="cmds">
+      <button class="primary" data-cmd="buat">/buat</button>
+      <button data-cmd="setuju">/setuju</button>
+      <button data-cmd="promo">/buat_promo</button>
+      <button data-cmd="laporan">/laporan</button>
+      <button data-cmd="ide">/ide</button>
+    </div>
+  </div>
+</div>
+
+<div class="hud" id="panel">
+  <div class="ph"><div class="batik"></div><button class="x" id="closeP">✕</button><h2 id="pName"></h2><p id="pRole"></p></div>
+  <div class="pb">
+    <h4>Sedang mengerjakan</h4><div class="now" id="pNow"></div>
+    <h4>Tugas</h4><div id="pDesc"></div>
+    <h4>Perintah Telegram terkait</h4><div id="pCmd"></div>
+    <h4>Teknologi (gratis)</h4><div id="pTech"></div>
+  </div>
+</div>
+
+<div class="hud" id="hint">🖱 Seret untuk memutar • scroll untuk zoom<br>Klik karyawan untuk melihat tugasnya</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+// ======================================================================
+//  DATA KARYAWAN
+// ======================================================================
+const AGENTS = {
+  kepala:{name:"Pak Kepala", role:"Manajer & Router Telegram", gender:"m", shirt:"#7a1f1f", batik:"#F4B942", pos:[0,6.2], big:true,
+    desc:"Menerima semua perintah Bos dari Telegram, membagi tugas ke tim, mengirim pratinjau draft lengkap dengan tombol Setujui / Tolak.",
+    cmd:["/buat","/antrian","/status","/otomatis on|off","/bantuan"], tech:"GitHub Actions (cron 15 menit) + Telegram Bot API"},
+  riset:{name:"Mbak Riset", role:"Peneliti Tren", gender:"f", shirt:"#1f6f5c", batik:"#ffe8b0", hijab:"#2f8f76", pos:[-9,-5],
+    desc:"Memantau berita 7 hari terakhir tentang SPBE, ASN/PPPK, dana desa, Kemendes & AI di pemerintahan sebagai bahan konten yang relevan.",
+    cmd:["/buat [topik]","/ide"], tech:"Google News RSS + feedparser"},
+  naskah:{name:"Bu Naskah", role:"Penulis Konten", gender:"f", shirt:"#8a3b12", batik:"#ffd27a", hijab:"#c2410c", pos:[-3,-5],
+    desc:"Menulis hook, 5–7 slide carousel, CTA, caption & hashtag. Format bergilir: tutorial, listicle, contekan prompt, mitos vs fakta.",
+    cmd:["/buat","/revisi [id] [catatan]","/ide"], tech:"Google Gemini free tier (cadangan Groq)"},
+  qc:{name:"Pak Verifikator", role:"Cek Fakta & Regulasi", gender:"m", shirt:"#3b3b7a", batik:"#c7d2fe", pos:[3,-5],
+    desc:"Memeriksa nomor regulasi yang meragukan, saran yang melanggar etika ASN, keamanan data, dan EYD. Memberi skor risiko di setiap draft.",
+    cmd:["(otomatis di setiap draft)"], tech:"Gemini — prompt editor & fact-checker"},
+  desain:{name:"Mas Desain", role:"Desainer Carousel", gender:"m", shirt:"#0e4f8a", batik:"#9fd3ff", pos:[9,-5],
+    desc:"Merender slide 1080×1350 bernuansa navy, merah-putih, dan motif kawung dengan font Poppins. Tanpa API gambar berbayar.",
+    cmd:["/lihat [id]"], tech:"Python Pillow"},
+  humas:{name:"Mbak Humas", role:"Publisher IG & FB", gender:"f", shirt:"#a3123a", batik:"#ffc2d1", hijab:"#e11d48", pos:[-7,0.8],
+    desc:"Menerbitkan carousel yang sudah disetujui ke Instagram dan Facebook Page tepat pukul 19.00 WIT, lalu melapor link-nya ke Telegram.",
+    cmd:["/setuju [id]","/terbit [id]","/tolak [id]"], tech:"Meta Graph API (Content Publishing)"},
+  cuan:{name:"Bang Cuan", role:"Sales lynk.id", gender:"m", shirt:"#14532d", batik:"#fde047", pos:[0,0.8],
+    desc:"Memilih produk lynk.id yang cocok dengan topik (mis. Generator Naskah Dinas), menyelipkan soft-CTA, dan menulis copy promo WA/Story.",
+    cmd:["/buat_promo [produk]","/promo [produk]","/produk"], tech:"Gemini + katalog produk di config.yaml"},
+  analis:{name:"Kak Analis", role:"Laporan Performa", gender:"f", shirt:"#4c1d95", batik:"#ddd6fe", hijab:"#7c3aed", pos:[7,0.8],
+    desc:"Setiap Senin membaca reach, simpan, bagikan & komentar, lalu merekomendasikan topik dan format untuk minggu depan.",
+    cmd:["/laporan"], tech:"Instagram Insights API + Gemini"},
+};
+const KEYS = Object.keys(AGENTS);
+const state = {agents:{}, log:[], stats:{published:0, drafts:0}, live:false};
+KEYS.forEach(k => state.agents[k] = {status:"idle", last:"Siap bekerja", at:""});
+
+// ======================================================================
+//  TEKSTUR KANVAS (batik, kayu, panorama Yapen)
+// ======================================================================
+function canvasTex(w,h,draw,repeat){
+  const c=document.createElement("canvas");c.width=w;c.height=h;draw(c.getContext("2d"),w,h);
+  const t=new THREE.CanvasTexture(c);t.anisotropy=4;
+  if(repeat){t.wrapS=t.wrapT=THREE.RepeatWrapping;t.repeat.set(repeat[0],repeat[1]);}
+  return t;
+}
+function kawung(ctx,w,h,bg,fg,s){
+  ctx.fillStyle=bg;ctx.fillRect(0,0,w,h);ctx.strokeStyle=fg;ctx.fillStyle=fg;ctx.lineWidth=s*0.06;
+  for(let x=0;x<=w;x+=s)for(let y=0;y<=h;y+=s){
+    [[0,-1],[1,0],[0,1],[-1,0]].forEach(([dx,dy])=>{
+      ctx.beginPath();ctx.ellipse(x+dx*s*.24,y+dy*s*.24,dx?s*.2:s*.12,dx?s*.12:s*.2,0,0,Math.PI*2);ctx.stroke();
+    });
+    ctx.beginPath();ctx.arc(x,y,s*.05,0,7);ctx.fill();
+  }
+}
+function parang(ctx,w,h,bg,fg,s){
+  ctx.fillStyle=bg;ctx.fillRect(0,0,w,h);ctx.strokeStyle=fg;ctx.lineWidth=s*.12;
+  for(let k=-h;k<w+h;k+=s){
+    ctx.beginPath();
+    for(let t=0;t<=h;t+=4){const x=k+t+Math.sin(t/(s*.35))*s*.18;ctx.lineTo(x,t);} ctx.stroke();
+  }
+}
+const woodTex = canvasTex(512,512,(c,w,h)=>{
+  for(let i=0;i<8;i++){c.fillStyle=i%2?"#8a5a33":"#7a4e2b";c.fillRect(0,i*h/8,w,h/8);
+    c.strokeStyle="rgba(40,20,5,.25)";for(let j=0;j<6;j++){c.beginPath();c.moveTo(0,i*h/8+Math.random()*h/8);c.bezierCurveTo(w*.3,i*h/8+Math.random()*h/8,w*.6,i*h/8+Math.random()*h/8,w,i*h/8+Math.random()*h/8);c.stroke();}
+    c.fillStyle="rgba(0,0,0,.35)";c.fillRect(0,i*h/8,w,2);}
+},[6,6]);
+const rugTex = canvasTex(512,512,(c,w,h)=>{kawung(c,w,h,"#5b1a12","#e8b04a",64);c.strokeStyle="#e8b04a";c.lineWidth=18;c.strokeRect(9,9,w-18,h-18);c.strokeStyle="#0B1F3A";c.lineWidth=8;c.strokeRect(30,30,w-60,h-60);});
+const wallBatik = canvasTex(512,512,(c,w,h)=>parang(c,w,h,"#2a1a10","#c08a3e",56),[3,1]);
+const gebyokTex = canvasTex(256,512,(c,w,h)=>{c.fillStyle="#5a3418";c.fillRect(0,0,w,h);c.strokeStyle="#c9954d";c.lineWidth=5;
+  for(let y=30;y<h;y+=80){c.beginPath();for(let x=0;x<=w;x+=4)c.lineTo(x,y+Math.sin(x/16)*14);c.stroke();
+    for(let x=20;x<w;x+=46){c.beginPath();c.arc(x,y+40,10,0,7);c.stroke();}}
+  c.strokeRect(8,8,w-16,h-16);});
+const yapenTex = canvasTex(1024,384,(c,w,h)=>{
+  const g=c.createLinearGradient(0,0,0,h);g.addColorStop(0,"#ff9a5a");g.addColorStop(.45,"#ffcf86");g.addColorStop(.62,"#3aa6c4");g.addColorStop(1,"#0b4f6c");
+  c.fillStyle=g;c.fillRect(0,0,w,h);
+  c.fillStyle="#fff2c4";c.beginPath();c.arc(w*.72,h*.5,38,0,7);c.fill();
+  c.fillStyle="#2f5d3a";c.beginPath();c.moveTo(0,h*.6);c.bezierCurveTo(w*.15,h*.25,w*.3,h*.3,w*.45,h*.6);c.fill();
+  c.fillStyle="#3e7148";c.beginPath();c.moveTo(w*.3,h*.6);c.bezierCurveTo(w*.42,h*.38,w*.55,h*.4,w*.62,h*.6);c.fill();
+  c.fillStyle="#24493a";c.beginPath();c.moveTo(w*.78,h*.6);c.bezierCurveTo(w*.86,h*.42,w*.95,h*.44,w,h*.5);c.lineTo(w,h*.6);c.fill();
+  c.strokeStyle="rgba(255,255,255,.35)";c.lineWidth=2;for(let i=0;i<40;i++){const y=h*.64+Math.random()*h*.33;const x=Math.random()*w;c.beginPath();c.moveTo(x,y);c.lineTo(x+20+Math.random()*30,y);c.stroke();}
+  // perahu
+  c.fillStyle="#3b2412";c.beginPath();c.moveTo(w*.55,h*.74);c.lineTo(w*.62,h*.74);c.lineTo(w*.6,h*.77);c.lineTo(w*.565,h*.77);c.fill();
+  c.strokeStyle="#3b2412";c.lineWidth=3;c.beginPath();c.moveTo(w*.585,h*.74);c.lineTo(w*.585,h*.66);c.stroke();
+  c.fillStyle="rgba(11,31,58,.7)";c.font="bold 22px Poppins, sans-serif";c.fillText("Pemandangan Teluk Serui • Kepulauan Yapen",24,h-20);
+});
+function shirtTex(base,motif){return canvasTex(128,128,(c,w,h)=>kawung(c,w,h,base,motif,32));}
+
+// ======================================================================
+//  SCENE
+// ======================================================================
+const wrap=document.getElementById("scene");
+const renderer=new THREE.WebGLRenderer({antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);
+renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+renderer.outputEncoding=THREE.sRGBEncoding;
+wrap.appendChild(renderer.domElement);
+const scene=new THREE.Scene();scene.background=new THREE.Color("#0a1628");scene.fog=new THREE.Fog("#0a1628",45,80);
+const camera=new THREE.PerspectiveCamera(42,innerWidth/innerHeight,.1,200);
+camera.position.set(14,19,25);
+if(innerWidth<720)camera.position.set(22,32,40);
+const controls=new THREE.OrbitControls(camera,renderer.domElement);
+controls.target.set(0,1.5,0);controls.enableDamping=true;controls.maxPolarAngle=1.35;controls.minDistance=10;controls.maxDistance=75;
+controls.autoRotate=true;controls.autoRotateSpeed=.35;
+
+const hemi=new THREE.HemisphereLight("#ffe9c8","#2a1a10",.55);scene.add(hemi);
+const sun=new THREE.DirectionalLight("#ffd9a8",1.0);sun.position.set(-12,22,10);sun.castShadow=true;
+sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-20,right:20,top:20,bottom:-20});scene.add(sun);
+const warm=new THREE.PointLight("#ffb05a",.8,30);warm.position.set(0,7,0);scene.add(warm);
+
+const M=(c,o={})=>new THREE.MeshStandardMaterial(Object.assign({color:c,roughness:.8},o));
+function box(w,h,d,mat,x,y,z,parent=scene){const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),mat);m.position.set(x,y,z);m.castShadow=m.receiveShadow=true;parent.add(m);return m;}
+function cyl(rt,rb,h,mat,x,y,z,seg=16,parent=scene){const m=new THREE.Mesh(new THREE.CylinderGeometry(rt,rb,h,seg),mat);m.position.set(x,y,z);m.castShadow=m.receiveShadow=true;parent.add(m);return m;}
+
+// Lantai & karpet batik
+const floor=box(32,.4,24,M("#fff",{map:woodTex,roughness:.7}),0,-.2,0);
+box(14,.05,9,M("#fff",{map:rugTex}),0,.03,-1.5);
+// Dinding belakang + jendela panorama Yapen
+box(32,9,.4,M("#f3e3c3"),0,4.5,-12);
+box(22,4.6,.1,M("#fff",{map:yapenTex,emissive:"#ffffff",emissiveMap:yapenTex,emissiveIntensity:.55}),0,5.2,-11.75);
+[-11,-5.5,0,5.5,11].forEach(x=>box(.35,4.9,.3,M("#5a3418"),x,5.2,-11.6));
+box(22.6,.35,.35,M("#5a3418"),0,7.6,-11.6);box(22.6,.35,.35,M("#5a3418"),0,2.8,-11.6);
+// Dinding kiri batik parang + gebyok
+box(.4,9,24,M("#fff",{map:wallBatik}),-16,4.5,0);
+[-7,0,7].forEach(z=>box(.15,6,4,M("#fff",{map:gebyokTex}),-15.75,3.6,z));
+// Tiang saka guru & tumpangsari joglo (rangka plafon terbuka)
+const tiang=M("#6b3d1d",{roughness:.6});
+[[-6,-7],[6,-7],[-6,3.6],[6,3.6]].forEach(([x,z])=>{cyl(.32,.38,8,tiang,x,4,z,8);cyl(.55,.55,.4,M("#c9954d"),x,.2,z,8);});
+for(let i=0;i<4;i++){
+  const s=13-i*2.6, d=11.4-i*2.4, y=8+i*.45, mat=M(i%2?"#8a5a33":"#6b3d1d");
+  box(s,.35,.45,mat,0,y,-1.7+d/2);box(s,.35,.45,mat,0,y,-1.7-d/2);
+  box(.45,.35,d,mat,s/2,y,-1.7);box(.45,.35,d,mat,-s/2,y,-1.7);
+}
+// Bendera merah putih
+cyl(.06,.06,7,M("#ddd",{metalness:.6}),13.5,3.5,-9.5);
+const flag=new THREE.Group();flag.position.set(13.5,6.3,-9.5);scene.add(flag);
+box(2.2,.6,.04,M("#E63946"),1.12,.3,0,flag);box(2.2,.6,.04,M("#fafafa"),1.12,-.3,0,flag);
+// Gong (berbunyi saat konten terbit)
+const gongStand=new THREE.Group();gongStand.position.set(13,0,-3);scene.add(gongStand);
+box(.25,4,.25,M("#5a3418"),-1.5,2,0,gongStand);box(.25,4,.25,M("#5a3418"),1.5,2,0,gongStand);box(3.4,.3,.3,M("#7a1f1f"),0,4,0,gongStand);
+const gong=new THREE.Group();gong.position.set(0,3.8,0);gongStand.add(gong);
+const gm=new THREE.Mesh(new THREE.CylinderGeometry(1.1,1.1,.18,32),M("#c9954d",{metalness:.85,roughness:.3}));gm.rotation.x=Math.PI/2;gm.position.y=-1.3;gm.castShadow=true;gong.add(gm);
+const knob=new THREE.Mesh(new THREE.SphereGeometry(.28,16,12),M("#e9c27a",{metalness:.9,roughness:.25}));knob.position.set(0,-1.3,.15);gong.add(knob);
+const gongLabel=label("GONG TERBIT",13,5.2,-3,"#F4B942",.9);
+// Tanaman
+function plant(x,z,s=1){const g=new THREE.Group();g.position.set(x,0,z);g.scale.setScalar(s);scene.add(g);
+  cyl(.5,.38,.9,M("#a8552c"),0,.45,0,12,g);
+  for(let i=0;i<9;i++){const l=new THREE.Mesh(new THREE.SphereGeometry(.55,8,6),M(i%2?"#2f7d43":"#3f9a52"));l.scale.set(1,.28,.55);
+    const a=i/9*Math.PI*2;l.position.set(Math.cos(a)*.55,1.2+Math.random()*.9,Math.sin(a)*.55);l.rotation.set(Math.random()*.6,a,.5);l.castShadow=true;g.add(l);}}
+plant(-14,-10,1.3);plant(14.5,9,1.2);plant(-14,9,1.1);plant(10,-10,1);
+// Papan tulis kalender konten
+const board=box(7,3.4,.15,M("#fff",{map:canvasTex(700,340,(c,w,h)=>{c.fillStyle="#fdfaf2";c.fillRect(0,0,w,h);c.fillStyle="#0B1F3A";c.font="bold 30px Poppins";c.fillText("KALENDER KONTEN MINGGUAN",24,46);
+  const d=[["SEN","AI • Tutorial"],["SEL","Desa • Tutorial"],["RAB","ASN • Listicle"],["KAM","Contekan Prompt"],["JUM","Desa • Listicle"],["SAB","Mitos vs Fakta"],["MIN","Promo lynk.id"]];
+  d.forEach(([a,b],i)=>{const y=80+i*36;c.fillStyle=i==6?"#E63946":"#12305A";c.fillRect(24,y,70,28);c.fillStyle="#fff";c.font="bold 17px Poppins";c.fillText(a,36,y+20);c.fillStyle="#0B1F3A";c.font="20px Poppins";c.fillText(b,108,y+21);});
+  c.fillStyle="#E63946";c.font="bold 20px Poppins";c.fillText("Terbit 19.00 WIT",460,330);})}),-15.7,4.6,0);
+board.rotation.y=Math.PI/2;board.position.x=-15.6;board.position.z=0;board.position.y=4.2;
+// sembunyikan gebyok tengah di belakang papan
+// Logo besar di lantai
+const floorLogo=box(3.2,.04,3.2,M("#E63946"),11,.05,6);label("ASN GO",11,.6,6,"#fff",1.2);
+
+// ======================================================================
+//  LABEL SPRITE
+// ======================================================================
+function label(text,x,y,z,color="#fff",scale=1,bg="rgba(11,31,58,.88)"){
+  const c=document.createElement("canvas");c.width=512;c.height=128;const g=c.getContext("2d");
+  const draw=(t,col,b)=>{g.clearRect(0,0,512,128);g.font="600 46px Poppins, sans-serif";const w=Math.min(500,g.measureText(t).width+48);
+    g.fillStyle=b;roundRect(g,(512-w)/2,24,w,80,40);g.fill();g.fillStyle=col;g.textAlign="center";g.textBaseline="middle";g.fillText(t,256,66);tex.needsUpdate=true;};
+  const tex=new THREE.CanvasTexture(c);const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:tex,transparent:true,depthTest:false}));
+  sp.scale.set(4*scale,1*scale,1);sp.position.set(x,y,z);sp.renderOrder=10;scene.add(sp);draw(text,color,bg);sp.userData.draw=draw;return sp;
+}
+function roundRect(g,x,y,w,h,r){g.beginPath();g.moveTo(x+r,y);g.arcTo(x+w,y,x+w,y+h,r);g.arcTo(x+w,y+h,x,y+h,r);g.arcTo(x,y+h,x,y,r);g.arcTo(x,y,x+w,y,r);g.closePath();}
+function bubble(){
+  const c=document.createElement("canvas");c.width=640;c.height=200;const g=c.getContext("2d");
+  const tex=new THREE.CanvasTexture(c);const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:tex,transparent:true,depthTest:false}));
+  sp.scale.set(5.2,1.62,1);sp.renderOrder=11;
+  sp.userData.set=(t)=>{g.clearRect(0,0,640,200);g.font="500 34px Poppins, sans-serif";
+    const words=t.split(" ");let lines=[""];words.forEach(w=>{const tst=(lines[lines.length-1]+" "+w).trim();if(g.measureText(tst).width>560&&lines.length<2)lines.push(w);else lines[lines.length-1]=tst;});
+    lines=lines.slice(0,2);if(t.length>60)lines[1]=(lines[1]||"").slice(0,26)+"…";
+    g.fillStyle="#FFF6E6";roundRect(g,10,10,620,150,30);g.fill();g.beginPath();g.moveTo(300,158);g.lineTo(320,195);g.lineTo(345,158);g.fill();
+    g.strokeStyle="#E63946";g.lineWidth=6;roundRect(g,10,10,620,150,30);g.stroke();
+    g.fillStyle="#0B1F3A";lines.forEach((l,i)=>g.fillText(l,36,70+i*46));tex.needsUpdate=true;};
+  return sp;
+}
+
+// ======================================================================
+//  KARYAWAN
+// ======================================================================
+const people={}, clickables=[];
+const skin=M("#a86b45",{roughness:.6});
+Object.entries(AGENTS).forEach(([key,a])=>{
+  const g=new THREE.Group();g.position.set(a.pos[0],0,a.pos[1]);scene.add(g);
+  const s=a.big?1.15:1;
+  // meja kayu jati
+  const deskW=a.big?5:3.6;
+  box(deskW*s,.22,2*s,M("#fff",{map:woodTex}),0,1.85,.9,g);
+  [[-1,-1],[1,-1],[-1,1],[1,1]].forEach(([dx,dz])=>box(.18,1.75,.18,M("#5a3418"),dx*(deskW*s/2-.25),.88,.9+dz*.75,g));
+  if(a.big){box(deskW*s,1.6,.12,M("#fff",{map:gebyokTex}),0,1.1,1.85,g);}
+  // monitor (layar menghadap karyawan)
+  const mon=new THREE.Group();mon.position.set(0,1.96,1.1);g.add(mon);
+  box(.15,.7,.15,M("#222"),0,.35,0,mon);
+  const scr=box(1.9,1.15,.1,M("#111"),0,1.1,0,mon);
+  const glow=box(1.78,1.03,.02,M("#0b1f3a",{emissive:"#2b6cb0",emissiveIntensity:.25}),0,1.1,-.06,mon);
+  box(.5,.18,.02,M("#E63946",{emissive:"#E63946",emissiveIntensity:.6}),0,1.1,.065,mon); // logo di belakang monitor
+  // kursi
+  box(1.2,.15,1.2,M("#7a1f1f"),0,1.0,-.6,g);box(1.2,1.3,.15,M("#7a1f1f"),0,1.7,-1.2,g);cyl(.08,.08,.9,M("#333"),0,.5,-.6,8,g);
+  // tubuh
+  const body=new THREE.Group();body.position.set(0,1.1,-.5);g.add(body);
+  const shirt=M("#fff",{map:shirtTex(a.shirt,a.batik)});
+  const torso=cyl(.5*s,.62*s,1.25*s,shirt,0,.75*s,0,14,body);
+  const head=new THREE.Mesh(new THREE.SphereGeometry(.42*s,20,16),skin);head.position.y=1.72*s;head.castShadow=true;body.add(head);
+  [-.15,.15].forEach(x=>{const e=new THREE.Mesh(new THREE.SphereGeometry(.05*s,8,6),M("#111"));e.position.set(x*s,1.78*s,.38*s);body.add(e);});
+  const smile=new THREE.Mesh(new THREE.TorusGeometry(.11*s,.025*s,6,12,Math.PI),M("#5b1a12"));smile.position.set(0,1.62*s,.39*s);smile.rotation.z=Math.PI;body.add(smile);
+  if(a.gender==="m"){
+    cyl(.36*s,.4*s,.36*s,M("#141414",{roughness:.5}),0,2.08*s,0,20,body); // peci
+  }else{
+    const hj=new THREE.Mesh(new THREE.SphereGeometry(.47*s,20,16,0,Math.PI*2,0,Math.PI*.62),M(a.hijab));hj.position.y=1.76*s;hj.rotation.x=.25;body.add(hj);
+    const hj2=new THREE.Mesh(new THREE.ConeGeometry(.62*s,.8*s,20,1,true),M(a.hijab,{side:THREE.DoubleSide}));hj2.position.set(0,1.28*s,-.04);body.add(hj2);
+  }
+  // lengan
+  const arms=[];[-1,1].forEach(side=>{const arm=new THREE.Group();arm.position.set(side*.58*s,1.25*s,0);body.add(arm);
+    const up=cyl(.14*s,.14*s,.9*s,shirt,0,-.35*s,.25*s,8,arm);up.rotation.x=-1.1;
+    const hand=new THREE.Mesh(new THREE.SphereGeometry(.14*s,8,6),skin);hand.position.set(0,-.62*s,.68*s);arm.add(hand);arms.push(arm);});
+  // keyboard
+  box(1.4,.06,.45,M("#2b2b2b"),0,1.99,.55,g);
+  // label & gelembung
+  const tag=label(a.name,a.pos[0],a.big?4.9:4.4,a.pos[1]-.5,"#fff",a.big?1.05:.85);
+  const bub=bubble();bub.position.set(a.pos[0],a.big?6.6:6,a.pos[1]-.5);bub.visible=false;scene.add(bub);
+  // area klik
+  const hit=new THREE.Mesh(new THREE.BoxGeometry(deskW,4.5,3.5),new THREE.MeshBasicMaterial({visible:false}));hit.position.set(0,2.2,0);hit.userData.key=key;g.add(hit);clickables.push(hit);
+  // lampu status
+  const lamp=new THREE.Mesh(new THREE.SphereGeometry(.16,12,10),M("#34c759",{emissive:"#34c759",emissiveIntensity:1}));lamp.position.set(deskW*s/2-.35,2.1,1.5);g.add(lamp);
+  people[key]={g,body,head,arms,glow,bub,lamp,tag,mon,phase:Math.random()*6};
+});
+// Telegram hologram di meja Kepala
+const holo=new THREE.Mesh(new THREE.OctahedronGeometry(.45,0),M("#2AABEE",{emissive:"#2AABEE",emissiveIntensity:.9,transparent:true,opacity:.85}));
+holo.position.set(-1.9,2.75,7.1);scene.add(holo);
+
+// Kertas terbang (animasi alur kerja)
+const papers=[];
+function flyPaper(from,to,color="#fff"){
+  const p=new THREE.Mesh(new THREE.BoxGeometry(.6,.04,.8),M(color,{emissive:color,emissiveIntensity:.35}));scene.add(p);
+  const A=new THREE.Vector3(AGENTS[from].pos[0],2.6,AGENTS[from].pos[1]),B=new THREE.Vector3(AGENTS[to].pos[0],2.6,AGENTS[to].pos[1]);
+  papers.push({m:p,A,B,t:0});
+}
+
+// ======================================================================
+//  STATUS & UI
+// ======================================================================
+const $=id=>document.getElementById(id);
+function setAgent(key,status,msg){
+  const now=new Date(Date.now()+ (9*60 + new Date().getTimezoneOffset())*60000);
+  const at=now.toTimeString().slice(0,5);
+  state.agents[key]={status,last:msg,at};
+  if(msg) {state.log.unshift({at,agent:key,msg});state.log=state.log.slice(0,40);}
+  renderUI();
+}
+function renderUI(){
+  let working=0;
+  KEYS.forEach(k=>{const a=state.agents[k],p=people[k];const w=a.status!=="idle";if(w)working++;
+    p.bub.visible=w;if(w)p.bub.userData.set(a.last);
+    p.glow.material.emissive.set(w?"#F4B942":"#2b6cb0");p.glow.material.emissiveIntensity=w?.9:.25;
+    p.lamp.material.color.set(w?"#ff9f0a":"#34c759");p.lamp.material.emissive.set(w?"#ff9f0a":"#34c759");});
+  $("sWork").textContent=working+"/8";$("sPub").textContent=state.stats.published;$("sDraft").textContent=state.stats.drafts;
+  $("logList").innerHTML=state.log.slice(0,14).map(l=>`<div class="li"><i>${l.at.slice(-5)}</i><span><em>${AGENTS[l.agent]?.name||l.agent}</em> — ${esc(l.msg)}</span></div>`).join("")||'<div class="li"><span>Belum ada aktivitas.</span></div>';
+  if(openKey)fillPanel(openKey);
+}
+function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
+let openKey=null;
+function fillPanel(k){const a=AGENTS[k],s=state.agents[k];
+  $("pName").textContent=a.name;$("pRole").textContent=a.role;
+  $("pNow").innerHTML=(s.status==="idle"?"🟢 ":"🟠 ")+esc(s.last)+(s.at?` <small style="color:#888">(${s.at.slice(-5)} WIT)</small>`:"");
+  $("pDesc").textContent=a.desc;$("pCmd").innerHTML=a.cmd.map(c=>`<code>${esc(c)}</code>`).join("");$("pTech").textContent=a.tech;}
+function openPanel(k){openKey=k;fillPanel(k);$("panel").classList.add("open");controls.autoRotate=false;
+  const p=AGENTS[k].pos;tween(controls.target,new THREE.Vector3(p[0],2,p[1]));}
+$("closeP").onclick=()=>{$("panel").classList.remove("open");openKey=null;tween(controls.target,new THREE.Vector3(0,1.5,0));};
+const tweens=[];function tween(v,to){tweens.push({v,from:v.clone(),to,t:0});}
+
+// klik karyawan
+const ray=new THREE.Raycaster(),mouse=new THREE.Vector2();let downAt=null;
+renderer.domElement.addEventListener("pointerdown",e=>{downAt=[e.clientX,e.clientY];$("hint").classList.add("gone");});
+renderer.domElement.addEventListener("pointerup",e=>{if(!downAt||Math.hypot(e.clientX-downAt[0],e.clientY-downAt[1])>6)return;
+  mouse.set(e.clientX/innerWidth*2-1,-(e.clientY/innerHeight)*2+1);ray.setFromCamera(mouse,camera);
+  const hit=ray.intersectObjects(clickables)[0];if(hit)openPanel(hit.object.userData.key);});
+setTimeout(()=>$("hint").classList.add("gone"),6000);
+
+// ======================================================================
+//  SIMULASI ALUR KERJA (mode demo)
+// ======================================================================
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+let busy=false;
+async function pipeline(steps){
+  if(busy)return;busy=true;
+  for(const [k,msg,ms,next] of steps){setAgent(k,"working",msg);await wait(ms);setAgent(k,"idle","");state.agents[k].last=msg.replace("...","")+" ✓";if(next)flyPaper(k,next,next==="humas"?"#E63946":"#fff");}
+  renderUI();busy=false;
+}
+const topics=["5 Prompt AI untuk Surat Dinas","Cara Cepat Susun APBDes","Mitos vs Fakta e-Kinerja","7 Tools Gratis untuk Operator Desa","Checklist Laporan Dana Desa","TTE BSrE: Panduan Pemula"];
+const CMDS={
+  buat:()=>{const t=topics[Math.floor(Math.random()*topics.length)];pipeline([
+    ["kepala","Perintah /buat diterima, membagi tugas...",1300,"riset"],
+    ["riset","Memantau berita ASN, desa & AI...",1800,"naskah"],
+    ["naskah",`Menulis carousel: ${t}`,2400,"qc"],
+    ["qc","Mengecek regulasi & EYD... risiko rendah",1800,"cuan"],
+    ["cuan","Menyelipkan CTA Generator Naskah Dinas",1200,"desain"],
+    ["desain","Mendesain 7 slide 1080x1350...",2200,"kepala"],
+    ["kepala","Pratinjau dikirim ke Telegram Bos ✅❌",1400,null]]).then(()=>{state.stats.drafts++;renderUI();});},
+  setuju:()=>pipeline([["kepala","Bos menyetujui draft ✅",1000,"humas"],["humas","Menerbitkan ke Instagram & Facebook...",2600,null]]).then(()=>{state.stats.published++;ringGong();renderUI();}),
+  promo:()=>pipeline([["kepala","Perintah /buat_promo diterima",1000,"cuan"],["cuan","Memilih produk: Generator Naskah Dinas",1600,"naskah"],["naskah","Menulis carousel soft-selling...",2200,"qc"],["qc","Memastikan promo tidak lebay",1400,"desain"],["desain","Mendesain slide promo...",1800,"kepala"],["kepala","Pratinjau promo dikirim ke Bos",1000,null]]).then(()=>{state.stats.drafts++;renderUI();}),
+  laporan:()=>pipeline([["kepala","Meminta laporan mingguan",900,"analis"],["analis","Membaca reach, simpan & bagikan...",2600,"kepala"],["kepala","Laporan dikirim ke Telegram 📊",1000,null]]),
+  ide:()=>pipeline([["kepala","Meminta ide konten",800,"naskah"],["naskah","Brainstorm 10 ide carousel...",2200,"kepala"],["kepala","10 ide dikirim ke Bos 💡",900,null]]),
+};
+document.querySelectorAll("[data-cmd]").forEach(b=>b.onclick=()=>{initAudio();$("hint").classList.add("gone");CMDS[b.dataset.cmd]();});
+
+// gong (WebAudio sintetis, dibunyikan setelah klik)
+let actx=null;function initAudio(){try{actx=actx||new (window.AudioContext||window.webkitAudioContext)();}catch(e){}}
+let gongT=0;function ringGong(){gongT=1;if(!actx)return;try{const t=actx.currentTime;[110,165,220,331].forEach((f,i)=>{const o=actx.createOscillator(),g=actx.createGain();o.frequency.value=f;o.type="sine";g.gain.setValueAtTime(.18/(i+1),t);g.gain.exponentialRampToValueAtTime(.0001,t+3.5);o.connect(g).connect(actx.destination);o.start(t);o.stop(t+3.6);});}catch(e){}}
+
+// ======================================================================
+//  MODE LIVE (GitHub Pages): baca data/state.json dari repo
+// ======================================================================
+function detectRepo(){
+  const q=new URLSearchParams(location.search).get("repo");if(q)return q;
+  const h=location.hostname;if(h.endsWith(".github.io")){const user=h.split(".")[0];const repo=location.pathname.split("/").filter(Boolean)[0];if(repo)return `${user}/${repo}`;}
+  return null;
+}
+const REPO=detectRepo();
+async function loadLive(){
+  if(!REPO)return;
+  try{
+    const r=await fetch(`https://raw.githubusercontent.com/${REPO}/main/data/state.json?t=${Date.now()}`,{cache:"no-store"});
+    if(!r.ok)throw 0;const d=await r.json();
+    state.live=true;$("mode").textContent="LIVE";$("mode").classList.add("live");
+    const prevPub=state.stats.published;
+    Object.entries(d.agents||{}).forEach(([k,a])=>{if(state.agents[k])state.agents[k]={status:a.status,last:a.last,at:a.at||""};});
+    state.log=(d.log||[]).map(l=>({at:l.at||"",agent:l.agent,msg:l.msg}));
+    state.stats.published=(d.stats||{}).published||0;
+    state.stats.drafts=Object.values(d.drafts||{}).filter(x=>x.status==="draft"||x.status==="approved").length;
+    if(state.stats.published>prevPub&&prevPub>0)ringGong();
+    // tampilkan aktivitas terakhir (≤ 20 menit) sebagai gelembung
+    renderUI();
+  }catch(e){console.warn("Gagal memuat status live",e);}
+}
+if(REPO){loadLive();setInterval(loadLive,60000);}
+else{ // demo: isi agenda awal
+  [["analis","Laporan mingguan: 3 carousel prompt paling banyak disimpan"],["humas","#11141900 terbit di IG & FB"],["kepala","Siap menerima perintah Bos"]].forEach(([k,m])=>setAgent(k,"idle",m));
+  setTimeout(()=>CMDS.buat(),2500);
+}
+
+// ======================================================================
+//  ANIMASI
+// ======================================================================
+const clock=new THREE.Clock();
+function tick(){
+  const dt=Math.min(clock.getDelta(),.05),t=clock.elapsedTime;
+  KEYS.forEach(k=>{const p=people[k],w=state.agents[k].status!=="idle";
+    p.body.position.y=1.1+Math.sin(t*1.6+p.phase)*.025;
+    p.head.rotation.y=w?Math.sin(t*2+p.phase)*.12:Math.sin(t*.5+p.phase)*.35;
+    p.arms.forEach((a,i)=>a.rotation.x=w?Math.sin(t*14+i*Math.PI)*.12:0);
+    if(w)p.bub.position.y=(AGENTS[k].big?6.6:6)+Math.sin(t*3)*.08;});
+  holo.rotation.y+=dt*1.5;holo.position.y=2.75+Math.sin(t*2)*.12;
+  flag.rotation.y=Math.sin(t*1.3)*.15;
+  if(gongT>0){gongT=Math.max(0,gongT-dt*.35);gong.rotation.x=Math.sin(t*9)*.35*gongT;gongLabel.material.opacity=.6+.4*Math.sin(t*10);}else{gongLabel.material.opacity=1;}
+  for(let i=papers.length-1;i>=0;i--){const p=papers[i];p.t+=dt*.9;const k=Math.min(p.t,1);
+    p.m.position.lerpVectors(p.A,p.B,k);p.m.position.y=2.6+Math.sin(k*Math.PI)*3;p.m.rotation.y+=dt*6;
+    if(p.t>=1){scene.remove(p.m);papers.splice(i,1);}}
+  for(let i=tweens.length-1;i>=0;i--){const w=tweens[i];w.t+=dt*1.8;const e=1-Math.pow(1-Math.min(w.t,1),3);w.v.lerpVectors(w.from,w.to,e);if(w.t>=1)tweens.splice(i,1);}
+  // jam WIT & cahaya siang/malam
+  const wit=new Date(Date.now()+(9*60+new Date().getTimezoneOffset())*60000);
+  $("sClock").textContent=wit.toTimeString().slice(0,5);
+  const hr=wit.getHours()+wit.getMinutes()/60,day=Math.max(0,Math.sin((hr-6)/12*Math.PI));
+  sun.intensity=.35+day*.8;hemi.intensity=.35+day*.35;warm.intensity=1.1-day*.6;
+  controls.update();renderer.render(scene,camera);requestAnimationFrame(tick);
+}
+renderUI();tick();
+addEventListener("resize",()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+</script>
+</body>
+</html>
