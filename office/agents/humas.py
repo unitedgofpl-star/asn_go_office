@@ -1,4 +1,4 @@
-"""Mbak Humas — menerbitkan draft yang sudah disetujui ke Instagram & Facebook Page."""
+"""Kaka Natalia — menerbitkan draft yang sudah disetujui ke Instagram & Facebook Page."""
 from .. import meta, telegram
 from ..core import ROOT, env, now_wit
 

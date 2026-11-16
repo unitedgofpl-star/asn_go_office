@@ -5,21 +5,21 @@ dengan biaya **Rp0/bulan**. Anda cukup memerintah mereka lewat Telegram.
 
 | Karyawan | Tugas |
 |---|---|
-| 👔 **Pak Kepala** | Manajer: membaca perintah Telegram dan membagi tugas |
-| 🔎 **Mbak Riset** | Memantau berita 7 hari terakhir (ASN, dana desa, SPBE, AI) via Google News RSS |
-| ✍️ **Bu Naskah** | Menulis carousel + caption + hashtag sesuai pilar & format harian |
-| 🛡 **Pak Verifikator** | Mengecek klaim regulasi/angka, etika ASN, EYD, dan memberi skor risiko |
-| 🎨 **Mas Desain** | Merender 5–10 slide 1080×1350 (navy, merah-putih, motif kawung) |
-| 📣 **Mbak Humas** | Menerbitkan ke Instagram & Facebook Page sesuai jadwal |
-| 💰 **Bang Cuan** | Menyelipkan CTA produk lynk.id dan menulis copy promo |
-| 📊 **Kak Analis** | Membuat laporan mingguan berisi postingan terbaik dan rekomendasi |
+| 👔 **Bapa Yohanis** | Manajer: membaca perintah Telegram dan membagi tugas |
+| 🔎 **Kaka Maria** | Memantau berita 7 hari terakhir (ASN, dana desa, SPBE, AI) via Google News RSS |
+| ✍️ **Kaka Selfina** | Menulis carousel + caption + hashtag sesuai pilar & format harian |
+| 🛡 **Kaka Agus** | Mengecek klaim regulasi/angka, etika ASN, EYD, dan memberi skor risiko |
+| 🎨 **Kaka Elisa** | Merender 5–10 slide 1080×1350 (navy, merah-putih, motif kawung) |
+| 📣 **Kaka Natalia** | Menerbitkan ke Instagram & Facebook Page sesuai jadwal |
+| 💰 **Kaka Yance** | Menyelipkan CTA produk lynk.id dan menulis copy promo |
+| 📊 **Kaka Ruth** | Membuat laporan mingguan berisi postingan terbaik dan rekomendasi |
 
 ## Alur kerja harian
 ```
 07:00 WIT  Tim membuat draft → pratinjau carousel dikirim ke Telegram Anda
            [✅ Setujui] [🚀 Terbit sekarang] [🔁 Tulis ulang] [🗑 Tolak]
-19:00 WIT  Mbak Humas menerbitkan draft yang sudah disetujui ke IG + FB
-Senin      Kak Analis mengirim laporan performa mingguan
+19:00 WIT  Kaka Natalia menerbitkan draft yang sudah disetujui ke IG + FB
+Senin      Kaka Ruth mengirim laporan performa mingguan
 ```
 Kalender konten (bisa diubah di `config.yaml`): Senin AI-tutorial • Selasa Desa-tutorial • Rabu ASN-listicle •
 Kamis Contekan Prompt • Jumat Desa-listicle • Sabtu Mitos vs Fakta ASN • Minggu soft-selling produk.
@@ -140,7 +140,7 @@ dan menampilkan status setiap karyawan secara live dari `data/state.json`.
 ## Struktur
 ```
 config.yaml              ← pusat pengaturan (brand, pilar, jadwal, produk)
-office/main.py           ← Pak Kepala + router perintah Telegram
+office/main.py           ← Bapa Yohanis + router perintah Telegram
 office/agents/*.py       ← para karyawan
 office/llm.py            ← Gemini → Groq fallback
 office/meta.py           ← Instagram & Facebook Graph API

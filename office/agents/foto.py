@@ -1,4 +1,4 @@
-"""Mas Desain (asisten foto) — OPSIONAL: membuat foto cover baru Cicilia dengan Gemini Image.
+"""Kaka Elisa (asisten foto) — OPSIONAL: membuat foto cover baru Cicilia dengan Gemini Image.
 
 Mode gratis (default): tidak dipakai; cover memakai potongan foto di assets/influencer/.
 Mode Gemini: isi secret IMAGE_MODE=gemini. Model gambar Gemini TIDAK termasuk kuota gratis,

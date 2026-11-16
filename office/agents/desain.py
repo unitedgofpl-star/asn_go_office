@@ -1,4 +1,4 @@
-"""Mas Desain — carousel 1080x1350 dengan GAYA BERVARIASI.
+"""Kaka Elisa — carousel 1080x1350 dengan GAYA BERVARIASI.
 
 Setiap konten mendapat kombinasi berbeda (dipilih sesuai pilar, format, dan isi, dan tidak mengulang gaya konten sebelumnya):
   • 6 tema warna   : navy · merah (editorial krem) · tosca · ungu (AI) · berita (merah dramatis/abu) · kertas (Lora, krem)

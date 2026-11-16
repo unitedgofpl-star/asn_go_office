@@ -1,4 +1,4 @@
-"""Mbak Reels — video Reels 9:16 (±25 detik) dari naskah AI.
+"""Kaka Elisa — video Reels 9:16 (±25 detik) dari naskah AI.
 
 Alur: naskah (hook → 5–6 poin → ajakan) → frame bertema (memakai tema & pose acak dari desain.py)
 → animasi zoom lembut + transisi bervariasi (ffmpeg) → musik latar bila ada di assets/music/*.mp3 → MP4.

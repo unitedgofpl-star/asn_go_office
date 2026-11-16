@@ -1,4 +1,4 @@
-"""Mbak Humas (meja TikTok) — membuat paket TikTok siap posting: video slideshow 9:16 + caption TikTok.
+"""Kaka Natalia (meja TikTok) — membuat paket TikTok siap posting: video slideshow 9:16 + caption TikTok.
 
 API resmi TikTok hanya mengizinkan posting PUBLIK setelah aplikasi lolos audit TikTok,
 jadi paket ini dikirim ke Telegram dan diposting dari HP (simpan video → TikTok → + → unggah).

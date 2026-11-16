@@ -1,4 +1,4 @@
-"""Bu Naskah (penulis) & Pak Verifikator (QC) — membuat dan memeriksa konten carousel."""
+"""Kaka Selfina (penulis) & Kaka Agus (QC) — membuat dan memeriksa konten carousel."""
 import random
 
 from .. import llm
@@ -31,7 +31,7 @@ def _system(cfg):
     inf = cfg.get("influencer", {})
     persona = (f"Wajah akun adalah virtual influencer AI bernama {inf.get('name', 'Cicilia')}: {inf.get('persona', '')} "
                if inf else "")
-    return (f"Anda adalah Bu Naskah, content writer senior akun Instagram {b['handle']} ({b['tagline']}). {persona}"
+    return (f"Anda adalah Kaka Selfina, content writer senior akun Instagram {b['handle']} ({b['tagline']}). {persona}"
             f"Audiens: {b['audience']} Gaya bahasa: {b['voice']} "
             "Konten edukatif ala carousel 'save-worthy': hook kuat, isi padat, langsung praktik. "
             "ATURAN KEAMANAN: jangan mengarang nomor/tahun peraturan, angka anggaran, atau nama pejabat. "
@@ -67,7 +67,7 @@ def write(cfg, state, pillar, topic, fmt, news=None, product=None, notes=None, a
 
 
 def verify(cfg, state, content):
-    """Pak Verifikator memeriksa fakta, regulasi, dan kepatuhan; mengembalikan versi aman."""
+    """Kaka Agus memeriksa fakta, regulasi, dan kepatuhan; mengembalikan versi aman."""
     state.work("qc", "Mengecek fakta, regulasi & bahasa...")
     prompt = (
         "Periksa konten carousel JSON berikut untuk akun edukasi ASN/pemerintahan desa.\n"
@@ -77,7 +77,7 @@ def verify(cfg, state, content):
         f"KONTEN:\n{content}"
     )
     try:
-        res = llm.ask(prompt, "Anda Pak Verifikator, editor & pemeriksa fakta yang teliti di bidang pemerintahan Indonesia.", as_json=True)
+        res = llm.ask(prompt, "Anda Kaka Agus, editor & pemeriksa fakta yang teliti di bidang pemerintahan Indonesia.", as_json=True)
         fixed = res.get("content") or content
         if not isinstance(fixed, dict) or "items" not in fixed:
             fixed = content

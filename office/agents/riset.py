@@ -1,4 +1,4 @@
-"""Mbak Riset — memantau berita & tren terbaru via Google News RSS (gratis)."""
+"""Kaka Maria — memantau berita & tren terbaru via Google News RSS (gratis)."""
 import random
 import urllib.parse
 

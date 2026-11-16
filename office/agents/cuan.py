@@ -1,4 +1,4 @@
-"""Bang Cuan — memilih produk lynk.id yang relevan dan menyiapkan CTA penjualan."""
+"""Kaka Yance — memilih produk lynk.id yang relevan dan menyiapkan CTA penjualan."""
 from .. import llm
 
 

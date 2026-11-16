@@ -37,15 +37,15 @@ Perintah untuk Bos:
 Atau ketik topik bebas, mis. "cara cepat bikin SK Kepala Desa".`;
 
 const SLOW = {
-  "/buat": "👷 Siap Bos! Mbak Riset, Bu Naskah, Pak Verifikator & Mas Desain mulai bekerja. Pratinjau carousel dikirim ±2–3 menit lagi.",
+  "/buat": "👷 Siap Bos! Kaka Maria, Kaka Selfina, Kaka Agus & Kaka Elisa mulai bekerja. Pratinjau carousel dikirim ±2–3 menit lagi.",
   "/reels": "🎬 Tim membuat video Reels: naskah, desain, animasi. Pratinjau ±3–4 menit lagi.",
-  "/buat_promo": "💰 Bang Cuan & tim menyiapkan konten soft-selling. Pratinjau ±2–3 menit lagi.",
-  "/revisi": "✍️ Bu Naskah merevisi draft. Hasil ±2–3 menit lagi.",
-  "/terbit": "🚀 Mbak Humas menyiapkan penerbitan ke IG & FB (±1–2 menit).",
-  "/laporan": "📊 Kak Analis menarik data Instagram (±1–2 menit).",
-  "/ide": "💡 Bu Naskah sedang brainstorm (±1 menit).",
-  "/promo": "💰 Bang Cuan menulis copy promo (±1 menit).",
-  "/tiktok": "📱 Mbak Humas membuat video TikTok (±1–2 menit).",
+  "/buat_promo": "💰 Kaka Yance & tim menyiapkan konten soft-selling. Pratinjau ±2–3 menit lagi.",
+  "/revisi": "✍️ Kaka Selfina merevisi draft. Hasil ±2–3 menit lagi.",
+  "/terbit": "🚀 Kaka Natalia menyiapkan penerbitan ke IG & FB (±1–2 menit).",
+  "/laporan": "📊 Kaka Ruth menarik data Instagram (±1–2 menit).",
+  "/ide": "💡 Kaka Selfina sedang brainstorm (±1 menit).",
+  "/promo": "💰 Kaka Yance menulis copy promo (±1 menit).",
+  "/tiktok": "📱 Kaka Natalia membuat video TikTok (±1–2 menit).",
 };
 
 export default {
@@ -100,7 +100,7 @@ export default {
 
       // Dikerjakan tim di GitHub Actions
       await dispatch(env, update);
-      const slow = SLOW[cmd] || (text.startsWith("/") ? "⏳ Pak Kepala menerima perintah, sedang diproses (±1 menit)." : SLOW["/buat"]);
+      const slow = SLOW[cmd] || (text.startsWith("/") ? "⏳ Bapa Yohanis menerima perintah, sedang diproses (±1 menit)." : SLOW["/buat"]);
       await send(env, chat, slow);
     } catch (e) {
       await send(env, chat, `⚠️ ${String(e.message || e).slice(0, 300)}`);

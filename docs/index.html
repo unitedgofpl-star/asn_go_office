@@ -115,28 +115,28 @@
 //  DATA KARYAWAN
 // ======================================================================
 const AGENTS = {
-  kepala:{name:"Pak Kepala", role:"Manajer & Router Telegram", gender:"m", shirt:"#7a1f1f", batik:"#F4B942", pos:[0,6.2], big:true,
-    desc:"Menerima semua perintah Bos dari Telegram, membagi tugas ke tim, mengirim pratinjau draft lengkap dengan tombol Setujui / Tolak.",
-    cmd:["/buat","/antrian","/status","/otomatis on|off","/bantuan"], tech:"GitHub Actions (cron 15 menit) + Telegram Bot API"},
-  riset:{name:"Mbak Riset", role:"Peneliti Tren", gender:"f", shirt:"#1f6f5c", batik:"#ffe8b0", hijab:"#2f8f76", pos:[-9,-5],
+  kepala:{name:"Yohanis Rumbewas", call:"Bapa Yohanis", role:"Kepala Kantor / Manajer Konten", gender:"m", skin:"#4a2e1f", shirt:"#7a1f1f", motif:"#F4B942", pos:[0,6.2], big:true, noken:true,
+    desc:"Menerima semua perintah Bos dari Telegram, membagi tugas ke tim, mengatur jadwal 6 postingan per hari, dan mengirim pratinjau draft.",
+    cmd:["/buat","/reels","/antrian","/status","/otomatis on|off","/bantuan"], tech:"Cloudflare Worker + GitHub Actions + Telegram Bot API"},
+  riset:{name:"Maria Kafiar", call:"Kaka Maria", role:"Analis Riset & Tren", gender:"f", skin:"#5b3a26", shirt:"#1f6f5c", motif:"#ffe8b0", flower:"#E63946", pos:[-9,-5],
     desc:"Memantau berita 7 hari terakhir tentang SPBE, ASN/PPPK, dana desa, Kemendes & AI di pemerintahan sebagai bahan konten yang relevan.",
     cmd:["/buat [topik]","/ide"], tech:"Google News RSS + feedparser"},
-  naskah:{name:"Bu Naskah", role:"Penulis Konten", gender:"f", shirt:"#8a3b12", batik:"#ffd27a", hijab:"#c2410c", pos:[-3,-5],
-    desc:"Menulis hook, 5–7 slide carousel, CTA, caption & hashtag. Format bergilir: tutorial, listicle, contekan prompt, mitos vs fakta.",
-    cmd:["/buat","/revisi [id] [catatan]","/ide"], tech:"Google Gemini free tier (cadangan Groq)"},
-  qc:{name:"Pak Verifikator", role:"Cek Fakta & Regulasi", gender:"m", shirt:"#3b3b7a", batik:"#c7d2fe", pos:[3,-5],
+  naskah:{name:"Selfina Rumansara", call:"Kaka Selfina", role:"Penulis Konten Senior", gender:"f", skin:"#6b4430", shirt:"#8a3b12", motif:"#ffd27a", pos:[-3,-5], noken:true,
+    desc:"Menulis hook, slide carousel, naskah Reels, caption & hashtag, sekaligus memilih ekspresi Cicilia yang cocok dengan isi.",
+    cmd:["/buat","/reels","/revisi [id] [catatan]","/ide"], tech:"Google Gemini (cadangan Groq)"},
+  qc:{name:"Agustinus Karubaba", call:"Kaka Agus", role:"Verifikator Fakta & Regulasi", gender:"m", skin:"#3f281b", shirt:"#3b3b7a", motif:"#c7d2fe", pos:[3,-5],
     desc:"Memeriksa nomor regulasi yang meragukan, saran yang melanggar etika ASN, keamanan data, dan EYD. Memberi skor risiko di setiap draft.",
-    cmd:["(otomatis di setiap draft)"], tech:"Gemini — prompt editor & fact-checker"},
-  desain:{name:"Mas Desain", role:"Desainer Carousel", gender:"m", shirt:"#0e4f8a", batik:"#9fd3ff", pos:[9,-5],
-    desc:"Merender slide 1080×1350 bernuansa navy, merah-putih, dan motif kawung dengan font Poppins. Tanpa API gambar berbayar.",
-    cmd:["/lihat [id]"], tech:"Python Pillow"},
-  humas:{name:"Mbak Humas", role:"Publisher IG & FB", gender:"f", shirt:"#a3123a", batik:"#ffc2d1", hijab:"#e11d48", pos:[-7,0.8],
-    desc:"Menerbitkan carousel yang sudah disetujui ke Instagram dan Facebook Page tepat pukul 19.00 WIT, lalu melapor link-nya ke Telegram.",
-    cmd:["/setuju [id]","/terbit [id]","/tolak [id]"], tech:"Meta Graph API (Content Publishing)"},
-  cuan:{name:"Bang Cuan", role:"Sales lynk.id", gender:"m", shirt:"#14532d", batik:"#fde047", pos:[0,0.8],
-    desc:"Memilih produk lynk.id yang cocok dengan topik (mis. Generator Naskah Dinas), menyelipkan soft-CTA, dan menulis copy promo WA/Story.",
+    cmd:["(otomatis di setiap draft)"], tech:"Gemini — editor & pemeriksa fakta"},
+  desain:{name:"Elisa Wanggai", call:"Kaka Elisa", role:"Desainer Grafis & Video", gender:"m", skin:"#55362a", shirt:"#0e4f8a", motif:"#9fd3ff", pos:[9,-5],
+    desc:"Merender carousel dengan 6 tema & belasan tata letak, serta video Reels 9:16 beranimasi. Tanpa API gambar berbayar.",
+    cmd:["/lihat [id]","/tiktok [id]"], tech:"Python Pillow + ffmpeg"},
+  humas:{name:"Natalia Ayomi", call:"Kaka Natalia", role:"Humas & Publikasi Medsos", gender:"f", skin:"#4f3122", shirt:"#a3123a", motif:"#ffc2d1", flower:"#FBBF24", pos:[-7,0.8],
+    desc:"Menerbitkan carousel & Reels ke Instagram dan Facebook sesuai jadwal, lalu mengirim paket TikTok ke Telegram.",
+    cmd:["/setuju [id]","/terbit [id]","/tolak [id]","/tiktok"], tech:"Meta Graph API (Content Publishing)"},
+  cuan:{name:"Yance Mansoben", call:"Kaka Yance", role:"Kepala Pemasaran & Penjualan", gender:"m", skin:"#47301f", shirt:"#14532d", motif:"#fde047", pos:[0,0.8], noken:true,
+    desc:"Memilih produk lynk.id yang cocok dengan topik (Generator Naskah Dinas), menyelipkan ajakan beli, dan menulis copy promo WA/Story.",
     cmd:["/buat_promo [produk]","/promo [produk]","/produk"], tech:"Gemini + katalog produk di config.yaml"},
-  analis:{name:"Kak Analis", role:"Laporan Performa", gender:"f", shirt:"#4c1d95", batik:"#ddd6fe", hijab:"#7c3aed", pos:[7,0.8],
+  analis:{name:"Ruth Imbiri", call:"Kaka Ruth", role:"Analis Data & Performa", gender:"f", skin:"#62402c", shirt:"#4c1d95", motif:"#ddd6fe", pos:[7,0.8],
     desc:"Setiap Senin membaca reach, simpan, bagikan & komentar, lalu merekomendasikan topik dan format untuk minggu depan.",
     cmd:["/laporan"], tech:"Instagram Insights API + Gemini"},
 };
@@ -193,7 +193,23 @@ const yapenTex = canvasTex(1024,384,(c,w,h)=>{
   c.strokeStyle="#3b2412";c.lineWidth=3;c.beginPath();c.moveTo(w*.585,h*.74);c.lineTo(w*.585,h*.66);c.stroke();
   c.fillStyle="rgba(11,31,58,.7)";c.font="bold 22px Poppins, sans-serif";c.fillText("Pemandangan Teluk Serui • Kepulauan Yapen",24,h-20);
 });
-function shirtTex(base,motif){return canvasTex(128,128,(c,w,h)=>kawung(c,w,h,base,motif,32));}
+function papua(ctx,w,h,bg,fg){ // motif Papua: spiral, segitiga & zig-zag
+  ctx.fillStyle=bg;ctx.fillRect(0,0,w,h);ctx.strokeStyle=fg;ctx.fillStyle=fg;ctx.lineWidth=5;
+  for(let y=0;y<h;y+=64){
+    ctx.beginPath();for(let x=0;x<=w;x+=16)ctx.lineTo(x,y+8+((x/16)%2?10:0));ctx.stroke();
+    for(let x=16;x<w;x+=64){ctx.beginPath();for(let a=0;a<12;a+=.3){const r=2+a*1.6;ctx.lineTo(x+Math.cos(a)*r,y+38+Math.sin(a)*r);}ctx.stroke();
+      ctx.beginPath();ctx.moveTo(x+32,y+56);ctx.lineTo(x+44,y+34);ctx.lineTo(x+56,y+56);ctx.closePath();ctx.fill();}}
+}
+function shirtTex(base,motif){return canvasTex(128,128,(c,w,h)=>papua(c,w,h,base,motif));}
+const nokenTex=canvasTex(64,64,(c,w,h)=>{c.fillStyle="#9b6a3a";c.fillRect(0,0,w,h);c.strokeStyle="#5b3a1e";c.lineWidth=3;
+  for(let i=-64;i<64;i+=8){c.beginPath();c.moveTo(i,0);c.lineTo(i+64,64);c.stroke();c.beginPath();c.moveTo(i+64,0);c.lineTo(i,64);c.stroke();}
+  c.fillStyle="#c0392b";c.fillRect(0,20,w,6);c.fillStyle="#f1c40f";c.fillRect(0,38,w,4);});
+const cendrawasihTex=canvasTex(300,400,(c,w,h)=>{const g=c.createLinearGradient(0,0,0,h);g.addColorStop(0,"#0b4f6c");g.addColorStop(1,"#1d7a5a");c.fillStyle=g;c.fillRect(0,0,w,h);
+  c.fillStyle="#2f5d3a";c.fillRect(0,300,w,100);c.strokeStyle="#5a3418";c.lineWidth=10;c.beginPath();c.moveTo(20,250);c.lineTo(280,230);c.stroke();
+  c.fillStyle="#f9d342";for(let i=0;i<9;i++){c.beginPath();c.ellipse(150+Math.cos(-2.6+i*.18)*90,215+Math.sin(-2.6+i*.18)*-60,70,12,-2.6+i*.18,0,7);c.fill();}
+  c.fillStyle="#7a3b12";c.beginPath();c.ellipse(150,200,28,40,0,0,7);c.fill();c.fillStyle="#1f8a70";c.beginPath();c.arc(150,160,20,0,7);c.fill();
+  c.strokeStyle="#111";c.lineWidth=3;c.beginPath();c.moveTo(140,240);c.quadraticCurveTo(120,330,90,360);c.stroke();c.beginPath();c.moveTo(160,240);c.quadraticCurveTo(190,330,215,360);c.stroke();
+  c.fillStyle="#fff";c.font="bold 24px Poppins";c.fillText("CENDRAWASIH",70,390);c.strokeStyle="#c9954d";c.lineWidth=14;c.strokeRect(0,0,w,h);});
 
 // ======================================================================
 //  SCENE
@@ -231,7 +247,7 @@ box(22,4.6,.1,M("#fff",{map:yapenTex,emissive:"#ffffff",emissiveMap:yapenTex,emi
 box(22.6,.35,.35,M("#5a3418"),0,7.6,-11.6);box(22.6,.35,.35,M("#5a3418"),0,2.8,-11.6);
 // Dinding kiri batik parang + gebyok
 box(.4,9,24,M("#fff",{map:wallBatik}),-16,4.5,0);
-[-7,0,7].forEach(z=>box(.15,6,4,M("#fff",{map:gebyokTex}),-15.75,3.6,z));
+[0,7].forEach(z=>box(.15,6,4,M("#fff",{map:gebyokTex}),-15.75,3.6,z));
 // Tiang saka guru & tumpangsari joglo (rangka plafon terbuka)
 const tiang=M("#6b3d1d",{roughness:.6});
 [[-6,-7],[6,-7],[-6,3.6],[6,3.6]].forEach(([x,z])=>{cyl(.32,.38,8,tiang,x,4,z,8);cyl(.55,.55,.4,M("#c9954d"),x,.2,z,8);});
@@ -257,6 +273,19 @@ function plant(x,z,s=1){const g=new THREE.Group();g.position.set(x,0,z);g.scale.
   for(let i=0;i<9;i++){const l=new THREE.Mesh(new THREE.SphereGeometry(.55,8,6),M(i%2?"#2f7d43":"#3f9a52"));l.scale.set(1,.28,.55);
     const a=i/9*Math.PI*2;l.position.set(Math.cos(a)*.55,1.2+Math.random()*.9,Math.sin(a)*.55);l.rotation.set(Math.random()*.6,a,.5);l.castShadow=true;g.add(l);}}
 plant(-14,-10,1.3);plant(14.5,9,1.2);plant(-14,9,1.1);plant(10,-10,1);
+// Lukisan cendrawasih (dinding kiri)
+const lukisan=box(.12,3.6,2.7,M("#fff",{map:cendrawasihTex}),-15.7,4.4,-7);
+// Pantry kopi (kanan)
+box(1.4,1.9,3.6,M("#fff",{map:woodTex}),14.2,.95,2.2);box(1.5,.12,3.7,M("#2b2b2b"),14.2,1.95,2.2);
+const kettle=cyl(.25,.3,.6,M("#c0392b",{metalness:.4,roughness:.4}),14.1,2.3,1.4);cyl(.3,.3,.7,M("#333"),14.2,2.35,2.9);
+[0,1,2].forEach(i=>cyl(.1,.08,.22,M(["#fff","#f1c40f","#2ecc71"][i]),14.0,2.12,2.0+i*.25,10));
+label("PANTRY • KOPI PAPUA",14.2,3.6,2.2,"#fff",.75);
+// Sudut ngobrol (kiri depan): karpet motif Papua, 2 kursi kayu & tifa
+box(4.6,.04,3.2,M("#fff",{map:canvasTex(256,180,(c,w,h)=>papua(c,w,h,"#7a1f1f","#f1c40f"))}),-10.5,.04,6);
+[-11.6,-9.4].forEach(x=>{cyl(.5,.5,.9,M("#8a5a33"),x,.45,6.6,10);});
+const tifa=new THREE.Group();tifa.position.set(-12.9,0,7.4);scene.add(tifa);
+cyl(.35,.42,.9,M("#6b3d1d"),0,.45,0,12,tifa);cyl(.28,.28,.4,M("#6b3d1d"),0,1.1,0,12,tifa);cyl(.42,.35,.6,M("#6b3d1d"),0,1.6,0,12,tifa);cyl(.43,.43,.05,M("#e9d8b4"),0,1.92,0,16,tifa);
+label("SUDUT NGOBROL",-10.5,2.6,7.6,"#fff",.7);
 // Papan tulis kalender konten
 const board=box(7,3.4,.15,M("#fff",{map:canvasTex(700,340,(c,w,h)=>{c.fillStyle="#fdfaf2";c.fillRect(0,0,w,h);c.fillStyle="#0B1F3A";c.font="bold 30px Poppins";c.fillText("KALENDER KONTEN MINGGUAN",24,46);
   const d=[["SEN","AI • Tutorial"],["SEL","Desa • Tutorial"],["RAB","ASN • Listicle"],["KAM","Contekan Prompt"],["JUM","Desa • Listicle"],["SAB","Mitos vs Fakta"],["MIN","Promo lynk.id"]];
@@ -295,50 +324,73 @@ function bubble(){
 //  KARYAWAN
 // ======================================================================
 const people={}, clickables=[];
-const skin=M("#a86b45",{roughness:.6});
+function nameTag(name,title,scale=1){
+  const c=document.createElement("canvas");c.width=640;c.height=170;const g=c.getContext("2d");
+  g.font="700 46px Poppins, sans-serif";const w1=g.measureText(name).width;g.font="500 30px Poppins, sans-serif";const w2=g.measureText(title).width;
+  const w=Math.min(630,Math.max(w1,w2)+56);g.fillStyle="rgba(11,31,58,.9)";roundRect(g,(640-w)/2,8,w,150,34);g.fill();
+  g.fillStyle="#E63946";g.fillRect((640-w)/2+26,22,6,122);
+  g.textAlign="center";g.fillStyle="#fff";g.font="700 46px Poppins, sans-serif";g.fillText(name,320,68);
+  g.fillStyle="#F4B942";g.font="500 30px Poppins, sans-serif";g.fillText(title,320,122);
+  const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(c),transparent:true,depthTest:false}));
+  sp.scale.set(4.4*scale,1.17*scale,1);sp.renderOrder=10;scene.add(sp);return sp;
+}
+function makePerson(a){
+  const s=a.big?1.12:1, P=new THREE.Group();scene.add(P);
+  const skinM=M(a.skin,{roughness:.55}), hairM=M("#140d09",{roughness:.95});
+  const shirt=M("#fff",{map:shirtTex(a.shirt,a.motif)}), pants=M(a.gender==="m"?"#2b2f3a":"#3b2b20");
+  // kaki (berporos di pinggul)
+  const legs=[];[-1,1].forEach(side=>{const L=new THREE.Group();L.position.set(side*.22*s,1.0*s,0);P.add(L);
+    const leg=cyl(.17*s,.15*s,.95*s,pants,0,-.47*s,0,8,L);const shoe=box(.26*s,.14*s,.42*s,M("#1a1a1a"),0,-.95*s,.08*s,L);legs.push(L);});
+  const body=new THREE.Group();body.position.y=1.0*s;P.add(body);
+  cyl(.48*s,.42*s,1.2*s,shirt,0,.6*s,0,14,body);
+  const head=new THREE.Group();head.position.y=1.62*s;body.add(head);
+  const hm=new THREE.Mesh(new THREE.SphereGeometry(.4*s,20,16),skinM);hm.castShadow=true;head.add(hm);
+  [-.14,.14].forEach(x=>{const e=new THREE.Mesh(new THREE.SphereGeometry(.05*s,8,6),M("#111"));e.position.set(x*s,.06*s,.36*s);head.add(e);});
+  const smile=new THREE.Mesh(new THREE.TorusGeometry(.1*s,.022*s,6,12,Math.PI),M("#3a120c"));smile.position.set(0,-.1*s,.37*s);smile.rotation.z=Math.PI;head.add(smile);
+  // rambut keriting
+  const cap=new THREE.Mesh(new THREE.SphereGeometry(.43*s,18,12,0,Math.PI*2,0,Math.PI*.55),hairM);cap.position.y=.03*s;head.add(cap);
+  const n=a.gender==="m"?22:46;
+  for(let i=0;i<n;i++){
+    const r=(a.gender==="m"?.09:.16)*s*(0.8+Math.random()*.5);
+    const th=Math.random()*Math.PI*2, ph=a.gender==="m"?Math.random()*1.2:Math.random()*2.1;
+    const R=(a.gender==="m"?.42:.5)*s;
+    const b=new THREE.Mesh(new THREE.SphereGeometry(r,7,5),hairM);
+    b.position.set(Math.sin(ph)*Math.cos(th)*R,Math.cos(ph)*R+.05*s,Math.sin(ph)*Math.sin(th)*R);
+    if(b.position.z>.18*s&&b.position.y<.25*s)continue; // biarkan wajah terlihat
+    head.add(b);
+  }
+  if(a.flower){const f=new THREE.Mesh(new THREE.SphereGeometry(.11*s,8,6),M(a.flower,{emissive:a.flower,emissiveIntensity:.2}));f.position.set(.4*s,.25*s,.12*s);head.add(f);}
+  // lengan (berporos di bahu)
+  const arms=[];[-1,1].forEach(side=>{const A=new THREE.Group();A.position.set(side*.56*s,1.12*s,0);body.add(A);
+    cyl(.13*s,.12*s,.95*s,shirt,0,-.45*s,0,8,A);const hand=new THREE.Mesh(new THREE.SphereGeometry(.14*s,8,6),skinM);hand.position.y=-.95*s;A.add(hand);arms.push(A);});
+  // cangkir kopi (muncul saat ngopi)
+  const cup=cyl(.11,.09,.22,M("#fff"),0,-1.0*s,.12,10,arms[1]);cup.visible=false;
+  // area klik ikut orang
+  const hit=new THREE.Mesh(new THREE.BoxGeometry(1.4,3.4,1.4),new THREE.MeshBasicMaterial({visible:false}));hit.position.y=1.7;P.add(hit);
+  return {P,body,head,legs,arms,cup,hit,s};
+}
+const SEATS={};
 Object.entries(AGENTS).forEach(([key,a])=>{
   const g=new THREE.Group();g.position.set(a.pos[0],0,a.pos[1]);scene.add(g);
-  const s=a.big?1.15:1;
-  // meja kayu jati
-  const deskW=a.big?5:3.6;
+  const s=a.big?1.15:1, deskW=a.big?5:3.6;
   box(deskW*s,.22,2*s,M("#fff",{map:woodTex}),0,1.85,.9,g);
   [[-1,-1],[1,-1],[-1,1],[1,1]].forEach(([dx,dz])=>box(.18,1.75,.18,M("#5a3418"),dx*(deskW*s/2-.25),.88,.9+dz*.75,g));
-  if(a.big){box(deskW*s,1.6,.12,M("#fff",{map:gebyokTex}),0,1.1,1.85,g);}
-  // monitor (layar menghadap karyawan)
+  if(a.big){box(deskW*s,1.6,.12,M("#fff",{map:canvasTex(256,96,(c,w,h)=>papua(c,w,h,"#5a3418","#e9c27a"))}),0,1.1,1.85,g);}
   const mon=new THREE.Group();mon.position.set(0,1.96,1.1);g.add(mon);
-  box(.15,.7,.15,M("#222"),0,.35,0,mon);
-  const scr=box(1.9,1.15,.1,M("#111"),0,1.1,0,mon);
+  box(.15,.7,.15,M("#222"),0,.35,0,mon);box(1.9,1.15,.1,M("#111"),0,1.1,0,mon);
   const glow=box(1.78,1.03,.02,M("#0b1f3a",{emissive:"#2b6cb0",emissiveIntensity:.25}),0,1.1,-.06,mon);
-  box(.5,.18,.02,M("#E63946",{emissive:"#E63946",emissiveIntensity:.6}),0,1.1,.065,mon); // logo di belakang monitor
-  // kursi
+  box(.5,.18,.02,M("#E63946",{emissive:"#E63946",emissiveIntensity:.6}),0,1.1,.065,mon);
   box(1.2,.15,1.2,M("#7a1f1f"),0,1.0,-.6,g);box(1.2,1.3,.15,M("#7a1f1f"),0,1.7,-1.2,g);cyl(.08,.08,.9,M("#333"),0,.5,-.6,8,g);
-  // tubuh
-  const body=new THREE.Group();body.position.set(0,1.1,-.5);g.add(body);
-  const shirt=M("#fff",{map:shirtTex(a.shirt,a.batik)});
-  const torso=cyl(.5*s,.62*s,1.25*s,shirt,0,.75*s,0,14,body);
-  const head=new THREE.Mesh(new THREE.SphereGeometry(.42*s,20,16),skin);head.position.y=1.72*s;head.castShadow=true;body.add(head);
-  [-.15,.15].forEach(x=>{const e=new THREE.Mesh(new THREE.SphereGeometry(.05*s,8,6),M("#111"));e.position.set(x*s,1.78*s,.38*s);body.add(e);});
-  const smile=new THREE.Mesh(new THREE.TorusGeometry(.11*s,.025*s,6,12,Math.PI),M("#5b1a12"));smile.position.set(0,1.62*s,.39*s);smile.rotation.z=Math.PI;body.add(smile);
-  if(a.gender==="m"){
-    cyl(.36*s,.4*s,.36*s,M("#141414",{roughness:.5}),0,2.08*s,0,20,body); // peci
-  }else{
-    const hj=new THREE.Mesh(new THREE.SphereGeometry(.47*s,20,16,0,Math.PI*2,0,Math.PI*.62),M(a.hijab));hj.position.y=1.76*s;hj.rotation.x=.25;body.add(hj);
-    const hj2=new THREE.Mesh(new THREE.ConeGeometry(.62*s,.8*s,20,1,true),M(a.hijab,{side:THREE.DoubleSide}));hj2.position.set(0,1.28*s,-.04);body.add(hj2);
-  }
-  // lengan
-  const arms=[];[-1,1].forEach(side=>{const arm=new THREE.Group();arm.position.set(side*.58*s,1.25*s,0);body.add(arm);
-    const up=cyl(.14*s,.14*s,.9*s,shirt,0,-.35*s,.25*s,8,arm);up.rotation.x=-1.1;
-    const hand=new THREE.Mesh(new THREE.SphereGeometry(.14*s,8,6),skin);hand.position.set(0,-.62*s,.68*s);arm.add(hand);arms.push(arm);});
-  // keyboard
+  if(a.noken){const nk=box(.7,.8,.12,M("#fff",{map:nokenTex}),.25,1.75,-1.32,g);nk.rotation.z=.08;
+    const strap=new THREE.Mesh(new THREE.TorusGeometry(.32,.03,6,16,Math.PI),M("#5b3a1e"));strap.position.set(.25,2.15,-1.32);g.add(strap);}
   box(1.4,.06,.45,M("#2b2b2b"),0,1.99,.55,g);
-  // label & gelembung
-  const tag=label(a.name,a.pos[0],a.big?4.9:4.4,a.pos[1]-.5,"#fff",a.big?1.05:.85);
-  const bub=bubble();bub.position.set(a.pos[0],a.big?6.6:6,a.pos[1]-.5);bub.visible=false;scene.add(bub);
-  // area klik
-  const hit=new THREE.Mesh(new THREE.BoxGeometry(deskW,4.5,3.5),new THREE.MeshBasicMaterial({visible:false}));hit.position.set(0,2.2,0);hit.userData.key=key;g.add(hit);clickables.push(hit);
-  // lampu status
   const lamp=new THREE.Mesh(new THREE.SphereGeometry(.16,12,10),M("#34c759",{emissive:"#34c759",emissiveIntensity:1}));lamp.position.set(deskW*s/2-.35,2.1,1.5);g.add(lamp);
-  people[key]={g,body,head,arms,glow,bub,lamp,tag,mon,phase:Math.random()*6};
+  const dhit=new THREE.Mesh(new THREE.BoxGeometry(deskW,2.2,2.4),new THREE.MeshBasicMaterial({visible:false}));dhit.position.set(0,1.1,1);dhit.userData.key=key;g.add(dhit);clickables.push(dhit);
+  const seat=new THREE.Vector3(a.pos[0],0,a.pos[1]-(a.big?.575:.5));SEATS[key]=seat;
+  const per=makePerson(a);per.P.position.copy(seat);per.hit.userData.key=key;clickables.push(per.hit);
+  const tag=nameTag(a.name,a.role,a.big?.9:.7);
+  const bub=bubble();bub.visible=false;scene.add(bub);
+  people[key]={...per,glow,bub,lamp,tag,mon,phase:Math.random()*6,mode:"duduk",node:"S_"+key,path:[],speed:2,cbs:[],face:0,act:null};
 });
 // Telegram hologram di meja Kepala
 const holo=new THREE.Mesh(new THREE.OctahedronGeometry(.45,0),M("#2AABEE",{emissive:"#2AABEE",emissiveIntensity:.9,transparent:true,opacity:.85}));
@@ -348,7 +400,7 @@ holo.position.set(-1.9,2.75,7.1);scene.add(holo);
 const papers=[];
 function flyPaper(from,to,color="#fff"){
   const p=new THREE.Mesh(new THREE.BoxGeometry(.6,.04,.8),M(color,{emissive:color,emissiveIntensity:.35}));scene.add(p);
-  const A=new THREE.Vector3(AGENTS[from].pos[0],2.6,AGENTS[from].pos[1]),B=new THREE.Vector3(AGENTS[to].pos[0],2.6,AGENTS[to].pos[1]);
+  const A=people[from].P.position.clone().setY(2.6),B=people[to].P.position.clone().setY(2.6);
   papers.push({m:p,A,B,t:0});
 }
 
@@ -366,21 +418,26 @@ function setAgent(key,status,msg){
 function renderUI(){
   let working=0;
   KEYS.forEach(k=>{const a=state.agents[k],p=people[k];const w=a.status!=="idle";if(w)working++;
-    const am=ambient[k];p.bub.visible=w||!!am;if(w)p.bub.userData.set(a.last);else if(am)p.bub.userData.set(am.text,true);
+    const say=p.say&&p.say.until>Date.now()?p.say:null;
+    p.bub.visible=w||!!say;
+    const txt=w?a.last:say?say.text:"";
+    if(p.bub.visible&&p.bubTxt!==txt+w){p.bub.userData.set(txt,!w);p.bubTxt=txt+w;}
     p.glow.material.emissive.set(w?"#F4B942":"#2b6cb0");p.glow.material.emissiveIntensity=w?.9:.25;
-    p.lamp.material.color.set(w?"#ff9f0a":"#34c759");p.lamp.material.emissive.set(w?"#ff9f0a":"#34c759");});
+    const away=p.mode!=="duduk";
+    const lc=w?"#ff9f0a":away?"#9aa7b8":"#34c759";p.lamp.material.color.set(lc);p.lamp.material.emissive.set(lc);});
   $("sWork").textContent=working+"/8";$("sPub").textContent=state.stats.published;$("sDraft").textContent=state.stats.drafts;
-  $("logList").innerHTML=state.log.slice(0,14).map(l=>`<div class="li"><i>${l.at.slice(-5)}</i><span><em>${AGENTS[l.agent]?.name||l.agent}</em> — ${esc(l.msg)}</span></div>`).join("")||'<div class="li"><span>Belum ada aktivitas.</span></div>';
+  $("logList").innerHTML=state.log.slice(0,14).map(l=>`<div class="li"><i>${l.at.slice(-5)}</i><span><em>${AGENTS[l.agent]?.call||l.agent}</em> — ${esc(l.msg)}</span></div>`).join("")||'<div class="li"><span>Belum ada aktivitas.</span></div>';
   if(openKey)fillPanel(openKey);
 }
 function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
 let openKey=null;
 function fillPanel(k){const a=AGENTS[k],s=state.agents[k];
-  $("pName").textContent=a.name;$("pRole").textContent=a.role;
-  $("pNow").innerHTML=(s.status==="idle"?"🟢 ":"🟠 ")+esc(s.last)+(s.at?` <small style="color:#888">(${s.at.slice(-5)} WIT)</small>`:"");
+  $("pName").textContent=a.name;$("pRole").textContent=`${a.role} • dipanggil "${a.call}"`;
+  const act=people[k].act?{kopi:"☕ sedang ngopi di pantry",ngobrol:"💬 sedang ngobrol",jendela:"🌊 menikmati pemandangan Teluk Serui",papan:"📋 mengecek kalender konten",balik:"🏃 kembali ke meja"}[people[k].act]:"";
+  $("pNow").innerHTML=(s.status==="idle"?"🟢 ":"🟠 ")+esc(s.last)+(s.at?` <small style="color:#888">(${s.at.slice(-5)} WIT)</small>`:"")+(act?`<br><small>${act}</small>`:"");
   $("pDesc").textContent=a.desc;$("pCmd").innerHTML=a.cmd.map(c=>`<code>${esc(c)}</code>`).join("");$("pTech").textContent=a.tech;}
 function openPanel(k){openKey=k;fillPanel(k);$("panel").classList.add("open");controls.autoRotate=false;
-  const p=AGENTS[k].pos;tween(controls.target,new THREE.Vector3(p[0],2,p[1]));}
+  const p=people[k].P.position;tween(controls.target,new THREE.Vector3(p.x,2,p.z));}
 $("closeP").onclick=()=>{$("panel").classList.remove("open");openKey=null;tween(controls.target,new THREE.Vector3(0,1.5,0));};
 const tweens=[];function tween(v,to){tweens.push({v,from:v.clone(),to,t:0});}
 
@@ -399,7 +456,7 @@ const wait=ms=>new Promise(r=>setTimeout(r,ms));
 let busy=false;
 async function pipeline(steps){
   if(busy)return;busy=true;
-  for(const [k,msg,ms,next] of steps){setAgent(k,"working",msg);await wait(ms);setAgent(k,"idle","");state.agents[k].last=msg.replace("...","")+" ✓";if(next)flyPaper(k,next,next==="humas"?"#E63946":"#fff");}
+  for(const [k,msg,ms,next] of steps){await summon(k);setAgent(k,"working",msg);await wait(ms);setAgent(k,"idle","");state.agents[k].last=msg.replace("...","")+" ✓";if(next)flyPaper(k,next,next==="humas"?"#E63946":"#fff");}
   renderUI();busy=false;
 }
 const topics=["5 Prompt AI untuk Surat Dinas","Cara Cepat Susun APBDes","Mitos vs Fakta e-Kinerja","7 Tools Gratis untuk Operator Desa","Checklist Laporan Dana Desa","TTE BSrE: Panduan Pemula"];
@@ -432,31 +489,103 @@ function detectRepo(){
   return null;
 }
 const REPO=detectRepo();
-// ---------------- SUASANA KANTOR (obrolan & gerak santai) ----------------
-const ambient={};
-const CHAT={
-  kepala:["Tim, jangan lupa cek Telegram ya","Draft besok sudah aman?","Target minggu ini: 7 carousel!","Rapat singkat 5 menit?"],
-  riset:["Ada berita baru soal SPBE nih","Cek tren dana desa minggu ini…","Topik AI lagi naik daun","Mencatat ide dari berita pagi"],
-  naskah:["Hook-nya kurang nendang… revisi","Bikin judul yang bikin penasaran","Ngopi dulu ☕ biar lancar nulis","Kata 'efisien' terlalu sering 😅"],
-  qc:["Nomor regulasi wajib dicek!","EYD aman, lanjut","Hati-hati klaim angka","Etika ASN nomor satu"],
-  desain:["Navy + emas memang elegan","Pose Cicilia yang mana ya?","Font Poppins tetap juara","Rapikan jarak antar slide"],
-  humas:["Jam tayang terbaik 19.00 WIT","Siap terbit kalau Bos setuju","Cek link lynk.id di bio","Balas komentar nanti malam"],
-  cuan:["Generator Naskah Dinas laris!","CTA jangan terlalu jualan","Siapkan promo akhir bulan","Link di bio sudah benar?"],
-  analis:["Carousel prompt paling disimpan","Reach naik minggu ini 📈","Catat jam ramai audiens","Siapkan laporan Senin"],
+// ---------------- KEHIDUPAN KANTOR: berjalan, ngopi, ngobrol, lalu kembali bekerja ----------------
+const N={ // simpul jalur jalan (x,z)
+  A1:[-13.8,-1.8],A2:[-10.5,-1.8],A3:[-6,-1.8],A4:[-3.5,-1.8],A5:[0,-1.8],A6:[3.5,-1.8],A7:[6,-1.8],A8:[10.5,-1.8],A9:[12.4,-1.8],
+  F1:[-10.5,4.3],F2:[-3.5,4.3],F3:[0,4.3],F4:[3.5,4.3],F5:[10.5,4.3],
+  B3:[-6,-5.5],B5:[0,-5.5],B7:[6,-5.5],W0:[0,-9.2],
+  M2:[-10.5,.3],M4:[-3.5,.3],M6:[3.5,.3],M8:[10.5,.3],K6:[3.5,5.6],
+  PAPAN:[-13.8,0],JEN1:[-.9,-9.5],JEN2:[.9,-9.5],KOPI1:[12.7,1.5],KOPI2:[12.7,2.9],OB1:[-11.6,5.6],OB2:[-9.4,5.6],
 };
-let replaying=false;
-function idleKeys(){return KEYS.filter(k=>state.agents[k].status==="idle"&&!ambient[k]);}
+const E=[["A1","A2"],["A2","A3"],["A3","A4"],["A4","A5"],["A5","A6"],["A6","A7"],["A7","A8"],["A8","A9"],["F1","F2"],["F2","F3"],["F3","F4"],["F4","F5"],
+  ["A2","M2"],["M2","F1"],["A4","M4"],["M4","F2"],["A6","M6"],["M6","F4"],["A8","M8"],["M8","F5"],["F4","K6"],
+  ["A3","B3"],["A5","B5"],["A7","B7"],["B5","W0"],["W0","JEN1"],["W0","JEN2"],["A1","PAPAN"],["A9","KOPI1"],["M8","KOPI1"],["KOPI1","KOPI2"],
+  ["F1","OB1"],["F1","OB2"]];
+// tiap kursi tersambung ke simpul terdekat yang aman
+const SEAT_LINK={kepala:"K6",riset:"B3",naskah:"B5",qc:"B7",desain:"B7",humas:"M2",cuan:"M6",analis:"M8"};
+Object.keys(SEATS).forEach(k=>{N["S_"+k]=[SEATS[k].x,SEATS[k].z];E.push(["S_"+k,SEAT_LINK[k]]);});
+const ADJ={};E.forEach(([a,b])=>{(ADJ[a]=ADJ[a]||[]).push(b);(ADJ[b]=ADJ[b]||[]).push(a);});
+const dist=(a,b)=>Math.hypot(N[a][0]-N[b][0],N[a][1]-N[b][1]);
+function route(from,to){ // Dijkstra kecil
+  const d={},prev={},q=new Set(Object.keys(N));Object.keys(N).forEach(n=>d[n]=Infinity);d[from]=0;
+  while(q.size){let u=null;q.forEach(n=>{if(u===null||d[n]<d[u])u=n;});q.delete(u);if(u===to)break;
+    (ADJ[u]||[]).forEach(v=>{const nd=d[u]+dist(u,v);if(nd<d[v]){d[v]=nd;prev[v]=u;}});}
+  const path=[];let c=to;while(c&&c!==from){path.unshift(c);c=prev[c];}return path;
+}
+function nearestNode(pos){let best=null,bd=1e9;Object.keys(N).forEach(n=>{if(n.startsWith("S_"))return;const dd=Math.hypot(N[n][0]-pos.x,N[n][1]-pos.z);if(dd<bd){bd=dd;best=n;}});return best;}
+function walkTo(k,node,speed=2.1){
+  const p=people[k];let pts;
+  if(p.mode==="jalan"||p.mode==="berdiri"&&!p.node||!p.node){ // sedang di jalan: mulai dari simpul terdekat posisi sekarang
+    const nn=nearestNode(p.P.position);pts=[nn].concat(nn===node?[]:route(nn,node));
+  }else pts=p.node===node?[]:route(p.node,node);
+  p.path=pts.map(n=>new THREE.Vector3(N[n][0],0,N[n][1]));p.target=node;p.speed=speed;p.mode="jalan";
+  p.cbs.splice(0).forEach(f=>f()); // janji lama diselesaikan; aktivitas lama lalu memeriksa token & berhenti
+  return new Promise(r=>{p.cbs.push(r);if(!p.path.length){p.mode=node.startsWith("S_")?"duduk":"berdiri";p.node=node;p.cbs.splice(0).forEach(f=>f());}});
+}
+function faceTo(k,x,z){const p=people[k];p.face=Math.atan2(x-p.P.position.x,z-p.P.position.z);}
+function say(k,text,ms=2600){people[k].say={text,until:Date.now()+ms};renderUI();}
+const CHAT={
+  kepala:["Kitong rapat sebentar kah?","Target hari ini 6 posting, gas!","Draft pagi su aman?","Mantap kerja hari ini, adik-adik!"],
+  riset:["Ada berita baru soal SPBE nih","Tren dana desa lagi ramai","Topik AI pemerintahan naik terus","Sa catat ide dari berita pagi"],
+  naskah:["Hook ini masih kurang nendang…","Kaka, judul ini menarik ka tra?","Sa tulis dulu naskah Reels","Ngopi dulu biar lancar menulis ☕"],
+  qc:["Nomor regulasi wajib dicek!","EYD aman, lanjut","Hati-hati klaim angka e","Etika ASN nomor satu"],
+  desain:["Tema ungu cocok untuk konten AI","Cicilia pakai ekspresi apa ini?","Reels baru su jadi, mantap","Sa rapikan jarak slide dulu"],
+  humas:["Jam ramai: siang & malam","Siap terbit sesuai jadwal","Komentar netizen banyak e","Link lynk.id di bio su aman"],
+  cuan:["Generator Naskah Dinas laris!","Jualan halus saja, jangan memaksa","Promo akhir bulan bagaimana?","Ada yang tanya paket Kantor"],
+  analis:["Carousel prompt paling disimpan","Reach naik minggu ini 📈","Reels jam 18.30 paling ramai","Laporan Senin sa siapkan"],
+};
+const SPOTS={kopi:[["KOPI1",[14,1.5]],["KOPI2",[14,2.9]]],jendela:[["JEN1",[-.9,-11]],["JEN2",[.9,-11]]],papan:[["PAPAN",[-15.6,0]]]};
+const taken=new Set();
+const pickLine=k=>CHAT[k][Math.floor(Math.random()*CHAT[k].length)];
+function isFree(k){const p=people[k];return state.agents[k].status==="idle"&&!p.act&&p.mode==="duduk";}
+async function goBack(k){const p=people[k];p.act="balik";await walkTo(k,"S_"+k,2.1);if(p.act==="balik")p.act=null;p.cup.visible=false;}
+function cancelled(k,token){return people[k].token!==token;}
+async function activity(kind,k,partner){
+  const p=people[k],token=Math.random();p.token=token;p.act=kind;
+  try{
+    if(kind==="ngobrol"){
+      const q=people[partner];q.token=token;q.act=kind;
+      const stop=()=>cancelled(k,token)||cancelled(partner,token);
+      const bail=()=>{if(!cancelled(k,token))goBack(k);if(!cancelled(partner,token))goBack(partner);};
+      say(k,pickLine(k),2200);await Promise.all([walkTo(k,"OB1"),walkTo(partner,"OB2")]);
+      if(stop()){bail();return;}
+      faceTo(k,N.OB2[0],N.OB2[1]);faceTo(partner,N.OB1[0],N.OB1[1]);
+      for(let i=0;i<4;i++){const who=i%2?partner:k;say(who,pickLine(who),2600);await wait(2800);if(stop()){bail();return;}}
+      taken.delete("OB");goBack(partner);
+    }else{
+      const spot=SPOTS[kind].find(([n])=>!taken.has(n));if(!spot){p.act=null;return;}
+      taken.add(spot[0]);p.spot=spot[0];
+      await walkTo(k,spot[0]);if(cancelled(k,token)){taken.delete(spot[0]);return;}
+      faceTo(k,spot[1][0],spot[1][1]);
+      if(kind==="kopi"){p.cup.visible=true;say(k,["☕ Ngopi dulu, kopi Papua mantap","Sa bikin kopi dulu e","Kopi Wamena memang juara ☕"][Math.floor(Math.random()*3)],3500);}
+      if(kind==="jendela")say(k,["Indahnya Teluk Serui 🌊","Lihat perahu di teluk…","Angin laut segar e"][Math.floor(Math.random()*3)],3200);
+      if(kind==="papan")say(k,"Cek jadwal: 4 carousel + 2 Reels hari ini",3200);
+      await wait(4500+Math.random()*3000);taken.delete(spot[0]);p.spot=null;if(cancelled(k,token))return;
+    }
+    await goBack(k);
+  }finally{if(kind==="ngobrol")taken.delete("OB");}
+}
+// dipanggil saat ada pekerjaan/perintah: hentikan aktivitas, bergegas kembali ke meja
+async function summon(k){
+  const p=people[k];
+  if(p.mode==="duduk"&&!p.act)return;
+  p.token=Math.random();if(p.spot){taken.delete(p.spot);p.spot=null;}
+  if(p.act==="ngobrol")taken.delete("OB");
+  p.cup.visible=false;p.act="balik";say(k,["Siap! Sa kembali kerja","Ada tugas, sa ke meja dulu","Oke Bapa, langsung kerja!"][Math.floor(Math.random()*3)],2000);
+  await walkTo(k,"S_"+k,3.6);p.act=null;
+}
+// penjadwal aktivitas santai
 setInterval(()=>{
   if(document.hidden)return;
-  const now=Date.now();
-  Object.keys(ambient).forEach(k=>{if(ambient[k].until<now){delete ambient[k];}});
-  const free=idleKeys();
-  if(free.length&&Object.keys(ambient).length<2){
-    const k=free[Math.floor(Math.random()*free.length)];
-    const lines=CHAT[k];ambient[k]={text:lines[Math.floor(Math.random()*lines.length)],until:now+4200,start:now};
-  }
-  renderUI();
-},2600);
+  const free=KEYS.filter(isFree);const active=KEYS.filter(k=>people[k].act).length;
+  if(!free.length||active>=3||Math.random()<.35)return;
+  const k=free[Math.floor(Math.random()*free.length)];const r=Math.random();
+  if(r<.32&&free.length>1&&!taken.has("OB")){const others=free.filter(x=>x!==k);taken.add("OB");activity("ngobrol",k,others[Math.floor(Math.random()*others.length)]);}
+  else if(r<.62)activity("kopi",k);else if(r<.82)activity("jendela",k);else activity("papan",k);
+},3500);
+// sesekali obrolan dari meja
+setInterval(()=>{if(document.hidden)return;const f=KEYS.filter(isFree);if(f.length&&Math.random()<.5){const k=f[Math.floor(Math.random()*f.length)];say(k,pickLine(k),3200);}},5200);
+let replaying=false;
 
 async function replay(entries){
   // entries: dari terlama ke terbaru
@@ -464,7 +593,7 @@ async function replay(entries){
   replaying=true;busy=true;let prev=null;
   for(const e of entries){
     const k=e.agent;if(!AGENTS[k])continue;
-    delete ambient[k];
+    await summon(k);
     if(prev&&prev!==k)flyPaper(prev,k,k==="humas"?"#E63946":"#fff");
     state.agents[k]={status:"working",last:e.msg,at:e.at};renderUI();
     await wait(2300);
@@ -515,15 +644,39 @@ else{ // demo: isi agenda awal
 // ======================================================================
 const clock=new THREE.Clock();
 function tick(){
-  const dt=Math.min(clock.getDelta(),.05),t=clock.elapsedTime;
+  const dt=Math.min(clock.getDelta(),.1),t=clock.elapsedTime;
   KEYS.forEach(k=>{const p=people[k],w=state.agents[k].status!=="idle";
-    const am=ambient[k];
-    p.body.position.y=1.1+Math.sin(t*1.6+p.phase)*.025+(am?.18+Math.sin(t*4)*.03:0);
-    p.body.rotation.y+=((am?Math.sin(p.phase)*.9:0)-p.body.rotation.y)*Math.min(1,dt*4);
-    p.head.rotation.y=w?Math.sin(t*2+p.phase)*.12:am?Math.sin(t*3)*.25:Math.sin(t*.5+p.phase)*.35;
-    if(am)p.bub.position.y=(AGENTS[k].big?6.6:6)+Math.sin(t*2)*.06;
-    p.arms.forEach((a,i)=>a.rotation.x=w?Math.sin(t*14+i*Math.PI)*.12:0);
-    if(w)p.bub.position.y=(AGENTS[k].big?6.6:6)+Math.sin(t*3)*.08;});
+    const P=p.P,s=p.s;
+    if(p.mode==="jalan"){
+      const tgt=p.path[0];
+      if(tgt){const dx=tgt.x-P.position.x,dz=tgt.z-P.position.z,d=Math.hypot(dx,dz),st=p.speed*dt;
+        p.face=Math.atan2(dx,dz);
+        if(d<=st){P.position.x=tgt.x;P.position.z=tgt.z;p.path.shift();}else{P.position.x+=dx/d*st;P.position.z+=dz/d*st;}}
+      if(!p.path.length){p.node=p.target;p.mode=p.target&&p.target.startsWith("S_")?"duduk":"berdiri";if(p.mode==="duduk")p.face=0;p.cbs.splice(0).forEach(f=>f());}
+    }
+    // putar badan ke arah tujuan (halus)
+    let da=p.face-P.rotation.y;da=Math.atan2(Math.sin(da),Math.cos(da));P.rotation.y+=da*Math.min(1,dt*8);
+    const walking=p.mode==="jalan",seated=p.mode==="duduk";
+    const sw=walking?Math.sin(t*p.speed*4.2):0;
+    p.legs.forEach((L,i)=>{const tgt=seated?-1.45:sw*.55*(i?1:-1);L.rotation.x+=(tgt-L.rotation.x)*Math.min(1,dt*10);});
+    p.arms.forEach((A,i)=>{let tgt;
+      if(seated&&w)tgt=-1.1+Math.sin(t*14+i*Math.PI)*.12;       // mengetik
+      else if(seated)tgt=-.55;                                      // tangan di meja
+      else if(walking)tgt=-sw*.5*(i?1:-1);                          // berayun
+      else if(p.cup.visible&&i===1)tgt=-1.2+Math.sin(t*1.5)*.1;     // minum kopi
+      else if(p.act==="ngobrol")tgt=-.3+Math.sin(t*3+i)*.25;        // bicara sambil bergerak
+      else tgt=0;
+      A.rotation.x+=(tgt-A.rotation.x)*Math.min(1,dt*10);});
+    P.position.y=walking?Math.abs(Math.sin(t*p.speed*4.2))*.06:0;
+    p.body.position.y=(seated?1.06:1.0)*s+(seated?Math.sin(t*1.6+p.phase)*.02:0);
+    p.head.rotation.y=w?Math.sin(t*2+p.phase)*.1:p.act==="ngobrol"?Math.sin(t*2.5)*.2:seated?Math.sin(t*.5+p.phase)*.35:0;
+    p.head.rotation.x=seated&&w?.12:0;
+    const top=3.6*s;
+    p.tag.position.set(P.position.x,top+.9,P.position.z);
+    p.bub.position.set(P.position.x,top+2.3+Math.sin(t*3)*.06,P.position.z);
+  });
+  // perbarui gelembung yang kedaluwarsa
+  if(Math.floor(t*4)!==tick._q){tick._q=Math.floor(t*4);renderUI();}
   holo.rotation.y+=dt*1.5;holo.position.y=2.75+Math.sin(t*2)*.12;
   flag.rotation.y=Math.sin(t*1.3)*.15;
   if(gongT>0){gongT=Math.max(0,gongT-dt*.35);gong.rotation.x=Math.sin(t*9)*.35*gongT;gongLabel.material.opacity=.6+.4*Math.sin(t*10);}else{gongLabel.material.opacity=1;}

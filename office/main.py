@@ -1,4 +1,4 @@
-"""Pak Kepala — manajer kantor. Menjalankan rutinitas dan menerima perintah Bos lewat Telegram.
+"""Bapa Yohanis — manajer kantor. Menjalankan rutinitas dan menerima perintah Bos lewat Telegram.
 
 Pemakaian (dipanggil oleh GitHub Actions):
     python -m office.main daily    # buat draft konten hari ini
@@ -208,10 +208,10 @@ def handle_command(cfg, state, text):
         ack("🎬 Tim membuat Reels... (± 2–3 menit)")
         create_reels(cfg, state, topic=(text.split(maxsplit=1)[1] if arg else None))
     elif cmd == "/buat_promo":
-        ack("💰 Bang Cuan & tim menyiapkan konten soft-selling...")
+        ack("💰 Kaka Yance & tim menyiapkan konten soft-selling...")
         create_draft(cfg, state, fmt="carousel_promo", product_id=arg or None)
     elif cmd == "/ide":
-        telegram.send("💡 <b>Ide konten dari Bu Naskah:</b>\n\n" + esc(naskah.ideas(cfg, state)))
+        telegram.send("💡 <b>Ide konten dari Kaka Selfina:</b>\n\n" + esc(naskah.ideas(cfg, state)))
     elif cmd == "/antrian":
         rows = [f"#{k} • {v['status']} • {esc(v['content'].get('hook', ''))[:45]}"
                 for k, v in sorted(drafts.items(), reverse=True)[:12]]
@@ -236,7 +236,7 @@ def handle_command(cfg, state, text):
             telegram.send("Format: /revisi [id] [catatan]")
         else:
             d = drafts[arg]
-            ack(f"✍️ Bu Naskah merevisi #{arg}...")
+            ack(f"✍️ Kaka Selfina merevisi #{arg}...")
             p = next((x["id"] for x in cfg["pillars"] if x["name"] == d["pillar"]), None)
             if d.get("type") == "reels":
                 create_reels(cfg, state, topic=d["topic"], pillar_id=p, notes=rest or "lebih menarik", base=arg)

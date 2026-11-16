@@ -14,14 +14,14 @@ WIT = dt.timezone(dt.timedelta(hours=9))
 
 # Daftar karyawan AI — dipakai juga oleh kantor 3D (docs/index.html)
 AGENTS = {
-    "kepala":  "Pak Kepala (Manajer & Router Telegram)",
-    "riset":   "Mbak Riset (Peneliti Tren)",
-    "naskah":  "Bu Naskah (Penulis Konten)",
-    "qc":      "Pak Verifikator (Cek Fakta & Regulasi)",
-    "desain":  "Mas Desain (Desainer Carousel)",
-    "humas":   "Mbak Humas (Publisher IG & FB)",
-    "cuan":    "Bang Cuan (Sales lynk.id)",
-    "analis":  "Kak Analis (Laporan Performa)",
+    "kepala":  "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
+    "riset":   "Kaka Maria Kafiar (Analis Riset & Tren)",
+    "naskah":  "Kaka Selfina Rumansara (Penulis Konten Senior)",
+    "qc":      "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
+    "desain":  "Kaka Elisa Wanggai (Desainer Grafis & Video)",
+    "humas":   "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
+    "cuan":    "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
+    "analis":  "Kaka Ruth Imbiri (Analis Data & Performa)",
 }
 
 
@@ -53,6 +53,7 @@ class State:
         self.d.setdefault("agents", {k: {"name": v, "status": "idle", "last": "Siap bekerja", "at": ""} for k, v in AGENTS.items()})
         for k, v in AGENTS.items():
             self.d["agents"].setdefault(k, {"name": v, "status": "idle", "last": "Siap bekerja", "at": ""})
+            self.d["agents"][k]["name"] = v
         self.d.setdefault("log", [])
         self.d.setdefault("stats", {"published": 0, "drafts": 0})
 

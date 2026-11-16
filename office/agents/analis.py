@@ -1,4 +1,4 @@
-"""Kak Analis — membaca performa IG dan memberi rekomendasi mingguan."""
+"""Kaka Ruth — membaca performa IG dan memberi rekomendasi mingguan."""
 import json
 
 from .. import llm, meta
@@ -11,7 +11,7 @@ def weekly_report(cfg, state):
         media = meta.ig_recent_media(15)
     except Exception as e:
         state.done("analis", f"Gagal ambil data: {e}")
-        return f"⚠️ Kak Analis gagal mengambil data Meta: {e}"
+        return f"⚠️ Kaka Ruth gagal mengambil data Meta: {e}"
     rows = [{k: m.get(k) for k in ("timestamp", "like_count", "comments_count", "reach", "saved", "shares")}
             | {"judul": (m.get("caption") or "")[:70]} for m in media]
     prev = state.d.get("last_followers")
