@@ -3,18 +3,25 @@ name: Kantor Virtual ASN GO
 on:
   # Model sama dengan Kantor United Go: perintah Telegram masuk lewat Cloudflare Worker (instan),
   # jadwal hanya beberapa kali sehari (GitHub bisa terlambat, jadi jangan andalkan jadwal rapat).
-  schedule:
-    - cron: "0 22 * * *"     # 07:00 WIT — tim produksi membuat draft harian
-    - cron: "0 10 * * *"     # 19:00 WIT — Mbak Humas menerbitkan draft yang sudah disetujui
-    - cron: "0 1 * * 1"      # Senin 10:00 WIT — laporan mingguan Kak Analis
+  schedule:   # UTC = WIT - 9 jam; menit sengaja tidak bulat agar tidak antre di jam sibuk GitHub
+    - cron: "31 21 * * *"    # 06:30 WIT — slot 0 carousel
+    - cron: "7 0 * * *"      # 09:00 WIT — slot 1 Reels
+    - cron: "3 3 * * *"      # 12:00 WIT — slot 2 carousel
+    - cron: "33 6 * * *"     # 15:30 WIT — slot 3 carousel
+    - cron: "29 9 * * *"     # 18:30 WIT — slot 4 Reels
+    - cron: "57 10 * * *"    # 20:00 WIT — slot 5 carousel
+    - cron: "17 1 * * 1"     # Senin 10:15 WIT — laporan mingguan
   workflow_dispatch:
     inputs:
       mode:
-        description: "poll | cek | daily | weekly | event | demo"
+        description: "poll | cek | slot | daily | weekly | event | demo"
         default: "poll"
       update:
         description: "(diisi otomatis oleh bot Telegram)"
         default: ""
+      slot:
+        description: "nomor slot 0-5 (untuk mode slot)"
+        default: "0"
 
 concurrency:
   group: kantor
@@ -26,7 +33,7 @@ permissions:
 jobs:
   kerja:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -39,10 +46,14 @@ jobs:
         id: m
         run: |
           case "${{ github.event_name }}:${{ github.event.schedule }}" in
-            "schedule:0 22 * * *") echo "mode=daily" >> $GITHUB_OUTPUT ;;
-            "schedule:0 1 * * 1")  echo "mode=weekly" >> $GITHUB_OUTPUT ;;
-            schedule:*)            echo "mode=poll" >> $GITHUB_OUTPUT ;;
-            *)                     echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT ;;
+            "schedule:31 21 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=0" >> $GITHUB_OUTPUT ;;
+            "schedule:7 0 * * *")   echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=1" >> $GITHUB_OUTPUT ;;
+            "schedule:3 3 * * *")   echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=2" >> $GITHUB_OUTPUT ;;
+            "schedule:33 6 * * *")  echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=3" >> $GITHUB_OUTPUT ;;
+            "schedule:29 9 * * *")  echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=4" >> $GITHUB_OUTPUT ;;
+            "schedule:57 10 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=5" >> $GITHUB_OUTPUT ;;
+            "schedule:17 1 * * 1")  echo "mode=weekly" >> $GITHUB_OUTPUT ;;
+            *) echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT; echo "slot=${{ github.event.inputs.slot }}" >> $GITHUB_OUTPUT ;;
           esac
 
       - name: Karyawan AI bekerja
@@ -56,6 +67,7 @@ jobs:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           IMAGE_MODE: ${{ secrets.IMAGE_MODE }}
           UPDATE_JSON: ${{ inputs.update }}
+          SLOT: ${{ steps.m.outputs.slot }}
         run: python -m office.main ${{ steps.m.outputs.mode }}
 
       - name: Simpan buku kerja kantor

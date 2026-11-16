@@ -16,17 +16,18 @@ import sys
 
 from . import telegram
 from .core import State, load_config, now_wit, WIT, AGENTS
-from .agents import riset, naskah, desain, humas, cuan, analis, foto, tiktok
+from .agents import riset, naskah, desain, humas, cuan, analis, foto, tiktok, reels
 
 HELP = """🏢 <b>Kantor Virtual ASN GO Digitals</b>
 Perintah untuk Bos:
 
 /buat [topik] — buat carousel baru (topik opsional)
+/reels [topik] — buat video Reels baru
 /buat_promo [id_produk] — carousel soft-selling produk
 /ide — 10 ide konten
 /antrian — daftar draft
 /lihat [id] — pratinjau ulang draft
-/setuju [id] — setujui (terbit sesuai jadwal)
+/setuju [id] — setujui & langsung terbit
 /terbit [id] — terbitkan sekarang
 /revisi [id] [catatan] — tulis ulang dengan catatan
 /tolak [id] — buang draft
@@ -80,7 +81,8 @@ def create_draft(cfg, state, topic=None, pillar_id=None, fmt=None, product_id=No
     product = cuan.pick_product(cfg, state, pillar["id"], force=bool(promo), product_id=product_id)
     news = riset.headlines(cfg, state) if not base else None
 
-    content = naskah.write(cfg, state, pillar, topic, fmt, news=news, product=product if promo else None, notes=notes)
+    content = naskah.write(cfg, state, pillar, topic, fmt, news=news, product=product if promo else None, notes=notes,
+                           avoid=state.d.get("recent_hooks", []))
     content = naskah.verify(cfg, state, content)
     if not promo:
         content = cuan.add_soft_cta(cfg, content, product)
@@ -91,7 +93,8 @@ def create_draft(cfg, state, topic=None, pillar_id=None, fmt=None, product_id=No
 
     did = base or state.new_draft_id()
     scene = foto.generate_cover(cfg, state, content)
-    images = desain.render(cfg, state, did, content, pillar["name"], fmt, product, scene=scene)
+    images = desain.render(cfg, state, did, content, pillar["name"], fmt, product, scene=scene, pillar_id=pillar["id"])
+    remember_hook(state, content.get("hook", ""))
     state.d["drafts"][did] = {
         "id": did, "status": "draft", "created": now_wit().isoformat(timespec="minutes"),
         "pillar": pillar["name"], "topic": topic, "format": fmt, "product": product and product["id"],
@@ -105,18 +108,82 @@ def create_draft(cfg, state, topic=None, pillar_id=None, fmt=None, product_id=No
     return did
 
 
+def remember_hook(state, hook):
+    rh = state.d.setdefault("recent_hooks", [])
+    if hook:
+        rh.append(hook)
+    state.d["recent_hooks"] = rh[-40:]
+
+
+def create_reels(cfg, state, topic=None, pillar_id=None, notes=None, base=None):
+    state.work("kepala", "Membagi tugas produksi Reels")
+    pillar, auto_topic = naskah.pick_topic(cfg, pillar_id)
+    topic = topic or auto_topic
+    product = cuan.pick_product(cfg, state, pillar["id"])
+    news = riset.headlines(cfg, state) if not base else None
+    sc = reels.write_script(cfg, state, pillar, topic + (f" (catatan Bos: {notes})" if notes else ""), news=news,
+                            product=product, avoid=state.d.get("recent_hooks", []))
+    content = {"hook": sc.get("hook", ""), "caption": sc.get("caption", ""), "hashtags": sc.get("hashtags", []),
+               "beats": sc.get("beats", []), "_qc": {"issues": [], "risk": "rendah"}}
+    content = cuan.add_soft_cta(cfg, content, product)
+    disclosure = cfg.get("influencer", {}).get("disclosure")
+    if disclosure:
+        content["caption"] += "\n\n" + disclosure
+    did = base or state.new_draft_id()
+    video, cover = reels.render(cfg, state, did, sc, pillar["name"], pillar["id"], product)
+    remember_hook(state, content["hook"])
+    state.d["drafts"][did] = {
+        "id": did, "type": "reels", "status": "draft", "created": now_wit().isoformat(timespec="minutes"),
+        "pillar": pillar["name"], "topic": topic, "format": "reels", "product": product and product["id"],
+        "content": content, "images": [cover], "video": video, "scheduled_at": now_wit().isoformat(timespec="minutes"),
+    }
+    state.d["stats"]["drafts"] += 1
+    preview(cfg, state, did)
+    state.done("kepala", f"Reels #{did} dikirim ke Bos")
+    return did
+
+
+def slot_plan(cfg, idx):
+    """Rotasi pilar & format per slot agar tiap hari berbeda."""
+    slot = cfg["slots"][idx]
+    day = now_wit().timetuple().tm_yday
+    order = [p["id"] for p in cfg["pillars"]]
+    pillar_id = order[(day * len(cfg["slots"]) + idx) % len(order)]
+    fmts = slot.get("formats") or ["carousel_listicle"]
+    return slot, pillar_id, fmts[day % len(fmts)]
+
+
+def run_slot(cfg, state, idx):
+    slot, pillar_id, fmt = slot_plan(cfg, idx)
+    state.work("kepala", f"Jadwal {slot['time']} WIT: {slot['type']} {pillar_id}")
+    if slot["type"] == "reels":
+        did = create_reels(cfg, state, pillar_id=pillar_id)
+    else:
+        did = create_draft(cfg, state, pillar_id=pillar_id, fmt=fmt)
+    d = state.d["drafts"][did]
+    risky = d["content"].get("_qc", {}).get("risk") == "tinggi"
+    if cfg.get("slot_autopublish", True) and not risky:
+        d["status"] = "approved"
+        humas.publish(cfg, state, did)
+    else:
+        telegram.send(f"⏸ #{did} menunggu persetujuan Bos" + (" (QC: risiko tinggi)" if risky else "") +
+                      ". Tekan ✅ Setujui untuk langsung terbit.")
+
+
 def preview(cfg, state, did):
     d = state.d["drafts"].get(did)
     if not d:
         telegram.send(f"Draft #{esc(did)} tidak ditemukan.")
         return
     from .core import ROOT
-    telegram.send_album([ROOT / p for p in d["images"]])
+    if d.get("type") == "reels":
+        telegram.send_video(ROOT / d["video"], f"🎬 Reels #{did}")
+    else:
+        telegram.send_album([ROOT / p for p in d["images"]])
     qc = d["content"].get("_qc", {})
     issues = "\n".join(f"  • {esc(i)}" for i in qc.get("issues", [])[:5]) or "  • tidak ada"
-    when = d["scheduled_at"].replace("T", " ")[:16]
     text = (f"📝 <b>Draft #{did}</b> — {esc(d['pillar'])} • {FMT_LABEL.get(d['format'], d['format'])}\n"
-            f"Status: <b>{d['status']}</b> | Jadwal: {when} WIT\n"
+            f"Status: <b>{d['status']}</b>\n"
             f"🛡 QC risiko <b>{esc(qc.get('risk', '-'))}</b>:\n{issues}\n\n"
             f"<b>Caption:</b>\n{esc(humas.caption_of(d))[:2500]}")
     buttons = [[("✅ Setujui", f"ok:{did}"), ("🚀 Terbit sekarang", f"now:{did}")],
@@ -137,6 +204,9 @@ def handle_command(cfg, state, text):
     elif cmd == "/buat":
         ack("👷 Siap Bos! Tim mulai produksi carousel... (± 1–2 menit)")
         create_draft(cfg, state, topic=(text.split(maxsplit=1)[1] if arg else None))
+    elif cmd == "/reels":
+        ack("🎬 Tim membuat Reels... (± 2–3 menit)")
+        create_reels(cfg, state, topic=(text.split(maxsplit=1)[1] if arg else None))
     elif cmd == "/buat_promo":
         ack("💰 Bang Cuan & tim menyiapkan konten soft-selling...")
         create_draft(cfg, state, fmt="carousel_promo", product_id=arg or None)
@@ -152,7 +222,8 @@ def handle_command(cfg, state, text):
         telegram.send(f"Draft #{esc(arg)} tidak ditemukan. Cek /antrian")
     elif cmd == "/setuju":
         drafts[arg]["status"] = "approved"
-        telegram.send(f"✅ #{arg} disetujui. Terbit {drafts[arg]['scheduled_at'][:16].replace('T', ' ')} WIT.")
+        drafts[arg]["scheduled_at"] = now_wit().isoformat(timespec="minutes")
+        telegram.send(f"✅ #{arg} disetujui, sedang diterbitkan ke IG & FB...")
     elif cmd == "/terbit":
         drafts[arg]["status"] = "approved"
         drafts[arg]["scheduled_at"] = now_wit().isoformat(timespec="minutes")
@@ -167,6 +238,9 @@ def handle_command(cfg, state, text):
             d = drafts[arg]
             ack(f"✍️ Bu Naskah merevisi #{arg}...")
             p = next((x["id"] for x in cfg["pillars"] if x["name"] == d["pillar"]), None)
+            if d.get("type") == "reels":
+                create_reels(cfg, state, topic=d["topic"], pillar_id=p, notes=rest or "lebih menarik", base=arg)
+                return
             create_draft(cfg, state, topic=d["topic"], pillar_id=p, fmt=d["format"],
                          product_id=d.get("product") if d["format"] == "carousel_promo" else None,
                          notes=rest or "buat lebih menarik dan lebih praktis", base=arg)
@@ -265,6 +339,9 @@ def run(mode):
                 upd = (ev.get("client_payload") or {}).get("update")
             if upd:
                 handle_update(cfg, state, upd)
+            humas.publish_due(cfg, state)
+        elif mode == "slot":
+            run_slot(cfg, state, int(os.environ.get("SLOT", "0")))
             humas.publish_due(cfg, state)
         elif mode == "weekly":
             telegram.send(analis.weekly_report(cfg, state))

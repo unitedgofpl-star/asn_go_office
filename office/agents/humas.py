@@ -22,14 +22,25 @@ def publish(cfg, state, draft_id):
     state.work("humas", f"Menerbitkan #{draft_id} ke IG & FB...")
     cap = caption_of(d)
     result, errors = {}, []
+    from .. import gitsync
+    is_reels = d.get("type") == "reels"
+    media = [d["video"], d["images"][0]] if is_reels else d["images"]
+    gitsync.push_media(media, public_urls(media))
     if env("IG_USER_ID"):
         try:
-            result["ig"] = meta.ig_publish_carousel(public_urls(d["images"]), cap)
+            if is_reels:
+                v, c = public_urls([d["video"], d["images"][0]])
+                result["ig"] = meta.ig_publish_reel(v, cap, c)
+            else:
+                result["ig"] = meta.ig_publish_carousel(public_urls(d["images"]), cap)
         except Exception as e:
             errors.append(f"IG: {e}")
     if env("FB_PAGE_ID"):
         try:
-            result["fb"] = meta.fb_publish_album([str(ROOT / p) for p in d["images"]], cap)
+            if is_reels:
+                result["fb"] = meta.fb_publish_video(str(ROOT / d["video"]), cap)
+            else:
+                result["fb"] = meta.fb_publish_album([str(ROOT / p) for p in d["images"]], cap)
         except Exception as e:
             errors.append(f"FB: {e}")
     d["published"] = result

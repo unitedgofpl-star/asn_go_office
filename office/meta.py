@@ -115,3 +115,29 @@ def fb_publish_album(image_paths, message: str) -> str:
         data[f"attached_media[{i}]"] = '{"media_fbid":"%s"}' % mid
     post = _check(requests.post(f"{_base()}/{page}/feed", data=data, timeout=60))
     return f"https://facebook.com/{post['id']}"
+
+
+def ig_publish_reel(video_url, caption, cover_url=None):
+    ig, tok = env("IG_USER_ID"), _token()
+    data = {"media_type": "REELS", "video_url": video_url, "caption": caption, "share_to_feed": "true", "access_token": tok}
+    if cover_url:
+        data["cover_url"] = cover_url
+    c = _check(requests.post(f"{_base()}/{ig}/media", data=data, timeout=60))
+    for _ in range(60):  # video diproses Instagram, bisa 1-3 menit
+        st = _check(requests.get(f"{_base()}/{c['id']}", params={"fields": "status_code,status", "access_token": tok}, timeout=30))
+        if st.get("status_code") == "FINISHED":
+            break
+        if st.get("status_code") == "ERROR":
+            raise RuntimeError(f"Instagram menolak video: {st.get('status')}")
+        time.sleep(5)
+    pub = _check(requests.post(f"{_base()}/{ig}/media_publish", data={"creation_id": c["id"], "access_token": tok}, timeout=60))
+    link = _check(requests.get(f"{_base()}/{pub['id']}", params={"fields": "permalink", "access_token": tok}, timeout=30))
+    return link.get("permalink", pub["id"])
+
+
+def fb_publish_video(path, description):
+    page, tok = env("FB_PAGE_ID"), _token()
+    url = f"https://graph-video.facebook.com/{env('GRAPH_VERSION', 'v21.0')}/{page}/videos"
+    with open(path, "rb") as f:
+        r = _check(requests.post(url, data={"description": description, "access_token": tok}, files={"source": f}, timeout=300))
+    return f"https://facebook.com/{r['id']}"

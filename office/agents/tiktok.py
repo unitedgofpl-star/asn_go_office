@@ -82,7 +82,7 @@ def send_package(cfg, state, draft_id):
         return
     state.work("humas", f"Menyiapkan paket TikTok #{draft_id}...")
     try:
-        video = make_video(cfg, draft_id, d["images"])
+        video = (ROOT / d["video"]) if d.get("type") == "reels" else make_video(cfg, draft_id, d["images"])
         cap = caption(cfg, d["content"])
         telegram.send_video(video, f"📱 Paket TikTok #{draft_id} — simpan video ini lalu unggah di TikTok")
         import html

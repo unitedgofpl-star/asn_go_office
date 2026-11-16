@@ -15,7 +15,7 @@ SCHEMA = """Balas HANYA JSON dengan struktur:
 {
  "hook": "judul cover gaya headline berita, 6-10 kata, bikin penasaran (contoh: '6 Aplikasi Gratis yang Bikin Laporan Desa Kelar Sehari')",
  "subtitle": "sub-judul cover maks 12 kata",
- "cover_pose": "melipat_tangan | presentasi | berdiri",
+ "mood": "suasana ekspresi Cicilia yang paling cocok dengan isi: ceria | semangat | terkejut | cemberut | tegas | sedih | sayang | tenang | menjelaskan (mis. kesalahan umum → cemberut/tegas, mitos → terkejut, beban lembur → sedih, tips → ceria/semangat, promo → sayang)",
  "items": [{"title": "maks 5 kata", "sub": "maks 9 kata", "icon": "1 emoji yang mewakili"}],
  "details": [{"title": "sama dengan salah satu items.title", "body": "penjelasan praktis maks 45 kata"}],
  "note": "catatan kaki/disclaimer singkat maks 16 kata (mis. 'Cek regulasi terbaru di instansi Anda')",
@@ -48,7 +48,7 @@ def pick_topic(cfg, pillar_id):
     return p, random.choice(p["topics"])
 
 
-def write(cfg, state, pillar, topic, fmt, news=None, product=None, notes=None):
+def write(cfg, state, pillar, topic, fmt, news=None, product=None, notes=None, avoid=None):
     state.work("naskah", f"Menulis carousel: {topic[:50]}")
     prompt = f"Pilar: {pillar['name']}\nTopik: {topic}\nFormat: {FORMATS.get(fmt, FORMATS['carousel_listicle'])}\n"
     if news:
@@ -58,6 +58,8 @@ def write(cfg, state, pillar, topic, fmt, news=None, product=None, notes=None):
                    "Arahkan ke 'link di bio'.\n")
     if notes:
         prompt += f"\nCATATAN REVISI DARI BOS (wajib dipenuhi): {notes}\n"
+    if avoid:
+        prompt += "\nJangan mengulang judul/sudut pandang yang sudah pernah terbit ini: " + "; ".join(avoid[-15:]) + "\n"
     prompt += "\n" + SCHEMA
     content = llm.ask(prompt, _system(cfg), as_json=True)
     state.done("naskah", f"Draft selesai: \"{content.get('hook', '')}\"")
@@ -69,7 +71,7 @@ def verify(cfg, state, content):
     state.work("qc", "Mengecek fakta, regulasi & bahasa...")
     prompt = (
         "Periksa konten carousel JSON berikut untuk akun edukasi ASN/pemerintahan desa.\n"
-        "Pastikan struktur JSON tetap (hook, subtitle, cover_pose, items, details, note, cta, caption, hashtags). Cek: (1) klaim regulasi/angka yang berpotensi salah atau dikarang → hapus nomornya atau ubah jadi umum; "
+        "Pastikan struktur JSON tetap (hook, subtitle, mood, items, details, note, cta, caption, hashtags). Cek: (1) klaim regulasi/angka yang berpotensi salah atau dikarang → hapus nomornya atau ubah jadi umum; "
         "(2) saran yang melanggar aturan/etika ASN atau keamanan data; (3) typo & EYD; (4) panjang teks per slide (maks 45 kata).\n"
         "Balas JSON: {\"issues\": [\"...\"], \"risk\": \"rendah|sedang|tinggi\", \"content\": <konten yang sudah diperbaiki, struktur sama persis>}\n\n"
         f"KONTEN:\n{content}"

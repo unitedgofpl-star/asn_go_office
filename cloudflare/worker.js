@@ -17,11 +17,12 @@ const HELP = `🏢 <b>Kantor Virtual ASN GO Digitals</b>
 Perintah untuk Bos:
 
 /buat [topik] — buat carousel baru (topik opsional)
+/reels [topik] — buat video Reels baru
 /buat_promo [id_produk] — carousel soft-selling produk
 /ide — 10 ide konten
 /antrian — daftar draft
 /lihat [id] — pratinjau ulang draft
-/setuju [id] — setujui (terbit sesuai jadwal 19.00 WIT)
+/setuju [id] — setujui & langsung terbit
 /terbit [id] — terbitkan sekarang
 /revisi [id] [catatan] — tulis ulang dengan catatan
 /tolak [id] — buang draft
@@ -37,6 +38,7 @@ Atau ketik topik bebas, mis. "cara cepat bikin SK Kepala Desa".`;
 
 const SLOW = {
   "/buat": "👷 Siap Bos! Mbak Riset, Bu Naskah, Pak Verifikator & Mas Desain mulai bekerja. Pratinjau carousel dikirim ±2–3 menit lagi.",
+  "/reels": "🎬 Tim membuat video Reels: naskah, desain, animasi. Pratinjau ±3–4 menit lagi.",
   "/buat_promo": "💰 Bang Cuan & tim menyiapkan konten soft-selling. Pratinjau ±2–3 menit lagi.",
   "/revisi": "✍️ Bu Naskah merevisi draft. Hasil ±2–3 menit lagi.",
   "/terbit": "🚀 Mbak Humas menyiapkan penerbitan ke IG & FB (±1–2 menit).",
@@ -71,10 +73,10 @@ export default {
       // Tombol di bawah pratinjau (Setujui / Terbit / Tulis ulang / Tolak)
       if (update.callback_query) {
         const [act] = (update.callback_query.data || "").split(":");
-        const label = { ok: "✅ Disetujui", now: "🚀 Diterbitkan sebentar lagi", redo: "🔁 Ditulis ulang", no: "🗑 Dibuang" }[act] || "Diproses";
+        const label = { ok: "✅ Disetujui, sedang terbit", now: "🚀 Diterbitkan sebentar lagi", redo: "🔁 Ditulis ulang", no: "🗑 Dibuang" }[act] || "Diproses";
         await tg(env, "answerCallbackQuery", { callback_query_id: update.callback_query.id, text: label });
         await dispatch(env, update);
-        if (act === "now" || act === "redo") await send(env, chat, act === "now" ? SLOW["/terbit"] : SLOW["/revisi"]);
+        if (act === "now" || act === "ok" || act === "redo") await send(env, chat, act === "redo" ? SLOW["/revisi"] : SLOW["/terbit"]);
         return ok();
       }
 
