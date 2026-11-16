@@ -324,7 +324,7 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 13:33"
+   "at": "2026-11-16 13:34"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
@@ -370,6 +370,16 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 13:34",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 13:34",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 13:33",
    "agent": "kepala",
@@ -659,22 +669,12 @@
    "at": "2026-11-15 22:23",
    "agent": "desain",
    "msg": "Mendesain carousel + Cicilia..."
-  },
-  {
-   "at": "2026-11-15 22:23",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 3 catatan"
-  },
-  {
-   "at": "2026-11-15 22:21",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
   }
  ],
  "stats": {
   "published": 2,
   "drafts": 4
  },
- "updated": "2026-11-16T13:33+09:00",
+ "updated": "2026-11-16T13:34+09:00",
  "cuan_rot": 4
 }
