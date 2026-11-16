@@ -495,7 +495,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 21:24"
+   "at": "2026-11-16 21:34"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -530,8 +530,8 @@
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-16 21:18"
+   "last": "Copy promo Generator Naskah Dinas siap",
+   "at": "2026-11-16 21:34"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -541,6 +541,26 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 21:34",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 21:34",
+   "agent": "cuan",
+   "msg": "Copy promo Generator Naskah Dinas siap"
+  },
+  {
+   "at": "2026-11-16 21:33",
+   "agent": "cuan",
+   "msg": "Menulis copy promo Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-16 21:33",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 21:25",
    "agent": "humas",
@@ -820,33 +840,13 @@
    "at": "2026-11-16 13:32",
    "agent": "kepala",
    "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 12:52",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 12:52",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 12:51",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 12:51",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
   }
  ],
  "stats": {
   "published": 5,
   "drafts": 6
  },
- "updated": "2026-11-16T21:25+09:00",
+ "updated": "2026-11-16T21:34+09:00",
  "cuan_rot": 6,
  "last_followers": 130,
  "style_hist": [
