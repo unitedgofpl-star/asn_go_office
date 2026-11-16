@@ -324,7 +324,7 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 12:52"
+   "at": "2026-11-16 13:33"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
@@ -370,6 +370,16 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 13:33",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 13:32",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 12:52",
    "agent": "kepala",
@@ -659,22 +669,12 @@
    "at": "2026-11-15 22:21",
    "agent": "qc",
    "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-15 22:21",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Bikin RPJMDes & RKPDes Tanpa Pusing Tujuh Keliling\""
-  },
-  {
-   "at": "2026-11-15 22:19",
-   "agent": "naskah",
-   "msg": "Menulis carousel: perencanaan RPJMDes, RKPDes, APBDes, Siskeudes"
   }
  ],
  "stats": {
   "published": 2,
   "drafts": 4
  },
- "updated": "2026-11-16T12:52+09:00",
+ "updated": "2026-11-16T13:33+09:00",
  "cuan_rot": 4
 }
