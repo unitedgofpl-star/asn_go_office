@@ -239,38 +239,116 @@
     "public/11160622/slide_05.jpg"
    ],
    "scheduled_at": "2026-11-16T19:00+09:00"
+  },
+  "11161033": {
+   "id": "11161033",
+   "status": "draft",
+   "created": "2026-11-16T10:33+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "prompt ChatGPT/Claude/Gemini untuk surat dinas, notulen, laporan",
+   "format": "carousel_tutorial",
+   "product": "prompt-pack",
+   "content": {
+    "hook": "Bikin Surat Dinas & Laporan Cepat Pakai AI",
+    "subtitle": "Panduan praktis ASN dan aparatur desa bekerja efektif dan aman",
+    "cover_pose": "presentasi",
+    "items": [
+     {
+      "title": "Siapkan Poin Inti",
+      "sub": "Tulis maksud surat atau laporan secara ringkas",
+      "icon": "📝"
+     },
+     {
+      "title": "Gunakan Instruksi Jelas",
+      "sub": "Berikan perintah peran dan format yang spesifik",
+      "icon": "🤖"
+     },
+     {
+      "title": "Jaga Kerahasiaan Data",
+      "sub": "Hindari mengunggah data rahasia atau identitas pribadi",
+      "icon": "🔒"
+     },
+     {
+      "title": "Verifikasi dan Edit",
+      "sub": "Sesuaikan format dengan Tata Naskah Dinas",
+      "icon": "✅"
+     }
+    ],
+    "details": [
+     {
+      "title": "Siapkan Poin Inti",
+      "sub": "Tulis maksud surat atau laporan secara ringkas",
+      "body": "Sebelum memanfaatkan AI, susun poin utama informasi yang ingin disampaikan. Pastikan tujuan, sasaran, dan konteks kegiatan jelas agar hasil draf tidak bias atau menyimpang dari maksud naskah dinas.",
+      "icon": "📝"
+     },
+     {
+      "title": "Gunakan Instruksi Jelas",
+      "sub": "Berikan perintah peran dan format yang spesifik",
+      "body": "Gunakan instruksi terstruktur. Contoh: 'Bertindaklah sebagai staf konseptor surat dinas. Susun draf undangan rapat koordinasi pembangunan desa dengan bahasa formal dan lugas.' Ingat, jangan masukkan NIK atau data pribadi.",
+      "icon": "🤖"
+     }
+    ],
+    "note": "AI hanya berfungsi sebagai konseptor awal. Selalu verifikasi dan sesuaikan isi dengan pedoman Tata Naskah Dinas yang berlaku di instansi masing-masing.",
+    "cta": "Simpan postingan ini sebagai referensi kerja administrasi harian Anda!",
+    "caption": "Halo Rekan ASN dan Sobat Desa! Penyusunan draf surat dan laporan dinas kini bisa lebih terbantu dengan teknologi AI. Namun, profesionalisme tetap yang utama: jadikan AI sebagai asisten penyusun kerangka, bukan penentu akhir. Tetap patuhi aturan kerahasiaan data dan pedoman tata naskah dinas setempat. Yuk, simpan dan bagikan tips ini ke rekan kerja kantor Anda! Bagaimana pengalaman Anda memanfaatkan teknologi dalam administrasi dinas?\n\n🛠 Mau lebih cepat? cek Paket Prompt AI untuk ASN — link di bio (https://lynk.id/USERNAME_ANDA).\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#SmartASN",
+     "#DigitalisasiDesa",
+     "#TataNaskahDinas",
+     "#ProduktivitasASN",
+     "#ManajemenASN",
+     "#ASNBerAKHLAK"
+    ],
+    "_qc": {
+     "issues": [
+      "Isu keamanan data & etika ASN: Belum ada penegasan/disclaimer terkait perlindungan data pribadi dan larangan memasukkan data rahasia/dokumen berklasifikasi ke platform AI publik.",
+      "Konsistensi persona: Terdapat nama 'Cicilia' pada caption yang muncul tiba-tiba tanpa konteks akun.",
+      "Relevansi tagar: Tagar #Siskeudes kurang relevan dengan konteks pembuatan surat dinas/laporan umum, dan tagar #asn_go_digitals tidak baku.",
+      "Penyempurnaan regulasi dan EYD: Kata serapan seperti 'Review' disesuaikan menjadi 'Tinjau/Periksa Kembali', serta penegasan kepatuhan pada regulasi Tata Naskah Dinas yang berlaku di instansi."
+     ],
+     "risk": "sedang"
+    }
+   },
+   "images": [
+    "public/11161033/slide_01.jpg",
+    "public/11161033/slide_02.jpg",
+    "public/11161033/slide_03.jpg",
+    "public/11161033/slide_04.jpg",
+    "public/11161033/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-16T19:00+09:00"
   }
  },
  "agents": {
   "kepala": {
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
-   "last": "Perintah selesai diproses",
-   "at": "2026-11-16 06:25"
+   "last": "Draft #11161033 dikirim ke Bos",
+   "at": "2026-11-16 10:33"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-16 06:20"
+   "at": "2026-11-16 10:30"
   },
   "naskah": {
    "name": "Bu Naskah (Penulis Konten)",
    "status": "idle",
-   "last": "Draft selesai: \"Bikin Panitia Pilkades Anti-Ribet Pakai AI\"",
-   "at": "2026-11-16 06:22"
+   "last": "Draft selesai: \"Bikin Surat Dinas & Laporan 3 Menit Pakai AI\"",
+   "at": "2026-11-16 10:32"
   },
   "qc": {
    "name": "Pak Verifikator (Cek Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-16 06:22"
+   "last": "QC selesai — risiko sedang, 4 catatan",
+   "at": "2026-11-16 10:33"
   },
   "desain": {
    "name": "Mas Desain (Desainer Carousel)",
    "status": "idle",
    "last": "5 slide siap (1080x1350)",
-   "at": "2026-11-16 06:22"
+   "at": "2026-11-16 10:33"
   },
   "humas": {
    "name": "Mbak Humas (Publisher IG & FB)",
@@ -281,8 +359,8 @@
   "cuan": {
    "name": "Bang Cuan (Sales lynk.id)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-16 06:20"
+   "last": "Menyiapkan CTA produk: Paket Prompt AI untuk ASN",
+   "at": "2026-11-16 10:30"
   },
   "analis": {
    "name": "Kak Analis (Laporan Performa)",
@@ -292,6 +370,61 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 10:33",
+   "agent": "kepala",
+   "msg": "Draft #11161033 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-16 10:33",
+   "agent": "desain",
+   "msg": "5 slide siap (1080x1350)"
+  },
+  {
+   "at": "2026-11-16 10:33",
+   "agent": "desain",
+   "msg": "Mendesain carousel + Cicilia..."
+  },
+  {
+   "at": "2026-11-16 10:33",
+   "agent": "qc",
+   "msg": "QC selesai — risiko sedang, 4 catatan"
+  },
+  {
+   "at": "2026-11-16 10:32",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-16 10:32",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Bikin Surat Dinas & Laporan 3 Menit Pakai AI\""
+  },
+  {
+   "at": "2026-11-16 10:30",
+   "agent": "naskah",
+   "msg": "Menulis carousel: prompt ChatGPT/Claude/Gemini untuk surat dinas, no"
+  },
+  {
+   "at": "2026-11-16 10:30",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-16 10:30",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-16 10:30",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Paket Prompt AI untuk ASN"
+  },
+  {
+   "at": "2026-11-16 10:30",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
   {
    "at": "2026-11-16 06:25",
    "agent": "kepala",
@@ -536,67 +669,12 @@
    "at": "2026-11-15 22:19",
    "agent": "kepala",
    "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-15 22:19",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 21:49",
-   "agent": "humas",
-   "msg": "#11152145 → ig"
-  },
-  {
-   "at": "2026-11-15 21:49",
-   "agent": "humas",
-   "msg": "Menerbitkan #11152145 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-15 21:49",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 21:49",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 21:45",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 21:45",
-   "agent": "kepala",
-   "msg": "Draft #11152145 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-15 21:45",
-   "agent": "desain",
-   "msg": "5 slide siap (1080x1350)"
-  },
-  {
-   "at": "2026-11-15 21:45",
-   "agent": "desain",
-   "msg": "Mendesain carousel + Cicilia..."
-  },
-  {
-   "at": "2026-11-15 21:45",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 2 catatan"
-  },
-  {
-   "at": "2026-11-15 21:43",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
   }
  ],
  "stats": {
   "published": 2,
-  "drafts": 3
+  "drafts": 4
  },
- "updated": "2026-11-16T06:25+09:00",
- "cuan_rot": 3
+ "updated": "2026-11-16T10:33+09:00",
+ "cuan_rot": 4
 }
