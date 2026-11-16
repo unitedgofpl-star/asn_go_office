@@ -20,7 +20,8 @@ def pick_product(cfg, state, pillar_id, force=False, product_id=None):
 def add_soft_cta(cfg, content, product):
     if not product:
         return content
-    line = f"\n\n🛠 Mau lebih cepat? cek {product['name']} — link di bio ({cfg.get('lynk_url', '')})."
+    line = (f"\n\n🛠 Capek ngetik surat dinas dari nol? {product['name']} — {product['price']}. "
+            f"Cek link di bio 👉 {cfg.get('lynk_url', '')}")
     content["caption"] = content.get("caption", "") + line
     return content
 
@@ -32,6 +33,7 @@ def promo_copy(cfg, state, product):
         f"Tulis 3 versi copy promosi singkat (maks 60 kata/versi) untuk produk '{product['name']}' "
         f"seharga {product['price']}: {product['pitch']} Target: ASN & perangkat desa. "
         f"Versi 1 untuk Story IG, versi 2 untuk broadcast WhatsApp, versi 3 untuk komentar balasan. "
-        f"Sertakan link {product['url']}. Bahasa Indonesia, tidak lebay.")
+        f"Sertakan link landing page {product['url']} dan link toko {cfg.get('lynk_url', '')}. "
+        "Bahasa Indonesia, tidak lebay, jangan mengaku resmi dari pemerintah/Kemendagri.")
     state.done("cuan", f"Copy promo {product['name']} siap")
     return out

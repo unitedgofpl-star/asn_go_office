@@ -87,22 +87,29 @@ tiktok:
   hashtags: ["#fyp", "#asn", "#pns", "#pppk", "#perangkatdesa", "#tipskerja"]
 
 # Produk digital Anda (lynk.id). Agent Sales akan menyelipkan CTA.
-lynk_url: "https://lynk.id/USERNAME_ANDA"
+lynk_url: "https://lynk.id/asngodigital"
+landing_url: "https://famous-travesseiro-bce23d.netlify.app"
 products:
   - id: naskah
     name: "Generator Naskah Dinas"
-    price: "Rp49.000"
-    url: "https://lynk.id/USERNAME_ANDA/generator-naskah-dinas"
+    price: "mulai Rp99.000 (sekali bayar)"
+    url: "https://famous-travesseiro-bce23d.netlify.app"
     pitch: >
-      Buat surat dinas, nota dinas, undangan, dan SK sesuai tata naskah dinas
-      dalam hitungan menit. Tinggal isi, jadi.
+      Buat surat dinas, undangan, nota dinas, surat tugas, surat edaran, surat keterangan, surat pengantar
+      dan surat pernyataan sesuai Permendagri 1/2023 dalam hitungan menit. 3 gaya kop (OPD, kepala daerah,
+      desa/kampung/kelurahan), 2.988 kode klasifikasi arsip, ekspor Word/PDF/Excel/gambar, nomor & agenda
+      surat otomatis, bisa dibantu AI. Data tersimpan di perangkat sendiri, jalan offline.
+      Paket: Personal Rp99.000 · Pro Rp179.000 (2 perangkat + bonus 100 prompt surat & notulen + grup WA) ·
+      Kantor Rp749.000 (10 perangkat + kop & logo disiapkan + pelatihan 60 menit).
     match_pillars: [desa, asn, ai]
-  - id: prompt-pack
-    name: "Paket Prompt AI untuk ASN"
-    price: "Rp29.000"
-    url: "https://lynk.id/USERNAME_ANDA/prompt-asn"
-    pitch: "100+ prompt siap pakai untuk laporan, notulen, paparan, dan analisis."
-    match_pillars: [ai, asn]
+  - id: kantor
+    name: "Generator Naskah Dinas — Paket Kantor"
+    price: "Rp749.000 (10 perangkat)"
+    url: "https://famous-travesseiro-bce23d.netlify.app"
+    pitch: >
+      Satu paket untuk satu kantor (OPD, kecamatan, kelurahan, kantor desa/kampung): hingga 10 perangkat,
+      kop dan logo instansi disiapkan, pelatihan online 60 menit, kuitansi pembelian. Sekali bayar.
+    match_pillars: [desa, asn]
 
 # Sumber riset tren (RSS gratis). Tambah/hapus sesuka hati.
 research_queries:
