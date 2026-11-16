@@ -18,6 +18,7 @@ Perintah untuk Bos:
 
 /buat [topik] — buat carousel baru (topik opsional)
 /reels [topik] — buat video Reels baru
+/berita [topik] — carousel berita terkini
 /buat_promo [id_produk] — carousel soft-selling produk
 /ide — 10 ide konten
 /antrian — daftar draft
@@ -39,6 +40,7 @@ Atau ketik topik bebas, mis. "cara cepat bikin SK Kepala Desa".`;
 const SLOW = {
   "/buat": "👷 Siap Bos! Kaka Maria, Kaka Selfina, Kaka Agus & Kaka Elisa mulai bekerja. Pratinjau carousel dikirim ±2–3 menit lagi.",
   "/reels": "🎬 Tim membuat video Reels: naskah, desain, animasi. Pratinjau ±3–4 menit lagi.",
+  "/berita": "📰 Kaka Maria memantau berita terkini dari media tepercaya, Kaka Selfina merangkum. Pratinjau ±3 menit lagi.",
   "/buat_promo": "💰 Kaka Yance & tim menyiapkan konten soft-selling. Pratinjau ±2–3 menit lagi.",
   "/revisi": "✍️ Kaka Selfina merevisi draft. Hasil ±2–3 menit lagi.",
   "/terbit": "🚀 Kaka Natalia menyiapkan penerbitan ke IG & FB (±1–2 menit).",

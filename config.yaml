@@ -73,15 +73,17 @@ weekly_plan:
   5: {pillar: asn,  format: carousel_mitos}       # mitos vs fakta
   6: {pillar: any,  format: carousel_promo}       # soft-selling produk lynk.id
 
-# JADWAL 6 POSTINGAN/HARI (4 carousel + 2 Reels). Jam dalam WIT; jadwal di .github/workflows/kantor.yml.
+# JADWAL 8 POSTINGAN/HARI (4 carousel edukasi + 2 berita terkini + 2 Reels). Jam dalam WIT; jadwal di .github/workflows/kantor.yml.
 # Pilar berputar tiap slot & tiap hari; format dipilih bergiliran dari daftar "formats".
 # GitHub kadang terlambat menjalankan jadwal (beberapa menit s.d. ±1 jam).
 slot_autopublish: true     # true = langsung terbit (konten berisiko tinggi tetap menunggu ✅ Bos)
 slots:
   - {time: "06:30", type: carousel, formats: [carousel_listicle, carousel_tutorial, carousel_prompt]}
+  - {time: "08:00", type: berita}
   - {time: "09:00", type: reels}
   - {time: "12:00", type: carousel, formats: [carousel_prompt, carousel_tutorial, carousel_listicle]}
   - {time: "15:30", type: carousel, formats: [carousel_mitos, carousel_listicle, carousel_tutorial]}
+  - {time: "17:00", type: berita}
   - {time: "18:30", type: reels}
   - {time: "20:00", type: carousel, formats: [carousel_promo, carousel_tutorial, carousel_listicle]}
 
@@ -91,6 +93,21 @@ post_hour_wit: 19
 # Mode persetujuan: true = setiap draft dikirim ke Telegram dulu dan baru
 # terbit setelah Anda tekan ✅. SANGAT disarankan untuk niche pemerintahan.
 require_approval: true
+
+# BERITA TERKINI — carousel dari media tepercaya (dirangkum ulang + sumber & tautan di caption).
+berita:
+  # Foto hanya diambil dari sumber berikut (aman hak cipta): situs pemerintah & Wikimedia.
+  foto_dari: [".go.id", "wikimedia.org"]
+  # true = pakai juga foto dari media (Kompas, Detik, dll). Risiko klaim hak cipta ditanggung pemilik akun.
+  foto_media: false
+  maks_foto: 6
+  sumber_tepercaya: [antaranews.com, kompas.com, kompas.id, detik.com, cnnindonesia.com, tempo.co, liputan6.com, republika.co.id,
+                     bisnis.com, kontan.co.id, katadata.co.id, tirto.id, kumparan.com, rri.co.id, tvri.go.id, jpnn.com, idntimes.com,
+                     .go.id]
+  kueri:
+    asn: ["ASN", "PNS", "PPPK", "KemenPANRB", "BKN", "SPBE"]
+    desa: ["dana desa", "kepala desa", "pemerintahan desa", "Kemendes", "kampung Papua"]
+    ai: ["kecerdasan buatan Indonesia", "AI pemerintah", "transformasi digital pemerintah", "Komdigi"]
 
 # TikTok: setiap konten terbit, bot mengirim paket TikTok (video 9:16 + caption) ke Telegram.
 tiktok:

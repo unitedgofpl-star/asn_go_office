@@ -4,12 +4,14 @@ on:
   # Model sama dengan Kantor United Go: perintah Telegram masuk lewat Cloudflare Worker (instan),
   # jadwal hanya beberapa kali sehari (GitHub bisa terlambat, jadi jangan andalkan jadwal rapat).
   schedule:   # UTC = WIT - 9 jam; menit sengaja tidak bulat agar tidak antre di jam sibuk GitHub
-    - cron: "31 21 * * *"    # 06:30 WIT — slot 0 carousel
-    - cron: "7 0 * * *"      # 09:00 WIT — slot 1 Reels
-    - cron: "3 3 * * *"      # 12:00 WIT — slot 2 carousel
-    - cron: "33 6 * * *"     # 15:30 WIT — slot 3 carousel
-    - cron: "29 9 * * *"     # 18:30 WIT — slot 4 Reels
-    - cron: "57 10 * * *"    # 20:00 WIT — slot 5 carousel
+    - cron: "31 21 * * *"    # 06:30 WIT — slot 0 carousel edukasi
+    - cron: "47 22 * * *"    # 07:47 WIT — slot 1 BERITA TERKINI
+    - cron: "7 0 * * *"      # 09:00 WIT — slot 2 Reels
+    - cron: "3 3 * * *"      # 12:00 WIT — slot 3 carousel edukasi
+    - cron: "33 6 * * *"     # 15:30 WIT — slot 4 carousel edukasi
+    - cron: "43 7 * * *"     # 16:43 WIT — slot 5 BERITA TERKINI
+    - cron: "29 9 * * *"     # 18:30 WIT — slot 6 Reels
+    - cron: "57 10 * * *"    # 20:00 WIT — slot 7 carousel edukasi / promo
     - cron: "17 1 * * 1"     # Senin 10:15 WIT — laporan mingguan
   workflow_dispatch:
     inputs:
@@ -20,7 +22,7 @@ on:
         description: "(diisi otomatis oleh bot Telegram)"
         default: ""
       slot:
-        description: "nomor slot 0-5 (untuk mode slot)"
+        description: "nomor slot 0-7 (untuk mode slot)"
         default: "0"
 
 concurrency:
@@ -47,11 +49,13 @@ jobs:
         run: |
           case "${{ github.event_name }}:${{ github.event.schedule }}" in
             "schedule:31 21 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=0" >> $GITHUB_OUTPUT ;;
-            "schedule:7 0 * * *")   echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=1" >> $GITHUB_OUTPUT ;;
-            "schedule:3 3 * * *")   echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=2" >> $GITHUB_OUTPUT ;;
-            "schedule:33 6 * * *")  echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=3" >> $GITHUB_OUTPUT ;;
-            "schedule:29 9 * * *")  echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=4" >> $GITHUB_OUTPUT ;;
-            "schedule:57 10 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=5" >> $GITHUB_OUTPUT ;;
+            "schedule:47 22 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=1" >> $GITHUB_OUTPUT ;;
+            "schedule:7 0 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=2" >> $GITHUB_OUTPUT ;;
+            "schedule:3 3 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=3" >> $GITHUB_OUTPUT ;;
+            "schedule:33 6 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=4" >> $GITHUB_OUTPUT ;;
+            "schedule:43 7 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=5" >> $GITHUB_OUTPUT ;;
+            "schedule:29 9 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=6" >> $GITHUB_OUTPUT ;;
+            "schedule:57 10 * * *") echo "mode=slot" >> $GITHUB_OUTPUT; echo "slot=7" >> $GITHUB_OUTPUT ;;
             "schedule:17 1 * * 1")  echo "mode=weekly" >> $GITHUB_OUTPUT ;;
             *) echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT; echo "slot=${{ github.event.inputs.slot }}" >> $GITHUB_OUTPUT ;;
           esac

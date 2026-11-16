@@ -687,3 +687,115 @@ def render(cfg, state, draft_id, content, pillar_name, fmt, product=None, scene=
         paths.append(str(p.relative_to(ROOT)))
     state.done("desain", f"{len(paths)} slide gaya {st['theme']} siap")
     return paths
+
+
+# ================================================================== BERITA TERKINI
+PILAR_LABEL = {"asn": "ASN", "desa": "PEMERINTAHAN DESA", "ai": "AI & TEKNOLOGI"}
+
+
+def _photo_fit(photo, w, h):
+    return ImageOps.fit(photo.convert("RGB"), (w, h), Image.LANCZOS, centering=(0.5, 0.38)).convert("RGBA")
+
+
+def _shade(img, y0, y1, a0=0, a1=230):
+    sh = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(sh)
+    for y in range(y0, y1):
+        k = (y - y0) / max(1, y1 - y0)
+        d.line([(0, y), (img.width, y)], fill=(8, 10, 18, int(a0 + (a1 - a0) * k)))
+    return Image.alpha_composite(img, sh)
+
+
+def _news_tag(d, x, y, pilar, accent="#C8102E"):
+    f1, f2 = F("int_k", 22), F("int_sb", 22)
+    w1 = d.textlength("BERITA TERKINI", font=f1) + 58
+    d.rounded_rectangle([x, y, x + w1, y + 46], 8, fill=hexc(accent))
+    d.ellipse([x + 16, y + 17, x + 28, y + 29], fill="white")
+    d.text((x + 40, y + 23), "BERITA TERKINI", font=f1, fill="white", anchor="lm")
+    lab = PILAR_LABEL.get(pilar, "INFO")
+    tw = d.textlength(lab, font=f2)
+    d.rounded_rectangle([x + w1 + 10, y, x + w1 + 38 + tw, y + 46], 8, fill=(255, 255, 255, 235))
+    d.text((x + w1 + 24, y + 23), lab, font=f2, fill=hexc("#0B1F3A"), anchor="lm")
+
+
+def news_cover(cfg, photo, data, sources, date_text, total, credit=None):
+    brand = cfg["brand"]
+    if photo is not None:
+        img = _photo_fit(photo, W, H)
+        img = _shade(img, 0, 260, 150, 0)
+        img = _shade(img, 560, H, 0, 245)
+    else:
+        img = background(THEMES["navy"])
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([50, 50, 106, 106], 14, fill=hexc("#E63946"))
+    d.text((78, 78), "AG", font=F("pop_b", 24), fill="white", anchor="mm")
+    d.text((122, 56), brand["name"], font=F("pop_b", 28), fill="white")
+    d.text((122, 88), brand["handle"], font=F("pop_r", 22), fill=(220, 225, 235, 255))
+    if total > 1:
+        d.text((W - 60, 78), f"1/{total}", font=F("int_sb", 26), fill="white", anchor="rm")
+    y = 700 if photo is not None else 230
+    _news_tag(d, 60, y, data.get("pilar"))
+    f, ls, s = fit(d, data["judul"], "int_k", 78, W - 120, 330, min_size=46, spacing=1.08, max_lines=4)
+    y = lines_at(d, (60, y + 76), ls, f, s, (255, 255, 255, 255), 1.08) + 10
+    sf, sl, ss = fit(d, data.get("sub", ""), "pop_r", 32, W - 120, 120, min_size=24, spacing=1.3, max_lines=3)
+    y = lines_at(d, (60, y), sl, sf, ss, (225, 230, 240, 255), 1.3)
+    if photo is None:  # tanpa foto: tampilkan poin penting agar tetap informatif
+        y += 30
+        for i, ptxt in enumerate((data.get("poin") or [])[:4]):
+            pf, pl, ps = fit(d, ptxt, "pop_m", 34, W - 200, 130, min_size=24, spacing=1.25, max_lines=3)
+            d.rounded_rectangle([60, y, W - 60, y + len(pl) * ps * 1.25 + 40], 22, fill=hexc("#163A6B"))
+            d.ellipse([84, y + 22, 120, y + 58], fill=hexc("#F4B942"))
+            d.text((102, y + 40), str(i + 1), font=F("pop_b", 22), fill=hexc("#0B1F3A"), anchor="mm")
+            lines_at(d, (140, y + 20), pl, pf, ps, (255, 255, 255, 255), 1.25)
+            y += len(pl) * ps * 1.25 + 58
+    foot = f"Sumber: {sources}  •  {date_text}"
+    d.text((60, H - 70), foot[:90], font=F("pop_m", 24), fill=(235, 238, 245, 255))
+    if credit:
+        d.text((W - 60, H - 70), f"Foto: {credit}"[:40], font=F("pop_i", 20), fill=(210, 215, 225, 255), anchor="ra")
+    d.rectangle([0, H - 18, W / 2, H], fill=hexc("#E63946"))
+    d.rectangle([W / 2, H - 18, W, H], fill=hexc("#FFFFFF"))
+    return img
+
+
+def news_photo_slide(cfg, photo, text, credit, idx, total, pilar):
+    img = Image.new("RGBA", (W, H), hexc("#0B1F3A"))
+    ph = _photo_fit(photo, W, 880)
+    img.alpha_composite(ph, (0, 0))
+    img = _shade(img, 640, 880, 0, 120)
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([W - 140, 40, W - 40, 88], 24, fill=(0, 0, 0, 150))
+    d.text((W - 90, 64), f"{idx}/{total}", font=F("int_sb", 26), fill="white", anchor="mm")
+    d.text((W - 40, 860), f"Foto: {credit}"[:48], font=F("pop_i", 20), fill=(235, 238, 245, 255), anchor="rb")
+    d.rectangle([0, 880, W, 890], fill=hexc("#C8102E"))
+    _news_tag(d, 60, 930, pilar)
+    f, ls, s = fit(d, text, "pop_m", 40, W - 120, H - 1010 - 90, min_size=26, spacing=1.35)
+    lines_at(d, (60, 1005), ls, f, s, (255, 255, 255, 255), 1.35)
+    d.text((60, H - 60), cfg["brand"]["handle"], font=F("pop_b", 24), fill=hexc("#F4B942"))
+    if idx < total:
+        d.text((W - 86, H - 60), "geser", font=F("pop_m", 22), fill=(200, 208, 220, 255), anchor="ra")
+        d.polygon([(W - 76, H - 56), (W - 58, H - 47), (W - 76, H - 38)], fill=hexc("#F4B942"))
+    else:
+        d.text((W - 60, H - 60), "info lengkap di caption", font=F("pop_m", 22), fill=(200, 208, 220, 255), anchor="ra")
+    d.rectangle([0, H - 18, W / 2, H], fill=hexc("#E63946"))
+    d.rectangle([W / 2, H - 18, W, H], fill=hexc("#FFFFFF"))
+    return img
+
+
+def render_news(cfg, state, draft_id, data, photos, sources, date_text):
+    state.work("desain", f"Mendesain berita ({len(photos)} foto)...")
+    slides = data.get("slide_foto") or []
+    total = max(1, len(photos))
+    first = photos[0] if photos else None
+    imgs = [news_cover(cfg, first["img"] if first else None, data, sources, date_text, total, first["source"] if first else None)]
+    for i, p in enumerate(photos[1:], 2):
+        teks = next((s.get("teks") for s in slides if int(s.get("foto", 0) or 0) == i), None) or (slides[i - 1]["teks"] if i - 1 < len(slides) else data.get("sub", ""))
+        imgs.append(news_photo_slide(cfg, p["img"], teks, p["source"], i, total, data.get("pilar")))
+    out = PUBLIC / draft_id
+    out.mkdir(parents=True, exist_ok=True)
+    paths = []
+    for i, im in enumerate(imgs, 1):
+        p = out / f"slide_{i:02d}.jpg"
+        im.convert("RGB").save(p, "JPEG", quality=90)
+        paths.append(str(p.relative_to(ROOT)))
+    state.done("desain", f"Berita {len(paths)} slide siap")
+    return paths

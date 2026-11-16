@@ -3,3 +3,5 @@ pyyaml>=6.0
 pillow>=10.0
 feedparser>=6.0
 imageio-ffmpeg>=0.5
+beautifulsoup4>=4.12
+googlenewsdecoder>=0.2

@@ -16,13 +16,14 @@ import sys
 
 from . import telegram
 from .core import State, load_config, now_wit, WIT, AGENTS
-from .agents import riset, naskah, desain, humas, cuan, analis, foto, tiktok, reels
+from .agents import riset, naskah, desain, humas, cuan, analis, foto, tiktok, reels, berita
 
 HELP = """🏢 <b>Kantor Virtual ASN GO Digitals</b>
 Perintah untuk Bos:
 
 /buat [topik] — buat carousel baru (topik opsional)
 /reels [topik] — buat video Reels baru
+/berita [topik] — carousel berita terkini dari media tepercaya
 /buat_promo [id_produk] — carousel soft-selling produk
 /ide — 10 ide konten
 /antrian — daftar draft
@@ -143,6 +144,51 @@ def create_reels(cfg, state, topic=None, pillar_id=None, notes=None, base=None):
     return did
 
 
+BULAN = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"]
+
+
+def create_news(cfg, state, pillar_id=None, topic=None):
+    """Carousel BERITA TERKINI. Kembalikan id draft, atau None bila tidak ada berita baru."""
+    state.work("kepala", "Meminta tim memantau berita terkini")
+    arts, photos = berita.gather(cfg, state, pillar_id, topic)
+    if not arts:
+        return None
+    state.work("naskah", f"Merangkum berita dari {len(arts)} sumber...")
+    data = berita.summarize(cfg, state, arts, photos)
+    state.done("naskah", f"Rangkuman: \"{data.get('judul', '')}\"")
+    data = berita.verify(cfg, state, data, arts)
+    srcs = list(dict.fromkeys(a["source"] for a in arts))
+    pub = arts[0].get("published") or now_wit().isoformat()
+    try:
+        dt_ = datetime_fromiso(pub)
+        date_text = f"{dt_.day} {BULAN[dt_.month - 1]} {dt_.year}"
+    except Exception:
+        date_text = now_wit().strftime("%d/%m/%Y")
+    did = state.new_draft_id()
+    images = desain.render_news(cfg, state, did, data, photos, " • ".join(srcs[:3]), date_text)
+    tags = " ".join(data.get("hashtags", [])[:10])
+    cap = (f"{data.get('judul', '')}\n\n{data.get('caption', '')}\n\n"
+           + (f"💡 Artinya bagi kita: {data['dampak']}\n\n" if data.get("dampak") else "")
+           + "📰 Sumber:\n" + "\n".join(f"• {a['source']}: {a['url']}" for a in arts)
+           + ("\n📷 Foto: " + ", ".join(dict.fromkeys(p["source"] for p in photos)) if photos else "")
+           + "\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.")
+    content = {"hook": data.get("judul", ""), "caption": cap, "hashtags": data.get("hashtags", []), "_qc": data.get("_qc", {})}
+    remember_hook(state, content["hook"])
+    state.d["drafts"][did] = {
+        "id": did, "type": "berita", "status": "draft", "created": now_wit().isoformat(timespec="minutes"),
+        "pillar": desain.PILAR_LABEL.get(data.get("pilar"), "Berita"), "topic": arts[0]["title"], "format": "berita",
+        "content": content, "images": images, "sources": [a["url"] for a in arts], "scheduled_at": now_wit().isoformat(timespec="minutes"),
+    }
+    state.d["stats"]["drafts"] += 1
+    preview(cfg, state, did)
+    state.done("kepala", f"Berita #{did} dikirim ke Bos")
+    return did
+
+
+def datetime_fromiso(s_):
+    return dt.datetime.fromisoformat(s_.replace("Z", "+00:00")).astimezone(WIT)
+
+
 def slot_plan(cfg, idx):
     """Rotasi pilar & format per slot agar tiap hari berbeda."""
     slot = cfg["slots"][idx]
@@ -158,6 +204,10 @@ def run_slot(cfg, state, idx):
     state.work("kepala", f"Jadwal {slot['time']} WIT: {slot['type']} {pillar_id}")
     if slot["type"] == "reels":
         did = create_reels(cfg, state, pillar_id=pillar_id)
+    elif slot["type"] == "berita":
+        did = create_news(cfg, state, pillar_id=None)
+        if not did:  # tidak ada berita baru → carousel edukasi biasa
+            did = create_draft(cfg, state, pillar_id=pillar_id, fmt="carousel_listicle")
     else:
         did = create_draft(cfg, state, pillar_id=pillar_id, fmt=fmt)
     d = state.d["drafts"][did]
@@ -207,6 +257,10 @@ def handle_command(cfg, state, text):
     elif cmd == "/reels":
         ack("🎬 Tim membuat Reels... (± 2–3 menit)")
         create_reels(cfg, state, topic=(text.split(maxsplit=1)[1] if arg else None))
+    elif cmd == "/berita":
+        ack("📰 Tim memantau berita terkini... (± 2–3 menit)")
+        if not create_news(cfg, state, topic=(text.split(maxsplit=1)[1] if arg else None)):
+            telegram.send("📰 Belum ada berita baru (24–48 jam terakhir) dari sumber tepercaya untuk topik itu. Coba topik lain, mis. /berita PPPK")
     elif cmd == "/buat_promo":
         ack("💰 Kaka Yance & tim menyiapkan konten soft-selling...")
         create_draft(cfg, state, fmt="carousel_promo", product_id=arg or None)
