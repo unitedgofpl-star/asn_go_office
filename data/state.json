@@ -491,7 +491,7 @@
   },
   "11162141": {
    "id": "11162141",
-   "status": "draft",
+   "status": "published",
    "created": "2026-11-16T21:41+09:00",
    "pillar": "AI untuk Kerja Kantor",
    "topic": "carousel baru tentang disiplin Pegawai (ASN)",
@@ -564,7 +564,13 @@
     "public/11162141/slide_04.jpg",
     "public/11162141/slide_05.jpg"
    ],
-   "scheduled_at": "2026-11-17T19:00+09:00"
+   "scheduled_at": "2026-11-16T21:43+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DfzYjcul87E/",
+    "fb": "https://facebook.com/468307299696116_122224896386589464"
+   },
+   "published_at": "2026-11-16T21:44+09:00",
+   "errors": []
   }
  },
  "agents": {
@@ -572,7 +578,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 21:41"
+   "at": "2026-11-16 21:43"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -601,8 +607,8 @@
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11162122 dikirim ke Bos",
-   "at": "2026-11-16 21:25"
+   "last": "Paket TikTok #11162141 dikirim ke Bos",
+   "at": "2026-11-16 21:44"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -618,6 +624,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 21:44",
+   "agent": "humas",
+   "msg": "Paket TikTok #11162141 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-16 21:44",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11162141..."
+  },
+  {
+   "at": "2026-11-16 21:44",
+   "agent": "humas",
+   "msg": "#11162141 → ig, fb"
+  },
+  {
+   "at": "2026-11-16 21:43",
+   "agent": "humas",
+   "msg": "Menerbitkan #11162141 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-16 21:43",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 21:43",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 21:41",
    "agent": "kepala",
@@ -887,43 +923,13 @@
    "at": "2026-11-16 13:53",
    "agent": "kepala",
    "msg": "Draft #11161353 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-16 13:53",
-   "agent": "desain",
-   "msg": "5 slide siap (1080x1350)"
-  },
-  {
-   "at": "2026-11-16 13:53",
-   "agent": "desain",
-   "msg": "Mendesain carousel + Cicilia..."
-  },
-  {
-   "at": "2026-11-16 13:53",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 1 catatan"
-  },
-  {
-   "at": "2026-11-16 13:52",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-16 13:52",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Biar AI Bikin Surat Dinas dan Laporan Secepat Kilat\""
-  },
-  {
-   "at": "2026-11-16 13:51",
-   "agent": "naskah",
-   "msg": "Menulis carousel: prompt ChatGPT/Claude/Gemini untuk surat dinas, no"
   }
  ],
  "stats": {
-  "published": 5,
+  "published": 6,
   "drafts": 7
  },
- "updated": "2026-11-16T21:41+09:00",
+ "updated": "2026-11-16T21:44+09:00",
  "cuan_rot": 7,
  "last_followers": 130,
  "style_hist": [
