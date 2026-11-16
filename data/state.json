@@ -323,6 +323,78 @@
     "IG: Meta API: Error validating access token: Session has expired on Sunday, 15-Nov-26 07:00:00 PST. The current time is Sunday, 15-Nov-26 20:49:07 PST.",
     "FB: Meta API: Error validating access token: Session has expired on Sunday, 15-Nov-26 07:00:00 PST. The current time is Sunday, 15-Nov-26 20:49:07 PST."
    ]
+  },
+  "11161353": {
+   "id": "11161353",
+   "status": "draft",
+   "created": "2026-11-16T13:53+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "prompt ChatGPT/Claude/Gemini untuk surat dinas, notulen, laporan",
+   "format": "carousel_tutorial",
+   "product": "naskah",
+   "content": {
+    "hook": "Biar AI Bikin Surat Dinas dan Laporan Secepat Kilat",
+    "subtitle": "Trik rahasia ASN dan perangkat desa kerja satset pakai AI.",
+    "cover_pose": "presentasi",
+    "items": [
+     {
+      "title": "Tentukan Peran AI",
+      "sub": "Minta ChatGPT jadi ahli administrasi pemerintahan.",
+      "icon": "🤖"
+     },
+     {
+      "title": "Gunakan Format Kunci",
+      "sub": "Masukkan konteks, tujuan, dan gaya bahasa resmi.",
+      "icon": "📝"
+     },
+     {
+      "title": "Validasi Hasilnya",
+      "sub": "Sesuaikan dengan tata naskah dinas instansi.",
+      "icon": "🔍"
+     },
+     {
+      "title": "Simpan Template Prompt",
+      "sub": "Gunakan ulang untuk tugas rutin berikutnya.",
+      "icon": "💾"
+     }
+    ],
+    "details": [
+     {
+      "title": "Tentukan Peran AI",
+      "body": "Awali chat dengan kalimat: 'Bertindaklah sebagai sekretaris desa yang ahli administrasi pemerintahan.' Ini membantu AI memahami gaya bahasa formal yang Anda butuhkan.",
+      "icon": "🤖"
+     },
+     {
+      "title": "Gunakan Format Kunci",
+      "body": "Tulis prompt lengkap: 'Buatkan draf surat undangan sosialisasi untuk warga, nada formal, ringkas, dan sebutkan waktu serta tempat secara jelas.'",
+      "icon": "📝"
+     }
+    ],
+    "note": "Selalu periksa ulang hasil AI sebelum dicetak.",
+    "cta": "Simpan postingan ini agar gampang dicari saat menyusun laporan!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering pusing bikin draf surat atau laporan panjang? Tenang, sekarang kita bisa delegasikan tugas repetitif ke AI biar gak lembur terus. Yuk intip trik menyusun prompt yang tepat agar hasilnya langsung pas dan profesional sesuai standar instansi. Jangan lupa terapkan di kantor ya! Apakah Sobat Desa sudah pernah coba pakai ChatGPT untuk tugas sehari-hari? Coba tulis di kolom komentar. SIMPAN dan BAGIKAN postingan ini ke rekan kerja Anda!\n\n🛠 Mau lebih cepat? cek Generator Naskah Dinas — link di bio (https://lynk.id/USERNAME_ANDA).\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#ASNdigital",
+     "#DigitalisasiDesa",
+     "#AIPemerintahan",
+     "#TipsASN",
+     "#SmartASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus hashtag yang tidak sesuai standar penulisan agar lebih profesional."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11161353/slide_01.jpg",
+    "public/11161353/slide_02.jpg",
+    "public/11161353/slide_03.jpg",
+    "public/11161353/slide_04.jpg",
+    "public/11161353/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-16T19:00+09:00"
   }
  },
  "agents": {
@@ -330,31 +402,31 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 13:49"
+   "at": "2026-11-16 13:53"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-16 10:30"
+   "at": "2026-11-16 13:51"
   },
   "naskah": {
    "name": "Bu Naskah (Penulis Konten)",
    "status": "idle",
-   "last": "Draft selesai: \"Bikin Surat Dinas & Laporan 3 Menit Pakai AI\"",
-   "at": "2026-11-16 10:32"
+   "last": "Draft selesai: \"Biar AI Bikin Surat Dinas dan Laporan Secepat Kilat\"",
+   "at": "2026-11-16 13:52"
   },
   "qc": {
    "name": "Pak Verifikator (Cek Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 4 catatan",
-   "at": "2026-11-16 10:33"
+   "last": "QC selesai — risiko rendah, 1 catatan",
+   "at": "2026-11-16 13:53"
   },
   "desain": {
    "name": "Mas Desain (Desainer Carousel)",
    "status": "idle",
    "last": "5 slide siap (1080x1350)",
-   "at": "2026-11-16 10:33"
+   "at": "2026-11-16 13:53"
   },
   "humas": {
    "name": "Mbak Humas (Publisher IG & FB)",
@@ -365,8 +437,8 @@
   "cuan": {
    "name": "Bang Cuan (Sales lynk.id)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Paket Prompt AI untuk ASN",
-   "at": "2026-11-16 10:30"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-16 13:51"
   },
   "analis": {
    "name": "Kak Analis (Laporan Performa)",
@@ -376,6 +448,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 13:53",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 13:53",
+   "agent": "kepala",
+   "msg": "Draft #11161353 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-16 13:53",
+   "agent": "desain",
+   "msg": "5 slide siap (1080x1350)"
+  },
+  {
+   "at": "2026-11-16 13:53",
+   "agent": "desain",
+   "msg": "Mendesain carousel + Cicilia..."
+  },
+  {
+   "at": "2026-11-16 13:53",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 1 catatan"
+  },
+  {
+   "at": "2026-11-16 13:52",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-16 13:52",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Biar AI Bikin Surat Dinas dan Laporan Secepat Kilat\""
+  },
+  {
+   "at": "2026-11-16 13:51",
+   "agent": "naskah",
+   "msg": "Menulis carousel: prompt ChatGPT/Claude/Gemini untuk surat dinas, no"
+  },
+  {
+   "at": "2026-11-16 13:51",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-16 13:51",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-16 13:51",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-16 13:51",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-16 13:51",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 13:49",
    "agent": "humas",
@@ -610,77 +747,12 @@
    "at": "2026-11-15 22:53",
    "agent": "kepala",
    "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 22:53",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 22:52",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 22:52",
-   "agent": "humas",
-   "msg": "Paket TikTok gagal: [Errno 2] No such file or directory: 'ffmpeg'"
-  },
-  {
-   "at": "2026-11-15 22:52",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11152223..."
-  },
-  {
-   "at": "2026-11-15 22:52",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 22:51",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 22:51",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 22:33",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 22:33",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 22:27",
-   "agent": "humas",
-   "msg": "#11152223 → ig, fb"
-  },
-  {
-   "at": "2026-11-15 22:27",
-   "agent": "humas",
-   "msg": "Menerbitkan #11152223 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-15 22:27",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 22:27",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
   }
  ],
  "stats": {
   "published": 2,
-  "drafts": 4
+  "drafts": 5
  },
- "updated": "2026-11-16T13:49+09:00",
- "cuan_rot": 4
+ "updated": "2026-11-16T13:53+09:00",
+ "cuan_rot": 5
 }
