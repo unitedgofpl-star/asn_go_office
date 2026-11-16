@@ -323,8 +323,8 @@
   "kepala": {
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
-   "last": "Draft #11161033 dikirim ke Bos",
-   "at": "2026-11-16 10:33"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-16 12:51"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
@@ -370,6 +370,16 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 12:51",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 12:51",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 10:33",
    "agent": "kepala",
@@ -659,22 +669,12 @@
    "at": "2026-11-15 22:19",
    "agent": "riset",
    "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-15 22:19",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-15 22:19",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
   }
  ],
  "stats": {
   "published": 2,
   "drafts": 4
  },
- "updated": "2026-11-16T10:33+09:00",
+ "updated": "2026-11-16T12:51+09:00",
  "cuan_rot": 4
 }
