@@ -410,7 +410,7 @@
   },
   "11162122": {
    "id": "11162122",
-   "status": "draft",
+   "status": "published",
    "created": "2026-11-16T21:22+09:00",
    "pillar": "AI untuk Kerja Kantor",
    "topic": "promo",
@@ -481,7 +481,13 @@
     "public/11162122/slide_04.jpg",
     "public/11162122/slide_05.jpg"
    ],
-   "scheduled_at": "2026-11-17T19:00+09:00"
+   "scheduled_at": "2026-11-16T21:24+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DfzWZG1lymu/",
+    "fb": "https://facebook.com/468307299696116_122224893920589464"
+   },
+   "published_at": "2026-11-16T21:25+09:00",
+   "errors": []
   }
  },
  "agents": {
@@ -489,7 +495,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 21:22"
+   "at": "2026-11-16 21:24"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -518,8 +524,8 @@
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11160622 dikirim ke Bos",
-   "at": "2026-11-16 19:52"
+   "last": "Paket TikTok #11162122 dikirim ke Bos",
+   "at": "2026-11-16 21:25"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -535,6 +541,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 21:25",
+   "agent": "humas",
+   "msg": "Paket TikTok #11162122 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-16 21:25",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11162122..."
+  },
+  {
+   "at": "2026-11-16 21:25",
+   "agent": "humas",
+   "msg": "#11162122 → ig, fb"
+  },
+  {
+   "at": "2026-11-16 21:24",
+   "agent": "humas",
+   "msg": "Menerbitkan #11162122 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-16 21:24",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 21:24",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 21:22",
    "agent": "kepala",
@@ -804,43 +840,13 @@
    "at": "2026-11-16 12:51",
    "agent": "kepala",
    "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 10:33",
-   "agent": "kepala",
-   "msg": "Draft #11161033 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-16 10:33",
-   "agent": "desain",
-   "msg": "5 slide siap (1080x1350)"
-  },
-  {
-   "at": "2026-11-16 10:33",
-   "agent": "desain",
-   "msg": "Mendesain carousel + Cicilia..."
-  },
-  {
-   "at": "2026-11-16 10:33",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 4 catatan"
-  },
-  {
-   "at": "2026-11-16 10:32",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-16 10:32",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Bikin Surat Dinas & Laporan 3 Menit Pakai AI\""
   }
  ],
  "stats": {
-  "published": 4,
+  "published": 5,
   "drafts": 6
  },
- "updated": "2026-11-16T21:22+09:00",
+ "updated": "2026-11-16T21:25+09:00",
  "cuan_rot": 6,
  "last_followers": 130,
  "style_hist": [
