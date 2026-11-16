@@ -242,7 +242,7 @@
   },
   "11161033": {
    "id": "11161033",
-   "status": "approved",
+   "status": "failed",
    "created": "2026-11-16T10:33+09:00",
    "pillar": "AI untuk Kerja Kantor",
    "topic": "prompt ChatGPT/Claude/Gemini untuk surat dinas, notulen, laporan",
@@ -316,7 +316,13 @@
     "public/11161033/slide_04.jpg",
     "public/11161033/slide_05.jpg"
    ],
-   "scheduled_at": "2026-11-16T19:00+09:00"
+   "scheduled_at": "2026-11-16T13:49+09:00",
+   "published": {},
+   "published_at": "2026-11-16T13:49+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: Session has expired on Sunday, 15-Nov-26 07:00:00 PST. The current time is Sunday, 15-Nov-26 20:49:07 PST.",
+    "FB: Meta API: Error validating access token: Session has expired on Sunday, 15-Nov-26 07:00:00 PST. The current time is Sunday, 15-Nov-26 20:49:07 PST."
+   ]
   }
  },
  "agents": {
@@ -324,7 +330,7 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 13:34"
+   "at": "2026-11-16 13:49"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
@@ -353,8 +359,8 @@
   "humas": {
    "name": "Mbak Humas (Publisher IG & FB)",
    "status": "idle",
-   "last": "Paket TikTok #11152223 dikirim ke Bos",
-   "at": "2026-11-15 23:06"
+   "last": "#11161033 → gagal",
+   "at": "2026-11-16 13:49"
   },
   "cuan": {
    "name": "Bang Cuan (Sales lynk.id)",
@@ -370,6 +376,26 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 13:49",
+   "agent": "humas",
+   "msg": "#11161033 → gagal"
+  },
+  {
+   "at": "2026-11-16 13:49",
+   "agent": "humas",
+   "msg": "Menerbitkan #11161033 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-16 13:49",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 13:49",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 13:34",
    "agent": "kepala",
@@ -649,32 +675,12 @@
    "at": "2026-11-15 22:27",
    "agent": "kepala",
    "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 22:23",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 22:23",
-   "agent": "kepala",
-   "msg": "Draft #11152223 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-15 22:23",
-   "agent": "desain",
-   "msg": "5 slide siap (1080x1350)"
-  },
-  {
-   "at": "2026-11-15 22:23",
-   "agent": "desain",
-   "msg": "Mendesain carousel + Cicilia..."
   }
  ],
  "stats": {
   "published": 2,
   "drafts": 4
  },
- "updated": "2026-11-16T13:34+09:00",
+ "updated": "2026-11-16T13:49+09:00",
  "cuan_rot": 4
 }
