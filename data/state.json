@@ -407,59 +407,199 @@
    },
    "published_at": "2026-11-16T15:56+09:00",
    "errors": []
+  },
+  "11162122": {
+   "id": "11162122",
+   "status": "draft",
+   "created": "2026-11-16T21:22+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "promo",
+   "format": "carousel_tutorial",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin Laporan Desa Cepat Selesai Pakai AI Gratis",
+    "subtitle": "Transformasi digital makin mudah, kerjaan numpuk jadi selesai kilat!",
+    "mood": "ceria",
+    "items": [
+     {
+      "title": "Siapkan Draf Laporan",
+      "sub": "Kumpulkan poin-poin utama kegiatan kantor atau desa.",
+      "icon": "📝"
+     },
+     {
+      "title": "Gunakan Chatbot AI",
+      "sub": "Input data ke platform AI pilihan Anda.",
+      "icon": "🤖"
+     },
+     {
+      "title": "Tulis Prompt Spesifik",
+      "sub": "Instruksikan AI membuat draf dengan bahasa formal.",
+      "icon": "💡"
+     },
+     {
+      "title": "Review dan Sesuaikan",
+      "sub": "Pastikan isinya sudah sesuai aturan instansi Anda.",
+      "icon": "🔍"
+     }
+    ],
+    "details": [
+     {
+      "title": "Gunakan Chatbot AI",
+      "body": "Buka aplikasi AI favorit Anda. Ingat: Jangan pernah memasukkan data rahasia negara, dokumen sensitif, atau identitas pribadi warga ke dalam platform AI publik demi keamanan data.",
+      "icon": "🤖"
+     },
+     {
+      "title": "Tulis Prompt Spesifik",
+      "body": "Gunakan perintah seperti: 'Buatkan draf laporan kegiatan [sebutkan kegiatan] dengan bahasa formal sesuai standar tata naskah dinas'. Semakin detail instruksi Anda, semakin akurat hasilnya.",
+      "icon": "💡"
+     }
+    ],
+    "note": "Wajib melakukan verifikasi akhir dan menyesuaikan draf dengan regulasi tata naskah dinas instansi Anda.",
+    "cta": "Save postingan ini agar tidak lupa langkah-langkahnya ya, Rekan ASN!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Lagi pusing tumpukan laporan yang belum kelar? Tenang, ada trik agar kerjaan lebih sat-set pakai bantuan AI. Di era transformasi digital, kita harus mahir memanfaatkan teknologi untuk mempermudah administrasi. Namun ingat, tetap jaga kerahasiaan data instansi dan jangan masukkan data sensitif ke AI publik. Nggak perlu lagi ngetik dari nol, manfaatkan AI sebagai asisten. Yuk, coba langkah di atas! Klik tombol SAVE agar mudah dicari nanti. Share ke rekan kerja agar makin produktif. Menurut Rekan ASN, laporan apa yang paling sering bikin lembur? Tulis di komentar ya!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#ASNDigital",
+     "#TransformasiDigital",
+     "#SobatDesa",
+     "#TipsASN",
+     "#AIuntukASN",
+     "#ProduktivitasKerja"
+    ],
+    "_qc": {
+     "issues": [
+      "Typo pada 'ceri' seharusnya 'ceria'.",
+      "Potensi risiko keamanan data: Penggunaan AI untuk data sensitif/rahasia negara harus ditegaskan agar tidak mengunggah dokumen bersifat rahasia/terbatas.",
+      "Perlu penekanan pada Tata Naskah Dinas sesuai aturan instansi masing-masing agar tidak melanggar standar formal."
+     ],
+     "risk": "sedang"
+    }
+   },
+   "images": [
+    "public/11162122/slide_01.jpg",
+    "public/11162122/slide_02.jpg",
+    "public/11162122/slide_03.jpg",
+    "public/11162122/slide_04.jpg",
+    "public/11162122/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-17T19:00+09:00"
   }
  },
  "agents": {
   "kepala": {
-   "name": "Pak Kepala (Manajer & Router Telegram)",
+   "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 19:51"
+   "at": "2026-11-16 21:22"
   },
   "riset": {
-   "name": "Mbak Riset (Peneliti Tren)",
+   "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-16 13:51"
+   "at": "2026-11-16 21:18"
   },
   "naskah": {
-   "name": "Bu Naskah (Penulis Konten)",
+   "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Biar AI Bikin Surat Dinas dan Laporan Secepat Kilat\"",
-   "at": "2026-11-16 13:52"
+   "last": "Draft selesai: \"Bikin Laporan Desa Cepat Selesai Pakai AI Gratis\"",
+   "at": "2026-11-16 21:20"
   },
   "qc": {
-   "name": "Pak Verifikator (Cek Fakta & Regulasi)",
+   "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 1 catatan",
-   "at": "2026-11-16 13:53"
+   "last": "QC selesai — risiko sedang, 3 catatan",
+   "at": "2026-11-16 21:22"
   },
   "desain": {
-   "name": "Mas Desain (Desainer Carousel)",
+   "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide siap (1080x1350)",
-   "at": "2026-11-16 13:53"
+   "last": "5 slide gaya navy siap",
+   "at": "2026-11-16 21:22"
   },
   "humas": {
-   "name": "Mbak Humas (Publisher IG & FB)",
+   "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
    "last": "Paket TikTok #11160622 dikirim ke Bos",
    "at": "2026-11-16 19:52"
   },
   "cuan": {
-   "name": "Bang Cuan (Sales lynk.id)",
+   "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-16 13:51"
+   "at": "2026-11-16 21:18"
   },
   "analis": {
-   "name": "Kak Analis (Laporan Performa)",
+   "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
    "status": "idle",
    "last": "Laporan mingguan selesai — 130 followers",
    "at": "2026-11-16 16:37"
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 21:22",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 21:22",
+   "agent": "kepala",
+   "msg": "Draft #11162122 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-16 21:22",
+   "agent": "desain",
+   "msg": "5 slide gaya navy siap"
+  },
+  {
+   "at": "2026-11-16 21:22",
+   "agent": "desain",
+   "msg": "Mendesain gaya navy/berita/kartu/kartu..."
+  },
+  {
+   "at": "2026-11-16 21:22",
+   "agent": "qc",
+   "msg": "QC selesai — risiko sedang, 3 catatan"
+  },
+  {
+   "at": "2026-11-16 21:20",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-16 21:20",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Bikin Laporan Desa Cepat Selesai Pakai AI Gratis\""
+  },
+  {
+   "at": "2026-11-16 21:18",
+   "agent": "naskah",
+   "msg": "Menulis carousel: promo"
+  },
+  {
+   "at": "2026-11-16 21:18",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-16 21:18",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-16 21:18",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-16 21:18",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-16 21:18",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 19:52",
    "agent": "humas",
@@ -694,78 +834,29 @@
    "at": "2026-11-16 10:32",
    "agent": "naskah",
    "msg": "Draft selesai: \"Bikin Surat Dinas & Laporan 3 Menit Pakai AI\""
-  },
-  {
-   "at": "2026-11-16 10:30",
-   "agent": "naskah",
-   "msg": "Menulis carousel: prompt ChatGPT/Claude/Gemini untuk surat dinas, no"
-  },
-  {
-   "at": "2026-11-16 10:30",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-16 10:30",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-16 10:30",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Paket Prompt AI untuk ASN"
-  },
-  {
-   "at": "2026-11-16 10:30",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-16 06:25",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 06:25",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 06:22",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 06:22",
-   "agent": "kepala",
-   "msg": "Draft #11160622 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-16 06:22",
-   "agent": "desain",
-   "msg": "5 slide siap (1080x1350)"
-  },
-  {
-   "at": "2026-11-16 06:22",
-   "agent": "desain",
-   "msg": "Mendesain carousel + Cicilia..."
-  },
-  {
-   "at": "2026-11-16 06:22",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 3 catatan"
-  },
-  {
-   "at": "2026-11-16 06:22",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
   }
  ],
  "stats": {
   "published": 4,
-  "drafts": 5
+  "drafts": 6
  },
- "updated": "2026-11-16T19:52+09:00",
- "cuan_rot": 5,
- "last_followers": 130
+ "updated": "2026-11-16T21:22+09:00",
+ "cuan_rot": 6,
+ "last_followers": 130,
+ "style_hist": [
+  {
+   "mood": "ceria",
+   "expr": "gembira",
+   "theme": "navy",
+   "cover": "berita",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "ceria__ok_rambut_terurai",
+   "flip": false,
+   "cta": "potret"
+  }
+ ],
+ "recent_hooks": [
+  "Bikin Laporan Desa Cepat Selesai Pakai AI Gratis"
+ ]
 }
