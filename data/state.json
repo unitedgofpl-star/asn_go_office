@@ -564,12 +564,12 @@
     "public/11162141/slide_04.jpg",
     "public/11162141/slide_05.jpg"
    ],
-   "scheduled_at": "2026-11-16T21:43+09:00",
+   "scheduled_at": "2026-11-16T22:29+09:00",
    "published": {
-    "ig": "https://www.instagram.com/p/DfzYjcul87E/",
-    "fb": "https://facebook.com/468307299696116_122224896386589464"
+    "ig": "https://www.instagram.com/p/DfzdztnkxYf/",
+    "fb": "https://facebook.com/468307299696116_122224901258589464"
    },
-   "published_at": "2026-11-16T21:44+09:00",
+   "published_at": "2026-11-16T22:30+09:00",
    "errors": []
   }
  },
@@ -578,7 +578,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 21:43"
+   "at": "2026-11-16 22:29"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -608,7 +608,7 @@
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
    "last": "Paket TikTok #11162141 dikirim ke Bos",
-   "at": "2026-11-16 21:44"
+   "at": "2026-11-16 22:30"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -624,6 +624,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 22:30",
+   "agent": "humas",
+   "msg": "Paket TikTok #11162141 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-16 22:30",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11162141..."
+  },
+  {
+   "at": "2026-11-16 22:30",
+   "agent": "humas",
+   "msg": "#11162141 → ig, fb"
+  },
+  {
+   "at": "2026-11-16 22:29",
+   "agent": "humas",
+   "msg": "Menerbitkan #11162141 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-16 22:29",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 22:29",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 21:44",
    "agent": "humas",
@@ -893,43 +923,13 @@
    "at": "2026-11-16 15:55",
    "agent": "humas",
    "msg": "Menerbitkan #11161353 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-16 15:55",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 15:55",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 13:54",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 13:54",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 13:53",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 13:53",
-   "agent": "kepala",
-   "msg": "Draft #11161353 dikirim ke Bos"
   }
  ],
  "stats": {
-  "published": 6,
+  "published": 7,
   "drafts": 7
  },
- "updated": "2026-11-16T21:44+09:00",
+ "updated": "2026-11-16T22:30+09:00",
  "cuan_rot": 7,
  "last_followers": 130,
  "style_hist": [
