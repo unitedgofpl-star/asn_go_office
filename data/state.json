@@ -326,7 +326,7 @@
   },
   "11161353": {
    "id": "11161353",
-   "status": "draft",
+   "status": "approved",
    "created": "2026-11-16T13:53+09:00",
    "pillar": "AI untuk Kerja Kantor",
    "topic": "prompt ChatGPT/Claude/Gemini untuk surat dinas, notulen, laporan",
@@ -402,7 +402,7 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 13:53"
+   "at": "2026-11-16 13:54"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
@@ -448,6 +448,16 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 13:54",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 13:54",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 13:53",
    "agent": "kepala",
@@ -737,22 +747,12 @@
    "at": "2026-11-15 23:04",
    "agent": "kepala",
    "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 23:04",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 22:53",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
   }
  ],
  "stats": {
   "published": 2,
   "drafts": 5
  },
- "updated": "2026-11-16T13:53+09:00",
+ "updated": "2026-11-16T13:54+09:00",
  "cuan_rot": 5
 }
