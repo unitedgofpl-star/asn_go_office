@@ -326,7 +326,7 @@
   },
   "11161353": {
    "id": "11161353",
-   "status": "approved",
+   "status": "published",
    "created": "2026-11-16T13:53+09:00",
    "pillar": "AI untuk Kerja Kantor",
    "topic": "prompt ChatGPT/Claude/Gemini untuk surat dinas, notulen, laporan",
@@ -394,7 +394,13 @@
     "public/11161353/slide_04.jpg",
     "public/11161353/slide_05.jpg"
    ],
-   "scheduled_at": "2026-11-16T19:00+09:00"
+   "scheduled_at": "2026-11-16T15:55+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Dfywufyk-Uz/",
+    "fb": "https://facebook.com/468307299696116_122224864748589464"
+   },
+   "published_at": "2026-11-16T15:56+09:00",
+   "errors": []
   }
  },
  "agents": {
@@ -402,7 +408,7 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 13:54"
+   "at": "2026-11-16 15:55"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
@@ -431,8 +437,8 @@
   "humas": {
    "name": "Mbak Humas (Publisher IG & FB)",
    "status": "idle",
-   "last": "#11161033 → gagal",
-   "at": "2026-11-16 13:49"
+   "last": "Paket TikTok #11161353 dikirim ke Bos",
+   "at": "2026-11-16 15:56"
   },
   "cuan": {
    "name": "Bang Cuan (Sales lynk.id)",
@@ -448,6 +454,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 15:56",
+   "agent": "humas",
+   "msg": "Paket TikTok #11161353 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-16 15:56",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11161353..."
+  },
+  {
+   "at": "2026-11-16 15:56",
+   "agent": "humas",
+   "msg": "#11161353 → ig, fb"
+  },
+  {
+   "at": "2026-11-16 15:55",
+   "agent": "humas",
+   "msg": "Menerbitkan #11161353 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-16 15:55",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 15:55",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 13:54",
    "agent": "kepala",
@@ -717,42 +753,12 @@
    "at": "2026-11-15 23:06",
    "agent": "kepala",
    "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 23:06",
-   "agent": "humas",
-   "msg": "Paket TikTok #11152223 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-15 23:06",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11152223..."
-  },
-  {
-   "at": "2026-11-15 23:06",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 23:05",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-15 23:05",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-15 23:04",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
   }
  ],
  "stats": {
-  "published": 2,
+  "published": 3,
   "drafts": 5
  },
- "updated": "2026-11-16T13:54+09:00",
+ "updated": "2026-11-16T15:56+09:00",
  "cuan_rot": 5
 }
