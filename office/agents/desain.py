@@ -24,7 +24,7 @@ EXPR = ROOT / "assets" / "influencer" / "ekspresi"       # wajah/setengah badan:
 HALF_BODY = {"tenang__melipat_tangan", "menjelaskan__presentasi", "semangat__tangan_mengepal"}
 # suasana konten → ekspresi wajah yang cocok
 MOOD_EXPR = {"ceria": ["ceria", "senang", "gembira", "tertawa"], "semangat": ["semangat", "gembira"], "terkejut": ["terkejut"],
-             "cemberut": ["cemberut", "kecewa"], "tegas": ["cemberut"], "sedih": ["sedih", "kecewa", "menangis"],
+             "cemberut": ["cemberut", "kecewa"], "tegas": ["cemberut"], "sedih": ["sedih", "kecewa"],
              "sayang": ["senang", "ceria"], "tenang": ["ceria", "senang"], "menjelaskan": ["senang", "ceria"]}
 MOOD_FALLBACK = {"sedih": "tenang", "cemberut": "tegas", "tegas": "cemberut"}
 FMT_MOOD = {"carousel_mitos": "terkejut", "carousel_promo": "sayang", "carousel_tutorial": "menjelaskan",
