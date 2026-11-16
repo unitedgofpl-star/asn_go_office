@@ -488,6 +488,83 @@
    },
    "published_at": "2026-11-16T21:25+09:00",
    "errors": []
+  },
+  "11162141": {
+   "id": "11162141",
+   "status": "draft",
+   "created": "2026-11-16T21:41+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "carousel baru tentang disiplin Pegawai (ASN)",
+   "format": "carousel_tutorial",
+   "product": "naskah",
+   "content": {
+    "hook": "Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!",
+    "subtitle": "Kelola Jadwal dan Kinerja Kantor Tanpa Ribet",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Atur Prompt Jadwal",
+      "sub": "Bikin agenda harian otomatis",
+      "icon": "📅"
+     },
+     {
+      "title": "Rangkum SK Disiplin",
+      "sub": "Pahami aturan tanpa baca tebal",
+      "icon": "📖"
+     },
+     {
+      "title": "Evaluasi Kinerja Mandiri",
+      "sub": "Cek target kerja pakai AI",
+      "icon": "🎯"
+     },
+     {
+      "title": "Setel Pengingat Tugas",
+      "sub": "Biar gak ada deadline terlewat",
+      "icon": "⏰"
+     }
+    ],
+    "details": [
+     {
+      "title": "Atur Prompt Jadwal",
+      "sub": "Bikin agenda harian otomatis",
+      "icon": "📅",
+      "body": "Halo Rekan ASN! Gunakan AI untuk merapikan daftar tugas harian Anda. Ketik perintah untuk menyusun jadwal prioritas kerja harian secara terstruktur. Praktis dan langsung siap dijalankan!"
+     },
+     {
+      "title": "Rangkum SK Disiplin",
+      "sub": "Pahami aturan tanpa baca tebal",
+      "icon": "📖",
+      "body": "Sobat Desa sering malas membaca regulasi pegawai yang panjang? Salin teks aturan, lalu minta AI untuk merangkum poin-poin krusialnya saja. Hemat waktu dan tetap patuh pada ketentuan!"
+     }
+    ],
+    "note": "Cek regulasi disiplin terbaru di instansi masing-masing ya, Rekan ASN!",
+    "cta": "SIMPAN postingan ini dan BAGIKAN ke rekan kantor Anda!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Isu kedisiplinan dan pengukuran kompetensi digital ASN sedang hangat dibahas. Biar kerja makin cepat dan tidak keteteran, yuk manfaatkan AI untuk bantu atur ritme kerja harian kita!\n\nDi carousel kali ini, kami bagikan trik praktis langkah demi langkah mendisiplinkan diri pakai bantuan AI. Mulai dari membuat jadwal prioritas sampai merangkum aturan kantor tanpa pusing.\n\nSIMPAN postingan ini agar gampang dicari saat jam kerja padat, dan BAGIKAN ke rekan satu tim Anda ya!\n\nBagaimana pengalaman Rekan ASN menggunakan AI minggu ini? Tulis di komentar ya!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#ASNGodigital",
+     "#DisiplinASN",
+     "#DigitalisasiPemerintahan",
+     "#PemerintahanDesa",
+     "#KinerjaASN",
+     "#TipsKantor",
+     "#KarierASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Nama panggilan host di caption tidak konsisten dengan persona Kaka Agus.",
+      "Beberapa teks perlu diperiksa ulang untuk EYD dan batas kata."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11162141/slide_01.jpg",
+    "public/11162141/slide_02.jpg",
+    "public/11162141/slide_03.jpg",
+    "public/11162141/slide_04.jpg",
+    "public/11162141/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-17T19:00+09:00"
   }
  },
  "agents": {
@@ -495,31 +572,31 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 21:34"
+   "at": "2026-11-16 21:41"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-16 21:18"
+   "at": "2026-11-16 21:39"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Bikin Laporan Desa Cepat Selesai Pakai AI Gratis\"",
-   "at": "2026-11-16 21:20"
+   "last": "Draft selesai: \"Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!\"",
+   "at": "2026-11-16 21:40"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 3 catatan",
-   "at": "2026-11-16 21:22"
+   "last": "QC selesai — risiko rendah, 2 catatan",
+   "at": "2026-11-16 21:41"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya navy siap",
-   "at": "2026-11-16 21:22"
+   "last": "5 slide gaya ungu siap",
+   "at": "2026-11-16 21:41"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
@@ -530,8 +607,8 @@
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Copy promo Generator Naskah Dinas siap",
-   "at": "2026-11-16 21:34"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-16 21:39"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -541,6 +618,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 21:41",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 21:41",
+   "agent": "kepala",
+   "msg": "Draft #11162141 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-16 21:41",
+   "agent": "desain",
+   "msg": "5 slide gaya ungu siap"
+  },
+  {
+   "at": "2026-11-16 21:41",
+   "agent": "desain",
+   "msg": "Mendesain gaya ungu/potret/timeline/angka..."
+  },
+  {
+   "at": "2026-11-16 21:41",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 2 catatan"
+  },
+  {
+   "at": "2026-11-16 21:40",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-16 21:40",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!\""
+  },
+  {
+   "at": "2026-11-16 21:39",
+   "agent": "naskah",
+   "msg": "Menulis carousel: carousel baru tentang disiplin Pegawai (ASN)"
+  },
+  {
+   "at": "2026-11-16 21:39",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-16 21:39",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-16 21:39",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-16 21:39",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-16 21:39",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 21:34",
    "agent": "kepala",
@@ -775,79 +917,14 @@
    "at": "2026-11-16 13:51",
    "agent": "naskah",
    "msg": "Menulis carousel: prompt ChatGPT/Claude/Gemini untuk surat dinas, no"
-  },
-  {
-   "at": "2026-11-16 13:51",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-16 13:51",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-16 13:51",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-16 13:51",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-16 13:51",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 13:49",
-   "agent": "humas",
-   "msg": "#11161033 → gagal"
-  },
-  {
-   "at": "2026-11-16 13:49",
-   "agent": "humas",
-   "msg": "Menerbitkan #11161033 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-16 13:49",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 13:49",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 13:34",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 13:34",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 13:33",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 13:32",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
   }
  ],
  "stats": {
   "published": 5,
-  "drafts": 6
+  "drafts": 7
  },
- "updated": "2026-11-16T21:34+09:00",
- "cuan_rot": 6,
+ "updated": "2026-11-16T21:41+09:00",
+ "cuan_rot": 7,
  "last_followers": 130,
  "style_hist": [
   {
@@ -860,9 +937,21 @@
    "pose": "ceria__ok_rambut_terurai",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "ungu",
+   "cover": "potret",
+   "list": "timeline",
+   "detail": "angka",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Bikin Laporan Desa Cepat Selesai Pakai AI Gratis"
+  "Bikin Laporan Desa Cepat Selesai Pakai AI Gratis",
+  "Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!"
  ]
 }
