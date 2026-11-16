@@ -166,7 +166,7 @@
   },
   "11160622": {
    "id": "11160622",
-   "status": "approved",
+   "status": "published",
    "created": "2026-11-16T06:22+09:00",
    "pillar": "AI untuk Kerja Kantor",
    "topic": "buat caraousel baru tentang pemilihan kepala desa",
@@ -238,7 +238,13 @@
     "public/11160622/slide_04.jpg",
     "public/11160622/slide_05.jpg"
    ],
-   "scheduled_at": "2026-11-16T19:00+09:00"
+   "scheduled_at": "2026-11-16T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DfzLvVRmyrx/",
+    "fb": "https://facebook.com/468307299696116_122224884164589464"
+   },
+   "published_at": "2026-11-16T19:52+09:00",
+   "errors": []
   },
   "11161033": {
    "id": "11161033",
@@ -408,7 +414,7 @@
    "name": "Pak Kepala (Manajer & Router Telegram)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 15:55"
+   "at": "2026-11-16 19:51"
   },
   "riset": {
    "name": "Mbak Riset (Peneliti Tren)",
@@ -437,8 +443,8 @@
   "humas": {
    "name": "Mbak Humas (Publisher IG & FB)",
    "status": "idle",
-   "last": "Paket TikTok #11161353 dikirim ke Bos",
-   "at": "2026-11-16 15:56"
+   "last": "Paket TikTok #11160622 dikirim ke Bos",
+   "at": "2026-11-16 19:52"
   },
   "cuan": {
    "name": "Bang Cuan (Sales lynk.id)",
@@ -454,6 +460,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-16 19:52",
+   "agent": "humas",
+   "msg": "Paket TikTok #11160622 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-16 19:52",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11160622..."
+  },
+  {
+   "at": "2026-11-16 19:52",
+   "agent": "humas",
+   "msg": "#11160622 → ig, fb"
+  },
+  {
+   "at": "2026-11-16 19:51",
+   "agent": "humas",
+   "msg": "Menerbitkan #11160622 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-16 19:51",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-16 19:51",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 16:37",
    "agent": "analis",
@@ -723,43 +759,13 @@
    "at": "2026-11-16 06:22",
    "agent": "qc",
    "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-16 06:22",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Bikin Panitia Pilkades Anti-Ribet Pakai AI\""
-  },
-  {
-   "at": "2026-11-16 06:20",
-   "agent": "naskah",
-   "msg": "Menulis carousel: buat caraousel baru tentang pemilihan kepala desa"
-  },
-  {
-   "at": "2026-11-16 06:20",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-16 06:20",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-16 06:20",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-16 06:20",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
   }
  ],
  "stats": {
-  "published": 3,
+  "published": 4,
   "drafts": 5
  },
- "updated": "2026-11-16T16:37+09:00",
+ "updated": "2026-11-16T19:52+09:00",
  "cuan_rot": 5,
  "last_followers": 130
 }
