@@ -14,7 +14,7 @@ import json
 import os
 import sys
 
-from . import telegram
+from . import telegram, jadwal
 from .core import State, load_config, now_wit, WIT, AGENTS
 from .agents import riset, naskah, desain, humas, cuan, analis, foto, tiktok, reels, berita
 
@@ -36,6 +36,7 @@ Perintah untuk Bos:
 /tiktok [id] — kirim ulang paket TikTok (video + caption)
 /produk — daftar produk lynk.id
 /laporan — laporan performa
+/jadwal — jadwal posting hari ini (/jadwal besok)
 /status — apa yang sedang dikerjakan karyawan
 /otomatis on|off — terbit tanpa persetujuan
 /bantuan — menu ini"""
@@ -198,25 +199,30 @@ def datetime_fromiso(s_):
 
 def slot_plan(cfg, idx):
     """Rotasi pilar & format per slot agar tiap hari berbeda."""
-    slot = cfg["slots"][idx]
-    day = now_wit().timetuple().tm_yday
-    order = [p["id"] for p in cfg["pillars"]]
-    pillar_id = order[(day * len(cfg["slots"]) + idx) % len(order)]
-    fmts = slot.get("formats") or ["carousel_listicle"]
-    return slot, pillar_id, fmts[day % len(fmts)]
+    return jadwal.plan(cfg, idx, now_wit().date())
 
 
 def run_slot(cfg, state, idx):
     slot, pillar_id, fmt = slot_plan(cfg, idx)
+    if jadwal.sudah_jalan(state, idx):
+        print(f"Slot {idx} ({slot['time']}) hari ini sudah dikerjakan — dilewati.")
+        return
     state.work("kepala", f"Jadwal {slot['time']} WIT: {slot['type']} {pillar_id}")
-    if slot["type"] == "reels":
-        did = create_reels(cfg, state, pillar_id=pillar_id)
-    elif slot["type"] == "berita":
-        did = create_news(cfg, state, pillar_id=None)
-        if not did:  # tidak ada berita baru → carousel edukasi biasa
-            did = create_draft(cfg, state, pillar_id=pillar_id, fmt="carousel_listicle")
-    else:
-        did = create_draft(cfg, state, pillar_id=pillar_id, fmt=fmt)
+    jadwal.log_slot(state, idx)
+    state.save()
+    try:
+        if slot["type"] == "reels":
+            did = create_reels(cfg, state, pillar_id=pillar_id)
+        elif slot["type"] == "berita":
+            did = create_news(cfg, state, pillar_id=None)
+            if not did:  # tidak ada berita baru → carousel edukasi biasa
+                did = create_draft(cfg, state, pillar_id=pillar_id, fmt="carousel_listicle")
+        else:
+            did = create_draft(cfg, state, pillar_id=pillar_id, fmt=fmt)
+    except Exception:
+        jadwal.log_slot(state, idx, status="gagal")
+        raise
+    jadwal.log_slot(state, idx, did)
     d = state.d["drafts"][did]
     risky = d["content"].get("_qc", {}).get("risk") == "tinggi"
     if cfg.get("slot_autopublish", True) and not risky:
@@ -316,6 +322,8 @@ def handle_command(cfg, state, text):
         telegram.send(esc(cuan.promo_copy(cfg, state, prod)) if prod else "Produk tidak ditemukan. Cek /produk")
     elif cmd == "/laporan":
         telegram.send(analis.weekly_report(cfg, state))
+    elif cmd == "/jadwal":
+        telegram.send(jadwal.teks(cfg, state, besok=arg.lower().startswith("besok")))
     elif cmd == "/status":
         rows = [f"{'🟢' if a['status'] == 'idle' else '🟠'} <b>{esc(a['name'])}</b>\n   {esc(a['last'])} ({a['at']})"
                 for a in state.d["agents"].values()]
@@ -414,6 +422,7 @@ def run(mode):
         for a in AGENTS:
             if state.d["agents"][a]["status"] != "idle":
                 state.d["agents"][a]["status"] = "idle"
+        jadwal.snapshot(cfg, state)
         state.save()
 
 

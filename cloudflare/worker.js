@@ -11,6 +11,9 @@
  *   OWNER_CHAT_ID       (text)    759159280
  *   KANTOR_URL          (text)    https://unitedgofpl-star.github.io/asn_go_office
  * Lalu buka https://<nama-worker>.<akun>.workers.dev/setup sekali.
+ *
+ * PENJAGA JADWAL (disarankan): Worker → Settings → Triggers → Cron Triggers → Add → isi teks CRON_JADWAL di bawah.
+ * Tiap 10 menit Worker mengecek jadwal posting dan menyalakan tim tepat waktu (cron GitHub sering telat/terlewat).
  */
 
 const HELP = `🏢 <b>Kantor Virtual ASN GO Digitals</b>
@@ -31,6 +34,7 @@ Perintah untuk Bos:
 /tiktok [id] — paket TikTok (video + caption)
 /produk — daftar produk lynk.id
 /laporan — laporan performa
+/jadwal — jadwal posting hari ini (/jadwal besok)
 /status — apa yang sedang dikerjakan karyawan
 /otomatis on|off — terbit tanpa persetujuan
 /kantor — buka kantor 3D
@@ -50,7 +54,15 @@ const SLOW = {
   "/tiktok": "📱 Kaka Natalia membuat video TikTok (±1–2 menit).",
 };
 
+// Jam slot posting (WIT) — samakan dengan "slots" di config.yaml. Dipakai bila state.json belum punya jadwal.
+const CRON_JADWAL = "*/10 * * * *"; // ← salin teks ini ke Cron Triggers Cloudflare (tiap 10 menit)
+const SLOT_JAM = ["06:30", "08:00", "09:00", "12:00", "15:30", "17:00", "18:30", "20:00"];
+
 export default {
+  // Penjaga jadwal: dipanggil Cron Trigger Cloudflare tiap 10 menit
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(jagaJadwal(env));
+  },
   async fetch(req, env) {
     const url = new URL(req.url);
     if (req.method === "GET" && url.pathname === "/setup") return setup(url, env);
@@ -99,6 +111,10 @@ export default {
         await send(env, chat, await status(env));
         return ok();
       }
+      if (cmd === "/jadwal") {
+        await send(env, chat, await jadwal(env, /besok/i.test(text)));
+        return ok();
+      }
 
       // Dikerjakan tim di GitHub Actions
       await dispatch(env, update);
@@ -118,6 +134,94 @@ async function dispatch(env, update) {
     body: JSON.stringify({ ref: "main", inputs: { mode: "event", update: JSON.stringify(update).slice(0, 60000) } }),
   });
   if (r.status !== 204) throw new Error(`GitHub menolak (${r.status}): ${(await r.text()).slice(0, 200)}`);
+}
+
+async function dispatchSlot(env, idx) {
+  const r = await fetch(`https://api.github.com/repos/${env.GH_REPO}/actions/workflows/kantor.yml/dispatches`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${env.GH_TOKEN}`, Accept: "application/vnd.github+json", "User-Agent": "asn-go-bot" },
+    body: JSON.stringify({ ref: "main", inputs: { mode: "slot", slot: String(idx) } }),
+  });
+  if (r.status !== 204) throw new Error(`GitHub menolak (${r.status})`);
+}
+
+async function bacaState(env) {
+  const r = await fetch(`https://raw.githubusercontent.com/${env.GH_REPO}/main/data/state.json?t=${Date.now()}`);
+  return r.json();
+}
+
+function waktuWIT(offsetHari = 0) {
+  const d = new Date(Date.now() + 9 * 3600e3 + offsetHari * 864e5);
+  return { tgl: d.toISOString().slice(0, 10), menit: d.getUTCHours() * 60 + d.getUTCMinutes(), hari: d.getUTCDay(), tanggal: d.getUTCDate(), bulan: d.getUTCMonth() };
+}
+const keMenit = j => { const [h, m] = j.split(":").map(Number); return h * 60 + m; };
+
+async function jagaJadwal(env) {
+  try {
+    const d = await bacaState(env).catch(() => ({}));
+    const w = waktuWIT();
+    const jg = d.jadwal || {};
+    const jam = (jg.tanggal === w.tgl ? jg.hari_ini : jg.besok_tanggal === w.tgl ? jg.besok : null)?.map(r => r.jam) || SLOT_JAM;
+    const log = (d.slot_log || {})[w.tgl] || {};
+    for (let i = 0; i < jam.length; i++) {
+      const selisih = w.menit - keMenit(jam[i]);
+      if (selisih >= 0 && selisih < 10 && !log[String(i)]) {
+        await dispatchSlot(env, i);
+        console.log(`Slot ${i} (${jam[i]} WIT) dinyalakan`);
+      }
+    }
+  } catch (e) {
+    console.log("Penjaga jadwal gagal:", e);
+  }
+}
+
+const IKON = { terbit: "✅", menunggu: "⏸", proses: "🔄", gagal: "⚠️", terlewat: "❌", akan: "🕒", berikutnya: "⏭" };
+const LABEL = { terbit: "Terbit", menunggu: "Menunggu persetujuan", proses: "Sedang diproses", gagal: "Gagal", terlewat: "Tidak jalan", berikutnya: "Berikutnya" };
+const HARI = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+const BLN = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
+const esc = s => String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+async function jadwal(env, besok) {
+  try {
+    const d = await bacaState(env);
+    const jg = d.jadwal || {};
+    const w = waktuWIT(besok ? 1 : 0);
+    let rows = jg.tanggal === w.tgl ? jg.hari_ini : jg.besok_tanggal === w.tgl ? jg.besok : null;
+    if (!rows) rows = SLOT_JAM.map((j, i) => ({ jam: j, jenis: "Konten terjadwal", pilar: "", status: "akan" }));
+    rows = rows.map(r => ({ ...r }));
+    if (!besok) {  // perbarui status berdasar jam sekarang (state bisa beberapa jam lalu)
+      rows.forEach(r => {
+        if (r.status === "akan" || r.status === "berikutnya") {
+          const lewat = w.menit - keMenit(r.jam);
+          r.status = lewat < 0 ? "akan" : lewat < 45 ? "proses" : "terlewat";
+        }
+      });
+      const n = rows.find(r => r.status === "akan");
+      if (n) n.status = "berikutnya";
+    } else rows.forEach(r => (r.status = "akan"));
+    const out = [`📅 <b>Jadwal posting ${besok ? "besok" : "hari ini"}</b>\n${HARI[w.hari]}, ${w.tanggal} ${BLN[w.bulan]} • jam WIT\n`];
+    rows.forEach(r => {
+      let l = `${IKON[r.status] || "🕒"} <b>${r.jam}</b> ${esc(r.jenis)}${r.pilar ? " • " + esc(r.pilar) : ""}`;
+      if (r.judul) l += `\n      “${esc(r.judul.slice(0, 70))}”`;
+      if (r.status !== "akan") l += `\n      <i>${LABEL[r.status] || r.status}${r.terbit ? " " + r.terbit : ""}</i>${r.id ? " #" + r.id : ""}`;
+      out.push(l);
+    });
+    if (!besok) {
+      const man = jg.tanggal === w.tgl ? jg.manual || [] : [];
+      if (man.length) {
+        out.push("\n✍️ <b>Konten manual hari ini</b>");
+        man.forEach(m => out.push(`${IKON[m.status] || "🔄"} ${m.jam} ${esc(m.jenis)} #${m.id} — ${esc((m.judul || "").slice(0, 60))}`));
+      }
+      const done = rows.filter(r => r.status === "terbit").length + man.filter(m => m.status === "terbit").length;
+      out.push(`\n📊 Terbit hari ini: <b>${done}</b> • Terjadwal: ${rows.length} slot`);
+      const n = rows.find(r => r.status === "berikutnya");
+      if (n) { const s = keMenit(n.jam) - w.menit; out.push(`⏭ Berikutnya ${n.jam} WIT (${Math.floor(s / 60)} jam ${s % 60} menit lagi): ${esc(n.jenis)}`); }
+    }
+    out.push(`<i>Data kantor: ${String(jg.dibuat || d.updated || "-").slice(11, 16)} WIT</i> • Lihat besok: /jadwal besok`);
+    return out.join("\n");
+  } catch (e) {
+    return "Belum bisa membaca jadwal kantor.";
+  }
 }
 
 async function status(env) {

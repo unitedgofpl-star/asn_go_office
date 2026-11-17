@@ -23,3 +23,15 @@
 Perintah `/bantuan`, `/status`, `/kantor` dijawab langsung (1 detik). Perintah kerja (`/buat`, `/terbit`, tombol ✅🚀🔁🗑, dll.)
 dibalas "diterima" seketika, lalu hasilnya datang ±1–3 menit kemudian dari tim di GitHub Actions.
 Kirim perintah kerja satu per satu (tunggu hasilnya) agar tidak ada yang terlewat.
+
+## Penjaga jadwal posting (Cron Trigger) — sekali pasang
+
+Cron bawaan GitHub sering telat atau terlewat. Worker ini bisa menyalakan tim tepat di jam slot:
+
+1. Buka Cloudflare → **Workers & Pages** → klik worker bot Anda.
+2. Tab **Settings** → **Triggers** → bagian **Cron Triggers** → **Add**.
+3. Pilih mode ketik manual (Cron expression), isi: `*/10 * * * *` → **Add/Save**.
+
+Selesai. Tiap 10 menit Worker mengecek jadwal; bila jam slot tiba dan slot itu belum dikerjakan,
+tim langsung dinyalakan. Cron GitHub tetap ada sebagai cadangan — sistem otomatis mencegah posting dobel.
+Cek hasilnya kapan saja dengan /jadwal di Telegram.

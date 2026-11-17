@@ -38,6 +38,8 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+      - name: Ambil buku kerja terbaru (run yang mengantre tidak boleh pakai data basi)
+        run: git pull --ff-only origin main || true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

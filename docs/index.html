@@ -48,12 +48,34 @@
   .pb h4{margin:12px 0 4px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#a0442a}
   .pb code{background:#0B1F3A;color:var(--gold);padding:2px 7px;border-radius:6px;font-size:12px;display:inline-block;margin:2px 3px 2px 0}
   .now{background:#fff;border-left:4px solid var(--red);padding:8px 10px;border-radius:8px;font-size:12.5px}
+  #jadwal{top:104px;left:14px;width:min(320px,calc(100vw - 28px));background:rgba(11,31,58,.88);backdrop-filter:blur(8px);border:1px solid rgba(244,185,66,.35);border-radius:16px;padding:10px 12px;max-height:calc(64vh - 140px);display:flex;flex-direction:column}
+  #jadwal .jh{display:flex;align-items:center;justify-content:space-between;gap:8px;cursor:pointer;user-select:none}
+  #jadwal h3{margin:0;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+  #jadwal .jt{display:flex;gap:4px}
+  #jadwal .jt button{padding:3px 8px;font-size:10.5px;border-radius:8px;background:#1d3d6b}
+  #jadwal .jt button.on{background:var(--red)}
+  #jNext{font-size:11.5px;color:#cfe0f5;margin:6px 0 4px}
+  #jNext b{color:var(--gold)}
+  #jList{overflow:auto;margin-top:2px}
+  .jr{display:grid;grid-template-columns:44px 1fr auto;gap:8px;align-items:center;padding:6px 0;border-top:1px dashed rgba(255,255,255,.08);font-size:12px;line-height:1.3}
+  .jr .jm{font-weight:700;color:#fff}
+  .jr .jj{color:#fff}.jr .jp{display:block;color:var(--muted);font-size:10.5px}
+  .jr .jd{display:block;color:#f6dfae;font-size:10.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:170px}
+  .chip{font-size:10px;padding:2px 7px;border-radius:99px;white-space:nowrap;font-weight:500}
+  .c-terbit{background:rgba(52,199,89,.2);color:#9ef0b4}.c-menunggu{background:rgba(244,185,66,.2);color:#ffd98a}
+  .c-proses{background:rgba(42,171,238,.2);color:#9fdcff}.c-gagal,.c-terlewat{background:rgba(230,57,70,.2);color:#ffb3b9}
+  .c-akan{background:rgba(255,255,255,.08);color:#c9d4e3}.c-berikutnya{background:var(--gold);color:var(--navy)}
+  .jr.next{background:rgba(244,185,66,.08);border-radius:8px;padding-left:4px}
+  .jr.man .jm{color:var(--muted);font-weight:500}
+  #jadwal.min #jList,#jadwal.min #jNext,#jadwal.min .jt{display:none}
+  #jadwal .tog{font-size:11px;color:var(--muted)}
   #hint{top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(11,31,58,.9);padding:14px 20px;border-radius:14px;font-size:13px;text-align:center;transition:opacity .6s}
   #hint.gone{opacity:0;pointer-events:none}
   @media (max-width:720px){
     #log{max-height:22vh;bottom:auto;top:auto;bottom:calc(14px + 150px)}
     .stats .stat:nth-child(n+3){display:none}
     #panel{top:auto;bottom:14px;transform:translate(0,130%)}
+    #jadwal{top:auto;bottom:calc(14px + 150px + 22vh + 12px);max-height:34vh}
     #panel.open{transform:translate(0,0)}
   }
 </style>
@@ -74,8 +96,16 @@
     <div class="stat"><b id="sDraft">0</b><span>Draft</span></div>
     <div class="stat"><b id="sWork">0/8</b><span>Sedang kerja</span></div>
     <div class="stat"><b id="sClock">--:--</b><span>Waktu WIT</span></div>
+    <div class="stat"><b id="sNext">—</b><span id="sNextL">Posting berikutnya</span></div>
     <div class="stat"><b id="sLast">—</b><span id="sLastL">Aktif terakhir</span></div>
   </div>
+</div>
+
+<div class="hud" id="jadwal">
+  <div class="jh" id="jHead"><h3>📅 Jadwal Posting</h3><span class="tog" id="jTog">sembunyikan ▴</span></div>
+  <div class="jt"><button class="on" data-j="0">Hari ini</button><button data-j="1">Besok</button></div>
+  <div id="jNext"></div>
+  <div id="jList"></div>
 </div>
 
 <div class="hud" id="log"><h3>Buku Agenda Kantor</h3><div id="logList"></div></div>
@@ -287,10 +317,9 @@ const tifa=new THREE.Group();tifa.position.set(-12.9,0,7.4);scene.add(tifa);
 cyl(.35,.42,.9,M("#6b3d1d"),0,.45,0,12,tifa);cyl(.28,.28,.4,M("#6b3d1d"),0,1.1,0,12,tifa);cyl(.42,.35,.6,M("#6b3d1d"),0,1.6,0,12,tifa);cyl(.43,.43,.05,M("#e9d8b4"),0,1.92,0,16,tifa);
 label("SUDUT NGOBROL",-10.5,2.6,7.6,"#fff",.7);
 // Papan tulis kalender konten
-const board=box(7,3.4,.15,M("#fff",{map:canvasTex(700,340,(c,w,h)=>{c.fillStyle="#fdfaf2";c.fillRect(0,0,w,h);c.fillStyle="#0B1F3A";c.font="bold 30px Poppins";c.fillText("KALENDER KONTEN MINGGUAN",24,46);
-  const d=[["SEN","AI • Tutorial"],["SEL","Desa • Tutorial"],["RAB","ASN • Listicle"],["KAM","Contekan Prompt"],["JUM","Desa • Listicle"],["SAB","Mitos vs Fakta"],["MIN","Promo lynk.id"]];
-  d.forEach(([a,b],i)=>{const y=80+i*36;c.fillStyle=i==6?"#E63946":"#12305A";c.fillRect(24,y,70,28);c.fillStyle="#fff";c.font="bold 17px Poppins";c.fillText(a,36,y+20);c.fillStyle="#0B1F3A";c.font="20px Poppins";c.fillText(b,108,y+21);});
-  c.fillStyle="#E63946";c.font="bold 20px Poppins";c.fillText("Terbit 19.00 WIT",460,330);})}),-15.7,4.6,0);
+const boardCanvas=document.createElement("canvas");boardCanvas.width=700;boardCanvas.height=340;
+const boardTex=new THREE.CanvasTexture(boardCanvas);boardTex.anisotropy=4;
+const board=box(7,3.4,.15,M("#fff",{map:boardTex}),-15.7,4.6,0);
 board.rotation.y=Math.PI/2;board.position.x=-15.6;board.position.z=0;board.position.y=4.2;
 // sembunyikan gebyok tengah di belakang papan
 // Logo besar di lantai
@@ -559,7 +588,7 @@ async function activity(kind,k,partner){
       faceTo(k,spot[1][0],spot[1][1]);
       if(kind==="kopi"){p.cup.visible=true;say(k,["☕ Ngopi dulu, kopi Papua mantap","Sa bikin kopi dulu e","Kopi Wamena memang juara ☕"][Math.floor(Math.random()*3)],3500);}
       if(kind==="jendela")say(k,["Indahnya Teluk Serui 🌊","Lihat perahu di teluk…","Angin laut segar e"][Math.floor(Math.random()*3)],3200);
-      if(kind==="papan")say(k,"Cek jadwal: 4 carousel + 2 Reels hari ini",3200);
+      if(kind==="papan")say(k,nextLine(),3600);
       await wait(4500+Math.random()*3000);taken.delete(spot[0]);p.spot=null;if(cancelled(k,token))return;
     }
     await goBack(k);
@@ -603,6 +632,63 @@ async function replay(entries){
   }
   replaying=false;busy=false;renderUI();
 }
+// ---------------- JADWAL POSTING (panel, statistik & papan tulis 3D) ----------------
+const SLOTS_DEMO=[["06:30","carousel","Carousel Tutorial"],["08:00","berita","Berita Terkini"],["09:00","reels","Reels"],["12:00","carousel","Carousel Contekan Prompt"],
+  ["15:30","carousel","Carousel Mitos vs Fakta"],["17:00","berita","Berita Terkini"],["18:30","reels","Reels"],["20:00","carousel","Carousel Soft-selling"]];
+const PILAR_DEMO=["Digitalisasi ASN","Pemerintahan Desa","AI untuk Kerja Kantor"];
+const J_LABEL={terbit:"Terbit",menunggu:"Menunggu",proses:"Diproses",gagal:"Gagal",terlewat:"Tidak jalan",akan:"Terjadwal",berikutnya:"Berikutnya"};
+const jState={data:null,tab:0};
+function witNow(off=0){const d=new Date(Date.now()+9*3600e3+off*864e5);return{tgl:d.toISOString().slice(0,10),menit:d.getUTCHours()*60+d.getUTCMinutes(),d};}
+const toMin=j=>{const[h,m]=j.split(":").map(Number);return h*60+m;};
+function jadwalRows(besok){
+  const w=witNow(besok?1:0),jg=jState.data||{};
+  let rows=jg.tanggal===w.tgl?jg.hari_ini:jg.besok_tanggal===w.tgl?jg.besok:null;
+  if(!rows){const doy=Math.floor((w.d-Date.UTC(w.d.getUTCFullYear(),0,0))/864e5);
+    rows=SLOTS_DEMO.map(([jam,tipe,jenis],i)=>({jam,tipe,jenis,pilar:tipe==="berita"?"Berita pilihan":PILAR_DEMO[(doy*8+i)%3],status:"akan"}));}
+  rows=rows.map(r=>({...r}));
+  if(besok)rows.forEach(r=>r.status="akan");
+  else{rows.forEach(r=>{if(r.status==="akan"||r.status==="berikutnya"){const l=w.menit-toMin(r.jam);r.status=l<0?"akan":l<45?"proses":(state.live?"terlewat":"terbit");}});
+    const n=rows.find(r=>r.status==="akan");if(n)n.status="berikutnya";}
+  return rows;
+}
+function renderJadwal(){
+  const besok=jState.tab===1,rows=jadwalRows(besok),w=witNow();
+  const man=(!besok&&jState.data&&jState.data.tanggal===w.tgl)?(jState.data.manual||[]):[];
+  const esc=t=>String(t||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  $("jList").innerHTML=rows.map(r=>`<div class="jr ${r.status==="berikutnya"?"next":""}"><span class="jm">${r.jam}</span>
+    <span><span class="jj">${esc(r.jenis)}</span><span class="jp">${esc(r.pilar)}</span>${r.judul?`<span class="jd" title="${esc(r.judul)}">“${esc(r.judul)}”</span>`:""}</span>
+    <span class="chip c-${r.status}">${J_LABEL[r.status]||r.status}${r.terbit?" "+r.terbit:""}</span></div>`).join("")+
+    (man.length?`<div class="jr man" style="grid-template-columns:1fr"><span class="jp" style="color:var(--gold)">✍️ KONTEN MANUAL HARI INI</span></div>`+
+     man.map(m=>`<div class="jr man"><span class="jm">${m.jam}</span><span><span class="jj">${esc(m.jenis)}</span><span class="jd" title="${esc(m.judul)}">${esc(m.judul)}</span></span><span class="chip c-${m.status}">${J_LABEL[m.status]||m.status}</span></div>`).join(""):"");
+  const today=jadwalRows(false),n=today.find(r=>r.status==="berikutnya");
+  const done=today.filter(r=>r.status==="terbit").length+man.filter(m=>m.status==="terbit").length;
+  if(n){const s=toMin(n.jam)-w.menit;$("sNext").textContent=n.jam;$("sNextL").textContent=`${s>=60?Math.floor(s/60)+"j ":""}${s%60}m lagi • ${n.tipe==="reels"?"Reels":n.tipe==="berita"?"Berita":"Carousel"}`;
+    $("jNext").innerHTML=besok?`Rencana besok: <b>${rows.length} posting</b>`:`⏭ Berikutnya <b>${n.jam} WIT</b> • ${esc(n.jenis)} • ${s>=60?Math.floor(s/60)+" jam ":""}${s%60} menit lagi<br>✅ Terbit hari ini: <b>${done}</b> dari ${today.length} slot`;}
+  else{$("sNext").textContent="06:30";$("sNextL").textContent="Besok pagi";$("jNext").innerHTML=besok?`Rencana besok: <b>${rows.length} posting</b>`:`Slot hari ini selesai • ✅ Terbit: <b>${done}</b>`;}
+  drawBoard(today);
+}
+let boardKey="";
+function drawBoard(rows){
+  const key=rows.map(r=>r.status+r.jam).join();if(key===boardKey)return;boardKey=key;
+  const c=boardCanvas.getContext("2d"),W=700,H=340;
+  c.fillStyle="#fdfaf2";c.fillRect(0,0,W,H);c.fillStyle="#0B1F3A";c.font="bold 28px Poppins";c.fillText("JADWAL POSTING HARI INI",24,44);
+  c.fillStyle="#E63946";c.font="bold 16px Poppins";c.fillText("WIT",W-70,44);
+  const col={terbit:"#1f9d55",menunggu:"#d39b1c",proses:"#2a8fd6",gagal:"#E63946",terlewat:"#E63946",akan:"#8a9bb3",berikutnya:"#F4B942"};
+  rows.forEach((r,i)=>{const y=64+i*34;
+    c.fillStyle=r.status==="berikutnya"?"#fff1cf":"rgba(11,31,58,.04)";c.fillRect(20,y,W-40,30);
+    c.fillStyle="#12305A";c.fillRect(20,y,74,30);c.fillStyle="#fff";c.font="bold 17px Poppins";c.fillText(r.jam,30,y+21);
+    c.fillStyle="#0B1F3A";c.font="17px Poppins";c.fillText(`${r.jenis} • ${r.pilar}`.slice(0,40),106,y+21);
+    c.fillStyle=col[r.status]||"#8a9bb3";c.beginPath();c.arc(W-150,y+15,7,0,7);c.fill();
+    c.font="bold 14px Poppins";c.fillText((J_LABEL[r.status]||"").toUpperCase(),W-136,y+20);});
+  boardTex.needsUpdate=true;
+}
+document.querySelectorAll("#jadwal .jt button").forEach(b=>b.onclick=e=>{e.stopPropagation();jState.tab=+b.dataset.j;
+  document.querySelectorAll("#jadwal .jt button").forEach(x=>x.classList.toggle("on",x===b));renderJadwal();});
+$("jHead").onclick=()=>{const m=$("jadwal").classList.toggle("min");$("jTog").textContent=m?"tampilkan ▾":"sembunyikan ▴";};
+if(innerWidth<720){$("jadwal").classList.add("min");$("jTog").textContent="tampilkan ▾";}
+function nextLine(){const n=jadwalRows(false).find(r=>r.status==="berikutnya");return n?`Cek jadwal: berikutnya ${n.jam} WIT, ${n.jenis}`:"Cek jadwal: slot hari ini sudah tuntas!";}
+renderJadwal();setInterval(renderJadwal,30000);
+
 const seen=new Set();let firstLoad=true;
 
 async function loadLive(){
@@ -629,6 +715,7 @@ async function loadLive(){
     state.stats.published=(d.stats||{}).published||0;
     state.stats.drafts=Object.values(d.drafts||{}).filter(x=>x.status==="draft"||x.status==="approved").length;
     if(state.stats.published>prevPub&&prevPub>0)ringGong();
+    jState.data=d.jadwal||null;renderJadwal();
     // tampilkan aktivitas terakhir (≤ 20 menit) sebagai gelembung
     renderUI();
   }catch(e){console.warn("Gagal memuat status live",e);}
