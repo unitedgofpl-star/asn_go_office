@@ -895,7 +895,7 @@
   },
   "11171511": {
    "id": "11171511",
-   "status": "draft",
+   "status": "published",
    "created": "2026-11-17T15:11+09:00",
    "pillar": "Pemerintahan Desa",
    "topic": "carousel baru tentang AI untuk ASN lebih produktif",
@@ -989,7 +989,13 @@
     "public/11171511/slide_07.jpg",
     "public/11171511/slide_08.jpg"
    ],
-   "scheduled_at": "2026-11-17T19:00+09:00"
+   "scheduled_at": "2026-11-17T15:13+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df1QvbjjUOB/",
+    "fb": "https://facebook.com/468307299696116_122225019380589464"
+   },
+   "published_at": "2026-11-17T15:14+09:00",
+   "errors": []
   }
  },
  "agents": {
@@ -997,7 +1003,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-17 15:11"
+   "at": "2026-11-17 15:13"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -1026,8 +1032,8 @@
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11171443 → gagal",
-   "at": "2026-11-17 14:46"
+   "last": "Paket TikTok #11171511 dikirim ke Bos",
+   "at": "2026-11-17 15:14"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -1043,6 +1049,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 15:14",
+   "agent": "humas",
+   "msg": "Paket TikTok #11171511 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 15:14",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11171511..."
+  },
+  {
+   "at": "2026-11-17 15:14",
+   "agent": "humas",
+   "msg": "#11171511 → ig, fb"
+  },
+  {
+   "at": "2026-11-17 15:13",
+   "agent": "humas",
+   "msg": "Menerbitkan #11171511 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-17 15:13",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-17 15:13",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-17 15:11",
    "agent": "kepala",
@@ -1312,43 +1348,13 @@
    "at": "2026-11-17 13:04",
    "agent": "riset",
    "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-17 13:04",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-17 13:04",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-17 13:04",
-   "agent": "kepala",
-   "msg": "Jadwal 06:30 WIT: carousel asn"
-  },
-  {
-   "at": "2026-11-17 09:59",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-17 09:59",
-   "agent": "kepala",
-   "msg": "Draft #11170959 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 09:59",
-   "agent": "desain",
-   "msg": "5 slide gaya tosca siap"
   }
  ],
  "stats": {
-  "published": 7,
+  "published": 8,
   "drafts": 12
  },
- "updated": "2026-11-17T15:11+09:00",
+ "updated": "2026-11-17T15:14+09:00",
  "cuan_rot": 11,
  "last_followers": 130,
  "style_hist": [
