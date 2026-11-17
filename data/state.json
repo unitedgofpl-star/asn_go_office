@@ -1058,6 +1058,105 @@
    },
    "published_at": "2026-11-17T16:46+09:00",
    "errors": []
+  },
+  "11171730": {
+   "id": "11171730",
+   "status": "draft",
+   "created": "2026-11-17T17:30+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "Draft #11170959",
+   "format": "carousel_tutorial",
+   "product": "naskah",
+   "content": {
+    "hook": "5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP",
+    "subtitle": "Warga minta surat pengantar langsung beres tanpa antre berjam-jam",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Siapkan Google Form Permohonan",
+      "sub": "Formulir online input data warga",
+      "icon": "📝"
+     },
+     {
+      "title": "Bikin Template Surat Otomatis",
+      "sub": "Format naskah dinas siap cetak",
+      "icon": "📄"
+     },
+     {
+      "title": "Hubungkan Autocrat di Spreadsheet",
+      "sub": "Integrasi data form ke dokumen",
+      "icon": "⚡"
+     },
+     {
+      "title": "Cetak QR Code Loket",
+      "sub": "Tempel di meja pelayanan kantor",
+      "icon": "📲"
+     },
+     {
+      "title": "Arsipkan Otomatis di Drive",
+      "sub": "Registrasi surat langsung tercatat rapi",
+      "icon": "🗂️"
+     }
+    ],
+    "details": [
+     {
+      "title": "Siapkan Google Form Permohonan",
+      "body": "Buat formulir sederhana berisi identitas pokok, jenis surat pengantar, dan kontak warga. Pastikan pengaturan akses formulir aman dan mematuhi asas pelindungan data pribadi warga.",
+      "icon": "📝"
+     },
+     {
+      "title": "Bikin Template Surat Otomatis",
+      "body": "Siapkan draf surat di Google Docs sesuai pedoman tata naskah dinas instansi. Berikan penanda variabel seperti <<Nama>> dan <<NIK>> agar data terisi presisi tanpa ketik ulang.",
+      "icon": "📄"
+     },
+     {
+      "title": "Hubungkan Autocrat di Spreadsheet",
+      "body": "Pasang pengaya Autocrat pada Google Sheets. Setiap permohonan masuk, sistem langsung membuat draf berkas PDF terstandar yang siap diverifikasi dan ditandatangani pejabat desa.",
+      "icon": "⚡"
+     },
+     {
+      "title": "Cetak QR Code Loket",
+      "body": "Cetak QR Code tautan formulir, lalu pasang di area pelayanan desa. Warga dapat mengisi mandiri lewat ponsel atau dibantu petugas piket pelayanan.",
+      "icon": "📲"
+     },
+     {
+      "title": "Arsipkan Otomatis di Drive",
+      "body": "Salinan surat digital otomatis tersimpan di folder Google Drive desa. Batasi hak akses folder hanya untuk perangkat desa yang berwenang demi menjaga kerahasiaan data.",
+      "icon": "🗂️"
+     }
+    ],
+    "note": "Pastikan penerapan sistem mandiri ini tetap mengacu pada tata naskah dinas dan ketentuan pelindungan data pribadi (UU PDP).",
+    "cta": "Simpan panduan ini dan diskusikan bersama perangkat desa Anda!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Ingin meja pelayanan administrasi kantor desa terasa cepat dan tertata rapi seperti Mal Pelayanan Publik modern? Kita tidak selalu harus menunggu aplikasi khusus bernilai besar untuk mulai berbenah.\n\nMemanfaatkan integrasi Google Form, Docs, dan pengaya otomatisasi dokumen, alur pengajuan surat pengantar dapat diproses rapi dalam hitungan menit. Petugas loket hemat waktu, dan pelayanan warga menjadi lebih prima serta transparan.\n\nYuk, SIMPAN & BAGIKAN postingan ini ke rekan perangkat desa lainnya. Di kantor desa Sobat, alur surat menyurat saat ini masih manual atau sudah mulai terdigitalisasi?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#PemerintahanDesa",
+     "#DigitalisasiDesa",
+     "#PelayananPublik",
+     "#SmartVillage",
+     "#PerangkatDesa",
+     "#AparaturDesa",
+     "#TataKelolaDesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Ketidaksesuaian struktur: Bagian 'items' memiliki 5 langkah, tetapi 'details' hanya memuat 4 poin (langkah ke-5 belum dijabarkan).",
+      "Keamanan data dan kepatuhan regulasi: Pengumpulan NIK dan data kependudukan via Google Form dan pengaya pihak ketiga (Autocrat) memiliki risiko kerentanan Pelindungan Data Pribadi (UU No. 27/2022). Perlu penegasan pembatasan hak akses dan enkripsi/keamanan data.",
+      "Bahasa percakapan pada takarir: Kata 'gak' diubah menjadi 'tidak' agar tetap sesuai etika komunikasi publik ASN."
+     ],
+     "risk": "sedang"
+    }
+   },
+   "images": [
+    "public/11171730/slide_01.jpg",
+    "public/11171730/slide_02.jpg",
+    "public/11171730/slide_03.jpg",
+    "public/11171730/slide_04.jpg",
+    "public/11171730/slide_05.jpg",
+    "public/11171730/slide_06.jpg",
+    "public/11171730/slide_07.jpg",
+    "public/11171730/slide_08.jpg"
+   ],
+   "scheduled_at": "2026-11-17T19:00+09:00"
   }
  },
  "agents": {
@@ -1065,31 +1164,31 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-17 17:28"
+   "at": "2026-11-17 17:30"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-17 16:43"
+   "at": "2026-11-17 17:29"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Naskah Reels: \"Bikin paparan kantor cuma dalam hitungan detik?\"",
-   "at": "2026-11-17 16:45"
+   "last": "Draft selesai: \"5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP\"",
+   "at": "2026-11-17 17:30"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
    "last": "QC selesai — risiko sedang, 3 catatan",
-   "at": "2026-11-17 15:11"
+   "at": "2026-11-17 17:30"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Reels 23 detik siap (gaya ungu)",
-   "at": "2026-11-17 16:45"
+   "last": "8 slide gaya kertas siap",
+   "at": "2026-11-17 17:30"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
@@ -1101,7 +1200,7 @@
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-17 16:43"
+   "at": "2026-11-17 17:29"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -1111,6 +1210,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 17:30",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-17 17:30",
+   "agent": "kepala",
+   "msg": "Draft #11171730 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 17:30",
+   "agent": "desain",
+   "msg": "8 slide gaya kertas siap"
+  },
+  {
+   "at": "2026-11-17 17:30",
+   "agent": "desain",
+   "msg": "Mendesain gaya kertas/angka/timeline/angka..."
+  },
+  {
+   "at": "2026-11-17 17:30",
+   "agent": "qc",
+   "msg": "QC selesai — risiko sedang, 3 catatan"
+  },
+  {
+   "at": "2026-11-17 17:30",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-17 17:30",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP\""
+  },
+  {
+   "at": "2026-11-17 17:29",
+   "agent": "naskah",
+   "msg": "Menulis carousel: Draft #11170959"
+  },
+  {
+   "at": "2026-11-17 17:29",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-17 17:29",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-17 17:29",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-17 17:29",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-17 17:29",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-17 17:28",
    "agent": "kepala",
@@ -1345,79 +1509,14 @@
    "at": "2026-11-17 14:43",
    "agent": "desain",
    "msg": "Mendesain gaya navy/berita/kartu/kartu..."
-  },
-  {
-   "at": "2026-11-17 14:43",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 2 catatan"
-  },
-  {
-   "at": "2026-11-17 14:43",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-17 14:43",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Musim Perencanaan Desa Bikin Pusing Kepala?\""
-  },
-  {
-   "at": "2026-11-17 14:42",
-   "agent": "naskah",
-   "msg": "Menulis carousel: perencanaan RPJMDes, RKPDes, APBDes, Siskeudes"
-  },
-  {
-   "at": "2026-11-17 14:42",
-   "agent": "riset",
-   "msg": "Menemukan 9 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-17 14:42",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-17 14:42",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-17 14:42",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-17 14:42",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-17 13:48",
-   "agent": "humas",
-   "msg": "#11171348 → gagal"
-  },
-  {
-   "at": "2026-11-17 13:48",
-   "agent": "humas",
-   "msg": "Menerbitkan #11171348 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-17 13:48",
-   "agent": "kepala",
-   "msg": "Berita #11171348 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 13:48",
-   "agent": "desain",
-   "msg": "Berita 2 slide siap"
   }
  ],
  "stats": {
   "published": 9,
-  "drafts": 13
+  "drafts": 14
  },
- "updated": "2026-11-17T17:28+09:00",
- "cuan_rot": 12,
+ "updated": "2026-11-17T17:30+09:00",
+ "cuan_rot": 13,
  "last_followers": 130,
  "style_hist": [
   {
@@ -1496,6 +1595,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "kertas",
+   "cover": "angka",
+   "list": "timeline",
+   "detail": "angka",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
@@ -1506,7 +1616,8 @@
   "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027",
   "Musim Perencanaan Desa Bikin Pusing Kepala?",
   "Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi",
-  "Bikin paparan kantor cuma dalam hitungan detik?"
+  "Bikin paparan kantor cuma dalam hitungan detik?",
+  "5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
