@@ -805,7 +805,7 @@
   },
   "11171443": {
    "id": "11171443",
-   "status": "draft",
+   "status": "failed",
    "created": "2026-11-17T14:43+09:00",
    "pillar": "Pemerintahan Desa",
    "topic": "perencanaan RPJMDes, RKPDes, APBDes, Siskeudes",
@@ -885,7 +885,13 @@
     "public/11171443/slide_05.jpg",
     "public/11171443/slide_06.jpg"
    ],
-   "scheduled_at": "2026-11-17T19:00+09:00"
+   "scheduled_at": "2026-11-17T14:46+09:00",
+   "published": {},
+   "published_at": "2026-11-17T14:46+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
@@ -893,7 +899,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-17 14:43"
+   "at": "2026-11-17 14:46"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -922,8 +928,8 @@
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11171348 → gagal",
-   "at": "2026-11-17 13:48"
+   "last": "#11171443 → gagal",
+   "at": "2026-11-17 14:46"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -939,6 +945,26 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 14:46",
+   "agent": "humas",
+   "msg": "#11171443 → gagal"
+  },
+  {
+   "at": "2026-11-17 14:46",
+   "agent": "humas",
+   "msg": "Menerbitkan #11171443 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-17 14:46",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-17 14:46",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-17 14:43",
    "agent": "kepala",
@@ -1218,33 +1244,13 @@
    "at": "2026-11-16 22:30",
    "agent": "humas",
    "msg": "#11162141 → ig, fb"
-  },
-  {
-   "at": "2026-11-16 22:29",
-   "agent": "humas",
-   "msg": "Menerbitkan #11162141 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-16 22:29",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 22:29",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 21:44",
-   "agent": "humas",
-   "msg": "Paket TikTok #11162141 dikirim ke Bos"
   }
  ],
  "stats": {
   "published": 7,
   "drafts": 11
  },
- "updated": "2026-11-17T14:43+09:00",
+ "updated": "2026-11-17T14:46+09:00",
  "cuan_rot": 10,
  "last_followers": 130,
  "style_hist": [
