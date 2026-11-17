@@ -1390,50 +1390,136 @@
    },
    "published_at": "2026-11-17T20:44+09:00",
    "errors": []
+  },
+  "11180125": {
+   "id": "11180125",
+   "status": "published",
+   "created": "2026-11-18T01:25+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "Google Workspace / Excel untuk laporan kantor",
+   "format": "carousel_listicle",
+   "product": "naskah",
+   "content": {
+    "hook": "Kebiasaan Spreadsheet yang Bikin Laporan ASN Berantakan",
+    "subtitle": "Tinggalkan cara manual agar kerja makin sat-set dan akurat",
+    "mood": "tegas",
+    "items": [
+     {
+      "title": "Data Mentah Campur Rumus",
+      "sub": "Pisahkan input data dengan hasil olahan akhir.",
+      "icon": "📊"
+     },
+     {
+      "title": "Format Tanggal Tidak Seragam",
+      "sub": "Gunakan format standar agar mudah di-filter.",
+      "icon": "📅"
+     },
+     {
+      "title": "Baris Kosong yang Mengganggu",
+      "sub": "Hapus baris kosong agar fungsi formula berjalan.",
+      "icon": "🚫"
+     },
+     {
+      "title": "Terlalu Banyak Sheet Terpisah",
+      "sub": "Satukan data dalam satu tabel master utama.",
+      "icon": "📑"
+     },
+     {
+      "title": "Tidak Mengunci Referensi Sel",
+      "sub": "Gunakan tanda dollar agar formula tidak bergeser.",
+      "icon": "🔐"
+     }
+    ],
+    "details": [
+     {
+      "title": "Data Mentah Campur Rumus",
+      "body": "Jangan mencampur data input dengan rumus di sel yang sama. Ini membuat file rawan error saat ada penambahan data baru. Gunakan lembar kerja terpisah untuk input dan rekapitulasi agar laporan lebih rapi dan aman.",
+      "icon": "📊"
+     },
+     {
+      "title": "Format Tanggal Tidak Seragam",
+      "body": "Menulis tanggal secara manual (seperti 1 Jan atau 01/01) menyulitkan fitur penyaringan data. Pastikan gunakan format tanggal standar sistem agar data dapat diurutkan otomatis dengan mudah.",
+      "icon": "📅"
+     }
+    ],
+    "note": "Selalu perhatikan kaidah pengelolaan data dan tata naskah dinas di instansi Anda.",
+    "cta": "Simpan postingan ini supaya tidak lupa saat menyusun laporan nanti!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Pernah tidak, lagi asyik rekap laporan tiba-tiba rumusnya error atau datanya berantakan? Sebagai ASN yang dituntut lincah di era digital, efisiensi adalah kunci. Kali ini Kaka Agus ingin berbagi kebiasaan di spreadsheet yang wajib Rekan ASN tinggalkan mulai hari ini. Dengan merapikan cara kerja, kita tidak hanya menghemat waktu tetapi juga meminimalisir kesalahan input data. Ingat, laporan yang rapi mencerminkan kinerja yang profesional! Yuk, baca slide sampai akhir dan terapkan di kantor mulai besok. Tulis di kolom komentar kebiasaan mana yang sering Anda lakukan!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asndigital",
+     "#digitalisasiASN",
+     "#tipsASN",
+     "#belajarExcel",
+     "#ASNlincah",
+     "#birokrasidigital"
+    ],
+    "_qc": {
+     "issues": [
+      "Memperbaiki nama panggilan 'Cicilia' di caption karena tidak sesuai dengan persona Kaka Agus.",
+      "Memperbaiki beberapa kata agar sesuai dengan EYD.",
+      "Memastikan panjang teks per slide di bawah 45 kata."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11180125/slide_01.jpg",
+    "public/11180125/slide_02.jpg",
+    "public/11180125/slide_03.jpg",
+    "public/11180125/slide_04.jpg",
+    "public/11180125/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-18T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df2Wxx5FwJp/",
+    "fb": "https://facebook.com/468307299696116_122225088146589464"
+   },
+   "published_at": "2026-11-18T01:26+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Perintah selesai diproses",
-   "at": "2026-11-17 22:06"
+   "last": "Draft #11180125 dikirim ke Bos",
+   "at": "2026-11-18 01:25"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-17 20:40"
+   "at": "2026-11-18 01:24"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Kerja ASN Makin Sat-Set dengan AI Anti-Lembur\"",
-   "at": "2026-11-17 20:43"
+   "last": "Draft selesai: \"5 Kebiasaan Spreadsheet yang Bikin Laporan ASN Berantakan\"",
+   "at": "2026-11-18 01:25"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
    "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-17 20:43"
+   "at": "2026-11-18 01:25"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya merah siap",
-   "at": "2026-11-17 20:43"
+   "last": "5 slide gaya tosca siap",
+   "at": "2026-11-18 01:25"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11172043 dikirim ke Bos",
-   "at": "2026-11-17 20:45"
+   "last": "Paket TikTok #11180125 dikirim ke Bos",
+   "at": "2026-11-18 01:27"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-17 20:40"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-18 01:24"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -1443,6 +1529,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-18 01:27",
+   "agent": "humas",
+   "msg": "Paket TikTok #11180125 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-18 01:26",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11180125..."
+  },
+  {
+   "at": "2026-11-18 01:26",
+   "agent": "humas",
+   "msg": "#11180125 → ig, fb"
+  },
+  {
+   "at": "2026-11-18 01:25",
+   "agent": "humas",
+   "msg": "Menerbitkan #11180125 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-18 01:25",
+   "agent": "kepala",
+   "msg": "Draft #11180125 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-18 01:25",
+   "agent": "desain",
+   "msg": "5 slide gaya tosca siap"
+  },
+  {
+   "at": "2026-11-18 01:25",
+   "agent": "desain",
+   "msg": "Mendesain gaya tosca/kiri/ceklis/angka..."
+  },
+  {
+   "at": "2026-11-18 01:25",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 3 catatan"
+  },
+  {
+   "at": "2026-11-18 01:25",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-18 01:25",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"5 Kebiasaan Spreadsheet yang Bikin Laporan ASN Berantakan\""
+  },
+  {
+   "at": "2026-11-18 01:24",
+   "agent": "naskah",
+   "msg": "Menulis carousel: Google Workspace / Excel untuk laporan kantor"
+  },
+  {
+   "at": "2026-11-18 01:24",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-18 01:24",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-18 01:24",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-18 01:24",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-18 01:24",
+   "agent": "kepala",
+   "msg": "Jadwal 15:30 WIT: carousel asn"
+  },
   {
    "at": "2026-11-17 22:06",
    "agent": "kepala",
@@ -1662,94 +1828,14 @@
    "at": "2026-11-17 18:32",
    "agent": "humas",
    "msg": "Menerbitkan #11171832 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-17 18:32",
-   "agent": "kepala",
-   "msg": "Reels #11171832 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 18:32",
-   "agent": "desain",
-   "msg": "Reels 42 detik siap (gaya merah)"
-  },
-  {
-   "at": "2026-11-17 18:32",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-17 18:32",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya merah..."
-  },
-  {
-   "at": "2026-11-17 18:32",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"SKP MyASN numpuk? Beresin pakai trik ini!\""
-  },
-  {
-   "at": "2026-11-17 18:30",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-"
-  },
-  {
-   "at": "2026-11-17 18:30",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-17 18:30",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-17 18:30",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-17 18:30",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-17 18:30",
-   "agent": "kepala",
-   "msg": "Jadwal 18:30 WIT: reels asn"
-  },
-  {
-   "at": "2026-11-17 17:32",
-   "agent": "humas",
-   "msg": "Paket TikTok #11171730 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 17:32",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11171730..."
-  },
-  {
-   "at": "2026-11-17 17:32",
-   "agent": "humas",
-   "msg": "#11171730 → ig, fb"
-  },
-  {
-   "at": "2026-11-17 17:31",
-   "agent": "humas",
-   "msg": "Menerbitkan #11171730 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-17 17:31",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
   }
  ],
  "stats": {
-  "published": 14,
-  "drafts": 17
+  "published": 15,
+  "drafts": 18
  },
- "updated": "2026-11-17T22:06+09:00",
- "cuan_rot": 16,
+ "updated": "2026-11-18T01:27+09:00",
+ "cuan_rot": 17,
  "last_followers": 130,
  "style_hist": [
   {
@@ -1872,6 +1958,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "badan"
+  },
+  {
+   "mood": "tegas",
+   "expr": "cemberut",
+   "theme": "tosca",
+   "cover": "kiri",
+   "list": "ceklis",
+   "detail": "angka",
+   "pose": "tegas__cemberut_tangan_di_pinggang",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
@@ -1886,7 +1983,8 @@
   "5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP",
   "SKP MyASN numpuk? Beresin pakai trik ini!",
   "Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?",
-  "Kerja ASN Makin Sat-Set dengan AI Anti-Lembur"
+  "Kerja ASN Makin Sat-Set dengan AI Anti-Lembur",
+  "Kebiasaan Spreadsheet yang Bikin Laporan ASN Berantakan"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -1909,21 +2007,28 @@
     "status": "proses",
     "at": "2026-11-17T20:43+09:00"
    }
+  },
+  "2026-11-18": {
+   "4": {
+    "did": "11180125",
+    "status": "proses",
+    "at": "2026-11-18T01:25+09:00"
+   }
   }
  },
  "jadwal": {
-  "tanggal": "2026-11-17",
-  "dibuat": "2026-11-17T22:06+09:00",
+  "tanggal": "2026-11-18",
+  "dibuat": "2026-11-18T01:27+09:00",
   "hari_ini": [
    {
     "slot": 0,
     "jam": "06:30",
     "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Digitalisasi ASN",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "terlewat"
+    "status": "berikutnya"
    },
    {
     "slot": 1,
@@ -1933,38 +2038,38 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "terlewat"
+    "status": "akan"
    },
    {
     "slot": 2,
     "jam": "09:00",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "AI untuk Kerja Kantor",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "terlewat"
+    "status": "akan"
    },
    {
     "slot": 3,
     "jam": "12:00",
     "tipe": "carousel",
-    "jenis": "Carousel Contekan Prompt",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Kerja ASN Makin Sat-Set dengan AI Anti-Lembur",
-    "id": "11172043",
-    "status": "terbit",
-    "terbit": "20:44"
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 4,
     "jam": "15:30",
     "tipe": "carousel",
-    "jenis": "Carousel Mitos vs Fakta",
-    "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "terlewat"
+    "jenis": "Carousel Listicle",
+    "pilar": "Digitalisasi ASN",
+    "judul": "Kebiasaan Spreadsheet yang Bikin Laporan ASN Berantakan",
+    "id": "11180125",
+    "status": "terbit",
+    "terbit": "01:26"
    },
    {
     "slot": 5,
@@ -1974,90 +2079,38 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "terlewat"
+    "status": "akan"
    },
    {
     "slot": 6,
     "jam": "18:30",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "Digitalisasi ASN",
-    "judul": "SKP MyASN numpuk? Beresin pakai trik ini!",
-    "id": "11171832",
-    "status": "terbit",
-    "terbit": "18:33"
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 7,
     "jam": "20:00",
     "tipe": "carousel",
-    "jenis": "Carousel Soft-selling",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?",
-    "id": "11172004",
-    "status": "terbit",
-    "terbit": "20:07"
+    "jenis": "Carousel Tutorial",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    }
   ],
-  "manual": [
-   {
-    "jam": "13:05",
-    "id": "11171305",
-    "jenis": "Carousel",
-    "judul": "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap",
-    "status": "gagal"
-   },
-   {
-    "jam": "13:48",
-    "id": "11171348",
-    "jenis": "Berita Terkini",
-    "judul": "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027",
-    "status": "gagal"
-   },
-   {
-    "jam": "14:46",
-    "id": "11171443",
-    "jenis": "Carousel",
-    "judul": "Musim Perencanaan Desa Bikin Pusing Kepala?",
-    "status": "gagal"
-   },
-   {
-    "jam": "15:14",
-    "id": "11171511",
-    "jenis": "Carousel",
-    "judul": "Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi",
-    "status": "terbit"
-   },
-   {
-    "jam": "16:46",
-    "id": "11171645",
-    "jenis": "Reels",
-    "judul": "Bikin paparan kantor cuma dalam hitungan detik?",
-    "status": "terbit"
-   },
-   {
-    "jam": "17:32",
-    "id": "11171730",
-    "jenis": "Carousel",
-    "judul": "5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP",
-    "status": "terbit"
-   },
-   {
-    "jam": "19:00",
-    "id": "11170959",
-    "jenis": "Carousel",
-    "judul": "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!",
-    "status": "menunggu"
-   }
-  ],
-  "besok_tanggal": "2026-11-18",
+  "manual": [],
+  "besok_tanggal": "2026-11-19",
   "besok": [
    {
     "slot": 0,
     "jam": "06:30",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
+    "jenis": "Carousel Contekan Prompt",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -2077,7 +2130,7 @@
     "jam": "09:00",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "Pemerintahan Desa",
+    "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -2086,8 +2139,8 @@
     "slot": 3,
     "jam": "12:00",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
+    "jenis": "Carousel Listicle",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -2096,8 +2149,8 @@
     "slot": 4,
     "jam": "15:30",
     "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Digitalisasi ASN",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -2117,7 +2170,7 @@
     "jam": "18:30",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "AI untuk Kerja Kantor",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -2126,8 +2179,8 @@
     "slot": 7,
     "jam": "20:00",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "Digitalisasi ASN",
+    "jenis": "Carousel Listicle",
+    "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
     "status": "akan"
