@@ -802,38 +802,122 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11171443": {
+   "id": "11171443",
+   "status": "draft",
+   "created": "2026-11-17T14:43+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "perencanaan RPJMDes, RKPDes, APBDes, Siskeudes",
+   "format": "carousel_promo",
+   "product": "kantor",
+   "content": {
+    "hook": "Musim Perencanaan Desa Bikin Pusing Kepala?",
+    "subtitle": "Trik cepat susun RPJMDes sampai APBDes tanpa drama lembur.",
+    "mood": "menjelaskan",
+    "items": [
+     {
+      "title": "Kupas RPJMDes",
+      "sub": "Tentukan arah pembangunan desa jangka panjang",
+      "icon": "🗺️"
+     },
+     {
+      "title": "Fokus RKPDes",
+      "sub": "Turunkan program prioritas tahunan secara tepat",
+      "icon": "📅"
+     },
+     {
+      "title": "Tuntaskan APBDes",
+      "sub": "Sinkronkan angka anggaran di aplikasi Siskeudes",
+      "icon": "💻"
+     },
+     {
+      "title": "Gunakan Strategi",
+      "sub": "Manfaatkan panduan digital agar kerjaan cepat beres",
+      "icon": "🚀"
+     }
+    ],
+    "details": [
+     {
+      "title": "Kupas RPJMDes",
+      "sub": "Tentukan arah pembangunan desa jangka panjang",
+      "body": "Pastikan visi dan misi Kepala Desa sudah masuk dalam dokumen RPJMDes. Jangan sampai ada program prioritas yang tertinggal.",
+      "icon": "🗺️"
+     },
+     {
+      "title": "Fokus RKPDes",
+      "sub": "Turunkan program prioritas tahunan secara tepat",
+      "body": "Rujuk hasil Musrenbangdes untuk menyaring kegiatan prioritas tahun depan. Selaraskan dengan kebijakan nasional dan daerah.",
+      "icon": "📅"
+     },
+     {
+      "title": "Tuntaskan APBDes",
+      "sub": "Sinkronkan angka anggaran di aplikasi Siskeudes",
+      "body": "Proses input Siskeudes butuh ketelitian tinggi. Pastikan kode rekening dan pagu anggaran klop dengan berita acara musyawarah.",
+      "icon": "💻"
+     }
+    ],
+    "note": "Selalu periksa regulasi terbaru dan pedoman teknis dari Kemendagri.",
+    "cta": "Waktunya bekerja cerdas, yuk terapkan langkah ini!",
+    "caption": "Halo Rekan ASN dan Sobat Desa! Musim perencanaan desa seperti RPJMDes, RKPDes, hingga input APBDes ke Siskeudes sering kali membutuhkan ketelitian ekstra karena banyaknya data yang harus diselaraskan. Mari kita tingkatkan efisiensi kerja tanpa harus sering lembur dengan memahami tahapan secara runtut. SIMPAN postingan ini dan BAGIKAN ke rekan kerja Anda ya. Apa bagian paling menantang saat menyusun APBDes di desa Sobat?\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#asngodigital",
+     "#pemerintahandesa",
+     "#siskeudes",
+     "#apbdes",
+     "#perencanaan",
+     "#perangkatdesa",
+     "#digitalisasidesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Terdapat promosi produk komersial berbayar yang tidak sesuai dengan netralitas akun edukasi instansi pemerintah.",
+      "Perbaikan penulisan kata sesuai EYD dan penyederhanaan teks agar lebih ringkas."
+     ],
+     "risk": "sedang"
+    }
+   },
+   "images": [
+    "public/11171443/slide_01.jpg",
+    "public/11171443/slide_02.jpg",
+    "public/11171443/slide_03.jpg",
+    "public/11171443/slide_04.jpg",
+    "public/11171443/slide_05.jpg",
+    "public/11171443/slide_06.jpg"
+   ],
+   "scheduled_at": "2026-11-17T19:00+09:00"
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11171348 dikirim ke Bos",
-   "at": "2026-11-17 13:48"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-17 14:43"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Kecamatan Busungbiu hadiri Rapat Koordinasi Penyelenggaraan \" (2 sumber, 2 foto)",
-   "at": "2026-11-17 13:48"
+   "last": "Menemukan 9 berita tren minggu ini",
+   "at": "2026-11-17 14:42"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Update Rakor Pemerintahan Desa: Fokus APBDes, Audit, dan Persiapan Pilkel 2027\"",
-   "at": "2026-11-17 13:48"
+   "last": "Draft selesai: \"Musim Perencanaan Desa Bikin Pusing Kepala?\"",
+   "at": "2026-11-17 14:43"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "Cek berita selesai — risiko rendah",
-   "at": "2026-11-17 13:48"
+   "last": "QC selesai — risiko sedang, 2 catatan",
+   "at": "2026-11-17 14:43"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 2 slide siap",
-   "at": "2026-11-17 13:48"
+   "last": "6 slide gaya navy siap",
+   "at": "2026-11-17 14:43"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
@@ -844,8 +928,8 @@
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-17 13:04"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-17 14:42"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -855,6 +939,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 14:43",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-17 14:43",
+   "agent": "kepala",
+   "msg": "Draft #11171443 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 14:43",
+   "agent": "desain",
+   "msg": "6 slide gaya navy siap"
+  },
+  {
+   "at": "2026-11-17 14:43",
+   "agent": "desain",
+   "msg": "Mendesain gaya navy/berita/kartu/kartu..."
+  },
+  {
+   "at": "2026-11-17 14:43",
+   "agent": "qc",
+   "msg": "QC selesai — risiko sedang, 2 catatan"
+  },
+  {
+   "at": "2026-11-17 14:43",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-17 14:43",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Musim Perencanaan Desa Bikin Pusing Kepala?\""
+  },
+  {
+   "at": "2026-11-17 14:42",
+   "agent": "naskah",
+   "msg": "Menulis carousel: perencanaan RPJMDes, RKPDes, APBDes, Siskeudes"
+  },
+  {
+   "at": "2026-11-17 14:42",
+   "agent": "riset",
+   "msg": "Menemukan 9 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-17 14:42",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-17 14:42",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-17 14:42",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-17 14:42",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-17 13:48",
    "agent": "humas",
@@ -1089,79 +1238,14 @@
    "at": "2026-11-16 21:44",
    "agent": "humas",
    "msg": "Paket TikTok #11162141 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-16 21:44",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11162141..."
-  },
-  {
-   "at": "2026-11-16 21:44",
-   "agent": "humas",
-   "msg": "#11162141 → ig, fb"
-  },
-  {
-   "at": "2026-11-16 21:43",
-   "agent": "humas",
-   "msg": "Menerbitkan #11162141 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-16 21:43",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 21:43",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 21:41",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 21:41",
-   "agent": "kepala",
-   "msg": "Draft #11162141 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-16 21:41",
-   "agent": "desain",
-   "msg": "5 slide gaya ungu siap"
-  },
-  {
-   "at": "2026-11-16 21:41",
-   "agent": "desain",
-   "msg": "Mendesain gaya ungu/potret/timeline/angka..."
-  },
-  {
-   "at": "2026-11-16 21:41",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 2 catatan"
-  },
-  {
-   "at": "2026-11-16 21:40",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-16 21:40",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!\""
-  },
-  {
-   "at": "2026-11-16 21:39",
-   "agent": "naskah",
-   "msg": "Menulis carousel: carousel baru tentang disiplin Pegawai (ASN)"
   }
  ],
  "stats": {
   "published": 7,
-  "drafts": 10
+  "drafts": 11
  },
- "updated": "2026-11-17T13:48+09:00",
- "cuan_rot": 9,
+ "updated": "2026-11-17T14:43+09:00",
+ "cuan_rot": 10,
  "last_followers": 130,
  "style_hist": [
   {
@@ -1207,6 +1291,17 @@
    "pose": "menjelaskan__tangan_terbuka",
    "flip": true,
    "cta": "badan"
+  },
+  {
+   "mood": "menjelaskan",
+   "expr": "senang",
+   "theme": "navy",
+   "cover": "berita",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "menjelaskan__presentasi",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
@@ -1214,7 +1309,8 @@
   "Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!",
   "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!",
   "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap",
-  "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027"
+  "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027",
+  "Musim Perencanaan Desa Bikin Pusing Kepala?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
