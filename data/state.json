@@ -1163,26 +1163,84 @@
    },
    "published_at": "2026-11-17T17:32+09:00",
    "errors": []
+  },
+  "11171832": {
+   "id": "11171832",
+   "type": "reels",
+   "status": "published",
+   "created": "2026-11-17T18:32+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Office",
+   "format": "reels",
+   "product": "kantor",
+   "content": {
+    "hook": "SKP MyASN numpuk? Beresin pakai trik ini!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Pengisian SKP di MyASN dan e-Kinerja sering bikin pusing kalau ditumpuk di akhir bulan. Padahal, kuncinya ada di konsistensi input harian dan pemilihan kalimat aksi yang tepat. Yuk, mulai cicil dari sekarang biar kerjaan cepat beres dan gak perlu lembur lagi! Oh iya, buat yang butuh kemudahan administrasi kantor, intip Generator Naskah Dinas Paket Kantor kami seharga Rp749.000 untuk 10 perangkat, langsung cek link di bio ya. Jangan lupa simpan video ini dan tulis kendala MyASN kalian di kolom komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — Paket Kantor — Rp749.000 (10 perangkat). Cek link di bio 👉 https://lynk.id/asngodigital\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#AsnGoDigitals",
+     "#MyAsn",
+     "#EKinerja",
+     "#DigitalisasiAsn",
+     "#PnsPppk"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN & Sobat Desa!",
+      "icon": "👋"
+     },
+     {
+      "text": "Buka MyASN sekarang untuk cek target SKP Anda.",
+      "icon": "📱"
+     },
+     {
+      "text": "Sinkronkan kegiatan harian dengan butir kegiatan jabatan.",
+      "icon": "🔗"
+     },
+     {
+      "text": "Gunakan template kalimat kerja aktif di e-Kinerja.",
+      "icon": "⚡"
+     },
+     {
+      "text": "Cek ulang bukti dukung sebelum klik tombol kirim.",
+      "icon": "📤"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11171832/cover.jpg"
+   ],
+   "video": "public/11171832/reels.mp4",
+   "scheduled_at": "2026-11-17T18:32+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/reel/Df1nfnbGqoi/",
+    "fb": "https://facebook.com/2189472815015643"
+   },
+   "published_at": "2026-11-17T18:33+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Perintah selesai diproses",
-   "at": "2026-11-17 17:31"
+   "last": "Reels #11171832 dikirim ke Bos",
+   "at": "2026-11-17 18:32"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-17 17:29"
+   "at": "2026-11-17 18:30"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP\"",
-   "at": "2026-11-17 17:30"
+   "last": "Naskah Reels: \"SKP MyASN numpuk? Beresin pakai trik ini!\"",
+   "at": "2026-11-17 18:32"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -1193,20 +1251,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "8 slide gaya kertas siap",
-   "at": "2026-11-17 17:30"
+   "last": "Reels 42 detik siap (gaya merah)",
+   "at": "2026-11-17 18:32"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11171730 dikirim ke Bos",
-   "at": "2026-11-17 17:32"
+   "last": "Paket TikTok #11171832 dikirim ke Bos",
+   "at": "2026-11-17 18:33"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-17 17:29"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-17 18:30"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -1216,6 +1274,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 18:33",
+   "agent": "humas",
+   "msg": "Paket TikTok #11171832 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 18:33",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11171832..."
+  },
+  {
+   "at": "2026-11-17 18:33",
+   "agent": "humas",
+   "msg": "#11171832 → ig, fb"
+  },
+  {
+   "at": "2026-11-17 18:32",
+   "agent": "humas",
+   "msg": "Menerbitkan #11171832 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-17 18:32",
+   "agent": "kepala",
+   "msg": "Reels #11171832 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 18:32",
+   "agent": "desain",
+   "msg": "Reels 42 detik siap (gaya merah)"
+  },
+  {
+   "at": "2026-11-17 18:32",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-17 18:32",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya merah..."
+  },
+  {
+   "at": "2026-11-17 18:32",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"SKP MyASN numpuk? Beresin pakai trik ini!\""
+  },
+  {
+   "at": "2026-11-17 18:30",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-"
+  },
+  {
+   "at": "2026-11-17 18:30",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-17 18:30",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-17 18:30",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-17 18:30",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-17 18:30",
+   "agent": "kepala",
+   "msg": "Jadwal 18:30 WIT: reels asn"
+  },
   {
    "at": "2026-11-17 17:32",
    "agent": "humas",
@@ -1440,89 +1573,14 @@
    "at": "2026-11-17 15:13",
    "agent": "kepala",
    "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-17 15:11",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-17 15:11",
-   "agent": "kepala",
-   "msg": "Draft #11171511 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 15:11",
-   "agent": "desain",
-   "msg": "8 slide gaya kertas siap"
-  },
-  {
-   "at": "2026-11-17 15:11",
-   "agent": "desain",
-   "msg": "Mendesain gaya kertas/potret/timeline/angka..."
-  },
-  {
-   "at": "2026-11-17 15:11",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 3 catatan"
-  },
-  {
-   "at": "2026-11-17 15:10",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-17 15:10",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi\""
-  },
-  {
-   "at": "2026-11-17 15:10",
-   "agent": "naskah",
-   "msg": "Menulis carousel: carousel baru tentang AI untuk ASN lebih produktif"
-  },
-  {
-   "at": "2026-11-17 15:10",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-17 15:10",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-17 15:10",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-17 15:10",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-17 15:10",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-17 14:46",
-   "agent": "humas",
-   "msg": "#11171443 → gagal"
-  },
-  {
-   "at": "2026-11-17 14:46",
-   "agent": "humas",
-   "msg": "Menerbitkan #11171443 ke IG & FB..."
   }
  ],
  "stats": {
-  "published": 10,
-  "drafts": 14
+  "published": 11,
+  "drafts": 15
  },
- "updated": "2026-11-17T17:32+09:00",
- "cuan_rot": 13,
+ "updated": "2026-11-17T18:33+09:00",
+ "cuan_rot": 14,
  "last_followers": 130,
  "style_hist": [
   {
@@ -1612,6 +1670,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "merah",
+   "cover": "kiri",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
@@ -1623,10 +1692,242 @@
   "Musim Perencanaan Desa Bikin Pusing Kepala?",
   "Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi",
   "Bikin paparan kantor cuma dalam hitungan detik?",
-  "5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP"
+  "5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP",
+  "SKP MyASN numpuk? Beresin pakai trik ini!"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
   "kecamatan kubutambahan ikuti rapat koordinasi penyelenggaraa"
- ]
+ ],
+ "slot_log": {
+  "2026-11-17": {
+   "6": {
+    "did": "11171832",
+    "status": "proses",
+    "at": "2026-11-17T18:32+09:00"
+   }
+  }
+ },
+ "jadwal": {
+  "tanggal": "2026-11-17",
+  "dibuat": "2026-11-17T18:33+09:00",
+  "hari_ini": [
+   {
+    "slot": 0,
+    "jam": "06:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Listicle",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "terlewat"
+   },
+   {
+    "slot": 1,
+    "jam": "08:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "terlewat"
+   },
+   {
+    "slot": 2,
+    "jam": "09:00",
+    "tipe": "reels",
+    "jenis": "Reels",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "terlewat"
+   },
+   {
+    "slot": 3,
+    "jam": "12:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Contekan Prompt",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "terlewat"
+   },
+   {
+    "slot": 4,
+    "jam": "15:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Mitos vs Fakta",
+    "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "terlewat"
+   },
+   {
+    "slot": 5,
+    "jam": "17:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "terlewat"
+   },
+   {
+    "slot": 6,
+    "jam": "18:30",
+    "tipe": "reels",
+    "jenis": "Reels",
+    "pilar": "Digitalisasi ASN",
+    "judul": "SKP MyASN numpuk? Beresin pakai trik ini!",
+    "id": "11171832",
+    "status": "terbit",
+    "terbit": "18:33"
+   },
+   {
+    "slot": 7,
+    "jam": "20:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Soft-selling",
+    "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "berikutnya"
+   }
+  ],
+  "manual": [
+   {
+    "jam": "13:05",
+    "id": "11171305",
+    "jenis": "Carousel",
+    "judul": "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap",
+    "status": "gagal"
+   },
+   {
+    "jam": "13:48",
+    "id": "11171348",
+    "jenis": "Berita Terkini",
+    "judul": "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027",
+    "status": "gagal"
+   },
+   {
+    "jam": "14:46",
+    "id": "11171443",
+    "jenis": "Carousel",
+    "judul": "Musim Perencanaan Desa Bikin Pusing Kepala?",
+    "status": "gagal"
+   },
+   {
+    "jam": "15:14",
+    "id": "11171511",
+    "jenis": "Carousel",
+    "judul": "Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi",
+    "status": "terbit"
+   },
+   {
+    "jam": "16:46",
+    "id": "11171645",
+    "jenis": "Reels",
+    "judul": "Bikin paparan kantor cuma dalam hitungan detik?",
+    "status": "terbit"
+   },
+   {
+    "jam": "17:32",
+    "id": "11171730",
+    "jenis": "Carousel",
+    "judul": "5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP",
+    "status": "terbit"
+   },
+   {
+    "jam": "19:00",
+    "id": "11170959",
+    "jenis": "Carousel",
+    "judul": "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!",
+    "status": "menunggu"
+   }
+  ],
+  "besok_tanggal": "2026-11-18",
+  "besok": [
+   {
+    "slot": 0,
+    "jam": "06:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 1,
+    "jam": "08:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 2,
+    "jam": "09:00",
+    "tipe": "reels",
+    "jenis": "Reels",
+    "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 3,
+    "jam": "12:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 4,
+    "jam": "15:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Listicle",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 5,
+    "jam": "17:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 6,
+    "jam": "18:30",
+    "tipe": "reels",
+    "jenis": "Reels",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 7,
+    "jam": "20:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Tutorial",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   }
+  ],
+  "otomatis": true
+ }
 }
