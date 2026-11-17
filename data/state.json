@@ -1221,50 +1221,132 @@
    },
    "published_at": "2026-11-17T18:33+09:00",
    "errors": []
+  },
+  "11172004": {
+   "id": "11172004",
+   "status": "published",
+   "created": "2026-11-17T20:04+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "dana desa, BUMDes, pelaporan & pertanggungjawaban",
+   "format": "carousel_promo",
+   "product": "naskah",
+   "content": {
+    "hook": "Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?",
+    "subtitle": "Atasi beban birokrasi desa dengan trik kerja kilat ini!",
+    "mood": "cemberut",
+    "items": [
+     {
+      "title": "Gempuran Aplikasi",
+      "sub": "Terlalu banyak sistem bikin operator desa pusing",
+      "icon": "💻"
+     },
+     {
+      "title": "Beban Pelaporan",
+      "sub": "Dana desa dan BUMDes butuh pertanggungjawaban rumit",
+      "icon": "📊"
+     },
+     {
+      "title": "Solusi Praktis",
+      "sub": "Gunakan templat instan dan bantuan teknologi",
+      "icon": "⚡"
+     },
+     {
+      "title": "Kerja Efisien",
+      "sub": "Selesaikan administrasi desa tanpa harus lembur",
+      "icon": "📂"
+     }
+    ],
+    "details": [
+     {
+      "title": "Gempuran Aplikasi",
+      "body": "Sobat Desa pasti merasakan betapa banyaknya aplikasi pelaporan saat ini. Alih-alih mempercepat, kadang malah bikin bingung bagi yang kurang paham teknis.",
+      "icon": "💻"
+     },
+     {
+      "title": "Solusi Praktis",
+      "body": "Jangan biarkan administrasi menumpuk. Manfaatkan alat bantu digital untuk menyusun draf laporan, surat, dan pertanggungjawaban dengan lebih cepat dan terarah.",
+      "icon": "⚡"
+     }
+    ],
+    "note": "Cek regulasi dan pedoman teknis terbaru di daerah Anda.",
+    "cta": "Kunjungi tautan di bio untuk informasi selengkapnya!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Akui saja, \"gempuran\" aplikasi digital dan setumpuk laporan dana desa kadang bikin kepala pusing ya? Belum lagi urusan surat-menyurat dan pertanggungjawaban BUMDes yang butuh ketelitian tinggi. Tenang, Sobat Desa tidak sendirian! Biar tidak stres dan bebas lembur, yuk mulai manfaatkan teknologi untuk meringankan beban kerja. Mau kerjaan beres cepat tanpa pusing? Cek informasi kami di tautan bio untuk membantu menyusun draf surat dan laporan sesuai ketentuan yang berlaku dalam hitungan menit! Simpan postingan ini dan bagikan ke rekan sesama perangkat desa ya! Bagaimana pengalaman Sobat Desa menghadapi aplikasi pelaporan minggu ini? Cerita di kolom komentar yuk!",
+    "hashtags": [
+     "#asn_go_digital",
+     "#pemerintahandesa",
+     "#danadesa",
+     "#bumdes",
+     "#perangkatdesa",
+     "#operatordesa",
+     "#siskeudes",
+     "#digitalisasidesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Memperbaiki typo pada hashtag #asn_go_digitals menjadi #asn_go_digital dan #operatorsegera menjadi #operatordesa.",
+      "Menghilangkan potensi klaim keamanan data absolut seperti 'Data aman tersimpan di perangkat dan bisa jalan offline' di caption karena belum tentu terverifikasi secara resmi untuk instansi pemerintah."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11172004/slide_01.jpg",
+    "public/11172004/slide_02.jpg",
+    "public/11172004/slide_03.jpg",
+    "public/11172004/slide_04.jpg",
+    "public/11172004/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-18T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df1yA5Sk7n8/",
+    "fb": "https://facebook.com/468307299696116_122225053538589464"
+   },
+   "published_at": "2026-11-17T20:05+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Reels #11171832 dikirim ke Bos",
-   "at": "2026-11-17 18:32"
+   "last": "Draft #11172004 dikirim ke Bos",
+   "at": "2026-11-17 20:04"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-17 18:30"
+   "at": "2026-11-17 20:00"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Naskah Reels: \"SKP MyASN numpuk? Beresin pakai trik ini!\"",
-   "at": "2026-11-17 18:32"
+   "last": "Draft selesai: \"Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?\"",
+   "at": "2026-11-17 20:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 3 catatan",
-   "at": "2026-11-17 17:30"
+   "last": "QC selesai — risiko rendah, 2 catatan",
+   "at": "2026-11-17 20:04"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Reels 42 detik siap (gaya merah)",
-   "at": "2026-11-17 18:32"
+   "last": "5 slide gaya navy siap",
+   "at": "2026-11-17 20:04"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11171832 dikirim ke Bos",
-   "at": "2026-11-17 18:33"
+   "last": "Paket TikTok #11172004 dikirim ke Bos",
+   "at": "2026-11-17 20:05"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-17 18:30"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-17 20:00"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -1274,6 +1356,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 20:05",
+   "agent": "humas",
+   "msg": "Paket TikTok #11172004 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 20:05",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11172004..."
+  },
+  {
+   "at": "2026-11-17 20:05",
+   "agent": "humas",
+   "msg": "#11172004 → ig, fb"
+  },
+  {
+   "at": "2026-11-17 20:04",
+   "agent": "humas",
+   "msg": "Menerbitkan #11172004 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-17 20:04",
+   "agent": "kepala",
+   "msg": "Draft #11172004 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 20:04",
+   "agent": "desain",
+   "msg": "5 slide gaya navy siap"
+  },
+  {
+   "at": "2026-11-17 20:04",
+   "agent": "desain",
+   "msg": "Mendesain gaya navy/kanan/grid/chat..."
+  },
+  {
+   "at": "2026-11-17 20:04",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 2 catatan"
+  },
+  {
+   "at": "2026-11-17 20:02",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-17 20:02",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?\""
+  },
+  {
+   "at": "2026-11-17 20:00",
+   "agent": "naskah",
+   "msg": "Menulis carousel: dana desa, BUMDes, pelaporan & pertanggungjawaban"
+  },
+  {
+   "at": "2026-11-17 20:00",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-17 20:00",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-17 20:00",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-17 20:00",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-17 20:00",
+   "agent": "kepala",
+   "msg": "Jadwal 20:00 WIT: carousel desa"
+  },
   {
    "at": "2026-11-17 18:33",
    "agent": "humas",
@@ -1493,94 +1655,14 @@
    "at": "2026-11-17 16:45",
    "agent": "humas",
    "msg": "Menerbitkan #11171645 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-17 16:45",
-   "agent": "kepala",
-   "msg": "Reels #11171645 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 16:45",
-   "agent": "desain",
-   "msg": "Reels 23 detik siap (gaya ungu)"
-  },
-  {
-   "at": "2026-11-17 16:45",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya ungu..."
-  },
-  {
-   "at": "2026-11-17 16:45",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Bikin paparan kantor cuma dalam hitungan detik?\""
-  },
-  {
-   "at": "2026-11-17 16:43",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: AI untuk membuat bahan paparan, ringkasan reg"
-  },
-  {
-   "at": "2026-11-17 16:43",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-17 16:43",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-17 16:43",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-17 16:43",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-17 16:43",
-   "agent": "kepala",
-   "msg": "Jadwal 09:00 WIT: reels ai"
-  },
-  {
-   "at": "2026-11-17 15:14",
-   "agent": "humas",
-   "msg": "Paket TikTok #11171511 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 15:14",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11171511..."
-  },
-  {
-   "at": "2026-11-17 15:14",
-   "agent": "humas",
-   "msg": "#11171511 → ig, fb"
-  },
-  {
-   "at": "2026-11-17 15:13",
-   "agent": "humas",
-   "msg": "Menerbitkan #11171511 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-17 15:13",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-17 15:13",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
   }
  ],
  "stats": {
-  "published": 11,
-  "drafts": 15
+  "published": 12,
+  "drafts": 16
  },
- "updated": "2026-11-17T18:33+09:00",
- "cuan_rot": 14,
+ "updated": "2026-11-17T20:05+09:00",
+ "cuan_rot": 15,
  "last_followers": 130,
  "style_hist": [
   {
@@ -1681,6 +1763,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "badan"
+  },
+  {
+   "mood": "cemberut",
+   "expr": "cemberut",
+   "theme": "navy",
+   "cover": "kanan",
+   "list": "grid",
+   "detail": "chat",
+   "pose": "tegas__cemberut_tangan_di_pinggang",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
@@ -1693,7 +1786,8 @@
   "Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi",
   "Bikin paparan kantor cuma dalam hitungan detik?",
   "5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP",
-  "SKP MyASN numpuk? Beresin pakai trik ini!"
+  "SKP MyASN numpuk? Beresin pakai trik ini!",
+  "Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -1705,12 +1799,17 @@
     "did": "11171832",
     "status": "proses",
     "at": "2026-11-17T18:32+09:00"
+   },
+   "7": {
+    "did": "11172004",
+    "status": "proses",
+    "at": "2026-11-17T20:04+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-17",
-  "dibuat": "2026-11-17T18:33+09:00",
+  "dibuat": "2026-11-17T20:05+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -1789,9 +1888,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Soft-selling",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?",
+    "id": "11172004",
+    "status": "terbit",
+    "terbit": "20:05"
    }
   ],
   "manual": [
