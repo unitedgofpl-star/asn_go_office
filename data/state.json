@@ -1122,6 +1122,16 @@
    "msg": "Menerima perintah dari Bos"
   },
   {
+   "at": "2026-11-17 17:28",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-17 17:28",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
+  {
    "at": "2026-11-17 17:26",
    "agent": "kepala",
    "msg": "Perintah selesai diproses"
@@ -1400,16 +1410,6 @@
    "at": "2026-11-17 13:48",
    "agent": "desain",
    "msg": "Berita 2 slide siap"
-  },
-  {
-   "at": "2026-11-17 13:48",
-   "agent": "desain",
-   "msg": "Mendesain berita (2 foto)..."
-  },
-  {
-   "at": "2026-11-17 13:48",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko rendah"
   }
  ],
  "stats": {
