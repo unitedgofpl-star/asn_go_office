@@ -1762,44 +1762,84 @@
    "errors": [
     "IG: Meta API: Media ID is not available"
    ]
+  },
+  "11180801": {
+   "id": "11180801",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-18T08:01+09:00",
+   "pillar": "PEMERINTAHAN DESA",
+   "topic": "Tersangka Korupsi APBDes Rp 541 Juta, Eks Kades Akar-Akar Lombok Ditahan",
+   "format": "berita",
+   "content": {
+    "hook": "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa",
+    "caption": "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa\n\nHalo Rekan ASN & Sobat Desa!\n\nAda kabar penting yang menjadi pengingat kita bersama. Aparat kepolisian menahan mantan kepala desa di Lombok Utara dan Seram Bagian Barat atas dugaan korupsi pengelolaan dana desa.\n\nBerdasarkan hasil penyidikan, ditemukan modus operandi berupa laporan fiktif serta mark-up anggaran proyek fisik dan belanja operasional. Kerugian negara yang timbul mencapai ratusan juta rupiah berdasarkan hasil audit.\n\nSebagai pengelola keuangan desa, mari kita jadikan ini refleksi untuk selalu tertib administrasi dan memastikan setiap kegiatan tercatat sesuai aturan yang berlaku.\n\nBagaimana langkah di desa Rekan-rekan dalam memastikan transparansi laporan keuangan agar tetap akuntabel? Yuk, bagikan pengalaman di kolom komentar!\n\n#ASNGoDigitals #DanaDesa #TataKelolaDesa #IntegritasASN #PemerintahanDesa #TransparansiKeuangan\n\n💡 Artinya bagi kita: Kasus ini menjadi pengingat bagi perangkat desa untuk selalu mengutamakan akuntabilitas dalam pengelolaan anggaran.\n\n📰 Sumber:\n• detikcom: https://www.detik.com/bali/hukum-dan-kriminal/d-8757247/tersangka-korupsi-apbdes-rp-541-juta-eks-kades-akar-akar-lombok-ditahan\n• Kompas.com: http://regional.kompas.com/read/2026/11/16/194838278/diduga-korupsi-dana-desa-rp-451-juta-kades-seruawan-maluku-ditahan-polisi?source=beritaterkait_artikel\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [],
+    "_qc": {
+     "issues": [
+      "Menghapus penyebutan Kepala Desa Seruawan di Maluku karena teks sumber kedua hanya menyebut inisial AP dari Seram Bagian Barat, Maluku, dan tidak menyebutkan nama lengkap atau wilayah yang tidak sesuai.",
+      "Menyesuaikan angka kerugian negara dan rincian kasus agar sesuai dengan data dari masing-masing sumber (Akarman Rp 541 juta dan AP Rp 451 juta).",
+      "Memastikan tidak ada kalimat panjang yang disalin langsung dari sumber untuk menjaga netralitas dan menghindari plagiasi."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa. Mantan kepala desa ditahan pihak kepolisian akibat dugaan tindak pidana korupsi dana desa. Dugaan korupsi mencakup laporan pertanggungjawaban fiktif dan mark-up anggaran proyek. Kerugian negara mencapai ratusan juta rupiah berdasarkan hasil audit instansi berwenang. Proses hukum melibatkan penyidikan serta penetapan tersangka oleh kepolisian. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11180801/slide_01.jpg"
+   ],
+   "sources": [
+    "https://www.detik.com/bali/hukum-dan-kriminal/d-8757247/tersangka-korupsi-apbdes-rp-541-juta-eks-kades-akar-akar-lombok-ditahan",
+    "http://regional.kompas.com/read/2026/11/16/194838278/diduga-korupsi-dana-desa-rp-451-juta-kades-seruawan-maluku-ditahan-polisi?source=beritaterkait_artikel"
+   ],
+   "scheduled_at": "2026-11-18T08:01+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df3EBl3l4Sw/",
+    "fb": "https://facebook.com/468307299696116_122225121584589464"
+   },
+   "published_at": "2026-11-18T08:01+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11180634 dikirim ke Bos",
-   "at": "2026-11-18 06:34"
+   "last": "Berita #11180801 dikirim ke Bos",
+   "at": "2026-11-18 08:01"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-18 06:30"
+   "last": "Berita: \"Tersangka Korupsi APBDes Rp 541 Juta, Eks Kades Akar-Akar Lo\" (2 sumber, 0 foto)",
+   "at": "2026-11-18 08:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Rombak Draf Kantor Lewat Tiga Perintah AI Ini\"",
-   "at": "2026-11-18 06:32"
+   "last": "Rangkuman: \"Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa\"",
+   "at": "2026-11-18 08:01"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-18 06:34"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-18 08:01"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya kertas siap",
-   "at": "2026-11-18 06:34"
+   "last": "Berita 1 slide siap",
+   "at": "2026-11-18 08:01"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11180634 dikirim ke Bos",
-   "at": "2026-11-18 06:36"
+   "last": "Paket TikTok #11180801 dikirim ke Bos",
+   "at": "2026-11-18 08:02"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -1815,6 +1855,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-18 08:02",
+   "agent": "humas",
+   "msg": "Paket TikTok #11180801 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11180801..."
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "humas",
+   "msg": "#11180801 → ig, fb"
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "humas",
+   "msg": "Menerbitkan #11180801 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "kepala",
+   "msg": "Berita #11180801 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "desain",
+   "msg": "Berita 1 slide siap"
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "desain",
+   "msg": "Mendesain berita (0 foto)..."
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa\""
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 2 sumber..."
+  },
+  {
+   "at": "2026-11-18 08:01",
+   "agent": "riset",
+   "msg": "Berita: \"Tersangka Korupsi APBDes Rp 541 Juta, Eks Kades Akar-Akar Lo\" (2 sumber, 0 foto)"
+  },
+  {
+   "at": "2026-11-18 08:00",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-18 08:00",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-18 08:00",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita asn"
+  },
   {
    "at": "2026-11-18 06:36",
    "agent": "humas",
@@ -2039,88 +2154,13 @@
    "at": "2026-11-18 03:41",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-18 03:41",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-18 03:41",
-   "agent": "kepala",
-   "msg": "Jadwal 18:30 WIT: reels ai"
-  },
-  {
-   "at": "2026-11-18 02:11",
-   "agent": "humas",
-   "msg": "Paket TikTok #11180210 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-18 02:11",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11180210..."
-  },
-  {
-   "at": "2026-11-18 02:11",
-   "agent": "humas",
-   "msg": "#11180210 → ig, fb"
-  },
-  {
-   "at": "2026-11-18 02:10",
-   "agent": "humas",
-   "msg": "Menerbitkan #11180210 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-18 02:10",
-   "agent": "kepala",
-   "msg": "Berita #11180210 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-18 02:10",
-   "agent": "desain",
-   "msg": "Berita 1 slide siap"
-  },
-  {
-   "at": "2026-11-18 02:10",
-   "agent": "desain",
-   "msg": "Mendesain berita (0 foto)..."
-  },
-  {
-   "at": "2026-11-18 02:10",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko sedang"
-  },
-  {
-   "at": "2026-11-18 02:08",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-18 02:08",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital\""
-  },
-  {
-   "at": "2026-11-18 02:05",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 1 sumber..."
-  },
-  {
-   "at": "2026-11-18 02:05",
-   "agent": "riset",
-   "msg": "Berita: \"SAFEnet-Remotivi Datangi Komdigi Soal Takedown Konten\" (1 sumber, 0 foto)"
-  },
-  {
-   "at": "2026-11-18 02:05",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
   }
  ],
  "stats": {
-  "published": 19,
-  "drafts": 22
+  "published": 20,
+  "drafts": 23
  },
- "updated": "2026-11-18T06:36+09:00",
+ "updated": "2026-11-18T08:02+09:00",
  "cuan_rot": 20,
  "last_followers": 130,
  "style_hist": [
@@ -2307,13 +2347,16 @@
   "Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital",
   "Kerja kantor menumpuk? Pakai 3 AI gratis ini!",
   "Kerja Sat-Set Tanpa Lembur Berkat Tools Gratis",
-  "Rombak Draf Kantor Lewat Tiga Perintah AI Ini"
+  "Rombak Draf Kantor Lewat Tiga Perintah AI Ini",
+  "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
   "kecamatan kubutambahan ikuti rapat koordinasi penyelenggaraa",
   "safenet remotivi datangi komdigi soal takedown konten",
-  "meutya hafid tak hadiri undangan debat soal takedown konten"
+  "meutya hafid tak hadiri undangan debat soal takedown konten",
+  "tersangka korupsi apbdes rp 541 juta  eks kades akar akar lo",
+  "diduga korupsi dana desa rp 451 juta  kades seruawan maluku "
  ],
  "slot_log": {
   "2026-11-17": {
@@ -2358,12 +2401,17 @@
     "did": "11180634",
     "status": "proses",
     "at": "2026-11-18T06:34+09:00"
+   },
+   "1": {
+    "did": "11180801",
+    "status": "proses",
+    "at": "2026-11-18T08:01+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-18",
-  "dibuat": "2026-11-18T06:36+09:00",
+  "dibuat": "2026-11-18T08:02+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -2382,9 +2430,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa",
+    "id": "11180801",
+    "status": "terbit",
+    "terbit": "08:01"
    },
    {
     "slot": 2,
@@ -2394,7 +2443,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
