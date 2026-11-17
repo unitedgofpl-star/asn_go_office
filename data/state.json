@@ -1064,8 +1064,8 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Reels #11171645 dikirim ke Bos",
-   "at": "2026-11-17 16:45"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-17 17:26"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -1111,6 +1111,16 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 17:26",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-17 17:26",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-17 16:46",
    "agent": "humas",
@@ -1400,23 +1410,13 @@
    "at": "2026-11-17 13:48",
    "agent": "naskah",
    "msg": "Rangkuman: \"Update Rakor Pemerintahan Desa: Fokus APBDes, Audit, dan Persiapan Pilkel 2027\""
-  },
-  {
-   "at": "2026-11-17 13:48",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 2 sumber..."
-  },
-  {
-   "at": "2026-11-17 13:48",
-   "agent": "riset",
-   "msg": "Berita: \"Kecamatan Busungbiu hadiri Rapat Koordinasi Penyelenggaraan \" (2 sumber, 2 foto)"
   }
  ],
  "stats": {
   "published": 9,
   "drafts": 13
  },
- "updated": "2026-11-17T16:46+09:00",
+ "updated": "2026-11-17T17:26+09:00",
  "cuan_rot": 12,
  "last_followers": 130,
  "style_hist": [
