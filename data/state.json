@@ -1061,7 +1061,7 @@
   },
   "11171730": {
    "id": "11171730",
-   "status": "draft",
+   "status": "published",
    "created": "2026-11-17T17:30+09:00",
    "pillar": "Pemerintahan Desa",
    "topic": "Draft #11170959",
@@ -1156,7 +1156,13 @@
     "public/11171730/slide_07.jpg",
     "public/11171730/slide_08.jpg"
    ],
-   "scheduled_at": "2026-11-17T19:00+09:00"
+   "scheduled_at": "2026-11-17T17:31+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df1glmHGICr/",
+    "fb": "https://facebook.com/468307299696116_122225034752589464"
+   },
+   "published_at": "2026-11-17T17:32+09:00",
+   "errors": []
   }
  },
  "agents": {
@@ -1164,7 +1170,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-17 17:30"
+   "at": "2026-11-17 17:31"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -1193,8 +1199,8 @@
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11171645 dikirim ke Bos",
-   "at": "2026-11-17 16:46"
+   "last": "Paket TikTok #11171730 dikirim ke Bos",
+   "at": "2026-11-17 17:32"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -1210,6 +1216,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 17:32",
+   "agent": "humas",
+   "msg": "Paket TikTok #11171730 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 17:32",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11171730..."
+  },
+  {
+   "at": "2026-11-17 17:32",
+   "agent": "humas",
+   "msg": "#11171730 → ig, fb"
+  },
+  {
+   "at": "2026-11-17 17:31",
+   "agent": "humas",
+   "msg": "Menerbitkan #11171730 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-17 17:31",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-17 17:31",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-17 17:30",
    "agent": "kepala",
@@ -1479,43 +1515,13 @@
    "at": "2026-11-17 14:46",
    "agent": "humas",
    "msg": "Menerbitkan #11171443 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-17 14:46",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-17 14:46",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-17 14:43",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-17 14:43",
-   "agent": "kepala",
-   "msg": "Draft #11171443 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 14:43",
-   "agent": "desain",
-   "msg": "6 slide gaya navy siap"
-  },
-  {
-   "at": "2026-11-17 14:43",
-   "agent": "desain",
-   "msg": "Mendesain gaya navy/berita/kartu/kartu..."
   }
  ],
  "stats": {
-  "published": 9,
+  "published": 10,
   "drafts": 14
  },
- "updated": "2026-11-17T17:30+09:00",
+ "updated": "2026-11-17T17:32+09:00",
  "cuan_rot": 13,
  "last_followers": 130,
  "style_hist": [
