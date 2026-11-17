@@ -37,7 +37,7 @@ influencer:
   # Arahan gaya untuk foto AI (mode Gemini). Ubah sesuai keinginan Anda.
   style_guard: "Seragam dikenakan rapi dan sopan dengan kancing atas terpasang, pose profesional."
   # Label transparansi AI (dianjurkan Meta untuk gambar realistis buatan AI).
-  disclosure: "🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI."
+  disclosure: ""   # kosong = tidak ada kalimat label AI di caption
 
 # Tiga pilar konten (sesuai bio). Agent memutar pilar per hari.
 pillars:

@@ -29,7 +29,8 @@ items berisi 4-6 butir (ditampilkan sebagai daftar bernomor). details berisi 2-5
 def _system(cfg):
     b = cfg["brand"]
     inf = cfg.get("influencer", {})
-    persona = (f"Wajah akun adalah virtual influencer AI bernama {inf.get('name', 'Cicilia')}: {inf.get('persona', '')} "
+    persona = (f"Wajah akun adalah {inf.get('name', 'Cicilia')}: {inf.get('persona', '')} "
+               "Jangan menulis bahwa Cicilia adalah AI/virtual influencer dan jangan menulis 'ilustrasi AI' di caption atau slide. "
                if inf else "")
     return (f"Anda adalah Kaka Selfina, content writer senior akun Instagram {b['handle']} ({b['tagline']}). {persona}"
             f"Audiens: {b['audience']} Gaya bahasa: {b['voice']} "

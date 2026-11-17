@@ -78,7 +78,7 @@ def frame_hook(cfg, t, st, sc):
         d.rounded_rectangle([W / 2 - tw / 2 - 24, y - 8, W / 2 + tw / 2 + 24, y + s * 1.02], 14, fill=D.hexc(t["accent"]))
         d.text((W / 2, y), ln, font=f, fill="white", anchor="ma")
         y += s * 1.12
-    d.text((W / 2, H - 300), f"{cfg.get('influencer', {}).get('name', 'Cicilia')} • ilustrasi AI", font=D.F("pop_i", 26),
+    d.text((W / 2, H - 300), f"bareng {cfg.get('influencer', {}).get('name', 'Cicilia')}", font=D.F("pop_i", 26),
            fill=D.hexc(t["muted"]), anchor="mm")
     _brand(img, t, cfg)
     return img

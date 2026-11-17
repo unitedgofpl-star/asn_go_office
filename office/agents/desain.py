@@ -360,7 +360,7 @@ def pill_simpan(img, t, x, y, name):
     d.rounded_rectangle([x, y, x + 330, y + 76], 38, fill=hexc(t["accent"]))
     d.text((x + 165, y + 38), "SIMPAN DULU", font=F("pop_b", 30), fill="white", anchor="mm")
     if name:
-        d.text((x + 2, y + 96), f"bareng {name} • ilustrasi AI", font=F("pop_i", 22), fill=hexc(t["muted"]))
+        d.text((x + 2, y + 96), f"bareng {name}", font=F("pop_i", 22), fill=hexc(t["muted"]))
 
 
 # ------------------------------------------------------------------ cover
@@ -414,7 +414,6 @@ def cover(cfg, t, st, content, pillar, total, scene=None):
         person, stem = load_pose(st["pose"], st["flip"])
         if person is not None:
             place_person(img, person, 1000, W / 2 + (90 if stem == "presentasi" else 0), 1010, (255, 70, 40))
-        d.text((100, 885), "Foto: Ilustrasi AI/ASN GO", font=F("pop_bi", 20), fill=(255, 255, 255, 220))
         x0, y0, x1, y1 = 58, 925, W - 58, 1240
         drip_box(img, x0, y0, x1, y1)
         f, ls, s = fit(d, hook, "int_k", 88, x1 - x0 - 90, y1 - y0 - 70, min_size=50, spacing=1.1, max_lines=3)
@@ -454,7 +453,7 @@ def cover(cfg, t, st, content, pillar, total, scene=None):
         d.rounded_rectangle([W / 2 - 165, H - 250, W / 2 + 165, H - 174], 38, fill=hexc(t["accent"]))
         d.text((W / 2, H - 212), "SIMPAN DULU", font=F("pop_b", 30), fill="white", anchor="mm")
         if name:
-            d.text((W / 2, 600), f"bareng {name} • ilustrasi AI", font=F("pop_i", 22), fill=hexc(t["muted"]), anchor="mm")
+            d.text((W / 2, 600), f"bareng {name}", font=F("pop_i", 22), fill=hexc(t["muted"]), anchor="mm")
 
     chrome(img, t if kind != "berita" else THEMES["navy"], brand, pillar, 0, total)
     return img
@@ -565,7 +564,7 @@ def detail_slide(cfg, t, st, item, n, pillar, idx, total):
         y0 = max(170, int((H - 120 - total_h) / 2 + 30))
         portrait(img, t, face, 150, y0 + 60, 64)
         d.text((240, y0 + 25), name, font=F("pop_b", 32), fill=hexc(t["text"]))
-        d.text((240, y0 + 68), "virtual influencer AI • ASN GO", font=F("pop_r", 22), fill=hexc(t["muted"]))
+        d.text((240, y0 + 68), "ASN GO Digitals", font=F("pop_r", 22), fill=hexc(t["muted"]))
         y = y0 + 160
         d.rounded_rectangle([90, y, W - 90, y + bh], 36, fill=hexc(t["card"]))
         d.polygon([(130, y + 2), (175, y + 2), (125, y - 32)], fill=hexc(t["card"]))
