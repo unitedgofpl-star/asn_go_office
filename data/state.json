@@ -892,6 +892,104 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11171511": {
+   "id": "11171511",
+   "status": "draft",
+   "created": "2026-11-17T15:11+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "carousel baru tentang AI untuk ASN lebih produktif",
+   "format": "carousel_tutorial",
+   "product": "naskah",
+   "content": {
+    "hook": "Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi",
+    "subtitle": "Panduan praktis tingkatkan kompetensi digital aparatur desa pakai kecerdasan buatan",
+    "mood": "menjelaskan",
+    "items": [
+     {
+      "title": "Kumpulkan Poin Kasar Musyawarah",
+      "sub": "Catat suara atau poin bahasan penting warga",
+      "icon": "📝"
+     },
+     {
+      "title": "Susun Perintah Prompt Spesifik",
+      "sub": "Instruksikan AI berperan sebagai sekretaris desa",
+      "icon": "🤖"
+     },
+     {
+      "title": "Ekstraksi Kesepakatan dan Penanggung Jawab",
+      "sub": "Minta AI pilah keputusan dan jadwal aksi",
+      "icon": "📌"
+     },
+     {
+      "title": "Sesuaikan Standar Tata Naskah",
+      "sub": "Cocokkan draf dengan pedoman administrasi desa",
+      "icon": "📄"
+     },
+     {
+      "title": "Verifikasi dan Validasi Pimpinan",
+      "sub": "Koreksi data final bersama Kepala Desa",
+      "icon": "✅"
+     }
+    ],
+    "details": [
+     {
+      "title": "Kumpulkan Poin Kasar Musyawarah",
+      "body": "Gunakan pengetikan suara atau rangkum catatan manual saat musyawarah. Fokus catat inti usulan, kuorum, dan hasil mufakat. Jangan unggah data privat warga seperti NIK atau rahasia desa ke alat digital nonresmi.",
+      "icon": "📝"
+     },
+     {
+      "title": "Susun Perintah Prompt Spesifik",
+      "body": "Tulis instruksi terarah: 'Bertindaklah sebagai sekretaris desa profesional. Ubah poin rapat terlampir jadi draf Berita Acara yang memuat latar belakang, daftar kesepakatan, dan rencana aksi.' Pastikan data telah dianonimkan.",
+      "icon": "🤖"
+     },
+     {
+      "title": "Ekstraksi Kesepakatan dan Penanggung Jawab",
+      "body": "Minta AI menyusun matriks tindak lanjut berisi nama program, pelaksana kegiatan, target waktu, dan estimasi sumber daya. Format ini memudahkan pengawalan hasil musyawarah desa ke tahap penganggaran (APBDes).",
+      "icon": "📌"
+     },
+     {
+      "title": "Sesuaikan Standar Tata Naskah",
+      "body": "Pindahkan draf AI ke templat resmi kantor desa. Pastikan format kop, nomor surat, penomoran paragraf, dan konsideran hukum telah selaras dengan pedoman tata naskah dinas pemerintah kabupaten/kota setempat.",
+      "icon": "📄"
+     },
+     {
+      "title": "Verifikasi dan Validasi Pimpinan",
+      "body": "Lakukan pembacaan ulang dan uji akurasi data bersama Kepala Desa atau BPD. AI hanya asisten draf awal; legalitas, kebenaran substansi, dan penandatanganan dokumen tetap menjadi tanggung jawab penuh aparatur desa.",
+      "icon": "✅"
+     }
+    ],
+    "note": "Perhatikan UU PDP: dilarang memasukkan data pribadi warga (NIK/kontak) ke AI publik, serta selalu patuhi pedoman tata naskah dinas daerah.",
+    "cta": "Simpan panduan ini dan bagikan ke grup perangkat desa Anda sekarang!",
+    "caption": "Kompetensi digital aparatur desa kini makin dituntut, tapi bukan berarti urusan administrasi harus menghabiskan waktu berhari-hari!\n\nHalo Rekan ASN & Sobat Desa! Sering kali kita kehabisan waktu hanya untuk merapikan notula musyawarah desa menjadi Berita Acara resmi. Padahal, dengan bantuan kecerdasan buatan, catatan rapat kasar bisa diolah menjadi draf awal yang rapi dalam hitungan menit.\n\nKami rangkum langkah praktisnya di postingan ini, mulai dari perumusan prompt hingga standardisasi tata naskah dinas. Ingat prinsip keamanan data: jangan pernah mengunggah data pribadi warga (NIK, alamat detail) ke AI publik. AI hanyalah asisten perancang, keputusan final dan keabsahan hukum tetap berada di tangan aparatur desa.\n\nYuk, SIMPAN postingan ini agar tidak hilang dan BAGIKAN ke rekan perangkat desa lainnya! Di desa Anda, rapat musdes apa yang notulanya paling panjang?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#PemerintahanDesa",
+     "#DigitalisasiDesa",
+     "#ASNGoDigital",
+     "#SmartASN",
+     "#InovasiDesa",
+     "#TataKelolaDesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Keamanan Data & Etika ASN: Tidak ada peringatan untuk menyamarkan data pribadi warga (NIK, informasi sensitif/rahasia desa) sebelum dimasukkan ke dalam platform AI publik sesuai prinsip UU Perlindungan Data Pribadi.",
+      "Inkonsistensi Persona: Pada caption terdapat penyebutan nama 'Cicilia' yang tidak relevan dengan akun edukasi ASN/desa, diubah menjadi netral ('Kami').",
+      "Ketidaksesuaian Struktur Slide: Bagian 'items' memiliki 5 poin, namun 'details' hanya memiliki 4 slide penjelasan. Slide detail ke-5 ('Verifikasi dan Validasi Pimpinan') ditambahkan agar lengkap dan konsisten."
+     ],
+     "risk": "sedang"
+    }
+   },
+   "images": [
+    "public/11171511/slide_01.jpg",
+    "public/11171511/slide_02.jpg",
+    "public/11171511/slide_03.jpg",
+    "public/11171511/slide_04.jpg",
+    "public/11171511/slide_05.jpg",
+    "public/11171511/slide_06.jpg",
+    "public/11171511/slide_07.jpg",
+    "public/11171511/slide_08.jpg"
+   ],
+   "scheduled_at": "2026-11-17T19:00+09:00"
   }
  },
  "agents": {
@@ -899,31 +997,31 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-17 14:46"
+   "at": "2026-11-17 15:11"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 9 berita tren minggu ini",
-   "at": "2026-11-17 14:42"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-17 15:10"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Musim Perencanaan Desa Bikin Pusing Kepala?\"",
-   "at": "2026-11-17 14:43"
+   "last": "Draft selesai: \"Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi\"",
+   "at": "2026-11-17 15:10"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 2 catatan",
-   "at": "2026-11-17 14:43"
+   "last": "QC selesai — risiko sedang, 3 catatan",
+   "at": "2026-11-17 15:11"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya navy siap",
-   "at": "2026-11-17 14:43"
+   "last": "8 slide gaya kertas siap",
+   "at": "2026-11-17 15:11"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
@@ -934,8 +1032,8 @@
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-17 14:42"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-17 15:10"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -945,6 +1043,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 15:11",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-17 15:11",
+   "agent": "kepala",
+   "msg": "Draft #11171511 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 15:11",
+   "agent": "desain",
+   "msg": "8 slide gaya kertas siap"
+  },
+  {
+   "at": "2026-11-17 15:11",
+   "agent": "desain",
+   "msg": "Mendesain gaya kertas/potret/timeline/angka..."
+  },
+  {
+   "at": "2026-11-17 15:11",
+   "agent": "qc",
+   "msg": "QC selesai — risiko sedang, 3 catatan"
+  },
+  {
+   "at": "2026-11-17 15:10",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-17 15:10",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi\""
+  },
+  {
+   "at": "2026-11-17 15:10",
+   "agent": "naskah",
+   "msg": "Menulis carousel: carousel baru tentang AI untuk ASN lebih produktif"
+  },
+  {
+   "at": "2026-11-17 15:10",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-17 15:10",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-17 15:10",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-17 15:10",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-17 15:10",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-17 14:46",
    "agent": "humas",
@@ -1179,79 +1342,14 @@
    "at": "2026-11-17 09:59",
    "agent": "desain",
    "msg": "5 slide gaya tosca siap"
-  },
-  {
-   "at": "2026-11-17 09:59",
-   "agent": "desain",
-   "msg": "Mendesain gaya tosca/kiri/kartu/kartu..."
-  },
-  {
-   "at": "2026-11-17 09:59",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 4 catatan"
-  },
-  {
-   "at": "2026-11-17 09:58",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-17 09:58",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Persiapan CPNS 2027 Dimulai Sekarang, Siapkan Diri Anda!\""
-  },
-  {
-   "at": "2026-11-17 09:58",
-   "agent": "naskah",
-   "msg": "Menulis carousel: caraosel baru tentang tes CPNS 2027"
-  },
-  {
-   "at": "2026-11-17 09:58",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-17 09:58",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-17 09:58",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-17 09:58",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-17 09:58",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 22:30",
-   "agent": "humas",
-   "msg": "Paket TikTok #11162141 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-16 22:30",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11162141..."
-  },
-  {
-   "at": "2026-11-16 22:30",
-   "agent": "humas",
-   "msg": "#11162141 → ig, fb"
   }
  ],
  "stats": {
   "published": 7,
-  "drafts": 11
+  "drafts": 12
  },
- "updated": "2026-11-17T14:46+09:00",
- "cuan_rot": 10,
+ "updated": "2026-11-17T15:11+09:00",
+ "cuan_rot": 11,
  "last_followers": 130,
  "style_hist": [
   {
@@ -1308,6 +1406,17 @@
    "pose": "menjelaskan__presentasi",
    "flip": true,
    "cta": "badan"
+  },
+  {
+   "mood": "menjelaskan",
+   "expr": "senang",
+   "theme": "kertas",
+   "cover": "potret",
+   "list": "timeline",
+   "detail": "angka",
+   "pose": "menjelaskan__tangan_terbuka",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
@@ -1316,7 +1425,8 @@
   "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!",
   "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap",
   "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027",
-  "Musim Perencanaan Desa Bikin Pusing Kepala?"
+  "Musim Perencanaan Desa Bikin Pusing Kepala?",
+  "Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
