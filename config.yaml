@@ -96,10 +96,10 @@ require_approval: true
 
 # BERITA TERKINI — carousel dari media tepercaya (dirangkum ulang + sumber & tautan di caption).
 berita:
-  # Foto hanya diambil dari sumber berikut (aman hak cipta): situs pemerintah & Wikimedia.
+  # Bila foto_media false, foto hanya diambil dari situs pemerintah & Wikimedia.
   foto_dari: [".go.id", "wikimedia.org"]
-  # true = pakai juga foto dari media (Kompas, Detik, dll). Risiko klaim hak cipta ditanggung pemilik akun.
-  foto_media: false
+  # true = foto diambil dari media sumber berita (Kompas, Detik, dll) + kredit foto di slide & caption.
+  foto_media: true
   maks_foto: 6
   sumber_tepercaya: [antaranews.com, kompas.com, kompas.id, detik.com, cnnindonesia.com, tempo.co, liputan6.com, republika.co.id,
                      bisnis.com, kontan.co.id, katadata.co.id, tirto.id, kumparan.com, rri.co.id, tvri.go.id, jpnn.com, idntimes.com,

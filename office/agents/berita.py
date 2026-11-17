@@ -191,6 +191,13 @@ def summarize(cfg, state, articles, photos):
 
 
 # ------------------------------------------------------------------ orkestrasi
+def _pakai(state, g, arts, photos):
+    state.d.setdefault("news_used", []).extend(_norm(x["title"])[:60] for x in g)
+    state.d["news_used"] = state.d["news_used"][-300:]
+    state.done("riset", f"Berita: \"{arts[0]['title'][:60]}\" ({len(arts)} sumber, {len(photos)} foto)")
+    return arts, photos
+
+
 def gather(cfg, state, pillar_id=None, topic=None):
     """Kembalikan (articles, photos) untuk satu cerita, atau (None, None) bila tak ada berita baru."""
     bc = cfg.get("berita", {})
@@ -205,9 +212,10 @@ def gather(cfg, state, pillar_id=None, topic=None):
         items = search(cfg, pillar_id) or search(cfg, None)
     used = set(state.d.get("news_used", []))
     groups = [g for g in cluster(items) if not any(_norm(x["title"])[:60] in used for x in g)]
-    # utamakan cerita yang diberitakan banyak media & yang punya sumber pemerintah (foto bisa dipakai)
+    # utamakan cerita yang diberitakan banyak media & yang punya sumber pemerintah
     groups.sort(key=lambda g: (len(g), any(x["domain"].endswith(".go.id") for x in g), max(x["published"] for x in g)), reverse=True)
-    for g in groups[:4]:
+    cadangan = None
+    for g in groups[:5]:
         arts = []
         for it in g[:3]:
             url = decode(it["gn"])
@@ -230,10 +238,14 @@ def gather(cfg, state, pillar_id=None, topic=None):
             if allow_photo is None or _match(a["domain"], allow_photo):
                 cands += [{**c, "source": a["source"]} for c in a["images"]]
         photos = fetch_images(cands, limit=bc.get("maks_foto", 6))
-        state.d.setdefault("news_used", []).extend(_norm(x["title"])[:60] for x in g)
-        state.d["news_used"] = state.d["news_used"][-300:]
-        state.done("riset", f"Berita: \"{arts[0]['title'][:60]}\" ({len(arts)} sumber, {len(photos)} foto)")
-        return arts, photos
+        if not photos and cadangan is None:  # simpan dulu, coba cari cerita lain yang punya foto
+            cadangan = (g, arts, photos)
+            continue
+        if not photos:
+            continue
+        return _pakai(state, g, arts, photos)
+    if cadangan:
+        return _pakai(state, *cadangan)
     state.done("riset", "Belum ada berita baru yang cocok")
     return None, None
 

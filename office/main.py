@@ -173,12 +173,7 @@ def create_news(cfg, state, pillar_id=None, topic=None):
            + "📰 Sumber:\n" + "\n".join(f"• {a['source']}: {a['url']}" for a in arts)
            + ("\n📷 Foto: " + ", ".join(dict.fromkeys(p["source"] for p in photos)) if photos else "")
            + "\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.")
-    sl = data.get("slide_foto") or []
-    narasi = [f"Berita terkini. {data.get('judul', '')}. {data.get('sub', '')}"] + \
-             [next((x.get("teks", "") for x in sl if int(x.get("foto", 0) or 0) == i), "") for i in range(2, len(images) + 1)]
-    if len(images) == 1:
-        narasi[0] += " " + " ".join((data.get("poin") or [])[:3])
-    narasi[-1] += " Info lengkap dan sumbernya ada di caption."
+    narasi = data.get("_narasi") or [data.get("judul", "")]
     content = {"hook": data.get("judul", ""), "caption": cap, "hashtags": data.get("hashtags", []), "_qc": data.get("_qc", {}),
                "narasi": narasi, "mood": "tenang"}
     remember_hook(state, content["hook"])

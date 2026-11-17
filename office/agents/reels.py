@@ -65,19 +65,21 @@ def _brand(img, t, cfg):
 
 
 def frame_hook(cfg, t, st, sc):
+    """Sampul video: judul di atas, Cicilia utuh di bawahnya — judul tidak pernah menimpa wajah/badan."""
     img = _bg(t)
-    person, stem = D.load_pose(st["pose"], st["flip"])
-    if person is not None:
-        D.place_person(img, person, 1100 if stem != "presentasi" else 900, W / 2 + (60 if stem == "presentasi" else 0), H - 330, t["glow"])
     d = ImageDraw.Draw(img)
     # pita judul di atas (zona aman TikTok/IG: hindari 250px atas & 400px bawah)
-    f, ls, s = D.fit(d, sc["hook"].upper(), t["title"], 100, W - 140, 460, min_size=56, spacing=1.06, max_lines=4)
-    y = 290
+    f, ls, s = D.fit(d, sc["hook"].upper(), t["title"], 96, W - 140, 400, min_size=54, spacing=1.06, max_lines=4)
+    y = 270
     for ln in ls:
         tw = d.textlength(ln, font=f)
         d.rounded_rectangle([W / 2 - tw / 2 - 24, y - 8, W / 2 + tw / 2 + 24, y + s * 1.02], 14, fill=D.hexc(t["accent"]))
         d.text((W / 2, y), ln, font=f, fill="white", anchor="ma")
         y += s * 1.12
+    person, stem = D.load_pose(st["pose"], st["flip"])
+    if person is not None:
+        D.place_in_box(img, person, (60, y + 40, W - 60, H - 340), t["glow"])
+    d = ImageDraw.Draw(img)
     d.text((W / 2, H - 300), f"bareng {cfg.get('influencer', {}).get('name', 'Cicilia')}", font=D.F("pop_i", 26),
            fill=D.hexc(t["muted"]), anchor="mm")
     _brand(img, t, cfg)

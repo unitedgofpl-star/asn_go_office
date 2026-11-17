@@ -330,6 +330,22 @@ def place_person(img, person, height, cx, bottom, glow):
     img.alpha_composite(p, (x, y))
 
 
+def place_in_box(img, person, box, glow, align="center", max_h=None):
+    """Tempatkan Cicilia utuh di dalam kotak (x0, y0, x1, y1) — dijamin tidak tertimpa/menimpa teks di luar kotak.
+    Kembalikan kotak nyata yang ditempati (x0, y0, x1, y1)."""
+    x0, y0, x1, y1 = [int(v) for v in box]
+    p = person.crop(person.getbbox() or (0, 0, person.width, person.height))
+    s = min((y1 - y0) / p.height, (x1 - x0) / p.width, (max_h or 10 ** 6) / p.height)
+    p = p.resize((max(1, int(p.width * s)), max(1, int(p.height * s))), Image.LANCZOS)
+    x = x0 if align == "left" else x1 - p.width if align == "right" else int((x0 + x1 - p.width) / 2)
+    y = y1 - p.height
+    halo = Image.new("RGBA", p.size, tuple(glow) + (0,))
+    halo.putalpha(p.split()[3].filter(ImageFilter.GaussianBlur(22)).point(lambda v: int(v * .55)))
+    img.alpha_composite(halo, (x, y))
+    img.alpha_composite(p, (x, y))
+    return x, y, x + p.width, y + p.height
+
+
 def portrait(img, t, face, cx, cy, r):
     if face is None:
         return
@@ -385,22 +401,23 @@ def cover(cfg, t, st, content, pillar, total, scene=None):
         kind = "kanan_foto"
 
     if kind in ("kanan", "kanan_foto"):
+        f, ls, s = fit(d, hook.upper(), tf, 96, W - 140, 380, min_size=54, spacing=1.08, max_lines=4)
+        y = lines_at(d, (70, 170), ls, f, s, hexc(t["text"]), 1.08)
+        d.rounded_rectangle([70, y + 14, 250, y + 26], 6, fill=hexc(t["gold"]))
+        left = W
         if kind == "kanan":
             person, stem = load_pose(st["pose"], st["flip"])
             if person is not None:
-                place_person(img, person, 640 if stem == "presentasi" else 760, 770, H - 26, t["glow"])
-        f, ls, s = fit(d, hook.upper(), tf, 96, W - 140, 400, min_size=54, spacing=1.08, max_lines=4)
-        y = lines_at(d, (70, 170), ls, f, s, hexc(t["text"]), 1.08)
-        d.rounded_rectangle([70, y + 14, 250, y + 26], 6, fill=hexc(t["gold"]))
+                left = place_in_box(img, person, (430, y + 40, W - 20, H - 26), t["glow"], "right", max_h=820)[0]
         if content.get("subtitle"):
-            sf, sl, ss = fit(d, content["subtitle"], "pop_r", 36, 520, 140)
+            sf, sl, ss = fit(d, content["subtitle"], "pop_r", 36, min(520, left - 110), 260)
             lines_at(d, (70, y + 50), sl, sf, ss, hexc(t["muted"]))
         pill_simpan(img, t, 70, H - 300, name)
 
     elif kind == "kiri":
         person, stem = load_pose(st["pose"], not st["flip"])
         if person is not None:
-            place_person(img, person, 700 if stem == "presentasi" else 860, 300, H - 26, t["glow"])
+            place_in_box(img, person, (0, 230, 495, H - 26), t["glow"], "left", max_h=900)
         f, ls, s = fit(d, hook, tf, 84, 500, 560, min_size=46, spacing=1.1, max_lines=6)
         h = len(ls) * s * 1.1
         y = lines_at(d, (520, 330 - 0 * h), ls, f, s, hexc(t["text"]), 1.1)
@@ -413,7 +430,7 @@ def cover(cfg, t, st, content, pillar, total, scene=None):
     elif kind == "berita":
         person, stem = load_pose(st["pose"], st["flip"])
         if person is not None:
-            place_person(img, person, 1000, W / 2 + (90 if stem == "presentasi" else 0), 1010, (255, 70, 40))
+            place_in_box(img, person, (110, 140, W - 110, 935), (255, 70, 40))
         x0, y0, x1, y1 = 58, 925, W - 58, 1240
         drip_box(img, x0, y0, x1, y1)
         f, ls, s = fit(d, hook, "int_k", 88, x1 - x0 - 90, y1 - y0 - 70, min_size=50, spacing=1.1, max_lines=3)
@@ -717,7 +734,7 @@ def _news_tag(d, x, y, pilar, accent="#C8102E"):
     d.text((x + w1 + 24, y + 23), lab, font=f2, fill=hexc("#0B1F3A"), anchor="lm")
 
 
-def news_cover(cfg, photo, data, sources, date_text, total, credit=None):
+def news_cover(cfg, photo, data, sources, date_text, total, credit=None, show_points=True):
     brand = cfg["brand"]
     if photo is not None:
         img = _photo_fit(photo, W, H)
@@ -738,7 +755,7 @@ def news_cover(cfg, photo, data, sources, date_text, total, credit=None):
     y = lines_at(d, (60, y + 76), ls, f, s, (255, 255, 255, 255), 1.08) + 10
     sf, sl, ss = fit(d, data.get("sub", ""), "pop_r", 32, W - 120, 120, min_size=24, spacing=1.3, max_lines=3)
     y = lines_at(d, (60, y), sl, sf, ss, (225, 230, 240, 255), 1.3)
-    if photo is None:  # tanpa foto: tampilkan poin penting agar tetap informatif
+    if photo is None and show_points:  # tanpa foto: tampilkan poin penting agar tetap informatif
         y += 30
         for i, ptxt in enumerate((data.get("poin") or [])[:4]):
             pf, pl, ps = fit(d, ptxt, "pop_m", 34, W - 200, 130, min_size=24, spacing=1.25, max_lines=3)
@@ -780,15 +797,64 @@ def news_photo_slide(cfg, photo, text, credit, idx, total, pilar):
     return img
 
 
+def news_points_slide(cfg, data, photo, credit, idx, total):
+    """Slide 'poin penting' — dipakai bila foto berita < 2 agar carousel minimal 2 slide."""
+    img = Image.new("RGBA", (W, H), hexc("#0B1F3A"))
+    top = 150
+    if photo is not None:
+        ph = _photo_fit(photo, W, 470).filter(ImageFilter.GaussianBlur(1))
+        img.alpha_composite(ph, (0, 0))
+        img = _shade(img, 300, 470, 0, 200)
+        top = 560
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([W - 140, 40, W - 40, 88], 24, fill=(0, 0, 0, 150))
+    d.text((W - 90, 64), f"{idx}/{total}", font=F("int_sb", 26), fill="white", anchor="mm")
+    _news_tag(d, 60, top - 90, data.get("pilar"))
+    d.text((60, top), "POIN PENTING", font=F("int_k", 54), fill=hexc("#F4B942"))
+    y = top + 90
+    poin = (data.get("poin") or [data.get("sub", "")])[:5]
+    room = H - 120 - y - (190 if data.get("dampak") else 0)
+    fs = 36 if len(poin) <= 3 else 32
+    for i, ptxt in enumerate(poin):
+        pf, pl, ps = fit(d, ptxt, "pop_m", fs, W - 210, max(90, room / max(1, len(poin)) - 30), min_size=22, spacing=1.28, max_lines=4)
+        hh = len(pl) * ps * 1.28 + 36
+        d.rounded_rectangle([60, y, W - 60, y + hh], 22, fill=hexc("#163A6B"))
+        d.ellipse([84, y + 20, 124, y + 60], fill=hexc("#F4B942"))
+        d.text((104, y + 40), str(i + 1), font=F("pop_b", 22), fill=hexc("#0B1F3A"), anchor="mm")
+        lines_at(d, (146, y + 18), pl, pf, ps, (255, 255, 255, 255), 1.28)
+        y += hh + 18
+    if data.get("dampak"):
+        y += 10
+        d.text((60, y), "ARTINYA BAGI KITA", font=F("int_k", 30), fill=hexc("#F4B942"))
+        df, dl, dsz = fit(d, data["dampak"], "pop_r", 32, W - 120, H - 110 - y - 50, min_size=22, spacing=1.3, max_lines=4)
+        lines_at(d, (60, y + 50), dl, df, dsz, (225, 230, 240, 255), 1.3)
+    if credit and photo is not None:
+        d.text((W - 40, 455), f"Foto: {credit}"[:48], font=F("pop_i", 20), fill=(235, 238, 245, 255), anchor="rb")
+    d.text((60, H - 70), "Info lengkap & sumber berita ada di caption", font=F("pop_m", 24), fill=(235, 238, 245, 255))
+    d.rectangle([0, H - 18, W / 2, H], fill=hexc("#E63946"))
+    d.rectangle([W / 2, H - 18, W, H], fill=hexc("#FFFFFF"))
+    return img
+
+
 def render_news(cfg, state, draft_id, data, photos, sources, date_text):
+    """Cover = foto berita + headline. Slide berikut: foto lain dari sumber berita; bila foto kurang,
+    ditambah slide poin penting sehingga minimal 2 slide. Narasi per slide disimpan di data['_narasi']."""
     state.work("desain", f"Mendesain berita ({len(photos)} foto)...")
     slides = data.get("slide_foto") or []
-    total = max(1, len(photos))
+    total = max(2, len(photos))
     first = photos[0] if photos else None
-    imgs = [news_cover(cfg, first["img"] if first else None, data, sources, date_text, total, first["source"] if first else None)]
+    imgs = [news_cover(cfg, first["img"] if first else None, data, sources, date_text, total, first["source"] if first else None,
+                       show_points=False)]
+    narasi = [f"Berita terkini. {data.get('judul', '')}. {data.get('sub', '')}"]
     for i, p in enumerate(photos[1:], 2):
         teks = next((s.get("teks") for s in slides if int(s.get("foto", 0) or 0) == i), None) or (slides[i - 1]["teks"] if i - 1 < len(slides) else data.get("sub", ""))
         imgs.append(news_photo_slide(cfg, p["img"], teks, p["source"], i, total, data.get("pilar")))
+        narasi.append(teks)
+    if len(imgs) < 2:
+        imgs.append(news_points_slide(cfg, data, first["img"] if first else None, first["source"] if first else None, 2, total))
+        narasi.append("Poin pentingnya. " + ". ".join((data.get("poin") or [])[:4]) + (f". {data['dampak']}" if data.get("dampak") else ""))
+    narasi[-1] += " Info lengkap dan sumbernya ada di caption."
+    data["_narasi"] = narasi
     out = PUBLIC / draft_id
     out.mkdir(parents=True, exist_ok=True)
     paths = []
