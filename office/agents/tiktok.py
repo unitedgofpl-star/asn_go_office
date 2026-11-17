@@ -3,6 +3,7 @@
 API resmi TikTok hanya mengizinkan posting PUBLIK setelah aplikasi lolos audit TikTok,
 jadi paket ini dikirim ke Telegram dan diposting dari HP (simpan video → TikTok → + → unggah).
 """
+import re
 import subprocess
 import tempfile
 from pathlib import Path
@@ -46,21 +47,36 @@ def _ffmpeg():
         return "ffmpeg"
 
 
-def make_video(cfg, draft_id, image_paths, seconds=3.5):
+def narration(cfg, d):
+    """Teks narasi per slide dari isi draft (urutan sama dengan slide)."""
+    c = d.get("content", {})
+    n = len(d.get("images", []))
+    if c.get("narasi"):
+        seg = list(c["narasi"])
+    else:
+        name = cfg.get("influencer", {}).get("name", "Cicilia")
+        seg = [f"Halo Rekan ASN, {name} di sini! {c.get('hook', '')}. {c.get('subtitle', '')}"]
+        items = c.get("items") or []
+        if items:
+            seg.append(f"Ada {len(items)} poin penting. " + ". ".join(i.get("title", "") for i in items))
+        for it in c.get("details") or []:
+            body = re.sub(r'^\s*prompt\s*:\s*', 'Contoh prompt-nya: ', str(it.get("body", "")), flags=re.I)
+            words = body.split()
+            seg.append(f"{it.get('title', '')}. " + " ".join(words[:45]))
+        seg.append(f"{c.get('cta', 'Simpan dan bagikan ke rekan kerja')}. Jangan lupa follow A S N GO Digitals, ya!")
+    seg = (seg + [""] * n)[:n]
+    if n and not seg[-1]:
+        seg[-1] = "Simpan dan follow A S N GO Digitals, ya!"
+    return seg
+
+
+def make_video(cfg, draft_id, image_paths, d=None):
+    from . import suara
     out = PUBLIC / draft_id / "tiktok.mp4"
-    tmp = Path(tempfile.mkdtemp())
-    lst = []
-    for i, p in enumerate(image_paths, 1):
-        fp = tmp / f"f{i:02d}.jpg"
-        _frame(ROOT / p, cfg, i, len(image_paths)).save(fp, quality=92)
-        lst.append(f"file '{fp}'\nduration {seconds}")
-    lst.append(f"file '{tmp / f'f{len(image_paths):02d}.jpg'}'")  # syarat concat: frame terakhir diulang
-    (tmp / "list.txt").write_text("\n".join(lst))
-    cmd = [_ffmpeg(), "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"),
-           "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
-           "-vf", "fps=30,format=yuv420p", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
-           "-c:a", "aac", "-shortest", "-movflags", "+faststart", str(out)]
-    subprocess.run(cmd, check=True)
+    frames = [_frame(ROOT / p, cfg, i, len(image_paths)) for i, p in enumerate(image_paths, 1)]
+    narr = narration(cfg, d or {"images": image_paths, "content": {}})
+    mood = ((d or {}).get("content", {}) or {}).get("mood", "tenang")
+    suara.compose(cfg, frames, narr, out, seed=hash(draft_id) % 10000, mood=mood, min_dur=3.0)
     return out
 
 
@@ -82,7 +98,7 @@ def send_package(cfg, state, draft_id):
         return
     state.work("humas", f"Menyiapkan paket TikTok #{draft_id}...")
     try:
-        video = (ROOT / d["video"]) if d.get("type") == "reels" else make_video(cfg, draft_id, d["images"])
+        video = (ROOT / d["video"]) if d.get("type") == "reels" else make_video(cfg, draft_id, d["images"], d)
         cap = caption(cfg, d["content"])
         telegram.send_video(video, f"📱 Paket TikTok #{draft_id} — simpan video ini lalu unggah di TikTok")
         import html

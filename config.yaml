@@ -109,6 +109,15 @@ berita:
     desa: ["dana desa", "kepala desa", "pemerintahan desa", "Kemendes", "kampung Papua"]
     ai: ["kecerdasan buatan Indonesia", "AI pemerintah", "transformasi digital pemerintah", "Komdigi"]
 
+# SUARA & MUSIK video Reels/TikTok
+suara:
+  aktif: true                 # narasi Cicilia
+  voice: "id-ID-GadisNeural"  # suara perempuan Indonesia (Microsoft Edge TTS, gratis)
+  rate: "+6%"                 # kecepatan bicara
+  pitch: "+12Hz"              # sedikit lebih tinggi = lebih manis
+  musik: true                 # musik latar buatan sendiri (bebas royalti) atau MP3 di assets/music/
+  volume_musik: 0.16
+
 # TikTok: setiap konten terbit, bot mengirim paket TikTok (video 9:16 + caption) ke Telegram.
 tiktok:
   enabled: true

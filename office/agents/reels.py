@@ -155,44 +155,15 @@ def render(cfg, state, draft_id, sc, pillar_name, pillar_id, product=None):
     for i, b in enumerate(beats, 1):
         frames.append(frame_beat(cfg, t, st, b, i, len(beats), (start + i) % 3))
     frames.append(frame_cta(cfg, t, st, sc, product))
-    durs = [3.0] + [3.2] * len(beats) + [3.6]
-
     out_dir = PUBLIC / draft_id
     out_dir.mkdir(parents=True, exist_ok=True)
-    tmp = Path(tempfile.mkdtemp())
-    for i, fr in enumerate(frames):
-        fr.convert("RGB").save(tmp / f"f{i:02d}.jpg", quality=92)
     cover = out_dir / "cover.jpg"
     frames[0].convert("RGB").save(cover, quality=90)
-
-    xf = 0.45
-    cmd = [_ffmpeg(), "-y", "-loglevel", "error"]
-    for i in range(len(frames)):
-        cmd += ["-i", str(tmp / f"f{i:02d}.jpg")]
-    music = sorted(MUSIC.glob("*.mp3")) if MUSIC.exists() else []
-    total = sum(durs) - xf * (len(frames) - 1)
-    if music:
-        cmd += ["-stream_loop", "-1", "-i", str(rnd.choice(music))]
-    else:
-        cmd += ["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"]
-    parts = []
-    for i, dur in enumerate(durs):
-        zin = rnd.random() < .7
-        z = "min(zoom+0.0009,1.12)" if zin else "if(eq(on,0),1.12,max(zoom-0.0009,1.0))"
-        parts.append(f"[{i}:v]scale=1296:2304,zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-                     f"d={int(dur * 30)}:s={W}x{H}:fps=30,setsar=1,format=yuv420p[v{i}]")
-    last, off = "v0", 0.0
-    for i in range(1, len(frames)):
-        off += durs[i - 1] - xf
-        tr = rnd.choice(TRANSITIONS)
-        parts.append(f"[{last}][v{i}]xfade=transition={tr}:duration={xf}:offset={off:.2f}[x{i}]")
-        last = f"x{i}"
-    ai = len(frames)
-    parts.append(f"[{ai}:a]atrim=0:{total:.2f},afade=t=out:st={max(0, total - 1.5):.2f}:d=1.5,volume=0.55[a]")
-    out = out_dir / "reels.mp4"
-    cmd += ["-filter_complex", ";".join(parts), "-map", f"[{last}]", "-map", "[a]", "-t", f"{total:.2f}",
-            "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p",
-            "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-movflags", "+faststart", str(out)]
-    subprocess.run(cmd, check=True)
+    name = cfg.get("influencer", {}).get("name", "Cicilia")
+    narr = [f"Halo Rekan ASN, {name} di sini! {sc.get('hook', '')}"] + [b_.get("text", "") for b_ in beats] + \
+           [f"{sc.get('cta', '')} Follow A S N GO Digitals, ya!"]
+    from . import suara
+    state.work("desain", "Merekam suara Cicilia & meracik musik latar...")
+    out, total = suara.compose(cfg, frames, narr, out_dir / "reels.mp4", seed=hash(draft_id) % 10000, mood=st.get("mood", "tenang"))
     state.done("desain", f"Reels {total:.0f} detik siap (gaya {st['theme']})")
     return str(out.relative_to(ROOT)), str(cover.relative_to(ROOT))
