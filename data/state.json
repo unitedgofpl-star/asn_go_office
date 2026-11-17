@@ -652,50 +652,156 @@
     "public/11170959/slide_05.jpg"
    ],
    "scheduled_at": "2026-11-17T19:00+09:00"
+  },
+  "11171305": {
+   "id": "11171305",
+   "status": "failed",
+   "created": "2026-11-17T13:05+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "Google Workspace / Excel untuk laporan kantor",
+   "format": "carousel_listicle",
+   "product": "naskah",
+   "content": {
+    "hook": "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap",
+    "subtitle": "Kuasai cara kilat olah data pegawai dan laporan bulanan kantor.",
+    "mood": "menjelaskan",
+    "items": [
+     {
+      "title": "XLOOKUP Ganti VLOOKUP",
+      "sub": "Cari data pegawai sekejap tanpa geser kolom",
+      "icon": "🔍"
+     },
+     {
+      "title": "Pivot Table Otomatis",
+      "sub": "Rekap ribuan data cuma hitungan detik",
+      "icon": "📊"
+     },
+     {
+      "title": "Fitur Split Text to Columns",
+      "sub": "Pisahkan nama dan NIP sekali klik",
+      "icon": "✂️"
+     },
+     {
+      "title": "Conditional Formatting",
+      "sub": "Tandai berkas belum lengkap dengan warna",
+      "icon": "🎨"
+     },
+     {
+      "title": "Kolaborasi Google Sheets",
+      "sub": "Kerja satu dokumen tanpa tumpukan file revisi",
+      "icon": "👥"
+     }
+    ],
+    "details": [
+     {
+      "title": "XLOOKUP Ganti VLOOKUP",
+      "body": "Tinggalkan cara lama. XLOOKUP bikin pencarian data NIP, pangkat, atau jabatan pegawai jauh lebih fleksibel tanpa takut rumus eror saat kolom digeser. Sangat praktis untuk pemutakhiran berkas kepegawaian.",
+      "icon": "🔍"
+     },
+     {
+      "title": "Pivot Table Otomatis",
+      "body": "Mau tahu sebaran ASN per unit kerja? Jangan hitung manual satu per satu. Blok data, klik Pivot Table, dan tarik kategorinya. Laporan rekapitulasi langsung beres dalam hitungan detik!",
+      "icon": "📊"
+     },
+     {
+      "title": "Fitur Split Text to Columns",
+      "body": "Sering terima hasil ekspor data yang menggabungkan nama dan NIP dalam satu sel? Gunakan fitur 'Text to Columns'. Sekali klik, kolom nama dan NIP langsung terbelah rapi.",
+      "icon": "✂️"
+     },
+     {
+      "title": "Conditional Formatting",
+      "body": "Pantau kelengkapan berkas pegawai tanpa cek satu per satu. Gunakan Conditional Formatting untuk mewarnai otomatis sel yang masih kosong atau berstatus 'Belum Lengkap'. Cepat dan akurat.",
+      "icon": "🎨"
+     },
+     {
+      "title": "Kolaborasi Google Sheets",
+      "body": "Stop saling kirim file bertumpuk dengan nama 'Revisi_Final_Fix.xlsx'. Pakai Google Sheets agar tim bisa input dan koreksi data bersamaan. Pastikan tetap patuhi batasan akses data instansi.",
+      "icon": "👥"
+     }
+    ],
+    "note": "Gunakan akun resmi instansi dan patuhi aturan pelindungan data pribadi (UU PDP) saat mengolah data ASN di media cloud.",
+    "cta": "Simpan panduan ini dan coba praktikkan langsung di meja kerja besok!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Pernahkah Anda pusing merekap data kepegawaian atau laporan bulanan sampai larut malam di kantor?\n\nDi era transformasi digital instansi, aparatur dituntut bekerja lebih taktis, cepat, dan presisi. Jangan habiskan jam kerja hanya untuk salin-tempel manual!\n\nKami rangkum 5 fitur andalan spreadsheet (Excel & Google Sheets) yang wajib dikuasai aparatur modern. Mulai dari rumus pencarian kilat hingga kerja kolaboratif tanpa drama file revisi ganda.\n\nCatatan penting: Pastikan data yang diunggah ke cloud kolaborasi aman dan sesuai dengan kebijakan kerahasiaan data instansi masing-masing.\n\nYuk, SIMPAN postingan ini agar tidak lupa dan BAGIKAN ke rekan kerja seruangan Anda!\n\nTrik spreadsheet mana yang paling sering menyelamatkan lemburan Anda? Tulis di kolom komentar ya!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#DigitalisasiASN",
+     "#AparaturSipilNegara",
+     "#PPPK",
+     "#TipsExcel",
+     "#GoogleWorkspace",
+     "#ManajemenPemerintahan",
+     "#KerjaCerdasASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Jumlah elemen pada 'details' hanya 4, tidak sinkron dengan 'items' yang berjumlah 5 (slide Conditional Formatting terlewat).",
+      "Penggunaan platform cloud pihak ketiga (Google Sheets) untuk data kepegawaian (NIP/biodata) perlu peringatan keamanan data dan privasi sesuai UU PDP & SPBE.",
+      "Penyebutan nama persona 'Cicilia' di caption tidak konsisten dan diganti dengan redaksi yang lebih umum.",
+      "Penyesuaian ejaan dan kata nonformal ('gak' menjadi 'tidak') agar lebih layak sebagai media edukasi instansi pemerintah."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11171305/slide_01.jpg",
+    "public/11171305/slide_02.jpg",
+    "public/11171305/slide_03.jpg",
+    "public/11171305/slide_04.jpg",
+    "public/11171305/slide_05.jpg",
+    "public/11171305/slide_06.jpg",
+    "public/11171305/slide_07.jpg",
+    "public/11171305/slide_08.jpg"
+   ],
+   "scheduled_at": "2026-11-17T19:00+09:00",
+   "published": {},
+   "published_at": "2026-11-17T13:05+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Perintah selesai diproses",
-   "at": "2026-11-17 09:59"
+   "last": "Draft #11171305 dikirim ke Bos",
+   "at": "2026-11-17 13:05"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-17 09:58"
+   "at": "2026-11-17 13:04"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Persiapan CPNS 2027 Dimulai Sekarang, Siapkan Diri Anda!\"",
-   "at": "2026-11-17 09:58"
+   "last": "Draft selesai: \"5 Trik Spreadsheet Wajib ASN Biar Gak Lembur Rekap\"",
+   "at": "2026-11-17 13:05"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 4 catatan",
-   "at": "2026-11-17 09:59"
+   "last": "QC selesai — risiko rendah, 4 catatan",
+   "at": "2026-11-17 13:05"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya tosca siap",
-   "at": "2026-11-17 09:59"
+   "last": "8 slide gaya merah siap",
+   "at": "2026-11-17 13:05"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11162141 dikirim ke Bos",
-   "at": "2026-11-16 22:30"
+   "last": "#11171305 → gagal",
+   "at": "2026-11-17 13:05"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-17 09:58"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-17 13:04"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -705,6 +811,76 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 13:05",
+   "agent": "humas",
+   "msg": "#11171305 → gagal"
+  },
+  {
+   "at": "2026-11-17 13:05",
+   "agent": "humas",
+   "msg": "Menerbitkan #11171305 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-17 13:05",
+   "agent": "kepala",
+   "msg": "Draft #11171305 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 13:05",
+   "agent": "desain",
+   "msg": "8 slide gaya merah siap"
+  },
+  {
+   "at": "2026-11-17 13:05",
+   "agent": "desain",
+   "msg": "Mendesain gaya merah/kanan/grid/angka..."
+  },
+  {
+   "at": "2026-11-17 13:05",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 4 catatan"
+  },
+  {
+   "at": "2026-11-17 13:05",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-17 13:05",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"5 Trik Spreadsheet Wajib ASN Biar Gak Lembur Rekap\""
+  },
+  {
+   "at": "2026-11-17 13:04",
+   "agent": "naskah",
+   "msg": "Menulis carousel: Google Workspace / Excel untuk laporan kantor"
+  },
+  {
+   "at": "2026-11-17 13:04",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-17 13:04",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-17 13:04",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-17 13:04",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-17 13:04",
+   "agent": "kepala",
+   "msg": "Jadwal 06:30 WIT: carousel asn"
+  },
   {
    "at": "2026-11-17 09:59",
    "agent": "kepala",
@@ -934,84 +1110,14 @@
    "at": "2026-11-16 21:24",
    "agent": "humas",
    "msg": "Menerbitkan #11162122 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-16 21:24",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 21:24",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 21:22",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 21:22",
-   "agent": "kepala",
-   "msg": "Draft #11162122 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-16 21:22",
-   "agent": "desain",
-   "msg": "5 slide gaya navy siap"
-  },
-  {
-   "at": "2026-11-16 21:22",
-   "agent": "desain",
-   "msg": "Mendesain gaya navy/berita/kartu/kartu..."
-  },
-  {
-   "at": "2026-11-16 21:22",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 3 catatan"
-  },
-  {
-   "at": "2026-11-16 21:20",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-16 21:20",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Bikin Laporan Desa Cepat Selesai Pakai AI Gratis\""
-  },
-  {
-   "at": "2026-11-16 21:18",
-   "agent": "naskah",
-   "msg": "Menulis carousel: promo"
-  },
-  {
-   "at": "2026-11-16 21:18",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-16 21:18",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-16 21:18",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-16 21:18",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
   }
  ],
  "stats": {
   "published": 7,
-  "drafts": 8
+  "drafts": 9
  },
- "updated": "2026-11-17T09:59+09:00",
- "cuan_rot": 8,
+ "updated": "2026-11-17T13:05+09:00",
+ "cuan_rot": 9,
  "last_followers": 130,
  "style_hist": [
   {
@@ -1046,11 +1152,23 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "menjelaskan",
+   "expr": "senang",
+   "theme": "merah",
+   "cover": "kanan",
+   "list": "grid",
+   "detail": "angka",
+   "pose": "menjelaskan__tangan_terbuka",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
   "Bikin Laporan Desa Cepat Selesai Pakai AI Gratis",
   "Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!",
-  "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!"
+  "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!",
+  "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap"
  ]
 }
