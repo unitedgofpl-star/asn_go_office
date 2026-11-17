@@ -996,26 +996,88 @@
    },
    "published_at": "2026-11-17T15:14+09:00",
    "errors": []
+  },
+  "11171645": {
+   "id": "11171645",
+   "type": "reels",
+   "status": "published",
+   "created": "2026-11-17T16:45+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "AI untuk membuat bahan paparan, ringkasan regulasi, analisis data",
+   "format": "reels",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin paparan kantor cuma dalam hitungan detik?",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering keteteran bikin bahan paparan atau merangkum tumpukan regulasi kantor? Tenang, Cicilia punya trik kilat pakai AI yang bikin tugas selesai dalam hitungan detik. Gak perlu lagi lembur demi slide presentasi! Mau kerjaan makin satset dan profesional? Yuk, cobain Generator Naskah Dinas mulai dari Rp99.000 saja sekali bayar. Langsung klik link di bio ya! Apa aplikasi AI favorit Sobat Desa di kantor? Tulis di kolom komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#AsnGoDigitals",
+     "#DigitalisasiAsn",
+     "#PemerintahanDesa",
+     "#PnsPppk",
+     "#KerjaCepatAi"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN & Sobat Desa! Mau kerja makin satset?",
+      "icon": "👋"
+     },
+     {
+      "text": "Pakai AI buat ringkas dokumen regulasi tebal jadi cepat.",
+      "icon": "📚"
+     },
+     {
+      "text": "Upload file PDF laporan, lalu minta AI buatkan intinya.",
+      "icon": "⚡"
+     },
+     {
+      "text": "Satu klik saja, bahan paparan rakor langsung siap pakai.",
+      "icon": "📊"
+     },
+     {
+      "text": "Analisis data jadi makin mudah tanpa bikin kepala pusing.",
+      "icon": "💻"
+     },
+     {
+      "text": "Yuk, manfaatkan teknologi biar tugas kantor cepat beres!",
+      "icon": "🚀"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11171645/cover.jpg"
+   ],
+   "video": "public/11171645/reels.mp4",
+   "scheduled_at": "2026-11-17T16:45+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/reel/Df1bRAKkZDO/",
+    "fb": "https://facebook.com/3421735244881581"
+   },
+   "published_at": "2026-11-17T16:46+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Perintah selesai diproses",
-   "at": "2026-11-17 15:13"
+   "last": "Reels #11171645 dikirim ke Bos",
+   "at": "2026-11-17 16:45"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-17 15:10"
+   "at": "2026-11-17 16:43"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi\"",
-   "at": "2026-11-17 15:10"
+   "last": "Naskah Reels: \"Bikin paparan kantor cuma dalam hitungan detik?\"",
+   "at": "2026-11-17 16:45"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -1026,20 +1088,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "8 slide gaya kertas siap",
-   "at": "2026-11-17 15:11"
+   "last": "Reels 23 detik siap (gaya ungu)",
+   "at": "2026-11-17 16:45"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11171511 dikirim ke Bos",
-   "at": "2026-11-17 15:14"
+   "last": "Paket TikTok #11171645 dikirim ke Bos",
+   "at": "2026-11-17 16:46"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-17 15:10"
+   "at": "2026-11-17 16:43"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -1049,6 +1111,76 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 16:46",
+   "agent": "humas",
+   "msg": "Paket TikTok #11171645 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 16:46",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11171645..."
+  },
+  {
+   "at": "2026-11-17 16:46",
+   "agent": "humas",
+   "msg": "#11171645 → ig, fb"
+  },
+  {
+   "at": "2026-11-17 16:45",
+   "agent": "humas",
+   "msg": "Menerbitkan #11171645 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-17 16:45",
+   "agent": "kepala",
+   "msg": "Reels #11171645 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 16:45",
+   "agent": "desain",
+   "msg": "Reels 23 detik siap (gaya ungu)"
+  },
+  {
+   "at": "2026-11-17 16:45",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya ungu..."
+  },
+  {
+   "at": "2026-11-17 16:45",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"Bikin paparan kantor cuma dalam hitungan detik?\""
+  },
+  {
+   "at": "2026-11-17 16:43",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: AI untuk membuat bahan paparan, ringkasan reg"
+  },
+  {
+   "at": "2026-11-17 16:43",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-17 16:43",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-17 16:43",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-17 16:43",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-17 16:43",
+   "agent": "kepala",
+   "msg": "Jadwal 09:00 WIT: reels ai"
+  },
   {
    "at": "2026-11-17 15:14",
    "agent": "humas",
@@ -1278,84 +1410,14 @@
    "at": "2026-11-17 13:48",
    "agent": "riset",
    "msg": "Berita: \"Kecamatan Busungbiu hadiri Rapat Koordinasi Penyelenggaraan \" (2 sumber, 2 foto)"
-  },
-  {
-   "at": "2026-11-17 13:47",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-17 13:47",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-17 13:47",
-   "agent": "kepala",
-   "msg": "Jadwal 08:00 WIT: berita desa"
-  },
-  {
-   "at": "2026-11-17 13:05",
-   "agent": "humas",
-   "msg": "#11171305 → gagal"
-  },
-  {
-   "at": "2026-11-17 13:05",
-   "agent": "humas",
-   "msg": "Menerbitkan #11171305 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-17 13:05",
-   "agent": "kepala",
-   "msg": "Draft #11171305 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 13:05",
-   "agent": "desain",
-   "msg": "8 slide gaya merah siap"
-  },
-  {
-   "at": "2026-11-17 13:05",
-   "agent": "desain",
-   "msg": "Mendesain gaya merah/kanan/grid/angka..."
-  },
-  {
-   "at": "2026-11-17 13:05",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 4 catatan"
-  },
-  {
-   "at": "2026-11-17 13:05",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-17 13:05",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"5 Trik Spreadsheet Wajib ASN Biar Gak Lembur Rekap\""
-  },
-  {
-   "at": "2026-11-17 13:04",
-   "agent": "naskah",
-   "msg": "Menulis carousel: Google Workspace / Excel untuk laporan kantor"
-  },
-  {
-   "at": "2026-11-17 13:04",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-17 13:04",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
   }
  ],
  "stats": {
-  "published": 8,
-  "drafts": 12
+  "published": 9,
+  "drafts": 13
  },
- "updated": "2026-11-17T15:14+09:00",
- "cuan_rot": 11,
+ "updated": "2026-11-17T16:46+09:00",
+ "cuan_rot": 12,
  "last_followers": 130,
  "style_hist": [
   {
@@ -1423,6 +1485,17 @@
    "pose": "menjelaskan__tangan_terbuka",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "ungu",
+   "cover": "kiri",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
@@ -1432,7 +1505,8 @@
   "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap",
   "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027",
   "Musim Perencanaan Desa Bikin Pusing Kepala?",
-  "Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi"
+  "Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi",
+  "Bikin paparan kantor cuma dalam hitungan detik?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
