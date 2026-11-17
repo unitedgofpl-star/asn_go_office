@@ -758,44 +758,88 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11171348": {
+   "id": "11171348",
+   "type": "berita",
+   "status": "failed",
+   "created": "2026-11-17T13:48+09:00",
+   "pillar": "PEMERINTAHAN DESA",
+   "topic": "Kecamatan Busungbiu hadiri Rapat Koordinasi Penyelenggaraan Pemerintahan Desa   | Kecamatan Busungbiu",
+   "format": "berita",
+   "content": {
+    "hook": "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027",
+    "caption": "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027\n\nDinas PMDPPKB Kabupaten Buleleng menyelenggarakan rapat koordinasi pemerintahan desa pada Senin, 16 November 2026. Dipimpin oleh Kepala Bidang Pemerintahan Desa, Madong Hartono, kegiatan ini dihadiri oleh Kasi Pemerintahan dan Kasi Pembangunan dari seluruh kecamatan di Kabupaten Buleleng.\n\nFokus pembahasan meliputi evaluasi APBDes 2026, tindak lanjut audit BPKP, hingga persiapan Pilkel dan pengisian BPD tahun 2027. Selain itu, dibahas pula mengenai ketahanan pangan, pengelolaan aset, dan ketentuan bagi perangkat desa dalam agenda pemilihan mendatang. Koordinasi ini diharapkan dapat memperkuat tertib administrasi dan akuntabilitas di tingkat desa.\n\n💡 Artinya bagi kita: Rapat koordinasi bertujuan menyamakan pemahaman antara pemerintah kecamatan dan daerah dalam pengawasan penyelenggaraan pemerintahan desa.\n\n📰 Sumber:\n• Kecamatan Busungbiu: https://busungbiu.bulelengkab.go.id/informasi/detail/berita/93_kecamatan-busungbiu-hadiri-rapat-koordinasi-penyelenggaraan-pemerintahan-desa\n• Kecamatan Kubutambahan: https://kubutambahan.bulelengkab.go.id/informasi/detail/berita/76_kecamatan-kubutambahan-ikuti-rapat-koordinasi-penyelenggaraan-pemerintahan-desa-bahas-persiapan-pilkel-dan-pengisian-bpd-2027\n📷 Foto: Kecamatan Busungbiu, Kecamatan Kubutambahan\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#PemerintahanDesa",
+     "#Siskeudes",
+     "#Buleleng",
+     "#Pilkel2027",
+     "#TataKelolaDesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Menambahkan informasi spesifik mengenai regulasi UU Nomor 3 Tahun 2024 dan PP Nomor 16 Tahun 2026 yang mendasari rapat.",
+      "Menambahkan detail mengenai kehadiran pejabat teknis (Kasi Pemerintahan dan Kasi Pembangunan) serta pemimpin rapat (Madong Hartono).",
+      "Menambahkan poin pembahasan tambahan dari sumber: komposisi belanja 30 persen, ketahanan pangan, dan persyaratan cuti perangkat desa.",
+      "Menghapus asumsi subjektif pada bagian dampak yang tidak disebutkan secara eksplisit dalam sumber."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11171348/slide_01.jpg",
+    "public/11171348/slide_02.jpg"
+   ],
+   "sources": [
+    "https://busungbiu.bulelengkab.go.id/informasi/detail/berita/93_kecamatan-busungbiu-hadiri-rapat-koordinasi-penyelenggaraan-pemerintahan-desa",
+    "https://kubutambahan.bulelengkab.go.id/informasi/detail/berita/76_kecamatan-kubutambahan-ikuti-rapat-koordinasi-penyelenggaraan-pemerintahan-desa-bahas-persiapan-pilkel-dan-pengisian-bpd-2027"
+   ],
+   "scheduled_at": "2026-11-17T13:48+09:00",
+   "published": {},
+   "published_at": "2026-11-17T13:48+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11171305 dikirim ke Bos",
-   "at": "2026-11-17 13:05"
+   "last": "Berita #11171348 dikirim ke Bos",
+   "at": "2026-11-17 13:48"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-17 13:04"
+   "last": "Berita: \"Kecamatan Busungbiu hadiri Rapat Koordinasi Penyelenggaraan \" (2 sumber, 2 foto)",
+   "at": "2026-11-17 13:48"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"5 Trik Spreadsheet Wajib ASN Biar Gak Lembur Rekap\"",
-   "at": "2026-11-17 13:05"
+   "last": "Rangkuman: \"Update Rakor Pemerintahan Desa: Fokus APBDes, Audit, dan Persiapan Pilkel 2027\"",
+   "at": "2026-11-17 13:48"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 4 catatan",
-   "at": "2026-11-17 13:05"
+   "last": "Cek berita selesai — risiko rendah",
+   "at": "2026-11-17 13:48"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "8 slide gaya merah siap",
-   "at": "2026-11-17 13:05"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-17 13:48"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11171305 → gagal",
-   "at": "2026-11-17 13:05"
+   "last": "#11171348 → gagal",
+   "at": "2026-11-17 13:48"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -811,6 +855,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 13:48",
+   "agent": "humas",
+   "msg": "#11171348 → gagal"
+  },
+  {
+   "at": "2026-11-17 13:48",
+   "agent": "humas",
+   "msg": "Menerbitkan #11171348 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-17 13:48",
+   "agent": "kepala",
+   "msg": "Berita #11171348 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 13:48",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-17 13:48",
+   "agent": "desain",
+   "msg": "Mendesain berita (2 foto)..."
+  },
+  {
+   "at": "2026-11-17 13:48",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko rendah"
+  },
+  {
+   "at": "2026-11-17 13:48",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-17 13:48",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Update Rakor Pemerintahan Desa: Fokus APBDes, Audit, dan Persiapan Pilkel 2027\""
+  },
+  {
+   "at": "2026-11-17 13:48",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 2 sumber..."
+  },
+  {
+   "at": "2026-11-17 13:48",
+   "agent": "riset",
+   "msg": "Berita: \"Kecamatan Busungbiu hadiri Rapat Koordinasi Penyelenggaraan \" (2 sumber, 2 foto)"
+  },
+  {
+   "at": "2026-11-17 13:47",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-17 13:47",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-17 13:47",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita desa"
+  },
   {
    "at": "2026-11-17 13:05",
    "agent": "humas",
@@ -1045,78 +1154,13 @@
    "at": "2026-11-16 21:39",
    "agent": "naskah",
    "msg": "Menulis carousel: carousel baru tentang disiplin Pegawai (ASN)"
-  },
-  {
-   "at": "2026-11-16 21:39",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-16 21:39",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-16 21:39",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-16 21:39",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-16 21:39",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 21:34",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 21:34",
-   "agent": "cuan",
-   "msg": "Copy promo Generator Naskah Dinas siap"
-  },
-  {
-   "at": "2026-11-16 21:33",
-   "agent": "cuan",
-   "msg": "Menulis copy promo Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-16 21:33",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 21:25",
-   "agent": "humas",
-   "msg": "Paket TikTok #11162122 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-16 21:25",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11162122..."
-  },
-  {
-   "at": "2026-11-16 21:25",
-   "agent": "humas",
-   "msg": "#11162122 → ig, fb"
-  },
-  {
-   "at": "2026-11-16 21:24",
-   "agent": "humas",
-   "msg": "Menerbitkan #11162122 ke IG & FB..."
   }
  ],
  "stats": {
   "published": 7,
-  "drafts": 9
+  "drafts": 10
  },
- "updated": "2026-11-17T13:05+09:00",
+ "updated": "2026-11-17T13:48+09:00",
  "cuan_rot": 9,
  "last_followers": 130,
  "style_hist": [
@@ -1169,6 +1213,11 @@
   "Bikin Laporan Desa Cepat Selesai Pakai AI Gratis",
   "Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!",
   "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!",
-  "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap"
+  "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap",
+  "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027"
+ ],
+ "news_used": [
+  "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
+  "kecamatan kubutambahan ikuti rapat koordinasi penyelenggaraa"
  ]
 }
