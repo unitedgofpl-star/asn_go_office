@@ -1476,44 +1476,88 @@
    },
    "published_at": "2026-11-18T01:26+09:00",
    "errors": []
+  },
+  "11180210": {
+   "id": "11180210",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-18T02:10+09:00",
+   "pillar": "ASN",
+   "topic": "SAFEnet-Remotivi Datangi Komdigi Soal Takedown Konten",
+   "format": "berita",
+   "content": {
+    "hook": "Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital",
+    "caption": "Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital\n\nHalo Rekan ASN & Sobat Desa! Ada informasi penting nih terkait dinamika di ruang digital kita. Baru-baru ini, SAFEnet bersama Remotivi dan Kabinet Bayangan menggelar aksi di depan kantor Kementerian Komunikasi dan Digital (Komdigi). Aksi ini dipicu oleh temuan mengenai banyaknya konten kritik warga yang mengalami pemutusan akses di media sosial.\n\nDalam aksinya, mereka menyampaikan tuntutan untuk melakukan debat terbuka dengan pihak Komdigi. Tujuannya adalah untuk mendapatkan penjelasan mengenai kebijakan pemutusan akses yang dinilai perlu lebih transparan.\n\nSebagai ASN dan perangkat desa yang bersentuhan langsung dengan pelayanan publik dan informasi, isu ini menjadi refleksi penting bagi kita semua. Penting bagi kita untuk terus mengedukasi diri mengenai hak dan kewajiban di ruang digital, serta memastikan setiap tindakan administratif kita tetap berlandaskan regulasi yang berlaku.\n\nBagaimana pendapat Rekan ASN mengenai pentingnya transparansi dalam moderasi konten di ruang digital? Yuk, diskusi santai di kolom komentar agar kita bisa sama-sama belajar lebih bijak berdigital!\n\n💡 Artinya bagi kita: Peristiwa ini menjadi pengingat bagi ASN untuk selalu memahami prosedur dan regulasi dalam pengelolaan informasi publik serta ruang digital.\n\n📰 Sumber:\n• detikInet: https://inet.detik.com/law-and-policy/d-8757073/safenet-remotivi-datangi-komdigi-soal-takedown-konten/amp\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#ASNGODigital",
+     "#InfoASN",
+     "#RuangDigital",
+     "#LiterasiDigital",
+     "#PemerintahanDigital"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus klaim rencana gugatan ke PTUN karena tidak terdapat di dalam sumber.",
+      "Menyesuaikan kalimat pada poin dan caption agar tidak menyalin kalimat panjang dari sumber secara persis."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital. SAFEnet dan Remotivi menggelar aksi di kantor Komdigi untuk mendiskusikan mekanisme pemutusan akses konten. SAFEnet dan Remotivi menyoroti kebijakan pemutusan akses konten di media sosial. Massa aksi meminta dialog terbuka dengan pihak Kementerian Komunikasi dan Digital. Terdapat aduan mengenai penghapusan konten yang dianggap sebagai bentuk kritik warga. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11180210/slide_01.jpg"
+   ],
+   "sources": [
+    "https://inet.detik.com/law-and-policy/d-8757073/safenet-remotivi-datangi-komdigi-soal-takedown-konten/amp"
+   ],
+   "scheduled_at": "2026-11-18T02:10+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df2b6KNE-PB/",
+    "fb": "https://facebook.com/468307299696116_122225092388589464"
+   },
+   "published_at": "2026-11-18T02:11+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11180125 dikirim ke Bos",
-   "at": "2026-11-18 01:25"
+   "last": "Berita #11180210 dikirim ke Bos",
+   "at": "2026-11-18 02:10"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-18 01:24"
+   "last": "Berita: \"SAFEnet-Remotivi Datangi Komdigi Soal Takedown Konten\" (1 sumber, 0 foto)",
+   "at": "2026-11-18 02:05"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"5 Kebiasaan Spreadsheet yang Bikin Laporan ASN Berantakan\"",
-   "at": "2026-11-18 01:25"
+   "last": "Rangkuman: \"Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital\"",
+   "at": "2026-11-18 02:08"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-18 01:25"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-18 02:10"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya tosca siap",
-   "at": "2026-11-18 01:25"
+   "last": "Berita 1 slide siap",
+   "at": "2026-11-18 02:10"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11180125 dikirim ke Bos",
-   "at": "2026-11-18 01:27"
+   "last": "Paket TikTok #11180210 dikirim ke Bos",
+   "at": "2026-11-18 02:11"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -1529,6 +1573,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-18 02:11",
+   "agent": "humas",
+   "msg": "Paket TikTok #11180210 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-18 02:11",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11180210..."
+  },
+  {
+   "at": "2026-11-18 02:11",
+   "agent": "humas",
+   "msg": "#11180210 → ig, fb"
+  },
+  {
+   "at": "2026-11-18 02:10",
+   "agent": "humas",
+   "msg": "Menerbitkan #11180210 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-18 02:10",
+   "agent": "kepala",
+   "msg": "Berita #11180210 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-18 02:10",
+   "agent": "desain",
+   "msg": "Berita 1 slide siap"
+  },
+  {
+   "at": "2026-11-18 02:10",
+   "agent": "desain",
+   "msg": "Mendesain berita (0 foto)..."
+  },
+  {
+   "at": "2026-11-18 02:10",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-18 02:08",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-18 02:08",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital\""
+  },
+  {
+   "at": "2026-11-18 02:05",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-18 02:05",
+   "agent": "riset",
+   "msg": "Berita: \"SAFEnet-Remotivi Datangi Komdigi Soal Takedown Konten\" (1 sumber, 0 foto)"
+  },
+  {
+   "at": "2026-11-18 02:05",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-18 02:05",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-18 02:05",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita desa"
+  },
   {
    "at": "2026-11-18 01:27",
    "agent": "humas",
@@ -1753,88 +1872,13 @@
    "at": "2026-11-17 20:04",
    "agent": "kepala",
    "msg": "Draft #11172004 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 20:04",
-   "agent": "desain",
-   "msg": "5 slide gaya navy siap"
-  },
-  {
-   "at": "2026-11-17 20:04",
-   "agent": "desain",
-   "msg": "Mendesain gaya navy/kanan/grid/chat..."
-  },
-  {
-   "at": "2026-11-17 20:04",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 2 catatan"
-  },
-  {
-   "at": "2026-11-17 20:02",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-17 20:02",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?\""
-  },
-  {
-   "at": "2026-11-17 20:00",
-   "agent": "naskah",
-   "msg": "Menulis carousel: dana desa, BUMDes, pelaporan & pertanggungjawaban"
-  },
-  {
-   "at": "2026-11-17 20:00",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-17 20:00",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-17 20:00",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-17 20:00",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-17 20:00",
-   "agent": "kepala",
-   "msg": "Jadwal 20:00 WIT: carousel desa"
-  },
-  {
-   "at": "2026-11-17 18:33",
-   "agent": "humas",
-   "msg": "Paket TikTok #11171832 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-17 18:33",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11171832..."
-  },
-  {
-   "at": "2026-11-17 18:33",
-   "agent": "humas",
-   "msg": "#11171832 → ig, fb"
-  },
-  {
-   "at": "2026-11-17 18:32",
-   "agent": "humas",
-   "msg": "Menerbitkan #11171832 ke IG & FB..."
   }
  ],
  "stats": {
-  "published": 15,
-  "drafts": 18
+  "published": 16,
+  "drafts": 19
  },
- "updated": "2026-11-18T01:27+09:00",
+ "updated": "2026-11-18T02:11+09:00",
  "cuan_rot": 17,
  "last_followers": 130,
  "style_hist": [
@@ -1984,11 +2028,14 @@
   "SKP MyASN numpuk? Beresin pakai trik ini!",
   "Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?",
   "Kerja ASN Makin Sat-Set dengan AI Anti-Lembur",
-  "Kebiasaan Spreadsheet yang Bikin Laporan ASN Berantakan"
+  "Kebiasaan Spreadsheet yang Bikin Laporan ASN Berantakan",
+  "Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
-  "kecamatan kubutambahan ikuti rapat koordinasi penyelenggaraa"
+  "kecamatan kubutambahan ikuti rapat koordinasi penyelenggaraa",
+  "safenet remotivi datangi komdigi soal takedown konten",
+  "meutya hafid tak hadiri undangan debat soal takedown konten"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -2013,12 +2060,17 @@
     "did": "11180125",
     "status": "proses",
     "at": "2026-11-18T01:25+09:00"
+   },
+   "5": {
+    "did": "11180210",
+    "status": "proses",
+    "at": "2026-11-18T02:10+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-18",
-  "dibuat": "2026-11-18T01:27+09:00",
+  "dibuat": "2026-11-18T02:11+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -2077,9 +2129,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital",
+    "id": "11180210",
+    "status": "terbit",
+    "terbit": "02:11"
    },
    {
     "slot": 6,
