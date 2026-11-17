@@ -571,6 +571,87 @@
    },
    "published_at": "2026-11-16T22:30+09:00",
    "errors": []
+  },
+  "11170959": {
+   "id": "11170959",
+   "status": "draft",
+   "created": "2026-11-17T09:59+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "caraosel baru tentang tes CPNS 2027",
+   "format": "carousel_tutorial",
+   "product": "kantor",
+   "content": {
+    "hook": "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!",
+    "subtitle": "Strategi matang agar persiapan menghadapi seleksi dan pengembangan karier berjalan lancar.",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Perbarui Status Kepegawaian",
+      "sub": "Pastikan data di aplikasi kepegawaian sudah valid.",
+      "icon": "📋"
+     },
+     {
+      "title": "Cek Syarat Administrasi",
+      "sub": "Pahami kualifikasi pendidikan dan kompetensi jabatan Anda.",
+      "icon": "🎓"
+     },
+     {
+      "title": "Latih Literasi Digital",
+      "sub": "Perkuat keterampilan penggunaan teknologi perkantoran modern.",
+      "icon": "💻"
+     },
+     {
+      "title": "Manfaatkan Simulasi CAT",
+      "sub": "Biasakan diri dengan pola soal ujian berbasis komputer.",
+      "icon": "⏳"
+     },
+     {
+      "title": "Pantau Regulasi Resmi",
+      "sub": "Selalu periksa informasi dari kanal resmi instansi.",
+      "icon": "📢"
+     }
+    ],
+    "details": [
+     {
+      "title": "Perbarui Status Kepegawaian",
+      "body": "Pastikan data diri, riwayat pendidikan, dan masa kerja di sistem kepegawaian sudah sinkron. Data yang valid mempermudah proses verifikasi administrasi Anda.",
+      "icon": "📋"
+     },
+     {
+      "title": "Latih Literasi Digital",
+      "body": "Sebagai ASN yang adaptif, penguasaan teknologi adalah nilai tambah. Mulailah berlatih menggunakan perangkat digital untuk mempercepat tugas harian Anda.",
+      "icon": "💻"
+     }
+    ],
+    "note": "Selalu periksa regulasi terbaru di instansi dan kanal resmi BKN.",
+    "cta": "Simpan postingan ini agar tidak lupa langkah persiapannya, Rekan ASN!",
+    "caption": "Halo Rekan ASN dan Sobat Desa! Semangat pagi! Isu penataan pegawai dan persyaratan seleksi terus bergulir. Apa saja yang harus disiapkan sejak dini? Jangan menunggu pengumuman keluar baru mulai belajar! Sebagai ASN yang profesional, mari mulai mencicil persiapan, mulai dari merapikan data hingga mengasah literasi digital. Disiplin adalah kunci utama. Jangan termakan tautan hoaks di grup percakapan; selalu pastikan informasi bersumber dari instansi resmi. Apa kendala terbesar Anda saat ini? Tulis di kolom komentar, ya! Jangan lupa simpan unggahan ini.\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — Paket Kantor — Rp749.000 (10 perangkat). Cek link di bio 👉 https://lynk.id/asngodigital\n\n🤖 Cicilia adalah virtual influencer AI. Visual dibuat dengan AI.",
+    "hashtags": [
+     "#ASNProfesional",
+     "#InfoASN",
+     "#PersiapanASN",
+     "#PPPK",
+     "#TransformasiDigital",
+     "#PemerintahanDesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Klaim tahun CPNS 2027 dan transisi PPPK bersifat spekulatif/belum pasti regulasinya, diubah menjadi persiapan jangka panjang tanpa menyebutkan tahun spesifik yang mengikat.",
+      "Terdapat kesalahan penggunaan tanda baca dan kalimat yang terlalu panjang pada beberapa slide.",
+      "Nama 'Cicilia' dihapus dari caption karena tidak sesuai dengan persona editor Kak Agus.",
+      "Panjang teks pada detail dan caption disesuaikan agar lebih padat dan sesuai batas maksimal."
+     ],
+     "risk": "sedang"
+    }
+   },
+   "images": [
+    "public/11170959/slide_01.jpg",
+    "public/11170959/slide_02.jpg",
+    "public/11170959/slide_03.jpg",
+    "public/11170959/slide_04.jpg",
+    "public/11170959/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-17T19:00+09:00"
   }
  },
  "agents": {
@@ -578,31 +659,31 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-16 22:29"
+   "at": "2026-11-17 09:59"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-16 21:39"
+   "at": "2026-11-17 09:58"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!\"",
-   "at": "2026-11-16 21:40"
+   "last": "Draft selesai: \"Persiapan CPNS 2027 Dimulai Sekarang, Siapkan Diri Anda!\"",
+   "at": "2026-11-17 09:58"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-16 21:41"
+   "last": "QC selesai — risiko sedang, 4 catatan",
+   "at": "2026-11-17 09:59"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya ungu siap",
-   "at": "2026-11-16 21:41"
+   "last": "5 slide gaya tosca siap",
+   "at": "2026-11-17 09:59"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
@@ -613,8 +694,8 @@
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-16 21:39"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-17 09:58"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -624,6 +705,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-17 09:59",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-17 09:59",
+   "agent": "kepala",
+   "msg": "Draft #11170959 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-17 09:59",
+   "agent": "desain",
+   "msg": "5 slide gaya tosca siap"
+  },
+  {
+   "at": "2026-11-17 09:59",
+   "agent": "desain",
+   "msg": "Mendesain gaya tosca/kiri/kartu/kartu..."
+  },
+  {
+   "at": "2026-11-17 09:59",
+   "agent": "qc",
+   "msg": "QC selesai — risiko sedang, 4 catatan"
+  },
+  {
+   "at": "2026-11-17 09:58",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-17 09:58",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Persiapan CPNS 2027 Dimulai Sekarang, Siapkan Diri Anda!\""
+  },
+  {
+   "at": "2026-11-17 09:58",
+   "agent": "naskah",
+   "msg": "Menulis carousel: caraosel baru tentang tes CPNS 2027"
+  },
+  {
+   "at": "2026-11-17 09:58",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-17 09:58",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-17 09:58",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-17 09:58",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-17 09:58",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-16 22:30",
    "agent": "humas",
@@ -858,79 +1004,14 @@
    "at": "2026-11-16 21:18",
    "agent": "kepala",
    "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-16 21:18",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 19:52",
-   "agent": "humas",
-   "msg": "Paket TikTok #11160622 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-16 19:52",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11160622..."
-  },
-  {
-   "at": "2026-11-16 19:52",
-   "agent": "humas",
-   "msg": "#11160622 → ig, fb"
-  },
-  {
-   "at": "2026-11-16 19:51",
-   "agent": "humas",
-   "msg": "Menerbitkan #11160622 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-16 19:51",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-16 19:51",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-16 16:37",
-   "agent": "analis",
-   "msg": "Laporan mingguan selesai — 130 followers"
-  },
-  {
-   "at": "2026-11-16 16:35",
-   "agent": "analis",
-   "msg": "Menarik data performa Instagram..."
-  },
-  {
-   "at": "2026-11-16 15:56",
-   "agent": "humas",
-   "msg": "Paket TikTok #11161353 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-16 15:56",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11161353..."
-  },
-  {
-   "at": "2026-11-16 15:56",
-   "agent": "humas",
-   "msg": "#11161353 → ig, fb"
-  },
-  {
-   "at": "2026-11-16 15:55",
-   "agent": "humas",
-   "msg": "Menerbitkan #11161353 ke IG & FB..."
   }
  ],
  "stats": {
   "published": 7,
-  "drafts": 7
+  "drafts": 8
  },
- "updated": "2026-11-16T22:30+09:00",
- "cuan_rot": 7,
+ "updated": "2026-11-17T09:59+09:00",
+ "cuan_rot": 8,
  "last_followers": 130,
  "style_hist": [
   {
@@ -954,10 +1035,22 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "tosca",
+   "cover": "kiri",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
   "Bikin Laporan Desa Cepat Selesai Pakai AI Gratis",
-  "Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!"
+  "Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!",
+  "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!"
  ]
 }
