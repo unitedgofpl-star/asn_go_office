@@ -2032,38 +2032,84 @@
    },
    "published_at": "2026-11-19T01:00+09:00",
    "errors": []
+  },
+  "11190144": {
+   "id": "11190144",
+   "type": "berita",
+   "status": "draft",
+   "created": "2026-11-19T01:44+09:00",
+   "pillar": "Berita",
+   "topic": "KEMENAG PESISIR BARAT PERKUAT KOMPETENSI KOMUNIKASI JURNALISTIK DAN TRANSFORMASI DIGITAL",
+   "format": "berita",
+   "content": {
+    "hook": "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik",
+    "caption": "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik\n\nTransformasi digital menjadi fokus utama di berbagai instansi. Kemenag Pesisir Barat telah mengadakan Bimtek komunikasi jurnalistik dan transformasi digital pada 18 November 2026 untuk memastikan informasi pemerintah akurat. Sementara itu, Pemprov Jambi mendorong kolaborasi melalui Forum Nasional Kota Cerdas untuk efisiensi tata kelola. Teknologi adalah alat, namun kunci utamanya tetap pada kompetensi ASN yang mengoperasikannya. Dengan menguasai strategi komunikasi dan sistem digital, pelayanan publik diharapkan menjadi lebih prima. Bagaimana pengalaman rekan ASN dalam beradaptasi dengan sistem digital di instansi masing-masing? Mari berbagi di kolom komentar.\n\n💡 Artinya bagi kita: ASN dituntut adaptif menggunakan platform digital guna mewujudkan pelayanan publik yang transparan dan efisien.\n\n📰 Sumber:\n• Pemerintah Kabupaten Pesisir Barat: https://pesisirbaratkab.go.id/berita/kemenag-pesisir-barat-perkuat-kompetensi-komunikasi-jurnalistik-dan-transformasi-digital\n• ANTARA News Jambi: https://jambi.antaranews.com/amp/berita/674527/jambi-perkuat-kolaborasi-daerah-percepat-transformasi-digital\n📷 Foto: Pemerintah Kabupaten Pesisir Barat, ANTARA News Jambi\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#ASNDigital",
+     "#TransformasiDigital",
+     "#SmartCity",
+     "#PelayananPublik",
+     "#ASNProfesional"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus klaim spesifik mengenai 'perangkat desa' karena tidak disebutkan dalam sumber.",
+      "Mengoreksi tanggal kegiatan Kemenag Pesisir Barat menjadi 18 November 2026 sesuai sumber.",
+      "Menghapus detail lokasi Hotel Sunset Beach pada poin ringkasan agar tidak terlalu spesifik.",
+      "Menghapus referensi 'Bimtek' pada slide ketiga karena sumber hanya menyebutkan Forum Nasional Kota Cerdas di Jambi.",
+      "Menyesuaikan nama forum di Jambi menjadi Forum Nasional Kota Cerdas sesuai sumber."
+     ],
+     "risk": "rendah"
+    },
+    "narasi": [
+     "Berita terkini. Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik. Instansi pemerintah di daerah memperkuat kompetensi digital dan kolaborasi demi pelayanan publik yang lebih efektif.",
+     "Materi menekankan pentingnya akurasi data dan etika jurnalistik agar informasi pemerintah dapat dipercaya masyarakat.",
+     "Pemprov Jambi memperkuat kolaborasi antardaerah melalui Forum Nasional Kota Cerdas untuk mempercepat transformasi digital. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11190144/slide_01.jpg",
+    "public/11190144/slide_02.jpg",
+    "public/11190144/slide_03.jpg"
+   ],
+   "sources": [
+    "https://pesisirbaratkab.go.id/berita/kemenag-pesisir-barat-perkuat-kompetensi-komunikasi-jurnalistik-dan-transformasi-digital",
+    "https://jambi.antaranews.com/amp/berita/674527/jambi-perkuat-kolaborasi-daerah-percepat-transformasi-digital"
+   ],
+   "scheduled_at": "2026-11-19T01:44+09:00"
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11190059 dikirim ke Bos",
-   "at": "2026-11-19 00:59"
+   "last": "Meminta tim memantau berita terkini",
+   "at": "2026-11-19 01:43"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-19 00:55"
+   "last": "Berita: \"KEMENAG PESISIR BARAT PERKUAT KOMPETENSI KOMUNIKASI JURNALIS\" (2 sumber, 3 foto)",
+   "at": "2026-11-19 01:43"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!\"",
-   "at": "2026-11-19 00:56"
+   "last": "Rangkuman: \"Transformasi Digital dan Keterampilan Komunikasi Jadi Kunci Layanan Publik\"",
+   "at": "2026-11-19 01:44"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 1 catatan",
-   "at": "2026-11-19 00:59"
+   "last": "Cek berita selesai — risiko rendah",
+   "at": "2026-11-19 01:44"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya kertas siap",
-   "at": "2026-11-19 00:59"
+   "last": "Berita 3 slide siap",
+   "at": "2026-11-19 01:44"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
@@ -2085,6 +2131,56 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-19 01:44",
+   "agent": "desain",
+   "msg": "Berita 3 slide siap"
+  },
+  {
+   "at": "2026-11-19 01:44",
+   "agent": "desain",
+   "msg": "Mendesain berita (3 foto)..."
+  },
+  {
+   "at": "2026-11-19 01:44",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko rendah"
+  },
+  {
+   "at": "2026-11-19 01:44",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-19 01:44",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Transformasi Digital dan Keterampilan Komunikasi Jadi Kunci Layanan Publik\""
+  },
+  {
+   "at": "2026-11-19 01:43",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 2 sumber..."
+  },
+  {
+   "at": "2026-11-19 01:43",
+   "agent": "riset",
+   "msg": "Berita: \"KEMENAG PESISIR BARAT PERKUAT KOMPETENSI KOMUNIKASI JURNALIS\" (2 sumber, 3 foto)"
+  },
+  {
+   "at": "2026-11-19 01:43",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-19 01:43",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-19 01:43",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita asn"
+  },
   {
    "at": "2026-11-19 01:01",
    "agent": "humas",
@@ -2334,63 +2430,13 @@
    "at": "2026-11-18 08:02",
    "agent": "humas",
    "msg": "Paket TikTok #11180801 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-18 08:01",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11180801..."
-  },
-  {
-   "at": "2026-11-18 08:01",
-   "agent": "humas",
-   "msg": "#11180801 → ig, fb"
-  },
-  {
-   "at": "2026-11-18 08:01",
-   "agent": "humas",
-   "msg": "Menerbitkan #11180801 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-18 08:01",
-   "agent": "kepala",
-   "msg": "Berita #11180801 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-18 08:01",
-   "agent": "desain",
-   "msg": "Berita 1 slide siap"
-  },
-  {
-   "at": "2026-11-18 08:01",
-   "agent": "desain",
-   "msg": "Mendesain berita (0 foto)..."
-  },
-  {
-   "at": "2026-11-18 08:01",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko sedang"
-  },
-  {
-   "at": "2026-11-18 08:01",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-18 08:01",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa\""
-  },
-  {
-   "at": "2026-11-18 08:01",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 2 sumber..."
   }
  ],
  "stats": {
   "published": 23,
-  "drafts": 26
+  "drafts": 27
  },
- "updated": "2026-11-19T01:01+09:00",
+ "updated": "2026-11-19T01:46+09:00",
  "cuan_rot": 23,
  "last_followers": 130,
  "style_hist": [
@@ -2614,7 +2660,8 @@
   "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa",
   "Bikin dokumen desa masih cara manual?",
   "Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI",
-  "Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!"
+  "Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!",
+  "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -2622,7 +2669,9 @@
   "safenet remotivi datangi komdigi soal takedown konten",
   "meutya hafid tak hadiri undangan debat soal takedown konten",
   "tersangka korupsi apbdes rp 541 juta  eks kades akar akar lo",
-  "diduga korupsi dana desa rp 451 juta  kades seruawan maluku "
+  "diduga korupsi dana desa rp 451 juta  kades seruawan maluku ",
+  "kemenag pesisir barat perkuat kompetensi komunikasi jurnalis",
+  "jambi perkuat kolaborasi daerah percepat transformasi digita"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -2689,12 +2738,17 @@
     "did": "11190059",
     "status": "proses",
     "at": "2026-11-19T00:59+09:00"
+   },
+   "5": {
+    "did": null,
+    "status": "gagal",
+    "at": "2026-11-19T01:46+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-19",
-  "dibuat": "2026-11-19T01:01+09:00",
+  "dibuat": "2026-11-19T01:46+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -2755,7 +2809,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "gagal"
    },
    {
     "slot": 6,
@@ -2778,7 +2832,15 @@
     "status": "akan"
    }
   ],
-  "manual": [],
+  "manual": [
+   {
+    "jam": "01:44",
+    "id": "11190144",
+    "jenis": "Berita Terkini",
+    "judul": "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik",
+    "status": "menunggu"
+   }
+  ],
   "besok_tanggal": "2026-11-20",
   "besok": [
    {
