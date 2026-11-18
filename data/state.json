@@ -1861,50 +1861,140 @@
    },
    "published_at": "2026-11-18T09:03+09:00",
    "errors": []
+  },
+  "11181203": {
+   "id": "11181203",
+   "status": "published",
+   "created": "2026-11-18T12:03+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "AI untuk membuat bahan paparan, ringkasan regulasi, analisis data",
+   "format": "carousel_tutorial",
+   "product": "naskah",
+   "content": {
+    "hook": "Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI",
+    "subtitle": "Paparan, ringkasan regulasi, dan analisis data kelar tanpa lembur!",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Bikin Bahan Paparan",
+      "sub": "Ubah catatan rapat jadi slide presentasi instan.",
+      "icon": "📊"
+     },
+     {
+      "title": "Ringkas Regulasi Panjang",
+      "sub": "Pahami poin penting aturan baru dalam detik.",
+      "icon": "📑"
+     },
+     {
+      "title": "Analisis Data Cepat",
+      "sub": "Olahan angka dan tabel langsung siap saji.",
+      "icon": "📈"
+     },
+     {
+      "title": "Simpan & Praktikkan",
+      "sub": "Kerja makin sat-set, pulang tepat waktu.",
+      "icon": "💾"
+     }
+    ],
+    "details": [
+     {
+      "title": "Bikin Bahan Paparan",
+      "sub": "Ubah catatan rapat jadi slide presentasi instan.",
+      "body": "Halo Rekan ASN & Sobat Desa! Masukkan teks catatan atau laporan Anda ke AI pembuat presentasi. Berikan perintah spesifik seperti membuat slide paparan laporan triwulan untuk atasan, lalu biarkan AI merangkumnya.",
+      "icon": "📊"
+     },
+     {
+      "title": "Ringkas Regulasi Panjang",
+      "sub": "Pahami poin penting aturan baru dalam detik.",
+      "body": "Saat menerima dokumen regulasi atau pedoman baru yang tebal, unggah berkas ke AI. Ketik perintah untuk menyebutkan poin utama yang wajib diketahui oleh perangkat daerah atau desa dari dokumen tersebut.",
+      "icon": "📑"
+     },
+     {
+      "title": "Analisis Data Cepat",
+      "sub": "Olahan angka dan tabel langsung siap saji.",
+      "body": "Punya data rekapitulasi yang berantakan? Salin tabel tersebut ke AI, lalu minta untuk membuatkan ringkasan tren atau evaluasi singkat. Pastikan selalu melakukan pengecekan ulang pada hasil angkanya ya!",
+      "icon": "📈"
+     }
+    ],
+    "note": "Selalu verifikasi hasil analisis dan ringkasan AI dengan data instansi Anda.",
+    "cta": "Bagikan trik ini ke rekan kerja kantor sekarang juga!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Beban kerja makin padat menuntut kita bekerja lebih cerdas, bukan sekadar lebih lama. Di tengah dorongan transformasi digital instansi, menguasai AI untuk urusan kantor adalah kunci agar bisa pulang tepat waktu.\n\nDi postingan ini, kami bagikan langkah praktis memanfaatkan AI untuk merampungkan bahan paparan, meringkas regulasi panjang, hingga menganalisis data laporan tanpa drama lembur.\n\nSIMPAN postingan ini supaya gampang dicari saat butuh, dan BAGIKAN ke grup WhatsApp kantor ya!\n\nMenurut Rekan ASN, tugas kantor mana nih yang paling sering bikin keteteran? Tulis di kolom komentar yuk!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#ASNdigital",
+     "#DigitalisasiASN",
+     "#PemerintahanDesa",
+     "#PNS",
+     "#PPPK",
+     "#TransformasiDigital",
+     "#KinerjaASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Nama panggilan penyusun dalam caption tidak konsisten dengan peran editor Kaka Agus.",
+      "Beberapa tanda baca perlu disesuaikan dengan EYD."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11181203/slide_01.jpg",
+    "public/11181203/slide_02.jpg",
+    "public/11181203/slide_03.jpg",
+    "public/11181203/slide_04.jpg",
+    "public/11181203/slide_05.jpg",
+    "public/11181203/slide_06.jpg"
+   ],
+   "scheduled_at": "2026-11-18T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df3fw6kDfHo/",
+    "fb": "https://facebook.com/468307299696116_122225155190589464"
+   },
+   "published_at": "2026-11-18T12:04+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Reels #11180901 dikirim ke Bos",
-   "at": "2026-11-18 09:02"
+   "last": "Draft #11181203 dikirim ke Bos",
+   "at": "2026-11-18 12:03"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-18 09:00"
+   "at": "2026-11-18 12:00"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Naskah Reels: \"Bikin dokumen desa masih cara manual?\"",
-   "at": "2026-11-18 09:01"
+   "last": "Draft selesai: \"Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI\"",
+   "at": "2026-11-18 12:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "Cek berita selesai — risiko sedang",
-   "at": "2026-11-18 08:01"
+   "last": "QC selesai — risiko rendah, 2 catatan",
+   "at": "2026-11-18 12:03"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Reels 40 detik siap (gaya tosca)",
-   "at": "2026-11-18 09:02"
+   "last": "6 slide gaya ungu siap",
+   "at": "2026-11-18 12:03"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11180901 dikirim ke Bos",
-   "at": "2026-11-18 09:03"
+   "last": "Paket TikTok #11181203 dikirim ke Bos",
+   "at": "2026-11-18 12:05"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-18 09:00"
+   "at": "2026-11-18 12:00"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -1914,6 +2004,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-18 12:05",
+   "agent": "humas",
+   "msg": "Paket TikTok #11181203 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-18 12:04",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11181203..."
+  },
+  {
+   "at": "2026-11-18 12:04",
+   "agent": "humas",
+   "msg": "#11181203 → ig, fb"
+  },
+  {
+   "at": "2026-11-18 12:03",
+   "agent": "humas",
+   "msg": "Menerbitkan #11181203 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-18 12:03",
+   "agent": "kepala",
+   "msg": "Draft #11181203 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-18 12:03",
+   "agent": "desain",
+   "msg": "6 slide gaya ungu siap"
+  },
+  {
+   "at": "2026-11-18 12:03",
+   "agent": "desain",
+   "msg": "Mendesain gaya ungu/potret/timeline/angka..."
+  },
+  {
+   "at": "2026-11-18 12:03",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 2 catatan"
+  },
+  {
+   "at": "2026-11-18 12:02",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-18 12:02",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI\""
+  },
+  {
+   "at": "2026-11-18 12:00",
+   "agent": "naskah",
+   "msg": "Menulis carousel: AI untuk membuat bahan paparan, ringkasan regulasi"
+  },
+  {
+   "at": "2026-11-18 12:00",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-18 12:00",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-18 12:00",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-18 12:00",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-18 12:00",
+   "agent": "kepala",
+   "msg": "Jadwal 12:00 WIT: carousel ai"
+  },
   {
    "at": "2026-11-18 09:03",
    "agent": "humas",
@@ -2133,94 +2303,14 @@
    "at": "2026-11-18 06:30",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-18 06:30",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-18 06:30",
-   "agent": "kepala",
-   "msg": "Jadwal 06:30 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-18 04:41",
-   "agent": "humas",
-   "msg": "Paket TikTok #11180439 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-18 04:39",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11180439..."
-  },
-  {
-   "at": "2026-11-18 04:39",
-   "agent": "humas",
-   "msg": "#11180439 → ig, fb"
-  },
-  {
-   "at": "2026-11-18 04:39",
-   "agent": "humas",
-   "msg": "Menerbitkan #11180439 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-18 04:39",
-   "agent": "kepala",
-   "msg": "Draft #11180439 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-18 04:39",
-   "agent": "desain",
-   "msg": "6 slide gaya tosca siap"
-  },
-  {
-   "at": "2026-11-18 04:39",
-   "agent": "desain",
-   "msg": "Mendesain gaya tosca/kiri/timeline/angka..."
-  },
-  {
-   "at": "2026-11-18 04:39",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 3 catatan"
-  },
-  {
-   "at": "2026-11-18 04:39",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-18 04:39",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Kerja Sat Set Tanpa Lembur Berkat Tools Gratis\""
-  },
-  {
-   "at": "2026-11-18 04:38",
-   "agent": "naskah",
-   "msg": "Menulis carousel: tips produktivitas ASN pakai tools digital gratis"
-  },
-  {
-   "at": "2026-11-18 04:38",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-18 04:38",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-18 04:38",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
-  "published": 21,
-  "drafts": 24
+  "published": 22,
+  "drafts": 25
  },
- "updated": "2026-11-18T12:00+09:00",
- "cuan_rot": 21,
+ "updated": "2026-11-18T12:05+09:00",
+ "cuan_rot": 22,
  "last_followers": 130,
  "style_hist": [
   {
@@ -2398,6 +2488,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "ungu",
+   "cover": "potret",
+   "list": "timeline",
+   "detail": "angka",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
@@ -2419,7 +2520,8 @@
   "Kerja Sat-Set Tanpa Lembur Berkat Tools Gratis",
   "Rombak Draf Kantor Lewat Tiga Perintah AI Ini",
   "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa",
-  "Bikin dokumen desa masih cara manual?"
+  "Bikin dokumen desa masih cara manual?",
+  "Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -2482,12 +2584,17 @@
     "did": "11180901",
     "status": "proses",
     "at": "2026-11-18T09:02+09:00"
+   },
+   "3": {
+    "did": "11181203",
+    "status": "proses",
+    "at": "2026-11-18T12:03+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-18",
-  "dibuat": "2026-11-18T12:00+09:00",
+  "dibuat": "2026-11-18T12:05+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -2528,9 +2635,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Tutorial",
     "pilar": "AI untuk Kerja Kantor",
-    "judul": "",
-    "id": "",
-    "status": "proses"
+    "judul": "Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI",
+    "id": "11181203",
+    "status": "terbit",
+    "terbit": "12:04"
    },
    {
     "slot": 4,
