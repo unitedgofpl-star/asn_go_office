@@ -1802,26 +1802,85 @@
    },
    "published_at": "2026-11-18T08:01+09:00",
    "errors": []
+  },
+  "11180901": {
+   "id": "11180901",
+   "type": "reels",
+   "status": "published",
+   "created": "2026-11-18T09:02+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "administrasi desa, tata naskah dinas desa, SK Kades, Perdes",
+   "format": "reels",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin dokumen desa masih cara manual?",
+    "caption": "Halo Rekan ASN & Sobat Desa! Masih sering pusing bikin draf SK atau Perdes yang formatnya itu-itu saja? Jangan sampai administrasi desa jadi penghambat pelayanan warga karena prosesnya kelamaan. Yuk, mulai beralih ke cara yang lebih sat-set dengan bantuan teknologi! Administrasi tertib, pekerjaan pun jadi lebih ringan. Siapa nih yang masih sering revisi format berkali-kali? Coba share pengalamannya di kolom komentar ya! Simpan postingan ini biar nggak hilang saat dibutuhkan nanti.\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#administrasidesa",
+     "#perangkatdesa",
+     "#digitalisasi",
+     "#asnindonesia",
+     "#tatanaskahdinas"
+    ],
+    "beats": [
+     {
+      "text": "Stop ketik ulang draf SK atau Perdes dari nol.",
+      "icon": "🚫"
+     },
+     {
+      "text": "Gunakan template standar agar format selalu konsisten.",
+      "icon": "📄"
+     },
+     {
+      "text": "Cek kembali konsistensi tata naskah dinas terbaru.",
+      "icon": "⚖️"
+     },
+     {
+      "text": "Manfaatkan generator otomatis buat isi detail dokumen.",
+      "icon": "⚡"
+     },
+     {
+      "text": "Review singkat, tanda tangan, beres deh!",
+      "icon": "✅"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11180901/cover.jpg"
+   ],
+   "video": "public/11180901/reels.mp4",
+   "scheduled_at": "2026-11-18T09:02+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/reel/Df3LC56AJHf/",
+    "fb": "https://facebook.com/1631535145411911"
+   },
+   "published_at": "2026-11-18T09:03+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11180801 dikirim ke Bos",
-   "at": "2026-11-18 08:01"
+   "last": "Reels #11180901 dikirim ke Bos",
+   "at": "2026-11-18 09:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Tersangka Korupsi APBDes Rp 541 Juta, Eks Kades Akar-Akar Lo\" (2 sumber, 0 foto)",
-   "at": "2026-11-18 08:01"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-18 09:00"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa\"",
-   "at": "2026-11-18 08:01"
+   "last": "Naskah Reels: \"Bikin dokumen desa masih cara manual?\"",
+   "at": "2026-11-18 09:01"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -1832,20 +1891,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 1 slide siap",
-   "at": "2026-11-18 08:01"
+   "last": "Reels 40 detik siap (gaya tosca)",
+   "at": "2026-11-18 09:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11180801 dikirim ke Bos",
-   "at": "2026-11-18 08:02"
+   "last": "Paket TikTok #11180901 dikirim ke Bos",
+   "at": "2026-11-18 09:03"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-18 06:30"
+   "at": "2026-11-18 09:00"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -1855,6 +1914,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-18 09:03",
+   "agent": "humas",
+   "msg": "Paket TikTok #11180901 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-18 09:03",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11180901..."
+  },
+  {
+   "at": "2026-11-18 09:03",
+   "agent": "humas",
+   "msg": "#11180901 → ig, fb"
+  },
+  {
+   "at": "2026-11-18 09:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11180901 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-18 09:02",
+   "agent": "kepala",
+   "msg": "Reels #11180901 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-18 09:02",
+   "agent": "desain",
+   "msg": "Reels 40 detik siap (gaya tosca)"
+  },
+  {
+   "at": "2026-11-18 09:01",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-18 09:01",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya tosca..."
+  },
+  {
+   "at": "2026-11-18 09:01",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"Bikin dokumen desa masih cara manual?\""
+  },
+  {
+   "at": "2026-11-18 09:00",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: administrasi desa, tata naskah dinas desa, SK"
+  },
+  {
+   "at": "2026-11-18 09:00",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-18 09:00",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-18 09:00",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-18 09:00",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-18 09:00",
+   "agent": "kepala",
+   "msg": "Jadwal 09:00 WIT: reels desa"
+  },
   {
    "at": "2026-11-18 08:02",
    "agent": "humas",
@@ -2079,89 +2213,14 @@
    "at": "2026-11-18 04:38",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-18 04:38",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-18 04:38",
-   "agent": "kepala",
-   "msg": "Jadwal 20:00 WIT: carousel asn"
-  },
-  {
-   "at": "2026-11-18 03:43",
-   "agent": "humas",
-   "msg": "Paket TikTok #11180341 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-18 03:43",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11180341..."
-  },
-  {
-   "at": "2026-11-18 03:43",
-   "agent": "humas",
-   "msg": "#11180341 → ig, fb"
-  },
-  {
-   "at": "2026-11-18 03:42",
-   "agent": "humas",
-   "msg": "Menerbitkan #11180341 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-18 03:42",
-   "agent": "kepala",
-   "msg": "Reels #11180341 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-18 03:42",
-   "agent": "desain",
-   "msg": "Reels 60 detik siap (gaya navy)"
-  },
-  {
-   "at": "2026-11-18 03:41",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-18 03:41",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya navy..."
-  },
-  {
-   "at": "2026-11-18 03:41",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Kerja kantor menumpuk? Pakai 3 AI gratis ini!\""
-  },
-  {
-   "at": "2026-11-18 03:41",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: tools AI gratis untuk ASN dan perangkat desa"
-  },
-  {
-   "at": "2026-11-18 03:41",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-18 03:41",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-18 03:41",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
-  "published": 20,
-  "drafts": 23
+  "published": 21,
+  "drafts": 24
  },
- "updated": "2026-11-18T08:02+09:00",
- "cuan_rot": 20,
+ "updated": "2026-11-18T09:03+09:00",
+ "cuan_rot": 21,
  "last_followers": 130,
  "style_hist": [
   {
@@ -2328,6 +2387,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "tosca",
+   "cover": "berita",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
@@ -2348,7 +2418,8 @@
   "Kerja kantor menumpuk? Pakai 3 AI gratis ini!",
   "Kerja Sat-Set Tanpa Lembur Berkat Tools Gratis",
   "Rombak Draf Kantor Lewat Tiga Perintah AI Ini",
-  "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa"
+  "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa",
+  "Bikin dokumen desa masih cara manual?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -2406,12 +2477,17 @@
     "did": "11180801",
     "status": "proses",
     "at": "2026-11-18T08:01+09:00"
+   },
+   "2": {
+    "did": "11180901",
+    "status": "proses",
+    "at": "2026-11-18T09:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-18",
-  "dibuat": "2026-11-18T08:02+09:00",
+  "dibuat": "2026-11-18T09:03+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -2441,9 +2517,10 @@
     "tipe": "reels",
     "jenis": "Reels",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin dokumen desa masih cara manual?",
+    "id": "11180901",
+    "status": "terbit",
+    "terbit": "09:03"
    },
    {
     "slot": 3,
@@ -2453,7 +2530,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 4,
