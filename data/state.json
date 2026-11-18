@@ -2320,44 +2320,90 @@
    },
    "published_at": "2026-11-19T06:32+09:00",
    "errors": []
+  },
+  "11190802": {
+   "id": "11190802",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-19T08:02+09:00",
+   "pillar": "PEMERINTAHAN DESA",
+   "topic": "Polres Lombok Utara menahan mantan kades tersangka korupsi dana desa",
+   "format": "berita",
+   "content": {
+    "hook": "Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes",
+    "caption": "Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes\n\nPolres Lombok Utara resmi menahan mantan Kepala Desa Akar-akar, Akarman, atas dugaan tindak pidana korupsi pengelolaan APBDes tahun 2021-2023. Penahanan dilakukan sebagai persiapan tahap dua atau penyerahan tersangka dan barang bukti kepada jaksa. Hasil audit BPKP Perwakilan NTB menunjukkan adanya kerugian keuangan negara senilai Rp451 juta akibat praktik kegiatan fiktif dan penggelembungan anggaran proyek serta pengadaan. Tersangka diduga menggunakan dana tersebut untuk kepentingan pribadi.\n\n💡 Artinya bagi kita: Kasus ini menjadi peringatan bagi aparatur desa untuk menjaga transparansi dan akuntabilitas dalam pengelolaan anggaran.\n\n📰 Sumber:\n• ANTARA News Mataram: https://mataram.antaranews.com/berita/583131/polres-lombok-utara-menahan-mantan-kades-tersangka-korupsi-dana-desa\n📷 Foto: ANTARA News Mataram\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#pemerintahandesa",
+     "#kelolakeuangan",
+     "#transparasidesa",
+     "#infodesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus referensi tanggal penahanan 'Senin (16/11)' karena tidak eksplisit di sumber apakah terjadi di tahun 2024 atau bukan, namun tetap mempertahankan fakta penahanan.",
+      "Menghapus ajakan interaksi pada caption agar nada lebih netral dan informatif.",
+      "Memastikan tidak ada penyalinan kalimat utuh dari sumber."
+     ],
+     "risk": "rendah"
+    },
+    "narasi": [
+     "Berita terkini. Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes. Kepolisian menahan mantan kepala desa atas dugaan korupsi pengelolaan anggaran desa.",
+     "Poin pentingnya. Penyidik Polres Lombok Utara menahan mantan Kepala Desa Akar-akar, Akarman.. Kasus ini terkait dugaan penyelewengan APBDes selama tahun 2021 hingga 2023.. Audit BPKP Perwakilan NTB menemukan kerugian negara sebesar Rp451 juta dari kegiatan fiktif dan penggelembungan dana.. Tersangka ditahan dalam rangka persiapan pelimpahan tahap II ke kejaksaan.. Kasus ini menjadi peringatan bagi aparatur desa untuk menjaga transparansi dan akuntabilitas dalam pengelolaan anggaran. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11190802/slide_01.jpg",
+    "public/11190802/slide_02.jpg"
+   ],
+   "sources": [
+    "https://mataram.antaranews.com/berita/583131/polres-lombok-utara-menahan-mantan-kades-tersangka-korupsi-dana-desa"
+   ],
+   "scheduled_at": "2026-11-19T08:02+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df5o_5aCfHg/",
+    "fb": "https://facebook.com/468307299696116_122225281268589464"
+   },
+   "published_at": "2026-11-19T08:03+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11190631 dikirim ke Bos",
-   "at": "2026-11-19 06:31"
+   "last": "Berita #11190802 dikirim ke Bos",
+   "at": "2026-11-19 08:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-19 06:30"
+   "last": "Berita: \"Polres Lombok Utara menahan mantan kades tersangka korupsi d\" (1 sumber, 1 foto)",
+   "at": "2026-11-19 08:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI\"",
-   "at": "2026-11-19 06:31"
+   "last": "Rangkuman: \"Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes\"",
+   "at": "2026-11-19 08:01"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-19 06:31"
+   "last": "Cek berita selesai — risiko rendah",
+   "at": "2026-11-19 08:02"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya navy siap",
-   "at": "2026-11-19 06:31"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-19 08:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11190631 dikirim ke Bos",
-   "at": "2026-11-19 06:33"
+   "last": "Paket TikTok #11190802 dikirim ke Bos",
+   "at": "2026-11-19 08:03"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -2373,6 +2419,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-19 08:03",
+   "agent": "humas",
+   "msg": "Paket TikTok #11190802 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-19 08:03",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11190802..."
+  },
+  {
+   "at": "2026-11-19 08:03",
+   "agent": "humas",
+   "msg": "#11190802 → ig, fb"
+  },
+  {
+   "at": "2026-11-19 08:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11190802 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-19 08:02",
+   "agent": "kepala",
+   "msg": "Berita #11190802 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-19 08:02",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-19 08:02",
+   "agent": "desain",
+   "msg": "Mendesain berita (1 foto)..."
+  },
+  {
+   "at": "2026-11-19 08:02",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko rendah"
+  },
+  {
+   "at": "2026-11-19 08:01",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-19 08:01",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes\""
+  },
+  {
+   "at": "2026-11-19 08:01",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-19 08:01",
+   "agent": "riset",
+   "msg": "Berita: \"Polres Lombok Utara menahan mantan kades tersangka korupsi d\" (1 sumber, 1 foto)"
+  },
+  {
+   "at": "2026-11-19 08:00",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-19 08:00",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-19 08:00",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita ai"
+  },
   {
    "at": "2026-11-19 06:33",
    "agent": "humas",
@@ -2597,88 +2718,13 @@
    "at": "2026-11-19 03:15",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-19 03:15",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-19 03:15",
-   "agent": "kepala",
-   "msg": "Jadwal 18:30 WIT: reels desa"
-  },
-  {
-   "at": "2026-11-19 01:44",
-   "agent": "desain",
-   "msg": "Berita 3 slide siap"
-  },
-  {
-   "at": "2026-11-19 01:44",
-   "agent": "desain",
-   "msg": "Mendesain berita (3 foto)..."
-  },
-  {
-   "at": "2026-11-19 01:44",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko rendah"
-  },
-  {
-   "at": "2026-11-19 01:44",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-19 01:44",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Transformasi Digital dan Keterampilan Komunikasi Jadi Kunci Layanan Publik\""
-  },
-  {
-   "at": "2026-11-19 01:43",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 2 sumber..."
-  },
-  {
-   "at": "2026-11-19 01:43",
-   "agent": "riset",
-   "msg": "Berita: \"KEMENAG PESISIR BARAT PERKUAT KOMPETENSI KOMUNIKASI JURNALIS\" (2 sumber, 3 foto)"
-  },
-  {
-   "at": "2026-11-19 01:43",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-19 01:43",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-19 01:43",
-   "agent": "kepala",
-   "msg": "Jadwal 17:00 WIT: berita asn"
-  },
-  {
-   "at": "2026-11-19 01:01",
-   "agent": "humas",
-   "msg": "Paket TikTok #11190059 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-19 01:00",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11190059..."
-  },
-  {
-   "at": "2026-11-19 01:00",
-   "agent": "humas",
-   "msg": "#11190059 → ig, fb"
   }
  ],
  "stats": {
-  "published": 26,
-  "drafts": 30
+  "published": 27,
+  "drafts": 31
  },
- "updated": "2026-11-19T06:33+09:00",
+ "updated": "2026-11-19T08:03+09:00",
  "cuan_rot": 26,
  "last_followers": 130,
  "style_hist": [
@@ -2928,7 +2974,8 @@
   "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik",
   "RPJMDes sampai APBDes masih bikin pusing?",
   "Cara Cepat Pakai AI Bereskan Tugas Kantor",
-  "Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI"
+  "Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI",
+  "Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -2938,7 +2985,9 @@
   "tersangka korupsi apbdes rp 541 juta  eks kades akar akar lo",
   "diduga korupsi dana desa rp 451 juta  kades seruawan maluku ",
   "kemenag pesisir barat perkuat kompetensi komunikasi jurnalis",
-  "jambi perkuat kolaborasi daerah percepat transformasi digita"
+  "jambi perkuat kolaborasi daerah percepat transformasi digita",
+  "polres lombok utara menahan mantan kades tersangka korupsi d",
+  "polres lombok utara tahan mantan kades akar akar dalam kasus"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -3025,12 +3074,17 @@
     "did": "11190631",
     "status": "proses",
     "at": "2026-11-19T06:31+09:00"
+   },
+   "1": {
+    "did": "11190802",
+    "status": "proses",
+    "at": "2026-11-19T08:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-19",
-  "dibuat": "2026-11-19T06:33+09:00",
+  "dibuat": "2026-11-19T08:03+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -3049,9 +3103,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes",
+    "id": "11190802",
+    "status": "terbit",
+    "terbit": "08:03"
    },
    {
     "slot": 2,
@@ -3061,7 +3116,7 @@
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
