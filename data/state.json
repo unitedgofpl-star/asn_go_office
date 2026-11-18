@@ -2236,50 +2236,134 @@
    },
    "published_at": "2026-11-19T04:11+09:00",
    "errors": []
+  },
+  "11190631": {
+   "id": "11190631",
+   "status": "published",
+   "created": "2026-11-19T06:31+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "administrasi desa, tata naskah dinas desa, SK Kades, Perdes",
+   "format": "carousel_prompt",
+   "product": "kantor",
+   "content": {
+    "hook": "Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI",
+    "subtitle": "Contekan prompt kilat khusus perangkat desa agar kerja sat-set.",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Draf Perdes Kilat",
+      "sub": "Bikin rancangan peraturan desa dalam hitungan menit.",
+      "icon": "📜"
+     },
+     {
+      "title": "Format SK Kades",
+      "sub": "Susun surat keputusan kepala desa dengan rapi.",
+      "icon": "📝"
+     },
+     {
+      "title": "Evaluasi Tata Naskah",
+      "sub": "Cek kesesuaian format dokumen resmi desa dengan mudah.",
+      "icon": "🔍"
+     },
+     {
+      "title": "Bahasa Hukum Rapi",
+      "sub": "Ubah bahasa sehari-hari jadi bahasa baku formal.",
+      "icon": "⚖️"
+     }
+    ],
+    "details": [
+     {
+      "title": "Draf Perdes Kilat",
+      "body": "Salin prompt ini ke AI: 'Bertindaklah sebagai ahli hukum pemerintahan desa. Buatkan draf kerangka Peraturan Desa tentang [isi topik] sesuai kaidah hukum yang berlaku.'",
+      "icon": "📜"
+     },
+     {
+      "title": "Format SK Kades",
+      "sub": "Susun surat keputusan kepala desa dengan rapi.",
+      "body": "Gunakan prompt ini: 'Buatkan draf Surat Keputusan Kepala Desa mengenai [sebutkan kegiatan] lengkap dengan konsiderans Menimbang, Mengingat, dan Diktum Penetapan yang baku.'",
+      "icon": "📝"
+     }
+    ],
+    "note": "Sesuaikan kembali hasil AI dengan regulasi daerah yang berlaku di wilayah Anda.",
+    "cta": "Simpan postingan ini agar gampang dicari saat butuh menyusun dokumen desa!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Bikin administrasi desa seperti Perdes dan SK Kades sering bikin pusing karena bahasanya harus baku. Tenang, kita bisa pakai contekan prompt AI agar naskah dinas beres lebih cepat!\n\nDengan prompt yang tepat, AI bantu menyusun draf awal yang rapi untuk disesuaikan dengan data riil. Kerja makin profesional, pelayanan makin optimal.\n\nSimpan dan bagikan postingan ini ke sesama perangkat desa ya!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — Paket Kantor — Rp749.000 (10 perangkat). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#pemerintahandesa",
+     "#perangkatdesa",
+     "#administrasidesa",
+     "#perdes",
+     "#skkades",
+     "#digitalisasidesa",
+     "#tipsasn"
+    ],
+    "_qc": {
+     "issues": [
+      "Terdapat typo pada kata 'Diktit' yang seharusnya 'Diktum' di slide details.",
+      "Panjang teks pada beberapa bagian body details mendekati atau melebihi batas ideal, telah diringkas agar di bawah 45 kata per slide.",
+      "Nama sapaan 'Cicilia' tidak sesuai dengan persona Kaka Agus, diganti agar netral/sesuai."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11190631/slide_01.jpg",
+    "public/11190631/slide_02.jpg",
+    "public/11190631/slide_03.jpg",
+    "public/11190631/slide_04.jpg",
+    "public/11190631/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-19T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df5enr_l2tn/",
+    "fb": "https://facebook.com/468307299696116_122225273336589464"
+   },
+   "published_at": "2026-11-19T06:32+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11190410 dikirim ke Bos",
-   "at": "2026-11-19 04:10"
+   "last": "Draft #11190631 dikirim ke Bos",
+   "at": "2026-11-19 06:31"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-19 04:09"
+   "at": "2026-11-19 06:30"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"4 Cara Kilat Pakai AI Bereskan Tugas Kantor\"",
-   "at": "2026-11-19 04:10"
+   "last": "Draft selesai: \"Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI\"",
+   "at": "2026-11-19 06:31"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
    "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-19 04:10"
+   "at": "2026-11-19 06:31"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "7 slide gaya ungu siap",
-   "at": "2026-11-19 04:10"
+   "last": "5 slide gaya navy siap",
+   "at": "2026-11-19 06:31"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11190410 dikirim ke Bos",
-   "at": "2026-11-19 04:12"
+   "last": "Paket TikTok #11190631 dikirim ke Bos",
+   "at": "2026-11-19 06:33"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-19 04:09"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-19 06:30"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -2289,6 +2373,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-19 06:33",
+   "agent": "humas",
+   "msg": "Paket TikTok #11190631 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-19 06:32",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11190631..."
+  },
+  {
+   "at": "2026-11-19 06:32",
+   "agent": "humas",
+   "msg": "#11190631 → ig, fb"
+  },
+  {
+   "at": "2026-11-19 06:31",
+   "agent": "humas",
+   "msg": "Menerbitkan #11190631 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-19 06:31",
+   "agent": "kepala",
+   "msg": "Draft #11190631 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-19 06:31",
+   "agent": "desain",
+   "msg": "5 slide gaya navy siap"
+  },
+  {
+   "at": "2026-11-19 06:31",
+   "agent": "desain",
+   "msg": "Mendesain gaya navy/berita/kartu/chat..."
+  },
+  {
+   "at": "2026-11-19 06:31",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 3 catatan"
+  },
+  {
+   "at": "2026-11-19 06:31",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-19 06:31",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI\""
+  },
+  {
+   "at": "2026-11-19 06:30",
+   "agent": "naskah",
+   "msg": "Menulis carousel: administrasi desa, tata naskah dinas desa, SK Kade"
+  },
+  {
+   "at": "2026-11-19 06:30",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-19 06:30",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-19 06:30",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-19 06:30",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-19 06:30",
+   "agent": "kepala",
+   "msg": "Jadwal 06:30 WIT: carousel desa"
+  },
   {
    "at": "2026-11-19 04:12",
    "agent": "humas",
@@ -2508,107 +2672,16 @@
    "at": "2026-11-19 01:00",
    "agent": "humas",
    "msg": "#11190059 → ig, fb"
-  },
-  {
-   "at": "2026-11-19 00:59",
-   "agent": "humas",
-   "msg": "Menerbitkan #11190059 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-19 00:59",
-   "agent": "kepala",
-   "msg": "Draft #11190059 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-19 00:59",
-   "agent": "desain",
-   "msg": "5 slide gaya kertas siap"
-  },
-  {
-   "at": "2026-11-19 00:59",
-   "agent": "desain",
-   "msg": "Mendesain gaya kertas/kiri/kartu/kartu..."
-  },
-  {
-   "at": "2026-11-19 00:59",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 1 catatan"
-  },
-  {
-   "at": "2026-11-19 00:56",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-19 00:56",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!\""
-  },
-  {
-   "at": "2026-11-19 00:55",
-   "agent": "naskah",
-   "msg": "Menulis carousel: tools AI gratis untuk ASN dan perangkat desa"
-  },
-  {
-   "at": "2026-11-19 00:55",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-19 00:55",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-19 00:55",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-19 00:55",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-19 00:55",
-   "agent": "kepala",
-   "msg": "Jadwal 15:30 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-18 18:17",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-18 18:17",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-18 12:05",
-   "agent": "humas",
-   "msg": "Paket TikTok #11181203 dikirim ke Bos"
   }
  ],
  "stats": {
-  "published": 25,
-  "drafts": 29
+  "published": 26,
+  "drafts": 30
  },
- "updated": "2026-11-19T04:12+09:00",
- "cuan_rot": 25,
+ "updated": "2026-11-19T06:33+09:00",
+ "cuan_rot": 26,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "ceria",
-   "expr": "gembira",
-   "theme": "navy",
-   "cover": "berita",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "ceria__ok_rambut_terurai",
-   "flip": false,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -2817,6 +2890,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "navy",
+   "cover": "berita",
+   "list": "kartu",
+   "detail": "chat",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
@@ -2843,7 +2927,8 @@
   "Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!",
   "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik",
   "RPJMDes sampai APBDes masih bikin pusing?",
-  "Cara Cepat Pakai AI Bereskan Tugas Kantor"
+  "Cara Cepat Pakai AI Bereskan Tugas Kantor",
+  "Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -2935,12 +3020,17 @@
     "did": "11190410",
     "status": "proses",
     "at": "2026-11-19T04:10+09:00"
+   },
+   "0": {
+    "did": "11190631",
+    "status": "proses",
+    "at": "2026-11-19T06:31+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-19",
-  "dibuat": "2026-11-19T04:12+09:00",
+  "dibuat": "2026-11-19T06:33+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -2948,9 +3038,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Contekan Prompt",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI",
+    "id": "11190631",
+    "status": "terbit",
+    "terbit": "06:32"
    },
    {
     "slot": 1,
@@ -2960,7 +3051,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 2,
