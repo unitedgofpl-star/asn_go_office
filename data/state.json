@@ -2078,26 +2078,88 @@
     "https://jambi.antaranews.com/amp/berita/674527/jambi-perkuat-kolaborasi-daerah-percepat-transformasi-digital"
    ],
    "scheduled_at": "2026-11-19T01:44+09:00"
+  },
+  "11190316": {
+   "id": "11190316",
+   "type": "reels",
+   "status": "published",
+   "created": "2026-11-19T03:17+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "perencanaan RPJMDes, RKPDes, APBDes, Siskeudes",
+   "format": "reels",
+   "product": "kantor",
+   "content": {
+    "hook": "RPJMDes sampai APBDes masih bikin pusing?",
+    "caption": "Halo Rekan ASN & Sobat Desa! Perencanaan desa mulai dari RPJMDes, RKPDes, hingga APBDes memang butuh ketelitian ekstra di Siskeudes. Supaya nggak keteteran, pastikan alur musrenbangdes selaras dengan pagu anggaran yang ada. Yuk, simpan postingan ini dan bagikan ke rekan kerja desa lainnya. Coba tulis di kolom komentar, apa kendala tersulit saat input data Siskeudes minggu ini?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — Paket Kantor — Rp749.000 (10 perangkat). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn",
+     "#desadigital",
+     "#siskeudes",
+     "#pemerintahandesa",
+     "#apbdes"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN dan Sobat Desa!",
+      "icon": "👋"
+     },
+     {
+      "text": "Sinkronkan RPJMDes, RKPDes, dan APBDes pakai Siskeudes.",
+      "icon": "💻"
+     },
+     {
+      "text": "Pastikan pagu indikatif klop dengan musrenbangdes.",
+      "icon": "📊"
+     },
+     {
+      "text": "Input data keuangan secara berkala tanpa jeda.",
+      "icon": "⚡"
+     },
+     {
+      "text": "Validasi laporan sebelum dikunci biar tak error.",
+      "icon": "🔒"
+     },
+     {
+      "text": "Perencanaan beres, desa makin maju!",
+      "icon": "🚀"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11190316/cover.jpg"
+   ],
+   "video": "public/11190316/reels.mp4",
+   "scheduled_at": "2026-11-19T03:17+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/reel/Df5IVgmjDq3/",
+    "fb": "https://facebook.com/1483256663746027"
+   },
+   "published_at": "2026-11-19T03:18+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Meminta tim memantau berita terkini",
-   "at": "2026-11-19 01:43"
+   "last": "Reels #11190316 dikirim ke Bos",
+   "at": "2026-11-19 03:17"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"KEMENAG PESISIR BARAT PERKUAT KOMPETENSI KOMUNIKASI JURNALIS\" (2 sumber, 3 foto)",
-   "at": "2026-11-19 01:43"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-19 03:15"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Transformasi Digital dan Keterampilan Komunikasi Jadi Kunci Layanan Publik\"",
-   "at": "2026-11-19 01:44"
+   "last": "Naskah Reels: \"RPJMDes sampai APBDes masih bikin pusing?\"",
+   "at": "2026-11-19 03:16"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -2108,20 +2170,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 3 slide siap",
-   "at": "2026-11-19 01:44"
+   "last": "Reels 48 detik siap (gaya navy)",
+   "at": "2026-11-19 03:17"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11190059 dikirim ke Bos",
-   "at": "2026-11-19 01:01"
+   "last": "Paket TikTok #11190316 dikirim ke Bos",
+   "at": "2026-11-19 03:18"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-19 00:55"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-19 03:15"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -2131,6 +2193,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-19 03:18",
+   "agent": "humas",
+   "msg": "Paket TikTok #11190316 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-19 03:18",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11190316..."
+  },
+  {
+   "at": "2026-11-19 03:18",
+   "agent": "humas",
+   "msg": "#11190316 → ig, fb"
+  },
+  {
+   "at": "2026-11-19 03:17",
+   "agent": "humas",
+   "msg": "Menerbitkan #11190316 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-19 03:17",
+   "agent": "kepala",
+   "msg": "Reels #11190316 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-19 03:17",
+   "agent": "desain",
+   "msg": "Reels 48 detik siap (gaya navy)"
+  },
+  {
+   "at": "2026-11-19 03:16",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-19 03:16",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya navy..."
+  },
+  {
+   "at": "2026-11-19 03:16",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"RPJMDes sampai APBDes masih bikin pusing?\""
+  },
+  {
+   "at": "2026-11-19 03:15",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: perencanaan RPJMDes, RKPDes, APBDes, Siskeude"
+  },
+  {
+   "at": "2026-11-19 03:15",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-19 03:15",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-19 03:15",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-19 03:15",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-19 03:15",
+   "agent": "kepala",
+   "msg": "Jadwal 18:30 WIT: reels desa"
+  },
   {
    "at": "2026-11-19 01:44",
    "agent": "desain",
@@ -2355,89 +2492,14 @@
    "at": "2026-11-18 09:03",
    "agent": "humas",
    "msg": "Paket TikTok #11180901 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-18 09:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11180901..."
-  },
-  {
-   "at": "2026-11-18 09:03",
-   "agent": "humas",
-   "msg": "#11180901 → ig, fb"
-  },
-  {
-   "at": "2026-11-18 09:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11180901 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-18 09:02",
-   "agent": "kepala",
-   "msg": "Reels #11180901 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-18 09:02",
-   "agent": "desain",
-   "msg": "Reels 40 detik siap (gaya tosca)"
-  },
-  {
-   "at": "2026-11-18 09:01",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-18 09:01",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya tosca..."
-  },
-  {
-   "at": "2026-11-18 09:01",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Bikin dokumen desa masih cara manual?\""
-  },
-  {
-   "at": "2026-11-18 09:00",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: administrasi desa, tata naskah dinas desa, SK"
-  },
-  {
-   "at": "2026-11-18 09:00",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-18 09:00",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-18 09:00",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-18 09:00",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-18 09:00",
-   "agent": "kepala",
-   "msg": "Jadwal 09:00 WIT: reels desa"
-  },
-  {
-   "at": "2026-11-18 08:02",
-   "agent": "humas",
-   "msg": "Paket TikTok #11180801 dikirim ke Bos"
   }
  ],
  "stats": {
-  "published": 23,
-  "drafts": 27
+  "published": 24,
+  "drafts": 28
  },
- "updated": "2026-11-19T01:46+09:00",
- "cuan_rot": 23,
+ "updated": "2026-11-19T03:18+09:00",
+ "cuan_rot": 24,
  "last_followers": 130,
  "style_hist": [
   {
@@ -2637,6 +2699,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "navy",
+   "cover": "potret",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
@@ -2661,7 +2734,8 @@
   "Bikin dokumen desa masih cara manual?",
   "Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI",
   "Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!",
-  "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik"
+  "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik",
+  "RPJMDes sampai APBDes masih bikin pusing?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -2743,12 +2817,17 @@
     "did": null,
     "status": "gagal",
     "at": "2026-11-19T01:46+09:00"
+   },
+   "6": {
+    "did": "11190316",
+    "status": "proses",
+    "at": "2026-11-19T03:17+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-19",
-  "dibuat": "2026-11-19T01:46+09:00",
+  "dibuat": "2026-11-19T03:18+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -2817,9 +2896,10 @@
     "tipe": "reels",
     "jenis": "Reels",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "RPJMDes sampai APBDes masih bikin pusing?",
+    "id": "11190316",
+    "status": "terbit",
+    "terbit": "03:18"
    },
    {
     "slot": 7,
