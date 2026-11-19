@@ -2725,38 +2725,113 @@
    },
    "published_at": "2026-11-20T03:29+09:00",
    "errors": []
+  },
+  "11200415": {
+   "id": "11200415",
+   "status": "draft",
+   "created": "2026-11-20T04:15+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "perencanaan RPJMDes, RKPDes, APBDes, Siskeudes",
+   "format": "carousel_promo",
+   "product": "naskah",
+   "content": {
+    "hook": "Desa Digital Bukan Sekadar Website, Ini Kuncinya!",
+    "subtitle": "Tingkatkan tata kelola desa dengan integrasi dokumen yang tepat",
+    "mood": "menjelaskan",
+    "items": [
+     {
+      "title": "Penyelarasan Data Perencanaan",
+      "sub": "Pastikan RPJMDes selaras dengan visi misi desa",
+      "icon": "📊"
+     },
+     {
+      "title": "Digitalisasi Administrasi Surat",
+      "sub": "Kurangi tumpukan kertas dengan sistem arsip digital",
+      "icon": "📁"
+     },
+     {
+      "title": "Transparansi Dana Desa",
+      "sub": "Mudahkan pelaporan keuangan melalui digitalisasi sistem",
+      "icon": "💰"
+     },
+     {
+      "title": "Pelayanan Publik Responsif",
+      "sub": "Gunakan teknologi untuk percepat pengurusan surat warga",
+      "icon": "⚡"
+     }
+    ],
+    "details": [
+     {
+      "title": "Penyelarasan Data Perencanaan",
+      "body": "Sobat Desa, kunci utama transformasi digital adalah sinkronisasi. Pastikan data RPJMDes dan RKPDes terintegrasi dalam sistem agar APBDes lebih mudah disusun tanpa duplikasi data yang membingungkan.",
+      "icon": "📊"
+     },
+     {
+      "title": "Digitalisasi Administrasi Surat",
+      "body": "Administrasi yang tertib adalah cermin desa yang profesional. Gunakan alat bantu digital untuk penomoran, klasifikasi, dan pengarsipan surat agar riwayat dokumen selalu rapi dan mudah ditemukan kapan pun dibutuhkan.",
+      "icon": "📁"
+     }
+    ],
+    "note": "Selalu rujuk pada peraturan perundang-undangan terbaru di instansi Anda.",
+    "cta": "Bagaimana progres digitalisasi di desa Sobat? Tulis di kolom komentar!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Semangat pagi! Digitalisasi desa bukan hanya soal website, tapi tentang tertib administrasi dokumen. Seringkali kita kesulitan mencari arsip karena sistem yang belum terintegrasi. Padahal, sistem yang rapi akan mengurangi beban kerja perangkat desa secara signifikan. Sudahkah desa Sobat menerapkan sistem kearsipan digital? Yuk, bagikan pengalaman dan kendala yang dihadapi di kolom komentar agar kita bisa saling belajar!",
+    "hashtags": [
+     "#asn_go_digital",
+     "#digitalisasidesa",
+     "#perangkatdesa",
+     "#siskeudes",
+     "#administrasidesa",
+     "#asnindonesia"
+    ],
+    "_qc": {
+     "issues": [
+      "Promosi produk komersial (jual beli naskah dinas) dalam konten edukasi ASN melanggar etika profesional dan berpotensi melanggar aturan gratifikasi/benturan kepentingan.",
+      "Penyebutan kode regulasi spesifik (Permendagri 1/2023) dalam promosi berbayar berpotensi menyesatkan karena tidak relevan secara kontekstual.",
+      "Potensi klaim angka '2.988 kode klasifikasi' tidak terverifikasi secara resmi untuk operasional desa secara umum."
+     ],
+     "risk": "tinggi"
+    }
+   },
+   "images": [
+    "public/11200415/slide_01.jpg",
+    "public/11200415/slide_02.jpg",
+    "public/11200415/slide_03.jpg",
+    "public/11200415/slide_04.jpg",
+    "public/11200415/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-20T19:00+09:00"
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Reels #11200327 dikirim ke Bos",
-   "at": "2026-11-20 03:28"
+   "last": "Draft #11200415 dikirim ke Bos",
+   "at": "2026-11-20 04:15"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-20 03:25"
+   "at": "2026-11-20 04:13"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Naskah Reels: \"Dokumen desa bocor? Waspada link palsu, Rekan!\"",
-   "at": "2026-11-20 03:27"
+   "last": "Draft selesai: \"Desa Digital Bukan Sekadar Website, Ini Kuncinya!\"",
+   "at": "2026-11-20 04:15"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "Cek berita selesai — risiko rendah",
-   "at": "2026-11-20 01:51"
+   "last": "QC selesai — risiko tinggi, 3 catatan",
+   "at": "2026-11-20 04:15"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Reels 54 detik siap (gaya berita)",
-   "at": "2026-11-20 03:28"
+   "last": "5 slide gaya ungu siap",
+   "at": "2026-11-20 04:15"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
@@ -2767,8 +2842,8 @@
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-20 03:25"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-20 04:13"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -2778,6 +2853,66 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-20 04:15",
+   "agent": "kepala",
+   "msg": "Draft #11200415 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 04:15",
+   "agent": "desain",
+   "msg": "5 slide gaya ungu siap"
+  },
+  {
+   "at": "2026-11-20 04:15",
+   "agent": "desain",
+   "msg": "Mendesain gaya ungu/kanan/grid/chat..."
+  },
+  {
+   "at": "2026-11-20 04:15",
+   "agent": "qc",
+   "msg": "QC selesai — risiko tinggi, 3 catatan"
+  },
+  {
+   "at": "2026-11-20 04:15",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-20 04:15",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Desa Digital Bukan Sekadar Website, Ini Kuncinya!\""
+  },
+  {
+   "at": "2026-11-20 04:13",
+   "agent": "naskah",
+   "msg": "Menulis carousel: perencanaan RPJMDes, RKPDes, APBDes, Siskeudes"
+  },
+  {
+   "at": "2026-11-20 04:13",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-20 04:13",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-20 04:13",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-20 04:13",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-20 04:13",
+   "agent": "kepala",
+   "msg": "Jadwal 20:00 WIT: carousel desa"
+  },
   {
    "at": "2026-11-20 03:29",
    "agent": "humas",
@@ -3017,87 +3152,16 @@
    "at": "2026-11-19 12:04",
    "agent": "humas",
    "msg": "Menyiapkan paket TikTok #11191203..."
-  },
-  {
-   "at": "2026-11-19 12:04",
-   "agent": "humas",
-   "msg": "#11191203 → ig, fb"
-  },
-  {
-   "at": "2026-11-19 12:03",
-   "agent": "humas",
-   "msg": "Menerbitkan #11191203 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-19 12:03",
-   "agent": "kepala",
-   "msg": "Draft #11191203 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-19 12:03",
-   "agent": "desain",
-   "msg": "6 slide gaya kertas siap"
-  },
-  {
-   "at": "2026-11-19 12:03",
-   "agent": "desain",
-   "msg": "Mendesain gaya kertas/kanan/grid/angka..."
-  },
-  {
-   "at": "2026-11-19 12:03",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 4 catatan"
-  },
-  {
-   "at": "2026-11-19 12:02",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-19 12:02",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"4 Cara Pintar Sat-Set Susun Perencanaan Desa\""
-  },
-  {
-   "at": "2026-11-19 12:00",
-   "agent": "naskah",
-   "msg": "Menulis carousel: perencanaan RPJMDes, RKPDes, APBDes, Siskeudes"
-  },
-  {
-   "at": "2026-11-19 12:00",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-19 12:00",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-19 12:00",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
   }
  ],
  "stats": {
   "published": 32,
-  "drafts": 36
+  "drafts": 37
  },
- "updated": "2026-11-20T03:29+09:00",
- "cuan_rot": 30,
+ "updated": "2026-11-20T04:15+09:00",
+ "cuan_rot": 31,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "menjelaskan",
-   "expr": "senang",
-   "theme": "kertas",
-   "cover": "potret",
-   "list": "timeline",
-   "detail": "angka",
-   "pose": "menjelaskan__tangan_terbuka",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -3306,6 +3370,17 @@
    "pose": "tegas__cemberut_tangan_di_pinggang",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "menjelaskan",
+   "expr": "senang",
+   "theme": "ungu",
+   "cover": "kanan",
+   "list": "grid",
+   "detail": "chat",
+   "pose": "menjelaskan__tangan_terbuka",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
@@ -3339,7 +3414,8 @@
   "Cara Pintar Sat-Set Susun Perencanaan Desa",
   "Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah",
   "Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube",
-  "Dokumen desa bocor? Waspada link palsu, Rekan!"
+  "Dokumen desa bocor? Waspada link palsu, Rekan!",
+  "Desa Digital Bukan Sekadar Website, Ini Kuncinya!"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -3473,12 +3549,17 @@
     "did": "11200327",
     "status": "proses",
     "at": "2026-11-20T03:28+09:00"
+   },
+   "7": {
+    "did": "11200415",
+    "status": "proses",
+    "at": "2026-11-20T04:15+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-20",
-  "dibuat": "2026-11-20T03:29+09:00",
+  "dibuat": "2026-11-20T04:15+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -3559,9 +3640,9 @@
     "tipe": "carousel",
     "jenis": "Carousel Soft-selling",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "Desa Digital Bukan Sekadar Website, Ini Kuncinya!",
+    "id": "11200415",
+    "status": "menunggu"
    }
   ],
   "manual": [],
