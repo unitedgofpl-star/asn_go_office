@@ -2517,50 +2517,141 @@
    },
    "published_at": "2026-11-19T12:04+09:00",
    "errors": []
+  },
+  "11200105": {
+   "id": "11200105",
+   "status": "published",
+   "created": "2026-11-20T01:05+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "perencanaan RPJMDes, RKPDes, APBDes, Siskeudes",
+   "format": "carousel_mitos",
+   "product": "naskah",
+   "content": {
+    "hook": "Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah",
+    "subtitle": "Bongkar kesalahpahaman umum seputar RPJMDes, RKPDes, dan APBDes agar tata kelola desa semakin optimal.",
+    "mood": "menjelaskan",
+    "items": [
+     {
+      "title": "MITOS: RPJMDes Hanya Formalitas",
+      "sub": "Dokumen ini dianggap pajangan administratif semata.",
+      "icon": "📄"
+     },
+     {
+      "title": "FAKTA: RPJMDes adalah Kompas",
+      "sub": "Rencana strategis desa sebagai acuan pembangunan berkelanjutan.",
+      "icon": "🧭"
+     },
+     {
+      "title": "MITOS: RKPDes Harus Sama Tiap Tahun",
+      "sub": "Kebiasaan menyalin kegiatan tahun lalu tanpa evaluasi.",
+      "icon": "🔄"
+     },
+     {
+      "title": "FAKTA: RKPDes Harus Dinamis",
+      "sub": "Menyesuaikan kebutuhan nyata masyarakat dan hasil evaluasi.",
+      "icon": "💡"
+     },
+     {
+      "title": "MITOS: Siskeudes Sulit Dioperasikan",
+      "sub": "Sering dianggap beban administratif yang memicu hambatan kerja.",
+      "icon": "💻"
+     },
+     {
+      "title": "FAKTA: Siskeudes Membantu Transparansi",
+      "sub": "Kunci tertib administrasi jika dipahami alur dan fungsinya.",
+      "icon": "✅"
+     }
+    ],
+    "details": [
+     {
+      "title": "MITOS: RPJMDes Hanya Formalitas",
+      "body": "RPJMDes adalah nyawa pembangunan desa untuk periode jabatan Kepala Desa. Tanpa perencanaan partisipatif, arah pembangunan tidak akan fokus. Pastikan sinkronisasi visi-misi Kepala Desa dengan aspirasi warga agar dana desa terserap tepat sasaran sesuai regulasi.",
+      "icon": "📄"
+     },
+     {
+      "title": "MITOS: RKPDes Harus Sama Tiap Tahun",
+      "body": "RKPDes wajib disusun berdasarkan evaluasi tahun sebelumnya. Optimalkan Musrenbangdes! Kondisi lapangan selalu berubah, begitu pula prioritas kebutuhan warga. Penggunaan data akurat akan membuat perencanaan dapat dipertanggungjawabkan secara hukum dan transparan.",
+      "icon": "🔄"
+     }
+    ],
+    "note": "Selalu rujuk regulasi terbaru terkait pengelolaan keuangan desa pada instansi terkait.",
+    "cta": "Simpan postingan ini sebagai referensi penyusunan perencanaan desa!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Masih menganggap RPJMDes atau RKPDes sekadar formalitas administratif? Mari luruskan miskonsepsi ini. Perencanaan matang adalah kunci kemajuan desa. Jangan terjebak rutinitas copy-paste yang menghambat progres daerah. Yuk, sinkronkan data di Siskeudes agar setiap rupiah dana desa memberikan dampak nyata. Mari ubah mindset dari sekadar menggugurkan kewajiban menjadi membangun desa berbasis data. Simpan postingan ini dan bagikan ke rekan kerja Anda. Apa tantangan terbesar Anda dalam perencanaan desa? Tulis di kolom komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#ASNDigital",
+     "#SobatDesa",
+     "#Siskeudes",
+     "#PerencanaanDesa",
+     "#ASNGoDigital",
+     "#TataKelolaDesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Tidak ada pelanggaran regulasi yang fatal, namun penekanan pada 'enam tahun' untuk RPJMDes perlu dipastikan sesuai dengan UU Desa yang berlaku (UU No. 6 Tahun 2014 jo. UU No. 3 Tahun 2024).",
+      "Penyebutan nama 'Cicilia' dalam caption perlu disesuaikan atau dihilangkan jika akun tersebut bersifat institusional/umum.",
+      "Perbaikan redaksional agar lebih formal dan sesuai dengan standar komunikasi ASN."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11200105/slide_01.jpg",
+    "public/11200105/slide_02.jpg",
+    "public/11200105/slide_03.jpg",
+    "public/11200105/slide_04.jpg",
+    "public/11200105/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-20T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df7eH2uF4Rh/",
+    "fb": "https://facebook.com/468307299696116_122225391596589464"
+   },
+   "published_at": "2026-11-20T01:06+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11191203 dikirim ke Bos",
-   "at": "2026-11-19 12:03"
+   "last": "Draft #11200105 dikirim ke Bos",
+   "at": "2026-11-20 01:05"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-19 12:00"
+   "at": "2026-11-20 00:59"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"4 Cara Pintar Sat-Set Susun Perencanaan Desa\"",
-   "at": "2026-11-19 12:02"
+   "last": "Draft selesai: \"Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah\"",
+   "at": "2026-11-20 01:04"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 4 catatan",
-   "at": "2026-11-19 12:03"
+   "last": "QC selesai — risiko rendah, 3 catatan",
+   "at": "2026-11-20 01:05"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya kertas siap",
-   "at": "2026-11-19 12:03"
+   "last": "5 slide gaya navy siap",
+   "at": "2026-11-20 01:05"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11191203 dikirim ke Bos",
-   "at": "2026-11-19 12:05"
+   "last": "Paket TikTok #11200105 dikirim ke Bos",
+   "at": "2026-11-20 01:08"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-19 12:00"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-20 00:59"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -2570,6 +2661,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-20 01:08",
+   "agent": "humas",
+   "msg": "Paket TikTok #11200105 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 01:06",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11200105..."
+  },
+  {
+   "at": "2026-11-20 01:06",
+   "agent": "humas",
+   "msg": "#11200105 → ig, fb"
+  },
+  {
+   "at": "2026-11-20 01:05",
+   "agent": "humas",
+   "msg": "Menerbitkan #11200105 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-20 01:05",
+   "agent": "kepala",
+   "msg": "Draft #11200105 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 01:05",
+   "agent": "desain",
+   "msg": "5 slide gaya navy siap"
+  },
+  {
+   "at": "2026-11-20 01:05",
+   "agent": "desain",
+   "msg": "Mendesain gaya navy/potret/ceklis/versus..."
+  },
+  {
+   "at": "2026-11-20 01:05",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 3 catatan"
+  },
+  {
+   "at": "2026-11-20 01:04",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-20 01:04",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah\""
+  },
+  {
+   "at": "2026-11-20 00:59",
+   "agent": "naskah",
+   "msg": "Menulis carousel: perencanaan RPJMDes, RKPDes, APBDes, Siskeudes"
+  },
+  {
+   "at": "2026-11-20 00:59",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-20 00:59",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-20 00:59",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-20 00:59",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-20 00:59",
+   "agent": "kepala",
+   "msg": "Jadwal 15:30 WIT: carousel desa"
+  },
   {
    "at": "2026-11-19 12:05",
    "agent": "humas",
@@ -2789,107 +2960,16 @@
    "at": "2026-11-19 08:00",
    "agent": "riset",
    "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-19 08:00",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-19 08:00",
-   "agent": "kepala",
-   "msg": "Jadwal 08:00 WIT: berita ai"
-  },
-  {
-   "at": "2026-11-19 06:33",
-   "agent": "humas",
-   "msg": "Paket TikTok #11190631 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-19 06:32",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11190631..."
-  },
-  {
-   "at": "2026-11-19 06:32",
-   "agent": "humas",
-   "msg": "#11190631 → ig, fb"
-  },
-  {
-   "at": "2026-11-19 06:31",
-   "agent": "humas",
-   "msg": "Menerbitkan #11190631 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-19 06:31",
-   "agent": "kepala",
-   "msg": "Draft #11190631 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-19 06:31",
-   "agent": "desain",
-   "msg": "5 slide gaya navy siap"
-  },
-  {
-   "at": "2026-11-19 06:31",
-   "agent": "desain",
-   "msg": "Mendesain gaya navy/berita/kartu/chat..."
-  },
-  {
-   "at": "2026-11-19 06:31",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 3 catatan"
-  },
-  {
-   "at": "2026-11-19 06:31",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-19 06:31",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI\""
-  },
-  {
-   "at": "2026-11-19 06:30",
-   "agent": "naskah",
-   "msg": "Menulis carousel: administrasi desa, tata naskah dinas desa, SK Kade"
-  },
-  {
-   "at": "2026-11-19 06:30",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-19 06:30",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-19 06:30",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
   }
  ],
  "stats": {
-  "published": 29,
-  "drafts": 33
+  "published": 30,
+  "drafts": 34
  },
- "updated": "2026-11-19T20:26+09:00",
- "cuan_rot": 28,
+ "updated": "2026-11-20T01:08+09:00",
+ "cuan_rot": 29,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "menjelaskan",
-   "expr": "senang",
-   "theme": "merah",
-   "cover": "kanan",
-   "list": "grid",
-   "detail": "angka",
-   "pose": "menjelaskan__tangan_terbuka",
-   "flip": true,
-   "cta": "badan"
-  },
   {
    "mood": "menjelaskan",
    "expr": "senang",
@@ -3098,6 +3178,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "badan"
+  },
+  {
+   "mood": "menjelaskan",
+   "expr": "ceria",
+   "theme": "navy",
+   "cover": "potret",
+   "list": "ceklis",
+   "detail": "versus",
+   "pose": "menjelaskan__tangan_terbuka",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
@@ -3128,7 +3219,8 @@
   "Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI",
   "Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes",
   "Bikin laporan kantor cuma lima menit?",
-  "Cara Pintar Sat-Set Susun Perencanaan Desa"
+  "Cara Pintar Sat-Set Susun Perencanaan Desa",
+  "Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -3243,120 +3335,28 @@
     "status": "proses",
     "at": "2026-11-19T12:03+09:00"
    }
+  },
+  "2026-11-20": {
+   "4": {
+    "did": "11200105",
+    "status": "proses",
+    "at": "2026-11-20T01:05+09:00"
+   }
   }
  },
  "jadwal": {
-  "tanggal": "2026-11-19",
-  "dibuat": "2026-11-19T20:26+09:00",
+  "tanggal": "2026-11-20",
+  "dibuat": "2026-11-20T01:08+09:00",
   "hari_ini": [
    {
     "slot": 0,
     "jam": "06:30",
     "tipe": "carousel",
-    "jenis": "Carousel Contekan Prompt",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI",
-    "id": "11190631",
-    "status": "terbit",
-    "terbit": "06:32"
-   },
-   {
-    "slot": 1,
-    "jam": "08:00",
-    "tipe": "berita",
-    "jenis": "Berita Terkini",
-    "pilar": "Berita pilihan",
-    "judul": "Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes",
-    "id": "11190802",
-    "status": "terbit",
-    "terbit": "08:03"
-   },
-   {
-    "slot": 2,
-    "jam": "09:00",
-    "tipe": "reels",
-    "jenis": "Reels",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Bikin laporan kantor cuma lima menit?",
-    "id": "11190900",
-    "status": "terbit",
-    "terbit": "09:03"
-   },
-   {
-    "slot": 3,
-    "jam": "12:00",
-    "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Cara Pintar Sat-Set Susun Perencanaan Desa",
-    "id": "11191203",
-    "status": "terbit",
-    "terbit": "12:04"
-   },
-   {
-    "slot": 4,
-    "jam": "15:30",
-    "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!",
-    "id": "11190059",
-    "status": "terbit",
-    "terbit": "01:00"
-   },
-   {
-    "slot": 5,
-    "jam": "17:00",
-    "tipe": "berita",
-    "jenis": "Berita Terkini",
-    "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "gagal"
-   },
-   {
-    "slot": 6,
-    "jam": "18:30",
-    "tipe": "reels",
-    "jenis": "Reels",
-    "pilar": "Pemerintahan Desa",
-    "judul": "RPJMDes sampai APBDes masih bikin pusing?",
-    "id": "11190316",
-    "status": "terbit",
-    "terbit": "03:18"
-   },
-   {
-    "slot": 7,
-    "jam": "20:00",
-    "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Cara Cepat Pakai AI Bereskan Tugas Kantor",
-    "id": "11190410",
-    "status": "terbit",
-    "terbit": "04:11"
-   }
-  ],
-  "manual": [
-   {
-    "jam": "01:44",
-    "id": "11190144",
-    "jenis": "Berita Terkini",
-    "judul": "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik",
-    "status": "menunggu"
-   }
-  ],
-  "besok_tanggal": "2026-11-20",
-  "besok": [
-   {
-    "slot": 0,
-    "jam": "06:30",
-    "tipe": "carousel",
     "jenis": "Carousel Listicle",
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 1,
@@ -3394,9 +3394,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Mitos vs Fakta",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah",
+    "id": "11200105",
+    "status": "terbit",
+    "terbit": "01:06"
    },
    {
     "slot": 5,
@@ -3424,6 +3425,90 @@
     "tipe": "carousel",
     "jenis": "Carousel Soft-selling",
     "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   }
+  ],
+  "manual": [],
+  "besok_tanggal": "2026-11-21",
+  "besok": [
+   {
+    "slot": 0,
+    "jam": "06:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 1,
+    "jam": "08:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 2,
+    "jam": "09:00",
+    "tipe": "reels",
+    "jenis": "Reels",
+    "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 3,
+    "jam": "12:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 4,
+    "jam": "15:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Listicle",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 5,
+    "jam": "17:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 6,
+    "jam": "18:30",
+    "tipe": "reels",
+    "jenis": "Reels",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 7,
+    "jam": "20:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Tutorial",
+    "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
     "status": "akan"
