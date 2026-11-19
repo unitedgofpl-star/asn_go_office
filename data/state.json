@@ -2892,44 +2892,91 @@
    },
    "published_at": "2026-11-20T06:33+09:00",
    "errors": []
+  },
+  "11200802": {
+   "id": "11200802",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-20T08:02+09:00",
+   "pillar": "PEMERINTAHAN DESA",
+   "topic": "BPJAMSOSTEK Sorong lindungi 14.210 aparat kampung lima kabupaten - ANTARA News Papua Barat",
+   "format": "berita",
+   "content": {
+    "hook": "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
+    "caption": "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial\n\nHalo Rekan ASN & Sobat Desa! Ada kabar penting nih terkait perlindungan kerja bagi rekan-rekan kita di tingkat kampung. BPJS Ketenagakerjaan Kantor Cabang Sorong mencatat ada 14.210 aparat kampung beserta ekosistemnya di lima kabupaten wilayah Provinsi Papua Barat Daya yang sudah mendapatkan perlindungan jaminan sosial. Wilayah tersebut meliputi Kabupaten Raja Ampat, Maybrat, Sorong, Tambrauw, dan Sorong Selatan berkat dukungan penuh dari pemerintah daerah setempat. Dalam kegiatan monitoring dan evaluasi, pihak BPJS Ketenagakerjaan juga mendorong agar pemerintah daerah memperluas cakupan perlindungan hingga program Jaminan Hari Tua agar aparat tetap terlindungi selepas masa jabatan. Bagaimana kondisi perlindungan jaminan sosial di wilayah Sobat Desa saat ini? Yuk, ceritakan di kolom komentar!\n\n💡 Artinya bagi kita: Perlindungan jaminan sosial memberikan kepastian keamanan kerja bagi aparat kampung yang bertugas.\n\n📰 Sumber:\n• ANTARA News Papua Tengah: https://papuatengah.antaranews.com/amp/berita/92995/bpjamsostek-sorong-lindungi-14210-aparat-kampung-lima-kabupaten\n📷 Foto: ANTARA News Papua Tengah\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#aparatkampung",
+     "#perangkatdesa",
+     "#bpjsketenagakerjaan",
+     "#infososial"
+    ],
+    "_qc": {
+     "issues": [
+      "Klaim pembayaran klaim mencapai sekitar Rp16 miliar dalam dua tahun terakhir tidak ditemukan di dalam teks sumber.",
+      "Beberapa detail angka per kabupaten (seperti 2.500 di Raja Ampat, dll.) tidak masuk ke rangkuman tetapi angka total 14.210 sesuai.",
+      "Klaim terkait pendidikan anak tidak ada di dalam teks sumber."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. 14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial. BPJS Ketenagakerjaan Sorong mencatat perlindungan bagi belasan ribu aparat kampung di Papua Barat Daya.",
+     "Poin pentingnya. BPJS Ketenagakerjaan Kantor Cabang Sorong mencatat 14.210 aparat kampung telah terlindungi berkat dukungan pemerintah daerah.. Cakupan wilayah meliputi Kabupaten Raja Ampat, Maybrat, Sorong, Tambrauw, dan Sorong Selatan.. BPJS Ketenagakerjaan mendorong empat kabupaten untuk menyusul Kabupaten Raja Ampit dan daerah lainnya dalam memberikan program Jaminan Hari Tua.. Perlindungan jaminan sosial memberikan kepastian keamanan kerja bagi aparat kampung yang bertugas. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11200802/slide_01.jpg",
+    "public/11200802/slide_02.jpg"
+   ],
+   "sources": [
+    "https://papuatengah.antaranews.com/amp/berita/92995/bpjamsostek-sorong-lindungi-14210-aparat-kampung-lima-kabupaten"
+   ],
+   "scheduled_at": "2026-11-20T08:02+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df8NxJ1F2Tc/",
+    "fb": "https://facebook.com/468307299696116_122225429780589464"
+   },
+   "published_at": "2026-11-20T08:02+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11200632 dikirim ke Bos",
-   "at": "2026-11-20 06:33"
+   "last": "Berita #11200802 dikirim ke Bos",
+   "at": "2026-11-20 08:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-20 06:30"
+   "last": "Berita: \"BPJAMSOSTEK Sorong lindungi 14.210 aparat kampung lima kabup\" (1 sumber, 1 foto)",
+   "at": "2026-11-20 08:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"5 Tools Gratis Ini Bikin Kerja ASN Sat-Set\"",
-   "at": "2026-11-20 06:31"
+   "last": "Rangkuman: \"14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial\"",
+   "at": "2026-11-20 08:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 4 catatan",
-   "at": "2026-11-20 06:32"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-20 08:02"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya tosca siap",
-   "at": "2026-11-20 06:32"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-20 08:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11200632 dikirim ke Bos",
-   "at": "2026-11-20 06:34"
+   "last": "Paket TikTok #11200802 dikirim ke Bos",
+   "at": "2026-11-20 08:03"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -2945,6 +2992,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-20 08:03",
+   "agent": "humas",
+   "msg": "Paket TikTok #11200802 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 08:02",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11200802..."
+  },
+  {
+   "at": "2026-11-20 08:02",
+   "agent": "humas",
+   "msg": "#11200802 → ig, fb"
+  },
+  {
+   "at": "2026-11-20 08:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11200802 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-20 08:02",
+   "agent": "kepala",
+   "msg": "Berita #11200802 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 08:02",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-20 08:02",
+   "agent": "desain",
+   "msg": "Mendesain berita (1 foto)..."
+  },
+  {
+   "at": "2026-11-20 08:02",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-20 08:02",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-20 08:02",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial\""
+  },
+  {
+   "at": "2026-11-20 08:01",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-20 08:01",
+   "agent": "riset",
+   "msg": "Berita: \"BPJAMSOSTEK Sorong lindungi 14.210 aparat kampung lima kabup\" (1 sumber, 1 foto)"
+  },
+  {
+   "at": "2026-11-20 08:00",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-20 08:00",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-20 08:00",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita desa"
+  },
   {
    "at": "2026-11-20 06:34",
    "agent": "humas",
@@ -3169,88 +3291,13 @@
    "at": "2026-11-20 01:52",
    "agent": "humas",
    "msg": "Menyiapkan paket TikTok #11200151..."
-  },
-  {
-   "at": "2026-11-20 01:52",
-   "agent": "humas",
-   "msg": "#11200151 → ig, fb"
-  },
-  {
-   "at": "2026-11-20 01:51",
-   "agent": "humas",
-   "msg": "Menerbitkan #11200151 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-20 01:51",
-   "agent": "kepala",
-   "msg": "Berita #11200151 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 01:51",
-   "agent": "desain",
-   "msg": "Berita 4 slide siap"
-  },
-  {
-   "at": "2026-11-20 01:51",
-   "agent": "desain",
-   "msg": "Mendesain berita (4 foto)..."
-  },
-  {
-   "at": "2026-11-20 01:51",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko rendah"
-  },
-  {
-   "at": "2026-11-20 01:50",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-20 01:50",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Komdigi Minta Transparansi Google Terkait Penutupan 19 Ribu Kanal YouTube\""
-  },
-  {
-   "at": "2026-11-20 01:48",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 3 sumber..."
-  },
-  {
-   "at": "2026-11-20 01:48",
-   "agent": "riset",
-   "msg": "Berita: \"Berita Kini - Komdigi Minta Google Transparan dan Akuntabel \" (3 sumber, 4 foto)"
-  },
-  {
-   "at": "2026-11-20 01:48",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-20 01:48",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-20 01:48",
-   "agent": "kepala",
-   "msg": "Jadwal 17:00 WIT: berita ai"
-  },
-  {
-   "at": "2026-11-20 01:08",
-   "agent": "humas",
-   "msg": "Paket TikTok #11200105 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 01:06",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11200105..."
   }
  ],
  "stats": {
-  "published": 33,
-  "drafts": 38
+  "published": 34,
+  "drafts": 39
  },
- "updated": "2026-11-20T06:34+09:00",
+ "updated": "2026-11-20T08:03+09:00",
  "cuan_rot": 32,
  "last_followers": 130,
  "style_hist": [
@@ -3508,7 +3555,8 @@
   "Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube",
   "Dokumen desa bocor? Waspada link palsu, Rekan!",
   "Desa Digital Bukan Sekadar Website, Ini Kuncinya!",
-  "Tools Digital Gratis Bikin Kerja ASN Sat-Set"
+  "Tools Digital Gratis Bikin Kerja ASN Sat-Set",
+  "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -3523,7 +3571,9 @@
   "polres lombok utara tahan mantan kades akar akar dalam kasus",
   "berita kini   komdigi minta google transparan dan akuntabel ",
   "komdigi akan minta google klarifikasi atas penutupan 19 389 ",
-  "komdigi minta google buka alasan tutup 19 ribu kanal youtube"
+  "komdigi minta google buka alasan tutup 19 ribu kanal youtube",
+  "bpjamsostek sorong lindungi 14 210 aparat kampung lima kabup",
+  "bpjs ketenagakerjaan lindungi 14 200 aparatur kampung di pap"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -3652,12 +3702,17 @@
     "did": "11200632",
     "status": "proses",
     "at": "2026-11-20T06:33+09:00"
+   },
+   "1": {
+    "did": "11200802",
+    "status": "proses",
+    "at": "2026-11-20T08:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-20",
-  "dibuat": "2026-11-20T06:34+09:00",
+  "dibuat": "2026-11-20T08:03+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -3676,9 +3731,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
+    "id": "11200802",
+    "status": "terbit",
+    "terbit": "08:02"
    },
    {
     "slot": 2,
@@ -3688,7 +3744,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
