@@ -2608,44 +2608,98 @@
    },
    "published_at": "2026-11-20T01:06+09:00",
    "errors": []
+  },
+  "11200151": {
+   "id": "11200151",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-20T01:51+09:00",
+   "pillar": "ASN",
+   "topic": "Berita Kini - Komdigi Minta Google Transparan dan Akuntabel atas Penutupan Ribuan Kanal YouTube",
+   "format": "berita",
+   "content": {
+    "hook": "Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube",
+    "caption": "Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube\n\nHalo Rekan ASN & Sobat Desa! Kementerian Komunikasi dan Digital (Komdigi) tengah mencermati laporan Google terkait penutupan 19.389 kanal YouTube berbahasa Indonesia periode Juli hingga September 2026.\n\nGoogle mengaitkan penutupan ini dengan 'operasi pengaruh terkoordinasi'. Namun, Komdigi menilai laporan tersebut kurang detail mengenai jenis pelanggaran dan dasar atribusinya. Pemerintah menegaskan bahwa moderasi konten skala besar harus dilakukan secara transparan dan adil, dengan tetap menjamin kebebasan berekspresi bagi siapa pun.\n\nKomdigi akan melayangkan klarifikasi resmi kepada Google demi memastikan tata kelola ruang digital yang objektif. Sebagai ASN yang melek digital, mari kita bijak dalam menyikapi informasi yang beredar. Bagaimana pendapat Rekan ASN mengenai transparansi platform digital saat ini? Bagikan di kolom komentar ya!\n\n💡 Artinya bagi kita: Bagi Rekan ASN, hal ini menjadi pengingat untuk tetap menjaga etika dan tata kelola informasi saat beraktivitas di ruang digital agar terhindar dari penyebaran disinformasi.\n\n📰 Sumber:\n• Kementerian Komunikasi dan Digital: https://portal.komdigi.go.id/kanal-publik/berita-kini/10717\n• Kompas.com: https://nasional.kompas.com/read/2026/11/19/20595781/komdigi-akan-minta-google-klarifikasi-atas-penutupan-19389-kanal-youtube\n• Tirto.id: https://tirto.id/komdigi-minta-google-buka-alasan-tutup-19-ribu-kanal-youtube-idZM\n📷 Foto: Kementerian Komunikasi dan Digital, Kompas.com, Tirto.id\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#ASNGODigital",
+     "#Komdigi",
+     "#LiterasiDigital",
+     "#ASNUpdate",
+     "#PemerintahanDesa",
+     "#InfoDigital"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus klaim 'kuartal ketiga tahun 2026' pada slide 1 karena laporan Google dirilis pada 30 Oktober 2026 yang mencakup periode Juli-September 2026 (Q3).",
+      "Menyesuaikan diksi agar tidak menyalin kalimat panjang dari sumber secara langsung.",
+      "Memastikan semua data angka (19.389 kanal) dan tanggal (19 November 2026) konsisten dengan sumber."
+     ],
+     "risk": "rendah"
+    },
+    "narasi": [
+     "Berita terkini. Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube. Kementerian Komunikasi dan Digital akan meminta klarifikasi resmi atas penutupan belasan ribu kanal YouTube yang dikaitkan dengan operasi pengaruh terkoordinasi.",
+     "Komdigi menekankan pentingnya prinsip transparansi, akuntabilitas, dan keadilan dalam setiap tindakan moderasi konten guna mencegah kesalahan atribusi.",
+     "Google telah menutup 19.389 kanal YouTube berbahasa Indonesia karena keterlibatan dalam operasi pengaruh terkoordinasi.",
+     "Pemerintah menjamin perlindungan kebebasan berekspresi bagi seluruh masyarakat, baik bagi pihak yang mendukung maupun yang mengkritik pemerintah. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11200151/slide_01.jpg",
+    "public/11200151/slide_02.jpg",
+    "public/11200151/slide_03.jpg",
+    "public/11200151/slide_04.jpg"
+   ],
+   "sources": [
+    "https://portal.komdigi.go.id/kanal-publik/berita-kini/10717",
+    "https://nasional.kompas.com/read/2026/11/19/20595781/komdigi-akan-minta-google-klarifikasi-atas-penutupan-19389-kanal-youtube",
+    "https://tirto.id/komdigi-minta-google-buka-alasan-tutup-19-ribu-kanal-youtube-idZM"
+   ],
+   "scheduled_at": "2026-11-20T01:51+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df7jVGtDgYT/",
+    "fb": "https://facebook.com/468307299696116_122225395934589464"
+   },
+   "published_at": "2026-11-20T01:52+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11200105 dikirim ke Bos",
-   "at": "2026-11-20 01:05"
+   "last": "Berita #11200151 dikirim ke Bos",
+   "at": "2026-11-20 01:51"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-20 00:59"
+   "last": "Berita: \"Berita Kini - Komdigi Minta Google Transparan dan Akuntabel \" (3 sumber, 4 foto)",
+   "at": "2026-11-20 01:48"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah\"",
-   "at": "2026-11-20 01:04"
+   "last": "Rangkuman: \"Komdigi Minta Transparansi Google Terkait Penutupan 19 Ribu Kanal YouTube\"",
+   "at": "2026-11-20 01:50"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-20 01:05"
+   "last": "Cek berita selesai — risiko rendah",
+   "at": "2026-11-20 01:51"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya navy siap",
-   "at": "2026-11-20 01:05"
+   "last": "Berita 4 slide siap",
+   "at": "2026-11-20 01:51"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11200105 dikirim ke Bos",
-   "at": "2026-11-20 01:08"
+   "last": "Paket TikTok #11200151 dikirim ke Bos",
+   "at": "2026-11-20 01:52"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -2661,6 +2715,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-20 01:52",
+   "agent": "humas",
+   "msg": "Paket TikTok #11200151 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 01:52",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11200151..."
+  },
+  {
+   "at": "2026-11-20 01:52",
+   "agent": "humas",
+   "msg": "#11200151 → ig, fb"
+  },
+  {
+   "at": "2026-11-20 01:51",
+   "agent": "humas",
+   "msg": "Menerbitkan #11200151 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-20 01:51",
+   "agent": "kepala",
+   "msg": "Berita #11200151 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 01:51",
+   "agent": "desain",
+   "msg": "Berita 4 slide siap"
+  },
+  {
+   "at": "2026-11-20 01:51",
+   "agent": "desain",
+   "msg": "Mendesain berita (4 foto)..."
+  },
+  {
+   "at": "2026-11-20 01:51",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko rendah"
+  },
+  {
+   "at": "2026-11-20 01:50",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-20 01:50",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Komdigi Minta Transparansi Google Terkait Penutupan 19 Ribu Kanal YouTube\""
+  },
+  {
+   "at": "2026-11-20 01:48",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 3 sumber..."
+  },
+  {
+   "at": "2026-11-20 01:48",
+   "agent": "riset",
+   "msg": "Berita: \"Berita Kini - Komdigi Minta Google Transparan dan Akuntabel \" (3 sumber, 4 foto)"
+  },
+  {
+   "at": "2026-11-20 01:48",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-20 01:48",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-20 01:48",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita ai"
+  },
   {
    "at": "2026-11-20 01:08",
    "agent": "humas",
@@ -2885,88 +3014,13 @@
    "at": "2026-11-19 09:00",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-19 09:00",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-19 09:00",
-   "agent": "kepala",
-   "msg": "Jadwal 09:00 WIT: reels asn"
-  },
-  {
-   "at": "2026-11-19 08:03",
-   "agent": "humas",
-   "msg": "Paket TikTok #11190802 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-19 08:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11190802..."
-  },
-  {
-   "at": "2026-11-19 08:03",
-   "agent": "humas",
-   "msg": "#11190802 → ig, fb"
-  },
-  {
-   "at": "2026-11-19 08:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11190802 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-19 08:02",
-   "agent": "kepala",
-   "msg": "Berita #11190802 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-19 08:02",
-   "agent": "desain",
-   "msg": "Berita 2 slide siap"
-  },
-  {
-   "at": "2026-11-19 08:02",
-   "agent": "desain",
-   "msg": "Mendesain berita (1 foto)..."
-  },
-  {
-   "at": "2026-11-19 08:02",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko rendah"
-  },
-  {
-   "at": "2026-11-19 08:01",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-19 08:01",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes\""
-  },
-  {
-   "at": "2026-11-19 08:01",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 1 sumber..."
-  },
-  {
-   "at": "2026-11-19 08:01",
-   "agent": "riset",
-   "msg": "Berita: \"Polres Lombok Utara menahan mantan kades tersangka korupsi d\" (1 sumber, 1 foto)"
-  },
-  {
-   "at": "2026-11-19 08:00",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
   }
  ],
  "stats": {
-  "published": 30,
-  "drafts": 34
+  "published": 31,
+  "drafts": 35
  },
- "updated": "2026-11-20T01:08+09:00",
+ "updated": "2026-11-20T01:52+09:00",
  "cuan_rot": 29,
  "last_followers": 130,
  "style_hist": [
@@ -3220,7 +3274,8 @@
   "Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes",
   "Bikin laporan kantor cuma lima menit?",
   "Cara Pintar Sat-Set Susun Perencanaan Desa",
-  "Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah"
+  "Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah",
+  "Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -3232,7 +3287,10 @@
   "kemenag pesisir barat perkuat kompetensi komunikasi jurnalis",
   "jambi perkuat kolaborasi daerah percepat transformasi digita",
   "polres lombok utara menahan mantan kades tersangka korupsi d",
-  "polres lombok utara tahan mantan kades akar akar dalam kasus"
+  "polres lombok utara tahan mantan kades akar akar dalam kasus",
+  "berita kini   komdigi minta google transparan dan akuntabel ",
+  "komdigi akan minta google klarifikasi atas penutupan 19 389 ",
+  "komdigi minta google buka alasan tutup 19 ribu kanal youtube"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -3341,12 +3399,17 @@
     "did": "11200105",
     "status": "proses",
     "at": "2026-11-20T01:05+09:00"
+   },
+   "5": {
+    "did": "11200151",
+    "status": "proses",
+    "at": "2026-11-20T01:51+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-20",
-  "dibuat": "2026-11-20T01:08+09:00",
+  "dibuat": "2026-11-20T01:52+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -3405,9 +3468,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube",
+    "id": "11200151",
+    "status": "terbit",
+    "terbit": "01:52"
    },
    {
     "slot": 6,
