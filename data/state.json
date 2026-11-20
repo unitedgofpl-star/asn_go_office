@@ -3077,50 +3077,130 @@
    },
    "published_at": "2026-11-20T12:05+09:00",
    "errors": []
+  },
+  "11210048": {
+   "id": "11210048",
+   "status": "published",
+   "created": "2026-11-21T00:48+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "Google Workspace / Excel untuk laporan kantor",
+   "format": "carousel_listicle",
+   "product": "naskah",
+   "content": {
+    "hook": "Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat",
+    "subtitle": "Jangan biarkan rekap data bikin Rekan ASN lembur terus!",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Gunakan Fitur XLOOKUP",
+      "sub": "Gabungkan data tabel tanpa pusing rumus VLOOKUP",
+      "icon": "🔍"
+     },
+     {
+      "title": "Manfaatkan Pivot Table",
+      "sub": "Ringkas ribuan data laporan keuangan dalam hitungan detik",
+      "icon": "📊"
+     },
+     {
+      "title": "Rapikan Teks dengan Flash Fill",
+      "sub": "Gabung atau pisah nama pegawai otomatis tanpa rumus",
+      "icon": "⚡"
+     },
+     {
+      "title": "Kunci Data Lewat Data Validation",
+      "sub": "Cegah salah input data dari operator desa",
+      "icon": "🔒"
+     }
+    ],
+    "details": [
+     {
+      "title": "Gunakan Fitur XLOOKUP",
+      "body": "XLOOKUP jauh lebih fleksibel dibanding VLOOKUP. Cocok banget buat Rekan ASN yang sering mencari data nama penerima bantuan atau data kepegawaian lintas sheet tanpa takut error.",
+      "icon": "🔍"
+     },
+     {
+      "title": "Manfaatkan Pivot Table",
+      "sub": "",
+      "body": "Mau bikin laporan rekapitulasi realisasi anggaran atau absensi bulanan? Cukup seret kolom ke Pivot Table, laporan langsung jadi rapi dan siap dicetak.",
+      "icon": "📊"
+     }
+    ],
+    "note": "Selalu verifikasi ulang hasil rumus Excel sebelum laporan dicetak.",
+    "cta": "Simpan postingan ini biar gampang dicari pas mau bikin laporan ya, Rekan ASN!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering pusing karena data laporan kantor berantakan dan deadline mepet? Tenang, mari gunakan trik gampang pakai Excel biar kerjaan makin cepat dan bebas lembur. Mulai dari XLOOKUP sampai Pivot Table, semua dibahas ringkas buat bantu tugas administratif kita. Yuk, tingkatkan efisiensi layanan publik lewat digitalisasi kerja! Jangan lupa simpan postingan ini dan bagikan ke grup WhatsApp kantor ya.\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#DigitalisasiASN",
+     "#PemerintahanDesa",
+     "#TipsExcel",
+     "#ASNProduktif",
+     "#TransformasiDigital"
+    ],
+    "_qc": {
+     "issues": [
+      "Penggunaan nama persona 'Cicilia' tidak sesuai dengan identitas Kaka Agus selaku editor.",
+      "Terdapat potensi typo atau hashtag yang kurang baku (#asn_go_digitals)."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11210048/slide_01.jpg",
+    "public/11210048/slide_02.jpg",
+    "public/11210048/slide_03.jpg",
+    "public/11210048/slide_04.jpg",
+    "public/11210048/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-21T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df-A4vIEusx/",
+    "fb": "https://facebook.com/468307299696116_122225548766589464"
+   },
+   "published_at": "2026-11-21T00:48+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11201205 dikirim ke Bos",
-   "at": "2026-11-20 12:05"
+   "last": "Draft #11210048 dikirim ke Bos",
+   "at": "2026-11-21 00:48"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-20 12:00"
+   "at": "2026-11-21 00:42"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Amankah Data Kantor dan TTE Anda Hari Ini?\"",
-   "at": "2026-11-20 12:02"
+   "last": "Draft selesai: \"4 Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat\"",
+   "at": "2026-11-21 00:45"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
    "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-20 12:05"
+   "at": "2026-11-21 00:48"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya berita siap",
-   "at": "2026-11-20 12:05"
+   "last": "5 slide gaya tosca siap",
+   "at": "2026-11-21 00:48"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11201205 dikirim ke Bos",
-   "at": "2026-11-20 12:06"
+   "last": "Paket TikTok #11210048 dikirim ke Bos",
+   "at": "2026-11-21 00:49"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-20 12:00"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-21 00:42"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -3130,6 +3210,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-21 00:49",
+   "agent": "humas",
+   "msg": "Paket TikTok #11210048 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-21 00:48",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11210048..."
+  },
+  {
+   "at": "2026-11-21 00:48",
+   "agent": "humas",
+   "msg": "#11210048 → ig, fb"
+  },
+  {
+   "at": "2026-11-21 00:48",
+   "agent": "humas",
+   "msg": "Menerbitkan #11210048 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-21 00:48",
+   "agent": "kepala",
+   "msg": "Draft #11210048 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-21 00:48",
+   "agent": "desain",
+   "msg": "5 slide gaya tosca siap"
+  },
+  {
+   "at": "2026-11-21 00:48",
+   "agent": "desain",
+   "msg": "Mendesain gaya tosca/potret/ceklis/kartu..."
+  },
+  {
+   "at": "2026-11-21 00:48",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 2 catatan"
+  },
+  {
+   "at": "2026-11-21 00:45",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-21 00:45",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"4 Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat\""
+  },
+  {
+   "at": "2026-11-21 00:42",
+   "agent": "naskah",
+   "msg": "Menulis carousel: Google Workspace / Excel untuk laporan kantor"
+  },
+  {
+   "at": "2026-11-21 00:42",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-21 00:42",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-21 00:42",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-21 00:42",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-21 00:42",
+   "agent": "kepala",
+   "msg": "Jadwal 15:30 WIT: carousel asn"
+  },
   {
    "at": "2026-11-20 12:06",
    "agent": "humas",
@@ -3349,107 +3509,16 @@
    "at": "2026-11-20 08:00",
    "agent": "riset",
    "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-20 08:00",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-20 08:00",
-   "agent": "kepala",
-   "msg": "Jadwal 08:00 WIT: berita desa"
-  },
-  {
-   "at": "2026-11-20 06:34",
-   "agent": "humas",
-   "msg": "Paket TikTok #11200632 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 06:33",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11200632..."
-  },
-  {
-   "at": "2026-11-20 06:33",
-   "agent": "humas",
-   "msg": "#11200632 → ig, fb"
-  },
-  {
-   "at": "2026-11-20 06:33",
-   "agent": "humas",
-   "msg": "Menerbitkan #11200632 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-20 06:33",
-   "agent": "kepala",
-   "msg": "Draft #11200632 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 06:32",
-   "agent": "desain",
-   "msg": "6 slide gaya tosca siap"
-  },
-  {
-   "at": "2026-11-20 06:32",
-   "agent": "desain",
-   "msg": "Mendesain gaya tosca/berita/ceklis/angka..."
-  },
-  {
-   "at": "2026-11-20 06:32",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 4 catatan"
-  },
-  {
-   "at": "2026-11-20 06:31",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-20 06:31",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"5 Tools Gratis Ini Bikin Kerja ASN Sat-Set\""
-  },
-  {
-   "at": "2026-11-20 06:30",
-   "agent": "naskah",
-   "msg": "Menulis carousel: tips produktivitas ASN pakai tools digital gratis"
-  },
-  {
-   "at": "2026-11-20 06:30",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-20 06:30",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-20 06:30",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
   }
  ],
  "stats": {
-  "published": 36,
-  "drafts": 41
+  "published": 37,
+  "drafts": 42
  },
- "updated": "2026-11-20T20:17+09:00",
- "cuan_rot": 34,
+ "updated": "2026-11-21T00:49+09:00",
+ "cuan_rot": 35,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "cemberut",
-   "expr": "cemberut",
-   "theme": "navy",
-   "cover": "kanan",
-   "list": "grid",
-   "detail": "chat",
-   "pose": "tegas__cemberut_tangan_di_pinggang",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "semangat",
@@ -3658,6 +3727,17 @@
    "pose": "tegas__cemberut_tangan_di_pinggang",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "tosca",
+   "cover": "potret",
+   "list": "ceklis",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
@@ -3696,7 +3776,8 @@
   "Tools Digital Gratis Bikin Kerja ASN Sat-Set",
   "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
   "Bikin paparan kantor cuma dua menit?",
-  "Amankah Data Kantor dan TTE Anda Hari Ini?"
+  "Amankah Data Kantor dan TTE Anda Hari Ini?",
+  "Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -3858,22 +3939,28 @@
     "status": "proses",
     "at": "2026-11-20T12:05+09:00"
    }
+  },
+  "2026-11-21": {
+   "4": {
+    "did": "11210048",
+    "status": "proses",
+    "at": "2026-11-21T00:48+09:00"
+   }
   }
  },
  "jadwal": {
-  "tanggal": "2026-11-20",
-  "dibuat": "2026-11-20T20:17+09:00",
+  "tanggal": "2026-11-21",
+  "dibuat": "2026-11-21T00:49+09:00",
   "hari_ini": [
    {
     "slot": 0,
     "jam": "06:30",
     "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Tools Digital Gratis Bikin Kerja ASN Sat-Set",
-    "id": "11200632",
-    "status": "terbit",
-    "terbit": "06:33"
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "berikutnya"
    },
    {
     "slot": 1,
@@ -3881,43 +3968,40 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
-    "id": "11200802",
-    "status": "terbit",
-    "terbit": "08:02"
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 2,
     "jam": "09:00",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Bikin paparan kantor cuma dua menit?",
-    "id": "11200902",
-    "status": "terbit",
-    "terbit": "09:04"
+    "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 3,
     "jam": "12:00",
     "tipe": "carousel",
-    "jenis": "Carousel Contekan Prompt",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Amankah Data Kantor dan TTE Anda Hari Ini?",
-    "id": "11201205",
-    "status": "terbit",
-    "terbit": "12:05"
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 4,
     "jam": "15:30",
     "tipe": "carousel",
-    "jenis": "Carousel Mitos vs Fakta",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah",
-    "id": "11200105",
+    "jenis": "Carousel Listicle",
+    "pilar": "Digitalisasi ASN",
+    "judul": "Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat",
+    "id": "11210048",
     "status": "terbit",
-    "terbit": "01:06"
+    "terbit": "00:48"
    },
    {
     "slot": 5,
@@ -3925,42 +4009,40 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube",
-    "id": "11200151",
-    "status": "terbit",
-    "terbit": "01:52"
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 6,
     "jam": "18:30",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Dokumen desa bocor? Waspada link palsu, Rekan!",
-    "id": "11200327",
-    "status": "terbit",
-    "terbit": "03:29"
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 7,
     "jam": "20:00",
     "tipe": "carousel",
-    "jenis": "Carousel Soft-selling",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Desa Digital Bukan Sekadar Website, Ini Kuncinya!",
-    "id": "11200415",
-    "status": "menunggu"
+    "jenis": "Carousel Tutorial",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    }
   ],
   "manual": [],
-  "besok_tanggal": "2026-11-21",
+  "besok_tanggal": "2026-11-22",
   "besok": [
    {
     "slot": 0,
     "jam": "06:30",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
+    "jenis": "Carousel Contekan Prompt",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -3980,7 +4062,7 @@
     "jam": "09:00",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "Pemerintahan Desa",
+    "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -3989,8 +4071,8 @@
     "slot": 3,
     "jam": "12:00",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
+    "jenis": "Carousel Listicle",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -3999,8 +4081,8 @@
     "slot": 4,
     "jam": "15:30",
     "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Digitalisasi ASN",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -4020,7 +4102,7 @@
     "jam": "18:30",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "AI untuk Kerja Kantor",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -4029,8 +4111,8 @@
     "slot": 7,
     "jam": "20:00",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "Digitalisasi ASN",
+    "jenis": "Carousel Listicle",
+    "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
     "status": "akan"
