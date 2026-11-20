@@ -3211,26 +3211,89 @@
    },
    "published_at": "2026-11-21T01:24+09:00",
    "errors": []
+  },
+  "11210255": {
+   "id": "11210255",
+   "type": "reels",
+   "status": "published",
+   "created": "2026-11-21T02:56+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "tools AI gratis untuk ASN dan perangkat desa",
+   "format": "reels",
+   "product": "naskah",
+   "content": {
+    "hook": "Birokrasi digital makin ketat, yuk siap-siap!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Tuntutan birokrasi digital makin nyata nih, mulai dari indeks SPBE hingga tata kelola pemerintahan yang makin modern. Jangan biarkan kerjaan kantor menumpuk! Manfaatkan tools AI gratis untuk bantu tugas harian jadi lebih cepat dan ringan. Simpan video ini dan bagikan ke rekan kerja kamu ya! Apa tools AI favoritmu di kantor? Tulis di komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn",
+     "#perangkatdesa",
+     "#spbe",
+     "#transformasidigital",
+     "#asnkeren",
+     "#desadigital"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN & Sobat Desa!",
+      "icon": "👋"
+     },
+     {
+      "text": "SPBE makin digenjot, wajib tingkatkan skill digital.",
+      "icon": "📈"
+     },
+     {
+      "text": "Pakai AI gratis biar kerja makin sat-set.",
+      "icon": "⚡"
+     },
+     {
+      "text": "Bikin konsep surat atau draf laporan jadi kilat.",
+      "icon": "🤖"
+     },
+     {
+      "text": "Hemat waktu, hasil tetap profesional dan rapi.",
+      "icon": "✨"
+     },
+     {
+      "text": "Mau naskah dinas instan? Cek link di bio!",
+      "icon": "🔗"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11210255/cover.jpg"
+   ],
+   "video": "public/11210255/reels.mp4",
+   "scheduled_at": "2026-11-21T02:56+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/reel/Df-PgGLEh9O/",
+    "fb": "https://facebook.com/1854560585699990"
+   },
+   "published_at": "2026-11-21T02:56+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11210124 dikirim ke Bos",
-   "at": "2026-11-21 01:24"
+   "last": "Reels #11210255 dikirim ke Bos",
+   "at": "2026-11-21 02:56"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Pemkab Banyuwangi juara satu ajang Forum Kota Cerdas Komdigi\" (1 sumber, 6 foto)",
-   "at": "2026-11-21 01:23"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-21 02:55"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Pemkab Banyuwangi Raih Juara Satu Smart City Forum\"",
-   "at": "2026-11-21 01:23"
+   "last": "Naskah Reels: \"Birokrasi digital makin ketat, yuk siap-siap!\"",
+   "at": "2026-11-21 02:55"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -3241,20 +3304,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 6 slide siap",
-   "at": "2026-11-21 01:24"
+   "last": "Reels 44 detik siap (gaya navy)",
+   "at": "2026-11-21 02:56"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11210124 dikirim ke Bos",
-   "at": "2026-11-21 01:25"
+   "last": "Paket TikTok #11210255 dikirim ke Bos",
+   "at": "2026-11-21 02:56"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-21 00:42"
+   "at": "2026-11-21 02:55"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -3264,6 +3327,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-21 02:56",
+   "agent": "humas",
+   "msg": "Paket TikTok #11210255 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-21 02:56",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11210255..."
+  },
+  {
+   "at": "2026-11-21 02:56",
+   "agent": "humas",
+   "msg": "#11210255 → ig, fb"
+  },
+  {
+   "at": "2026-11-21 02:56",
+   "agent": "humas",
+   "msg": "Menerbitkan #11210255 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-21 02:56",
+   "agent": "kepala",
+   "msg": "Reels #11210255 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-21 02:56",
+   "agent": "desain",
+   "msg": "Reels 44 detik siap (gaya navy)"
+  },
+  {
+   "at": "2026-11-21 02:55",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-21 02:55",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya navy..."
+  },
+  {
+   "at": "2026-11-21 02:55",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"Birokrasi digital makin ketat, yuk siap-siap!\""
+  },
+  {
+   "at": "2026-11-21 02:55",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: tools AI gratis untuk ASN dan perangkat desa"
+  },
+  {
+   "at": "2026-11-21 02:55",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-21 02:55",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-21 02:55",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-21 02:55",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-21 02:55",
+   "agent": "kepala",
+   "msg": "Jadwal 18:30 WIT: reels ai"
+  },
   {
    "at": "2026-11-21 01:25",
    "agent": "humas",
@@ -3488,102 +3626,16 @@
    "at": "2026-11-20 12:00",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-20 12:00",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-20 12:00",
-   "agent": "kepala",
-   "msg": "Jadwal 12:00 WIT: carousel asn"
-  },
-  {
-   "at": "2026-11-20 09:04",
-   "agent": "humas",
-   "msg": "Paket TikTok #11200902 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 09:04",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11200902..."
-  },
-  {
-   "at": "2026-11-20 09:04",
-   "agent": "humas",
-   "msg": "#11200902 → ig, fb"
-  },
-  {
-   "at": "2026-11-20 09:03",
-   "agent": "humas",
-   "msg": "Menerbitkan #11200902 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-20 09:03",
-   "agent": "kepala",
-   "msg": "Reels #11200902 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 09:03",
-   "agent": "desain",
-   "msg": "Reels 37 detik siap (gaya navy)"
-  },
-  {
-   "at": "2026-11-20 09:02",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-20 09:02",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya navy..."
-  },
-  {
-   "at": "2026-11-20 09:02",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Bikin paparan kantor cuma dua menit?\""
-  },
-  {
-   "at": "2026-11-20 09:00",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: AI untuk membuat bahan paparan, ringkasan reg"
-  },
-  {
-   "at": "2026-11-20 09:00",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-20 09:00",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-20 09:00",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
-  "published": 38,
-  "drafts": 43
+  "published": 39,
+  "drafts": 44
  },
- "updated": "2026-11-21T01:25+09:00",
- "cuan_rot": 35,
+ "updated": "2026-11-21T02:56+09:00",
+ "cuan_rot": 36,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "semangat",
-   "theme": "merah",
-   "cover": "potret",
-   "list": "kartu",
-   "detail": "chat",
-   "pose": "semangat__tangan_mengepal",
-   "flip": false,
-   "cta": "badan"
-  },
   {
    "mood": "tegas",
    "expr": "cemberut",
@@ -3792,6 +3844,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "navy",
+   "cover": "kiri",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
@@ -3832,7 +3895,8 @@
   "Bikin paparan kantor cuma dua menit?",
   "Amankah Data Kantor dan TTE Anda Hari Ini?",
   "Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat",
-  "Pemkab Banyuwangi Raih Juara Satu Smart City Forum"
+  "Pemkab Banyuwangi Raih Juara Satu Smart City Forum",
+  "Birokrasi digital makin ketat, yuk siap-siap!"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -4007,12 +4071,17 @@
     "did": "11210124",
     "status": "proses",
     "at": "2026-11-21T01:24+09:00"
+   },
+   "6": {
+    "did": "11210255",
+    "status": "proses",
+    "at": "2026-11-21T02:56+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-21",
-  "dibuat": "2026-11-21T01:25+09:00",
+  "dibuat": "2026-11-21T02:56+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -4082,9 +4151,10 @@
     "tipe": "reels",
     "jenis": "Reels",
     "pilar": "AI untuk Kerja Kantor",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "Birokrasi digital makin ketat, yuk siap-siap!",
+    "id": "11210255",
+    "status": "terbit",
+    "terbit": "02:56"
    },
    {
     "slot": 7,
