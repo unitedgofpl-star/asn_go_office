@@ -3157,44 +3157,98 @@
    },
    "published_at": "2026-11-21T00:48+09:00",
    "errors": []
+  },
+  "11210124": {
+   "id": "11210124",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-21T01:24+09:00",
+   "pillar": "ASN",
+   "topic": "Pemkab Banyuwangi juara satu ajang Forum Kota Cerdas Komdigi - ANTARA News Jawa Timur",
+   "format": "berita",
+   "content": {
+    "hook": "Pemkab Banyuwangi Raih Juara Satu Smart City Forum",
+    "caption": "Pemkab Banyuwangi Raih Juara Satu Smart City Forum\n\nHalo Rekan ASN & Sobat Desa! Ada kabar membanggakan dari sektor pelayanan publik digital. Pemerintah Kabupaten Banyuwangi sukses meraih juara satu kategori Smart Society dalam ajang Smart City Forum. Capaian ini diraih berkat inovasi platform digital bernama Unit Gawat Darurat Kemiskinan (UGDK). Melalui sistem ini, pemda dapat mempercepat penanganan kemiskinan secara terpadu berbasis data by name by address serta pemetaan hingga tingkat desa dengan titik koordinat. Bupati Banyuwangi menyampaikan bahwa teknologi digunakan untuk mengoptimalkan pelayanan publik dan tata kelola pemerintahan. Wah, tentu ini bisa jadi inspirasi bagi instansi lain dalam memanfaatkan teknologi untuk ketepatan sasaran program pemerintah. Bagaimana di instansi Rekan ASN dan Sobat Desa, apakah sudah ada inovasi digital serupa? Coba ceritakan di kolom komentar ya!\n\n💡 Artinya bagi kita: Inovasi ini menunjukkan bagaimana integrasi data spasial dan sosial dapat mempercepat penanganan kemiskinan di daerah.\n\n📰 Sumber:\n• Antara News jatim: https://jatim.antaranews.com/berita/1121611/pemkab-banyuwangi-juara-satu-ajang-forum-kota-cerdas-komdigi\n📷 Foto: Antara News jatim\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#SmartCity",
+     "#PemerintahanDesa",
+     "#InovasiDigital",
+     "#PelayananPublik"
+    ],
+    "_qc": {
+     "issues": [
+      "Terdapat klaim mengenai penyerahan penghargaan oleh Wakil Menteri Komdigi kepada Wakil Bupati di Jambi yang tidak disebutkan dalam sumber.",
+      "Terdapat penyebutan tahun 2026 dalam sumber yang tidak masuk dalam rangkuman awal."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Pemkab Banyuwangi Raih Juara Satu Smart City Forum. Inovasi digital penanganan kemiskinan antarkan Banyuwangi juara satu kategori Smart Society.",
+     "Inovasi digital penanganan kemiskinan antarkan Banyuwangi juara satu kategori Smart Society.",
+     "Inovasi digital penanganan kemiskinan antarkan Banyuwangi juara satu kategori Smart Society.",
+     "Inovasi digital penanganan kemiskinan antarkan Banyuwangi juara satu kategori Smart Society.",
+     "Inovasi digital penanganan kemiskinan antarkan Banyuwangi juara satu kategori Smart Society.",
+     "Inovasi digital penanganan kemiskinan antarkan Banyuwangi juara satu kategori Smart Society. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11210124/slide_01.jpg",
+    "public/11210124/slide_02.jpg",
+    "public/11210124/slide_03.jpg",
+    "public/11210124/slide_04.jpg",
+    "public/11210124/slide_05.jpg",
+    "public/11210124/slide_06.jpg"
+   ],
+   "sources": [
+    "https://jatim.antaranews.com/berita/1121611/pemkab-banyuwangi-juara-satu-ajang-forum-kota-cerdas-komdigi"
+   ],
+   "scheduled_at": "2026-11-21T01:24+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df-E_qtl5AM/",
+    "fb": "https://facebook.com/468307299696116_122225552720589464"
+   },
+   "published_at": "2026-11-21T01:24+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11210048 dikirim ke Bos",
-   "at": "2026-11-21 00:48"
+   "last": "Berita #11210124 dikirim ke Bos",
+   "at": "2026-11-21 01:24"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-21 00:42"
+   "last": "Berita: \"Pemkab Banyuwangi juara satu ajang Forum Kota Cerdas Komdigi\" (1 sumber, 6 foto)",
+   "at": "2026-11-21 01:23"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"4 Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat\"",
-   "at": "2026-11-21 00:45"
+   "last": "Rangkuman: \"Pemkab Banyuwangi Raih Juara Satu Smart City Forum\"",
+   "at": "2026-11-21 01:23"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-21 00:48"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-21 01:24"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya tosca siap",
-   "at": "2026-11-21 00:48"
+   "last": "Berita 6 slide siap",
+   "at": "2026-11-21 01:24"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11210048 dikirim ke Bos",
-   "at": "2026-11-21 00:49"
+   "last": "Paket TikTok #11210124 dikirim ke Bos",
+   "at": "2026-11-21 01:25"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -3210,6 +3264,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-21 01:25",
+   "agent": "humas",
+   "msg": "Paket TikTok #11210124 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-21 01:24",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11210124..."
+  },
+  {
+   "at": "2026-11-21 01:24",
+   "agent": "humas",
+   "msg": "#11210124 → ig, fb"
+  },
+  {
+   "at": "2026-11-21 01:24",
+   "agent": "humas",
+   "msg": "Menerbitkan #11210124 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-21 01:24",
+   "agent": "kepala",
+   "msg": "Berita #11210124 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-21 01:24",
+   "agent": "desain",
+   "msg": "Berita 6 slide siap"
+  },
+  {
+   "at": "2026-11-21 01:24",
+   "agent": "desain",
+   "msg": "Mendesain berita (6 foto)..."
+  },
+  {
+   "at": "2026-11-21 01:24",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-21 01:23",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-21 01:23",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Pemkab Banyuwangi Raih Juara Satu Smart City Forum\""
+  },
+  {
+   "at": "2026-11-21 01:23",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-21 01:23",
+   "agent": "riset",
+   "msg": "Berita: \"Pemkab Banyuwangi juara satu ajang Forum Kota Cerdas Komdigi\" (1 sumber, 6 foto)"
+  },
+  {
+   "at": "2026-11-21 01:22",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-21 01:22",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-21 01:22",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita desa"
+  },
   {
    "at": "2026-11-21 00:49",
    "agent": "humas",
@@ -3434,88 +3563,13 @@
    "at": "2026-11-20 09:00",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-20 09:00",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-20 09:00",
-   "agent": "kepala",
-   "msg": "Jadwal 09:00 WIT: reels ai"
-  },
-  {
-   "at": "2026-11-20 08:03",
-   "agent": "humas",
-   "msg": "Paket TikTok #11200802 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 08:02",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11200802..."
-  },
-  {
-   "at": "2026-11-20 08:02",
-   "agent": "humas",
-   "msg": "#11200802 → ig, fb"
-  },
-  {
-   "at": "2026-11-20 08:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11200802 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-20 08:02",
-   "agent": "kepala",
-   "msg": "Berita #11200802 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 08:02",
-   "agent": "desain",
-   "msg": "Berita 2 slide siap"
-  },
-  {
-   "at": "2026-11-20 08:02",
-   "agent": "desain",
-   "msg": "Mendesain berita (1 foto)..."
-  },
-  {
-   "at": "2026-11-20 08:02",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko sedang"
-  },
-  {
-   "at": "2026-11-20 08:02",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-20 08:02",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial\""
-  },
-  {
-   "at": "2026-11-20 08:01",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 1 sumber..."
-  },
-  {
-   "at": "2026-11-20 08:01",
-   "agent": "riset",
-   "msg": "Berita: \"BPJAMSOSTEK Sorong lindungi 14.210 aparat kampung lima kabup\" (1 sumber, 1 foto)"
-  },
-  {
-   "at": "2026-11-20 08:00",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
   }
  ],
  "stats": {
-  "published": 37,
-  "drafts": 42
+  "published": 38,
+  "drafts": 43
  },
- "updated": "2026-11-21T00:49+09:00",
+ "updated": "2026-11-21T01:25+09:00",
  "cuan_rot": 35,
  "last_followers": 130,
  "style_hist": [
@@ -3777,7 +3831,8 @@
   "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
   "Bikin paparan kantor cuma dua menit?",
   "Amankah Data Kantor dan TTE Anda Hari Ini?",
-  "Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat"
+  "Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat",
+  "Pemkab Banyuwangi Raih Juara Satu Smart City Forum"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -3794,7 +3849,9 @@
   "komdigi akan minta google klarifikasi atas penutupan 19 389 ",
   "komdigi minta google buka alasan tutup 19 ribu kanal youtube",
   "bpjamsostek sorong lindungi 14 210 aparat kampung lima kabup",
-  "bpjs ketenagakerjaan lindungi 14 200 aparatur kampung di pap"
+  "bpjs ketenagakerjaan lindungi 14 200 aparatur kampung di pap",
+  "banyuwangi raih juara i smart society di ajang smart city fo",
+  "pemkab banyuwangi juara satu ajang forum kota cerdas komdigi"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -3945,12 +4002,17 @@
     "did": "11210048",
     "status": "proses",
     "at": "2026-11-21T00:48+09:00"
+   },
+   "5": {
+    "did": "11210124",
+    "status": "proses",
+    "at": "2026-11-21T01:24+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-21",
-  "dibuat": "2026-11-21T00:49+09:00",
+  "dibuat": "2026-11-21T01:25+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -4009,9 +4071,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "Pemkab Banyuwangi Raih Juara Satu Smart City Forum",
+    "id": "11210124",
+    "status": "terbit",
+    "terbit": "01:24"
    },
    {
     "slot": 6,
