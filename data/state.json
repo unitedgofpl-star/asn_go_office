@@ -2997,50 +2997,130 @@
    },
    "published_at": "2026-11-20T09:04+09:00",
    "errors": []
+  },
+  "11201205": {
+   "id": "11201205",
+   "status": "published",
+   "created": "2026-11-20T12:05+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "keamanan data & tanda tangan elektronik (TTE/BSrE)",
+   "format": "carousel_prompt",
+   "product": "kantor",
+   "content": {
+    "hook": "Amankah Data Kantor dan TTE Anda Hari Ini?",
+    "subtitle": "Contek prompt AI untuk jaga keamanan dokumen kedinasan.",
+    "mood": "tegas",
+    "items": [
+     {
+      "title": "Cek Keamanan Dokumen",
+      "sub": "Analisis potensi celah keamanan file kantor",
+      "icon": "🔒"
+     },
+     {
+      "title": "Paham Regulasi TTE",
+      "sub": "Kuasai aturan dasar tanda tangan elektronik",
+      "icon": "📜"
+     },
+     {
+      "title": "Cegah Phishing",
+      "sub": "Kenali link palsu pemalsu dokumen",
+      "icon": "🛡️"
+     },
+     {
+      "title": "Amankan Akun Resmi",
+      "sub": "Terapkan sandi kuat dan verifikasi ganda",
+      "icon": "🔑"
+     }
+    ],
+    "details": [
+     {
+      "title": "Cek Keamanan Dokumen",
+      "body": "Prompt: 'Bertindaklah sebagai ahli keamanan siber pemerintah. Analisis dokumen ini dan berikan potensi risiko kebocoran data beserta cara mitigasinya secara praktis.'",
+      "icon": "🔒"
+     },
+     {
+      "title": "Paham Regulasi TTE",
+      "body": "Prompt: 'Jelaskan standar penggunaan TTE tersertifikasi dari BSrE untuk instansi pemerintah menggunakan bahasa yang mudah dipahami rekan ASN.'",
+      "icon": "📜"
+     }
+    ],
+    "note": "Selalu gunakan portal resmi instansi dan patuhi ketentuan yang berlaku mengenai tata naskah dinas.",
+    "cta": "Simpan postingan ini agar tidak lupa, Rekan ASN!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Di era SPBE dan transformasi digital saat ini, keamanan data kantor dan TTE adalah hal utama. Jangan sampai dokumen penting bocor karena kurang waspada! Berikut adalah contekan prompt AI praktis untuk membantu Rekan ASN menganalisis potensi celah keamanan dokumen dan memahami regulasi TTE dengan cepat. Yuk, tingkatkan kompetensi digital demi pelayanan publik yang aman dan tepercaya. SIMPAN postingan ini dan BAGIKAN ke grup WhatsApp kantor!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — Paket Kantor — Rp749.000 (10 perangkat). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#DigitalisasiASN",
+     "#SobatDesa",
+     "#TTEBSrE",
+     "#KeamananData",
+     "#SPBE",
+     "#ASNMelekDigital"
+    ],
+    "_qc": {
+     "issues": [
+      "Memperbaiki sapaan 'Cicilia' pada caption menjadi lebih netral sesuai peran Kaka Agus.",
+      "Memastikan seluruh teks di setiap slide berada di bawah batas 45 kata."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11201205/slide_01.jpg",
+    "public/11201205/slide_02.jpg",
+    "public/11201205/slide_03.jpg",
+    "public/11201205/slide_04.jpg",
+    "public/11201205/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-20T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df8pjUXlzy5/",
+    "fb": "https://facebook.com/468307299696116_122225472104589464"
+   },
+   "published_at": "2026-11-20T12:05+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Reels #11200902 dikirim ke Bos",
-   "at": "2026-11-20 09:03"
+   "last": "Draft #11201205 dikirim ke Bos",
+   "at": "2026-11-20 12:05"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-20 09:00"
+   "at": "2026-11-20 12:00"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Naskah Reels: \"Bikin paparan kantor cuma dua menit?\"",
-   "at": "2026-11-20 09:02"
+   "last": "Draft selesai: \"Amankah Data Kantor dan TTE Anda Hari Ini?\"",
+   "at": "2026-11-20 12:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "Cek berita selesai — risiko sedang",
-   "at": "2026-11-20 08:02"
+   "last": "QC selesai — risiko rendah, 2 catatan",
+   "at": "2026-11-20 12:05"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Reels 37 detik siap (gaya navy)",
-   "at": "2026-11-20 09:03"
+   "last": "5 slide gaya berita siap",
+   "at": "2026-11-20 12:05"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11200902 dikirim ke Bos",
-   "at": "2026-11-20 09:04"
+   "last": "Paket TikTok #11201205 dikirim ke Bos",
+   "at": "2026-11-20 12:06"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-20 09:00"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-20 12:00"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -3050,6 +3130,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-20 12:06",
+   "agent": "humas",
+   "msg": "Paket TikTok #11201205 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 12:05",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11201205..."
+  },
+  {
+   "at": "2026-11-20 12:05",
+   "agent": "humas",
+   "msg": "#11201205 → ig, fb"
+  },
+  {
+   "at": "2026-11-20 12:05",
+   "agent": "humas",
+   "msg": "Menerbitkan #11201205 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-20 12:05",
+   "agent": "kepala",
+   "msg": "Draft #11201205 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 12:05",
+   "agent": "desain",
+   "msg": "5 slide gaya berita siap"
+  },
+  {
+   "at": "2026-11-20 12:05",
+   "agent": "desain",
+   "msg": "Mendesain gaya berita/kanan/grid/chat..."
+  },
+  {
+   "at": "2026-11-20 12:05",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 2 catatan"
+  },
+  {
+   "at": "2026-11-20 12:02",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-20 12:02",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Amankah Data Kantor dan TTE Anda Hari Ini?\""
+  },
+  {
+   "at": "2026-11-20 12:00",
+   "agent": "naskah",
+   "msg": "Menulis carousel: keamanan data & tanda tangan elektronik (TTE/BSrE)"
+  },
+  {
+   "at": "2026-11-20 12:00",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-20 12:00",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-20 12:00",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-20 12:00",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-20 12:00",
+   "agent": "kepala",
+   "msg": "Jadwal 12:00 WIT: carousel asn"
+  },
   {
    "at": "2026-11-20 09:04",
    "agent": "humas",
@@ -3269,107 +3429,16 @@
    "at": "2026-11-20 06:30",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-20 06:30",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-20 06:30",
-   "agent": "kepala",
-   "msg": "Jadwal 06:30 WIT: carousel asn"
-  },
-  {
-   "at": "2026-11-20 04:15",
-   "agent": "kepala",
-   "msg": "Draft #11200415 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 04:15",
-   "agent": "desain",
-   "msg": "5 slide gaya ungu siap"
-  },
-  {
-   "at": "2026-11-20 04:15",
-   "agent": "desain",
-   "msg": "Mendesain gaya ungu/kanan/grid/chat..."
-  },
-  {
-   "at": "2026-11-20 04:15",
-   "agent": "qc",
-   "msg": "QC selesai — risiko tinggi, 3 catatan"
-  },
-  {
-   "at": "2026-11-20 04:15",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-20 04:15",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Desa Digital Bukan Sekadar Website, Ini Kuncinya!\""
-  },
-  {
-   "at": "2026-11-20 04:13",
-   "agent": "naskah",
-   "msg": "Menulis carousel: perencanaan RPJMDes, RKPDes, APBDes, Siskeudes"
-  },
-  {
-   "at": "2026-11-20 04:13",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-20 04:13",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-20 04:13",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-20 04:13",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-20 04:13",
-   "agent": "kepala",
-   "msg": "Jadwal 20:00 WIT: carousel desa"
-  },
-  {
-   "at": "2026-11-20 03:29",
-   "agent": "humas",
-   "msg": "Paket TikTok #11200327 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 03:29",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11200327..."
   }
  ],
  "stats": {
-  "published": 35,
-  "drafts": 40
+  "published": 36,
+  "drafts": 41
  },
- "updated": "2026-11-20T11:28+09:00",
- "cuan_rot": 33,
+ "updated": "2026-11-20T12:06+09:00",
+ "cuan_rot": 34,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "semangat",
-   "theme": "merah",
-   "cover": "kiri",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "semangat__tangan_mengepal",
-   "flip": false,
-   "cta": "badan"
-  },
   {
    "mood": "cemberut",
    "expr": "cemberut",
@@ -3578,6 +3647,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "tegas",
+   "expr": "cemberut",
+   "theme": "berita",
+   "cover": "kanan",
+   "list": "grid",
+   "detail": "chat",
+   "pose": "tegas__cemberut_tangan_di_pinggang",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
@@ -3615,7 +3695,8 @@
   "Desa Digital Bukan Sekadar Website, Ini Kuncinya!",
   "Tools Digital Gratis Bikin Kerja ASN Sat-Set",
   "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
-  "Bikin paparan kantor cuma dua menit?"
+  "Bikin paparan kantor cuma dua menit?",
+  "Amankah Data Kantor dan TTE Anda Hari Ini?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -3771,12 +3852,17 @@
     "did": "11200902",
     "status": "proses",
     "at": "2026-11-20T09:03+09:00"
+   },
+   "3": {
+    "did": "11201205",
+    "status": "proses",
+    "at": "2026-11-20T12:05+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-20",
-  "dibuat": "2026-11-20T11:28+09:00",
+  "dibuat": "2026-11-20T12:06+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -3817,9 +3903,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Contekan Prompt",
     "pilar": "Digitalisasi ASN",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Amankah Data Kantor dan TTE Anda Hari Ini?",
+    "id": "11201205",
+    "status": "terbit",
+    "terbit": "12:05"
    },
    {
     "slot": 4,
