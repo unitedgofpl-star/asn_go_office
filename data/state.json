@@ -2939,26 +2939,84 @@
    },
    "published_at": "2026-11-20T08:02+09:00",
    "errors": []
+  },
+  "11200902": {
+   "id": "11200902",
+   "type": "reels",
+   "status": "published",
+   "created": "2026-11-20T09:03+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "AI untuk membuat bahan paparan, ringkasan regulasi, analisis data",
+   "format": "reels",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin paparan kantor cuma dua menit?",
+    "caption": "Halo Rekan ASN & Sobat Desa! Biar nggak keteteran kejar target SPBE, manfaatkan AI untuk ringkas regulasi, analisis data, dan bikin bahan paparan rapat. Kerja beres, pulang tepat waktu! Yuk simpan video ini dan coba nanti di kantor. Apa kendala tugas kantor kalian minggu ini? Cerita di kolom komentar yuk!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#AsnGoDigitals",
+     "#DigitalisasiAsn",
+     "#PemerintahanDesa",
+     "#Spbe",
+     "#AiUntukKantor"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN & Sobat Desa!",
+      "icon": "👋"
+     },
+     {
+      "text": "Tuntutan SPBE makin tinggi, kerja harus sat-set!",
+      "icon": "⚡"
+     },
+     {
+      "text": "Gunakan AI buat ringkas regulasi tebal sekejap.",
+      "icon": "🤖"
+     },
+     {
+      "text": "Analisis data laporan jadi grafik siap pakai.",
+      "icon": "📊"
+     },
+     {
+      "text": "Bahan paparan rapat selesai tanpa begadang lagi.",
+      "icon": "💼"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11200902/cover.jpg"
+   ],
+   "video": "public/11200902/reels.mp4",
+   "scheduled_at": "2026-11-20T09:03+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/reel/Df8UvL-HO1p/",
+    "fb": "https://facebook.com/1671413974775533"
+   },
+   "published_at": "2026-11-20T09:04+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11200802 dikirim ke Bos",
-   "at": "2026-11-20 08:02"
+   "last": "Reels #11200902 dikirim ke Bos",
+   "at": "2026-11-20 09:03"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"BPJAMSOSTEK Sorong lindungi 14.210 aparat kampung lima kabup\" (1 sumber, 1 foto)",
-   "at": "2026-11-20 08:01"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-20 09:00"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial\"",
-   "at": "2026-11-20 08:02"
+   "last": "Naskah Reels: \"Bikin paparan kantor cuma dua menit?\"",
+   "at": "2026-11-20 09:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -2969,20 +3027,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 2 slide siap",
-   "at": "2026-11-20 08:02"
+   "last": "Reels 37 detik siap (gaya navy)",
+   "at": "2026-11-20 09:03"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11200802 dikirim ke Bos",
-   "at": "2026-11-20 08:03"
+   "last": "Paket TikTok #11200902 dikirim ke Bos",
+   "at": "2026-11-20 09:04"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-20 06:30"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-20 09:00"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -2992,6 +3050,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-20 09:04",
+   "agent": "humas",
+   "msg": "Paket TikTok #11200902 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 09:04",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11200902..."
+  },
+  {
+   "at": "2026-11-20 09:04",
+   "agent": "humas",
+   "msg": "#11200902 → ig, fb"
+  },
+  {
+   "at": "2026-11-20 09:03",
+   "agent": "humas",
+   "msg": "Menerbitkan #11200902 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-20 09:03",
+   "agent": "kepala",
+   "msg": "Reels #11200902 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-20 09:03",
+   "agent": "desain",
+   "msg": "Reels 37 detik siap (gaya navy)"
+  },
+  {
+   "at": "2026-11-20 09:02",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-20 09:02",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya navy..."
+  },
+  {
+   "at": "2026-11-20 09:02",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"Bikin paparan kantor cuma dua menit?\""
+  },
+  {
+   "at": "2026-11-20 09:00",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: AI untuk membuat bahan paparan, ringkasan reg"
+  },
+  {
+   "at": "2026-11-20 09:00",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-20 09:00",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-20 09:00",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-20 09:00",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-20 09:00",
+   "agent": "kepala",
+   "msg": "Jadwal 09:00 WIT: reels ai"
+  },
   {
    "at": "2026-11-20 08:03",
    "agent": "humas",
@@ -3216,102 +3349,16 @@
    "at": "2026-11-20 03:29",
    "agent": "humas",
    "msg": "Menyiapkan paket TikTok #11200327..."
-  },
-  {
-   "at": "2026-11-20 03:29",
-   "agent": "humas",
-   "msg": "#11200327 → ig, fb"
-  },
-  {
-   "at": "2026-11-20 03:28",
-   "agent": "humas",
-   "msg": "Menerbitkan #11200327 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-20 03:28",
-   "agent": "kepala",
-   "msg": "Reels #11200327 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 03:28",
-   "agent": "desain",
-   "msg": "Reels 54 detik siap (gaya berita)"
-  },
-  {
-   "at": "2026-11-20 03:27",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-20 03:27",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya berita..."
-  },
-  {
-   "at": "2026-11-20 03:27",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Dokumen desa bocor? Waspada link palsu, Rekan!\""
-  },
-  {
-   "at": "2026-11-20 03:25",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: keamanan data & tanda tangan elektronik (TTE/"
-  },
-  {
-   "at": "2026-11-20 03:25",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-20 03:25",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-20 03:25",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-20 03:25",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-20 03:25",
-   "agent": "kepala",
-   "msg": "Jadwal 18:30 WIT: reels asn"
-  },
-  {
-   "at": "2026-11-20 01:52",
-   "agent": "humas",
-   "msg": "Paket TikTok #11200151 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-20 01:52",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11200151..."
   }
  ],
  "stats": {
-  "published": 34,
-  "drafts": 39
+  "published": 35,
+  "drafts": 40
  },
- "updated": "2026-11-20T08:03+09:00",
- "cuan_rot": 32,
+ "updated": "2026-11-20T09:04+09:00",
+ "cuan_rot": 33,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "semangat",
-   "theme": "kertas",
-   "cover": "angka",
-   "list": "timeline",
-   "detail": "angka",
-   "pose": "semangat__tangan_mengepal",
-   "flip": false,
-   "cta": "badan"
-  },
   {
    "mood": "semangat",
    "expr": "semangat",
@@ -3520,6 +3567,17 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "navy",
+   "cover": "potret",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
@@ -3556,7 +3614,8 @@
   "Dokumen desa bocor? Waspada link palsu, Rekan!",
   "Desa Digital Bukan Sekadar Website, Ini Kuncinya!",
   "Tools Digital Gratis Bikin Kerja ASN Sat-Set",
-  "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial"
+  "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
+  "Bikin paparan kantor cuma dua menit?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -3707,12 +3766,17 @@
     "did": "11200802",
     "status": "proses",
     "at": "2026-11-20T08:02+09:00"
+   },
+   "2": {
+    "did": "11200902",
+    "status": "proses",
+    "at": "2026-11-20T09:03+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-20",
-  "dibuat": "2026-11-20T08:03+09:00",
+  "dibuat": "2026-11-20T09:04+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -3742,9 +3806,10 @@
     "tipe": "reels",
     "jenis": "Reels",
     "pilar": "AI untuk Kerja Kantor",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin paparan kantor cuma dua menit?",
+    "id": "11200902",
+    "status": "terbit",
+    "terbit": "09:04"
    },
    {
     "slot": 3,
@@ -3754,7 +3819,7 @@
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 4,
