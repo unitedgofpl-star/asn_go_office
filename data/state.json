@@ -3451,44 +3451,89 @@
    },
    "published_at": "2026-11-21T06:32+09:00",
    "errors": []
+  },
+  "11210803": {
+   "id": "11210803",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-21T08:03+09:00",
+   "pillar": "PEMERINTAHAN DESA",
+   "topic": "Mendes: Dana desa untuk KDKMP akan jadi aset desa",
+   "format": "berita",
+   "content": {
+    "hook": "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih",
+    "caption": "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih\n\nMenteri Desa dan Pembangunan Daerah Tertinggal Yandri Susanto memberikan penjelasan terkait alokasi anggaran untuk Koperasi Desa/Kelurahan Merah Putih. Ia menegaskan bahwa dana tersebut tidak ditarik oleh pemerintah pusat, melainkan akan sepenuhnya menjadi aset milik desa. Kebijakan ini dirancang untuk memperkuat infrastruktur pendukung kegiatan usaha sekaligus menggerakkan perekonomian warga di perdesaan. Terkait adanya permohonan pengujian undang-undang di Mahkamah Konstitusi, pihak kementerian menyatakan sikap menghormati proses hukum yang berjalan sambil terus berkoordinasi dengan berbagai asosiasi desa.\n\n💡 Artinya bagi kita: Perangkat desa perlu memahami aturan alokasi anggaran dan perkembangan regulasi terkait program koperasi di tingkat lokal.\n\n📰 Sumber:\n• ANTARA News: https://www.antaranews.com/berita/5868351/mendes-dana-desa-untuk-kdkmp-akan-jadi-aset-desa\n📷 Foto: ANTARA News\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#PemerintahanDesa",
+     "#DanaDesa",
+     "#KoperasiDesa",
+     "#SobatDesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus nomor perkara 399/PUU-XXIV/2026, tanggal 16/11, dan nama-nama spesifik pemohon dari Klaten karena terpotong di sumber dan tidak lengkap diverifikasi."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih. Mendes PDT pastikan alokasi dana desa untuk koperasi sepenuhnya menjadi aset desa.",
+     "Poin pentingnya. Menteri Desa dan Pembangunan Daerah Tertinggal Yandri Susanto menegaskan dana desa untuk Koperasi Desa/Kelurahan Merah Putih tidak diambil pusat dan sepenuhnya jadi aset desa.. Kebijakan ini bertujuan memperkuat infrastruktur usaha serta menggerakkan perekonomian masyarakat perdesaan.. Kementerian berkoordinasi dengan sejumlah asosiasi desa dan menyatakan para kepala desa yang ditemui tidak menyampaikan keberatan.. Kementerian menghormati proses pengujian undang-undang terkait kebijakan ini yang sedang berjalan di Mahkamah Konstitusi.. Perangkat desa perlu memahami aturan alokasi anggaran dan perkembangan regulasi terkait program koperasi di tingkat lokal. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11210803/slide_01.jpg",
+    "public/11210803/slide_02.jpg"
+   ],
+   "sources": [
+    "https://www.antaranews.com/berita/5868351/mendes-dana-desa-untuk-kdkmp-akan-jadi-aset-desa"
+   ],
+   "scheduled_at": "2026-11-21T08:03+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/Df-yokQF0-s/",
+    "fb": "https://facebook.com/468307299696116_122225589494589464"
+   },
+   "published_at": "2026-11-21T08:03+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11210631 dikirim ke Bos",
-   "at": "2026-11-21 06:31"
+   "last": "Berita #11210803 dikirim ke Bos",
+   "at": "2026-11-21 08:03"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-21 06:31"
+   "last": "Berita: \"Mendes: Dana desa untuk KDKMP akan jadi aset desa\" (1 sumber, 1 foto)",
+   "at": "2026-11-21 08:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"5 Langkah Bikin Dokumen Dinas Sat-Set Pakai AI\"",
-   "at": "2026-11-21 06:31"
+   "last": "Rangkuman: \"Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih\"",
+   "at": "2026-11-21 08:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 1 catatan",
-   "at": "2026-11-21 06:31"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-21 08:03"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "7 slide gaya navy siap",
-   "at": "2026-11-21 06:31"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-21 08:03"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11210631 dikirim ke Bos",
-   "at": "2026-11-21 06:34"
+   "last": "Paket TikTok #11210803 dikirim ke Bos",
+   "at": "2026-11-21 08:04"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -3504,6 +3549,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-21 08:04",
+   "agent": "humas",
+   "msg": "Paket TikTok #11210803 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-21 08:03",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11210803..."
+  },
+  {
+   "at": "2026-11-21 08:03",
+   "agent": "humas",
+   "msg": "#11210803 → ig, fb"
+  },
+  {
+   "at": "2026-11-21 08:03",
+   "agent": "humas",
+   "msg": "Menerbitkan #11210803 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-21 08:03",
+   "agent": "kepala",
+   "msg": "Berita #11210803 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-21 08:03",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-21 08:03",
+   "agent": "desain",
+   "msg": "Mendesain berita (1 foto)..."
+  },
+  {
+   "at": "2026-11-21 08:03",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-21 08:02",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-21 08:02",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih\""
+  },
+  {
+   "at": "2026-11-21 08:01",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-21 08:01",
+   "agent": "riset",
+   "msg": "Berita: \"Mendes: Dana desa untuk KDKMP akan jadi aset desa\" (1 sumber, 1 foto)"
+  },
+  {
+   "at": "2026-11-21 08:00",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-21 08:00",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-21 08:00",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita asn"
+  },
   {
    "at": "2026-11-21 06:34",
    "agent": "humas",
@@ -3728,88 +3848,13 @@
    "at": "2026-11-21 02:55",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-21 02:55",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-21 02:55",
-   "agent": "kepala",
-   "msg": "Jadwal 18:30 WIT: reels ai"
-  },
-  {
-   "at": "2026-11-21 01:25",
-   "agent": "humas",
-   "msg": "Paket TikTok #11210124 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-21 01:24",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11210124..."
-  },
-  {
-   "at": "2026-11-21 01:24",
-   "agent": "humas",
-   "msg": "#11210124 → ig, fb"
-  },
-  {
-   "at": "2026-11-21 01:24",
-   "agent": "humas",
-   "msg": "Menerbitkan #11210124 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-21 01:24",
-   "agent": "kepala",
-   "msg": "Berita #11210124 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-21 01:24",
-   "agent": "desain",
-   "msg": "Berita 6 slide siap"
-  },
-  {
-   "at": "2026-11-21 01:24",
-   "agent": "desain",
-   "msg": "Mendesain berita (6 foto)..."
-  },
-  {
-   "at": "2026-11-21 01:24",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko sedang"
-  },
-  {
-   "at": "2026-11-21 01:23",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-21 01:23",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Pemkab Banyuwangi Raih Juara Satu Smart City Forum\""
-  },
-  {
-   "at": "2026-11-21 01:23",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 1 sumber..."
-  },
-  {
-   "at": "2026-11-21 01:23",
-   "agent": "riset",
-   "msg": "Berita: \"Pemkab Banyuwangi juara satu ajang Forum Kota Cerdas Komdigi\" (1 sumber, 6 foto)"
-  },
-  {
-   "at": "2026-11-21 01:22",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
   }
  ],
  "stats": {
-  "published": 41,
-  "drafts": 46
+  "published": 42,
+  "drafts": 47
  },
- "updated": "2026-11-21T06:34+09:00",
+ "updated": "2026-11-21T08:04+09:00",
  "cuan_rot": 38,
  "last_followers": 130,
  "style_hist": [
@@ -4035,7 +4080,6 @@
   }
  ],
  "recent_hooks": [
-  "Biar Absen Gak Bolong, Yuk Disiplin Pakai AI!",
   "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!",
   "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap",
   "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027",
@@ -4074,7 +4118,8 @@
   "Pemkab Banyuwangi Raih Juara Satu Smart City Forum",
   "Birokrasi digital makin ketat, yuk siap-siap!",
   "Kerja Kantor Sat-Set Pakai Aplikasi Gratis Ini",
-  "Langkah Bikin Dokumen Dinas Cepat Pakai AI"
+  "Langkah Bikin Dokumen Dinas Cepat Pakai AI",
+  "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -4093,7 +4138,9 @@
   "bpjamsostek sorong lindungi 14 210 aparat kampung lima kabup",
   "bpjs ketenagakerjaan lindungi 14 200 aparatur kampung di pap",
   "banyuwangi raih juara i smart society di ajang smart city fo",
-  "pemkab banyuwangi juara satu ajang forum kota cerdas komdigi"
+  "pemkab banyuwangi juara satu ajang forum kota cerdas komdigi",
+  "mendes  dana desa untuk kdkmp akan jadi aset desa",
+  "mendes  dana desa untuk kdkmp akan jadi aset desa"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -4264,12 +4311,17 @@
     "did": "11210631",
     "status": "proses",
     "at": "2026-11-21T06:31+09:00"
+   },
+   "1": {
+    "did": "11210803",
+    "status": "proses",
+    "at": "2026-11-21T08:03+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-21",
-  "dibuat": "2026-11-21T06:34+09:00",
+  "dibuat": "2026-11-21T08:04+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -4288,9 +4340,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih",
+    "id": "11210803",
+    "status": "terbit",
+    "terbit": "08:03"
    },
    {
     "slot": 2,
@@ -4300,7 +4353,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
