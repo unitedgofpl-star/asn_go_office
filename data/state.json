@@ -3849,50 +3849,154 @@
    },
    "published_at": "2026-11-22T02:50+09:00",
    "errors": []
+  },
+  "11220633": {
+   "id": "11220633",
+   "status": "published",
+   "created": "2026-11-22T06:33+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "digitalisasi layanan desa, website desa, Prodeskel/IDM",
+   "format": "carousel_prompt",
+   "product": "naskah",
+   "content": {
+    "hook": "5 Contekan Prompt AI Bikin Layanan Desa Sat-Set",
+    "subtitle": "Salin prompt ini untuk update website, IDM, dan Prodeskel tanpa pusing",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Narasi Berita Website Desa",
+      "sub": "Bikin artikel kegiatan desa siap tayang",
+      "icon": "🌐"
+     },
+     {
+      "title": "Analisis Data Indikator IDM",
+      "sub": "Temukan prioritas peningkatan status desa",
+      "icon": "📊"
+     },
+     {
+      "title": "Resume Profil Data Prodeskel",
+      "sub": "Rangkum potensi dan perkembangan desa",
+      "icon": "📑"
+     },
+     {
+      "title": "Draf Pengumuman Layanan Warga",
+      "sub": "Informasi syarat administrasi cepat dipahami",
+      "icon": "📢"
+     },
+     {
+      "title": "Panduan Alur Pengajuan Surat",
+      "sub": "SOP layanan digital mudah dibaca",
+      "icon": "📝"
+     }
+    ],
+    "details": [
+     {
+      "title": "Narasi Berita Website Desa",
+      "body": "Prompt: \"Bertindaklah sebagai admin website desa. Buatkan draf artikel berita 250 kata tentang kegiatan [nama kegiatan], dihadiri [tokoh], dengan gaya bahasa informatif, ramah warga, dan ajakan gotong royong memajukan desa.\"",
+      "icon": "🌐"
+     },
+     {
+      "title": "Analisis Data Indikator IDM",
+      "body": "Prompt: \"Analisis data skor IDM desa kami: IKS [nilai], IKE [nilai], IKL [nilai]. Buatkan rekomendasi prioritas program kerja desa untuk menaikkan status desa secara terstruktur dan realistis.\"",
+      "icon": "📊"
+     },
+     {
+      "title": "Resume Profil Data Prodeskel",
+      "body": "Prompt: \"Rangkum data potensi desa dari Prodeskel berikut menjadi ringkasan eksekutif 3 paragraf yang menonjolkan sektor pertanian, UMKM, dan kependudukan untuk paparan musdes: [masukkan data agregat tanpa data pribadi warga].\"",
+      "icon": "📑"
+     },
+     {
+      "title": "Draf Pengumuman Layanan Warga",
+      "body": "Prompt: \"Tuliskan draf pesan siaran WhatsApp yang ramah dan jelas mengenai alur serta syarat pembuatan Surat Keterangan Usaha (SKU) desa agar warga paham tanpa perlu bolak-balik ke kantor desa.\"",
+      "icon": "📢"
+     },
+     {
+      "title": "Panduan Alur Pengajuan Surat",
+      "body": "Prompt: \"Susun draf panduan alur pengajuan surat administrasi desa dalam bentuk poin langkah berurutan yang ringkas, mudah dipahami warga lansia, serta memuat estimasi waktu pelayanan.\"",
+      "icon": "📝"
+     }
+    ],
+    "note": "Patuhi kerahasiaan data: Jangan pernah memasukkan NIK, nama lengkap, atau data pribadi warga ke platform AI publik.",
+    "cta": "Simpan contekan ini dan coba terapkan langsung di kantor desa besok!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Operator desa sering keteteran bikin rilis website atau rekap data?\n\nTenang, era AI bukan buat bikin kita tersingkir, tapi bikin kerjaan kita jauh lebih ringan dan sat-set. Kamu nggak perlu pusing merangkai kata dari nol saat update portal desa, analisis indikator IDM, maupun bikin pengumuman layanan administrasi.\n\nCukup salin prompt di postingan ini, sesuaikan bagian dalam tanda kurung siku, dan biarkan AI menyusun draf awalnya. Tetap cek dan sesuaikan dengan regulasi serta kondisi riil desamu, ya!\n\nIngat, utamakan keamanan data pribadi warga. Jangan pernah mengunggah data kependudukan sensitif ke AI publik.\n\nJangan lupa SIMPAN postingan ini dan BAGIKAN ke rekan perangkat desa lainnya. Urusan administrasi desa mana yang paling sering bikin lembur? Yuk diskusi di komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#PemerintahanDesa",
+     "#DigitalisasiDesa",
+     "#OperatorDesa",
+     "#ASNGoDigital",
+     "#WebsiteDesa",
+     "#SmartVillage"
+    ],
+    "_qc": {
+     "issues": [
+      "Jumlah objek pada 'details' (4 item) tidak sinkron dengan 'items' (5 item); detail untuk 'Panduan Alur Pengajuan Surat' belum ada.",
+      "Penggunaan kata 'Draft' pada judul item ke-4 belum sesuai EYD (seharusnya 'Draf').",
+      "Perlu penegasan pada prompt Prodeskel agar perangkat desa hanya menginput data agregat/umum dan tidak memasukkan data pribadi warga (NIK/nama) ke platform AI publik sesuai prinsip perlindungan data pribadi (UU PDP)."
+     ],
+     "risk": "sedang"
+    }
+   },
+   "images": [
+    "public/11220633/slide_01.jpg",
+    "public/11220633/slide_02.jpg",
+    "public/11220633/slide_03.jpg",
+    "public/11220633/slide_04.jpg",
+    "public/11220633/slide_05.jpg",
+    "public/11220633/slide_06.jpg",
+    "public/11220633/slide_07.jpg",
+    "public/11220633/slide_08.jpg"
+   ],
+   "scheduled_at": "2026-11-22T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgBNOtbjYPa/",
+    "fb": "https://facebook.com/468307299696116_122225740382589464"
+   },
+   "published_at": "2026-11-22T06:34+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11220249 dikirim ke Bos",
-   "at": "2026-11-22 02:50"
+   "last": "Draft #11220633 dikirim ke Bos",
+   "at": "2026-11-22 06:33"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-22 02:47"
+   "at": "2026-11-22 06:30"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"5 Aturan Emas Pakai AI Agar Data Kantor Aman\"",
-   "at": "2026-11-22 02:48"
+   "last": "Draft selesai: \"5 Contekan Prompt AI Bikin Layanan Desa Sat-Set\"",
+   "at": "2026-11-22 06:32"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-22 02:49"
+   "last": "QC selesai — risiko sedang, 3 catatan",
+   "at": "2026-11-22 06:33"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya berita siap",
-   "at": "2026-11-22 02:49"
+   "last": "8 slide gaya kertas siap",
+   "at": "2026-11-22 06:33"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11220249 dikirim ke Bos",
-   "at": "2026-11-22 02:51"
+   "last": "Paket TikTok #11220633 dikirim ke Bos",
+   "at": "2026-11-22 06:36"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-22 02:47"
+   "at": "2026-11-22 06:30"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -3902,6 +4006,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-22 06:36",
+   "agent": "humas",
+   "msg": "Paket TikTok #11220633 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-22 06:34",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11220633..."
+  },
+  {
+   "at": "2026-11-22 06:34",
+   "agent": "humas",
+   "msg": "#11220633 → ig, fb"
+  },
+  {
+   "at": "2026-11-22 06:33",
+   "agent": "humas",
+   "msg": "Menerbitkan #11220633 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-22 06:33",
+   "agent": "kepala",
+   "msg": "Draft #11220633 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-22 06:33",
+   "agent": "desain",
+   "msg": "8 slide gaya kertas siap"
+  },
+  {
+   "at": "2026-11-22 06:33",
+   "agent": "desain",
+   "msg": "Mendesain gaya kertas/kanan/grid/chat..."
+  },
+  {
+   "at": "2026-11-22 06:33",
+   "agent": "qc",
+   "msg": "QC selesai — risiko sedang, 3 catatan"
+  },
+  {
+   "at": "2026-11-22 06:32",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-22 06:32",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"5 Contekan Prompt AI Bikin Layanan Desa Sat-Set\""
+  },
+  {
+   "at": "2026-11-22 06:30",
+   "agent": "naskah",
+   "msg": "Menulis carousel: digitalisasi layanan desa, website desa, Prodeskel"
+  },
+  {
+   "at": "2026-11-22 06:30",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-22 06:30",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-22 06:30",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-22 06:30",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-22 06:30",
+   "agent": "kepala",
+   "msg": "Jadwal 06:30 WIT: carousel desa"
+  },
   {
    "at": "2026-11-22 02:51",
    "agent": "humas",
@@ -4121,107 +4305,16 @@
    "at": "2026-11-22 00:37",
    "agent": "riset",
    "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-22 00:37",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-22 00:37",
-   "agent": "kepala",
-   "msg": "Jadwal 17:00 WIT: berita asn"
-  },
-  {
-   "at": "2026-11-21 12:04",
-   "agent": "humas",
-   "msg": "Paket TikTok #11211202 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-21 12:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11211202..."
-  },
-  {
-   "at": "2026-11-21 12:03",
-   "agent": "humas",
-   "msg": "#11211202 → ig, fb"
-  },
-  {
-   "at": "2026-11-21 12:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11211202 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-21 12:02",
-   "agent": "kepala",
-   "msg": "Draft #11211202 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-21 12:02",
-   "agent": "desain",
-   "msg": "6 slide gaya ungu siap"
-  },
-  {
-   "at": "2026-11-21 12:02",
-   "agent": "desain",
-   "msg": "Mendesain gaya ungu/potret/timeline/angka..."
-  },
-  {
-   "at": "2026-11-21 12:02",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 2 catatan"
-  },
-  {
-   "at": "2026-11-21 12:02",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-21 12:02",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Pekerjaan Rutin Kantor Bisa Selesai Pakai AI?\""
-  },
-  {
-   "at": "2026-11-21 12:01",
-   "agent": "naskah",
-   "msg": "Menulis carousel: AI untuk membuat bahan paparan, ringkasan regulasi"
-  },
-  {
-   "at": "2026-11-21 12:01",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-21 12:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-21 12:01",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
-  "published": 47,
-  "drafts": 52
+  "published": 48,
+  "drafts": 53
  },
- "updated": "2026-11-22T02:51+09:00",
- "cuan_rot": 42,
+ "updated": "2026-11-22T06:36+09:00",
+ "cuan_rot": 43,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "gembira",
-   "theme": "kertas",
-   "cover": "kiri",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "semangat__tangan_mengepal",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "semangat",
@@ -4430,10 +4523,20 @@
    "pose": "tegas__cemberut_tangan_di_pinggang",
    "flip": false,
    "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "kertas",
+   "cover": "kanan",
+   "list": "grid",
+   "detail": "chat",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Bikin paparan kantor cuma dalam hitungan detik?",
   "5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP",
   "SKP MyASN numpuk? Beresin pakai trik ini!",
   "Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?",
@@ -4472,7 +4575,8 @@
   "Pekerjaan Rutin Kantor Bisa Selesai Pakai AI?",
   "Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif",
   "Laporan BUMDes ribet? Bikin kelar dalam hitungan menit!",
-  "Aturan Emas Pakai AI Agar Data Kantor Aman"
+  "Aturan Emas Pakai AI Agar Data Kantor Aman",
+  "5 Contekan Prompt AI Bikin Layanan Desa Sat-Set"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -4698,12 +4802,17 @@
     "did": "11220249",
     "status": "proses",
     "at": "2026-11-22T02:50+09:00"
+   },
+   "0": {
+    "did": "11220633",
+    "status": "proses",
+    "at": "2026-11-22T06:33+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-22",
-  "dibuat": "2026-11-22T02:51+09:00",
+  "dibuat": "2026-11-22T06:36+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -4711,9 +4820,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Contekan Prompt",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "5 Contekan Prompt AI Bikin Layanan Desa Sat-Set",
+    "id": "11220633",
+    "status": "terbit",
+    "terbit": "06:34"
    },
    {
     "slot": 1,
@@ -4723,7 +4833,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 2,
