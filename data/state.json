@@ -3953,44 +3953,94 @@
    },
    "published_at": "2026-11-22T06:34+09:00",
    "errors": []
+  },
+  "11220802": {
+   "id": "11220802",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-22T08:02+09:00",
+   "pillar": "ASN",
+   "topic": "Beredar Draf PP Pengadaan Khusus PNS Jabatan Pol PP, Fadlun: Semuanya Harus Diakomodasi | Page 2",
+   "format": "berita",
+   "content": {
+    "hook": "Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP",
+    "caption": "Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP\n\n\n\n📰 Sumber:\n• JPNN.com: https://m.jpnn.com/news/beredar-draf-pp-pengadaan-khusus-pns-jabatan-pol-pp-fadlun-semuanya-harus-diakomodasi?page=2\n• JPNN.com: https://www.jpnn.com/news/beredar-draf-pp-pengadaan-khusus-pns-jabatan-pol-pp-fadlun-semuanya-harus-diakomodasi\n📷 Foto: JPNN.com\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#RekanASN",
+     "#SatpolPP",
+     "#PengadaanPNS",
+     "#InfoASN",
+     "#ASNIndonesia"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus referensi slide foto yang tidak ada dalam sumber.",
+      "Menghapus bagian dampak yang tidak memiliki rujukan langsung pada sumber.",
+      "Menghapus caption yang terlalu panjang dan menyalin detail narasi luar.",
+      "Menyesuaikan daftar poin dan judul agar selaras sepenuhnya dengan sumber."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP. Beredarnya draf pengadaan khusus PNS Pol PP menuai sorotan terkait cakupan jabatan fungsional.",
+     "Poin pentingnya. Beredar draf aturan mengenai pengadaan khusus PNS untuk formasi Pol PP.. Ketum FKBPPPN Fadlun Abdillah menyoroti isi draf yang dinilai belum merangkul semua posisi.. Draf yang beredar dinilai hanya memuat bagian tertentu dan memicu keresahan. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11220802/slide_01.jpg",
+    "public/11220802/slide_02.jpg"
+   ],
+   "sources": [
+    "https://m.jpnn.com/news/beredar-draf-pp-pengadaan-khusus-pns-jabatan-pol-pp-fadlun-semuanya-harus-diakomodasi?page=2",
+    "https://www.jpnn.com/news/beredar-draf-pp-pengadaan-khusus-pns-jabatan-pol-pp-fadlun-semuanya-harus-diakomodasi"
+   ],
+   "scheduled_at": "2026-11-22T08:02+09:00",
+   "published": {
+    "fb": "https://facebook.com/468307299696116_122225747900589464"
+   },
+   "published_at": "2026-11-22T08:03+09:00",
+   "errors": [
+    "IG: Meta API: Timeout"
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11220633 dikirim ke Bos",
-   "at": "2026-11-22 06:33"
+   "last": "Berita #11220802 dikirim ke Bos",
+   "at": "2026-11-22 08:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-22 06:30"
+   "last": "Berita: \"Beredar Draf PP Pengadaan Khusus PNS Jabatan Pol PP, Fadlun:\" (2 sumber, 1 foto)",
+   "at": "2026-11-22 08:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"5 Contekan Prompt AI Bikin Layanan Desa Sat-Set\"",
-   "at": "2026-11-22 06:32"
+   "last": "Rangkuman: \"Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP\"",
+   "at": "2026-11-22 08:01"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 3 catatan",
-   "at": "2026-11-22 06:33"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-22 08:02"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "8 slide gaya kertas siap",
-   "at": "2026-11-22 06:33"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-22 08:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11220633 dikirim ke Bos",
-   "at": "2026-11-22 06:36"
+   "last": "Paket TikTok #11220802 dikirim ke Bos",
+   "at": "2026-11-22 08:03"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -4006,6 +4056,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-22 08:03",
+   "agent": "humas",
+   "msg": "Paket TikTok #11220802 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-22 08:03",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11220802..."
+  },
+  {
+   "at": "2026-11-22 08:03",
+   "agent": "humas",
+   "msg": "#11220802 → fb"
+  },
+  {
+   "at": "2026-11-22 08:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11220802 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-22 08:02",
+   "agent": "kepala",
+   "msg": "Berita #11220802 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-22 08:02",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-22 08:02",
+   "agent": "desain",
+   "msg": "Mendesain berita (1 foto)..."
+  },
+  {
+   "at": "2026-11-22 08:02",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-22 08:01",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-22 08:01",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP\""
+  },
+  {
+   "at": "2026-11-22 08:01",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 2 sumber..."
+  },
+  {
+   "at": "2026-11-22 08:01",
+   "agent": "riset",
+   "msg": "Berita: \"Beredar Draf PP Pengadaan Khusus PNS Jabatan Pol PP, Fadlun:\" (2 sumber, 1 foto)"
+  },
+  {
+   "at": "2026-11-22 08:01",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-22 08:01",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-22 08:01",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita ai"
+  },
   {
    "at": "2026-11-22 06:36",
    "agent": "humas",
@@ -4230,88 +4355,13 @@
    "at": "2026-11-22 01:52",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-22 01:52",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-22 01:52",
-   "agent": "kepala",
-   "msg": "Jadwal 18:30 WIT: reels desa"
-  },
-  {
-   "at": "2026-11-22 00:40",
-   "agent": "humas",
-   "msg": "Paket TikTok #11220038 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-22 00:39",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11220038..."
-  },
-  {
-   "at": "2026-11-22 00:39",
-   "agent": "humas",
-   "msg": "#11220038 → ig, fb"
-  },
-  {
-   "at": "2026-11-22 00:38",
-   "agent": "humas",
-   "msg": "Menerbitkan #11220038 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-22 00:38",
-   "agent": "kepala",
-   "msg": "Berita #11220038 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-22 00:38",
-   "agent": "desain",
-   "msg": "Berita 4 slide siap"
-  },
-  {
-   "at": "2026-11-22 00:38",
-   "agent": "desain",
-   "msg": "Mendesain berita (4 foto)..."
-  },
-  {
-   "at": "2026-11-22 00:38",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko rendah"
-  },
-  {
-   "at": "2026-11-22 00:37",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-22 00:37",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif\""
-  },
-  {
-   "at": "2026-11-22 00:37",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 2 sumber..."
-  },
-  {
-   "at": "2026-11-22 00:37",
-   "agent": "riset",
-   "msg": "Berita: \"Berita Kini - Tampung Aspirasi Kurir Online, Meutya Hafid: P\" (2 sumber, 4 foto)"
-  },
-  {
-   "at": "2026-11-22 00:37",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
   }
  ],
  "stats": {
-  "published": 48,
-  "drafts": 53
+  "published": 49,
+  "drafts": 54
  },
- "updated": "2026-11-22T06:36+09:00",
+ "updated": "2026-11-22T08:03+09:00",
  "cuan_rot": 43,
  "last_followers": 130,
  "style_hist": [
@@ -4537,7 +4587,6 @@
   }
  ],
  "recent_hooks": [
-  "5 Langkah Bikin Meja Pelayanan Desa Secanggih MPP",
   "SKP MyASN numpuk? Beresin pakai trik ini!",
   "Pusing Gempuran Aplikasi Digital Bikin Laporan Desa Keteteran?",
   "Kerja ASN Makin Sat-Set dengan AI Anti-Lembur",
@@ -4576,7 +4625,8 @@
   "Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif",
   "Laporan BUMDes ribet? Bikin kelar dalam hitungan menit!",
   "Aturan Emas Pakai AI Agar Data Kantor Aman",
-  "5 Contekan Prompt AI Bikin Layanan Desa Sat-Set"
+  "5 Contekan Prompt AI Bikin Layanan Desa Sat-Set",
+  "Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -4599,7 +4649,9 @@
   "mendes  dana desa untuk kdkmp akan jadi aset desa",
   "mendes  dana desa untuk kdkmp akan jadi aset desa",
   "tampung aspirasi kurir online  meutya hafid  pertimbangkan b",
-  "komdigi tampung aspirasi kurir online soal pengaturan tarif"
+  "komdigi tampung aspirasi kurir online soal pengaturan tarif",
+  "beredar draf pp pengadaan khusus pns jabatan pol pp  fadlun ",
+  "beredar draf pp pengadaan khusus pns jabatan pol pp  fadlun "
  ],
  "slot_log": {
   "2026-11-17": {
@@ -4807,12 +4859,17 @@
     "did": "11220633",
     "status": "proses",
     "at": "2026-11-22T06:33+09:00"
+   },
+   "1": {
+    "did": "11220802",
+    "status": "proses",
+    "at": "2026-11-22T08:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-22",
-  "dibuat": "2026-11-22T06:36+09:00",
+  "dibuat": "2026-11-22T08:03+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -4831,9 +4888,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP",
+    "id": "11220802",
+    "status": "terbit",
+    "terbit": "08:03"
    },
    {
     "slot": 2,
@@ -4843,7 +4901,7 @@
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
