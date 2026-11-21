@@ -3645,44 +3645,95 @@
    },
    "published_at": "2026-11-21T12:03+09:00",
    "errors": []
+  },
+  "11220038": {
+   "id": "11220038",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-22T00:38+09:00",
+   "pillar": "ASN",
+   "topic": "Berita Kini - Tampung Aspirasi Kurir Online, Meutya Hafid: Pertimbangkan Biaya Risiko hingga Tarif Handling",
+   "format": "berita",
+   "content": {
+    "hook": "Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif",
+    "caption": "Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif\n\nHalo Rekan ASN & Sobat Desa! Kementerian Komunikasi dan Digital tengah mematangkan draf aturan terkait pedoman biaya jasa layanan pengantaran barang dan makanan berbasis aplikasi. Langkah ini diambil usai menerima berbagai aspirasi dari asosiasi pengemudi kurir online. Pemerintah menilai layanan pengantaran barang memiliki karakteristik yang berbeda dibandingkan transportasi penumpang, sehingga memerlukan variabel perhitungan tersendiri. Sejumlah komponen yang masuk dalam kajian meliputi biaya risiko berdasarkan dimensi, berat, dan nilai barang, serta biaya penanganan, penimbangan, hingga biaya tunggu dan parkir di lapangan. Kebijakan ini diharapkan mampu mengakomodasi kondisi riil para kurir sekaligus memberi kepastian bagi seluruh ekosistem layanan digital. Bagaimana pandangan Rekan ASN di wilayah masing-masing mengenai perkembangan regulasi sektor digital ini? Yuk, bagikan pendapat di kolom komentar!\n\n💡 Artinya bagi kita: Menambah wawasan rekan ASN mengenai kebijakan sektoral terbaru yang sedang disiapkan oleh kementerian terkait.\n\n📰 Sumber:\n• Kementerian Komunikasi dan Digital: https://portal.komdigi.go.id/kanal-publik/berita-kini/10725\n• Tirto.id: https://tirto.id/komdigi-tampung-aspirasi-kurir-online-soal-pengaturan-tarif-id38\n📷 Foto: Kementerian Komunikasi dan Digital, Tirto.id\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#asn",
+     "#pemerintah",
+     "#regulasi",
+     "#kebijakanpublik",
+     "#informasipublik"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus nama spesifik asosiasi 'Front Driver Transportasi Online Indonesia (FDTOI)' karena tidak ada dalam ringkasan awal, tetapi ditambahkan nama menteri 'Meutya Hafid' serta tanggal '20/11/2026' yang ada di sumber untuk melengkapi jika diperlukan, namun demi netralitas dan kesesuaian ketat, nama pejabat spesifik sebaiknya disesuaikan dengan sumber.",
+      "Memastikan tanggal atau nama organisasi yang masuk sudah diverifikasi dari sumber."
+     ],
+     "risk": "rendah"
+    },
+    "narasi": [
+     "Berita terkini. Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif. Pemerintah menyiapkan aturan tarif pengantaran barang dengan mempertimbangkan berbagai komponen biaya risiko.",
+     "Penyusunan aturan baru ini mencakup berbagai komponen seperti biaya risiko dan penanganan barang.",
+     "Pemerintah menilai layanan pengantar barang memiliki karakteristik dan variabel berbeda dari transportasi penumpang.",
+     "Komponen biaya tunggu, parkir, hingga berat dan dimensi barang turut dikaji dalam penyusunan aturan tarif. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11220038/slide_01.jpg",
+    "public/11220038/slide_02.jpg",
+    "public/11220038/slide_03.jpg",
+    "public/11220038/slide_04.jpg"
+   ],
+   "sources": [
+    "https://portal.komdigi.go.id/kanal-publik/berita-kini/10725",
+    "https://tirto.id/komdigi-tampung-aspirasi-kurir-online-soal-pengaturan-tarif-id38"
+   ],
+   "scheduled_at": "2026-11-22T00:38+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgAkmjbjbbw/",
+    "fb": "https://facebook.com/468307299696116_122225691656589464"
+   },
+   "published_at": "2026-11-22T00:39+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11211202 dikirim ke Bos",
-   "at": "2026-11-21 12:02"
+   "last": "Berita #11220038 dikirim ke Bos",
+   "at": "2026-11-22 00:38"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-21 12:01"
+   "last": "Berita: \"Berita Kini - Tampung Aspirasi Kurir Online, Meutya Hafid: P\" (2 sumber, 4 foto)",
+   "at": "2026-11-22 00:37"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Pekerjaan Rutin Kantor Bisa Selesai Pakai AI?\"",
-   "at": "2026-11-21 12:02"
+   "last": "Rangkuman: \"Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif\"",
+   "at": "2026-11-22 00:37"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-21 12:02"
+   "last": "Cek berita selesai — risiko rendah",
+   "at": "2026-11-22 00:38"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya ungu siap",
-   "at": "2026-11-21 12:02"
+   "last": "Berita 4 slide siap",
+   "at": "2026-11-22 00:38"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11211202 dikirim ke Bos",
-   "at": "2026-11-21 12:04"
+   "last": "Paket TikTok #11220038 dikirim ke Bos",
+   "at": "2026-11-22 00:40"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -3698,6 +3749,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-22 00:40",
+   "agent": "humas",
+   "msg": "Paket TikTok #11220038 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-22 00:39",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11220038..."
+  },
+  {
+   "at": "2026-11-22 00:39",
+   "agent": "humas",
+   "msg": "#11220038 → ig, fb"
+  },
+  {
+   "at": "2026-11-22 00:38",
+   "agent": "humas",
+   "msg": "Menerbitkan #11220038 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-22 00:38",
+   "agent": "kepala",
+   "msg": "Berita #11220038 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-22 00:38",
+   "agent": "desain",
+   "msg": "Berita 4 slide siap"
+  },
+  {
+   "at": "2026-11-22 00:38",
+   "agent": "desain",
+   "msg": "Mendesain berita (4 foto)..."
+  },
+  {
+   "at": "2026-11-22 00:38",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko rendah"
+  },
+  {
+   "at": "2026-11-22 00:37",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-22 00:37",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif\""
+  },
+  {
+   "at": "2026-11-22 00:37",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 2 sumber..."
+  },
+  {
+   "at": "2026-11-22 00:37",
+   "agent": "riset",
+   "msg": "Berita: \"Berita Kini - Tampung Aspirasi Kurir Online, Meutya Hafid: P\" (2 sumber, 4 foto)"
+  },
+  {
+   "at": "2026-11-22 00:37",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-22 00:37",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-22 00:37",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita asn"
+  },
   {
    "at": "2026-11-21 12:04",
    "agent": "humas",
@@ -3922,88 +4048,13 @@
    "at": "2026-11-21 08:00",
    "agent": "kepala",
    "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-21 08:00",
-   "agent": "kepala",
-   "msg": "Jadwal 08:00 WIT: berita asn"
-  },
-  {
-   "at": "2026-11-21 06:34",
-   "agent": "humas",
-   "msg": "Paket TikTok #11210631 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-21 06:32",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11210631..."
-  },
-  {
-   "at": "2026-11-21 06:32",
-   "agent": "humas",
-   "msg": "#11210631 → ig, fb"
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "humas",
-   "msg": "Menerbitkan #11210631 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "kepala",
-   "msg": "Draft #11210631 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "desain",
-   "msg": "7 slide gaya navy siap"
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "desain",
-   "msg": "Mendesain gaya navy/berita/kartu/kartu..."
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 1 catatan"
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"5 Langkah Bikin Dokumen Dinas Sat-Set Pakai AI\""
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "naskah",
-   "msg": "Menulis carousel: prompt ChatGPT/Claude/Gemini untuk surat dinas, no"
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-21 06:31",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
-  "published": 44,
-  "drafts": 49
+  "published": 45,
+  "drafts": 50
  },
- "updated": "2026-11-21T23:53+09:00",
+ "updated": "2026-11-22T00:40+09:00",
  "cuan_rot": 40,
  "last_followers": 130,
  "style_hist": [
@@ -4229,7 +4280,6 @@
   }
  ],
  "recent_hooks": [
-  "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027",
   "Musim Perencanaan Desa Bikin Pusing Kepala?",
   "Cara Cepat Ubah Notula Rapat Desa Jadi Dokumen Resmi",
   "Bikin paparan kantor cuma dalam hitungan detik?",
@@ -4268,7 +4318,8 @@
   "Langkah Bikin Dokumen Dinas Cepat Pakai AI",
   "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih",
   "Bikin SK Kades dan Perdes sekarang anti ribet!",
-  "Pekerjaan Rutin Kantor Bisa Selesai Pakai AI?"
+  "Pekerjaan Rutin Kantor Bisa Selesai Pakai AI?",
+  "Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -4289,7 +4340,9 @@
   "banyuwangi raih juara i smart society di ajang smart city fo",
   "pemkab banyuwangi juara satu ajang forum kota cerdas komdigi",
   "mendes  dana desa untuk kdkmp akan jadi aset desa",
-  "mendes  dana desa untuk kdkmp akan jadi aset desa"
+  "mendes  dana desa untuk kdkmp akan jadi aset desa",
+  "tampung aspirasi kurir online  meutya hafid  pertimbangkan b",
+  "komdigi tampung aspirasi kurir online soal pengaturan tarif"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -4476,104 +4529,19 @@
     "status": "proses",
     "at": "2026-11-21T12:02+09:00"
    }
+  },
+  "2026-11-22": {
+   "5": {
+    "did": "11220038",
+    "status": "proses",
+    "at": "2026-11-22T00:38+09:00"
+   }
   }
  },
  "jadwal": {
-  "tanggal": "2026-11-21",
-  "dibuat": "2026-11-21T23:53+09:00",
+  "tanggal": "2026-11-22",
+  "dibuat": "2026-11-22T00:40+09:00",
   "hari_ini": [
-   {
-    "slot": 0,
-    "jam": "06:30",
-    "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Langkah Bikin Dokumen Dinas Cepat Pakai AI",
-    "id": "11210631",
-    "status": "terbit",
-    "terbit": "06:32"
-   },
-   {
-    "slot": 1,
-    "jam": "08:00",
-    "tipe": "berita",
-    "jenis": "Berita Terkini",
-    "pilar": "Berita pilihan",
-    "judul": "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih",
-    "id": "11210803",
-    "status": "terbit",
-    "terbit": "08:03"
-   },
-   {
-    "slot": 2,
-    "jam": "09:00",
-    "tipe": "reels",
-    "jenis": "Reels",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Bikin SK Kades dan Perdes sekarang anti ribet!",
-    "id": "11210902",
-    "status": "terbit",
-    "terbit": "09:04"
-   },
-   {
-    "slot": 3,
-    "jam": "12:00",
-    "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Pekerjaan Rutin Kantor Bisa Selesai Pakai AI?",
-    "id": "11211202",
-    "status": "terbit",
-    "terbit": "12:03"
-   },
-   {
-    "slot": 4,
-    "jam": "15:30",
-    "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat",
-    "id": "11210048",
-    "status": "terbit",
-    "terbit": "00:48"
-   },
-   {
-    "slot": 5,
-    "jam": "17:00",
-    "tipe": "berita",
-    "jenis": "Berita Terkini",
-    "pilar": "Berita pilihan",
-    "judul": "Pemkab Banyuwangi Raih Juara Satu Smart City Forum",
-    "id": "11210124",
-    "status": "terbit",
-    "terbit": "01:24"
-   },
-   {
-    "slot": 6,
-    "jam": "18:30",
-    "tipe": "reels",
-    "jenis": "Reels",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Birokrasi digital makin ketat, yuk siap-siap!",
-    "id": "11210255",
-    "status": "terbit",
-    "terbit": "02:56"
-   },
-   {
-    "slot": 7,
-    "jam": "20:00",
-    "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Kerja Kantor Sat-Set Pakai Aplikasi Gratis Ini",
-    "id": "11210353",
-    "status": "terbit",
-    "terbit": "03:54"
-   }
-  ],
-  "manual": [],
-  "besok_tanggal": "2026-11-22",
-  "besok": [
    {
     "slot": 0,
     "jam": "06:30",
@@ -4582,7 +4550,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 1,
@@ -4630,9 +4598,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif",
+    "id": "11220038",
+    "status": "terbit",
+    "terbit": "00:39"
    },
    {
     "slot": 6,
@@ -4650,6 +4619,90 @@
     "tipe": "carousel",
     "jenis": "Carousel Listicle",
     "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   }
+  ],
+  "manual": [],
+  "besok_tanggal": "2026-11-23",
+  "besok": [
+   {
+    "slot": 0,
+    "jam": "06:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Listicle",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 1,
+    "jam": "08:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 2,
+    "jam": "09:00",
+    "tipe": "reels",
+    "jenis": "Reels",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 3,
+    "jam": "12:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Contekan Prompt",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 4,
+    "jam": "15:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Mitos vs Fakta",
+    "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 5,
+    "jam": "17:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 6,
+    "jam": "18:30",
+    "tipe": "reels",
+    "jenis": "Reels",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 7,
+    "jam": "20:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Soft-selling",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
