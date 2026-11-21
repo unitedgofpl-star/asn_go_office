@@ -3496,26 +3496,87 @@
    },
    "published_at": "2026-11-21T08:03+09:00",
    "errors": []
+  },
+  "11210902": {
+   "id": "11210902",
+   "type": "reels",
+   "status": "published",
+   "created": "2026-11-21T09:03+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "administrasi desa, tata naskah dinas desa, SK Kades, Perdes",
+   "format": "reels",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin SK Kades dan Perdes sekarang anti ribet!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Bikin SK Kades dan Perdes sering bikin pusing karena bolak-balik revisi format? Tenang, di era digital ini administrasi desa harus bisa sat-set! Yuk, mulai rapikan tata naskah dinas desa pakai template digital biar kerjaan cepat beres dan sesuai aturan. Simpan postingan ini dan bagikan ke rekan perangkat desa lainnya ya. Coba komen, apa bagian tersulit saat bikin Perdes?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp99.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#pemerintahandesa",
+     "#tatanaskahdinas",
+     "#perdes",
+     "#desadigital",
+     "#perangkatdesa",
+     "#administrasidesa",
+     "#asnsemangat"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN & Sobat Desa! Bosan revisi tata naskah dinas terus?",
+      "icon": "📝"
+     },
+     {
+      "text": "Sekarang eranya birokrasi digital. Jangan biarkan administrasi desa jalannya lambat.",
+      "icon": "🚀"
+     },
+     {
+      "text": "Gunakan format baku sesuai Permendagri tentang pedoman tata naskah dinas.",
+      "icon": "📂"
+     },
+     {
+      "text": "Manfaatkan template digital agar draf SK atau Perdes selesai dalam hitungan menit.",
+      "icon": "⚡"
+     },
+     {
+      "text": "Cek regulasi terbaru dan pastikan kop surat serta nomornya sudah sesuai.",
+      "icon": "🔍"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11210902/cover.jpg"
+   ],
+   "video": "public/11210902/reels.mp4",
+   "scheduled_at": "2026-11-21T09:03+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/reel/Df-5ldRDgcf/",
+    "fb": "https://facebook.com/2203309970616366"
+   },
+   "published_at": "2026-11-21T09:04+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11210803 dikirim ke Bos",
-   "at": "2026-11-21 08:03"
+   "last": "Reels #11210902 dikirim ke Bos",
+   "at": "2026-11-21 09:03"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Mendes: Dana desa untuk KDKMP akan jadi aset desa\" (1 sumber, 1 foto)",
-   "at": "2026-11-21 08:01"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-21 09:00"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih\"",
-   "at": "2026-11-21 08:02"
+   "last": "Naskah Reels: \"Bikin SK Kades dan Perdes sekarang anti ribet!\"",
+   "at": "2026-11-21 09:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -3526,20 +3587,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 2 slide siap",
-   "at": "2026-11-21 08:03"
+   "last": "Reels 52 detik siap (gaya kertas)",
+   "at": "2026-11-21 09:03"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11210803 dikirim ke Bos",
-   "at": "2026-11-21 08:04"
+   "last": "Paket TikTok #11210902 dikirim ke Bos",
+   "at": "2026-11-21 09:04"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-21 06:31"
+   "at": "2026-11-21 09:00"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -3549,6 +3610,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-21 09:04",
+   "agent": "humas",
+   "msg": "Paket TikTok #11210902 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-21 09:04",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11210902..."
+  },
+  {
+   "at": "2026-11-21 09:04",
+   "agent": "humas",
+   "msg": "#11210902 → ig, fb"
+  },
+  {
+   "at": "2026-11-21 09:03",
+   "agent": "humas",
+   "msg": "Menerbitkan #11210902 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-21 09:03",
+   "agent": "kepala",
+   "msg": "Reels #11210902 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-21 09:03",
+   "agent": "desain",
+   "msg": "Reels 52 detik siap (gaya kertas)"
+  },
+  {
+   "at": "2026-11-21 09:02",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-21 09:02",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya kertas..."
+  },
+  {
+   "at": "2026-11-21 09:02",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"Bikin SK Kades dan Perdes sekarang anti ribet!\""
+  },
+  {
+   "at": "2026-11-21 09:00",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: administrasi desa, tata naskah dinas desa, SK"
+  },
+  {
+   "at": "2026-11-21 09:00",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-21 09:00",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-21 09:00",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-21 09:00",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-21 09:00",
+   "agent": "kepala",
+   "msg": "Jadwal 09:00 WIT: reels desa"
+  },
   {
    "at": "2026-11-21 08:04",
    "agent": "humas",
@@ -3773,102 +3909,16 @@
    "at": "2026-11-21 03:53",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-21 03:53",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-21 03:53",
-   "agent": "kepala",
-   "msg": "Jadwal 20:00 WIT: carousel asn"
-  },
-  {
-   "at": "2026-11-21 02:56",
-   "agent": "humas",
-   "msg": "Paket TikTok #11210255 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-21 02:56",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11210255..."
-  },
-  {
-   "at": "2026-11-21 02:56",
-   "agent": "humas",
-   "msg": "#11210255 → ig, fb"
-  },
-  {
-   "at": "2026-11-21 02:56",
-   "agent": "humas",
-   "msg": "Menerbitkan #11210255 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-21 02:56",
-   "agent": "kepala",
-   "msg": "Reels #11210255 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-21 02:56",
-   "agent": "desain",
-   "msg": "Reels 44 detik siap (gaya navy)"
-  },
-  {
-   "at": "2026-11-21 02:55",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-21 02:55",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya navy..."
-  },
-  {
-   "at": "2026-11-21 02:55",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Birokrasi digital makin ketat, yuk siap-siap!\""
-  },
-  {
-   "at": "2026-11-21 02:55",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: tools AI gratis untuk ASN dan perangkat desa"
-  },
-  {
-   "at": "2026-11-21 02:55",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-21 02:55",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-21 02:55",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
-  "published": 42,
-  "drafts": 47
+  "published": 43,
+  "drafts": 48
  },
- "updated": "2026-11-21T08:04+09:00",
- "cuan_rot": 38,
+ "updated": "2026-11-21T09:04+09:00",
+ "cuan_rot": 39,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "semangat",
-   "theme": "tosca",
-   "cover": "kiri",
-   "list": "timeline",
-   "detail": "angka",
-   "pose": "semangat__tangan_mengepal",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "semangat",
@@ -4077,10 +4127,20 @@
    "pose": "menjelaskan__presentasi",
    "flip": true,
    "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "kertas",
+   "cover": "kiri",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Persiapan Seleksi ASN Dimulai dari Sekarang, Siapkan Diri Anda!",
   "5 Trik Spreadsheet Wajib ASN Biar Tidak Lembur Rekap",
   "Rakor Penyelenggaraan Pemerintahan Desa: Evaluasi APBDes hingga Persiapan Pilkel 2027",
   "Musim Perencanaan Desa Bikin Pusing Kepala?",
@@ -4119,7 +4179,8 @@
   "Birokrasi digital makin ketat, yuk siap-siap!",
   "Kerja Kantor Sat-Set Pakai Aplikasi Gratis Ini",
   "Langkah Bikin Dokumen Dinas Cepat Pakai AI",
-  "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih"
+  "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih",
+  "Bikin SK Kades dan Perdes sekarang anti ribet!"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -4316,12 +4377,17 @@
     "did": "11210803",
     "status": "proses",
     "at": "2026-11-21T08:03+09:00"
+   },
+   "2": {
+    "did": "11210902",
+    "status": "proses",
+    "at": "2026-11-21T09:03+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-21",
-  "dibuat": "2026-11-21T08:04+09:00",
+  "dibuat": "2026-11-21T09:04+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -4351,9 +4417,10 @@
     "tipe": "reels",
     "jenis": "Reels",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin SK Kades dan Perdes sekarang anti ribet!",
+    "id": "11210902",
+    "status": "terbit",
+    "terbit": "09:04"
    },
    {
     "slot": 3,
@@ -4363,7 +4430,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 4,
