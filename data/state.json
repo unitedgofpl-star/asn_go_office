@@ -4239,44 +4239,90 @@
    },
    "published_at": "2026-11-22T15:32+09:00",
    "errors": []
+  },
+  "11230044": {
+   "id": "11230044",
+   "type": "berita",
+   "status": "failed",
+   "created": "2026-11-23T00:44+09:00",
+   "pillar": "PEMERINTAHAN DESA",
+   "topic": "106 Desa Tuntaskan RTH Smart 100 Persen, Terima Apresiasi Rp10 Juta | Portal-Tabalong",
+   "format": "berita",
+   "content": {
+    "hook": "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
+    "caption": "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart\n\nPemerintah Kabupaten Tabalong memberikan apresiasi kepada 106 dari 121 desa yang sukses menuntaskan pembangunan RTH Smart hingga seratus persen. Penghargaan berupa dana 10 juta rupiah diserahkan langsung oleh Bupati Tabalong, Muhammad Noor Rifani, dalam acara di Hotel Aston Tanjung pada 19 November 2026. Kepala DPMD Tabalong, Aditya Pula Nugraha, menyampaikan bahwa separuh dana tersebut dipakai untuk kegiatan lomba dan permainan tradisional di RTH Smart bekerja sama dengan KORMI Tabalong. Sisa dana lainnya dimanfaatkan untuk mendukung kebutuhan operasional pemerintah desa. Kebijakan ini diharapkan mampu mendorong pemanfaatan ruang publik secara aktif oleh masyarakat.\n\n💡 Artinya bagi kita: Pencapaian ini mencerminkan komitmen perangkat desa dalam menyelesaikan program fisik serta mengoptimalkan fungsi fasilitas publik bagi warga.\n\n📰 Sumber:\n• Portal-Tabalong: https://portal.tabalongkab.go.id/post/2026-11-106-desa-tuntaskan-rth-smart-100-persen-terima-apresiasi-rp10-juta\n📷 Foto: Portal-Tabalong\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#DesaMaju",
+     "#PemkabTabalong",
+     "#RTHSmart",
+     "#PemerintahanDesa",
+     "#KabarDesa",
+     "#InovasiDesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Ada sedikit kalimat yang hampir identik dengan sumber pada bagian poin dan caption, telah disesuaikan agar tidak menyalin kalimat panjang."
+     ],
+     "risk": "rendah"
+    },
+    "narasi": [
+     "Berita terkini. 106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart. Sebanyak 106 desa menerima apresiasi karena merampungkan RTH Smart seratus persen.",
+     "Poin pentingnya. Sebanyak 106 dari 121 desa di Kabupaten Tabalong merampungkan pembangunan RTH Smart seratus persen.. Setiap desa memperoleh apresiasi senilai 10 juta rupiah dari Pemerintah Kabupaten Tabalong.. Bupati Tabalong Muhammad Noor Rifani menyerahkan langsung penghargaan di Hotel Aston Tanjung pada 19 November 2026.. Sebagian dana sebesar 5 juta rupiah digunakan untuk menggelar lomba olahraga dan permainan tradisional di RTH Smart.. Pencapaian ini mencerminkan komitmen perangkat desa dalam menyelesaikan program fisik serta mengoptimalkan fungsi fasilitas publik bagi warga. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11230044/slide_01.jpg",
+    "public/11230044/slide_02.jpg"
+   ],
+   "sources": [
+    "https://portal.tabalongkab.go.id/post/2026-11-106-desa-tuntaskan-rth-smart-100-persen-terima-apresiasi-rp10-juta"
+   ],
+   "scheduled_at": "2026-11-23T00:44+09:00",
+   "published": {},
+   "published_at": "2026-11-23T00:44+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11221531 dikirim ke Bos",
-   "at": "2026-11-22 15:31"
+   "last": "Berita #11230044 dikirim ke Bos",
+   "at": "2026-11-23 00:44"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-22 15:31"
+   "last": "Berita: \"106 Desa Tuntaskan RTH Smart 100 Persen, Terima Apresiasi Rp\" (1 sumber, 1 foto)",
+   "at": "2026-11-23 00:41"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Desa Makin Digital, Ini Tools AI Gratis Wajib Punya\"",
-   "at": "2026-11-22 15:31"
+   "last": "Rangkuman: \"106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart\"",
+   "at": "2026-11-23 00:43"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-22 15:31"
+   "last": "Cek berita selesai — risiko rendah",
+   "at": "2026-11-23 00:44"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "7 slide gaya kertas siap",
-   "at": "2026-11-22 15:31"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-23 00:44"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11221531 dikirim ke Bos",
-   "at": "2026-11-22 15:33"
+   "last": "#11230044 → gagal",
+   "at": "2026-11-23 00:44"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -4292,6 +4338,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-23 00:44",
+   "agent": "humas",
+   "msg": "#11230044 → gagal"
+  },
+  {
+   "at": "2026-11-23 00:44",
+   "agent": "humas",
+   "msg": "Menerbitkan #11230044 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-23 00:44",
+   "agent": "kepala",
+   "msg": "Berita #11230044 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-23 00:44",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-23 00:44",
+   "agent": "desain",
+   "msg": "Mendesain berita (1 foto)..."
+  },
+  {
+   "at": "2026-11-23 00:44",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko rendah"
+  },
+  {
+   "at": "2026-11-23 00:43",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-23 00:43",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart\""
+  },
+  {
+   "at": "2026-11-23 00:41",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-23 00:41",
+   "agent": "riset",
+   "msg": "Berita: \"106 Desa Tuntaskan RTH Smart 100 Persen, Terima Apresiasi Rp\" (1 sumber, 1 foto)"
+  },
+  {
+   "at": "2026-11-23 00:41",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-23 00:41",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-23 00:41",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita ai"
+  },
   {
    "at": "2026-11-22 15:33",
    "agent": "humas",
@@ -4526,78 +4637,13 @@
    "at": "2026-11-22 09:00",
    "agent": "kepala",
    "msg": "Jadwal 09:00 WIT: reels asn"
-  },
-  {
-   "at": "2026-11-22 08:03",
-   "agent": "humas",
-   "msg": "Paket TikTok #11220802 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-22 08:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11220802..."
-  },
-  {
-   "at": "2026-11-22 08:03",
-   "agent": "humas",
-   "msg": "#11220802 → fb"
-  },
-  {
-   "at": "2026-11-22 08:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11220802 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-22 08:02",
-   "agent": "kepala",
-   "msg": "Berita #11220802 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-22 08:02",
-   "agent": "desain",
-   "msg": "Berita 2 slide siap"
-  },
-  {
-   "at": "2026-11-22 08:02",
-   "agent": "desain",
-   "msg": "Mendesain berita (1 foto)..."
-  },
-  {
-   "at": "2026-11-22 08:02",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko sedang"
-  },
-  {
-   "at": "2026-11-22 08:01",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-22 08:01",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP\""
-  },
-  {
-   "at": "2026-11-22 08:01",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 2 sumber..."
-  },
-  {
-   "at": "2026-11-22 08:01",
-   "agent": "riset",
-   "msg": "Berita: \"Beredar Draf PP Pengadaan Khusus PNS Jabatan Pol PP, Fadlun:\" (2 sumber, 1 foto)"
-  },
-  {
-   "at": "2026-11-22 08:01",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
   }
  ],
  "stats": {
   "published": 52,
-  "drafts": 57
+  "drafts": 58
  },
- "updated": "2026-11-22T23:49+09:00",
+ "updated": "2026-11-23T00:44+09:00",
  "cuan_rot": 46,
  "last_followers": 130,
  "style_hist": [
@@ -4823,7 +4869,6 @@
   }
  ],
  "recent_hooks": [
-  "Kebiasaan Spreadsheet yang Bikin Laporan ASN Berantakan",
   "Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital",
   "Kerja kantor menumpuk? Pakai 3 AI gratis ini!",
   "Kerja Sat-Set Tanpa Lembur Berkat Tools Gratis",
@@ -4862,7 +4907,8 @@
   "Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP",
   "Kerja ASN masih lembur padahal ada tools gratisan?",
   "Kesalahan Perencanaan Desa yang Sering Menyebabkan Siskeudes Error",
-  "Desa Makin Digital, Ini Tools AI Gratis Wajib Punya"
+  "Desa Makin Digital, Ini Tools AI Gratis Wajib Punya",
+  "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -4887,7 +4933,8 @@
   "tampung aspirasi kurir online  meutya hafid  pertimbangkan b",
   "komdigi tampung aspirasi kurir online soal pengaturan tarif",
   "beredar draf pp pengadaan khusus pns jabatan pol pp  fadlun ",
-  "beredar draf pp pengadaan khusus pns jabatan pol pp  fadlun "
+  "beredar draf pp pengadaan khusus pns jabatan pol pp  fadlun ",
+  "106 desa tuntaskan rth smart 100 persen  terima apresiasi rp"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -5116,104 +5163,19 @@
     "status": "proses",
     "at": "2026-11-22T15:31+09:00"
    }
+  },
+  "2026-11-23": {
+   "5": {
+    "did": "11230044",
+    "status": "proses",
+    "at": "2026-11-23T00:44+09:00"
+   }
   }
  },
  "jadwal": {
-  "tanggal": "2026-11-22",
-  "dibuat": "2026-11-22T23:49+09:00",
+  "tanggal": "2026-11-23",
+  "dibuat": "2026-11-23T00:44+09:00",
   "hari_ini": [
-   {
-    "slot": 0,
-    "jam": "06:30",
-    "tipe": "carousel",
-    "jenis": "Carousel Contekan Prompt",
-    "pilar": "Pemerintahan Desa",
-    "judul": "5 Contekan Prompt AI Bikin Layanan Desa Sat-Set",
-    "id": "11220633",
-    "status": "terbit",
-    "terbit": "06:34"
-   },
-   {
-    "slot": 1,
-    "jam": "08:00",
-    "tipe": "berita",
-    "jenis": "Berita Terkini",
-    "pilar": "Berita pilihan",
-    "judul": "Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP",
-    "id": "11220802",
-    "status": "terbit",
-    "terbit": "08:03"
-   },
-   {
-    "slot": 2,
-    "jam": "09:00",
-    "tipe": "reels",
-    "jenis": "Reels",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Kerja ASN masih lembur padahal ada tools gratisan?",
-    "id": "11220902",
-    "status": "terbit",
-    "terbit": "09:04"
-   },
-   {
-    "slot": 3,
-    "jam": "12:00",
-    "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Kesalahan Perencanaan Desa yang Sering Menyebabkan Siskeudes Error",
-    "id": "11221204",
-    "status": "terbit",
-    "terbit": "12:05"
-   },
-   {
-    "slot": 4,
-    "jam": "15:30",
-    "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Desa Makin Digital, Ini Tools AI Gratis Wajib Punya",
-    "id": "11221531",
-    "status": "terbit",
-    "terbit": "15:32"
-   },
-   {
-    "slot": 5,
-    "jam": "17:00",
-    "tipe": "berita",
-    "jenis": "Berita Terkini",
-    "pilar": "Berita pilihan",
-    "judul": "Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif",
-    "id": "11220038",
-    "status": "terbit",
-    "terbit": "00:39"
-   },
-   {
-    "slot": 6,
-    "jam": "18:30",
-    "tipe": "reels",
-    "jenis": "Reels",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Laporan BUMDes ribet? Bikin kelar dalam hitungan menit!",
-    "id": "11220153",
-    "status": "terbit",
-    "terbit": "01:54"
-   },
-   {
-    "slot": 7,
-    "jam": "20:00",
-    "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Aturan Emas Pakai AI Agar Data Kantor Aman",
-    "id": "11220249",
-    "status": "terbit",
-    "terbit": "02:50"
-   }
-  ],
-  "manual": [],
-  "besok_tanggal": "2026-11-23",
-  "besok": [
    {
     "slot": 0,
     "jam": "06:30",
@@ -5222,7 +5184,7 @@
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 1,
@@ -5270,9 +5232,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
+    "id": "11230044",
+    "status": "gagal",
+    "terbit": "00:44"
    },
    {
     "slot": 6,
@@ -5290,6 +5253,90 @@
     "tipe": "carousel",
     "jenis": "Carousel Soft-selling",
     "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   }
+  ],
+  "manual": [],
+  "besok_tanggal": "2026-11-24",
+  "besok": [
+   {
+    "slot": 0,
+    "jam": "06:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 1,
+    "jam": "08:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 2,
+    "jam": "09:00",
+    "tipe": "reels",
+    "jenis": "Reels",
+    "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 3,
+    "jam": "12:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 4,
+    "jam": "15:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Listicle",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 5,
+    "jam": "17:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 6,
+    "jam": "18:30",
+    "tipe": "reels",
+    "jenis": "Reels",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 7,
+    "jam": "20:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Tutorial",
+    "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
     "status": "akan"
