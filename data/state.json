@@ -4444,50 +4444,130 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11230631": {
+   "id": "11230631",
+   "status": "failed",
+   "created": "2026-11-23T06:31+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Office",
+   "format": "carousel_listicle",
+   "product": "naskah",
+   "content": {
+    "hook": "4 Kebiasaan ASN yang Bikin SKP Digital Macet",
+    "subtitle": "Hentikan sekarang agar e-Kinerja aman tanpa lembur",
+    "mood": "tegas",
+    "items": [
+     {
+      "title": "Input Data Dadakan",
+      "sub": "Mengisi bukti dukung sekaligus di akhir triwulan",
+      "icon": "⏳"
+     },
+     {
+      "title": "Format Bukti Salah",
+      "sub": "Mengunggah dokumen tanpa konversi PDF atau kompresi",
+      "icon": "📁"
+     },
+     {
+      "title": "Abaikan Integrasi MyASN",
+      "sub": "Tidak menyinkronkan data profil dengan sistem pusat",
+      "icon": "🔄"
+     },
+     {
+      "title": "Lewatkan Umpan Balik",
+      "sub": "Jarang mengecek catatan revisi dari atasan langsung",
+      "icon": "💬"
+     }
+    ],
+    "details": [
+     {
+      "title": "Input Data Dadakan",
+      "body": "Rekan ASN, hindari mengisi e-Kinerja mendekati tenggat. Cicil unggah laporan harian atau mingguan agar server tidak down dan pekerjaan lebih ringan.",
+      "icon": "⏳"
+     },
+     {
+      "title": "Format Bukti Salah",
+      "body": "Pastikan dokumen pendukung SKP berformat PDF dan ukuran tidak terlalu besar. Gunakan alat kompresi resmi atau terpercaya agar sistem MyASN tidak menolak berkas Anda.",
+      "icon": "📁"
+     }
+    ],
+    "note": "Cek ketentuan teknis terbaru di instansi Anda sebelum mengunggah dokumen.",
+    "cta": "Simpan postingan ini agar SKP digital Anda aman!",
+    "caption": "Halo Rekan ASN & Sobat Desa!\n\nPekerjaan rutin ASN di era transformasi digital menuntut kita lebih adaptif. Sering kali pengisian e-Kinerja atau SKP digital terasa lama dan membuat lembur bukan karena sistemnya yang lambat, melainkan karena kebiasaan kecil yang keliru.\n\nMulai dari menumpuk data di akhir triwulan hingga mengabaikan catatan revisi atasan, semua bisa dihindari dengan manajemen waktu yang tepat. Yuk, ubah cara kerja kita jadi lebih efektif dengan pengelolaan digital yang tertib!\n\nSIMPAN postingan ini dan BAGIKAN ke rekan kantor Anda. Apa kendala utama Anda saat mengisi SKP bulan ini?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn",
+     "#asngodigital",
+     "#ekinerja",
+     "#skpdigital",
+     "#myasn",
+     "#asnupdate"
+    ],
+    "_qc": {
+     "issues": [
+      "Tidak ada masalah kritis pada regulasi atau etika ASN, namun perlu perbaikan minor pada tanda baca, EYD, serta konsistensi penulisan struktur details.",
+      "Panjang teks pada slide details perlu dipastikan tetap di bawah 45 kata per slide."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11230631/slide_01.jpg",
+    "public/11230631/slide_02.jpg",
+    "public/11230631/slide_03.jpg",
+    "public/11230631/slide_04.jpg",
+    "public/11230631/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-23T19:00+09:00",
+   "published": {},
+   "published_at": "2026-11-23T06:31+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11230307 dikirim ke Bos",
-   "at": "2026-11-23 03:07"
+   "last": "Draft #11230631 dikirim ke Bos",
+   "at": "2026-11-23 06:31"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-23 03:05"
+   "at": "2026-11-23 06:31"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Duh, Bikin SK Kades dan Perdes Masih Manual?\"",
-   "at": "2026-11-23 03:06"
+   "last": "Draft selesai: \"4 Kebiasaan ASN yang Bikin SKP Digital Macet\"",
+   "at": "2026-11-23 06:31"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 4 catatan",
-   "at": "2026-11-23 03:07"
+   "last": "QC selesai — risiko rendah, 2 catatan",
+   "at": "2026-11-23 06:31"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "7 slide gaya berita siap",
-   "at": "2026-11-23 03:07"
+   "last": "5 slide gaya tosca siap",
+   "at": "2026-11-23 06:31"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11230307 → gagal",
-   "at": "2026-11-23 03:07"
+   "last": "#11230631 → gagal",
+   "at": "2026-11-23 06:31"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-23 03:05"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-23 06:31"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -4497,6 +4577,76 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "humas",
+   "msg": "#11230631 → gagal"
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "humas",
+   "msg": "Menerbitkan #11230631 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "kepala",
+   "msg": "Draft #11230631 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "desain",
+   "msg": "5 slide gaya tosca siap"
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "desain",
+   "msg": "Mendesain gaya tosca/angka/kartu/kartu..."
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 2 catatan"
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"4 Kebiasaan ASN yang Bikin SKP Digital Macet\""
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "naskah",
+   "msg": "Menulis carousel: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Offic"
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-23 06:31",
+   "agent": "kepala",
+   "msg": "Jadwal 06:30 WIT: carousel asn"
+  },
   {
    "at": "2026-11-23 03:07",
    "agent": "humas",
@@ -4726,97 +4876,16 @@
    "at": "2026-11-22 15:31",
    "agent": "desain",
    "msg": "7 slide gaya kertas siap"
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "desain",
-   "msg": "Mendesain gaya kertas/kanan/kartu/angka..."
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 2 catatan"
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Desa Makin Digital, Ini Tools AI Gratis Wajib Punya\""
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "naskah",
-   "msg": "Menulis carousel: tools AI gratis untuk ASN dan perangkat desa"
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "kepala",
-   "msg": "Jadwal 15:30 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-22 12:06",
-   "agent": "humas",
-   "msg": "Paket TikTok #11221204 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-22 12:05",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11221204..."
-  },
-  {
-   "at": "2026-11-22 12:05",
-   "agent": "humas",
-   "msg": "#11221204 → ig, fb"
-  },
-  {
-   "at": "2026-11-22 12:04",
-   "agent": "humas",
-   "msg": "Menerbitkan #11221204 ke IG & FB..."
   }
  ],
  "stats": {
   "published": 52,
-  "drafts": 60
+  "drafts": 61
  },
- "updated": "2026-11-23T03:07+09:00",
- "cuan_rot": 48,
+ "updated": "2026-11-23T06:31+09:00",
+ "cuan_rot": 49,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "menjelaskan",
-   "expr": "ceria",
-   "theme": "navy",
-   "cover": "potret",
-   "list": "ceklis",
-   "detail": "versus",
-   "pose": "menjelaskan__tangan_terbuka",
-   "flip": true,
-   "cta": "badan"
-  },
   {
    "mood": "tegas",
    "expr": "cemberut",
@@ -5025,10 +5094,20 @@
    "pose": "tenang__melipat_tangan",
    "flip": true,
    "cta": "badan"
+  },
+  {
+   "mood": "tegas",
+   "expr": "cemberut",
+   "theme": "tosca",
+   "cover": "angka",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "tegas__cemberut_tangan_di_pinggang",
+   "flip": false,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Kerja Sat-Set Tanpa Lembur Berkat Tools Gratis",
   "Rombak Draf Kantor Lewat Tiga Perintah AI Ini",
   "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa",
   "Bikin dokumen desa masih cara manual?",
@@ -5067,7 +5146,8 @@
   "Desa Makin Digital, Ini Tools AI Gratis Wajib Punya",
   "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
   "Bikin SKP digital lama banget?",
-  "Duh, Bikin SK Kades dan Perdes Masih Manual?"
+  "Duh, Bikin SK Kades dan Perdes Masih Manual?",
+  "4 Kebiasaan ASN yang Bikin SKP Digital Macet"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -5338,12 +5418,17 @@
     "did": "11230307",
     "status": "proses",
     "at": "2026-11-23T03:07+09:00"
+   },
+   "0": {
+    "did": "11230631",
+    "status": "proses",
+    "at": "2026-11-23T06:31+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-23",
-  "dibuat": "2026-11-23T03:07+09:00",
+  "dibuat": "2026-11-23T06:31+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5351,9 +5436,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Listicle",
     "pilar": "Digitalisasi ASN",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "4 Kebiasaan ASN yang Bikin SKP Digital Macet",
+    "id": "11230631",
+    "status": "gagal",
+    "terbit": "06:31"
    },
    {
     "slot": 1,
@@ -5363,7 +5449,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 2,
@@ -5517,7 +5603,7 @@
  },
  "harga": {
   "sync": {
-   "at": "2026-11-22T10:28+09:00",
+   "at": "2026-11-23T06:31+09:00",
    "hasil": "halaman terbuka tapi harga tidak terbaca"
   }
  }
