@@ -4506,7 +4506,7 @@
   "published": 51,
   "drafts": 56
  },
- "updated": "2026-11-22T12:06+09:00",
+ "updated": "2026-11-22T15:30+09:00",
  "cuan_rot": 45,
  "last_followers": 130,
  "style_hist": [
@@ -5024,7 +5024,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-22",
-  "dibuat": "2026-11-22T12:06+09:00",
+  "dibuat": "2026-11-22T15:30+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5078,7 +5078,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "berikutnya"
+    "status": "proses"
    },
    {
     "slot": 5,
