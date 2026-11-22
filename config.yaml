@@ -132,17 +132,17 @@ landing_url: "https://famous-travesseiro-bce23d.netlify.app"
 paket:
   - id: personal
     nama: Personal
-    harga: 99000
+    harga: 49000
     ket: "1 perangkat"
     cocok: ["naskah", "personal"]
   - id: pro
     nama: Pro
-    harga: 179000
+    harga: 99000
     ket: "2 perangkat + bonus 100 prompt surat & notulen + grup WA"
     cocok: ["naskah", "pro"]
   - id: kantor
     nama: Kantor
-    harga: 749000
+    harga: 149000
     ket: "10 perangkat + kop & logo disiapkan + pelatihan 60 menit"
     cocok: ["naskah", "kantor"]
 harga_sync_lynk: true   # tiap pagi cek harga di lynk.id & kabari Bos bila berubah
@@ -150,7 +150,7 @@ harga_sync_lynk: true   # tiap pagi cek harga di lynk.id & kabari Bos bila berub
 products:
   - id: naskah
     name: "Generator Naskah Dinas"
-    price: "mulai Rp99.000 (sekali bayar)"   # otomatis dari bagian paket
+    price: "mulai Rp49.000 (sekali bayar)"   # otomatis dari bagian paket
     paket: [personal, pro, kantor]
     url: "https://famous-travesseiro-bce23d.netlify.app"
     pitch: >
@@ -161,7 +161,7 @@ products:
     match_pillars: [desa, asn, ai]
   - id: kantor
     name: "Generator Naskah Dinas — Paket Kantor"
-    price: "Rp749.000 (10 perangkat)"   # otomatis dari bagian paket
+    price: "Rp149.000 (10 perangkat)"   # otomatis dari bagian paket
     paket: [kantor]
     url: "https://famous-travesseiro-bce23d.netlify.app"
     pitch: >
