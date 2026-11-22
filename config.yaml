@@ -127,22 +127,42 @@ tiktok:
 # Produk digital Anda (lynk.id). Agent Sales akan menyelipkan CTA.
 lynk_url: "https://lynk.id/asngodigital"
 landing_url: "https://famous-travesseiro-bce23d.netlify.app"
+# HARGA PAKET — ubah cepat lewat Telegram: /harga pro 149000  (atau /harga sync untuk ambil dari lynk.id)
+# "cocok" = kata yang harus ada di nama produk di lynk.id agar harga bisa disinkron otomatis.
+paket:
+  - id: personal
+    nama: Personal
+    harga: 99000
+    ket: "1 perangkat"
+    cocok: ["naskah", "personal"]
+  - id: pro
+    nama: Pro
+    harga: 179000
+    ket: "2 perangkat + bonus 100 prompt surat & notulen + grup WA"
+    cocok: ["naskah", "pro"]
+  - id: kantor
+    nama: Kantor
+    harga: 749000
+    ket: "10 perangkat + kop & logo disiapkan + pelatihan 60 menit"
+    cocok: ["naskah", "kantor"]
+harga_sync_lynk: true   # tiap pagi cek harga di lynk.id & kabari Bos bila berubah
+
 products:
   - id: naskah
     name: "Generator Naskah Dinas"
-    price: "mulai Rp99.000 (sekali bayar)"
+    price: "mulai Rp99.000 (sekali bayar)"   # otomatis dari bagian paket
+    paket: [personal, pro, kantor]
     url: "https://famous-travesseiro-bce23d.netlify.app"
     pitch: >
       Buat surat dinas, undangan, nota dinas, surat tugas, surat edaran, surat keterangan, surat pengantar
       dan surat pernyataan sesuai Permendagri 1/2023 dalam hitungan menit. 3 gaya kop (OPD, kepala daerah,
       desa/kampung/kelurahan), 2.988 kode klasifikasi arsip, ekspor Word/PDF/Excel/gambar, nomor & agenda
       surat otomatis, bisa dibantu AI. Data tersimpan di perangkat sendiri, jalan offline.
-      Paket: Personal Rp99.000 · Pro Rp179.000 (2 perangkat + bonus 100 prompt surat & notulen + grup WA) ·
-      Kantor Rp749.000 (10 perangkat + kop & logo disiapkan + pelatihan 60 menit).
     match_pillars: [desa, asn, ai]
   - id: kantor
     name: "Generator Naskah Dinas — Paket Kantor"
-    price: "Rp749.000 (10 perangkat)"
+    price: "Rp749.000 (10 perangkat)"   # otomatis dari bagian paket
+    paket: [kantor]
     url: "https://famous-travesseiro-bce23d.netlify.app"
     pitch: >
       Satu paket untuk satu kantor (OPD, kecamatan, kelurahan, kantor desa/kampung): hingga 10 perangkat,

@@ -14,7 +14,7 @@ import json
 import os
 import sys
 
-from . import telegram, jadwal
+from . import telegram, jadwal, harga
 from .core import State, load_config, now_wit, WIT, AGENTS
 from .agents import riset, naskah, desain, humas, cuan, analis, foto, tiktok, reels, berita
 
@@ -35,6 +35,7 @@ Perintah untuk Bos:
 /promo [id_produk] — copy promosi WA/Story
 /tiktok [id] — kirim ulang paket TikTok (video + caption)
 /produk — daftar produk lynk.id
+/harga — lihat & ubah harga paket (CTA ikut berubah)
 /laporan — laporan performa
 /jadwal — jadwal posting hari ini (/jadwal besok)
 /status — apa yang sedang dikerjakan karyawan
@@ -312,6 +313,36 @@ def handle_command(cfg, state, text):
     elif cmd == "/produk":
         rows = [f"• <code>{p['id']}</code> — {esc(p['name'])} ({p['price']})\n  {p['url']}" for p in cfg.get("products", [])]
         telegram.send("🛒 <b>Produk lynk.id</b>\n" + "\n".join(rows))
+    elif cmd == "/harga":
+        a = arg.split()
+        pk = harga.paket_aktif(cfg, state)
+        if not a:
+            telegram.send(harga.ringkas(cfg, state))
+        elif a[0].lower() == "sync":
+            ack("🔄 Kaka Yance mengecek harga di lynk.id...")
+            ubah = harga.sync_lynk(cfg, state)
+            info = state.d.get("harga", {}).get("sync", {}).get("hasil", "")
+            msg = ("✅ Harga diperbarui dari lynk.id:\n" + "\n".join("• " + esc(u) for u in ubah)) if ubah else f"ℹ️ Tidak ada perubahan ({esc(info)})."
+            if ubah is None or "tidak terbaca" in info:
+                msg += "\nKalau lynk.id tidak bisa dibaca, ubah manual: <code>/harga pro 149000</code>"
+            telegram.send(msg + "\n\n" + harga.ringkas(cfg, state))
+        elif a[0].lower() == "reset":
+            state.d.setdefault("harga", {})["paket"] = {}
+            cfg = harga.apply(load_config(), state)
+            telegram.send("↩️ Harga kembali ke config.\n\n" + harga.ringkas(cfg, state))
+        elif a[0].lower() in pk and len(a) >= 2 and harga.parse_angka(a[1]):
+            normal = None
+            if len(a) >= 4 and a[2].lower() in ("normal", "coret"):
+                normal = harga.parse_angka(a[3])
+            set_to = harga.parse_angka(a[1])
+            harga.set_harga(cfg, state, a[0].lower(), set_to, normal)
+            telegram.send(f"✅ Harga paket <b>{esc(pk[a[0].lower()]['nama'])}</b> jadi <b>{harga.rp(set_to)}</b>"
+                          + (f" (normal {harga.rp(normal)})" if normal else "")
+                          + ". Mulai konten berikutnya, CTA & promo memakai harga ini.\n"
+                          "⚠️ Jangan lupa samakan harga di lynk.id & landing page.\n\n" + harga.ringkas(cfg, state))
+        else:
+            telegram.send("Format: <code>/harga pro 149000</code> • paket: " + ", ".join(f"<code>{k}</code>" for k in pk)
+                          + "\nAtau <code>/harga sync</code> untuk ambil dari lynk.id.")
     elif cmd == "/promo":
         prod = cuan.pick_product(cfg, state, None, product_id=arg) if arg else (cfg.get("products") or [None])[0]
         telegram.send(esc(cuan.promo_copy(cfg, state, prod)) if prod else "Produk tidak ditemukan. Cek /produk")
@@ -364,9 +395,24 @@ def handle_update(cfg, state, upd):
     state.done("kepala", "Perintah selesai diproses")
 
 
+def harga_pagi(cfg, state):
+    """Cek harga di lynk.id sekali sehari (slot pertama); kabari Bos hanya bila ada perubahan."""
+    if state.d.get("harga", {}).get("sync", {}).get("at", "")[:10] == now_wit().date().isoformat():
+        return
+    try:
+        ubah = harga.sync_lynk(cfg, state)
+    except Exception as e:
+        print("sinkron harga gagal:", e)
+        return
+    if ubah:
+        telegram.send("💰 <b>Harga di lynk.id berubah</b> — CTA & promo sudah ikut diperbarui:\n"
+                      + "\n".join("• " + esc(u) for u in ubah) + "\nCek: /harga")
+
+
 # ------------------------------------------------------------------ mode
 def run(mode):
     cfg, state = load_config(), State()
+    harga.apply(cfg, state)
     try:
         if mode == "daily":
             create_draft(cfg, state)
@@ -405,6 +451,8 @@ def run(mode):
                 handle_update(cfg, state, upd)
             humas.publish_due(cfg, state)
         elif mode == "slot":
+            if int(os.environ.get("SLOT", "0")) == 0 and cfg.get("harga_sync_lynk"):
+                harga_pagi(cfg, state)
             run_slot(cfg, state, int(os.environ.get("SLOT", "0")))
             humas.publish_due(cfg, state)
         elif mode == "weekly":

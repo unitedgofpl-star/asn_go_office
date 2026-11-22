@@ -33,6 +33,7 @@ Perintah untuk Bos:
 /promo [id_produk] — copy promosi WA/Story
 /tiktok [id] — paket TikTok (video + caption)
 /produk — daftar produk lynk.id
+/harga — lihat & ubah harga paket (CTA ikut berubah)
 /laporan — laporan performa
 /jadwal — jadwal posting hari ini (/jadwal besok)
 /status — apa yang sedang dikerjakan karyawan
