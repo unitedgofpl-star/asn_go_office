@@ -4524,44 +4524,91 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11230801": {
+   "id": "11230801",
+   "type": "berita",
+   "status": "failed",
+   "created": "2026-11-23T08:01+09:00",
+   "pillar": "ASN",
+   "topic": "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Hadapi Era Digital | Portal-Tabalong",
+   "format": "berita",
+   "content": {
+    "hook": "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital",
+    "caption": "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital\n\nHalo Rekan ASN & Sobat Desa! Musyawarah Kerja Nasional (Mukernas) ke-7 Indonesiapersada.id telah sukses diselenggarakan di Tabalong, Kalimantan Selatan. Acara yang berlangsung hingga 21 November 2026 ini menjadi momentum strategis bagi pengelola radio dan televisi publik daerah untuk memperkuat sinergi dalam menghadapi tantangan transformasi digital. Dengan mengusung tema 'Radio Menjaga Kesehatan Mental di Era Digital', forum ini juga menjadi ajang evaluasi organisasi dan pemberian apresiasi melalui Indonesiapersada.id Award 2026. Bagaimana peran media publik di daerah Anda dalam mendukung informasi pembangunan? Yuk, bagikan cerita Anda!\n\n💡 Artinya bagi kita: Meningkatkan sinergi dan kolaborasi antar LPPL dalam menyebarkan informasi serta memperkuat ketahanan informasi di daerah.\n\n📰 Sumber:\n• Portal-Tabalong: https://portal.tabalongkab.go.id/post/2026-11-mukernas-ke-7-indonesiapersadaid-perkuat-sinergi-lppl-hadapi-era-digital\n📷 Foto: Portal-Tabalong\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#Indonesiapersada",
+     "#LPPL",
+     "#TransformasiDigital",
+     "#InfoASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Terdapat klaim mengenai tema yang tidak akurat (sumber menyebutkan tema 'Radio Menjaga Kesehatan Mental di Era Digital', namun rangkuman awal tidak mencantumkan detail tersebut dengan benar dalam poin).",
+      "Penyebutan tanggal dan lokasi sudah sesuai, namun perlu dipastikan konsistensi informasi yang diambil dari sumber.",
+      "Rangkuman awal memiliki beberapa detail yang tidak relevan dengan esensi berita utama."
+     ],
+     "risk": "rendah"
+    },
+    "narasi": [
+     "Berita terkini. Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital. Persatuan Radio TV Publik Daerah menggelar Mukernas di Tabalong untuk menghadapi transformasi digital.",
+     "Poin pentingnya. Mukernas ke-7 Indonesiapersada.id dilaksanakan di Kabupaten Tabalong, Kalimantan Selatan, pada 20 November 2026.. Acara dihadiri sekitar 250 peserta, termasuk pengurus organisasi, kepala dinas kominfo, dan pengelola LPPL.. Forum mengangkat tema 'Radio Menjaga Kesehatan Mental di Era Digital' untuk merumuskan arah organisasi.. Kegiatan dirangkaikan dengan penyerahan Indonesiapersada.id Award 2026 sebagai bentuk apresiasi bagi LPPL berprestasi.. Meningkatkan sinergi dan kolaborasi antar LPPL dalam menyebarkan informasi serta memperkuat ketahanan informasi di daerah. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11230801/slide_01.jpg",
+    "public/11230801/slide_02.jpg"
+   ],
+   "sources": [
+    "https://portal.tabalongkab.go.id/post/2026-11-mukernas-ke-7-indonesiapersadaid-perkuat-sinergi-lppl-hadapi-era-digital"
+   ],
+   "scheduled_at": "2026-11-23T08:01+09:00",
+   "published": {},
+   "published_at": "2026-11-23T08:01+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11230631 dikirim ke Bos",
-   "at": "2026-11-23 06:31"
+   "last": "Berita #11230801 dikirim ke Bos",
+   "at": "2026-11-23 08:01"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-23 06:31"
+   "last": "Berita: \"Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Hadap\" (1 sumber, 1 foto)",
+   "at": "2026-11-23 08:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"4 Kebiasaan ASN yang Bikin SKP Digital Macet\"",
-   "at": "2026-11-23 06:31"
+   "last": "Rangkuman: \"Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital\"",
+   "at": "2026-11-23 08:01"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-23 06:31"
+   "last": "Cek berita selesai — risiko rendah",
+   "at": "2026-11-23 08:01"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya tosca siap",
-   "at": "2026-11-23 06:31"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-23 08:01"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11230631 → gagal",
-   "at": "2026-11-23 06:31"
+   "last": "#11230801 → gagal",
+   "at": "2026-11-23 08:01"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -4577,6 +4624,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "humas",
+   "msg": "#11230801 → gagal"
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "humas",
+   "msg": "Menerbitkan #11230801 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "kepala",
+   "msg": "Berita #11230801 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "desain",
+   "msg": "Mendesain berita (1 foto)..."
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko rendah"
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital\""
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "riset",
+   "msg": "Berita: \"Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Hadap\" (1 sumber, 1 foto)"
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-23 08:01",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita desa"
+  },
   {
    "at": "2026-11-23 06:31",
    "agent": "humas",
@@ -4811,78 +4923,13 @@
    "at": "2026-11-23 00:44",
    "agent": "qc",
    "msg": "Cek berita selesai — risiko rendah"
-  },
-  {
-   "at": "2026-11-23 00:43",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-23 00:43",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart\""
-  },
-  {
-   "at": "2026-11-23 00:41",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 1 sumber..."
-  },
-  {
-   "at": "2026-11-23 00:41",
-   "agent": "riset",
-   "msg": "Berita: \"106 Desa Tuntaskan RTH Smart 100 Persen, Terima Apresiasi Rp\" (1 sumber, 1 foto)"
-  },
-  {
-   "at": "2026-11-23 00:41",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-23 00:41",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-23 00:41",
-   "agent": "kepala",
-   "msg": "Jadwal 17:00 WIT: berita ai"
-  },
-  {
-   "at": "2026-11-22 15:33",
-   "agent": "humas",
-   "msg": "Paket TikTok #11221531 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-22 15:32",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11221531..."
-  },
-  {
-   "at": "2026-11-22 15:32",
-   "agent": "humas",
-   "msg": "#11221531 → ig, fb"
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "humas",
-   "msg": "Menerbitkan #11221531 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "kepala",
-   "msg": "Draft #11221531 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-22 15:31",
-   "agent": "desain",
-   "msg": "7 slide gaya kertas siap"
   }
  ],
  "stats": {
   "published": 52,
-  "drafts": 61
+  "drafts": 62
  },
- "updated": "2026-11-23T06:31+09:00",
+ "updated": "2026-11-23T08:01+09:00",
  "cuan_rot": 49,
  "last_followers": 130,
  "style_hist": [
@@ -5108,7 +5155,6 @@
   }
  ],
  "recent_hooks": [
-  "Rombak Draf Kantor Lewat Tiga Perintah AI Ini",
   "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa",
   "Bikin dokumen desa masih cara manual?",
   "Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI",
@@ -5147,7 +5193,8 @@
   "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
   "Bikin SKP digital lama banget?",
   "Duh, Bikin SK Kades dan Perdes Masih Manual?",
-  "4 Kebiasaan ASN yang Bikin SKP Digital Macet"
+  "4 Kebiasaan ASN yang Bikin SKP Digital Macet",
+  "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -5173,7 +5220,8 @@
   "komdigi tampung aspirasi kurir online soal pengaturan tarif",
   "beredar draf pp pengadaan khusus pns jabatan pol pp  fadlun ",
   "beredar draf pp pengadaan khusus pns jabatan pol pp  fadlun ",
-  "106 desa tuntaskan rth smart 100 persen  terima apresiasi rp"
+  "106 desa tuntaskan rth smart 100 persen  terima apresiasi rp",
+  "mukernas ke 7 indonesiapersada id perkuat sinergi lppl hadap"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -5423,12 +5471,17 @@
     "did": "11230631",
     "status": "proses",
     "at": "2026-11-23T06:31+09:00"
+   },
+   "1": {
+    "did": "11230801",
+    "status": "proses",
+    "at": "2026-11-23T08:01+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-23",
-  "dibuat": "2026-11-23T06:31+09:00",
+  "dibuat": "2026-11-23T08:01+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5447,9 +5500,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital",
+    "id": "11230801",
+    "status": "gagal",
+    "terbit": "08:01"
    },
    {
     "slot": 2,
@@ -5459,7 +5513,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
