@@ -4285,26 +4285,85 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11230215": {
+   "id": "11230215",
+   "type": "reels",
+   "status": "failed",
+   "created": "2026-11-23T02:16+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Office",
+   "format": "reels",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin SKP digital lama banget?",
+    "caption": "Halo Rekan ASN & Sobat Desa! Ngaku deh, siapa yang sering deg-degan pas deadline e-Kinerja atau SKP digital mepet? Tenang, Cicilia punya trik simpel biar urusan administrasi sat-set tanpa stres. Yuk, manfaatkan tools digital dan AI agar kerjaan kantor makin efisien. Jangan lupa simpan video ini dan bagikan ke rekan kerja sebelahmu ya! Siapa nih yang udah tuntas SKP-nya minggu ini? Tulis di kolom komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#SKP 디지털",
+     "#MyASN",
+     "#SIASN",
+     "#TransformasiDigital",
+     "#ASNkece"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN & Sobat Desa!",
+      "icon": "👋"
+     },
+     {
+      "text": "Jangan biarkan e-Kinerja bikin kepala pusing.",
+      "icon": "🤯"
+     },
+     {
+      "text": "Gunakan template AI untuk susun butir kegiatan cepat.",
+      "icon": "⚡"
+     },
+     {
+      "text": "Sinkronisasi data MyASN dan SIASN jadi lebih mulus.",
+      "icon": "🔗"
+     },
+     {
+      "text": "Pekerjaan kantor kelar, bebas lembur tiap akhir bulan.",
+      "icon": "🎯"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11230215/cover.jpg"
+   ],
+   "video": "public/11230215/reels.mp4",
+   "scheduled_at": "2026-11-23T02:16+09:00",
+   "published": {},
+   "published_at": "2026-11-23T02:16+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11230044 dikirim ke Bos",
-   "at": "2026-11-23 00:44"
+   "last": "Reels #11230215 dikirim ke Bos",
+   "at": "2026-11-23 02:16"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"106 Desa Tuntaskan RTH Smart 100 Persen, Terima Apresiasi Rp\" (1 sumber, 1 foto)",
-   "at": "2026-11-23 00:41"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-23 02:15"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart\"",
-   "at": "2026-11-23 00:43"
+   "last": "Naskah Reels: \"Bikin SKP digital lama banget?\"",
+   "at": "2026-11-23 02:15"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -4315,20 +4374,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 2 slide siap",
-   "at": "2026-11-23 00:44"
+   "last": "Reels 40 detik siap (gaya tosca)",
+   "at": "2026-11-23 02:16"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11230044 → gagal",
-   "at": "2026-11-23 00:44"
+   "last": "#11230215 → gagal",
+   "at": "2026-11-23 02:16"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-22 15:31"
+   "at": "2026-11-23 02:15"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -4338,6 +4397,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-23 02:16",
+   "agent": "humas",
+   "msg": "#11230215 → gagal"
+  },
+  {
+   "at": "2026-11-23 02:16",
+   "agent": "humas",
+   "msg": "Menerbitkan #11230215 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-23 02:16",
+   "agent": "kepala",
+   "msg": "Reels #11230215 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-23 02:16",
+   "agent": "desain",
+   "msg": "Reels 40 detik siap (gaya tosca)"
+  },
+  {
+   "at": "2026-11-23 02:15",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-23 02:15",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya tosca..."
+  },
+  {
+   "at": "2026-11-23 02:15",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"Bikin SKP digital lama banget?\""
+  },
+  {
+   "at": "2026-11-23 02:15",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-"
+  },
+  {
+   "at": "2026-11-23 02:15",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-23 02:15",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-23 02:15",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-23 02:15",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-23 02:15",
+   "agent": "kepala",
+   "msg": "Jadwal 18:30 WIT: reels asn"
+  },
   {
    "at": "2026-11-23 00:44",
    "agent": "humas",
@@ -4572,92 +4696,16 @@
    "at": "2026-11-22 09:04",
    "agent": "humas",
    "msg": "Menyiapkan paket TikTok #11220902..."
-  },
-  {
-   "at": "2026-11-22 09:04",
-   "agent": "humas",
-   "msg": "#11220902 → ig, fb"
-  },
-  {
-   "at": "2026-11-22 09:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11220902 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-22 09:02",
-   "agent": "kepala",
-   "msg": "Reels #11220902 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-22 09:02",
-   "agent": "desain",
-   "msg": "Reels 48 detik siap (gaya navy)"
-  },
-  {
-   "at": "2026-11-22 09:02",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-22 09:02",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya navy..."
-  },
-  {
-   "at": "2026-11-22 09:02",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Kerja ASN masih lembur padahal ada tools gratisan?\""
-  },
-  {
-   "at": "2026-11-22 09:00",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: tips produktivitas ASN pakai tools digital gr"
-  },
-  {
-   "at": "2026-11-22 09:00",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-22 09:00",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-22 09:00",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-22 09:00",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-22 09:00",
-   "agent": "kepala",
-   "msg": "Jadwal 09:00 WIT: reels asn"
   }
  ],
  "stats": {
   "published": 52,
-  "drafts": 58
+  "drafts": 59
  },
- "updated": "2026-11-23T00:44+09:00",
- "cuan_rot": 46,
+ "updated": "2026-11-23T02:16+09:00",
+ "cuan_rot": 47,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "gembira",
-   "theme": "berita",
-   "cover": "potret",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "semangat__tangan_mengepal",
-   "flip": false,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "semangat",
@@ -4866,10 +4914,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "tosca",
+   "cover": "berita",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital",
   "Kerja kantor menumpuk? Pakai 3 AI gratis ini!",
   "Kerja Sat-Set Tanpa Lembur Berkat Tools Gratis",
   "Rombak Draf Kantor Lewat Tiga Perintah AI Ini",
@@ -4908,7 +4966,8 @@
   "Kerja ASN masih lembur padahal ada tools gratisan?",
   "Kesalahan Perencanaan Desa yang Sering Menyebabkan Siskeudes Error",
   "Desa Makin Digital, Ini Tools AI Gratis Wajib Punya",
-  "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart"
+  "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
+  "Bikin SKP digital lama banget?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -5169,12 +5228,17 @@
     "did": "11230044",
     "status": "proses",
     "at": "2026-11-23T00:44+09:00"
+   },
+   "6": {
+    "did": "11230215",
+    "status": "proses",
+    "at": "2026-11-23T02:16+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-23",
-  "dibuat": "2026-11-23T00:44+09:00",
+  "dibuat": "2026-11-23T02:16+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5243,9 +5307,10 @@
     "tipe": "reels",
     "jenis": "Reels",
     "pilar": "Digitalisasi ASN",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "Bikin SKP digital lama banget?",
+    "id": "11230215",
+    "status": "gagal",
+    "terbit": "02:16"
    },
    {
     "slot": 7,
