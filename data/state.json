@@ -4148,50 +4148,141 @@
    },
    "published_at": "2026-11-22T12:05+09:00",
    "errors": []
+  },
+  "11221531": {
+   "id": "11221531",
+   "status": "published",
+   "created": "2026-11-22T15:31+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "tools AI gratis untuk ASN dan perangkat desa",
+   "format": "carousel_tutorial",
+   "product": "naskah",
+   "content": {
+    "hook": "Desa Makin Digital, Ini Tools AI Gratis Wajib Punya",
+    "subtitle": "Bikin kerja kantor dan pelayanan desa makin sat-set tanpa biaya!",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Langkah 1: Siapkan Akses",
+      "sub": "Gunakan perangkat kerja untuk akses platform resmi.",
+      "icon": "🌐"
+     },
+     {
+      "title": "Langkah 2: Pilih Tools",
+      "sub": "Manfaatkan asisten AI gratis untuk ringkas dokumen.",
+      "icon": "🤖"
+     },
+     {
+      "title": "Langkah 3: Tulis Prompt",
+      "sub": "Masukkan perintah kerja dengan bahasa yang jelas.",
+      "icon": "✍️"
+     },
+     {
+      "title": "Langkah 4: Evaluasi Hasil",
+      "sub": "Cek kembali data dan sesuaikan dengan format instansi.",
+      "icon": "🔍"
+     }
+    ],
+    "details": [
+     {
+      "title": "Langkah 1: Siapkan Akses",
+      "body": "Buka browser di komputer kantor Anda. Pastikan koneksi internet stabil dan gunakan akun yang aman serta sesuai dengan ketentuan instansi untuk mengakses platform AI gratis.",
+      "icon": "🌐"
+     },
+     {
+      "title": "Langkah 2: Pilih Tools",
+      "body": "Pilih aplikasi AI gratis yang paling pas untuk tugas Anda. Bisa untuk merangkum laporan panjang, menerjemahkan dokumen, atau membantu menyusun draf surat edaran.",
+      "icon": "🤖"
+     },
+     {
+      "title": "Langkah 3: Tulis Prompt",
+      "body": "Ketik perintah kerja atau prompt dengan spesifik. Contoh: 'Buatkan draf pengumuman kerja bakti desa dengan nada bahasa yang sopan dan jelas'.",
+      "icon": "✍️"
+     },
+     {
+      "title": "Langkah 4: Evaluasi Hasil",
+      "body": "Jangan langsung salin hasilnya, Rekan ASN! Selalu baca ulang dan sesuaikan dengan aturan atau format baku di instansi atau desa Anda agar tetap akurat.",
+      "icon": "🔍"
+     }
+    ],
+    "note": "Selalu jaga kerahasiaan data instansi dan hindari input data rahasia negara ke dalam AI.",
+    "cta": "Simpan postingan ini dan praktikkan saat jam kerja ya!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Semangat menuju birokrasi yang makin gesit dan transparan. Di tengah derasnya dorongan digitalisasi desa, urusan administrasi kantor harusnya makin ringan, bukan malah bikin lembur terus. Yuk, manfaatkan deretan tools AI gratis yang bisa jadi asisten virtual andalan di meja kerja Anda. Mulai dari merangkum dokumen sampai bikin draf surat, semuanya jadi lebih cepat kalau tahu triknya. Simpan postingan ini supaya gampang dicari saat butuh, dan bagikan juga ke rekan kerja di kantor ya! Tools AI apa nih yang paling sering Sobat Desa pakai untuk kerjaan sehari-hari? Coba tulis di kolom komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#ASNGodigital",
+     "#DigitalisasiDesa",
+     "#AIBuatASN",
+     "#PemerintahanDesa",
+     "#SmartASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Penggunaan akun pribadi untuk mendaftar platform AI menggunakan perangkat kantor perlu diperhatikan agar sesuai dengan ketentuan keamanan informasi instansi.",
+      "Perlu memastikan tidak ada pelanggaran terhadap pengunggahan data rahasia instansi ke platform AI publik."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11221531/slide_01.jpg",
+    "public/11221531/slide_02.jpg",
+    "public/11221531/slide_03.jpg",
+    "public/11221531/slide_04.jpg",
+    "public/11221531/slide_05.jpg",
+    "public/11221531/slide_06.jpg",
+    "public/11221531/slide_07.jpg"
+   ],
+   "scheduled_at": "2026-11-22T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgCKz6cl8p5/",
+    "fb": "https://facebook.com/468307299696116_122225793680589464"
+   },
+   "published_at": "2026-11-22T15:32+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11221204 dikirim ke Bos",
-   "at": "2026-11-22 12:04"
+   "last": "Draft #11221531 dikirim ke Bos",
+   "at": "2026-11-22 15:31"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-22 12:01"
+   "at": "2026-11-22 15:31"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"4 Kesalahan Fatal Perencanaan Desa yang Bikin Siskeudes Error\"",
-   "at": "2026-11-22 12:02"
+   "last": "Draft selesai: \"Desa Makin Digital, Ini Tools AI Gratis Wajib Punya\"",
+   "at": "2026-11-22 15:31"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 4 catatan",
-   "at": "2026-11-22 12:04"
+   "last": "QC selesai — risiko rendah, 2 catatan",
+   "at": "2026-11-22 15:31"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya tosca siap",
-   "at": "2026-11-22 12:04"
+   "last": "7 slide gaya kertas siap",
+   "at": "2026-11-22 15:31"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11221204 dikirim ke Bos",
-   "at": "2026-11-22 12:06"
+   "last": "Paket TikTok #11221531 dikirim ke Bos",
+   "at": "2026-11-22 15:33"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-22 12:01"
+   "at": "2026-11-22 15:31"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -4201,6 +4292,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-22 15:33",
+   "agent": "humas",
+   "msg": "Paket TikTok #11221531 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-22 15:32",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11221531..."
+  },
+  {
+   "at": "2026-11-22 15:32",
+   "agent": "humas",
+   "msg": "#11221531 → ig, fb"
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "humas",
+   "msg": "Menerbitkan #11221531 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "kepala",
+   "msg": "Draft #11221531 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "desain",
+   "msg": "7 slide gaya kertas siap"
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "desain",
+   "msg": "Mendesain gaya kertas/kanan/kartu/angka..."
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 2 catatan"
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Desa Makin Digital, Ini Tools AI Gratis Wajib Punya\""
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "naskah",
+   "msg": "Menulis carousel: tools AI gratis untuk ASN dan perangkat desa"
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-22 15:31",
+   "agent": "kepala",
+   "msg": "Jadwal 15:30 WIT: carousel ai"
+  },
   {
    "at": "2026-11-22 12:06",
    "agent": "humas",
@@ -4420,107 +4591,16 @@
    "at": "2026-11-22 08:01",
    "agent": "riset",
    "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-22 08:01",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-22 08:01",
-   "agent": "kepala",
-   "msg": "Jadwal 08:00 WIT: berita ai"
-  },
-  {
-   "at": "2026-11-22 06:36",
-   "agent": "humas",
-   "msg": "Paket TikTok #11220633 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-22 06:34",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11220633..."
-  },
-  {
-   "at": "2026-11-22 06:34",
-   "agent": "humas",
-   "msg": "#11220633 → ig, fb"
-  },
-  {
-   "at": "2026-11-22 06:33",
-   "agent": "humas",
-   "msg": "Menerbitkan #11220633 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-22 06:33",
-   "agent": "kepala",
-   "msg": "Draft #11220633 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-22 06:33",
-   "agent": "desain",
-   "msg": "8 slide gaya kertas siap"
-  },
-  {
-   "at": "2026-11-22 06:33",
-   "agent": "desain",
-   "msg": "Mendesain gaya kertas/kanan/grid/chat..."
-  },
-  {
-   "at": "2026-11-22 06:33",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 3 catatan"
-  },
-  {
-   "at": "2026-11-22 06:32",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-22 06:32",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"5 Contekan Prompt AI Bikin Layanan Desa Sat-Set\""
-  },
-  {
-   "at": "2026-11-22 06:30",
-   "agent": "naskah",
-   "msg": "Menulis carousel: digitalisasi layanan desa, website desa, Prodeskel"
-  },
-  {
-   "at": "2026-11-22 06:30",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-22 06:30",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-22 06:30",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
-  "published": 51,
-  "drafts": 56
+  "published": 52,
+  "drafts": 57
  },
- "updated": "2026-11-22T15:30+09:00",
- "cuan_rot": 45,
+ "updated": "2026-11-22T15:33+09:00",
+ "cuan_rot": 46,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "gembira",
-   "theme": "navy",
-   "cover": "berita",
-   "list": "kartu",
-   "detail": "chat",
-   "pose": "semangat__tangan_mengepal",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -4729,10 +4809,20 @@
    "pose": "tegas__cemberut_tangan_di_pinggang",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "kertas",
+   "cover": "kanan",
+   "list": "kartu",
+   "detail": "angka",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Kerja ASN Makin Sat-Set dengan AI Anti-Lembur",
   "Kebiasaan Spreadsheet yang Bikin Laporan ASN Berantakan",
   "Perwakilan Masyarakat Sampaikan Aspirasi Terkait Kebijakan Moderasi Konten Digital",
   "Kerja kantor menumpuk? Pakai 3 AI gratis ini!",
@@ -4771,7 +4861,8 @@
   "5 Contekan Prompt AI Bikin Layanan Desa Sat-Set",
   "Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP",
   "Kerja ASN masih lembur padahal ada tools gratisan?",
-  "Kesalahan Perencanaan Desa yang Sering Menyebabkan Siskeudes Error"
+  "Kesalahan Perencanaan Desa yang Sering Menyebabkan Siskeudes Error",
+  "Desa Makin Digital, Ini Tools AI Gratis Wajib Punya"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -5019,12 +5110,17 @@
     "did": "11221204",
     "status": "proses",
     "at": "2026-11-22T12:04+09:00"
+   },
+   "4": {
+    "did": "11221531",
+    "status": "proses",
+    "at": "2026-11-22T15:31+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-22",
-  "dibuat": "2026-11-22T15:30+09:00",
+  "dibuat": "2026-11-22T15:33+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5076,9 +5172,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Tutorial",
     "pilar": "AI untuk Kerja Kantor",
-    "judul": "",
-    "id": "",
-    "status": "proses"
+    "judul": "Desa Makin Digital, Ini Tools AI Gratis Wajib Punya",
+    "id": "11221531",
+    "status": "terbit",
+    "terbit": "15:32"
    },
    {
     "slot": 5,
