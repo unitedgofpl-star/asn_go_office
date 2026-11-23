@@ -4801,50 +4801,135 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11240341": {
+   "id": "11240341",
+   "status": "failed",
+   "created": "2026-11-24T03:41+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "tips produktivitas ASN pakai tools digital gratis",
+   "format": "carousel_listicle",
+   "product": "naskah",
+   "content": {
+    "hook": "Trik Produktivitas ASN: Kerja Sat-Set Tanpa Lembur",
+    "subtitle": "Transformasi digital bukan hanya soal alat, melainkan efisiensi kerja harian kita.",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Gunakan Tools Notulensi Otomatis",
+      "sub": "Ubah rekaman rapat menjadi teks secara instan.",
+      "icon": "🎙️"
+     },
+     {
+      "title": "Manfaatkan Penyimpanan Cloud Terpusat",
+      "sub": "Kolaborasi dokumen tanpa mengirim file berulang kali.",
+      "icon": "☁️"
+     },
+     {
+      "title": "Automasi Surat dengan Mail Merge",
+      "sub": "Buat ratusan undangan atau SK dalam satu menit.",
+      "icon": "✉️"
+     },
+     {
+      "title": "Manajemen Tugas Berbasis Kanban",
+      "sub": "Pantau progres kerja tim desa secara visual.",
+      "icon": "📋"
+     },
+     {
+      "title": "Gunakan AI untuk Ringkasan",
+      "sub": "Pahami dokumen tebal dalam hitungan detik.",
+      "icon": "🤖"
+     }
+    ],
+    "details": [
+     {
+      "title": "Gunakan Tools Notulensi Otomatis",
+      "body": "Daripada mencatat manual saat rapat desa, gunakan aplikasi transkripsi. Rekam suara, lalu biarkan sistem mengubahnya menjadi poin notulensi. Rekan ASN cukup merapikan hasilnya, jauh lebih efisien daripada mengetik dari awal.",
+      "icon": "🎙️"
+     },
+     {
+      "title": "Automasi Surat dengan Mail Merge",
+      "body": "Hindari copy-paste nama di Word untuk setiap surat. Gunakan fitur Mail Merge yang menghubungkan Excel dengan dokumen Word. Sekali klik, ratusan surat dengan data berbeda akan terisi otomatis, rapi, dan minim kesalahan ketik.",
+      "icon": "✉️"
+     }
+    ],
+    "note": "Pastikan penggunaan tools digital tetap mematuhi pedoman keamanan data dan klasifikasi informasi instansi Anda.",
+    "cta": "Simpan postingan ini agar tidak lupa, bagikan ke rekan kerja satu kantor!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering merasa waktu habis untuk urusan administratif berulang? Transformasi digital hadir untuk memudahkan pekerjaan agar kita fokus pada pelayanan masyarakat. Sebagai ASN, kita dituntut adaptif. Berikut trik produktivitas yang bisa dipraktikkan di kantor atau desa. Mulai dari notulensi hingga Mail Merge. Kerja cepat berarti cerdas memanfaatkan teknologi. Yuk, kurangi lembur dan optimalkan waktu untuk inovasi lainnya. Sudah coba tools yang mana di kantor? Tulis di komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#ASNGoDigital",
+     "#ProduktifASN",
+     "#DigitalisasiDesa",
+     "#TipsASN",
+     "#ASNModern"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus angka '5' pada hook agar tidak terkesan membatasi, namun tetap mempertahankan esensi tips.",
+      "Memperbaiki typo pada istilah teknis (tidak ada yang signifikan, namun diperhalus untuk gaya bahasa formal ASN).",
+      "Memastikan instruksi keamanan data dipertegas karena penggunaan AI/tools pihak ketiga berisiko pada data rahasia negara."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11240341/slide_01.jpg",
+    "public/11240341/slide_02.jpg",
+    "public/11240341/slide_03.jpg",
+    "public/11240341/slide_04.jpg",
+    "public/11240341/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-24T19:00+09:00",
+   "published": {},
+   "published_at": "2026-11-24T03:41+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11231533 dikirim ke Bos",
-   "at": "2026-11-23 15:33"
+   "last": "Draft #11240341 dikirim ke Bos",
+   "at": "2026-11-24 03:41"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-23 15:31"
+   "at": "2026-11-24 03:39"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Bikin SK Kades dan Perdes Masih Manual?\"",
-   "at": "2026-11-23 15:32"
+   "last": "Draft selesai: \"5 Trik Produktivitas ASN Agar Kerja Sat-Set Tanpa Lembur\"",
+   "at": "2026-11-24 03:41"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
    "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-23 15:33"
+   "at": "2026-11-24 03:41"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya navy siap",
-   "at": "2026-11-23 15:33"
+   "last": "5 slide gaya berita siap",
+   "at": "2026-11-24 03:41"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11231533 → gagal",
-   "at": "2026-11-23 15:33"
+   "last": "#11240341 → gagal",
+   "at": "2026-11-24 03:41"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-23 15:31"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-24 03:39"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -4854,6 +4939,76 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-24 03:41",
+   "agent": "humas",
+   "msg": "#11240341 → gagal"
+  },
+  {
+   "at": "2026-11-24 03:41",
+   "agent": "humas",
+   "msg": "Menerbitkan #11240341 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-24 03:41",
+   "agent": "kepala",
+   "msg": "Draft #11240341 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-24 03:41",
+   "agent": "desain",
+   "msg": "5 slide gaya berita siap"
+  },
+  {
+   "at": "2026-11-24 03:41",
+   "agent": "desain",
+   "msg": "Mendesain gaya berita/berita/ceklis/angka..."
+  },
+  {
+   "at": "2026-11-24 03:41",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 3 catatan"
+  },
+  {
+   "at": "2026-11-24 03:41",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-24 03:41",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"5 Trik Produktivitas ASN Agar Kerja Sat-Set Tanpa Lembur\""
+  },
+  {
+   "at": "2026-11-24 03:39",
+   "agent": "naskah",
+   "msg": "Menulis carousel: tips produktivitas ASN pakai tools digital gratis"
+  },
+  {
+   "at": "2026-11-24 03:39",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-24 03:39",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-24 03:39",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-24 03:39",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-24 03:39",
+   "agent": "kepala",
+   "msg": "Jadwal 15:30 WIT: carousel asn"
+  },
   {
    "at": "2026-11-23 18:13",
    "agent": "analis",
@@ -5083,97 +5238,16 @@
    "at": "2026-11-23 08:01",
    "agent": "kepala",
    "msg": "Berita #11230801 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "desain",
-   "msg": "Berita 2 slide siap"
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "desain",
-   "msg": "Mendesain berita (1 foto)..."
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko rendah"
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital\""
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 1 sumber..."
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "riset",
-   "msg": "Berita: \"Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Hadap\" (1 sumber, 1 foto)"
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "kepala",
-   "msg": "Jadwal 08:00 WIT: berita desa"
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "humas",
-   "msg": "#11230631 → gagal"
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "humas",
-   "msg": "Menerbitkan #11230631 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "kepala",
-   "msg": "Draft #11230631 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "desain",
-   "msg": "5 slide gaya tosca siap"
   }
  ],
  "stats": {
   "published": 52,
-  "drafts": 65
+  "drafts": 66
  },
- "updated": "2026-11-23T21:12+09:00",
- "cuan_rot": 52,
+ "updated": "2026-11-24T03:41+09:00",
+ "cuan_rot": 53,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "gembira",
-   "theme": "navy",
-   "cover": "potret",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "semangat__tangan_mengepal",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "tegas",
    "expr": "cemberut",
@@ -5382,10 +5456,20 @@
    "pose": "terkejut__tangan_di_pipi",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "berita",
+   "cover": "berita",
+   "list": "ceklis",
+   "detail": "angka",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!",
   "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik",
   "RPJMDes sampai APBDes masih bikin pusing?",
   "Cara Cepat Pakai AI Bereskan Tugas Kantor",
@@ -5424,7 +5508,8 @@
   "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital",
   "Pekerjaan rutin ASN digantikan AI?",
   "Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!",
-  "Bikin SK Kades dan Perdes Masih Manual?"
+  "Bikin SK Kades dan Perdes Masih Manual?",
+  "Trik Produktivitas ASN: Kerja Sat-Set Tanpa Lembur"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -5722,22 +5807,28 @@
     "status": "proses",
     "at": "2026-11-23T15:33+09:00"
    }
+  },
+  "2026-11-24": {
+   "4": {
+    "did": "11240341",
+    "status": "proses",
+    "at": "2026-11-24T03:41+09:00"
+   }
   }
  },
  "jadwal": {
-  "tanggal": "2026-11-23",
-  "dibuat": "2026-11-23T21:12+09:00",
+  "tanggal": "2026-11-24",
+  "dibuat": "2026-11-24T03:41+09:00",
   "hari_ini": [
    {
     "slot": 0,
     "jam": "06:30",
     "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Digitalisasi ASN",
-    "judul": "4 Kebiasaan ASN yang Bikin SKP Digital Macet",
-    "id": "11230631",
-    "status": "gagal",
-    "terbit": "06:31"
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "berikutnya"
    },
    {
     "slot": 1,
@@ -5745,43 +5836,40 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital",
-    "id": "11230801",
-    "status": "gagal",
-    "terbit": "08:01"
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 2,
     "jam": "09:00",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Pekerjaan rutin ASN digantikan AI?",
-    "id": "11230901",
-    "status": "gagal",
-    "terbit": "09:02"
+    "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 3,
     "jam": "12:00",
     "tipe": "carousel",
-    "jenis": "Carousel Contekan Prompt",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!",
-    "id": "11231202",
-    "status": "gagal",
-    "terbit": "12:02"
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 4,
     "jam": "15:30",
     "tipe": "carousel",
-    "jenis": "Carousel Mitos vs Fakta",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Bikin SK Kades dan Perdes Masih Manual?",
-    "id": "11231533",
+    "jenis": "Carousel Listicle",
+    "pilar": "Digitalisasi ASN",
+    "judul": "Trik Produktivitas ASN: Kerja Sat-Set Tanpa Lembur",
+    "id": "11240341",
     "status": "gagal",
-    "terbit": "15:33"
+    "terbit": "03:41"
    },
    {
     "slot": 5,
@@ -5789,43 +5877,40 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
-    "id": "11230044",
-    "status": "gagal",
-    "terbit": "00:44"
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 6,
     "jam": "18:30",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Bikin SKP digital lama banget?",
-    "id": "11230215",
-    "status": "gagal",
-    "terbit": "02:16"
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 7,
     "jam": "20:00",
     "tipe": "carousel",
-    "jenis": "Carousel Soft-selling",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Duh, Bikin SK Kades dan Perdes Masih Manual?",
-    "id": "11230307",
-    "status": "gagal",
-    "terbit": "03:07"
+    "jenis": "Carousel Tutorial",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    }
   ],
   "manual": [],
-  "besok_tanggal": "2026-11-24",
+  "besok_tanggal": "2026-11-25",
   "besok": [
    {
     "slot": 0,
     "jam": "06:30",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
+    "jenis": "Carousel Contekan Prompt",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -5845,7 +5930,7 @@
     "jam": "09:00",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "Pemerintahan Desa",
+    "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -5854,8 +5939,8 @@
     "slot": 3,
     "jam": "12:00",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
+    "jenis": "Carousel Listicle",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -5864,8 +5949,8 @@
     "slot": 4,
     "jam": "15:30",
     "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Digitalisasi ASN",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -5885,7 +5970,7 @@
     "jam": "18:30",
     "tipe": "reels",
     "jenis": "Reels",
-    "pilar": "AI untuk Kerja Kantor",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -5894,8 +5979,8 @@
     "slot": 7,
     "jam": "20:00",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "Digitalisasi ASN",
+    "jenis": "Carousel Listicle",
+    "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
     "status": "akan"
