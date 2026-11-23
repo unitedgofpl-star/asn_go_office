@@ -34,6 +34,7 @@ Perintah untuk Bos:
 /tiktok [id] — paket TikTok (video + caption)
 /produk — daftar produk lynk.id
 /harga — lihat & ubah harga paket (CTA ikut berubah)
+/sudah [id] — tandai paket manual sudah diposting
 /laporan — laporan performa
 /jadwal — jadwal posting hari ini (/jadwal besok)
 /status — apa yang sedang dikerjakan karyawan
@@ -176,8 +177,8 @@ async function jagaJadwal(env) {
   }
 }
 
-const IKON = { terbit: "✅", menunggu: "⏸", proses: "🔄", gagal: "⚠️", terlewat: "❌", akan: "🕒", berikutnya: "⏭" };
-const LABEL = { terbit: "Terbit", menunggu: "Menunggu persetujuan", proses: "Sedang diproses", gagal: "Gagal", terlewat: "Tidak jalan", berikutnya: "Berikutnya" };
+const IKON = { terbit: "✅", menunggu: "⏸", proses: "🔄", gagal: "⚠️", manual: "📦", terlewat: "❌", akan: "🕒", berikutnya: "⏭" };
+const LABEL = { terbit: "Terbit", menunggu: "Menunggu persetujuan", proses: "Sedang diproses", gagal: "Gagal", manual: "Paket manual", terlewat: "Tidak jalan", berikutnya: "Berikutnya" };
 const HARI = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
 const BLN = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
 const esc = s => String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");

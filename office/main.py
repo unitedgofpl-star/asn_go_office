@@ -36,6 +36,7 @@ Perintah untuk Bos:
 /tiktok [id] — kirim ulang paket TikTok (video + caption)
 /produk — daftar produk lynk.id
 /harga — lihat & ubah harga paket (CTA ikut berubah)
+/sudah [id] — tandai paket manual sudah diposting
 /laporan — laporan performa
 /jadwal — jadwal posting hari ini (/jadwal besok)
 /status — apa yang sedang dikerjakan karyawan
@@ -313,6 +314,15 @@ def handle_command(cfg, state, text):
     elif cmd == "/produk":
         rows = [f"• <code>{p['id']}</code> — {esc(p['name'])} ({p['price']})\n  {p['url']}" for p in cfg.get("products", [])]
         telegram.send("🛒 <b>Produk lynk.id</b>\n" + "\n".join(rows))
+    elif cmd == "/sudah":
+        if arg in drafts:
+            drafts[arg]["status"] = "published"
+            drafts[arg]["published_at"] = now_wit().isoformat(timespec="minutes")
+            drafts[arg].setdefault("published", {})["manual"] = "diposting manual oleh Bos"
+            state.d["stats"]["published"] += 1
+            telegram.send(f"✅ #{arg} dicatat sudah terbit (manual). Terima kasih, Bos!")
+        else:
+            telegram.send("Format: <code>/sudah ID</code> — ID ada di pesan paket posting manual.")
     elif cmd == "/harga":
         a = arg.split()
         pk = harga.paket_aktif(cfg, state)

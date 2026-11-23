@@ -63,7 +63,7 @@
   .jr .jd{display:block;color:#f6dfae;font-size:10.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:170px}
   .chip{font-size:10px;padding:2px 7px;border-radius:99px;white-space:nowrap;font-weight:500}
   .c-terbit{background:rgba(52,199,89,.2);color:#9ef0b4}.c-menunggu{background:rgba(244,185,66,.2);color:#ffd98a}
-  .c-proses{background:rgba(42,171,238,.2);color:#9fdcff}.c-gagal,.c-terlewat{background:rgba(230,57,70,.2);color:#ffb3b9}
+  .c-proses,.c-manual{background:rgba(42,171,238,.2);color:#9fdcff}.c-gagal,.c-terlewat{background:rgba(230,57,70,.2);color:#ffb3b9}
   .c-akan{background:rgba(255,255,255,.08);color:#c9d4e3}.c-berikutnya{background:var(--gold);color:var(--navy)}
   .jr.next{background:rgba(244,185,66,.08);border-radius:8px;padding-left:4px}
   .jr.man .jm{color:var(--muted);font-weight:500}
@@ -636,7 +636,7 @@ async function replay(entries){
 const SLOTS_DEMO=[["06:30","carousel","Carousel Tutorial"],["08:00","berita","Berita Terkini"],["09:00","reels","Reels"],["12:00","carousel","Carousel Contekan Prompt"],
   ["15:30","carousel","Carousel Mitos vs Fakta"],["17:00","berita","Berita Terkini"],["18:30","reels","Reels"],["20:00","carousel","Carousel Soft-selling"]];
 const PILAR_DEMO=["Digitalisasi ASN","Pemerintahan Desa","AI untuk Kerja Kantor"];
-const J_LABEL={terbit:"Terbit",menunggu:"Menunggu",proses:"Diproses",gagal:"Gagal",terlewat:"Tidak jalan",akan:"Terjadwal",berikutnya:"Berikutnya"};
+const J_LABEL={terbit:"Terbit",menunggu:"Menunggu",proses:"Diproses",gagal:"Gagal",manual:"Manual",terlewat:"Tidak jalan",akan:"Terjadwal",berikutnya:"Berikutnya"};
 const jState={data:null,tab:0};
 function witNow(off=0){const d=new Date(Date.now()+9*3600e3+off*864e5);return{tgl:d.toISOString().slice(0,10),menit:d.getUTCHours()*60+d.getUTCMinutes(),d};}
 const toMin=j=>{const[h,m]=j.split(":").map(Number);return h*60+m;};

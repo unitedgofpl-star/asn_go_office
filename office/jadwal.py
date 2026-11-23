@@ -8,7 +8,7 @@ from .core import now_wit, WIT
 TIPE = {"carousel": "Carousel", "berita": "Berita Terkini", "reels": "Reels"}
 FMT = {"carousel_tutorial": "Tutorial", "carousel_listicle": "Listicle", "carousel_prompt": "Contekan Prompt",
        "carousel_mitos": "Mitos vs Fakta", "carousel_promo": "Soft-selling"}
-IKON = {"terbit": "✅", "menunggu": "⏸", "proses": "🔄", "gagal": "⚠️", "terlewat": "❌", "akan": "🕒", "berikutnya": "⏭"}
+IKON = {"terbit": "✅", "menunggu": "⏸", "proses": "🔄", "gagal": "⚠️", "manual": "📦", "terlewat": "❌", "akan": "🕒", "berikutnya": "⏭"}
 LABEL = {"terbit": "Terbit", "menunggu": "Menunggu persetujuan", "proses": "Sedang diproses", "gagal": "Gagal",
          "terlewat": "Tidak jalan (pemicu jadwal telat/mati)", "akan": "Terjadwal", "berikutnya": "Berikutnya"}
 TOLERANSI_MENIT = 45  # cron GitHub kadang telat; selama ini dianggap "sedang diproses"
@@ -51,7 +51,7 @@ def rows(cfg, state, day=None):
         d = state.d["drafts"].get((lg or {}).get("did") or "")
         if d:
             r["id"], r["judul"] = d["id"], d.get("content", {}).get("hook", "")
-            r["status"] = {"published": "terbit", "failed": "gagal", "draft": "menunggu", "rejected": "gagal"}.get(d.get("status"), "proses")
+            r["status"] = {"published": "terbit", "failed": "gagal", "draft": "menunggu", "rejected": "gagal", "manual": "manual"}.get(d.get("status"), "proses")
             if d.get("published_at"):
                 r["terbit"] = d["published_at"][11:16]
         elif lg:
@@ -88,7 +88,7 @@ def manual(state, day, slot_rows=None):
             continue
         res.append({"jam": t[11:16], "id": d["id"], "jenis": TIPE.get(d.get("type", "carousel"), "Carousel"),
                     "judul": d.get("content", {}).get("hook", ""),
-                    "status": {"published": "terbit", "failed": "gagal", "draft": "menunggu", "approved": "proses"}.get(d.get("status"), "proses")})
+                    "status": {"published": "terbit", "failed": "gagal", "draft": "menunggu", "approved": "proses", "manual": "manual"}.get(d.get("status"), "proses")})
     return sorted(res, key=lambda x: x["jam"])
 
 
