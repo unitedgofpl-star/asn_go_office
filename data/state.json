@@ -4849,11 +4849,21 @@
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
    "status": "idle",
-   "last": "Laporan mingguan selesai — 130 followers",
-   "at": "2026-11-16 16:37"
+   "last": "Gagal ambil data: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+   "at": "2026-11-23 18:13"
   }
  },
  "log": [
+  {
+   "at": "2026-11-23 18:13",
+   "agent": "analis",
+   "msg": "Gagal ambil data: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+  },
+  {
+   "at": "2026-11-23 18:13",
+   "agent": "analis",
+   "msg": "Menarik data performa Instagram..."
+  },
   {
    "at": "2026-11-23 15:33",
    "agent": "humas",
@@ -5143,23 +5153,13 @@
    "at": "2026-11-23 06:31",
    "agent": "desain",
    "msg": "5 slide gaya tosca siap"
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "desain",
-   "msg": "Mendesain gaya tosca/angka/kartu/kartu..."
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 2 catatan"
   }
  ],
  "stats": {
   "published": 52,
   "drafts": 65
  },
- "updated": "2026-11-23T16:20+09:00",
+ "updated": "2026-11-23T18:13+09:00",
  "cuan_rot": 52,
  "last_followers": 130,
  "style_hist": [
@@ -5726,7 +5726,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-23",
-  "dibuat": "2026-11-23T16:20+09:00",
+  "dibuat": "2026-11-23T18:13+09:00",
   "hari_ini": [
    {
     "slot": 0,
