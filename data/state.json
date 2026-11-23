@@ -4950,20 +4950,20 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Membagi tugas produksi konten",
-   "at": "2026-11-24 07:16"
+   "last": "Meminta tim memantau berita terkini",
+   "at": "2026-11-24 08:01"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-24 07:16"
+   "last": "Berita: \"Konferensi Antar Bangsa Islam Borneo XVII Perkuat Kolaborasi\" (1 sumber, 6 foto)",
+   "at": "2026-11-24 08:02"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Menulis carousel: Google Workspace / Excel untuk laporan kantor",
-   "at": "2026-11-24 07:16"
+   "last": "Merangkum berita dari 1 sumber...",
+   "at": "2026-11-24 08:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -4997,6 +4997,31 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-24 08:02",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-24 08:02",
+   "agent": "riset",
+   "msg": "Berita: \"Konferensi Antar Bangsa Islam Borneo XVII Perkuat Kolaborasi\" (1 sumber, 6 foto)"
+  },
+  {
+   "at": "2026-11-24 08:01",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-24 08:01",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-24 08:01",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita asn"
+  },
   {
    "at": "2026-11-24 07:16",
    "agent": "naskah",
@@ -5271,38 +5296,13 @@
    "at": "2026-11-23 15:31",
    "agent": "naskah",
    "msg": "Menulis carousel: administrasi desa, tata naskah dinas desa, SK Kade"
-  },
-  {
-   "at": "2026-11-23 15:31",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-23 15:31",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-23 15:31",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-23 15:31",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-23 15:31",
-   "agent": "kepala",
-   "msg": "Jadwal 15:30 WIT: carousel desa"
   }
  ],
  "stats": {
   "published": 52,
   "drafts": 67
  },
- "updated": "2026-11-24T07:18+09:00",
+ "updated": "2026-11-24T08:04+09:00",
  "cuan_rot": 56,
  "last_followers": 130,
  "style_hist": [
@@ -5597,7 +5597,8 @@
   "mukernas ke 7 indonesiapersada id perkuat sinergi lppl hadap",
   "bkn perkirakan ada 3 juta calon pendaftar seleksi cpns 2026",
   "bkn perkuat sistem dan infrastruktur seleksi cpns 2026",
-  "bkn proyeksikan anggaran seleksi cpns 2026 rp 616 2 miliar"
+  "bkn proyeksikan anggaran seleksi cpns 2026 rp 616 2 miliar",
+  "konferensi antar bangsa islam borneo xvii perkuat kolaborasi"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -5894,12 +5895,17 @@
     "did": null,
     "status": "gagal",
     "at": "2026-11-24T07:18+09:00"
+   },
+   "1": {
+    "did": null,
+    "status": "gagal",
+    "at": "2026-11-24T08:04+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-24",
-  "dibuat": "2026-11-24T07:18+09:00",
+  "dibuat": "2026-11-24T08:04+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5919,7 +5925,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "berikutnya"
+    "status": "gagal"
    },
    {
     "slot": 2,
@@ -5929,7 +5935,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
