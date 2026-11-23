@@ -4886,26 +4886,84 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11240635": {
+   "id": "11240635",
+   "type": "reels",
+   "status": "failed",
+   "created": "2026-11-24T06:35+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "etika & keamanan data saat pakai AI di instansi",
+   "format": "reels",
+   "product": "naskah",
+   "content": {
+    "hook": "Awas! Data kantor bocor karena AI?",
+    "caption": "Halo Rekan ASN & Sobat Desa! Makin canggih pakai AI untuk tugas kantor, makin wajib juga kita jaga keamanan data instansi. Jangan sampai data pribadi warga atau dokumen rahasia bocor ke ruang publik digital ya. Yuk, selalu saring informasi sebelum di-input ke AI! Simpan postingan ini dan bagikan ke rekan kerja Anda. Apa tips keamanan data favorit di kantor Anda? Tulis di komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#KeamananData",
+     "#TransformasiDigital",
+     "#PemerintahanDesa",
+     "#SmartASN"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN & Sobat Desa!",
+      "icon": "👋"
+     },
+     {
+      "text": "Jangan pernah input NIK warga ke AI sembarangan!",
+      "icon": "🚨"
+     },
+     {
+      "text": "Data rahasia instansi wajib disensor dulu ya.",
+      "icon": "🔒"
+     },
+     {
+      "text": "Gunakan data umum atau samarkan nama aslinya.",
+      "icon": "🛡️"
+     },
+     {
+      "text": "Bijak pakai AI, kerja cepat, aman pun terjaga!",
+      "icon": "✨"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11240635/cover.jpg"
+   ],
+   "video": "public/11240635/reels.mp4",
+   "scheduled_at": "2026-11-24T06:35+09:00",
+   "published": {},
+   "published_at": "2026-11-24T06:35+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Membagi tugas produksi konten",
-   "at": "2026-11-24 06:31"
+   "last": "Reels #11240635 dikirim ke Bos",
+   "at": "2026-11-24 06:35"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-24 06:31"
+   "at": "2026-11-24 06:34"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Menulis carousel: tools AI gratis untuk ASN dan perangkat desa",
-   "at": "2026-11-24 06:31"
+   "last": "Naskah Reels: \"Awas! Data kantor bocor karena AI?\"",
+   "at": "2026-11-24 06:35"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -4916,20 +4974,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya berita siap",
-   "at": "2026-11-24 03:41"
+   "last": "Reels 41 detik siap (gaya kertas)",
+   "at": "2026-11-24 06:35"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11240341 → gagal",
-   "at": "2026-11-24 03:41"
+   "last": "#11240635 → gagal",
+   "at": "2026-11-24 06:35"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-24 06:31"
+   "at": "2026-11-24 06:34"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -4939,6 +4997,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-24 06:35",
+   "agent": "humas",
+   "msg": "#11240635 → gagal"
+  },
+  {
+   "at": "2026-11-24 06:35",
+   "agent": "humas",
+   "msg": "Menerbitkan #11240635 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-24 06:35",
+   "agent": "kepala",
+   "msg": "Reels #11240635 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-24 06:35",
+   "agent": "desain",
+   "msg": "Reels 41 detik siap (gaya kertas)"
+  },
+  {
+   "at": "2026-11-24 06:35",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-24 06:35",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya kertas..."
+  },
+  {
+   "at": "2026-11-24 06:35",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"Awas! Data kantor bocor karena AI?\""
+  },
+  {
+   "at": "2026-11-24 06:34",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: etika & keamanan data saat pakai AI di instan"
+  },
+  {
+   "at": "2026-11-24 06:34",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-24 06:34",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-24 06:34",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-24 06:34",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-24 06:34",
+   "agent": "kepala",
+   "msg": "Jadwal 18:30 WIT: reels ai"
+  },
   {
    "at": "2026-11-24 06:31",
    "agent": "naskah",
@@ -5173,92 +5296,16 @@
    "at": "2026-11-23 12:02",
    "agent": "qc",
    "msg": "QC selesai — risiko rendah, 3 catatan"
-  },
-  {
-   "at": "2026-11-23 12:02",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-23 12:02",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!\""
-  },
-  {
-   "at": "2026-11-23 12:01",
-   "agent": "naskah",
-   "msg": "Menulis carousel: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Offic"
-  },
-  {
-   "at": "2026-11-23 12:01",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-23 12:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-23 12:01",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-23 12:01",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-23 12:01",
-   "agent": "kepala",
-   "msg": "Jadwal 12:00 WIT: carousel asn"
-  },
-  {
-   "at": "2026-11-23 09:02",
-   "agent": "humas",
-   "msg": "#11230901 → gagal"
-  },
-  {
-   "at": "2026-11-23 09:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11230901 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-23 09:02",
-   "agent": "kepala",
-   "msg": "Reels #11230901 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-23 09:02",
-   "agent": "desain",
-   "msg": "Reels 39 detik siap (gaya ungu)"
-  },
-  {
-   "at": "2026-11-23 09:01",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
   }
  ],
  "stats": {
   "published": 52,
-  "drafts": 66
+  "drafts": 67
  },
- "updated": "2026-11-24T06:33+09:00",
- "cuan_rot": 54,
+ "updated": "2026-11-24T06:35+09:00",
+ "cuan_rot": 55,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "tegas",
-   "expr": "cemberut",
-   "theme": "berita",
-   "cover": "kanan",
-   "list": "grid",
-   "detail": "chat",
-   "pose": "tegas__cemberut_tangan_di_pinggang",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "semangat",
@@ -5467,10 +5514,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "badan"
+  },
+  {
+   "mood": "tegas",
+   "expr": "cemberut",
+   "theme": "kertas",
+   "cover": "potret",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "tegas__cemberut_tangan_di_pinggang",
+   "flip": false,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik",
   "RPJMDes sampai APBDes masih bikin pusing?",
   "Cara Cepat Pakai AI Bereskan Tugas Kantor",
   "Bikin Perdes dan SK Kades Tanpa Ribet Pakai AI",
@@ -5509,7 +5566,8 @@
   "Pekerjaan rutin ASN digantikan AI?",
   "Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!",
   "Bikin SK Kades dan Perdes Masih Manual?",
-  "Trik Produktivitas ASN: Kerja Sat-Set Tanpa Lembur"
+  "Trik Produktivitas ASN: Kerja Sat-Set Tanpa Lembur",
+  "Awas! Data kantor bocor karena AI?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -5826,12 +5884,17 @@
     "did": null,
     "status": "gagal",
     "at": "2026-11-24T06:33+09:00"
+   },
+   "6": {
+    "did": "11240635",
+    "status": "proses",
+    "at": "2026-11-24T06:35+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-24",
-  "dibuat": "2026-11-24T06:33+09:00",
+  "dibuat": "2026-11-24T06:35+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5900,9 +5963,10 @@
     "tipe": "reels",
     "jenis": "Reels",
     "pilar": "AI untuk Kerja Kantor",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "Awas! Data kantor bocor karena AI?",
+    "id": "11240635",
+    "status": "gagal",
+    "terbit": "06:35"
    },
    {
     "slot": 7,
