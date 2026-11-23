@@ -4712,50 +4712,139 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11231533": {
+   "id": "11231533",
+   "status": "failed",
+   "created": "2026-11-23T15:33+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "administrasi desa, tata naskah dinas desa, SK Kades, Perdes",
+   "format": "carousel_mitos",
+   "product": "kantor",
+   "content": {
+    "hook": "Bikin SK Kades dan Perdes Masih Manual?",
+    "subtitle": "Transformasi administrasi desa sat-set dengan panduan digital terkini.",
+    "mood": "terkejut",
+    "items": [
+     {
+      "title": "MITOS: Format Naskah Kaku",
+      "sub": "Aturan desa tidak bisa pakai template digital modern.",
+      "icon": "📜"
+     },
+     {
+      "title": "MITOS: Tandatangan Basah Saja",
+      "sub": "Dokumen resmi desa wajib kertas dan tinta pulpen.",
+      "icon": "✍️"
+     },
+     {
+      "title": "MITOS: Arsip Digital Tidak Sah",
+      "sub": "Penyimpanan awan membuat SK Kades mudah hilang.",
+      "icon": "☁️"
+     },
+     {
+      "title": "MITOS: Bikin Perdes Lama",
+      "sub": "Proses draf regulasi desa memakan waktu sangat lama.",
+      "icon": "⏳"
+     }
+    ],
+    "details": [
+     {
+      "title": "MITOS: Format Naskah Kaku",
+      "body": "FAKTA: Pedoman tata naskah dinas memberi ruang adaptasi digital. Yang penting unsur, kop, dan penomoran sesuai ketentuan instansi Anda!",
+      "icon": "📜"
+     },
+     {
+      "title": "MITOS: Tandatangan Basah Saja",
+      "body": "FAKTA: Regulasi nasional mengakui keabsahan Tanda Tangan Elektronik. Layanan publik desa kini makin cepat tanpa menunggu kepala desa di kantor.",
+      "icon": "✍️"
+     },
+     {
+      "title": "MITOS: Arsip Digital Tidak Sah",
+      "body": "FAKTA: Cadangan data di penyimpanan digital resmi justru menyelamatkan arsip dari risiko kerusakan fisik. Selalu validasi regulasi terbaru.",
+      "icon": "☁️"
+     }
+    ],
+    "note": "Selalu periksa ketentuan terbaru terkait tata naskah dinas dan administrasi desa di daerah Anda.",
+    "cta": "Bagikan trik ini ke rekan perangkat desa agar kerja makin sat-set!",
+    "caption": "Halo Rekan ASN dan Sobat Desa! Masih sering lembur karena urus administrasi desa dengan cara lama? Mari bedah mitos seputar SK Kades dan Perdes. Sebagai abdi negara yang adaptif, transformasi digital di desa bukan cuma soal gaya, tapi soal efisiensi pelayanan publik. Jangan lupa cek regulasi terbaru di instansi masing-masing agar tetap sesuai koridor hukum. SIMPAN postingan ini dan BAGIKAN ke grup WhatsApp kantor atau perangkat desa. Menurut Sobat Desa, apa tantangan terberat saat menyusun Perdes tahun ini? Tulis di kolom komentar ya!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — Paket Kantor — Rp149.000 (10 perangkat). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#DigitalisasiDesa",
+     "#PemerintahanDesa",
+     "#PerangkatDesa",
+     "#AdministrasiDesa",
+     "#Siskeudes",
+     "#ASNBerAKHLAK",
+     "#TransformasiDigital",
+     "#Kades"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus penyebutan regulasi spesifik yang berpotensi kurang akurat (Permendagri dan UU ITE) diganti dengan istilah umum sesuai pedoman tata naskah dinas agar lebih aman secara hukum.",
+      "Memperbaiki beberapa tanda baca dan singkatan tidak baku agar sesuai kaidah EYD.",
+      "Memastikan panjang teks per slide di bawah 45 kata."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11231533/slide_01.jpg",
+    "public/11231533/slide_02.jpg",
+    "public/11231533/slide_03.jpg",
+    "public/11231533/slide_04.jpg",
+    "public/11231533/slide_05.jpg",
+    "public/11231533/slide_06.jpg"
+   ],
+   "scheduled_at": "2026-11-23T19:00+09:00",
+   "published": {},
+   "published_at": "2026-11-23T15:33+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11231202 dikirim ke Bos",
-   "at": "2026-11-23 12:02"
+   "last": "Draft #11231533 dikirim ke Bos",
+   "at": "2026-11-23 15:33"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-23 12:01"
+   "at": "2026-11-23 15:31"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!\"",
-   "at": "2026-11-23 12:02"
+   "last": "Draft selesai: \"Bikin SK Kades dan Perdes Masih Manual?\"",
+   "at": "2026-11-23 15:32"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
    "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-23 12:02"
+   "at": "2026-11-23 15:33"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya merah siap",
-   "at": "2026-11-23 12:02"
+   "last": "6 slide gaya navy siap",
+   "at": "2026-11-23 15:33"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11231202 → gagal",
-   "at": "2026-11-23 12:02"
+   "last": "#11231533 → gagal",
+   "at": "2026-11-23 15:33"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-23 12:01"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-23 15:31"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -4765,6 +4854,76 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-23 15:33",
+   "agent": "humas",
+   "msg": "#11231533 → gagal"
+  },
+  {
+   "at": "2026-11-23 15:33",
+   "agent": "humas",
+   "msg": "Menerbitkan #11231533 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-23 15:33",
+   "agent": "kepala",
+   "msg": "Draft #11231533 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-23 15:33",
+   "agent": "desain",
+   "msg": "6 slide gaya navy siap"
+  },
+  {
+   "at": "2026-11-23 15:33",
+   "agent": "desain",
+   "msg": "Mendesain gaya navy/kiri/kartu/versus..."
+  },
+  {
+   "at": "2026-11-23 15:33",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 3 catatan"
+  },
+  {
+   "at": "2026-11-23 15:32",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-23 15:32",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Bikin SK Kades dan Perdes Masih Manual?\""
+  },
+  {
+   "at": "2026-11-23 15:31",
+   "agent": "naskah",
+   "msg": "Menulis carousel: administrasi desa, tata naskah dinas desa, SK Kade"
+  },
+  {
+   "at": "2026-11-23 15:31",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-23 15:31",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-23 15:31",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-23 15:31",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-23 15:31",
+   "agent": "kepala",
+   "msg": "Jadwal 15:30 WIT: carousel desa"
+  },
   {
    "at": "2026-11-23 12:02",
    "agent": "humas",
@@ -4994,97 +5153,16 @@
    "at": "2026-11-23 06:31",
    "agent": "qc",
    "msg": "QC selesai — risiko rendah, 2 catatan"
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"4 Kebiasaan ASN yang Bikin SKP Digital Macet\""
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "naskah",
-   "msg": "Menulis carousel: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Offic"
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-23 06:31",
-   "agent": "kepala",
-   "msg": "Jadwal 06:30 WIT: carousel asn"
-  },
-  {
-   "at": "2026-11-23 03:07",
-   "agent": "humas",
-   "msg": "#11230307 → gagal"
-  },
-  {
-   "at": "2026-11-23 03:07",
-   "agent": "humas",
-   "msg": "Menerbitkan #11230307 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-23 03:07",
-   "agent": "kepala",
-   "msg": "Draft #11230307 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-23 03:07",
-   "agent": "desain",
-   "msg": "7 slide gaya berita siap"
-  },
-  {
-   "at": "2026-11-23 03:07",
-   "agent": "desain",
-   "msg": "Mendesain gaya berita/potret/grid/chat..."
-  },
-  {
-   "at": "2026-11-23 03:07",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 4 catatan"
   }
  ],
  "stats": {
   "published": 52,
-  "drafts": 64
+  "drafts": 65
  },
- "updated": "2026-11-23T12:08+09:00",
- "cuan_rot": 51,
+ "updated": "2026-11-23T15:33+09:00",
+ "cuan_rot": 52,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "semangat",
-   "theme": "tosca",
-   "cover": "berita",
-   "list": "ceklis",
-   "detail": "angka",
-   "pose": "semangat__tangan_mengepal",
-   "flip": false,
-   "cta": "badan"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -5293,10 +5371,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "terkejut",
+   "expr": "terkejut",
+   "theme": "navy",
+   "cover": "kiri",
+   "list": "kartu",
+   "detail": "versus",
+   "pose": "terkejut__tangan_di_pipi",
+   "flip": false,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI",
   "Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!",
   "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik",
   "RPJMDes sampai APBDes masih bikin pusing?",
@@ -5335,7 +5423,8 @@
   "4 Kebiasaan ASN yang Bikin SKP Digital Macet",
   "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital",
   "Pekerjaan rutin ASN digantikan AI?",
-  "Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!"
+  "Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!",
+  "Bikin SK Kades dan Perdes Masih Manual?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -5627,12 +5716,17 @@
     "did": "11231202",
     "status": "proses",
     "at": "2026-11-23T12:02+09:00"
+   },
+   "4": {
+    "did": "11231533",
+    "status": "proses",
+    "at": "2026-11-23T15:33+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-23",
-  "dibuat": "2026-11-23T12:08+09:00",
+  "dibuat": "2026-11-23T15:33+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5684,9 +5778,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Mitos vs Fakta",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin SK Kades dan Perdes Masih Manual?",
+    "id": "11231533",
+    "status": "gagal",
+    "terbit": "15:33"
    },
    {
     "slot": 5,
