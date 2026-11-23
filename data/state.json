@@ -4629,50 +4629,133 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11231202": {
+   "id": "11231202",
+   "status": "failed",
+   "created": "2026-11-23T12:02+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Office",
+   "format": "carousel_prompt",
+   "product": "naskah",
+   "content": {
+    "hook": "Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!",
+    "subtitle": "Contekan praktis kerja kilat birokrasi digital anti ribet",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Bikin Draft SKP Kilat",
+      "sub": "Susun butir kegiatan e-Kinerja tanpa pusing",
+      "icon": "⚡"
+     },
+     {
+      "title": "Ringkas Peraturan Panjang",
+      "sub": "Pahami regulasi baru dalam hitungan detik",
+      "icon": "📑"
+     },
+     {
+      "title": "Balas Surat Dinas",
+      "sub": "Draft naskah dinas resmi sat-set",
+      "icon": "✉️"
+     },
+     {
+      "title": "Bikin Materi Paparan",
+      "sub": "Presentasi rapat pimpinan langsung siap pakai",
+      "icon": "💻"
+     }
+    ],
+    "details": [
+     {
+      "title": "Bikin Draft SKP Kilat",
+      "body": "Prompt: 'Bertindaklah sebagai asesor kinerja ASN. Buat draf uraian tugas dan target IKI untuk jabatan [masukkan jabatan] sesuai aktivitas bulanan [sebutkan 3 tugas utama] dalam format poin yang profesional.'",
+      "icon": "⚡"
+     },
+     {
+      "title": "Ringkas Peraturan Panjang",
+      "body": "Prompt: 'Analisis teks regulasi berikut dan rangkum poin paling krusial yang wajib dipatuhi oleh [ASN/Perangkat Desa], lalu buat format checklist kepatuhannya:\n[Tempel teks regulasi di sini]'\n*(Pastikan tidak memasukkan data rahasia negara/instansi ke dalam AI publik)*",
+      "icon": "📑"
+     }
+    ],
+    "note": "Selalu verifikasi hasil AI dengan regulasi instansi terkait ya, Rekan ASN!",
+    "cta": "Simpan postingan ini biar gampang dicari pas jam kerja padat!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Mau indeks SPBE instansi makin kinclong dan kerjaan kantor beres lebih cepat? Transformasi digital birokrasi menuntut kita makin adaptif. Kaka Agus sudah siapkan contekan prompt AI siap salin buat bantu urusan e-Kinerja, ringkas regulasi, sampai bikin draf naskah dinas sat-set! Tinggal salin dan sesuaikan kebutuhan kantormu. Selalu jaga kerahasiaan data instansi saat menggunakan AI ya. Kerja cerdas, minim lembur, pelayanan publik makin prima! Yuk, SIMPAN postingan ini dan BAGIKAN ke rekan sekantor. Coba tulis di kolom komentar, apa tugas kantor paling bikin kamu pusing minggu ini?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#DigitalisasiASN",
+     "#SPBE",
+     "#eKinerja",
+     "#ASNGoDigital",
+     "#TransformasiDigital",
+     "#PemerintahanDesa",
+     "#TipsASN",
+     "#KinerjaASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Nama pembuat di caption diubah dari Cicilia menjadi Kaka Agus agar sesuai dengan identitas pemeriksa.",
+      "Memastikan seluruh teks di setiap slide di bawah 45 kata sesuai batas maksimal.",
+      "Memperbaiki beberapa tanda baca dan EYD agar sesuai standar bahasa Indonesia yang baik dan benar."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11231202/slide_01.jpg",
+    "public/11231202/slide_02.jpg",
+    "public/11231202/slide_03.jpg",
+    "public/11231202/slide_04.jpg",
+    "public/11231202/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-23T19:00+09:00",
+   "published": {},
+   "published_at": "2026-11-23T12:02+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Reels #11230901 dikirim ke Bos",
-   "at": "2026-11-23 09:02"
+   "last": "Draft #11231202 dikirim ke Bos",
+   "at": "2026-11-23 12:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-23 09:01"
+   "at": "2026-11-23 12:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Naskah Reels: \"Pekerjaan rutin ASN digantikan AI?\"",
-   "at": "2026-11-23 09:01"
+   "last": "Draft selesai: \"Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!\"",
+   "at": "2026-11-23 12:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "Cek berita selesai — risiko rendah",
-   "at": "2026-11-23 08:01"
+   "last": "QC selesai — risiko rendah, 3 catatan",
+   "at": "2026-11-23 12:02"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Reels 39 detik siap (gaya ungu)",
-   "at": "2026-11-23 09:02"
+   "last": "5 slide gaya merah siap",
+   "at": "2026-11-23 12:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11230901 → gagal",
-   "at": "2026-11-23 09:02"
+   "last": "#11231202 → gagal",
+   "at": "2026-11-23 12:02"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-23 09:01"
+   "at": "2026-11-23 12:01"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -4682,6 +4765,76 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-23 12:02",
+   "agent": "humas",
+   "msg": "#11231202 → gagal"
+  },
+  {
+   "at": "2026-11-23 12:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11231202 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-23 12:02",
+   "agent": "kepala",
+   "msg": "Draft #11231202 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-23 12:02",
+   "agent": "desain",
+   "msg": "5 slide gaya merah siap"
+  },
+  {
+   "at": "2026-11-23 12:02",
+   "agent": "desain",
+   "msg": "Mendesain gaya merah/kanan/grid/chat..."
+  },
+  {
+   "at": "2026-11-23 12:02",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 3 catatan"
+  },
+  {
+   "at": "2026-11-23 12:02",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-23 12:02",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!\""
+  },
+  {
+   "at": "2026-11-23 12:01",
+   "agent": "naskah",
+   "msg": "Menulis carousel: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Offic"
+  },
+  {
+   "at": "2026-11-23 12:01",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-23 12:01",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-23 12:01",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-23 12:01",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-23 12:01",
+   "agent": "kepala",
+   "msg": "Jadwal 12:00 WIT: carousel asn"
+  },
   {
    "at": "2026-11-23 09:02",
    "agent": "humas",
@@ -4911,97 +5064,16 @@
    "at": "2026-11-23 03:07",
    "agent": "qc",
    "msg": "QC selesai — risiko sedang, 4 catatan"
-  },
-  {
-   "at": "2026-11-23 03:06",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-23 03:06",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Duh, Bikin SK Kades dan Perdes Masih Manual?\""
-  },
-  {
-   "at": "2026-11-23 03:05",
-   "agent": "naskah",
-   "msg": "Menulis carousel: administrasi desa, tata naskah dinas desa, SK Kade"
-  },
-  {
-   "at": "2026-11-23 03:05",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-23 03:05",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-23 03:05",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-23 03:05",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-23 03:05",
-   "agent": "kepala",
-   "msg": "Jadwal 20:00 WIT: carousel desa"
-  },
-  {
-   "at": "2026-11-23 02:16",
-   "agent": "humas",
-   "msg": "#11230215 → gagal"
-  },
-  {
-   "at": "2026-11-23 02:16",
-   "agent": "humas",
-   "msg": "Menerbitkan #11230215 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-23 02:16",
-   "agent": "kepala",
-   "msg": "Reels #11230215 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-23 02:16",
-   "agent": "desain",
-   "msg": "Reels 40 detik siap (gaya tosca)"
-  },
-  {
-   "at": "2026-11-23 02:15",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-23 02:15",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya tosca..."
   }
  ],
  "stats": {
   "published": 52,
-  "drafts": 63
+  "drafts": 64
  },
- "updated": "2026-11-23T10:54+09:00",
- "cuan_rot": 50,
+ "updated": "2026-11-23T12:02+09:00",
+ "cuan_rot": 51,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "menjelaskan",
-   "expr": "senang",
-   "theme": "ungu",
-   "cover": "kanan",
-   "list": "grid",
-   "detail": "chat",
-   "pose": "menjelaskan__tangan_terbuka",
-   "flip": true,
-   "cta": "badan"
-  },
   {
    "mood": "semangat",
    "expr": "semangat",
@@ -5210,10 +5282,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "merah",
+   "cover": "kanan",
+   "list": "grid",
+   "detail": "chat",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Bikin dokumen desa masih cara manual?",
   "Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI",
   "Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!",
   "Transformasi Digital dan Keterampilan Komunikasi Sebagai Kunci Layanan Publik",
@@ -5252,7 +5334,8 @@
   "Duh, Bikin SK Kades dan Perdes Masih Manual?",
   "4 Kebiasaan ASN yang Bikin SKP Digital Macet",
   "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital",
-  "Pekerjaan rutin ASN digantikan AI?"
+  "Pekerjaan rutin ASN digantikan AI?",
+  "Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -5539,12 +5622,17 @@
     "did": "11230901",
     "status": "proses",
     "at": "2026-11-23T09:02+09:00"
+   },
+   "3": {
+    "did": "11231202",
+    "status": "proses",
+    "at": "2026-11-23T12:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-23",
-  "dibuat": "2026-11-23T10:54+09:00",
+  "dibuat": "2026-11-23T12:02+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5585,9 +5673,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Contekan Prompt",
     "pilar": "Digitalisasi ASN",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!",
+    "id": "11231202",
+    "status": "gagal",
+    "terbit": "12:02"
    },
    {
     "slot": 4,
@@ -5597,7 +5686,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 5,
