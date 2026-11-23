@@ -4892,20 +4892,20 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11240341 dikirim ke Bos",
-   "at": "2026-11-24 03:41"
+   "last": "Meminta tim memantau berita terkini",
+   "at": "2026-11-24 04:29"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-24 03:39"
+   "last": "Berita: \"BKN Perkirakan Ada 3 Juta Calon Pendaftar Seleksi CPNS 2026\" (2 sumber, 2 foto)",
+   "at": "2026-11-24 04:30"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"5 Trik Produktivitas ASN Agar Kerja Sat-Set Tanpa Lembur\"",
-   "at": "2026-11-24 03:41"
+   "last": "Merangkum berita dari 2 sumber...",
+   "at": "2026-11-24 04:30"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -4939,6 +4939,31 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-24 04:30",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 2 sumber..."
+  },
+  {
+   "at": "2026-11-24 04:30",
+   "agent": "riset",
+   "msg": "Berita: \"BKN Perkirakan Ada 3 Juta Calon Pendaftar Seleksi CPNS 2026\" (2 sumber, 2 foto)"
+  },
+  {
+   "at": "2026-11-24 04:29",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-24 04:29",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-24 04:29",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita desa"
+  },
   {
    "at": "2026-11-24 03:41",
    "agent": "humas",
@@ -5213,38 +5238,13 @@
    "at": "2026-11-23 09:01",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-23 09:01",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-23 09:01",
-   "agent": "kepala",
-   "msg": "Jadwal 09:00 WIT: reels ai"
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "humas",
-   "msg": "#11230801 → gagal"
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "humas",
-   "msg": "Menerbitkan #11230801 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-23 08:01",
-   "agent": "kepala",
-   "msg": "Berita #11230801 dikirim ke Bos"
   }
  ],
  "stats": {
   "published": 52,
   "drafts": 66
  },
- "updated": "2026-11-24T03:41+09:00",
+ "updated": "2026-11-24T04:32+09:00",
  "cuan_rot": 53,
  "last_followers": 130,
  "style_hist": [
@@ -5536,7 +5536,10 @@
   "beredar draf pp pengadaan khusus pns jabatan pol pp  fadlun ",
   "beredar draf pp pengadaan khusus pns jabatan pol pp  fadlun ",
   "106 desa tuntaskan rth smart 100 persen  terima apresiasi rp",
-  "mukernas ke 7 indonesiapersada id perkuat sinergi lppl hadap"
+  "mukernas ke 7 indonesiapersada id perkuat sinergi lppl hadap",
+  "bkn perkirakan ada 3 juta calon pendaftar seleksi cpns 2026",
+  "bkn perkuat sistem dan infrastruktur seleksi cpns 2026",
+  "bkn proyeksikan anggaran seleksi cpns 2026 rp 616 2 miliar"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -5813,12 +5816,17 @@
     "did": "11240341",
     "status": "proses",
     "at": "2026-11-24T03:41+09:00"
+   },
+   "5": {
+    "did": null,
+    "status": "gagal",
+    "at": "2026-11-24T04:32+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-24",
-  "dibuat": "2026-11-24T03:41+09:00",
+  "dibuat": "2026-11-24T04:32+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5879,7 +5887,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "gagal"
    },
    {
     "slot": 6,
