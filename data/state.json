@@ -4571,26 +4571,84 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11230901": {
+   "id": "11230901",
+   "type": "reels",
+   "status": "failed",
+   "created": "2026-11-23T09:02+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "tools AI gratis untuk ASN dan perangkat desa",
+   "format": "reels",
+   "product": "naskah",
+   "content": {
+    "hook": "Pekerjaan rutin ASN digantikan AI?",
+    "caption": "Halo Rekan ASN & Sobat Desa! Isu pekerjaan rutin PNS bakal diambil alih mesin bikin deg-degan ya? Tenang, kuncinya ada di adaptasi. Alih-alih cemas, yuk kita manfaatkan tools AI gratis untuk bantu tugas harian jadi lebih sat-set dan efisien. Simpan video ini dan bagikan ke rekan kerja Anda ya! Tools apa nih yang paling sering kalian pakai di kantor?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn",
+     "#perangkatdesa",
+     "#digitalisasi",
+     "#asnkelur",
+     "#asngodigitals"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN & Sobat Desa!",
+      "icon": "👋"
+     },
+     {
+      "text": "Jangan panik, AI justru bikin kerjaan makin cepat.",
+      "icon": "⚡"
+     },
+     {
+      "text": "Gunakan tools gratis untuk ringkas dokumen panjang.",
+      "icon": "📄"
+     },
+     {
+      "text": "Manfaatkan AI untuk buat draf laporan kantor.",
+      "icon": "💻"
+     },
+     {
+      "text": "Waktunya kita jadi ASN yang melek teknologi!",
+      "icon": "🚀"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11230901/cover.jpg"
+   ],
+   "video": "public/11230901/reels.mp4",
+   "scheduled_at": "2026-11-23T09:02+09:00",
+   "published": {},
+   "published_at": "2026-11-23T09:02+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11230801 dikirim ke Bos",
-   "at": "2026-11-23 08:01"
+   "last": "Reels #11230901 dikirim ke Bos",
+   "at": "2026-11-23 09:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Hadap\" (1 sumber, 1 foto)",
-   "at": "2026-11-23 08:01"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-23 09:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital\"",
-   "at": "2026-11-23 08:01"
+   "last": "Naskah Reels: \"Pekerjaan rutin ASN digantikan AI?\"",
+   "at": "2026-11-23 09:01"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -4601,20 +4659,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 2 slide siap",
-   "at": "2026-11-23 08:01"
+   "last": "Reels 39 detik siap (gaya ungu)",
+   "at": "2026-11-23 09:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11230801 → gagal",
-   "at": "2026-11-23 08:01"
+   "last": "#11230901 → gagal",
+   "at": "2026-11-23 09:02"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-23 06:31"
+   "at": "2026-11-23 09:01"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -4624,6 +4682,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-23 09:02",
+   "agent": "humas",
+   "msg": "#11230901 → gagal"
+  },
+  {
+   "at": "2026-11-23 09:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11230901 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-23 09:02",
+   "agent": "kepala",
+   "msg": "Reels #11230901 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-23 09:02",
+   "agent": "desain",
+   "msg": "Reels 39 detik siap (gaya ungu)"
+  },
+  {
+   "at": "2026-11-23 09:01",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-23 09:01",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya ungu..."
+  },
+  {
+   "at": "2026-11-23 09:01",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"Pekerjaan rutin ASN digantikan AI?\""
+  },
+  {
+   "at": "2026-11-23 09:01",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: tools AI gratis untuk ASN dan perangkat desa"
+  },
+  {
+   "at": "2026-11-23 09:01",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-23 09:01",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-23 09:01",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-23 09:01",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-23 09:01",
+   "agent": "kepala",
+   "msg": "Jadwal 09:00 WIT: reels ai"
+  },
   {
    "at": "2026-11-23 08:01",
    "agent": "humas",
@@ -4858,92 +4981,16 @@
    "at": "2026-11-23 02:15",
    "agent": "desain",
    "msg": "Membuat Reels gaya tosca..."
-  },
-  {
-   "at": "2026-11-23 02:15",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Bikin SKP digital lama banget?\""
-  },
-  {
-   "at": "2026-11-23 02:15",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-"
-  },
-  {
-   "at": "2026-11-23 02:15",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-23 02:15",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-23 02:15",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-23 02:15",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-23 02:15",
-   "agent": "kepala",
-   "msg": "Jadwal 18:30 WIT: reels asn"
-  },
-  {
-   "at": "2026-11-23 00:44",
-   "agent": "humas",
-   "msg": "#11230044 → gagal"
-  },
-  {
-   "at": "2026-11-23 00:44",
-   "agent": "humas",
-   "msg": "Menerbitkan #11230044 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-23 00:44",
-   "agent": "kepala",
-   "msg": "Berita #11230044 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-23 00:44",
-   "agent": "desain",
-   "msg": "Berita 2 slide siap"
-  },
-  {
-   "at": "2026-11-23 00:44",
-   "agent": "desain",
-   "msg": "Mendesain berita (1 foto)..."
-  },
-  {
-   "at": "2026-11-23 00:44",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko rendah"
   }
  ],
  "stats": {
   "published": 52,
-  "drafts": 62
+  "drafts": 63
  },
- "updated": "2026-11-23T08:01+09:00",
- "cuan_rot": 49,
+ "updated": "2026-11-23T09:02+09:00",
+ "cuan_rot": 50,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "tegas",
-   "expr": "cemberut",
-   "theme": "berita",
-   "cover": "kiri",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "tegas__cemberut_tangan_di_pinggang",
-   "flip": false,
-   "cta": "potret"
-  },
   {
    "mood": "menjelaskan",
    "expr": "senang",
@@ -5152,10 +5199,20 @@
    "pose": "tegas__cemberut_tangan_di_pinggang",
    "flip": false,
    "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "ungu",
+   "cover": "potret",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Pentingnya Transparansi dan Tertib Administrasi dalam Pengelolaan Dana Desa",
   "Bikin dokumen desa masih cara manual?",
   "Tuntaskan Tiga Tugas Kantor Sekaligus Pakai AI",
   "Dunia Berubah Cepat, ASN dan Desa Wajib Melek AI!",
@@ -5194,7 +5251,8 @@
   "Bikin SKP digital lama banget?",
   "Duh, Bikin SK Kades dan Perdes Masih Manual?",
   "4 Kebiasaan ASN yang Bikin SKP Digital Macet",
-  "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital"
+  "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital",
+  "Pekerjaan rutin ASN digantikan AI?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -5476,12 +5534,17 @@
     "did": "11230801",
     "status": "proses",
     "at": "2026-11-23T08:01+09:00"
+   },
+   "2": {
+    "did": "11230901",
+    "status": "proses",
+    "at": "2026-11-23T09:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-23",
-  "dibuat": "2026-11-23T08:01+09:00",
+  "dibuat": "2026-11-23T09:02+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5511,9 +5574,10 @@
     "tipe": "reels",
     "jenis": "Reels",
     "pilar": "AI untuk Kerja Kantor",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Pekerjaan rutin ASN digantikan AI?",
+    "id": "11230901",
+    "status": "gagal",
+    "terbit": "09:02"
    },
    {
     "slot": 3,
@@ -5523,7 +5587,7 @@
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 4,
