@@ -4892,20 +4892,20 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Meminta tim memantau berita terkini",
-   "at": "2026-11-24 04:29"
+   "last": "Membagi tugas produksi konten",
+   "at": "2026-11-24 06:31"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"BKN Perkirakan Ada 3 Juta Calon Pendaftar Seleksi CPNS 2026\" (2 sumber, 2 foto)",
-   "at": "2026-11-24 04:30"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-24 06:31"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Merangkum berita dari 2 sumber...",
-   "at": "2026-11-24 04:30"
+   "last": "Menulis carousel: tools AI gratis untuk ASN dan perangkat desa",
+   "at": "2026-11-24 06:31"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -4929,7 +4929,7 @@
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-24 03:39"
+   "at": "2026-11-24 06:31"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -4939,6 +4939,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-24 06:31",
+   "agent": "naskah",
+   "msg": "Menulis carousel: tools AI gratis untuk ASN dan perangkat desa"
+  },
+  {
+   "at": "2026-11-24 06:31",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-24 06:31",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-24 06:31",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-24 06:31",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-24 06:31",
+   "agent": "kepala",
+   "msg": "Jadwal 06:30 WIT: carousel ai"
+  },
   {
    "at": "2026-11-24 04:30",
    "agent": "naskah",
@@ -5208,44 +5238,14 @@
    "at": "2026-11-23 09:01",
    "agent": "desain",
    "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-23 09:01",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya ungu..."
-  },
-  {
-   "at": "2026-11-23 09:01",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Pekerjaan rutin ASN digantikan AI?\""
-  },
-  {
-   "at": "2026-11-23 09:01",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: tools AI gratis untuk ASN dan perangkat desa"
-  },
-  {
-   "at": "2026-11-23 09:01",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-23 09:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-23 09:01",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
   "published": 52,
   "drafts": 66
  },
- "updated": "2026-11-24T04:32+09:00",
- "cuan_rot": 53,
+ "updated": "2026-11-24T06:33+09:00",
+ "cuan_rot": 54,
  "last_followers": 130,
  "style_hist": [
   {
@@ -5821,12 +5821,17 @@
     "did": null,
     "status": "gagal",
     "at": "2026-11-24T04:32+09:00"
+   },
+   "0": {
+    "did": null,
+    "status": "gagal",
+    "at": "2026-11-24T06:33+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-24",
-  "dibuat": "2026-11-24T04:32+09:00",
+  "dibuat": "2026-11-24T06:33+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5836,7 +5841,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "berikutnya"
+    "status": "gagal"
    },
    {
     "slot": 1,
@@ -5846,7 +5851,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 2,
@@ -5998,7 +6003,7 @@
  },
  "harga": {
   "sync": {
-   "at": "2026-11-23T06:31+09:00",
+   "at": "2026-11-24T06:31+09:00",
    "hasil": "halaman terbuka tapi harga tidak terbaca"
   }
  }
