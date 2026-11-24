@@ -5253,20 +5253,20 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Perintah selesai diproses",
-   "at": "2026-11-24 21:12"
+   "last": "Membagi tugas produksi konten",
+   "at": "2026-11-25 03:09"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Perkuat Kesadaran Demokrasi, Bawaslu Boalemo Gelar Konsolida\" (2 sumber, 2 foto)",
-   "at": "2026-11-24 15:25"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-25 03:09"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Naskah video: \"Bikin surat dinas masih format lama?\"",
-   "at": "2026-11-24 21:10"
+   "last": "Menulis carousel: AI untuk membuat bahan paparan, ringkasan regulasi",
+   "at": "2026-11-25 03:09"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -5290,7 +5290,7 @@
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-24 14:25"
+   "at": "2026-11-25 03:09"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -5300,6 +5300,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 03:09",
+   "agent": "naskah",
+   "msg": "Menulis carousel: AI untuk membuat bahan paparan, ringkasan regulasi"
+  },
+  {
+   "at": "2026-11-25 03:09",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-25 03:09",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-25 03:09",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-25 03:09",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-25 03:09",
+   "agent": "kepala",
+   "msg": "Jadwal 15:30 WIT: carousel ai"
+  },
   {
    "at": "2026-11-24 21:12",
    "agent": "kepala",
@@ -5569,44 +5599,14 @@
    "at": "2026-11-24 12:01",
    "agent": "riset",
    "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-24 12:01",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-24 12:01",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-24 12:01",
-   "agent": "kepala",
-   "msg": "Jadwal 12:00 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-24 10:01",
-   "agent": "humas",
-   "msg": "Paket TikTok #11230307 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-24 09:59",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11230307..."
-  },
-  {
-   "at": "2026-11-24 09:59",
-   "agent": "humas",
-   "msg": "#11230307 → ig, fb"
   }
  ],
  "stats": {
   "published": 58,
   "drafts": 72
  },
- "updated": "2026-11-24T22:31+09:00",
- "cuan_rot": 59,
+ "updated": "2026-11-25T03:10+09:00",
+ "cuan_rot": 60,
  "last_followers": 130,
  "style_hist": [
   {
@@ -5906,23 +5906,6 @@
   "koordinasi awal mou  bawaslu pohuwato dorong kolaborasi deng"
  ],
  "slot_log": {
-  "2026-11-17": {
-   "6": {
-    "did": "11171832",
-    "status": "proses",
-    "at": "2026-11-17T18:32+09:00"
-   },
-   "7": {
-    "did": "11172004",
-    "status": "proses",
-    "at": "2026-11-17T20:04+09:00"
-   },
-   "3": {
-    "did": "11172043",
-    "status": "proses",
-    "at": "2026-11-17T20:43+09:00"
-   }
-  },
   "2026-11-18": {
    "4": {
     "did": "11180125",
@@ -6216,124 +6199,19 @@
     "status": "proses",
     "at": "2026-11-24T12:02+09:00"
    }
+  },
+  "2026-11-25": {
+   "4": {
+    "did": null,
+    "status": "gagal",
+    "at": "2026-11-25T03:10+09:00"
+   }
   }
  },
  "jadwal": {
-  "tanggal": "2026-11-24",
-  "dibuat": "2026-11-24T22:31+09:00",
+  "tanggal": "2026-11-25",
+  "dibuat": "2026-11-25T03:10+09:00",
   "hari_ini": [
-   {
-    "slot": 0,
-    "jam": "06:30",
-    "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Awas Kebablasan! Ini Etika Pakai AI di Kantor",
-    "id": "11241426",
-    "status": "terbit",
-    "terbit": "14:27"
-   },
-   {
-    "slot": 1,
-    "jam": "08:00",
-    "tipe": "berita",
-    "jenis": "Berita Terkini",
-    "pilar": "Berita pilihan",
-    "judul": "Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa",
-    "id": "11241527",
-    "status": "terbit",
-    "terbit": "15:28"
-   },
-   {
-    "slot": 2,
-    "jam": "09:00",
-    "tipe": "reels",
-    "jenis": "Video Edukasi",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Bikin SK Kades dan Perdes masih manual?",
-    "id": "11240901",
-    "status": "terbit",
-    "terbit": "09:36"
-   },
-   {
-    "slot": 3,
-    "jam": "12:00",
-    "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Rekomendasi Tools AI Gratis Biar ASN Kerja Sat-Set",
-    "id": "11241202",
-    "status": "terbit",
-    "terbit": "12:03"
-   },
-   {
-    "slot": 4,
-    "jam": "15:30",
-    "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Trik Produktivitas ASN: Kerja Sat-Set Tanpa Lembur",
-    "id": "11240341",
-    "status": "gagal",
-    "terbit": "03:41"
-   },
-   {
-    "slot": 5,
-    "jam": "17:00",
-    "tipe": "berita",
-    "jenis": "Berita Terkini",
-    "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "gagal"
-   },
-   {
-    "slot": 6,
-    "jam": "18:30",
-    "tipe": "reels",
-    "jenis": "Video Promosi",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Awas! Data kantor bocor karena AI?",
-    "id": "11240635",
-    "status": "gagal",
-    "terbit": "06:35"
-   },
-   {
-    "slot": 7,
-    "jam": "20:00",
-    "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "Digitalisasi ASN",
-    "judul": "",
-    "id": "",
-    "status": "gagal"
-   }
-  ],
-  "manual": [
-   {
-    "jam": "09:38",
-    "id": "11230044",
-    "jenis": "Berita Terkini",
-    "judul": "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
-    "status": "terbit"
-   },
-   {
-    "jam": "09:59",
-    "id": "11230307",
-    "jenis": "Carousel",
-    "judul": "Duh, Bikin SK Kades dan Perdes Masih Manual?",
-    "status": "terbit"
-   },
-   {
-    "jam": "21:12",
-    "id": "11242110",
-    "jenis": "Reels",
-    "judul": "Bikin surat dinas masih format lama?",
-    "status": "menunggu"
-   }
-  ],
-  "besok_tanggal": "2026-11-25",
-  "besok": [
    {
     "slot": 0,
     "jam": "06:30",
@@ -6342,7 +6220,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 1,
@@ -6382,7 +6260,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "gagal"
    },
    {
     "slot": 5,
@@ -6410,6 +6288,90 @@
     "tipe": "carousel",
     "jenis": "Carousel Listicle",
     "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   }
+  ],
+  "manual": [],
+  "besok_tanggal": "2026-11-26",
+  "besok": [
+   {
+    "slot": 0,
+    "jam": "06:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Listicle",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 1,
+    "jam": "08:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 2,
+    "jam": "09:00",
+    "tipe": "reels",
+    "jenis": "Video Edukasi",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 3,
+    "jam": "12:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Contekan Prompt",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 4,
+    "jam": "15:30",
+    "tipe": "carousel",
+    "jenis": "Carousel Mitos vs Fakta",
+    "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 5,
+    "jam": "17:00",
+    "tipe": "berita",
+    "jenis": "Berita Terkini",
+    "pilar": "Berita pilihan",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 6,
+    "jam": "18:30",
+    "tipe": "reels",
+    "jenis": "Video Promosi",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
+   },
+   {
+    "slot": 7,
+    "jam": "20:00",
+    "tipe": "carousel",
+    "jenis": "Carousel Soft-selling",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
