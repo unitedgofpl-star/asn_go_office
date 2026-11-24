@@ -4347,7 +4347,7 @@
   },
   "11230307": {
    "id": "11230307",
-   "status": "failed",
+   "status": "published",
    "created": "2026-11-23T03:07+09:00",
    "pillar": "Pemerintahan Desa",
    "topic": "administrasi desa, tata naskah dinas desa, SK Kades, Perdes",
@@ -4437,13 +4437,13 @@
     "public/11230307/slide_06.jpg",
     "public/11230307/slide_07.jpg"
    ],
-   "scheduled_at": "2026-11-23T19:00+09:00",
-   "published": {},
-   "published_at": "2026-11-23T03:07+09:00",
-   "errors": [
-    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
-    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
-   ]
+   "scheduled_at": "2026-11-24T09:58+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgGuTcRku62/",
+    "fb": "https://facebook.com/468307299696116_122226059618589464"
+   },
+   "published_at": "2026-11-24T09:59+09:00",
+   "errors": []
   },
   "11230631": {
    "id": "11230631",
@@ -5010,7 +5010,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-24 09:37"
+   "at": "2026-11-24 09:58"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5039,8 +5039,8 @@
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11230044 dikirim ke Bos",
-   "at": "2026-11-24 09:38"
+   "last": "Paket TikTok #11230307 dikirim ke Bos",
+   "at": "2026-11-24 10:01"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -5056,6 +5056,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-24 10:01",
+   "agent": "humas",
+   "msg": "Paket TikTok #11230307 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-24 09:59",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11230307..."
+  },
+  {
+   "at": "2026-11-24 09:59",
+   "agent": "humas",
+   "msg": "#11230307 → ig, fb"
+  },
+  {
+   "at": "2026-11-24 09:58",
+   "agent": "humas",
+   "msg": "Menerbitkan #11230307 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-24 09:58",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-24 09:58",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-24 09:38",
    "agent": "humas",
@@ -5325,43 +5355,13 @@
    "at": "2026-11-24 06:31",
    "agent": "kepala",
    "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-24 06:31",
-   "agent": "kepala",
-   "msg": "Jadwal 06:30 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-24 04:30",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 2 sumber..."
-  },
-  {
-   "at": "2026-11-24 04:30",
-   "agent": "riset",
-   "msg": "Berita: \"BKN Perkirakan Ada 3 Juta Calon Pendaftar Seleksi CPNS 2026\" (2 sumber, 2 foto)"
-  },
-  {
-   "at": "2026-11-24 04:29",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-24 04:29",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-24 04:29",
-   "agent": "kepala",
-   "msg": "Jadwal 17:00 WIT: berita desa"
   }
  ],
  "stats": {
-  "published": 54,
+  "published": 55,
   "drafts": 68
  },
- "updated": "2026-11-24T09:49+09:00",
+ "updated": "2026-11-24T10:01+09:00",
  "cuan_rot": 57,
  "last_followers": 130,
  "style_hist": [
@@ -5969,7 +5969,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-24",
-  "dibuat": "2026-11-24T09:49+09:00",
+  "dibuat": "2026-11-24T10:01+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6061,6 +6061,13 @@
     "id": "11230044",
     "jenis": "Berita Terkini",
     "judul": "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
+    "status": "terbit"
+   },
+   {
+    "jam": "09:59",
+    "id": "11230307",
+    "jenis": "Carousel",
+    "judul": "Duh, Bikin SK Kades dan Perdes Masih Manual?",
     "status": "terbit"
    }
   ],
