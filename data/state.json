@@ -5247,14 +5247,61 @@
    "video": "public/11242110/reels.mp4",
    "scheduled_at": "2026-11-24T21:12+09:00",
    "promo": true
+  },
+  "11250516": {
+   "id": "11250516",
+   "type": "reels",
+   "status": "published",
+   "created": "2026-11-25T05:18+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "perencanaan RPJMDes, RKPDes, APBDes, Siskeudes",
+   "format": "reels_promo",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin surat dinas lama banget?",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering pusing bikin surat tugas, nota dinas, atau surat edaran yang formatnya harus pas sesuai Permendagri 1/2023? Tenang, sekarang ada Generator Naskah Dinas yang bikin pekerjaan kantor selesai dalam hitungan menit.\n\nAplikasi ini sudah dilengkapi 3 gaya kop, nomor & agenda surat otomatis, serta 2.988 kode klasifikasi arsip. Tenang saja, data aman tersimpan di perangkat sendiri dan bisa jalan offline!\n\nYuk, amankan pekerjaanmu biar bisa pulang tepat waktu. Klik link di bio sekarang, harga mulai Rp49.000 saja!\n\n👉 Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Link di bio: https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn",
+     "#perangkatdesa",
+     "#naskahdinas",
+     "#suratdinas",
+     "#pns",
+     "#pppk",
+     "#asnempowered",
+     "#asn_go_digitals"
+    ],
+    "mood": "terkejut",
+    "narasi": [
+     "Halo Rekan ASN, masih ketik surat dinas pakai cara lama?",
+     "Gunakan Generator Naskah Dinas agar selesai dalam hitungan menit saja.",
+     "Tersedia 3 gaya kop dan ribuan kode klasifikasi arsip siap pakai.",
+     "Data aman tersimpan di perangkat sendiri dan bisa ekspor Word."
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11250516/cover.jpg"
+   ],
+   "video": "public/11250516/reels.mp4",
+   "scheduled_at": "2026-11-25T05:18+09:00",
+   "promo": true,
+   "published": {
+    "ig": "https://www.instagram.com/reel/DgIy-1DlfQM/",
+    "fb": "https://facebook.com/1767410437694787"
+   },
+   "published_at": "2026-11-25T05:19+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Meminta tim memantau berita terkini",
-   "at": "2026-11-25 04:06"
+   "last": "Video #11250516 dikirim ke Bos",
+   "at": "2026-11-25 05:18"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5265,8 +5312,8 @@
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Merangkum berita dari 1 sumber...",
-   "at": "2026-11-25 04:06"
+   "last": "Naskah video: \"Bikin surat dinas lama banget?\"",
+   "at": "2026-11-25 05:16"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -5277,14 +5324,14 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Video kinetik 33 detik siap",
-   "at": "2026-11-24 21:12"
+   "last": "Video kinetik 31 detik siap",
+   "at": "2026-11-25 05:18"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11241527 dikirim ke Bos",
-   "at": "2026-11-24 15:28"
+   "last": "Paket TikTok #11250516 dikirim ke Bos",
+   "at": "2026-11-25 05:19"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -5300,6 +5347,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 05:19",
+   "agent": "humas",
+   "msg": "Paket TikTok #11250516 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 05:19",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11250516..."
+  },
+  {
+   "at": "2026-11-25 05:19",
+   "agent": "humas",
+   "msg": "#11250516 → ig, fb"
+  },
+  {
+   "at": "2026-11-25 05:18",
+   "agent": "humas",
+   "msg": "Menerbitkan #11250516 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-25 05:18",
+   "agent": "kepala",
+   "msg": "Video #11250516 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 05:18",
+   "agent": "desain",
+   "msg": "Video kinetik 31 detik siap"
+  },
+  {
+   "at": "2026-11-25 05:17",
+   "agent": "desain",
+   "msg": "Menyusun klip Cicilia & teks berjalan..."
+  },
+  {
+   "at": "2026-11-25 05:16",
+   "agent": "desain",
+   "msg": "Mengubah ke suara khas Cicilia..."
+  },
+  {
+   "at": "2026-11-25 05:16",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia untuk video..."
+  },
+  {
+   "at": "2026-11-25 05:16",
+   "agent": "naskah",
+   "msg": "Naskah video: \"Bikin surat dinas lama banget?\""
+  },
+  {
+   "at": "2026-11-25 05:16",
+   "agent": "naskah",
+   "msg": "Menulis naskah video kinetik: perencanaan RPJMDes, RKPDes, APBDes, Siskeude"
+  },
+  {
+   "at": "2026-11-25 05:16",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels promosi"
+  },
+  {
+   "at": "2026-11-25 05:16",
+   "agent": "kepala",
+   "msg": "Jadwal 18:30 WIT: reels desa"
+  },
   {
    "at": "2026-11-25 04:06",
    "agent": "naskah",
@@ -5534,92 +5646,16 @@
    "at": "2026-11-24 14:25",
    "agent": "naskah",
    "msg": "Menulis carousel: etika & keamanan data saat pakai AI di instansi"
-  },
-  {
-   "at": "2026-11-24 14:25",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-24 14:25",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-24 14:25",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-24 14:25",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-24 14:25",
-   "agent": "kepala",
-   "msg": "Jadwal 06:30 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-24 12:03",
-   "agent": "humas",
-   "msg": "Paket TikTok #11241202 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-24 12:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11241202..."
-  },
-  {
-   "at": "2026-11-24 12:03",
-   "agent": "humas",
-   "msg": "#11241202 → ig, fb"
-  },
-  {
-   "at": "2026-11-24 12:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11241202 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-24 12:02",
-   "agent": "kepala",
-   "msg": "Draft #11241202 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-24 12:02",
-   "agent": "desain",
-   "msg": "5 slide gaya navy siap"
-  },
-  {
-   "at": "2026-11-24 12:02",
-   "agent": "desain",
-   "msg": "Mendesain gaya navy/potret/timeline/angka..."
-  },
-  {
-   "at": "2026-11-24 12:02",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 2 catatan"
   }
  ],
  "stats": {
-  "published": 58,
-  "drafts": 72
+  "published": 59,
+  "drafts": 73
  },
- "updated": "2026-11-25T04:08+09:00",
+ "updated": "2026-11-25T05:19+09:00",
  "cuan_rot": 60,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "gembira",
-   "theme": "kertas",
-   "cover": "kiri",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "semangat__tangan_mengepal",
-   "flip": true,
-   "cta": "badan"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -5828,10 +5864,20 @@
    "pose": "terkejut__tangan_di_pipi",
    "flip": false,
    "cta": "badan"
+  },
+  {
+   "mood": "terkejut",
+   "expr": "terkejut",
+   "theme": "berita",
+   "cover": "potret",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "terkejut__tangan_di_pipi",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Cara Pintar Sat-Set Susun Perencanaan Desa",
   "Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah",
   "Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube",
   "Dokumen desa bocor? Waspada link palsu, Rekan!",
@@ -5870,7 +5916,8 @@
   "Rekomendasi Tools AI Gratis Biar ASN Kerja Sat-Set",
   "Awas Kebablasan! Ini Etika Pakai AI di Kantor",
   "Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa",
-  "Bikin surat dinas masih format lama?"
+  "Bikin surat dinas masih format lama?",
+  "Bikin surat dinas lama banget?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -6212,12 +6259,17 @@
     "did": null,
     "status": "gagal",
     "at": "2026-11-25T04:08+09:00"
+   },
+   "6": {
+    "did": "11250516",
+    "status": "proses",
+    "at": "2026-11-25T05:18+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T04:08+09:00",
+  "dibuat": "2026-11-25T05:19+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6285,9 +6337,10 @@
     "tipe": "reels",
     "jenis": "Video Promosi",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "akan"
+    "judul": "Bikin surat dinas lama banget?",
+    "id": "11250516",
+    "status": "terbit",
+    "terbit": "05:19"
    },
    {
     "slot": 7,
