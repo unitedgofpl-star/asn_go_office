@@ -4243,7 +4243,7 @@
   "11230044": {
    "id": "11230044",
    "type": "berita",
-   "status": "failed",
+   "status": "published",
    "created": "2026-11-23T00:44+09:00",
    "pillar": "PEMERINTAHAN DESA",
    "topic": "106 Desa Tuntaskan RTH Smart 100 Persen, Terima Apresiasi Rp10 Juta | Portal-Tabalong",
@@ -4278,13 +4278,13 @@
    "sources": [
     "https://portal.tabalongkab.go.id/post/2026-11-106-desa-tuntaskan-rth-smart-100-persen-terima-apresiasi-rp10-juta"
    ],
-   "scheduled_at": "2026-11-23T00:44+09:00",
-   "published": {},
-   "published_at": "2026-11-23T00:44+09:00",
-   "errors": [
-    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
-    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
-   ]
+   "scheduled_at": "2026-11-24T09:37+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgGr2l7id-l/",
+    "fb": "https://facebook.com/468307299696116_122226056924589464"
+   },
+   "published_at": "2026-11-24T09:38+09:00",
+   "errors": []
   },
   "11230215": {
    "id": "11230215",
@@ -5010,7 +5010,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-24 09:35"
+   "at": "2026-11-24 09:37"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5039,8 +5039,8 @@
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11240901 dikirim ke Bos",
-   "at": "2026-11-24 09:36"
+   "last": "Paket TikTok #11230044 dikirim ke Bos",
+   "at": "2026-11-24 09:38"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -5056,6 +5056,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-24 09:38",
+   "agent": "humas",
+   "msg": "Paket TikTok #11230044 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-24 09:38",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11230044..."
+  },
+  {
+   "at": "2026-11-24 09:38",
+   "agent": "humas",
+   "msg": "#11230044 → ig, fb"
+  },
+  {
+   "at": "2026-11-24 09:37",
+   "agent": "humas",
+   "msg": "Menerbitkan #11230044 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-24 09:37",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-24 09:37",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-24 09:36",
    "agent": "humas",
@@ -5325,43 +5355,13 @@
    "at": "2026-11-24 04:29",
    "agent": "kepala",
    "msg": "Jadwal 17:00 WIT: berita desa"
-  },
-  {
-   "at": "2026-11-24 03:41",
-   "agent": "humas",
-   "msg": "#11240341 → gagal"
-  },
-  {
-   "at": "2026-11-24 03:41",
-   "agent": "humas",
-   "msg": "Menerbitkan #11240341 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-24 03:41",
-   "agent": "kepala",
-   "msg": "Draft #11240341 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-24 03:41",
-   "agent": "desain",
-   "msg": "5 slide gaya berita siap"
-  },
-  {
-   "at": "2026-11-24 03:41",
-   "agent": "desain",
-   "msg": "Mendesain gaya berita/berita/ceklis/angka..."
-  },
-  {
-   "at": "2026-11-24 03:41",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 3 catatan"
   }
  ],
  "stats": {
-  "published": 53,
+  "published": 54,
   "drafts": 68
  },
- "updated": "2026-11-24T09:36+09:00",
+ "updated": "2026-11-24T09:38+09:00",
  "cuan_rot": 57,
  "last_followers": 130,
  "style_hist": [
@@ -5969,7 +5969,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-24",
-  "dibuat": "2026-11-24T09:36+09:00",
+  "dibuat": "2026-11-24T09:38+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6055,7 +6055,15 @@
     "status": "gagal"
    }
   ],
-  "manual": [],
+  "manual": [
+   {
+    "jam": "09:38",
+    "id": "11230044",
+    "jenis": "Berita Terkini",
+    "judul": "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
+    "status": "terbit"
+   }
+  ],
   "besok_tanggal": "2026-11-25",
   "besok": [
    {
