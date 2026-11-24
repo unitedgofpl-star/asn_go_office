@@ -45,6 +45,8 @@ def rows(cfg, state, day=None):
         when = dt.datetime(day.year, day.month, day.day, h, m, tzinfo=WIT)
         tipe = TIPE.get(slot["type"], slot["type"])
         jenis = f"{tipe} {FMT.get(fmt, '')}".strip() if slot["type"] == "carousel" else tipe
+        if slot["type"] == "reels":
+            jenis = "Video Promosi" if slot.get("promo") else "Video Edukasi"
         r = {"slot": i, "jam": slot["time"], "tipe": slot["type"], "jenis": jenis,
              "pilar": "Berita pilihan" if slot["type"] == "berita" else pil.get(pid, pid), "judul": "", "id": ""}
         lg = logd.get(str(i))

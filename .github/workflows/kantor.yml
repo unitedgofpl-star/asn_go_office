@@ -45,6 +45,11 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt && sudo apt-get install -y -qq fonts-noto-color-emoji >/dev/null
+      - name: Simpan model suara Cicilia (agar video berikutnya cepat)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/asn_voice
+          key: suara-cicilia-v1
 
       - name: Tentukan mode
         id: m

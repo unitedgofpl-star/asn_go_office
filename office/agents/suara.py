@@ -228,3 +228,108 @@ def compose(cfg, frames, narr, out, seed=0, mood="tenang", min_dur=2.8, xf=0.45)
     subprocess.run(cmd, check=True)
     print(f"Video {total:.1f} dtk • narasi {sum(1 for d in vdur if d)}/{nf} frame • musik {'ya' if s.get('musik', True) else 'tidak'}")
     return out, total
+
+
+# ------------------------------------------------------------------ suara khas Cicilia (kloning nada suara)
+# Narasi dibuat dulu dengan suara "Gadis", lalu warna suaranya diubah menjadi suara Cicilia dari rekaman referensi
+# memakai OpenVoice V2 (lisensi MIT, boleh komersial, jalan di CPU). Bila gagal → tetap pakai suara Gadis.
+import os
+import subprocess as _sp
+import sys
+
+REF_SUARA = ROOT / "assets" / "influencer" / "suara" / "cicilia_referensi.wav"
+VOICE_DIR = Path(os.environ.get("ASN_VOICE_CACHE", Path.home() / ".cache" / "asn_voice"))
+HF = "https://huggingface.co/myshell-ai/OpenVoiceV2/resolve/main/converter/"
+_VC = {}
+
+
+def _siapkan_openvoice():
+    VOICE_DIR.mkdir(parents=True, exist_ok=True)
+    repo = VOICE_DIR / "OpenVoice"
+    if not (repo / "openvoice" / "models.py").exists():
+        _sp.run(["git", "clone", "--depth", "1", "https://github.com/myshell-ai/OpenVoice", str(repo)], check=True)
+    try:
+        import torch  # noqa
+        import librosa  # noqa
+        import soundfile  # noqa
+    except ImportError:
+        _sp.run([sys.executable, "-m", "pip", "install", "-q", "torch", "--index-url", "https://download.pytorch.org/whl/cpu"], check=True)
+        _sp.run([sys.executable, "-m", "pip", "install", "-q", "librosa", "soundfile"], check=True)
+    import importlib
+    importlib.invalidate_caches()
+    ck = VOICE_DIR / "converter"
+    ck.mkdir(exist_ok=True)
+    import requests
+    for f in ("config.json", "checkpoint.pth"):
+        if not (ck / f).exists() or (ck / f).stat().st_size < 100:
+            r = requests.get(HF + f, timeout=300)
+            r.raise_for_status()
+            (ck / f).write_bytes(r.content)
+    if str(repo) not in sys.path:
+        sys.path.insert(0, str(repo))
+    return ck
+
+
+def _converter():
+    if "m" in _VC:
+        return _VC["m"]
+    ck = _siapkan_openvoice()
+    import torch
+    from openvoice import utils
+    from openvoice.models import SynthesizerTrn
+    hps = utils.get_hparams_from_file(str(ck / "config.json"))
+    m = SynthesizerTrn(len(getattr(hps, "symbols", [])), hps.data.filter_length // 2 + 1, n_speakers=hps.data.n_speakers, **hps.model)
+    m.load_state_dict(torch.load(ck / "checkpoint.pth", map_location="cpu")["model"], strict=False)
+    m.eval()
+    _VC["m"] = (m, hps)
+    return _VC["m"]
+
+
+def _spec(path, hps, start=None, end=None):
+    import librosa
+    import torch
+    from openvoice.mel_processing import spectrogram_torch
+    a, _ = librosa.load(str(path), sr=hps.data.sampling_rate)
+    if start is not None:
+        a = a[int(start * hps.data.sampling_rate):int(end * hps.data.sampling_rate)]
+    y = torch.FloatTensor(a).unsqueeze(0)
+    return spectrogram_torch(y, hps.data.filter_length, hps.data.sampling_rate, hps.data.hop_length, hps.data.win_length, center=False)
+
+
+def _se(path, m, hps, seg=3.0):
+    """Sidik warna suara (speaker embedding) = rata-rata dari potongan ±3 detik."""
+    import torch
+    total = duration(path)
+    gs = []
+    t = 0.0
+    while t + 1.0 < total:
+        sp = _spec(path, hps, t, min(total, t + seg))
+        with torch.no_grad():
+            gs.append(m.ref_enc(sp.transpose(1, 2)).unsqueeze(-1))
+        t += seg
+    return torch.stack(gs).mean(0)
+
+
+def kloning(cfg, src_wav, out_wav):
+    """Ubah warna suara narasi menjadi suara Cicilia. Kembalikan True bila berhasil."""
+    s = cfg.get("suara", {})
+    ref = ROOT / s.get("referensi", str(REF_SUARA.relative_to(ROOT)))
+    if not s.get("kloning", True) or not ref.exists():
+        return False
+    try:
+        m, hps = _converter()
+        import soundfile as sf
+        import torch
+        key = ("tgt", str(ref))
+        if key not in _VC:
+            _VC[key] = _se(ref, m, hps)
+        src_se = _se(src_wav, m, hps)
+        sp = _spec(src_wav, hps)
+        with torch.no_grad():
+            audio = m.voice_conversion(sp, torch.LongTensor([sp.size(-1)]), sid_src=src_se, sid_tgt=_VC[key],
+                                       tau=float(s.get("tau", 0.3)))[0][0, 0].data.cpu().float().numpy()
+        sf.write(str(out_wav), audio, hps.data.sampling_rate)
+        return True
+    except Exception as e:
+        print("Kloning suara Cicilia gagal, pakai suara Gadis:", e)
+        return False

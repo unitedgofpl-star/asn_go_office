@@ -22,7 +22,8 @@ HELP = """🏢 <b>Kantor Virtual ASN GO Digitals</b>
 Perintah untuk Bos:
 
 /buat [topik] — buat carousel baru (topik opsional)
-/reels [topik] — buat video Reels baru
+/reels [topik] — buat video Reels baru (suara Cicilia)
+/reels promo — video promosi produk (gaya promo kinetik)
 /berita [topik] — carousel berita terkini dari media tepercaya
 /buat_promo [id_produk] — carousel soft-selling produk
 /ide — 10 ide konten
@@ -119,11 +120,35 @@ def remember_hook(state, hook):
     state.d["recent_hooks"] = rh[-40:]
 
 
-def create_reels(cfg, state, topic=None, pillar_id=None, notes=None, base=None):
-    state.work("kepala", "Membagi tugas produksi Reels")
+def create_reels(cfg, state, topic=None, pillar_id=None, notes=None, base=None, promo=False):
+    from .agents import videokinetik
+    state.work("kepala", "Membagi tugas produksi Reels" + (" promosi" if promo else ""))
     pillar, auto_topic = naskah.pick_topic(cfg, pillar_id)
     topic = topic or auto_topic
-    product = cuan.pick_product(cfg, state, pillar["id"])
+    product = cuan.pick_product(cfg, state, pillar["id"], force=promo, product_id=("naskah" if promo else None))
+    if cfg.get("video", {}).get("gaya", "kinetik") == "kinetik" and list(videokinetik.CLIP_DIR.glob("cicilia_*.mp4")):
+        sc = videokinetik.write_script(cfg, state, pillar, topic + (f" (catatan Bos: {notes})" if notes else ""),
+                                       product=product, promo=promo, avoid=state.d.get("recent_hooks", []))
+        content = {"hook": sc.get("hook", ""), "caption": sc.get("caption", ""), "hashtags": sc.get("hashtags", []),
+                   "mood": sc.get("mood", "semangat"), "narasi": [videokinetik.bersih(x["say"]) for x in sc["scenes"]],
+                   "_qc": {"issues": [], "risk": "rendah"}}
+        if not promo:
+            content = cuan.add_soft_cta(cfg, content, product)
+        elif cfg.get("lynk_url") and cfg["lynk_url"] not in content["caption"]:
+            content["caption"] += f"\n\n👉 {product['name']} — {product['price']}. Link di bio: {cfg['lynk_url']}"
+        did = base or state.new_draft_id()
+        video, cover = videokinetik.render(cfg, state, did, sc, product, promo=promo, seed=hash(did) % 10000)
+        remember_hook(state, content["hook"])
+        state.d["drafts"][did] = {
+            "id": did, "type": "reels", "status": "draft", "created": now_wit().isoformat(timespec="minutes"),
+            "pillar": pillar["name"], "topic": topic, "format": "reels_promo" if promo else "reels_kinetik",
+            "product": product and product["id"], "content": content, "images": [cover], "video": video,
+            "scheduled_at": now_wit().isoformat(timespec="minutes"), "promo": promo,
+        }
+        state.d["stats"]["drafts"] += 1
+        preview(cfg, state, did)
+        state.done("kepala", f"Video #{did} dikirim ke Bos")
+        return did
     news = riset.headlines(cfg, state) if not base else None
     sc = reels.write_script(cfg, state, pillar, topic + (f" (catatan Bos: {notes})" if notes else ""), news=news,
                             product=product, avoid=state.d.get("recent_hooks", []))
@@ -209,7 +234,7 @@ def run_slot(cfg, state, idx):
     state.save()
     try:
         if slot["type"] == "reels":
-            did = create_reels(cfg, state, pillar_id=pillar_id)
+            did = create_reels(cfg, state, pillar_id=pillar_id, promo=bool(slot.get("promo")))
         elif slot["type"] == "berita":
             did = create_news(cfg, state, pillar_id=None)
             if not did:  # tidak ada berita baru → carousel edukasi biasa
@@ -265,8 +290,12 @@ def handle_command(cfg, state, text):
         ack("👷 Siap Bos! Tim mulai produksi carousel... (± 1–2 menit)")
         create_draft(cfg, state, topic=(text.split(maxsplit=1)[1] if arg else None))
     elif cmd == "/reels":
-        ack("🎬 Tim membuat Reels... (± 2–3 menit)")
-        create_reels(cfg, state, topic=(text.split(maxsplit=1)[1] if arg else None))
+        promo = arg.lower().startswith("promo")
+        tp = text.split(maxsplit=1)[1] if arg else None
+        if promo:
+            tp = tp[5:].strip() or None
+        ack("🎬 Tim membuat video" + (" promosi" if promo else "") + " dengan suara Cicilia... (± 3–5 menit)")
+        create_reels(cfg, state, topic=tp, promo=promo)
     elif cmd == "/berita":
         ack("📰 Tim memantau berita terkini... (± 2–3 menit)")
         if not create_news(cfg, state, topic=(text.split(maxsplit=1)[1] if arg else None)):
@@ -303,7 +332,7 @@ def handle_command(cfg, state, text):
             ack(f"✍️ Kaka Selfina merevisi #{arg}...")
             p = next((x["id"] for x in cfg["pillars"] if x["name"] == d["pillar"]), None)
             if d.get("type") == "reels":
-                create_reels(cfg, state, topic=d["topic"], pillar_id=p, notes=rest or "lebih menarik", base=arg)
+                create_reels(cfg, state, topic=d["topic"], pillar_id=p, notes=rest or "lebih menarik", base=arg, promo=bool(d.get("promo")))
                 return
             create_draft(cfg, state, topic=d["topic"], pillar_id=p, fmt=d["format"],
                          product_id=d.get("product") if d["format"] == "carousel_promo" else None,

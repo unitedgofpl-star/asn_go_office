@@ -80,11 +80,11 @@ slot_autopublish: true     # true = langsung terbit (konten berisiko tinggi teta
 slots:
   - {time: "06:30", type: carousel, formats: [carousel_listicle, carousel_tutorial, carousel_prompt]}
   - {time: "08:00", type: berita}
-  - {time: "09:00", type: reels}
+  - {time: "09:00", type: reels}                 # video kinetik edukasi + suara Cicilia
   - {time: "12:00", type: carousel, formats: [carousel_prompt, carousel_tutorial, carousel_listicle]}
   - {time: "15:30", type: carousel, formats: [carousel_mitos, carousel_listicle, carousel_tutorial]}
   - {time: "17:00", type: berita}
-  - {time: "18:30", type: reels}
+  - {time: "18:30", type: reels, promo: true}    # video kinetik PROMOSI produk (gaya contoh Promo CAT)
   - {time: "20:00", type: carousel, formats: [carousel_promo, carousel_tutorial, carousel_listicle]}
 
 # Jam posting harian (WIT). GitHub Actions memakai UTC (WIT = UTC+9).
@@ -109,6 +109,10 @@ berita:
     desa: ["dana desa", "kepala desa", "pemerintahan desa", "Kemendes", "kampung Papua"]
     ai: ["kecerdasan buatan Indonesia", "AI pemerintah", "transformasi digital pemerintah", "Komdigi"]
 
+# VIDEO Reels/TikTok: "kinetik" = klip Cicilia + teks per kata + kartu harga (gaya contoh promo); "slide" = gaya lama
+video:
+  gaya: kinetik
+
 # SUARA & MUSIK video Reels/TikTok
 suara:
   aktif: true                 # narasi Cicilia
@@ -117,6 +121,9 @@ suara:
   pitch: "+12Hz"              # sedikit lebih tinggi = lebih manis
   musik: true                 # musik latar buatan sendiri (bebas royalti) atau MP3 di assets/music/
   volume_musik: 0.16
+  kloning: true               # ubah suara Gadis menjadi suara khas Cicilia (rekaman referensi di bawah)
+  referensi: "assets/influencer/suara/cicilia_referensi.wav"
+  tau: 0.3                    # 0.2–0.5: makin kecil makin mirip referensi
 
 # TikTok: setiap konten terbit, bot mengirim paket TikTok (video 9:16 + caption) ke Telegram.
 tiktok:
