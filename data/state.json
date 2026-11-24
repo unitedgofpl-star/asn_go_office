@@ -5375,50 +5375,133 @@
    },
    "published_at": "2026-11-25T05:57+09:00",
    "errors": []
+  },
+  "11250631": {
+   "id": "11250631",
+   "status": "published",
+   "created": "2026-11-25T06:31+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "digitalisasi layanan desa, website desa, Prodeskel/IDM",
+   "format": "carousel_prompt",
+   "product": "kantor",
+   "content": {
+    "hook": "Efisiensi Layanan Desa dengan Bantuan AI",
+    "subtitle": "Panduan praktis penggunaan AI untuk mengoptimalkan layanan publik dan website desa.",
+    "mood": "profesional",
+    "items": [
+     {
+      "title": "Narasi Website Desa",
+      "sub": "Promosikan potensi wisata dan UMKM desa secara efektif.",
+      "icon": "🌐"
+     },
+     {
+      "title": "Analisis Data IDM",
+      "sub": "Membantu menyusun strategi pengembangan pilar ekonomi dan sosial.",
+      "icon": "📊"
+     },
+     {
+      "title": "Layanan Pengaduan",
+      "sub": "Menyusun draf tanggapan aduan warga secara profesional.",
+      "icon": "💬"
+     },
+     {
+      "title": "Transparansi Anggaran",
+      "sub": "Membantu menyederhanakan laporan penggunaan dana agar mudah dipahami.",
+      "icon": "📢"
+     }
+    ],
+    "details": [
+     {
+      "title": "Narasi Website Desa",
+      "body": "Prompt: 'Bertindaklah sebagai tenaga pendamping desa. Buat draf artikel profil website desa yang menonjolkan produk unggulan UMKM lokal agar menarik minat wisatawan dan investor secara formal dan informatif.'",
+      "icon": "🌐"
+     },
+     {
+      "title": "Analisis Data IDM",
+      "body": "Prompt: 'Bertindaklah sebagai analis data pemerintahan. Berikan langkah praktis untuk meningkatkan skor Indeks Desa Membangun (IDM) pada pilar ekonomi dan sosial sesuai dengan indikator yang berlaku.'",
+      "icon": "📊"
+     }
+    ],
+    "note": "Hasil AI hanyalah alat bantu. Selalu verifikasi kembali dengan data lapangan dan regulasi yang berlaku.",
+    "cta": "Simpan postingan ini untuk referensi saat menyusun program kerja desa!",
+    "caption": "Halo Rekan ASN dan Sobat Desa! Pemanfaatan teknologi AI dapat meningkatkan efisiensi administrasi desa. Mulai dari pengelolaan website hingga penyusunan laporan transparansi. Geser ke kanan untuk melihat contoh prompt AI yang dapat membantu tugas Bapak/Ibu. Pastikan hasil AI tetap disesuaikan dengan kondisi riil di lapangan. Simpan postingan ini agar mudah diakses saat dibutuhkan. Apa tantangan Anda dalam digitalisasi layanan desa? Mari berdiskusi di kolom komentar.\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — Paket Kantor — Rp149.000 (10 perangkat). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#DigitalisasiDesa",
+     "#PemerintahanDesa",
+     "#PerangkatDesa",
+     "#Prodeskel",
+     "#IDM",
+     "#DanaDesa",
+     "#TransformasiDigital"
+    ],
+    "_qc": {
+     "issues": [
+      "Redundansi pada slide detail dan items.",
+      "Penggunaan kata 'sat-set' yang kurang formal untuk konteks edukasi pemerintahan.",
+      "Potensi misinterpretasi penggunaan AI untuk data sensitif atau administratif resmi yang memerlukan verifikasi manual.",
+      "Klaim tersirat bahwa AI dapat menyusun strategi IDM secara mandiri, padahal memerlukan validasi data lapangan sesuai regulasi."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11250631/slide_01.jpg",
+    "public/11250631/slide_02.jpg",
+    "public/11250631/slide_03.jpg",
+    "public/11250631/slide_04.jpg",
+    "public/11250631/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-25T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgI7VBuDwnC/",
+    "fb": "https://facebook.com/468307299696116_122226216782589464"
+   },
+   "published_at": "2026-11-25T06:31+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11250556 dikirim ke Bos",
-   "at": "2026-11-25 05:56"
+   "last": "Draft #11250631 dikirim ke Bos",
+   "at": "2026-11-25 06:31"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-25 05:54"
+   "at": "2026-11-25 06:30"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"4 Tools AI Gratis Bantu ASN Kerja Sat-Set\"",
-   "at": "2026-11-25 05:54"
+   "last": "Draft selesai: \"Dana Desa Menurun? Waktunya Genjot Layanan Desa Pakai AI!\"",
+   "at": "2026-11-25 06:30"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 3 catatan",
-   "at": "2026-11-25 05:56"
+   "last": "QC selesai — risiko rendah, 4 catatan",
+   "at": "2026-11-25 06:31"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya ungu siap",
-   "at": "2026-11-25 05:56"
+   "last": "5 slide gaya navy siap",
+   "at": "2026-11-25 06:31"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11250556 dikirim ke Bos",
-   "at": "2026-11-25 05:58"
+   "last": "Paket TikTok #11250631 dikirim ke Bos",
+   "at": "2026-11-25 06:32"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-25 05:54"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-25 06:30"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -5428,6 +5511,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 06:32",
+   "agent": "humas",
+   "msg": "Paket TikTok #11250631 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 06:31",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11250631..."
+  },
+  {
+   "at": "2026-11-25 06:31",
+   "agent": "humas",
+   "msg": "#11250631 → ig, fb"
+  },
+  {
+   "at": "2026-11-25 06:31",
+   "agent": "humas",
+   "msg": "Menerbitkan #11250631 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-25 06:31",
+   "agent": "kepala",
+   "msg": "Draft #11250631 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 06:31",
+   "agent": "desain",
+   "msg": "5 slide gaya navy siap"
+  },
+  {
+   "at": "2026-11-25 06:31",
+   "agent": "desain",
+   "msg": "Mendesain gaya navy/kanan/kartu/chat..."
+  },
+  {
+   "at": "2026-11-25 06:31",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 4 catatan"
+  },
+  {
+   "at": "2026-11-25 06:30",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-25 06:30",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Dana Desa Menurun? Waktunya Genjot Layanan Desa Pakai AI!\""
+  },
+  {
+   "at": "2026-11-25 06:30",
+   "agent": "naskah",
+   "msg": "Menulis carousel: digitalisasi layanan desa, website desa, Prodeskel"
+  },
+  {
+   "at": "2026-11-25 06:30",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-25 06:30",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-25 06:30",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-25 06:30",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-25 06:30",
+   "agent": "kepala",
+   "msg": "Jadwal 06:30 WIT: carousel desa"
+  },
   {
    "at": "2026-11-25 05:58",
    "agent": "humas",
@@ -5647,107 +5810,16 @@
    "at": "2026-11-24 21:11",
    "agent": "desain",
    "msg": "Menyusun klip Cicilia & teks berjalan..."
-  },
-  {
-   "at": "2026-11-24 21:10",
-   "agent": "desain",
-   "msg": "Mengubah ke suara khas Cicilia..."
-  },
-  {
-   "at": "2026-11-24 21:10",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia untuk video..."
-  },
-  {
-   "at": "2026-11-24 21:10",
-   "agent": "naskah",
-   "msg": "Naskah video: \"Bikin surat dinas masih format lama?\""
-  },
-  {
-   "at": "2026-11-24 21:10",
-   "agent": "naskah",
-   "msg": "Menulis naskah video kinetik: digitalisasi layanan desa, website desa, Prod"
-  },
-  {
-   "at": "2026-11-24 21:10",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels promosi"
-  },
-  {
-   "at": "2026-11-24 21:10",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-24 15:28",
-   "agent": "humas",
-   "msg": "Paket TikTok #11241527 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-24 15:28",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11241527..."
-  },
-  {
-   "at": "2026-11-24 15:28",
-   "agent": "humas",
-   "msg": "#11241527 → ig, fb"
-  },
-  {
-   "at": "2026-11-24 15:27",
-   "agent": "humas",
-   "msg": "Menerbitkan #11241527 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-24 15:27",
-   "agent": "kepala",
-   "msg": "Berita #11241527 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-24 15:27",
-   "agent": "desain",
-   "msg": "Berita 2 slide siap"
-  },
-  {
-   "at": "2026-11-24 15:27",
-   "agent": "desain",
-   "msg": "Mendesain berita (2 foto)..."
-  },
-  {
-   "at": "2026-11-24 15:27",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko rendah"
-  },
-  {
-   "at": "2026-11-24 15:27",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-24 15:27",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa\""
   }
  ],
  "stats": {
-  "published": 60,
-  "drafts": 74
+  "published": 61,
+  "drafts": 75
  },
- "updated": "2026-11-25T05:58+09:00",
- "cuan_rot": 61,
+ "updated": "2026-11-25T06:32+09:00",
+ "cuan_rot": 62,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "gembira",
-   "theme": "merah",
-   "cover": "kanan",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "semangat__tangan_mengepal",
-   "flip": false,
-   "cta": "potret"
-  },
   {
    "mood": "tegas",
    "expr": "cemberut",
@@ -5956,10 +6028,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "navy",
+   "cover": "kanan",
+   "list": "kartu",
+   "detail": "chat",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube",
   "Dokumen desa bocor? Waspada link palsu, Rekan!",
   "Desa Digital Bukan Sekadar Website, Ini Kuncinya!",
   "Tools Digital Gratis Bikin Kerja ASN Sat-Set",
@@ -5998,7 +6080,8 @@
   "Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa",
   "Bikin surat dinas masih format lama?",
   "Bikin surat dinas lama banget?",
-  "4 Tools AI Bantu ASN Kerja Lebih Efektif"
+  "4 Tools AI Bantu ASN Kerja Lebih Efektif",
+  "Efisiensi Layanan Desa dengan Bantuan AI"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -6350,12 +6433,17 @@
     "did": "11250556",
     "status": "proses",
     "at": "2026-11-25T05:56+09:00"
+   },
+   "0": {
+    "did": "11250631",
+    "status": "proses",
+    "at": "2026-11-25T06:31+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T05:58+09:00",
+  "dibuat": "2026-11-25T06:32+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6363,9 +6451,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Contekan Prompt",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Efisiensi Layanan Desa dengan Bantuan AI",
+    "id": "11250631",
+    "status": "terbit",
+    "terbit": "06:31"
    },
    {
     "slot": 1,
@@ -6375,7 +6464,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 2,
@@ -6528,7 +6617,7 @@
  },
  "harga": {
   "sync": {
-   "at": "2026-11-24T06:31+09:00",
+   "at": "2026-11-25T06:30+09:00",
    "hasil": "halaman terbuka tapi harga tidak terbaca"
   }
  },
