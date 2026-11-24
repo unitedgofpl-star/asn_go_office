@@ -5162,44 +5162,90 @@
    },
    "published_at": "2026-11-24T14:27+09:00",
    "errors": []
+  },
+  "11241527": {
+   "id": "11241527",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-24T15:27+09:00",
+   "pillar": "PEMERINTAHAN DESA",
+   "topic": "Perkuat Kesadaran Demokrasi, Bawaslu Boalemo Gelar Konsolidasi Bersama Pemerintah Desa Mananggu",
+   "format": "berita",
+   "content": {
+    "hook": "Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa",
+    "caption": "Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa\n\nInformasi terkait langkah penguatan demokrasi di tingkat desa. Bawaslu Kabupaten Boalemo melaksanakan konsolidasi bersama Pemerintah Desa Mananggu untuk membahas pentingnya menjaga netralitas ASN dan kepala desa serta mencegah praktik politik uang agar integritas demokrasi tetap terjaga.\n\nSelain itu, langkah kolaborasi juga dilakukan oleh Bawaslu Kabupaten Pohuwato melalui koordinasi awal dan penyerahan draf kerja sama kepada Pemerintah Desa Marisa Selatan. Pemerintah desa diberikan ruang untuk mencermati dan memberikan masukan terhadap substansi draf tersebut sebelum nantinya disepakati bersama. Upaya ini diharapkan mampu memperluas pengawasan.\n\n💡 Artinya bagi kita: Pemerintah desa perlu memahami pentingnya menjaga netralitas dan mencermati bentuk kerja sama kelembagaan pengawasan pemilu.\n\n📰 Sumber:\n• Bawaslu: https://boalemo.bawaslu.go.id/berita/perkuat-kesadaran-demokrasi-bawaslu-boalemo-gelar-konsolidasi-bersama-pemerintah-desa\n• Bawaslu Pohuwato: https://pohuwato.bawaslu.go.id/berita/koordinasi-awal-mou-bawaslu-pohuwato-dorong-kolaborasi-dengan-pemerintah-desa-marisa-selatan\n📷 Foto: Bawaslu, Bawaslu Pohuwato\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#pemerintahandesa",
+     "#netralitasasn",
+     "#bawaslu",
+     "#demokrasi"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus nama-nama spesifik pejabat seperti Ronald Christoffel Rampi, Yolanda Harun, dan Rikman Kasim karena tidak tercantum dalam ringkasan awal yang netral, atau disesuaikan dengan sumber.",
+      "Menyesuaikan tanggal kegiatan agar selaras dengan sumber (24/11/2026 untuk Boalemo dan 23/11/2026 untuk Pohuwato)."
+     ],
+     "risk": "rendah"
+    },
+    "narasi": [
+     "Berita terkini. Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa. Bawaslu tingkatkan kolaborasi dan kesadaran integritas demokrasi bersama pemerintah desa.",
+     "Bawaslu Kabupaten Pohuwato melaksanakan koordinasi awal dan penyerahan draf kerja sama kepada Pemerintah Desa Marisa Selatan. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11241527/slide_01.jpg",
+    "public/11241527/slide_02.jpg"
+   ],
+   "sources": [
+    "https://boalemo.bawaslu.go.id/berita/perkuat-kesadaran-demokrasi-bawaslu-boalemo-gelar-konsolidasi-bersama-pemerintah-desa",
+    "https://pohuwato.bawaslu.go.id/berita/koordinasi-awal-mou-bawaslu-pohuwato-dorong-kolaborasi-dengan-pemerintah-desa-marisa-selatan"
+   ],
+   "scheduled_at": "2026-11-24T15:27+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgHT7pPF85g/",
+    "fb": "https://facebook.com/468307299696116_122226110534589464"
+   },
+   "published_at": "2026-11-24T15:28+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11241426 dikirim ke Bos",
-   "at": "2026-11-24 14:26"
+   "last": "Berita #11241527 dikirim ke Bos",
+   "at": "2026-11-24 15:27"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-24 14:25"
+   "last": "Berita: \"Perkuat Kesadaran Demokrasi, Bawaslu Boalemo Gelar Konsolida\" (2 sumber, 2 foto)",
+   "at": "2026-11-24 15:25"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Awas Kebablasan! Ini Etika Pakai AI di Kantor\"",
-   "at": "2026-11-24 14:26"
+   "last": "Rangkuman: \"Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa\"",
+   "at": "2026-11-24 15:27"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 1 catatan",
-   "at": "2026-11-24 14:26"
+   "last": "Cek berita selesai — risiko rendah",
+   "at": "2026-11-24 15:27"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya ungu siap",
-   "at": "2026-11-24 14:26"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-24 15:27"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11241426 dikirim ke Bos",
-   "at": "2026-11-24 14:28"
+   "last": "Paket TikTok #11241527 dikirim ke Bos",
+   "at": "2026-11-24 15:28"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -5215,6 +5261,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-24 15:28",
+   "agent": "humas",
+   "msg": "Paket TikTok #11241527 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-24 15:28",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11241527..."
+  },
+  {
+   "at": "2026-11-24 15:28",
+   "agent": "humas",
+   "msg": "#11241527 → ig, fb"
+  },
+  {
+   "at": "2026-11-24 15:27",
+   "agent": "humas",
+   "msg": "Menerbitkan #11241527 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-24 15:27",
+   "agent": "kepala",
+   "msg": "Berita #11241527 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-24 15:27",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-24 15:27",
+   "agent": "desain",
+   "msg": "Mendesain berita (2 foto)..."
+  },
+  {
+   "at": "2026-11-24 15:27",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko rendah"
+  },
+  {
+   "at": "2026-11-24 15:27",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-24 15:27",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa\""
+  },
+  {
+   "at": "2026-11-24 15:25",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 2 sumber..."
+  },
+  {
+   "at": "2026-11-24 15:25",
+   "agent": "riset",
+   "msg": "Berita: \"Perkuat Kesadaran Demokrasi, Bawaslu Boalemo Gelar Konsolida\" (2 sumber, 2 foto)"
+  },
+  {
+   "at": "2026-11-24 15:25",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-24 15:25",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-24 15:25",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita asn"
+  },
   {
    "at": "2026-11-24 14:28",
    "agent": "humas",
@@ -5439,88 +5560,13 @@
    "at": "2026-11-24 09:36",
    "agent": "humas",
    "msg": "Paket TikTok #11240901 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-24 09:36",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11240901..."
-  },
-  {
-   "at": "2026-11-24 09:36",
-   "agent": "humas",
-   "msg": "#11240901 → ig, fb"
-  },
-  {
-   "at": "2026-11-24 09:35",
-   "agent": "humas",
-   "msg": "Menerbitkan #11240901 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-24 09:35",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-24 09:35",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-24 09:01",
-   "agent": "humas",
-   "msg": "#11240901 → gagal"
-  },
-  {
-   "at": "2026-11-24 09:01",
-   "agent": "humas",
-   "msg": "Menerbitkan #11240901 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-24 09:01",
-   "agent": "kepala",
-   "msg": "Reels #11240901 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-24 09:01",
-   "agent": "desain",
-   "msg": "Reels 40 detik siap (gaya merah)"
-  },
-  {
-   "at": "2026-11-24 09:01",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-24 09:01",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya merah..."
-  },
-  {
-   "at": "2026-11-24 09:01",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Bikin SK Kades dan Perdes masih manual?\""
-  },
-  {
-   "at": "2026-11-24 09:01",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: administrasi desa, tata naskah dinas desa, SK"
-  },
-  {
-   "at": "2026-11-24 09:01",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-24 09:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
   }
  ],
  "stats": {
-  "published": 57,
-  "drafts": 70
+  "published": 58,
+  "drafts": 71
  },
- "updated": "2026-11-24T14:28+09:00",
+ "updated": "2026-11-24T15:28+09:00",
  "cuan_rot": 59,
  "last_followers": 130,
  "style_hist": [
@@ -5746,7 +5792,6 @@
   }
  ],
  "recent_hooks": [
-  "Mantan Kepala Desa Ditahan Terkait Kasus Korupsi APBDes",
   "Bikin laporan kantor cuma lima menit?",
   "Cara Pintar Sat-Set Susun Perencanaan Desa",
   "Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah",
@@ -5785,7 +5830,8 @@
   "Awas! Data kantor bocor karena AI?",
   "Bikin SK Kades dan Perdes masih manual?",
   "Rekomendasi Tools AI Gratis Biar ASN Kerja Sat-Set",
-  "Awas Kebablasan! Ini Etika Pakai AI di Kantor"
+  "Awas Kebablasan! Ini Etika Pakai AI di Kantor",
+  "Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -5816,7 +5862,9 @@
   "bkn perkirakan ada 3 juta calon pendaftar seleksi cpns 2026",
   "bkn perkuat sistem dan infrastruktur seleksi cpns 2026",
   "bkn proyeksikan anggaran seleksi cpns 2026 rp 616 2 miliar",
-  "konferensi antar bangsa islam borneo xvii perkuat kolaborasi"
+  "konferensi antar bangsa islam borneo xvii perkuat kolaborasi",
+  "perkuat kesadaran demokrasi  bawaslu boalemo gelar konsolida",
+  "koordinasi awal mou  bawaslu pohuwato dorong kolaborasi deng"
  ],
  "slot_log": {
   "2026-11-17": {
@@ -6115,9 +6163,9 @@
     "at": "2026-11-24T07:18+09:00"
    },
    "1": {
-    "did": null,
-    "status": "gagal",
-    "at": "2026-11-24T08:04+09:00"
+    "did": "11241527",
+    "status": "proses",
+    "at": "2026-11-24T15:27+09:00"
    },
    "2": {
     "did": "11240901",
@@ -6133,7 +6181,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-24",
-  "dibuat": "2026-11-24T14:28+09:00",
+  "dibuat": "2026-11-24T15:28+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6152,9 +6200,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "gagal"
+    "judul": "Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa",
+    "id": "11241527",
+    "status": "terbit",
+    "terbit": "15:28"
    },
    {
     "slot": 2,
