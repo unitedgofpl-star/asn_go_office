@@ -5253,20 +5253,20 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Membagi tugas produksi konten",
-   "at": "2026-11-25 03:09"
+   "last": "Meminta tim memantau berita terkini",
+   "at": "2026-11-25 04:06"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-25 03:09"
+   "last": "Berita: \"Pemerintah Matangkan Kesiapan Seleksi CASN 2026–2027, Prof. \" (1 sumber, 6 foto)",
+   "at": "2026-11-25 04:06"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Menulis carousel: AI untuk membuat bahan paparan, ringkasan regulasi",
-   "at": "2026-11-25 03:09"
+   "last": "Merangkum berita dari 1 sumber...",
+   "at": "2026-11-25 04:06"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -5300,6 +5300,31 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 04:06",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-25 04:06",
+   "agent": "riset",
+   "msg": "Berita: \"Pemerintah Matangkan Kesiapan Seleksi CASN 2026–2027, Prof. \" (1 sumber, 6 foto)"
+  },
+  {
+   "at": "2026-11-25 04:06",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-25 04:06",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-25 04:06",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita asn"
+  },
   {
    "at": "2026-11-25 03:09",
    "agent": "naskah",
@@ -5574,38 +5599,13 @@
    "at": "2026-11-24 12:02",
    "agent": "qc",
    "msg": "QC selesai — risiko rendah, 2 catatan"
-  },
-  {
-   "at": "2026-11-24 12:02",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-24 12:02",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Rekomendasi Tools AI Gratis Biar ASN Kerja Sat-Set\""
-  },
-  {
-   "at": "2026-11-24 12:01",
-   "agent": "naskah",
-   "msg": "Menulis carousel: tools AI gratis untuk ASN dan perangkat desa"
-  },
-  {
-   "at": "2026-11-24 12:01",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-24 12:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
   }
  ],
  "stats": {
   "published": 58,
   "drafts": 72
  },
- "updated": "2026-11-25T03:10+09:00",
+ "updated": "2026-11-25T04:08+09:00",
  "cuan_rot": 60,
  "last_followers": 130,
  "style_hist": [
@@ -5903,7 +5903,9 @@
   "bkn proyeksikan anggaran seleksi cpns 2026 rp 616 2 miliar",
   "konferensi antar bangsa islam borneo xvii perkuat kolaborasi",
   "perkuat kesadaran demokrasi  bawaslu boalemo gelar konsolida",
-  "koordinasi awal mou  bawaslu pohuwato dorong kolaborasi deng"
+  "koordinasi awal mou  bawaslu pohuwato dorong kolaborasi deng",
+  "pemerintah matangkan kesiapan seleksi casn 2026 2027  prof  ",
+  "bkn siapkan seleksi cpns 2026 2027  pppk bisa ikut daftar"
  ],
  "slot_log": {
   "2026-11-18": {
@@ -6205,12 +6207,17 @@
     "did": null,
     "status": "gagal",
     "at": "2026-11-25T03:10+09:00"
+   },
+   "5": {
+    "did": null,
+    "status": "gagal",
+    "at": "2026-11-25T04:08+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T03:10+09:00",
+  "dibuat": "2026-11-25T04:08+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6270,7 +6277,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "gagal"
    },
    {
     "slot": 6,
