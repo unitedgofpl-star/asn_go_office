@@ -5458,44 +5458,100 @@
    },
    "published_at": "2026-11-25T06:31+09:00",
    "errors": []
+  },
+  "11250801": {
+   "id": "11250801",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-25T08:01+09:00",
+   "pillar": "ASN",
+   "topic": "Komdigi catat ratusan ribu aduan penipuan - ANTARA News Megapolitan",
+   "format": "berita",
+   "content": {
+    "hook": "Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan",
+    "caption": "Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan\n\nKementerian Komunikasi dan Digital mencatat ratusan ribu aduan masyarakat terkait penipuan daring yang memanfaatkan teknologi dan komunikasi konten scam. Menteri Komunikasi dan Digital menyampaikan bahwa penipuan digital semakin kompleks karena pelaku tidak hanya menggunakan teknologi, tetapi juga menyalahgunakan identitas serta atribut institusi negara untuk mengelabui masyarakat. Berdasarkan data dari layanan aduankonten.id, telah ditangani puluhan ribu konten penipuan di media sosial dan situs web. Laporan yang masuk didominasi oleh kasus jual beli online, judi online, pemerasan, peniruan identitas, hingga scamming.\n\n💡 Artinya bagi kita: Pegawai aparatur sipil negara perlu lebih waspada terhadap berbagai modus penipuan daring yang memanfaatkan atribut institusi.\n\n📰 Sumber:\n• ANTARA News Megapolitan: https://megapolitan.antaranews.com/berita/564675/komdigi-catat-ratusan-ribu-aduan-penipuan\n• ANTARA News: https://www.antaranews.com/berita/5875647/komdigi-catat-ratusan-ribu-aduan-penipuan-di-ruang-digital\n📷 Foto: ANTARA News Megapolitan\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#asn",
+     "#pemerintahandesa",
+     "#komdigi",
+     "#literasidigital",
+     "#waspadapenipuan",
+     "#asnberakhlak"
+    ],
+    "_qc": {
+     "issues": [
+      "Menambahkan angka spesifik yang tidak tercakup secara konsisten atau terlalu detail dalam ringkasan awal seperti jumlah persis laporan tanpa verifikasi ulang di semua poin, lalu disesuaikan dengan sumber.",
+      "Memastikan tanggal November 2026 dan nama Menteri Komunikasi dan Digital Meutya Hafid dicantumkan sesuai sumber."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan. Kementerian Komunikasi dan Digital mencatat ratusan ribu aduan masyarakat terkait penipuan daring.",
+     "Ilustrasi penanganan penipuan digital yang semakin kompleks di ruang siber.",
+     "Data aduan menunjukkan berbagai modus penipuan yang meresahkan masyarakat.",
+     "Kolaborasi berbagai pihak diperlukan untuk memperkuat pengamanan ruang digital.",
+     "Edukasi literasi digital penting bagi seluruh lapisan masyarakat.",
+     "Mari tingkatkan kewaspadaan terhadap segala bentuk modus penipuan online. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11250801/slide_01.jpg",
+    "public/11250801/slide_02.jpg",
+    "public/11250801/slide_03.jpg",
+    "public/11250801/slide_04.jpg",
+    "public/11250801/slide_05.jpg",
+    "public/11250801/slide_06.jpg"
+   ],
+   "sources": [
+    "https://megapolitan.antaranews.com/berita/564675/komdigi-catat-ratusan-ribu-aduan-penipuan",
+    "https://www.antaranews.com/berita/5875647/komdigi-catat-ratusan-ribu-aduan-penipuan-di-ruang-digital"
+   ],
+   "scheduled_at": "2026-11-25T08:01+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgJFsLSF17M/",
+    "fb": "https://facebook.com/468307299696116_122226224432589464"
+   },
+   "published_at": "2026-11-25T08:02+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11250631 dikirim ke Bos",
-   "at": "2026-11-25 06:31"
+   "last": "Berita #11250801 dikirim ke Bos",
+   "at": "2026-11-25 08:01"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-25 06:30"
+   "last": "Berita: \"Komdigi catat ratusan ribu aduan penipuan - ANTARA News Mega\" (2 sumber, 6 foto)",
+   "at": "2026-11-25 08:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Dana Desa Menurun? Waktunya Genjot Layanan Desa Pakai AI!\"",
-   "at": "2026-11-25 06:30"
+   "last": "Rangkuman: \"Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan\"",
+   "at": "2026-11-25 08:01"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 4 catatan",
-   "at": "2026-11-25 06:31"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-25 08:01"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya navy siap",
-   "at": "2026-11-25 06:31"
+   "last": "Berita 6 slide siap",
+   "at": "2026-11-25 08:01"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11250631 dikirim ke Bos",
-   "at": "2026-11-25 06:32"
+   "last": "Paket TikTok #11250801 dikirim ke Bos",
+   "at": "2026-11-25 08:03"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -5511,6 +5567,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 08:03",
+   "agent": "humas",
+   "msg": "Paket TikTok #11250801 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 08:02",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11250801..."
+  },
+  {
+   "at": "2026-11-25 08:02",
+   "agent": "humas",
+   "msg": "#11250801 → ig, fb"
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "humas",
+   "msg": "Menerbitkan #11250801 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "kepala",
+   "msg": "Berita #11250801 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "desain",
+   "msg": "Berita 6 slide siap"
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "desain",
+   "msg": "Mendesain berita (6 foto)..."
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan\""
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 2 sumber..."
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "riset",
+   "msg": "Berita: \"Komdigi catat ratusan ribu aduan penipuan - ANTARA News Mega\" (2 sumber, 6 foto)"
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-25 08:01",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita ai"
+  },
   {
    "at": "2026-11-25 06:32",
    "agent": "humas",
@@ -5735,88 +5866,13 @@
    "at": "2026-11-25 05:16",
    "agent": "kepala",
    "msg": "Jadwal 18:30 WIT: reels desa"
-  },
-  {
-   "at": "2026-11-25 04:06",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 1 sumber..."
-  },
-  {
-   "at": "2026-11-25 04:06",
-   "agent": "riset",
-   "msg": "Berita: \"Pemerintah Matangkan Kesiapan Seleksi CASN 2026–2027, Prof. \" (1 sumber, 6 foto)"
-  },
-  {
-   "at": "2026-11-25 04:06",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-25 04:06",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-25 04:06",
-   "agent": "kepala",
-   "msg": "Jadwal 17:00 WIT: berita asn"
-  },
-  {
-   "at": "2026-11-25 03:09",
-   "agent": "naskah",
-   "msg": "Menulis carousel: AI untuk membuat bahan paparan, ringkasan regulasi"
-  },
-  {
-   "at": "2026-11-25 03:09",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-25 03:09",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-25 03:09",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-25 03:09",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-25 03:09",
-   "agent": "kepala",
-   "msg": "Jadwal 15:30 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-24 21:12",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-24 21:12",
-   "agent": "kepala",
-   "msg": "Video #11242110 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-24 21:12",
-   "agent": "desain",
-   "msg": "Video kinetik 33 detik siap"
-  },
-  {
-   "at": "2026-11-24 21:11",
-   "agent": "desain",
-   "msg": "Menyusun klip Cicilia & teks berjalan..."
   }
  ],
  "stats": {
-  "published": 61,
-  "drafts": 75
+  "published": 62,
+  "drafts": 76
  },
- "updated": "2026-11-25T06:32+09:00",
+ "updated": "2026-11-25T08:03+09:00",
  "cuan_rot": 62,
  "last_followers": 130,
  "style_hist": [
@@ -6042,7 +6098,6 @@
   }
  ],
  "recent_hooks": [
-  "Dokumen desa bocor? Waspada link palsu, Rekan!",
   "Desa Digital Bukan Sekadar Website, Ini Kuncinya!",
   "Tools Digital Gratis Bikin Kerja ASN Sat-Set",
   "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
@@ -6081,7 +6136,8 @@
   "Bikin surat dinas masih format lama?",
   "Bikin surat dinas lama banget?",
   "4 Tools AI Bantu ASN Kerja Lebih Efektif",
-  "Efisiensi Layanan Desa dengan Bantuan AI"
+  "Efisiensi Layanan Desa dengan Bantuan AI",
+  "Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -6116,7 +6172,9 @@
   "perkuat kesadaran demokrasi  bawaslu boalemo gelar konsolida",
   "koordinasi awal mou  bawaslu pohuwato dorong kolaborasi deng",
   "pemerintah matangkan kesiapan seleksi casn 2026 2027  prof  ",
-  "bkn siapkan seleksi cpns 2026 2027  pppk bisa ikut daftar"
+  "bkn siapkan seleksi cpns 2026 2027  pppk bisa ikut daftar",
+  "komdigi catat ratusan ribu aduan penipuan",
+  "komdigi catat ratusan ribu aduan penipuan di ruang digital"
  ],
  "slot_log": {
   "2026-11-18": {
@@ -6438,12 +6496,17 @@
     "did": "11250631",
     "status": "proses",
     "at": "2026-11-25T06:31+09:00"
+   },
+   "1": {
+    "did": "11250801",
+    "status": "proses",
+    "at": "2026-11-25T08:01+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T06:32+09:00",
+  "dibuat": "2026-11-25T08:03+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6462,9 +6525,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan",
+    "id": "11250801",
+    "status": "terbit",
+    "terbit": "08:02"
    },
    {
     "slot": 2,
@@ -6474,7 +6538,7 @@
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
