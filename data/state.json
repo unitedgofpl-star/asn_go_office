@@ -5208,14 +5208,53 @@
    },
    "published_at": "2026-11-24T15:28+09:00",
    "errors": []
+  },
+  "11242110": {
+   "id": "11242110",
+   "type": "reels",
+   "status": "draft",
+   "created": "2026-11-24T21:12+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "digitalisasi layanan desa, website desa, Prodeskel/IDM",
+   "format": "reels_promo",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin surat dinas masih format lama?",
+    "caption": "Halo Rekan ASN & Sobat Desa!\n\nPernah nggak, pas lagi kejar tayang buat surat tugas atau nota dinas, eh malah pusing karena formatnya harus sesuai Permendagri 1/2023? Belum lagi urusan nomor surat dan klasifikasi arsip yang bikin kepala cenat-cenut.\n\nSekarang nggak perlu pakai cara manual lagi. Pakai Generator Naskah Dinas, bikin surat dinas, undangan, hingga surat pengantar jadi beres dalam hitungan menit. Data aman tersimpan di perangkat sendiri dan bisa jalan offline lho!\n\nPilih paketnya sesuai kebutuhanmu, mulai dari Rp49.000 saja sekali bayar. Yuk, amankan aplikasinya sekarang dengan klik link di bio ya!\n\n👉 Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Link di bio: https://lynk.id/asngodigital",
+    "hashtags": [
+     "#DigitalisasiASN",
+     "#PemerintahanDesa",
+     "#NaskahDinas",
+     "#ASNGoDigital",
+     "#Siskeudes",
+     "#PerangkatDesa"
+    ],
+    "mood": "terkejut",
+    "narasi": [
+     "Halo Rekan ASN, revisi surat dinas sering bikin lembur semalaman?",
+     "Tenang Sobat Desa, sekarang ada Generator Naskah Dinas yang super cepat.",
+     "Tinggal klik, nomor dan agenda surat langsung terisi otomatis.",
+     "Data aman di perangkat sendiri, kerjaan beres tanpa ribet."
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11242110/cover.jpg"
+   ],
+   "video": "public/11242110/reels.mp4",
+   "scheduled_at": "2026-11-24T21:12+09:00",
+   "promo": true
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11241527 dikirim ke Bos",
-   "at": "2026-11-24 15:27"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-24 21:12"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5226,8 +5265,8 @@
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa\"",
-   "at": "2026-11-24 15:27"
+   "last": "Naskah video: \"Bikin surat dinas masih format lama?\"",
+   "at": "2026-11-24 21:10"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -5238,8 +5277,8 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 2 slide siap",
-   "at": "2026-11-24 15:27"
+   "last": "Video kinetik 33 detik siap",
+   "at": "2026-11-24 21:12"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
@@ -5261,6 +5300,56 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-24 21:12",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-24 21:12",
+   "agent": "kepala",
+   "msg": "Video #11242110 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-24 21:12",
+   "agent": "desain",
+   "msg": "Video kinetik 33 detik siap"
+  },
+  {
+   "at": "2026-11-24 21:11",
+   "agent": "desain",
+   "msg": "Menyusun klip Cicilia & teks berjalan..."
+  },
+  {
+   "at": "2026-11-24 21:10",
+   "agent": "desain",
+   "msg": "Mengubah ke suara khas Cicilia..."
+  },
+  {
+   "at": "2026-11-24 21:10",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia untuk video..."
+  },
+  {
+   "at": "2026-11-24 21:10",
+   "agent": "naskah",
+   "msg": "Naskah video: \"Bikin surat dinas masih format lama?\""
+  },
+  {
+   "at": "2026-11-24 21:10",
+   "agent": "naskah",
+   "msg": "Menulis naskah video kinetik: digitalisasi layanan desa, website desa, Prod"
+  },
+  {
+   "at": "2026-11-24 21:10",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels promosi"
+  },
+  {
+   "at": "2026-11-24 21:10",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-24 15:28",
    "agent": "humas",
@@ -5510,77 +5599,16 @@
    "at": "2026-11-24 09:59",
    "agent": "humas",
    "msg": "#11230307 → ig, fb"
-  },
-  {
-   "at": "2026-11-24 09:58",
-   "agent": "humas",
-   "msg": "Menerbitkan #11230307 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-24 09:58",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-24 09:58",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-24 09:38",
-   "agent": "humas",
-   "msg": "Paket TikTok #11230044 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-24 09:38",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11230044..."
-  },
-  {
-   "at": "2026-11-24 09:38",
-   "agent": "humas",
-   "msg": "#11230044 → ig, fb"
-  },
-  {
-   "at": "2026-11-24 09:37",
-   "agent": "humas",
-   "msg": "Menerbitkan #11230044 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-24 09:37",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-24 09:37",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-24 09:36",
-   "agent": "humas",
-   "msg": "Paket TikTok #11240901 dikirim ke Bos"
   }
  ],
  "stats": {
   "published": 58,
-  "drafts": 71
+  "drafts": 72
  },
- "updated": "2026-11-24T18:41+09:00",
+ "updated": "2026-11-24T21:12+09:00",
  "cuan_rot": 59,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "menjelaskan",
-   "expr": "senang",
-   "theme": "navy",
-   "cover": "berita",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "menjelaskan__presentasi",
-   "flip": true,
-   "cta": "badan"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -5789,10 +5817,20 @@
    "pose": "tegas__cemberut_tangan_di_pinggang",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "terkejut",
+   "expr": "terkejut",
+   "theme": "tosca",
+   "cover": "berita",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "terkejut__tangan_di_pipi",
+   "flip": false,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Bikin laporan kantor cuma lima menit?",
   "Cara Pintar Sat-Set Susun Perencanaan Desa",
   "Mitos vs Fakta Perencanaan Desa: Jangan Sampai Salah Langkah",
   "Komdigi Minta Transparansi Google Terkait Penutupan 19.389 Kanal YouTube",
@@ -5831,7 +5869,8 @@
   "Bikin SK Kades dan Perdes masih manual?",
   "Rekomendasi Tools AI Gratis Biar ASN Kerja Sat-Set",
   "Awas Kebablasan! Ini Etika Pakai AI di Kantor",
-  "Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa"
+  "Penguatan Demokrasi dan Koordinasi Bawaslu Bersama Pemerintah Desa",
+  "Bikin surat dinas masih format lama?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -6181,7 +6220,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-24",
-  "dibuat": "2026-11-24T18:41+09:00",
+  "dibuat": "2026-11-24T21:12+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6209,7 +6248,7 @@
     "slot": 2,
     "jam": "09:00",
     "tipe": "reels",
-    "jenis": "Reels",
+    "jenis": "Video Edukasi",
     "pilar": "Pemerintahan Desa",
     "judul": "Bikin SK Kades dan Perdes masih manual?",
     "id": "11240901",
@@ -6252,7 +6291,7 @@
     "slot": 6,
     "jam": "18:30",
     "tipe": "reels",
-    "jenis": "Reels",
+    "jenis": "Video Promosi",
     "pilar": "AI untuk Kerja Kantor",
     "judul": "Awas! Data kantor bocor karena AI?",
     "id": "11240635",
@@ -6284,6 +6323,13 @@
     "jenis": "Carousel",
     "judul": "Duh, Bikin SK Kades dan Perdes Masih Manual?",
     "status": "terbit"
+   },
+   {
+    "jam": "21:12",
+    "id": "11242110",
+    "jenis": "Reels",
+    "judul": "Bikin surat dinas masih format lama?",
+    "status": "menunggu"
    }
   ],
   "besok_tanggal": "2026-11-25",
@@ -6312,7 +6358,7 @@
     "slot": 2,
     "jam": "09:00",
     "tipe": "reels",
-    "jenis": "Reels",
+    "jenis": "Video Edukasi",
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
@@ -6352,7 +6398,7 @@
     "slot": 6,
     "jam": "18:30",
     "tipe": "reels",
-    "jenis": "Reels",
+    "jenis": "Video Promosi",
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
