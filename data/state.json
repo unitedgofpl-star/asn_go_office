@@ -4948,7 +4948,7 @@
   "11240901": {
    "id": "11240901",
    "type": "reels",
-   "status": "failed",
+   "status": "published",
    "created": "2026-11-24T09:01+09:00",
    "pillar": "Pemerintahan Desa",
    "topic": "administrasi desa, tata naskah dinas desa, SK Kades, Perdes",
@@ -4996,21 +4996,21 @@
     "public/11240901/cover.jpg"
    ],
    "video": "public/11240901/reels.mp4",
-   "scheduled_at": "2026-11-24T09:01+09:00",
-   "published": {},
-   "published_at": "2026-11-24T09:01+09:00",
-   "errors": [
-    "IG: META_PAGE_TOKEN belum diisi di GitHub Secrets.",
-    "FB: META_PAGE_TOKEN belum diisi di GitHub Secrets."
-   ]
+   "scheduled_at": "2026-11-24T09:35+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/reel/DgGrndZDw9O/",
+    "fb": "https://facebook.com/1633494921259192"
+   },
+   "published_at": "2026-11-24T09:36+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Reels #11240901 dikirim ke Bos",
-   "at": "2026-11-24 09:01"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-24 09:35"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5039,8 +5039,8 @@
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "#11240901 → gagal",
-   "at": "2026-11-24 09:01"
+   "last": "Paket TikTok #11240901 dikirim ke Bos",
+   "at": "2026-11-24 09:36"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -5056,6 +5056,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-24 09:36",
+   "agent": "humas",
+   "msg": "Paket TikTok #11240901 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-24 09:36",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11240901..."
+  },
+  {
+   "at": "2026-11-24 09:36",
+   "agent": "humas",
+   "msg": "#11240901 → ig, fb"
+  },
+  {
+   "at": "2026-11-24 09:35",
+   "agent": "humas",
+   "msg": "Menerbitkan #11240901 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-24 09:35",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-24 09:35",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-24 09:01",
    "agent": "humas",
@@ -5325,43 +5355,13 @@
    "at": "2026-11-24 03:41",
    "agent": "qc",
    "msg": "QC selesai — risiko rendah, 3 catatan"
-  },
-  {
-   "at": "2026-11-24 03:41",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-24 03:41",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"5 Trik Produktivitas ASN Agar Kerja Sat-Set Tanpa Lembur\""
-  },
-  {
-   "at": "2026-11-24 03:39",
-   "agent": "naskah",
-   "msg": "Menulis carousel: tips produktivitas ASN pakai tools digital gratis"
-  },
-  {
-   "at": "2026-11-24 03:39",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-24 03:39",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-24 03:39",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
-  "published": 52,
+  "published": 53,
   "drafts": 68
  },
- "updated": "2026-11-24T09:01+09:00",
+ "updated": "2026-11-24T09:36+09:00",
  "cuan_rot": 57,
  "last_followers": 130,
  "style_hist": [
@@ -5969,7 +5969,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-24",
-  "dibuat": "2026-11-24T09:01+09:00",
+  "dibuat": "2026-11-24T09:36+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -5999,8 +5999,8 @@
     "pilar": "Pemerintahan Desa",
     "judul": "Bikin SK Kades dan Perdes masih manual?",
     "id": "11240901",
-    "status": "gagal",
-    "terbit": "09:01"
+    "status": "terbit",
+    "terbit": "09:36"
    },
    {
     "slot": 3,
