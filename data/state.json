@@ -6161,44 +6161,90 @@
    },
    "published_at": "2026-11-26T06:35+09:00",
    "errors": []
+  },
+  "11260803": {
+   "id": "11260803",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-26T08:03+09:00",
+   "pillar": "PEMERINTAHAN DESA",
+   "topic": "Viral 3 Pria Berseragam PNS di Pasuruan Pesta Miras, Kini Kena Tegur",
+   "format": "berita",
+   "content": {
+    "hook": "Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas",
+    "caption": "Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas\n\nHalo Sobat Desa! Ada kabar penting yang menjadi pelajaran bagi kita semua. Baru-baru ini, beredar video viral yang menunjukkan tiga perangkat desa di Kantor Desa Sekarputih, Pasuruan, sedang mengonsumsi minuman keras setelah jam kerja.\n\nMenanggapi hal tersebut, Pemerintah Desa Sekarputih telah memberikan teguran kepada pihak yang terlibat agar tidak mengulangi perbuatan tersebut. Mari kita jadikan ini refleksi bersama untuk selalu menjaga perilaku demi menjaga kepercayaan masyarakat terhadap instansi pemerintahan.\n\nBagaimana pendapat Sobat Desa terkait pentingnya menjaga etika profesi di lingkungan kerja? Yuk, diskusi santun di kolom komentar!\n\n💡 Artinya bagi kita: Peristiwa ini menjadi pengingat penting bagi seluruh aparatur untuk selalu menjaga etika dan martabat profesi di lingkungan kantor.\n\n📰 Sumber:\n• detikNews: https://news.detik.com/berita/d-8768884/viral-3-pria-berseragam-pns-di-pasuruan-pesta-miras-kini-kena-tegur\n📷 Foto: detikNews\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#EtikaPerangkatDesa",
+     "#PerangkatDesa",
+     "#Pasuruan",
+     "#TataKelolaDesa"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus klaim 'Agustus 2026' dari beberapa bagian karena tidak sesuai dengan tanggal kejadian di sumber atau menyederhanakannya.",
+      "Mengubah 'ASN' menjadi istilah yang sesuai dengan sumber yaitu 'PNS' atau 'perangkat desa'.",
+      "Menyesuaikan kalimat pada caption agar tidak menyalin kalimat panjang dari sumber secara langsung."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas. Tiga perangkat desa di Pasuruan mendapatkan teguran resmi usai video pesta miras mereka viral di media sosial.",
+     "Poin pentingnya. Tiga orang perangkat desa di Kantor Desa Sekarputih terlibat pesta miras setelah jam kerja.. Peristiwa tersebut terjadi pada Agustus dan videonya viral di media sosial.. Pemerintah Desa Sekarputih telah memberikan teguran resmi kepada ketiga oknum tersebut.. Seluruh pihak yang terlibat diminta untuk tidak mengulangi perbuatan serupa.. Peristiwa ini menjadi pengingat penting bagi seluruh aparatur untuk selalu menjaga etika dan martabat profesi di lingkungan kantor. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11260803/slide_01.jpg",
+    "public/11260803/slide_02.jpg"
+   ],
+   "sources": [
+    "https://news.detik.com/berita/d-8768884/viral-3-pria-berseragam-pns-di-pasuruan-pesta-miras-kini-kena-tegur"
+   ],
+   "scheduled_at": "2026-11-26T08:03+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgLqsc0DSyX/",
+    "fb": "https://facebook.com/468307299696116_122226392588589464"
+   },
+   "published_at": "2026-11-26T08:04+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11260635 dikirim ke Bos",
-   "at": "2026-11-26 06:35"
+   "last": "Berita #11260803 dikirim ke Bos",
+   "at": "2026-11-26 08:03"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-26 06:31"
+   "last": "Berita: \"Viral 3 Pria Berseragam PNS di Pasuruan Pesta Miras, Kini Ke\" (1 sumber, 1 foto)",
+   "at": "2026-11-26 08:02"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"4 Tools Digital Gratis Bikin Kerja ASN Tanpa Lembur\"",
-   "at": "2026-11-26 06:32"
+   "last": "Rangkuman: \"Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas\"",
+   "at": "2026-11-26 08:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 2 catatan",
-   "at": "2026-11-26 06:35"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-26 08:03"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "7 slide gaya tosca siap",
-   "at": "2026-11-26 06:35"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-26 08:03"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11260635 dikirim ke Bos",
-   "at": "2026-11-26 06:37"
+   "last": "Paket TikTok #11260803 dikirim ke Bos",
+   "at": "2026-11-26 08:05"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -6214,6 +6260,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-26 08:05",
+   "agent": "humas",
+   "msg": "Paket TikTok #11260803 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 08:04",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11260803..."
+  },
+  {
+   "at": "2026-11-26 08:04",
+   "agent": "humas",
+   "msg": "#11260803 → ig, fb"
+  },
+  {
+   "at": "2026-11-26 08:03",
+   "agent": "humas",
+   "msg": "Menerbitkan #11260803 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-26 08:03",
+   "agent": "kepala",
+   "msg": "Berita #11260803 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 08:03",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-26 08:03",
+   "agent": "desain",
+   "msg": "Mendesain berita (1 foto)..."
+  },
+  {
+   "at": "2026-11-26 08:03",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-26 08:02",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-26 08:02",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas\""
+  },
+  {
+   "at": "2026-11-26 08:02",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-26 08:02",
+   "agent": "riset",
+   "msg": "Berita: \"Viral 3 Pria Berseragam PNS di Pasuruan Pesta Miras, Kini Ke\" (1 sumber, 1 foto)"
+  },
+  {
+   "at": "2026-11-26 08:01",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-26 08:01",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-26 08:01",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita desa"
+  },
   {
    "at": "2026-11-26 06:37",
    "agent": "humas",
@@ -6438,88 +6559,13 @@
    "at": "2026-11-25 17:05",
    "agent": "desain",
    "msg": "Berita 3 slide siap"
-  },
-  {
-   "at": "2026-11-25 17:05",
-   "agent": "desain",
-   "msg": "Mendesain berita (3 foto)..."
-  },
-  {
-   "at": "2026-11-25 17:05",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko sedang"
-  },
-  {
-   "at": "2026-11-25 17:05",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-25 17:05",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Komdigi Tangani Puluhan Ribu Konten dan Laporan Penipuan Digital\""
-  },
-  {
-   "at": "2026-11-25 17:02",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 3 sumber..."
-  },
-  {
-   "at": "2026-11-25 17:02",
-   "agent": "riset",
-   "msg": "Berita: \"Komdigi Tindak 67 Ribu Konten Penipuan Digital Sejak 2024\" (3 sumber, 3 foto)"
-  },
-  {
-   "at": "2026-11-25 17:01",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-25 17:01",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-25 17:01",
-   "agent": "kepala",
-   "msg": "Jadwal 17:00 WIT: berita asn"
-  },
-  {
-   "at": "2026-11-25 15:37",
-   "agent": "humas",
-   "msg": "Paket TikTok #11251533 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 15:36",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11251533..."
-  },
-  {
-   "at": "2026-11-25 15:36",
-   "agent": "humas",
-   "msg": "#11251533 → ig, fb"
-  },
-  {
-   "at": "2026-11-25 15:35",
-   "agent": "humas",
-   "msg": "Menerbitkan #11251533 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-25 15:35",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-25 15:35",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
   }
  ],
  "stats": {
-  "published": 70,
-  "drafts": 85
+  "published": 71,
+  "drafts": 86
  },
- "updated": "2026-11-26T06:37+09:00",
+ "updated": "2026-11-26T08:05+09:00",
  "cuan_rot": 69,
  "last_followers": 130,
  "style_hist": [
@@ -6745,7 +6791,6 @@
   }
  ],
  "recent_hooks": [
-  "Birokrasi digital makin ketat, yuk siap-siap!",
   "Kerja Kantor Sat-Set Pakai Aplikasi Gratis Ini",
   "Langkah Bikin Dokumen Dinas Cepat Pakai AI",
   "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih",
@@ -6784,7 +6829,8 @@
   "Amankah Data Kantor Jika Diinput ke AI?",
   "Komdigi Tangani Puluhan Ribu Konten dan Laporan Penipuan Digital",
   "Tools AI Andalan ASN untuk Kerja Lebih Efektif",
-  "4 Tools Digital Bantu Kerja ASN Lebih Efisien"
+  "4 Tools Digital Bantu Kerja ASN Lebih Efisien",
+  "Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -6824,7 +6870,10 @@
   "komdigi catat ratusan ribu aduan penipuan di ruang digital",
   "komdigi tindak 67 ribu konten penipuan digital sejak 2024",
   "komdigi tangani 67 578 konten penipuan online  ini modusnya",
-  "berita kini   kemkomdigi tangani 67 578 konten penipuan digi"
+  "berita kini   kemkomdigi tangani 67 578 konten penipuan digi",
+  "video viral 3 pns di pasuruan pesta miras berujung sanksi te",
+  "pns di pasuruan viral pesta miras  berujung disanksi teguran",
+  "viral 3 pria berseragam pns di pasuruan pesta miras  kini ke"
  ],
  "slot_log": {
   "2026-11-19": {
@@ -7126,12 +7175,17 @@
     "did": "11260635",
     "status": "proses",
     "at": "2026-11-26T06:35+09:00"
+   },
+   "1": {
+    "did": "11260803",
+    "status": "proses",
+    "at": "2026-11-26T08:03+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-26",
-  "dibuat": "2026-11-26T06:37+09:00",
+  "dibuat": "2026-11-26T08:05+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -7150,9 +7204,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas",
+    "id": "11260803",
+    "status": "terbit",
+    "terbit": "08:04"
    },
    {
     "slot": 2,
@@ -7162,7 +7217,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
