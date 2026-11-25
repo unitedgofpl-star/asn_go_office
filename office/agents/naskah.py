@@ -17,13 +17,14 @@ SCHEMA = """Balas HANYA JSON dengan struktur:
  "subtitle": "sub-judul cover maks 12 kata",
  "mood": "suasana ekspresi Cicilia yang paling cocok dengan isi: ceria | semangat | terkejut | cemberut | tegas | sedih | sayang | tenang | menjelaskan (mis. kesalahan umum → cemberut/tegas, mitos → terkejut, beban lembur → sedih, tips → ceria/semangat, promo → sayang)",
  "items": [{"title": "maks 5 kata", "sub": "maks 9 kata", "icon": "1 emoji yang mewakili"}],
- "details": [{"title": "sama dengan salah satu items.title", "body": "penjelasan praktis maks 45 kata"}],
+ "details": [{"title": "SAMA PERSIS dengan items.title pada urutan yang sama", "body": "penjelasan praktis maks 45 kata"}],
  "note": "catatan kaki/disclaimer singkat maks 16 kata (mis. 'Cek regulasi terbaru di instansi Anda')",
  "cta": "ajakan maks 14 kata",
  "caption": "caption 80-150 kata, ditulis sebagai Cicilia (orang pertama): hook baris pertama, ringkasan isi, ajakan SIMPAN & BAGIKAN, pertanyaan untuk komentar",
  "hashtags": ["#..."]
 }
-items berisi 4-6 butir (ditampilkan sebagai daftar bernomor). details berisi 2-5 butir terpenting untuk dijelaskan per slide."""
+items berisi 3-5 butir (ditampilkan sebagai daftar bernomor). details WAJIB berjumlah SAMA dengan items:
+setiap butir items dijelaskan di 1 slide sendiri, urutannya sama (poin 1 → detail 1, dst). Jangan ada poin tanpa penjelasan."""
 
 
 def _system(cfg):
@@ -97,3 +98,45 @@ def ideas(cfg, state, n=10):
                   "Format daftar bernomor, setiap ide 1 baris + [pilar] di akhir.", _system(cfg))
     state.done("naskah", f"{n} ide konten siap")
     return out
+
+
+def _kunci(t):
+    import re
+    return re.sub(r"[^a-z0-9]", "", str(t).lower())
+
+
+def lengkapi_detail(cfg, state, content):
+    """Pastikan SETIAP poin di daftar punya slide penjelasan, urut sesuai daftar."""
+    items = content.get("items") or []
+    if not items:
+        return content
+    items = items[:6]
+    content["items"] = items
+    ada = {_kunci(d.get("title")): d for d in content.get("details") or [] if d.get("body")}
+    sisa = [d for d in content.get("details") or [] if d.get("body")]
+    hasil, kurang = [], []
+    for i, it in enumerate(items):
+        k = _kunci(it.get("title"))
+        d = ada.get(k) or next((x for x in sisa if k and (k in _kunci(x.get("title")) or _kunci(x.get("title")) in k)), None)
+        if d:
+            sisa = [x for x in sisa if x is not d]
+            hasil.append({**d, "title": it.get("title", d.get("title"))})
+        else:
+            hasil.append(None)
+            kurang.append(i)
+    if kurang:
+        state.work("naskah", f"Melengkapi penjelasan {len(kurang)} poin yang belum ada slidenya")
+        try:
+            daftar = "\n".join(f"{i + 1}. {items[i].get('title')} — {items[i].get('sub', '')}" for i in kurang)
+            r = llm.ask(f"Judul konten: {content.get('hook')}\nTulis penjelasan praktis (maks 45 kata, format sama seperti poin lain) "
+                        f"untuk poin berikut:\n{daftar}\nBalas HANYA JSON: {{\"details\": [{{\"title\": \"judul poin persis\", \"body\": \"...\"}}]}}",
+                        _system(cfg), as_json=True)
+            baru = [x for x in (r.get("details") or []) if x.get("body")]
+        except Exception as e:
+            print("melengkapi detail gagal:", e)
+            baru = []
+        for j, i in enumerate(kurang):
+            b = baru[j] if j < len(baru) else {"body": items[i].get("sub", "")}
+            hasil[i] = {"title": items[i].get("title"), "body": b.get("body", "")}
+    content["details"] = hasil
+    return content

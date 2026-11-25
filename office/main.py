@@ -91,6 +91,7 @@ def create_draft(cfg, state, topic=None, pillar_id=None, fmt=None, product_id=No
     content = naskah.write(cfg, state, pillar, topic, fmt, news=news, product=product if promo else None, notes=notes,
                            avoid=state.d.get("recent_hooks", []))
     content = naskah.verify(cfg, state, content)
+    content = naskah.lengkapi_detail(cfg, state, content)
     if not promo:
         content = cuan.add_soft_cta(cfg, content, product)
 
@@ -385,6 +386,19 @@ def handle_command(cfg, state, text):
     elif cmd == "/produk":
         rows = [f"• <code>{p['id']}</code> — {esc(p['name'])} ({p['price']})\n  {p['url']}" for p in cfg.get("products", [])]
         telegram.send("🛒 <b>Produk lynk.id</b>\n" + "\n".join(rows))
+    elif cmd == "/lengkapi":
+        d = drafts.get(arg)
+        if not d or d.get("type", "carousel") != "carousel" or not d["content"].get("items"):
+            telegram.send("Format: <code>/lengkapi ID</code> — untuk carousel daftar yang belum semua poinnya dijelaskan.")
+        elif d.get("status") == "published":
+            telegram.send("Postingan yang sudah terbit tidak bisa ditambah slide (aturan Instagram). Gunakan /buat untuk konten baru.")
+        else:
+            ack(f"🛠 Melengkapi slide penjelasan #{arg}...")
+            c = naskah.lengkapi_detail(cfg, state, d["content"])
+            pid = next((p["id"] for p in cfg["pillars"] if p["name"] == d.get("pillar")), None)
+            product = next((x for x in cfg.get("products", []) if x["id"] == d.get("product")), None)
+            d["images"] = desain.render(cfg, state, arg, c, d["pillar"], d.get("format", "carousel_listicle"), product, pillar_id=pid)
+            preview(cfg, state, arg)
     elif cmd == "/flow":
         from .agents import flow
         rest = text.split(maxsplit=1)[1] if arg else ""
