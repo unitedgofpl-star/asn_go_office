@@ -5565,7 +5565,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-25 11:44"
+   "at": "2026-11-25 11:46"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5606,11 +5606,31 @@
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
    "status": "idle",
-   "last": "Gagal ambil data: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
-   "at": "2026-11-23 18:13"
+   "last": "Laporan mingguan selesai — 130 followers",
+   "at": "2026-11-25 11:46"
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 11:46",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-25 11:46",
+   "agent": "analis",
+   "msg": "Laporan mingguan selesai — 130 followers"
+  },
+  {
+   "at": "2026-11-25 11:45",
+   "agent": "analis",
+   "msg": "Menarik data performa Instagram..."
+  },
+  {
+   "at": "2026-11-25 11:45",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-25 11:44",
    "agent": "kepala",
@@ -5890,33 +5910,13 @@
    "at": "2026-11-25 05:56",
    "agent": "desain",
    "msg": "Mendesain gaya ungu/berita/grid/angka..."
-  },
-  {
-   "at": "2026-11-25 05:56",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 3 catatan"
-  },
-  {
-   "at": "2026-11-25 05:54",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-25 05:54",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"4 Tools AI Gratis Bantu ASN Kerja Sat-Set\""
-  },
-  {
-   "at": "2026-11-25 05:54",
-   "agent": "naskah",
-   "msg": "Menulis carousel: tools AI gratis untuk ASN dan perangkat desa"
   }
  ],
  "stats": {
   "published": 63,
   "drafts": 77
  },
- "updated": "2026-11-25T11:44+09:00",
+ "updated": "2026-11-25T11:46+09:00",
  "cuan_rot": 63,
  "last_followers": 130,
  "style_hist": [
@@ -6535,7 +6535,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T11:44+09:00",
+  "dibuat": "2026-11-25T11:46+09:00",
   "hari_ini": [
    {
     "slot": 0,
