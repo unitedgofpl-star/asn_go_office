@@ -5935,8 +5935,8 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Perintah selesai diproses",
-   "at": "2026-11-25 17:35"
+   "last": "Jadwal 18:30 WIT: reels desa",
+   "at": "2026-11-25 18:31"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5982,6 +5982,11 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 18:31",
+   "agent": "kepala",
+   "msg": "Jadwal 18:30 WIT: reels desa"
+  },
   {
    "at": "2026-11-25 17:35",
    "agent": "kepala",
@@ -6276,18 +6281,13 @@
    "at": "2026-11-25 12:02",
    "agent": "desain",
    "msg": "5 slide gaya merah siap"
-  },
-  {
-   "at": "2026-11-25 12:02",
-   "agent": "desain",
-   "msg": "Mendesain gaya merah/kiri/kartu/kartu..."
   }
  ],
  "stats": {
   "published": 68,
   "drafts": 82
  },
- "updated": "2026-11-25T17:35+09:00",
+ "updated": "2026-11-25T18:31+09:00",
  "cuan_rot": 67,
  "last_followers": 130,
  "style_hist": [
@@ -6919,12 +6919,17 @@
     "did": "11251705",
     "status": "proses",
     "at": "2026-11-25T17:05+09:00"
+   },
+   "6": {
+    "did": "F11251327",
+    "status": "proses",
+    "at": "2026-11-25T18:31+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T17:35+09:00",
+  "dibuat": "2026-11-25T18:31+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6998,9 +7003,9 @@
     "tipe": "reels",
     "jenis": "Video Flow",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin SK Kades Cepat Tanpa Salah",
+    "id": "F11251327",
+    "status": "menunggu"
    },
    {
     "slot": 7,
@@ -7010,7 +7015,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    }
   ],
   "manual": [
@@ -7034,13 +7039,6 @@
     "jenis": "Carousel",
     "judul": "Langkah Praktis Kelola Dana Desa Tepat Sasaran",
     "status": "terbit"
-   },
-   {
-    "jam": "13:27",
-    "id": "F11251327",
-    "jenis": "Carousel",
-    "judul": "Bikin SK Kades Cepat Tanpa Salah",
-    "status": "proses"
    }
   ],
   "besok_tanggal": "2026-11-26",
