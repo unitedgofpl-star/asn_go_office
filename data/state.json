@@ -5564,8 +5564,8 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Video #11250900 dikirim ke Bos",
-   "at": "2026-11-25 09:02"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-25 11:44"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5576,8 +5576,8 @@
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Naskah video: \"Laporan Excel Berantakan? Pakai Trik Ini!\"",
-   "at": "2026-11-25 09:00"
+   "last": "10 ide konten siap",
+   "at": "2026-11-25 11:44"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -5611,6 +5611,26 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 11:44",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-25 11:44",
+   "agent": "naskah",
+   "msg": "10 ide konten siap"
+  },
+  {
+   "at": "2026-11-25 11:43",
+   "agent": "naskah",
+   "msg": "Brainstorm ide konten..."
+  },
+  {
+   "at": "2026-11-25 11:43",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-25 09:03",
    "agent": "humas",
@@ -5890,33 +5910,13 @@
    "at": "2026-11-25 05:54",
    "agent": "naskah",
    "msg": "Menulis carousel: tools AI gratis untuk ASN dan perangkat desa"
-  },
-  {
-   "at": "2026-11-25 05:54",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-25 05:54",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-25 05:54",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-25 05:54",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
   }
  ],
  "stats": {
   "published": 63,
   "drafts": 77
  },
- "updated": "2026-11-25T09:03+09:00",
+ "updated": "2026-11-25T11:44+09:00",
  "cuan_rot": 63,
  "last_followers": 130,
  "style_hist": [
@@ -6535,7 +6535,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T09:03+09:00",
+  "dibuat": "2026-11-25T11:44+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6588,7 +6588,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "gagal"
+    "status": "akan"
    },
    {
     "slot": 5,
@@ -6598,18 +6598,17 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "gagal"
+    "status": "akan"
    },
    {
     "slot": 6,
     "jam": "18:30",
     "tipe": "reels",
-    "jenis": "Video Promosi",
+    "jenis": "Video Flow",
     "pilar": "Pemerintahan Desa",
-    "judul": "Bikin surat dinas lama banget?",
-    "id": "11250516",
-    "status": "terbit",
-    "terbit": "05:19"
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 7,
@@ -6617,13 +6616,27 @@
     "tipe": "carousel",
     "jenis": "Carousel Listicle",
     "pilar": "AI untuk Kerja Kantor",
-    "judul": "4 Tools AI Bantu ASN Kerja Lebih Efektif",
-    "id": "11250556",
-    "status": "terbit",
-    "terbit": "05:57"
+    "judul": "",
+    "id": "",
+    "status": "akan"
    }
   ],
-  "manual": [],
+  "manual": [
+   {
+    "jam": "05:19",
+    "id": "11250516",
+    "jenis": "Reels",
+    "judul": "Bikin surat dinas lama banget?",
+    "status": "terbit"
+   },
+   {
+    "jam": "05:57",
+    "id": "11250556",
+    "jenis": "Carousel",
+    "judul": "4 Tools AI Bantu ASN Kerja Lebih Efektif",
+    "status": "terbit"
+   }
+  ],
   "besok_tanggal": "2026-11-26",
   "besok": [
    {
@@ -6690,7 +6703,7 @@
     "slot": 6,
     "jam": "18:30",
     "tipe": "reels",
-    "jenis": "Video Promosi",
+    "jenis": "Video Flow",
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
