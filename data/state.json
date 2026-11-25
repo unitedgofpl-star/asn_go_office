@@ -5639,50 +5639,135 @@
     "public/11251147/slide_05.jpg"
    ],
    "scheduled_at": "2026-11-25T19:00+09:00"
+  },
+  "11251202": {
+   "id": "11251202",
+   "status": "published",
+   "created": "2026-11-25T12:02+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "administrasi desa, tata naskah dinas desa, SK Kades, Perdes",
+   "format": "carousel_listicle",
+   "product": "naskah",
+   "content": {
+    "hook": "Kesalahan Administrasi Desa yang Bikin Kerja Melambat",
+    "subtitle": "Hindari ini agar urusan surat-menyurat dan dokumen desa makin sat-set!",
+    "mood": "tegas",
+    "items": [
+     {
+      "title": "Format Surat Tidak Standar",
+      "sub": "Gunakan template resmi sesuai tata naskah dinas.",
+      "icon": "📄"
+     },
+     {
+      "title": "Pengarsipan Dokumen Tercecer",
+      "sub": "Simpan digital di folder yang rapi dan terstruktur.",
+      "icon": "📂"
+     },
+     {
+      "title": "Copy-Paste Tanpa Verifikasi",
+      "sub": "Selalu cek ulang nama, jabatan, dan nomor surat.",
+      "icon": "🔍"
+     },
+     {
+      "title": "Tidak Menggunakan Cloud Storage",
+      "sub": "Manfaatkan penyimpanan awan agar data tidak hilang.",
+      "icon": "☁️"
+     },
+     {
+      "title": "Menunda Input Data",
+      "sub": "Kerjakan segera agar tidak menumpuk di akhir bulan.",
+      "icon": "⚡"
+     }
+    ],
+    "details": [
+     {
+      "title": "Format Surat Tidak Standar",
+      "body": "Banyak perangkat desa masih menggunakan format seadanya. Padahal, setiap instansi punya pedoman tata naskah dinas. Menggunakan format standar membuat dokumen tampak profesional dan mudah dipahami, sekaligus menghindari revisi bolak-balik dari kecamatan atau kabupaten.",
+      "icon": "📄"
+     },
+     {
+      "title": "Copy-Paste Tanpa Verifikasi",
+      "body": "Kebiasaan menyalin dari dokumen lama sering berujung fatal. Salah ketik nama atau jabatan perangkat desa bisa berakibat dokumen tidak sah. Selalu luangkan waktu untuk membaca ulang sebelum ditandatangani Kepala Desa.",
+      "icon": "🔍"
+     }
+    ],
+    "note": "Cek selalu regulasi terbaru mengenai tata naskah dinas di instansi pemerintah daerah Anda.",
+    "cta": "Simpan postingan ini biar kerja administrasi di kantor desa makin rapi!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering merasa pekerjaan administrasi di kantor desa tidak ada habisnya? Kadang masalahnya bukan karena pekerjaan yang banyak, tapi karena cara kita mengelolanya yang kurang efisien. Kesalahan kecil seperti salah format atau arsip yang berantakan bisa membuat waktu terbuang percuma. Padahal, dengan perbaikan sistem, tugas rutin bisa selesai jauh lebih cepat.\n\nYuk, simak slide-nya sampai habis! Rekan ASN pernah mengalami kejadian surat harus direvisi gara-gara salah ketik? Ceritakan pengalaman atau kendala administrasi yang sering Sobat hadapi di kolom komentar ya!\n\nJangan lupa SIMPAN dan BAGIKAN ke rekan sejawat di kantor desa.\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#ASNGoDigital",
+     "#AdministrasiDesa",
+     "#DigitalisasiDesa",
+     "#PerangkatDesa",
+     "#ASNIndonesia",
+     "#TataNaskahDinas"
+    ],
+    "_qc": {
+     "issues": [
+      "Mengubah judul hook dari '5 Kesalahan' menjadi umum karena tidak ada 5 item spesifik yang dijabarkan secara rinci dalam detail, menjaga konsistensi materi."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11251202/slide_01.jpg",
+    "public/11251202/slide_02.jpg",
+    "public/11251202/slide_03.jpg",
+    "public/11251202/slide_04.jpg",
+    "public/11251202/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-25T19:00+09:00",
+   "published": {
+    "fb": "https://facebook.com/468307299696116_122226255098589464"
+   },
+   "published_at": "2026-11-25T12:04+09:00",
+   "errors": [
+    "IG: Meta API: Only photo or video can be accepted as media type."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Perintah selesai diproses",
-   "at": "2026-11-25 11:48"
+   "last": "Draft #11251202 dikirim ke Bos",
+   "at": "2026-11-25 12:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-25 11:47"
+   "at": "2026-11-25 12:00"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"6 Langkah Praktis Kelola Dana Desa Tepat Sasaran\"",
-   "at": "2026-11-25 11:47"
+   "last": "Draft selesai: \"5 Kesalahan Administrasi Desa yang Bikin Kerja Melambat\"",
+   "at": "2026-11-25 12:00"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-25 11:47"
+   "last": "QC selesai — risiko rendah, 1 catatan",
+   "at": "2026-11-25 12:02"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya tosca siap",
-   "at": "2026-11-25 11:47"
+   "last": "5 slide gaya merah siap",
+   "at": "2026-11-25 12:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11250900 dikirim ke Bos",
-   "at": "2026-11-25 09:03"
+   "last": "Paket TikTok #11251202 dikirim ke Bos",
+   "at": "2026-11-25 12:05"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-25 11:47"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-25 12:00"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -5692,6 +5777,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 12:05",
+   "agent": "humas",
+   "msg": "Paket TikTok #11251202 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 12:04",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11251202..."
+  },
+  {
+   "at": "2026-11-25 12:04",
+   "agent": "humas",
+   "msg": "#11251202 → fb"
+  },
+  {
+   "at": "2026-11-25 12:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11251202 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-25 12:02",
+   "agent": "kepala",
+   "msg": "Draft #11251202 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 12:02",
+   "agent": "desain",
+   "msg": "5 slide gaya merah siap"
+  },
+  {
+   "at": "2026-11-25 12:02",
+   "agent": "desain",
+   "msg": "Mendesain gaya merah/kiri/kartu/kartu..."
+  },
+  {
+   "at": "2026-11-25 12:02",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 1 catatan"
+  },
+  {
+   "at": "2026-11-25 12:00",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-25 12:00",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"5 Kesalahan Administrasi Desa yang Bikin Kerja Melambat\""
+  },
+  {
+   "at": "2026-11-25 12:00",
+   "agent": "naskah",
+   "msg": "Menulis carousel: administrasi desa, tata naskah dinas desa, SK Kade"
+  },
+  {
+   "at": "2026-11-25 12:00",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-25 12:00",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-25 12:00",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-25 12:00",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-25 12:00",
+   "agent": "kepala",
+   "msg": "Jadwal 12:00 WIT: carousel desa"
+  },
   {
    "at": "2026-11-25 11:48",
    "agent": "kepala",
@@ -5911,107 +6076,16 @@
    "at": "2026-11-25 08:01",
    "agent": "qc",
    "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan\""
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 2 sumber..."
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "riset",
-   "msg": "Berita: \"Komdigi catat ratusan ribu aduan penipuan - ANTARA News Mega\" (2 sumber, 6 foto)"
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "kepala",
-   "msg": "Jadwal 08:00 WIT: berita ai"
-  },
-  {
-   "at": "2026-11-25 06:32",
-   "agent": "humas",
-   "msg": "Paket TikTok #11250631 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 06:31",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11250631..."
-  },
-  {
-   "at": "2026-11-25 06:31",
-   "agent": "humas",
-   "msg": "#11250631 → ig, fb"
-  },
-  {
-   "at": "2026-11-25 06:31",
-   "agent": "humas",
-   "msg": "Menerbitkan #11250631 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-25 06:31",
-   "agent": "kepala",
-   "msg": "Draft #11250631 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 06:31",
-   "agent": "desain",
-   "msg": "5 slide gaya navy siap"
-  },
-  {
-   "at": "2026-11-25 06:31",
-   "agent": "desain",
-   "msg": "Mendesain gaya navy/kanan/kartu/chat..."
-  },
-  {
-   "at": "2026-11-25 06:31",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 4 catatan"
-  },
-  {
-   "at": "2026-11-25 06:30",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-25 06:30",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Dana Desa Menurun? Waktunya Genjot Layanan Desa Pakai AI!\""
   }
  ],
  "stats": {
-  "published": 63,
-  "drafts": 78
+  "published": 64,
+  "drafts": 79
  },
- "updated": "2026-11-25T11:48+09:00",
- "cuan_rot": 64,
+ "updated": "2026-11-25T12:05+09:00",
+ "cuan_rot": 65,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "gembira",
-   "theme": "navy",
-   "cover": "potret",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "semangat__tangan_mengepal",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "tegas",
    "expr": "cemberut",
@@ -6220,10 +6294,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "badan"
+  },
+  {
+   "mood": "tegas",
+   "expr": "cemberut",
+   "theme": "merah",
+   "cover": "kiri",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "tegas__cemberut_tangan_di_pinggang",
+   "flip": false,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
   "Bikin paparan kantor cuma dua menit?",
   "Amankah Data Kantor dan TTE Anda Hari Ini?",
   "Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat",
@@ -6262,7 +6346,8 @@
   "Efisiensi Layanan Desa dengan Bantuan AI",
   "Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan",
   "Laporan Excel Berantakan? Pakai Trik Ini!",
-  "Langkah Praktis Kelola Dana Desa Tepat Sasaran"
+  "Langkah Praktis Kelola Dana Desa Tepat Sasaran",
+  "Kesalahan Administrasi Desa yang Bikin Kerja Melambat"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -6611,12 +6696,17 @@
     "did": "11250900",
     "status": "proses",
     "at": "2026-11-25T09:02+09:00"
+   },
+   "3": {
+    "did": "11251202",
+    "status": "proses",
+    "at": "2026-11-25T12:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T11:48+09:00",
+  "dibuat": "2026-11-25T12:05+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6657,9 +6747,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Listicle",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Kesalahan Administrasi Desa yang Bikin Kerja Melambat",
+    "id": "11251202",
+    "status": "terbit",
+    "terbit": "12:04"
    },
    {
     "slot": 4,
@@ -6669,7 +6760,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 5,
