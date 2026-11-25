@@ -5935,8 +5935,8 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11251705 dikirim ke Bos",
-   "at": "2026-11-25 17:05"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-25 17:35"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5982,6 +5982,16 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 17:35",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-25 17:35",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-25 17:06",
    "agent": "humas",
@@ -6271,23 +6281,13 @@
    "at": "2026-11-25 12:02",
    "agent": "desain",
    "msg": "Mendesain gaya merah/kiri/kartu/kartu..."
-  },
-  {
-   "at": "2026-11-25 12:02",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 1 catatan"
-  },
-  {
-   "at": "2026-11-25 12:00",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
   }
  ],
  "stats": {
   "published": 68,
   "drafts": 82
  },
- "updated": "2026-11-25T17:14+09:00",
+ "updated": "2026-11-25T17:35+09:00",
  "cuan_rot": 67,
  "last_followers": 130,
  "style_hist": [
@@ -6924,7 +6924,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T17:14+09:00",
+  "dibuat": "2026-11-25T17:35+09:00",
   "hari_ini": [
    {
     "slot": 0,
