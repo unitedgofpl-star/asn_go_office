@@ -5608,6 +5608,21 @@
       "title": "Validasi Data KPM",
       "body": "Manfaatkan aplikasi data terpadu untuk memverifikasi penerima bantuan seperti BLT Dana Desa agar data tetap akurat, transparan, dan dapat dipertanggungjawabkan.",
       "icon": "👥"
+     },
+     {
+      "title": "Optimalkan UMKM Lokal",
+      "body": "Dukung ekonomi warga dan kelompok rentan lewat pelatihan, bantuan alat, atau pemasaran produk desa di platform digital agar omzet naik.",
+      "icon": "💡"
+     },
+     {
+      "title": "Arsip Dokumen Digital",
+      "body": "Amankan data administrasi agar mudah diakses. Scan surat penting ke cloud storage supaya bebas risiko hilang saat pergantian perangkat.",
+      "icon": "📁"
+     },
+     {
+      "title": "Evaluasi Berkala",
+      "body": "Pantau serapan anggaran melalui dasbor aplikasi keuangan. Cek kesesuaian target fisik dan keuangan tiap bulan agar bebas temuan.",
+      "icon": "📈"
      }
     ],
     "note": "Selalu merujuk pada regulasi terbaru dan pedoman pengelolaan keuangan desa di instansi Anda.",
@@ -5636,7 +5651,10 @@
     "public/11251147/slide_02.jpg",
     "public/11251147/slide_03.jpg",
     "public/11251147/slide_04.jpg",
-    "public/11251147/slide_05.jpg"
+    "public/11251147/slide_05.jpg",
+    "public/11251147/slide_06.jpg",
+    "public/11251147/slide_07.jpg",
+    "public/11251147/slide_08.jpg"
    ],
    "scheduled_at": "2026-11-25T19:00+09:00"
   },
@@ -5730,8 +5748,8 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11251202 dikirim ke Bos",
-   "at": "2026-11-25 12:02"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-25 12:06"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5742,8 +5760,8 @@
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"5 Kesalahan Administrasi Desa yang Bikin Kerja Melambat\"",
-   "at": "2026-11-25 12:00"
+   "last": "Melengkapi penjelasan 3 poin yang belum ada slidenya",
+   "at": "2026-11-25 12:06"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -5754,8 +5772,8 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "5 slide gaya merah siap",
-   "at": "2026-11-25 12:02"
+   "last": "8 slide gaya tosca siap",
+   "at": "2026-11-25 12:06"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
@@ -5777,6 +5795,31 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 12:06",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-25 12:06",
+   "agent": "desain",
+   "msg": "8 slide gaya tosca siap"
+  },
+  {
+   "at": "2026-11-25 12:06",
+   "agent": "desain",
+   "msg": "Mendesain gaya tosca/kanan/ceklis/angka..."
+  },
+  {
+   "at": "2026-11-25 12:06",
+   "agent": "naskah",
+   "msg": "Melengkapi penjelasan 3 poin yang belum ada slidenya"
+  },
+  {
+   "at": "2026-11-25 12:06",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-25 12:05",
    "agent": "humas",
@@ -6051,52 +6094,16 @@
    "at": "2026-11-25 08:01",
    "agent": "humas",
    "msg": "Menerbitkan #11250801 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "kepala",
-   "msg": "Berita #11250801 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "desain",
-   "msg": "Berita 6 slide siap"
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "desain",
-   "msg": "Mendesain berita (6 foto)..."
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko sedang"
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
   }
  ],
  "stats": {
   "published": 64,
   "drafts": 79
  },
- "updated": "2026-11-25T12:05+09:00",
+ "updated": "2026-11-25T12:06+09:00",
  "cuan_rot": 65,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "tegas",
-   "expr": "cemberut",
-   "theme": "tosca",
-   "cover": "kiri",
-   "list": "grid",
-   "detail": "chat",
-   "pose": "tegas__cemberut_tangan_di_pinggang",
-   "flip": false,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -6304,6 +6311,17 @@
    "detail": "kartu",
    "pose": "tegas__cemberut_tangan_di_pinggang",
    "flip": false,
+   "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "tosca",
+   "cover": "kanan",
+   "list": "ceklis",
+   "detail": "angka",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
    "cta": "badan"
   }
  ],
@@ -6706,7 +6724,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T12:05+09:00",
+  "dibuat": "2026-11-25T12:06+09:00",
   "hari_ini": [
    {
     "slot": 0,
