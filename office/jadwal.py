@@ -46,14 +46,14 @@ def rows(cfg, state, day=None):
         tipe = TIPE.get(slot["type"], slot["type"])
         jenis = f"{tipe} {FMT.get(fmt, '')}".strip() if slot["type"] == "carousel" else tipe
         if slot["type"] == "reels":
-            jenis = "Video Promosi" if slot.get("promo") else "Video Edukasi"
+            jenis = ("Video Flow" if slot.get("flow") else "Video") + (" Promosi" if slot.get("promo") else " Edukasi" if not slot.get("flow") else "")
         r = {"slot": i, "jam": slot["time"], "tipe": slot["type"], "jenis": jenis,
              "pilar": "Berita pilihan" if slot["type"] == "berita" else pil.get(pid, pid), "judul": "", "id": ""}
         lg = logd.get(str(i))
         d = state.d["drafts"].get((lg or {}).get("did") or "")
         if d:
             r["id"], r["judul"] = d["id"], d.get("content", {}).get("hook", "")
-            r["status"] = {"published": "terbit", "failed": "gagal", "draft": "menunggu", "rejected": "gagal", "manual": "manual"}.get(d.get("status"), "proses")
+            r["status"] = {"published": "terbit", "failed": "gagal", "draft": "menunggu", "rejected": "gagal", "manual": "manual", "menunggu_video": "menunggu"}.get(d.get("status"), "proses")
             if d.get("published_at"):
                 r["terbit"] = d["published_at"][11:16]
         elif lg:

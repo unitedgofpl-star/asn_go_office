@@ -35,6 +35,8 @@ Perintah untuk Bos:
 /produk — daftar produk lynk.id
 /harga — lihat & ubah harga paket (CTA ikut berubah)
 /sudah [id] — tandai paket manual sudah diposting
+/flow [promo|edukasi] [topik] — brief video Google Flow
+/jadi [id] — rakit video Flow dari klip yang dikirim
 /laporan — laporan performa
 /jadwal — jadwal posting hari ini (/jadwal besok)
 /status — apa yang sedang dikerjakan karyawan
@@ -44,6 +46,8 @@ Perintah untuk Bos:
 Atau ketik topik bebas, mis. "cara cepat bikin SK Kepala Desa".`;
 
 const SLOW = {
+  "/flow": "🎬 Kaka Selfina menulis brief video Google Flow... (±1 menit)",
+  "/jadi": "🛠 Kaka Elisa merakit video Flow... (±2–3 menit)",
   "/buat": "👷 Siap Bos! Kaka Maria, Kaka Selfina, Kaka Agus & Kaka Elisa mulai bekerja. Pratinjau carousel dikirim ±2–3 menit lagi.",
   "/reels": "🎬 Tim membuat video Reels: naskah, desain, animasi. Pratinjau ±3–4 menit lagi.",
   "/berita": "📰 Kaka Maria memantau berita terkini dari media tepercaya, Kaka Selfina merangkum. Pratinjau ±3 menit lagi.",
@@ -96,6 +100,12 @@ export default {
         return ok();
       }
 
+      // Video dari Google Flow (dibalas ke pesan brief) → dirakit tim di GitHub
+      if (msg.video || msg.document) {
+        await dispatch(env, update);
+        await send(env, chat, "🎬 Video diterima! Kaka Elisa sedang memprosesnya (±2–3 menit).");
+        return ok();
+      }
       const text = (msg.text || "").trim();
       if (!text) return ok();
       const cmd = text.split(/\s+/)[0].split("@")[0].toLowerCase();

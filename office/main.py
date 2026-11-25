@@ -12,6 +12,7 @@ import datetime as dt
 import html
 import json
 import os
+import re
 import sys
 
 from . import telegram, jadwal, harga
@@ -23,7 +24,8 @@ Perintah untuk Bos:
 
 /buat [topik] — buat carousel baru (topik opsional)
 /reels [topik] — buat video Reels baru (suara Cicilia)
-/reels promo — video promosi produk (gaya promo kinetik)
+/flow [promo|edukasi] [topik] — brief video untuk Google Flow
+/jadi [id] — rakit video Flow dari klip yang sudah dikirim
 /berita [topik] — carousel berita terkini dari media tepercaya
 /buat_promo [id_produk] — carousel soft-selling produk
 /ide — 10 ide konten
@@ -226,12 +228,19 @@ def slot_plan(cfg, idx):
 
 def run_slot(cfg, state, idx):
     slot, pillar_id, fmt = slot_plan(cfg, idx)
+    h, m = map(int, slot["time"].split(":"))
+    selisih = (now_wit().hour * 60 + now_wit().minute) - (h * 60 + m)
+    if not (-40 <= selisih <= 150):  # pemicu GitHub bisa telat berjam-jam → jangan posting dini hari / salah hari
+        print(f"Slot {idx} ({slot['time']}) dipicu pada jam yang salah ({now_wit():%H:%M}) — dilewati.")
+        return
     if jadwal.sudah_jalan(state, idx):
         print(f"Slot {idx} ({slot['time']}) hari ini sudah dikerjakan — dilewati.")
         return
     state.work("kepala", f"Jadwal {slot['time']} WIT: {slot['type']} {pillar_id}")
     jadwal.log_slot(state, idx)
     state.save()
+    if slot["type"] == "reels" and slot.get("flow"):
+        return run_slot_flow(cfg, state, idx, slot, pillar_id)
     try:
         if slot["type"] == "reels":
             did = create_reels(cfg, state, pillar_id=pillar_id, promo=bool(slot.get("promo")))
@@ -253,6 +262,39 @@ def run_slot(cfg, state, idx):
     else:
         telegram.send(f"⏸ #{did} menunggu persetujuan Bos" + (" (QC: risiko tinggi)" if risky else "") +
                       ". Tekan ✅ Setujui untuk langsung terbit.")
+
+
+def flow_hari_ini(state, jam):
+    today = now_wit().date().isoformat()
+    return next((d for d in state.d["drafts"].values() if d.get("format", "").startswith("flow")
+                 and d.get("created", "").startswith(today) and d.get("slot_jam") == jam and d.get("status") != "rejected"), None)
+
+
+def brief_pagi(cfg, state):
+    """Slot pertama: siapkan brief Flow untuk semua slot video Flow hari ini (supaya Bos sempat membuat videonya)."""
+    from .agents import flow
+    for i, sl in enumerate(cfg["slots"]):
+        if sl.get("type") == "reels" and sl.get("flow") and not flow_hari_ini(state, sl["time"]):
+            try:
+                _, pid, _ = slot_plan(cfg, i)
+                flow.brief(cfg, state, slot_jam=sl["time"], pillar_id=pid, promo=sl.get("promo"))
+            except Exception as e:
+                print("brief Flow gagal:", e)
+                telegram.send(f"⚠️ Brief video Flow {sl['time']} gagal dibuat: {esc(str(e))[:200]}. Coba /flow")
+
+
+def run_slot_flow(cfg, state, idx, slot, pillar_id):
+    from .agents import flow
+    d = flow_hari_ini(state, slot["time"])
+    if not d:
+        did = flow.brief(cfg, state, slot_jam=slot["time"], pillar_id=pillar_id, promo=slot.get("promo"))
+        jadwal.log_slot(state, idx, did)
+        return
+    jadwal.log_slot(state, idx, d["id"])
+    if d["status"] == "menunggu_video":
+        telegram.send(f"⏰ Jam tayang video {slot['time']} WIT sudah tiba, tapi video Flow #{d['id']} belum dikirim. "
+                      "Balas pesan brief-nya dengan video dari Flow — kantor langsung memposting begitu video diterima.")
+    humas.publish_due(cfg, state)
 
 
 def preview(cfg, state, did):
@@ -343,6 +385,20 @@ def handle_command(cfg, state, text):
     elif cmd == "/produk":
         rows = [f"• <code>{p['id']}</code> — {esc(p['name'])} ({p['price']})\n  {p['url']}" for p in cfg.get("products", [])]
         telegram.send("🛒 <b>Produk lynk.id</b>\n" + "\n".join(rows))
+    elif cmd == "/flow":
+        from .agents import flow
+        rest = text.split(maxsplit=1)[1] if arg else ""
+        promo = True if rest.lower().startswith("promo") else (False if rest.lower().startswith("edukasi") else None)
+        rest = re.sub(r"^(promo|edukasi)\s*", "", rest, flags=re.I).strip() or None
+        ack("🎬 Kaka Selfina menulis brief video Flow...")
+        flow.brief(cfg, state, topic=rest, promo=promo)
+    elif cmd == "/jadi":
+        from .agents import flow
+        d = drafts.get(arg) or (flow.tunggu(state) or [None])[0]
+        if d and d.get("klip_masuk"):
+            flow.rakit(cfg, state, d["id"])
+        else:
+            telegram.send("Belum ada klip yang diterima. Balas pesan brief Flow dengan video dari Flow.")
     elif cmd == "/sudah":
         if arg in drafts:
             drafts[arg]["status"] = "published"
@@ -422,6 +478,9 @@ def handle_update(cfg, state, upd):
     try:
         if cb:
             handle_callback(cfg, state, cb)
+        elif msg.get("video") or msg.get("document"):
+            from .agents import flow
+            flow.terima_video(cfg, state, msg)
         elif msg.get("text", "").startswith("/"):
             handle_command(cfg, state, msg["text"])
         elif msg.get("text"):
@@ -492,6 +551,8 @@ def run(mode):
         elif mode == "slot":
             if int(os.environ.get("SLOT", "0")) == 0 and cfg.get("harga_sync_lynk"):
                 harga_pagi(cfg, state)
+            if int(os.environ.get("SLOT", "0")) == 0:
+                brief_pagi(cfg, state)
             run_slot(cfg, state, int(os.environ.get("SLOT", "0")))
             humas.publish_due(cfg, state)
         elif mode == "weekly":

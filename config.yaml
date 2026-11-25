@@ -80,11 +80,11 @@ slot_autopublish: true     # true = langsung terbit (konten berisiko tinggi teta
 slots:
   - {time: "06:30", type: carousel, formats: [carousel_listicle, carousel_tutorial, carousel_prompt]}
   - {time: "08:00", type: berita}
-  - {time: "09:00", type: reels}                 # video kinetik edukasi + suara Cicilia
+  - {time: "09:00", type: reels}                 # video otomatis (slide + suara)
   - {time: "12:00", type: carousel, formats: [carousel_prompt, carousel_tutorial, carousel_listicle]}
   - {time: "15:30", type: carousel, formats: [carousel_mitos, carousel_listicle, carousel_tutorial]}
   - {time: "17:00", type: berita}
-  - {time: "18:30", type: reels, promo: true}    # video kinetik PROMOSI produk (gaya contoh Promo CAT)
+  - {time: "18:30", type: reels, flow: true}     # video Google Flow (brief dikirim 06:30, Bos buat di Flow)
   - {time: "20:00", type: carousel, formats: [carousel_promo, carousel_tutorial, carousel_listicle]}
 
 # Jam posting harian (WIT). GitHub Actions memakai UTC (WIT = UTC+9).
@@ -108,6 +108,14 @@ berita:
     asn: ["ASN", "PNS", "PPPK", "KemenPANRB", "BKN", "SPBE"]
     desa: ["dana desa", "kepala desa", "pemerintahan desa", "Kemendes", "kampung Papua"]
     ai: ["kecerdasan buatan Indonesia", "AI pemerintah", "transformasi digital pemerintah", "Komdigi"]
+
+# VIDEO GOOGLE FLOW (semi-otomatis): brief prompt Veo dikirim ke Telegram, Bos membuat klip di Flow lalu mengirim balik.
+flow:
+  klip: 2                     # jumlah klip 8 detik per video
+  model: "Veo 3.1 - Lite"     # Lite = 10 kredit/klip (hemat), Fast = 20 kredit/klip (lebih bagus)
+  kredit_per_klip: 10
+  subtitle: true              # tampilkan teks dialog di video
+  # promo: selang-seling otomatis (hari genap promosi produk, hari ganjil edukasi)
 
 # VIDEO Reels/TikTok: "kinetik" = klip Cicilia + teks per kata + kartu harga (gaya contoh promo); "slide" = gaya lama
 video:
