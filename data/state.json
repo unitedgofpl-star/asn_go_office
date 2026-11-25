@@ -6029,8 +6029,8 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11252002 dikirim ke Bos",
-   "at": "2026-11-25 20:02"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-25 22:40"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -6076,6 +6076,16 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 22:40",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-25 22:40",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-25 20:05",
    "agent": "humas",
@@ -6365,23 +6375,13 @@
    "at": "2026-11-25 13:26",
    "agent": "naskah",
    "msg": "Menulis brief video Flow: administrasi desa, tata naskah dinas desa, SK"
-  },
-  {
-   "at": "2026-11-25 13:26",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-25 13:02",
-   "agent": "humas",
-   "msg": "Paket TikTok #11251147 dikirim ke Bos"
   }
  ],
  "stats": {
   "published": 69,
   "drafts": 83
  },
- "updated": "2026-11-25T21:34+09:00",
+ "updated": "2026-11-25T22:40+09:00",
  "cuan_rot": 68,
  "last_followers": 130,
  "style_hist": [
@@ -7028,7 +7028,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T21:34+09:00",
+  "dibuat": "2026-11-25T22:40+09:00",
   "hari_ini": [
    {
     "slot": 0,
