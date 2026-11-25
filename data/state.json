@@ -5879,44 +5879,94 @@
    },
    "published_at": "2026-11-25T15:36+09:00",
    "errors": []
+  },
+  "11251705": {
+   "id": "11251705",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-25T17:05+09:00",
+   "pillar": "ASN",
+   "topic": "Komdigi Tindak 67 Ribu Konten Penipuan Digital Sejak 2024",
+   "format": "berita",
+   "content": {
+    "hook": "Komdigi Tangani Puluhan Ribu Konten dan Laporan Penipuan Digital",
+    "caption": "Komdigi Tangani Puluhan Ribu Konten dan Laporan Penipuan Digital\n\nHalo Rekan ASN & Sobat Desa! Kejahatan di ruang digital kini semakin beragam dan perlu diwaspadai bersama. Kementerian Komunikasi dan Digital mencatat telah menangani sekitar 67.578 konten penipuan daring pada media sosial dan situs web sejak Oktober 2024 hingga November 2026. Penanganan ini turut didukung oleh kerja sama dan laporan aktif dari masyarakat melalui berbagai kanal pengaduan resmi. Melalui kanal AduanNomor.id, pemerintah menindaklanjuti 103.940 laporan terkait nomor telepon yang disalahgunakan, mulai dari scamming, peniruan identitas, hingga pemerasan. Sementara itu, layanan CekRekening.id mencatat 196.624 laporan yang mencakup penipuan jual beli online, judi online, rekayasa sosial, hingga investasi palsu. Bagaimana pengalaman Rekan ASN dalam mengimbau warga atau rekan kerja agar tetap waspada terhadap modus penipuan online saat ini? Coba tulis di kolom komentar ya!\n\n💡 Artinya bagi kita: Kasus penipuan digital yang marak menjadi pengingat pentingnya kewaspadaan bagi instansi pemerintah dan masyarakat dalam memanfaatkan ruang digital.\n\n📰 Sumber:\n• CNN Indonesia: https://www.cnnindonesia.com/teknologi/20261125133824-185-1431317/komdigi-tindak-67-ribu-konten-penipuan-digital-sejak-2024\n• detikInet: https://inet.detik.com/law-and-policy/d-8768656/komdigi-tangani-67-578-konten-penipuan-online-ini-modusnya\n• Kementerian Komunikasi dan Digital: https://portal.komdigi.go.id/kanal-publik/berita-kini/10736\n📷 Foto: CNN Indonesia, detikInet\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#asn",
+     "#pemerintahandesa",
+     "#komdigi",
+     "#penipuandigital",
+     "#keamananiber",
+     "#literasidigital"
+    ],
+    "_qc": {
+     "issues": [
+      "Poin mengenai registrasi pelanggan seluler dengan verifikasi biometrik tidak ditemukan di dalam teks sumber."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Komdigi Tangani Puluhan Ribu Konten dan Laporan Penipuan Digital. Kementerian Komunikasi dan Digital menangani puluhan ribu konten penipuan online berkat laporan masyarakat.",
+     "Pemerintah mencatat laporan melalui kanal pengaduan seperti AduanNomor.id dan CekRekening.id terkait berbagai modus kejahatan.",
+     "Pemerintah mencatat laporan melalui kanal pengaduan seperti AduanNomor.id dan CekRekening.id terkait berbagai modus kejahatan. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11251705/slide_01.jpg",
+    "public/11251705/slide_02.jpg",
+    "public/11251705/slide_03.jpg"
+   ],
+   "sources": [
+    "https://www.cnnindonesia.com/teknologi/20261125133824-185-1431317/komdigi-tindak-67-ribu-konten-penipuan-digital-sejak-2024",
+    "https://inet.detik.com/law-and-policy/d-8768656/komdigi-tangani-67-578-konten-penipuan-online-ini-modusnya",
+    "https://portal.komdigi.go.id/kanal-publik/berita-kini/10736"
+   ],
+   "scheduled_at": "2026-11-25T17:05+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgKD5WzF3Xk/",
+    "fb": "https://facebook.com/468307299696116_122226288296589464"
+   },
+   "published_at": "2026-11-25T17:06+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Perintah selesai diproses",
-   "at": "2026-11-25 15:35"
+   "last": "Berita #11251705 dikirim ke Bos",
+   "at": "2026-11-25 17:05"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-25 15:31"
+   "last": "Berita: \"Komdigi Tindak 67 Ribu Konten Penipuan Digital Sejak 2024\" (3 sumber, 3 foto)",
+   "at": "2026-11-25 17:02"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Amankah Data Kantor Jika Diinput ke AI?\"",
-   "at": "2026-11-25 15:31"
+   "last": "Rangkuman: \"Komdigi Tangani Puluhan Ribu Konten dan Laporan Penipuan Digital\"",
+   "at": "2026-11-25 17:05"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-25 15:33"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-25 17:05"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya kertas siap",
-   "at": "2026-11-25 15:33"
+   "last": "Berita 3 slide siap",
+   "at": "2026-11-25 17:05"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11251533 dikirim ke Bos",
-   "at": "2026-11-25 15:37"
+   "last": "Paket TikTok #11251705 dikirim ke Bos",
+   "at": "2026-11-25 17:06"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -5932,6 +5982,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 17:06",
+   "agent": "humas",
+   "msg": "Paket TikTok #11251705 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 17:06",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11251705..."
+  },
+  {
+   "at": "2026-11-25 17:06",
+   "agent": "humas",
+   "msg": "#11251705 → ig, fb"
+  },
+  {
+   "at": "2026-11-25 17:05",
+   "agent": "humas",
+   "msg": "Menerbitkan #11251705 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-25 17:05",
+   "agent": "kepala",
+   "msg": "Berita #11251705 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 17:05",
+   "agent": "desain",
+   "msg": "Berita 3 slide siap"
+  },
+  {
+   "at": "2026-11-25 17:05",
+   "agent": "desain",
+   "msg": "Mendesain berita (3 foto)..."
+  },
+  {
+   "at": "2026-11-25 17:05",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-25 17:05",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-25 17:05",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Komdigi Tangani Puluhan Ribu Konten dan Laporan Penipuan Digital\""
+  },
+  {
+   "at": "2026-11-25 17:02",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 3 sumber..."
+  },
+  {
+   "at": "2026-11-25 17:02",
+   "agent": "riset",
+   "msg": "Berita: \"Komdigi Tindak 67 Ribu Konten Penipuan Digital Sejak 2024\" (3 sumber, 3 foto)"
+  },
+  {
+   "at": "2026-11-25 17:01",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-25 17:01",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-25 17:01",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita asn"
+  },
   {
    "at": "2026-11-25 15:37",
    "agent": "humas",
@@ -6156,88 +6281,13 @@
    "at": "2026-11-25 12:00",
    "agent": "qc",
    "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-25 12:00",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"5 Kesalahan Administrasi Desa yang Bikin Kerja Melambat\""
-  },
-  {
-   "at": "2026-11-25 12:00",
-   "agent": "naskah",
-   "msg": "Menulis carousel: administrasi desa, tata naskah dinas desa, SK Kade"
-  },
-  {
-   "at": "2026-11-25 12:00",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-25 12:00",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-25 12:00",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-25 12:00",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-25 12:00",
-   "agent": "kepala",
-   "msg": "Jadwal 12:00 WIT: carousel desa"
-  },
-  {
-   "at": "2026-11-25 11:48",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-25 11:48",
-   "agent": "kepala",
-   "msg": "Draft #11251147 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "desain",
-   "msg": "5 slide gaya tosca siap"
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "desain",
-   "msg": "Mendesain gaya tosca/kanan/ceklis/angka..."
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 3 catatan"
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"6 Langkah Praktis Kelola Dana Desa Tepat Sasaran\""
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "naskah",
-   "msg": "Menulis carousel: 10"
   }
  ],
  "stats": {
-  "published": 67,
-  "drafts": 81
+  "published": 68,
+  "drafts": 82
  },
- "updated": "2026-11-25T15:37+09:00",
+ "updated": "2026-11-25T17:06+09:00",
  "cuan_rot": 67,
  "last_followers": 130,
  "style_hist": [
@@ -6463,7 +6513,6 @@
   }
  ],
  "recent_hooks": [
-  "Amankah Data Kantor dan TTE Anda Hari Ini?",
   "Trik Excel Sat-Set Biar Laporan Kantor Kelar Cepat",
   "Pemkab Banyuwangi Raih Juara Satu Smart City Forum",
   "Birokrasi digital makin ketat, yuk siap-siap!",
@@ -6502,7 +6551,8 @@
   "Laporan Excel Berantakan? Pakai Trik Ini!",
   "Langkah Praktis Kelola Dana Desa Tepat Sasaran",
   "Kesalahan Administrasi Desa yang Bikin Kerja Melambat",
-  "Amankah Data Kantor Jika Diinput ke AI?"
+  "Amankah Data Kantor Jika Diinput ke AI?",
+  "Komdigi Tangani Puluhan Ribu Konten dan Laporan Penipuan Digital"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -6539,7 +6589,10 @@
   "pemerintah matangkan kesiapan seleksi casn 2026 2027  prof  ",
   "bkn siapkan seleksi cpns 2026 2027  pppk bisa ikut daftar",
   "komdigi catat ratusan ribu aduan penipuan",
-  "komdigi catat ratusan ribu aduan penipuan di ruang digital"
+  "komdigi catat ratusan ribu aduan penipuan di ruang digital",
+  "komdigi tindak 67 ribu konten penipuan digital sejak 2024",
+  "komdigi tangani 67 578 konten penipuan online  ini modusnya",
+  "berita kini   kemkomdigi tangani 67 578 konten penipuan digi"
  ],
  "slot_log": {
   "2026-11-18": {
@@ -6861,12 +6914,17 @@
     "did": "11251533",
     "status": "proses",
     "at": "2026-11-25T15:33+09:00"
+   },
+   "5": {
+    "did": "11251705",
+    "status": "proses",
+    "at": "2026-11-25T17:05+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T15:37+09:00",
+  "dibuat": "2026-11-25T17:06+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6929,9 +6987,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Komdigi Tangani Puluhan Ribu Konten dan Laporan Penipuan Digital",
+    "id": "11251705",
+    "status": "terbit",
+    "terbit": "17:06"
    },
    {
     "slot": 6,
@@ -6941,7 +7000,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 7,
