@@ -6023,50 +6023,188 @@
    },
    "published_at": "2026-11-25T20:03+09:00",
    "errors": []
+  },
+  "F11260631": {
+   "id": "F11260631",
+   "type": "flow",
+   "status": "menunggu_video",
+   "created": "2026-11-26T06:31+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Office",
+   "format": "flow_promo",
+   "product": "naskah",
+   "promo": true,
+   "slot_jam": "18:30",
+   "content": {
+    "hook": "Bikin Naskah Dinas Cepat Pakai AI",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering merasa waktu habis cuma buat format surat yang itu-itu saja? Mulai dari surat tugas sampai surat edaran, semuanya bisa selesai jauh lebih cepat dengan Generator Naskah Dinas.\n\nAlat ini sudah dilengkapi dengan 2.988 kode klasifikasi arsip, nomor agenda otomatis, dan bisa jalan offline di perangkat Anda sendiri. Data aman, kerja jadi lebih produktif tanpa harus lembur.\n\nTersedia paket Personal, Pro, hingga Kantor untuk kebutuhan instansi Anda. Cek detailnya di link pada bio kami sekarang juga!",
+    "hashtags": [
+     "#asngodigitals",
+     "#administratif",
+     "#naskahdinas",
+     "#asnindonesia",
+     "#perangkatdesa",
+     "#digitalisasi"
+    ],
+    "konsep": "Cicilia membantu rekan ASN di ruang rapat yang kewalahan membuat surat dinas secara manual.",
+    "lokasi": "Ruang rapat koordinasi kantor dinas dengan suasana yang tenang dan rapi",
+    "klip": [
+     {
+      "adegan": "Close-up of Cicilia showing a messy stack of unsorted documents on a desk, then switching to a smooth digital interface on her tablet.",
+      "dialog": "Halo Rekan ASN, masih pusing buat [naskah dinas] manual yang menyita waktu setiap hari?",
+      "teks": "Ribet buat surat dinas?",
+      "prompt": "Cicilia, a friendly Indonesian woman in her mid-20s, fair warm skin, long wavy dark-brown hair with soft highlights, bright smile, wearing a neat khaki Indonesian civil-servant uniform (PDH ASN) fully buttoned and modest, black belt, red-and-black 'ASN Go Digital' patch on the right sleeve, small name tag 'CICILIA I. H.', gold wristwatch. Same face and outfit as the reference images. Close-up of Cicilia showing a messy stack of unsorted documents on a desk, then switching to a smooth digital interface on her tablet. She says in Indonesian: \"Halo Rekan ASN, masih pusing buat naskah dinas manual yang menyita waktu setiap hari?\" Vertical 9:16, photorealistic, natural light, handheld smartphone vlog feel with gentle camera movement, shallow depth of field. She speaks warmly in Bahasa Indonesia (Indonesian accent), lip-synced, clear voice, light ambient sound only, no background music. No subtitles, no captions, no on-screen text, no logos."
+     },
+     {
+      "adegan": "Medium shot of Cicilia typing on a laptop, showing the generator tool filling in the document automatically, then smiling at the camera.",
+      "dialog": "Pakai generator ini, urusan surat menyurat jadi [otomatis], rapi, dan sesuai standar Permendagri terbaru.",
+      "teks": "Selesai dalam hitungan menit",
+      "prompt": "Cicilia, a friendly Indonesian woman in her mid-20s, fair warm skin, long wavy dark-brown hair with soft highlights, bright smile, wearing a neat khaki Indonesian civil-servant uniform (PDH ASN) fully buttoned and modest, black belt, red-and-black 'ASN Go Digital' patch on the right sleeve, small name tag 'CICILIA I. H.', gold wristwatch. Same face and outfit as the reference images. Medium shot of Cicilia typing on a laptop, showing the generator tool filling in the document automatically, then smiling at the camera. She says in Indonesian: \"Pakai generator ini, urusan surat menyurat jadi otomatis, rapi, dan sesuai standar Permendagri terbaru.\" Vertical 9:16, photorealistic, natural light, handheld smartphone vlog feel with gentle camera movement, shallow depth of field. She speaks warmly in Bahasa Indonesia (Indonesian accent), lip-synced, clear voice, light ambient sound only, no background music. No subtitles, no captions, no on-screen text, no logos."
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [],
+   "klip_masuk": []
+  },
+  "11260635": {
+   "id": "11260635",
+   "status": "published",
+   "created": "2026-11-26T06:35+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "tips produktivitas ASN pakai tools digital gratis",
+   "format": "carousel_listicle",
+   "product": "naskah",
+   "content": {
+    "hook": "4 Tools Digital Bantu Kerja ASN Lebih Efisien",
+    "subtitle": "Trik praktis menyelesaikan administrasi dan pelaporan dengan lebih rapi",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Aplikasi Catatan Digital",
+      "sub": "Simpan poin arahan dan checklist tugas harian kantor",
+      "icon": "📝"
+     },
+     {
+      "title": "Aplikasi Manajemen Tugas",
+      "sub": "Pantau progres alur dokumen secara transparan",
+      "icon": "📊"
+     },
+     {
+      "title": "Alat Pengolah Dokumen",
+      "sub": "Gabung, pisah, dan kompres ukuran berkas laporan",
+      "icon": "📂"
+     },
+     {
+      "title": "Aplikasi Formulir Daring",
+      "sub": "Pendataan layanan publik masuk ke lembar kerja otomatis",
+      "icon": "📋"
+     }
+    ],
+    "details": [
+     {
+      "title": "Aplikasi Catatan Digital",
+      "body": "Gunakan fitur checklist dan sinkronisasi ponsel. Saat pimpinan memberi arahan mendadak, catat poin tugas langsung di gawai agar lebih terorganisir dan tidak tercecer.",
+      "icon": "📝"
+     },
+     {
+      "title": "Aplikasi Manajemen Tugas",
+      "body": "Buat papan digital berisi kolom status dokumen. Tim pengelola kegiatan bisa memantau posisi berkas tanda terima secara transparan tanpa perlu bolak-balik bertanya.",
+      "icon": "📊"
+     },
+     {
+      "title": "Alat Pengolah Dokumen",
+      "body": "Sering gagal unggah berkas SPBE karena ukuran file terlalu besar? Kompres dan gabungkan lampiran dokumen dalam hitungan detik agar proses administrasi lebih lancar.",
+      "icon": "📂"
+     },
+     {
+      "title": "Aplikasi Formulir Daring",
+      "body": "Tinggalkan format kertas manual saat survei atau pendataan warga. Datanya otomatis tersusun rapi di lembar kerja elektronik yang siap diolah lebih lanjut.",
+      "icon": "📋"
+     }
+    ],
+    "note": "Penting: Pastikan kebijakan instansi Anda memperbolehkan penggunaan aplikasi pihak ketiga. Jangan pernah mengunggah dokumen bersifat rahasia atau data pribadi sensitif ke platform publik.",
+    "cta": "Simpan postingan ini dan diskusikan bersama tim kerja Anda!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Masih sering kewalahan dengan berkas berceceran atau rekap SPJ kegiatan? Kerja cepat bukan berarti lembur terus, tapi tahu alat bantu yang tepat.\n\nDi era SPBE, digitalisasi alur kerja kantor kecamatan sampai pemda bisa membuat administrasi lebih rapi. Mulai dari manajemen tugas hingga pengolahan dokumen digital.\n\nPastikan selalu mematuhi pedoman keamanan informasi instansi masing-masing ya! Yuk, SIMPAN & BAGIKAN postingan ini ke grup rekan kerja. Mana yang paling membantu tugas Anda sehari-hari?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#DigitalisasiASN",
+     "#SobatDesa",
+     "#ProduktivitasASN",
+     "#KerjaSatSet",
+     "#SPBE",
+     "#AdministrasiPemerintahan"
+    ],
+    "_qc": {
+     "issues": [
+      "Penyebutan nama aplikasi spesifik (Google, Trello, ILovePDF) dalam konteks instansi pemerintah perlu disertai peringatan keamanan data yang lebih tegas karena kebijakan internal instansi mungkin melarang penggunaan aplikasi pihak ketiga untuk dokumen bersifat rahasia.",
+      "Tidak ada typo atau kesalahan EYD yang signifikan, namun penekanan pada aspek keamanan data perlu ditingkatkan agar sesuai dengan kaidah SPBE (Sistem Pemerintahan Berbasis Elektronik)."
+     ],
+     "risk": "sedang"
+    }
+   },
+   "images": [
+    "public/11260635/slide_01.jpg",
+    "public/11260635/slide_02.jpg",
+    "public/11260635/slide_03.jpg",
+    "public/11260635/slide_04.jpg",
+    "public/11260635/slide_05.jpg",
+    "public/11260635/slide_06.jpg",
+    "public/11260635/slide_07.jpg"
+   ],
+   "scheduled_at": "2026-11-26T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgLgkf3mm9V/",
+    "fb": "https://facebook.com/468307299696116_122226385748589464"
+   },
+   "published_at": "2026-11-26T06:35+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Perintah selesai diproses",
-   "at": "2026-11-25 22:40"
+   "last": "Draft #11260635 dikirim ke Bos",
+   "at": "2026-11-26 06:35"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-25 20:01"
+   "at": "2026-11-26 06:31"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"5 Tools AI Gratis Andalan ASN Kerja Super Cepat\"",
-   "at": "2026-11-25 20:02"
+   "last": "Draft selesai: \"4 Tools Digital Gratis Bikin Kerja ASN Tanpa Lembur\"",
+   "at": "2026-11-26 06:32"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko sedang, 4 catatan",
-   "at": "2026-11-25 20:02"
+   "last": "QC selesai — risiko sedang, 2 catatan",
+   "at": "2026-11-26 06:35"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "7 slide gaya ungu siap",
-   "at": "2026-11-25 20:02"
+   "last": "7 slide gaya tosca siap",
+   "at": "2026-11-26 06:35"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11252002 dikirim ke Bos",
-   "at": "2026-11-25 20:05"
+   "last": "Paket TikTok #11260635 dikirim ke Bos",
+   "at": "2026-11-26 06:37"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-25 20:01"
+   "at": "2026-11-26 06:31"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -6076,6 +6214,96 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-26 06:37",
+   "agent": "humas",
+   "msg": "Paket TikTok #11260635 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 06:35",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11260635..."
+  },
+  {
+   "at": "2026-11-26 06:35",
+   "agent": "humas",
+   "msg": "#11260635 → ig, fb"
+  },
+  {
+   "at": "2026-11-26 06:35",
+   "agent": "humas",
+   "msg": "Menerbitkan #11260635 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-26 06:35",
+   "agent": "kepala",
+   "msg": "Draft #11260635 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 06:35",
+   "agent": "desain",
+   "msg": "7 slide gaya tosca siap"
+  },
+  {
+   "at": "2026-11-26 06:35",
+   "agent": "desain",
+   "msg": "Mendesain gaya tosca/angka/grid/kartu..."
+  },
+  {
+   "at": "2026-11-26 06:35",
+   "agent": "qc",
+   "msg": "QC selesai — risiko sedang, 2 catatan"
+  },
+  {
+   "at": "2026-11-26 06:32",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-26 06:32",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"4 Tools Digital Gratis Bikin Kerja ASN Tanpa Lembur\""
+  },
+  {
+   "at": "2026-11-26 06:31",
+   "agent": "naskah",
+   "msg": "Menulis carousel: tips produktivitas ASN pakai tools digital gratis"
+  },
+  {
+   "at": "2026-11-26 06:31",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-26 06:31",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-26 06:31",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-26 06:31",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-26 06:31",
+   "agent": "kepala",
+   "msg": "Jadwal 06:30 WIT: carousel asn"
+  },
+  {
+   "at": "2026-11-26 06:31",
+   "agent": "naskah",
+   "msg": "Brief video Flow #F11260631 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 06:31",
+   "agent": "naskah",
+   "msg": "Menulis brief video Flow: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-"
+  },
   {
    "at": "2026-11-25 22:40",
    "agent": "kepala",
@@ -6285,117 +6513,16 @@
    "at": "2026-11-25 15:35",
    "agent": "kepala",
    "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-25 15:34",
-   "agent": "humas",
-   "msg": "Paket TikTok #11251533 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 15:34",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11251533..."
-  },
-  {
-   "at": "2026-11-25 15:34",
-   "agent": "humas",
-   "msg": "#11251533 → ig, fb"
-  },
-  {
-   "at": "2026-11-25 15:33",
-   "agent": "humas",
-   "msg": "Menerbitkan #11251533 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-25 15:33",
-   "agent": "kepala",
-   "msg": "Draft #11251533 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 15:33",
-   "agent": "desain",
-   "msg": "6 slide gaya kertas siap"
-  },
-  {
-   "at": "2026-11-25 15:33",
-   "agent": "desain",
-   "msg": "Mendesain gaya kertas/kiri/timeline/kartu..."
-  },
-  {
-   "at": "2026-11-25 15:33",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 2 catatan"
-  },
-  {
-   "at": "2026-11-25 15:31",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-25 15:31",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"Amankah Data Kantor Jika Diinput ke AI?\""
-  },
-  {
-   "at": "2026-11-25 15:31",
-   "agent": "naskah",
-   "msg": "Menulis carousel: etika & keamanan data saat pakai AI di instansi"
-  },
-  {
-   "at": "2026-11-25 15:31",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-25 15:30",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-25 15:30",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-25 15:30",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-25 15:30",
-   "agent": "kepala",
-   "msg": "Jadwal 15:30 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-25 13:27",
-   "agent": "naskah",
-   "msg": "Brief video Flow #F11251327 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 13:26",
-   "agent": "naskah",
-   "msg": "Menulis brief video Flow: administrasi desa, tata naskah dinas desa, SK"
   }
  ],
  "stats": {
-  "published": 69,
-  "drafts": 83
+  "published": 70,
+  "drafts": 85
  },
- "updated": "2026-11-26T05:15+09:00",
- "cuan_rot": 68,
+ "updated": "2026-11-26T06:37+09:00",
+ "cuan_rot": 69,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "sedih",
-   "expr": "sedih",
-   "theme": "berita",
-   "cover": "potret",
-   "list": "grid",
-   "detail": "chat",
-   "pose": "tenang__melipat_tangan",
-   "flip": true,
-   "cta": "badan"
-  },
   {
    "mood": "tegas",
    "expr": "cemberut",
@@ -6604,10 +6731,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "tosca",
+   "cover": "angka",
+   "list": "grid",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Pemkab Banyuwangi Raih Juara Satu Smart City Forum",
   "Birokrasi digital makin ketat, yuk siap-siap!",
   "Kerja Kantor Sat-Set Pakai Aplikasi Gratis Ini",
   "Langkah Bikin Dokumen Dinas Cepat Pakai AI",
@@ -6646,7 +6783,8 @@
   "Kesalahan Administrasi Desa yang Bikin Kerja Melambat",
   "Amankah Data Kantor Jika Diinput ke AI?",
   "Komdigi Tangani Puluhan Ribu Konten dan Laporan Penipuan Digital",
-  "Tools AI Andalan ASN untuk Kerja Lebih Efektif"
+  "Tools AI Andalan ASN untuk Kerja Lebih Efektif",
+  "4 Tools Digital Bantu Kerja ASN Lebih Efisien"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -6689,48 +6827,6 @@
   "berita kini   kemkomdigi tangani 67 578 konten penipuan digi"
  ],
  "slot_log": {
-  "2026-11-18": {
-   "4": {
-    "did": "11180125",
-    "status": "proses",
-    "at": "2026-11-18T01:25+09:00"
-   },
-   "5": {
-    "did": "11180210",
-    "status": "proses",
-    "at": "2026-11-18T02:10+09:00"
-   },
-   "6": {
-    "did": "11180341",
-    "status": "proses",
-    "at": "2026-11-18T03:42+09:00"
-   },
-   "7": {
-    "did": "11180439",
-    "status": "proses",
-    "at": "2026-11-18T04:39+09:00"
-   },
-   "0": {
-    "did": "11180634",
-    "status": "proses",
-    "at": "2026-11-18T06:34+09:00"
-   },
-   "1": {
-    "did": "11180801",
-    "status": "proses",
-    "at": "2026-11-18T08:01+09:00"
-   },
-   "2": {
-    "did": "11180901",
-    "status": "proses",
-    "at": "2026-11-18T09:02+09:00"
-   },
-   "3": {
-    "did": "11181203",
-    "status": "proses",
-    "at": "2026-11-18T12:03+09:00"
-   }
-  },
   "2026-11-19": {
    "4": {
     "did": "11190059",
@@ -7024,11 +7120,18 @@
     "status": "proses",
     "at": "2026-11-25T20:02+09:00"
    }
+  },
+  "2026-11-26": {
+   "0": {
+    "did": "11260635",
+    "status": "proses",
+    "at": "2026-11-26T06:35+09:00"
+   }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-26",
-  "dibuat": "2026-11-26T05:15+09:00",
+  "dibuat": "2026-11-26T06:37+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -7036,9 +7139,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Listicle",
     "pilar": "Digitalisasi ASN",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "4 Tools Digital Bantu Kerja ASN Lebih Efisien",
+    "id": "11260635",
+    "status": "terbit",
+    "terbit": "06:35"
    },
    {
     "slot": 1,
@@ -7048,7 +7152,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 2,
@@ -7111,7 +7215,15 @@
     "status": "akan"
    }
   ],
-  "manual": [],
+  "manual": [
+   {
+    "jam": "06:31",
+    "id": "F11260631",
+    "jenis": "Carousel",
+    "judul": "Bikin Naskah Dinas Cepat Pakai AI",
+    "status": "proses"
+   }
+  ],
   "besok_tanggal": "2026-11-27",
   "besok": [
    {
@@ -7199,12 +7311,13 @@
  },
  "harga": {
   "sync": {
-   "at": "2026-11-25T06:30+09:00",
+   "at": "2026-11-26T06:31+09:00",
    "hasil": "halaman terbuka tapi harga tidak terbaca"
   }
  },
  "meta": {},
  "flow_lokasi": [
-  "Ruang kerja kantor desa dengan tumpukan "
+  "Ruang kerja kantor desa dengan tumpukan ",
+  "Ruang rapat koordinasi kantor dinas deng"
  ]
 }
