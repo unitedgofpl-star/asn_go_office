@@ -5558,6 +5558,87 @@
    },
    "published_at": "2026-11-25T09:03+09:00",
    "errors": []
+  },
+  "11251147": {
+   "id": "11251147",
+   "status": "draft",
+   "created": "2026-11-25T11:47+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "10",
+   "format": "carousel_listicle",
+   "product": "kantor",
+   "content": {
+    "hook": "Langkah Praktis Kelola Dana Desa Tepat Sasaran",
+    "subtitle": "Wujudkan akuntabilitas dan kemandirian desa melalui tata kelola digital.",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Transparansi Anggaran",
+      "sub": "Publikasi laporan keuangan desa secara daring",
+      "icon": "📊"
+     },
+     {
+      "title": "Validasi Data KPM",
+      "sub": "Pastikan penyaluran bantuan tepat sasaran",
+      "icon": "👥"
+     },
+     {
+      "title": "Optimalkan UMKM Lokal",
+      "sub": "Dukung ekonomi warga dan kelompok rentan",
+      "icon": "💡"
+     },
+     {
+      "title": "Arsip Dokumen Digital",
+      "sub": "Amankan data administrasi agar mudah diakses",
+      "icon": "📁"
+     },
+     {
+      "title": "Evaluasi Berkala",
+      "sub": "Pantau serapan anggaran melalui dasbor",
+      "icon": "📈"
+     }
+    ],
+    "details": [
+     {
+      "title": "Transparansi Anggaran",
+      "body": "Gunakan website desa atau papan informasi digital untuk mempublikasikan realisasi Dana Desa agar masyarakat dapat memantau langsung dan meningkatkan akuntabilitas publik.",
+      "icon": "📊"
+     },
+     {
+      "title": "Validasi Data KPM",
+      "body": "Manfaatkan aplikasi data terpadu untuk memverifikasi penerima bantuan seperti BLT Dana Desa agar data tetap akurat, transparan, dan dapat dipertanggungjawabkan.",
+      "icon": "👥"
+     }
+    ],
+    "note": "Selalu merujuk pada regulasi terbaru dan pedoman pengelolaan keuangan desa di instansi Anda.",
+    "cta": "Simpan postingan ini dan bagikan ke rekan perangkat desa lainnya!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Pengelolaan Dana Desa yang akuntabel adalah prioritas agar tepat sasaran dan bebas dari penyimpangan. Dengan pemanfaatan perangkat digital, proses pelaporan, validasi data, serta pemberdayaan warga bisa dilakukan lebih efektif dan transparan. Mari tingkatkan tata kelola pemerintahan desa yang mandiri dan melek teknologi!\n\nJangan lupa SIMPAN postingan ini agar mudah diakses kembali, serta BAGIKAN ke rekan sesama perangkat desa. Apa tantangan terbesar dalam pengelolaan anggaran di desa Anda?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — Paket Kantor — Rp149.000 (10 perangkat). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn_go_digital",
+     "#DigitalisasiDesa",
+     "#DanaDesa",
+     "#PemerintahanDesa",
+     "#SmartVillage",
+     "#PerangkatDesa",
+     "#KinerjaASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus angka '6' pada hook karena jumlah item yang disajikan hanya 5.",
+      "Memastikan terminologi sesuai dengan standar akuntabilitas pemerintahan desa.",
+      "Penyelarasan EYD dan memastikan panjang teks per slide tetap ringkas di bawah 45 kata."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11251147/slide_01.jpg",
+    "public/11251147/slide_02.jpg",
+    "public/11251147/slide_03.jpg",
+    "public/11251147/slide_04.jpg",
+    "public/11251147/slide_05.jpg"
+   ],
+   "scheduled_at": "2026-11-25T19:00+09:00"
   }
  },
  "agents": {
@@ -5565,31 +5646,31 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-25 11:46"
+   "at": "2026-11-25 11:48"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Komdigi catat ratusan ribu aduan penipuan - ANTARA News Mega\" (2 sumber, 6 foto)",
-   "at": "2026-11-25 08:01"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-25 11:47"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "10 ide konten siap",
-   "at": "2026-11-25 11:44"
+   "last": "Draft selesai: \"6 Langkah Praktis Kelola Dana Desa Tepat Sasaran\"",
+   "at": "2026-11-25 11:47"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "Cek berita selesai — risiko sedang",
-   "at": "2026-11-25 08:01"
+   "last": "QC selesai — risiko rendah, 3 catatan",
+   "at": "2026-11-25 11:47"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Video kinetik 35 detik siap",
-   "at": "2026-11-25 09:02"
+   "last": "5 slide gaya tosca siap",
+   "at": "2026-11-25 11:47"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
@@ -5600,8 +5681,8 @@
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-25 09:00"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-25 11:47"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -5611,6 +5692,71 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 11:48",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-25 11:48",
+   "agent": "kepala",
+   "msg": "Draft #11251147 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "desain",
+   "msg": "5 slide gaya tosca siap"
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "desain",
+   "msg": "Mendesain gaya tosca/kanan/ceklis/angka..."
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 3 catatan"
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"6 Langkah Praktis Kelola Dana Desa Tepat Sasaran\""
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "naskah",
+   "msg": "Menulis carousel: 10"
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-25 11:47",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-25 11:46",
    "agent": "kepala",
@@ -5845,92 +5991,16 @@
    "at": "2026-11-25 06:30",
    "agent": "naskah",
    "msg": "Draft selesai: \"Dana Desa Menurun? Waktunya Genjot Layanan Desa Pakai AI!\""
-  },
-  {
-   "at": "2026-11-25 06:30",
-   "agent": "naskah",
-   "msg": "Menulis carousel: digitalisasi layanan desa, website desa, Prodeskel"
-  },
-  {
-   "at": "2026-11-25 06:30",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-25 06:30",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-25 06:30",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-25 06:30",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-25 06:30",
-   "agent": "kepala",
-   "msg": "Jadwal 06:30 WIT: carousel desa"
-  },
-  {
-   "at": "2026-11-25 05:58",
-   "agent": "humas",
-   "msg": "Paket TikTok #11250556 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 05:57",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11250556..."
-  },
-  {
-   "at": "2026-11-25 05:57",
-   "agent": "humas",
-   "msg": "#11250556 → ig, fb"
-  },
-  {
-   "at": "2026-11-25 05:56",
-   "agent": "humas",
-   "msg": "Menerbitkan #11250556 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-25 05:56",
-   "agent": "kepala",
-   "msg": "Draft #11250556 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 05:56",
-   "agent": "desain",
-   "msg": "5 slide gaya ungu siap"
-  },
-  {
-   "at": "2026-11-25 05:56",
-   "agent": "desain",
-   "msg": "Mendesain gaya ungu/berita/grid/angka..."
   }
  ],
  "stats": {
   "published": 63,
-  "drafts": 77
+  "drafts": 78
  },
- "updated": "2026-11-25T11:46+09:00",
- "cuan_rot": 63,
+ "updated": "2026-11-25T11:48+09:00",
+ "cuan_rot": 64,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "semangat",
-   "theme": "kertas",
-   "cover": "kanan",
-   "list": "grid",
-   "detail": "chat",
-   "pose": "semangat__tangan_mengepal",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -6139,10 +6209,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "tosca",
+   "cover": "kanan",
+   "list": "ceklis",
+   "detail": "angka",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Tools Digital Gratis Bikin Kerja ASN Sat-Set",
   "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
   "Bikin paparan kantor cuma dua menit?",
   "Amankah Data Kantor dan TTE Anda Hari Ini?",
@@ -6181,7 +6261,8 @@
   "4 Tools AI Bantu ASN Kerja Lebih Efektif",
   "Efisiensi Layanan Desa dengan Bantuan AI",
   "Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan",
-  "Laporan Excel Berantakan? Pakai Trik Ini!"
+  "Laporan Excel Berantakan? Pakai Trik Ini!",
+  "Langkah Praktis Kelola Dana Desa Tepat Sasaran"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -6535,7 +6616,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T11:46+09:00",
+  "dibuat": "2026-11-25T11:48+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6635,6 +6716,13 @@
     "jenis": "Carousel",
     "judul": "4 Tools AI Bantu ASN Kerja Lebih Efektif",
     "status": "terbit"
+   },
+   {
+    "jam": "19:00",
+    "id": "11251147",
+    "jenis": "Carousel",
+    "judul": "Langkah Praktis Kelola Dana Desa Tepat Sasaran",
+    "status": "menunggu"
    }
   ],
   "besok_tanggal": "2026-11-26",
