@@ -5872,12 +5872,12 @@
     "public/11251533/slide_05.jpg",
     "public/11251533/slide_06.jpg"
    ],
-   "scheduled_at": "2026-11-25T19:00+09:00",
+   "scheduled_at": "2026-11-25T15:35+09:00",
    "published": {
-    "ig": "https://www.instagram.com/p/DgJ5XDOn8YX/",
-    "fb": "https://facebook.com/468307299696116_122226273278589464"
+    "ig": "https://www.instagram.com/p/DgJ5qcGmzHO/",
+    "fb": "https://facebook.com/468307299696116_122226274262589464"
    },
-   "published_at": "2026-11-25T15:34+09:00",
+   "published_at": "2026-11-25T15:36+09:00",
    "errors": []
   }
  },
@@ -5885,8 +5885,8 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11251533 dikirim ke Bos",
-   "at": "2026-11-25 15:33"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-25 15:35"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5916,7 +5916,7 @@
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
    "last": "Paket TikTok #11251533 dikirim ke Bos",
-   "at": "2026-11-25 15:34"
+   "at": "2026-11-25 15:37"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -5932,6 +5932,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 15:37",
+   "agent": "humas",
+   "msg": "Paket TikTok #11251533 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 15:36",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11251533..."
+  },
+  {
+   "at": "2026-11-25 15:36",
+   "agent": "humas",
+   "msg": "#11251533 → ig, fb"
+  },
+  {
+   "at": "2026-11-25 15:35",
+   "agent": "humas",
+   "msg": "Menerbitkan #11251533 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-25 15:35",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-25 15:35",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-25 15:34",
    "agent": "humas",
@@ -6201,43 +6231,13 @@
    "at": "2026-11-25 11:47",
    "agent": "naskah",
    "msg": "Menulis carousel: 10"
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-25 11:47",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-25 11:46",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
   }
  ],
  "stats": {
-  "published": 66,
+  "published": 67,
   "drafts": 81
  },
- "updated": "2026-11-25T15:34+09:00",
+ "updated": "2026-11-25T15:37+09:00",
  "cuan_rot": 67,
  "last_followers": 130,
  "style_hist": [
@@ -6866,7 +6866,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T15:34+09:00",
+  "dibuat": "2026-11-25T15:37+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6921,7 +6921,7 @@
     "judul": "Amankah Data Kantor Jika Diinput ke AI?",
     "id": "11251533",
     "status": "terbit",
-    "terbit": "15:34"
+    "terbit": "15:36"
    },
    {
     "slot": 5,
