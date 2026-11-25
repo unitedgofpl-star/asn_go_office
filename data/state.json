@@ -5748,6 +5748,52 @@
    "errors": [
     "IG: Meta API: Only photo or video can be accepted as media type."
    ]
+  },
+  "F11251327": {
+   "id": "F11251327",
+   "type": "flow",
+   "status": "menunggu_video",
+   "created": "2026-11-25T13:27+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "administrasi desa, tata naskah dinas desa, SK Kades, Perdes",
+   "format": "flow_edukasi",
+   "product": "kantor",
+   "promo": false,
+   "slot_jam": "18:30",
+   "content": {
+    "hook": "Bikin SK Kades Cepat Tanpa Salah",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering kali pekerjaan administrasi desa seperti menyusun Surat Keputusan Kepala Desa atau Peraturan Desa terasa melelahkan karena format yang tidak seragam. Kuncinya adalah memiliki master template yang sudah disesuaikan dengan pedoman tata naskah dinas yang berlaku.\n\nDengan memanfaatkan template digital dan rutin memeriksa pembaruan regulasi di daerah masing-masing, pekerjaan administrasi bisa selesai jauh lebih cepat dan minim revisi. Selalu koordinasikan draf akhir dengan Sekretaris Desa sebelum dicetak ya.\n\nJangan lupa simpan postingan ini dan follow @asn_go_digitals untuk tips birokrasi praktis lainnya!",
+    "hashtags": [
+     "#asngodigitals",
+     "#pemerintahandesa",
+     "#perangkatdesa",
+     "#tatanaskahdinas",
+     "#skkades",
+     "#administrasidesa"
+    ],
+    "konsep": "Cicilia menunjukkan cara praktis menyusun tata naskah dinas desa agar cepat selesai dan sesuai aturan.",
+    "lokasi": "Ruang kerja kantor desa dengan tumpukan berkas dan laptop",
+    "klip": [
+     {
+      "adegan": "Medium shot of Cicilia looking stressed at her desk in a village office, holding a thick folder, camera slowly zooming in.",
+      "dialog": "Halo Rekan ASN dan Sobat Desa! Masih [pusing] bikin SK Kades dan Perdes karena formatnya [berantakan]?",
+      "teks": "Pusing Bikin SK Kades?",
+      "prompt": "Cicilia, a friendly Indonesian woman in her mid-20s, fair warm skin, long wavy dark-brown hair with soft highlights, bright smile, wearing a neat khaki Indonesian civil-servant uniform (PDH ASN) fully buttoned and modest, black belt, red-and-black 'ASN Go Digital' patch on the right sleeve, small name tag 'CICILIA I. H.', gold wristwatch. Same face and outfit as the reference images. Medium shot of Cicilia looking stressed at her desk in a village office, holding a thick folder, camera slowly zooming in. She says in Indonesian: \"Halo Rekan ASN dan Sobat Desa! Masih pusing bikin SK Kades dan Perdes karena formatnya berantakan?\" Vertical 9:16, photorealistic, natural light, handheld smartphone vlog feel with gentle camera movement, shallow depth of field. She speaks warmly in Bahasa Indonesia (Indonesian accent), lip-synced, clear voice, light ambient sound only, no background music. No subtitles, no captions, no on-screen text, no logos."
+     },
+     {
+      "adegan": "Close up of Cicilia smiling cheerfully while typing on her laptop, pointing at a clean digital template on the screen.",
+      "dialog": "Tenang, pakai [template] standar tata naskah dinas dan pastikan cek regulasi terbaru agar [cepat] selesai!",
+      "teks": "Gunakan Template Standar Desa",
+      "prompt": "Cicilia, a friendly Indonesian woman in her mid-20s, fair warm skin, long wavy dark-brown hair with soft highlights, bright smile, wearing a neat khaki Indonesian civil-servant uniform (PDH ASN) fully buttoned and modest, black belt, red-and-black 'ASN Go Digital' patch on the right sleeve, small name tag 'CICILIA I. H.', gold wristwatch. Same face and outfit as the reference images. Close up of Cicilia smiling cheerfully while typing on her laptop, pointing at a clean digital template on the screen. She says in Indonesian: \"Tenang, pakai template standar tata naskah dinas dan pastikan cek regulasi terbaru agar cepat selesai!\" Vertical 9:16, photorealistic, natural light, handheld smartphone vlog feel with gentle camera movement, shallow depth of field. She speaks warmly in Bahasa Indonesia (Indonesian accent), lip-synced, clear voice, light ambient sound only, no background music. No subtitles, no captions, no on-screen text, no logos."
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [],
+   "klip_masuk": []
   }
  },
  "agents": {
@@ -5766,8 +5812,8 @@
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Melengkapi penjelasan 3 poin yang belum ada slidenya",
-   "at": "2026-11-25 12:06"
+   "last": "Brief video Flow #F11251327 dikirim ke Bos",
+   "at": "2026-11-25 13:27"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -5790,8 +5836,8 @@
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-25 12:00"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-25 13:26"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -5801,6 +5847,21 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 13:27",
+   "agent": "naskah",
+   "msg": "Brief video Flow #F11251327 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 13:26",
+   "agent": "naskah",
+   "msg": "Menulis brief video Flow: administrasi desa, tata naskah dinas desa, SK"
+  },
+  {
+   "at": "2026-11-25 13:26",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
   {
    "at": "2026-11-25 13:02",
    "agent": "humas",
@@ -6085,29 +6146,14 @@
    "at": "2026-11-25 09:00",
    "agent": "desain",
    "msg": "Merekam suara Cicilia untuk video..."
-  },
-  {
-   "at": "2026-11-25 09:00",
-   "agent": "naskah",
-   "msg": "Naskah video: \"Laporan Excel Berantakan? Pakai Trik Ini!\""
-  },
-  {
-   "at": "2026-11-25 09:00",
-   "agent": "naskah",
-   "msg": "Menulis naskah video kinetik: Google Workspace / Excel untuk laporan kantor"
-  },
-  {
-   "at": "2026-11-25 09:00",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
   "published": 65,
-  "drafts": 79
+  "drafts": 80
  },
- "updated": "2026-11-25T13:02+09:00",
- "cuan_rot": 65,
+ "updated": "2026-11-25T13:27+09:00",
+ "cuan_rot": 66,
  "last_followers": 130,
  "style_hist": [
   {
@@ -6730,7 +6776,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T13:02+09:00",
+  "dibuat": "2026-11-25T13:27+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6838,6 +6884,13 @@
     "jenis": "Carousel",
     "judul": "Langkah Praktis Kelola Dana Desa Tepat Sasaran",
     "status": "terbit"
+   },
+   {
+    "jam": "13:27",
+    "id": "F11251327",
+    "jenis": "Carousel",
+    "judul": "Bikin SK Kades Cepat Tanpa Salah",
+    "status": "proses"
    }
   ],
   "besok_tanggal": "2026-11-26",
@@ -6931,5 +6984,8 @@
    "hasil": "halaman terbuka tapi harga tidak terbaca"
   }
  },
- "meta": {}
+ "meta": {},
+ "flow_lokasi": [
+  "Ruang kerja kantor desa dengan tumpukan "
+ ]
 }
