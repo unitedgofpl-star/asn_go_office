@@ -111,7 +111,7 @@ berita:
 
 # VIDEO Reels/TikTok: "kinetik" = klip Cicilia + teks per kata + kartu harga (gaya contoh promo); "slide" = gaya lama
 video:
-  gaya: kinetik
+  gaya: slide   # kinetik dinonaktifkan (kurang bagus) — menunggu jalur Google Flow/Veo
 
 # SUARA & MUSIK video Reels/TikTok
 suara:
