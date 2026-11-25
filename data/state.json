@@ -5514,14 +5514,58 @@
    },
    "published_at": "2026-11-25T08:02+09:00",
    "errors": []
+  },
+  "11250900": {
+   "id": "11250900",
+   "type": "reels",
+   "status": "published",
+   "created": "2026-11-25T09:02+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "Google Workspace / Excel untuk laporan kantor",
+   "format": "reels_kinetik",
+   "product": "naskah",
+   "content": {
+    "hook": "Laporan Excel Berantakan? Pakai Trik Ini!",
+    "caption": "Sering lembur cuma karena data Excel yang berantakan? Tenang, Rekan ASN! Mulai sekarang, yuk kita manfaatkan fitur-fitur dasar di Excel supaya pengerjaan laporan kantor jadi lebih efisien dan akurat.\n\nSimak langkah-langkah di video ini dan praktikan langsung di kantor besok pagi. Kalau ada kendala, tulis di kolom komentar ya!\n\nButuh bantuan bikin naskah dinas super cepat? Cek langsung Generator Naskah Dinas di link bio kami, sekali bayar bisa dipakai selamanya.\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#ASNGoDigital",
+     "#TipsExcel",
+     "#ASNProduktif",
+     "#DigitalisasiPemerintahan",
+     "#SobatDesa"
+    ],
+    "mood": "semangat",
+    "narasi": [
+     "Halo Rekan ASN, masih pusing merapikan data laporan yang berantakan di Excel?",
+     "Coba gunakan fitur ini supaya kerja kamu jadi jauh lebih sat set:",
+     "Dengan trik ini, laporan bulanan selesai dalam hitungan menit saja Rekan ASN.",
+     "Mau bikin naskah dinas lebih cepat? Cek Generator Naskah Dinas mulai 49 ribu di link bio ya."
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11250900/cover.jpg"
+   ],
+   "video": "public/11250900/reels.mp4",
+   "scheduled_at": "2026-11-25T09:02+09:00",
+   "promo": false,
+   "published": {
+    "ig": "https://www.instagram.com/reel/DgJMp8rFVDO/",
+    "fb": "https://facebook.com/1667737375009704"
+   },
+   "published_at": "2026-11-25T09:03+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11250801 dikirim ke Bos",
-   "at": "2026-11-25 08:01"
+   "last": "Video #11250900 dikirim ke Bos",
+   "at": "2026-11-25 09:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5532,8 +5576,8 @@
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan\"",
-   "at": "2026-11-25 08:01"
+   "last": "Naskah video: \"Laporan Excel Berantakan? Pakai Trik Ini!\"",
+   "at": "2026-11-25 09:00"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -5544,20 +5588,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 6 slide siap",
-   "at": "2026-11-25 08:01"
+   "last": "Video kinetik 35 detik siap",
+   "at": "2026-11-25 09:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11250801 dikirim ke Bos",
-   "at": "2026-11-25 08:03"
+   "last": "Paket TikTok #11250900 dikirim ke Bos",
+   "at": "2026-11-25 09:03"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-25 06:30"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-25 09:00"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -5567,6 +5611,76 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 09:03",
+   "agent": "humas",
+   "msg": "Paket TikTok #11250900 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 09:03",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11250900..."
+  },
+  {
+   "at": "2026-11-25 09:03",
+   "agent": "humas",
+   "msg": "#11250900 → ig, fb"
+  },
+  {
+   "at": "2026-11-25 09:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11250900 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-25 09:02",
+   "agent": "kepala",
+   "msg": "Video #11250900 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 09:02",
+   "agent": "desain",
+   "msg": "Video kinetik 35 detik siap"
+  },
+  {
+   "at": "2026-11-25 09:02",
+   "agent": "desain",
+   "msg": "Menyusun klip Cicilia & teks berjalan..."
+  },
+  {
+   "at": "2026-11-25 09:01",
+   "agent": "desain",
+   "msg": "Mengubah ke suara khas Cicilia..."
+  },
+  {
+   "at": "2026-11-25 09:00",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia untuk video..."
+  },
+  {
+   "at": "2026-11-25 09:00",
+   "agent": "naskah",
+   "msg": "Naskah video: \"Laporan Excel Berantakan? Pakai Trik Ini!\""
+  },
+  {
+   "at": "2026-11-25 09:00",
+   "agent": "naskah",
+   "msg": "Menulis naskah video kinetik: Google Workspace / Excel untuk laporan kantor"
+  },
+  {
+   "at": "2026-11-25 09:00",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-25 09:00",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-25 09:00",
+   "agent": "kepala",
+   "msg": "Jadwal 09:00 WIT: reels asn"
+  },
   {
    "at": "2026-11-25 08:03",
    "agent": "humas",
@@ -5796,97 +5910,16 @@
    "at": "2026-11-25 05:54",
    "agent": "kepala",
    "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-25 05:54",
-   "agent": "kepala",
-   "msg": "Jadwal 20:00 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-25 05:19",
-   "agent": "humas",
-   "msg": "Paket TikTok #11250516 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 05:19",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11250516..."
-  },
-  {
-   "at": "2026-11-25 05:19",
-   "agent": "humas",
-   "msg": "#11250516 → ig, fb"
-  },
-  {
-   "at": "2026-11-25 05:18",
-   "agent": "humas",
-   "msg": "Menerbitkan #11250516 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-25 05:18",
-   "agent": "kepala",
-   "msg": "Video #11250516 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 05:18",
-   "agent": "desain",
-   "msg": "Video kinetik 31 detik siap"
-  },
-  {
-   "at": "2026-11-25 05:17",
-   "agent": "desain",
-   "msg": "Menyusun klip Cicilia & teks berjalan..."
-  },
-  {
-   "at": "2026-11-25 05:16",
-   "agent": "desain",
-   "msg": "Mengubah ke suara khas Cicilia..."
-  },
-  {
-   "at": "2026-11-25 05:16",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia untuk video..."
-  },
-  {
-   "at": "2026-11-25 05:16",
-   "agent": "naskah",
-   "msg": "Naskah video: \"Bikin surat dinas lama banget?\""
-  },
-  {
-   "at": "2026-11-25 05:16",
-   "agent": "naskah",
-   "msg": "Menulis naskah video kinetik: perencanaan RPJMDes, RKPDes, APBDes, Siskeude"
-  },
-  {
-   "at": "2026-11-25 05:16",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels promosi"
-  },
-  {
-   "at": "2026-11-25 05:16",
-   "agent": "kepala",
-   "msg": "Jadwal 18:30 WIT: reels desa"
   }
  ],
  "stats": {
-  "published": 62,
-  "drafts": 76
+  "published": 63,
+  "drafts": 77
  },
- "updated": "2026-11-25T08:03+09:00",
- "cuan_rot": 62,
+ "updated": "2026-11-25T09:03+09:00",
+ "cuan_rot": 63,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "tegas",
-   "expr": "cemberut",
-   "theme": "berita",
-   "cover": "kiri",
-   "list": "ceklis",
-   "detail": "chat",
-   "pose": "tegas__cemberut_tangan_di_pinggang",
-   "flip": false,
-   "cta": "badan"
-  },
   {
    "mood": "semangat",
    "expr": "semangat",
@@ -6095,10 +6128,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "merah",
+   "cover": "kiri",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Desa Digital Bukan Sekadar Website, Ini Kuncinya!",
   "Tools Digital Gratis Bikin Kerja ASN Sat-Set",
   "14.210 Aparat Kampung di Lima Kabupaten Terlindungi Jaminan Sosial",
   "Bikin paparan kantor cuma dua menit?",
@@ -6137,7 +6180,8 @@
   "Bikin surat dinas lama banget?",
   "4 Tools AI Bantu ASN Kerja Lebih Efektif",
   "Efisiensi Layanan Desa dengan Bantuan AI",
-  "Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan"
+  "Waspada Penipuan Digital, Komdigi Catat Ratusan Ribu Aduan",
+  "Laporan Excel Berantakan? Pakai Trik Ini!"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -6501,12 +6545,17 @@
     "did": "11250801",
     "status": "proses",
     "at": "2026-11-25T08:01+09:00"
+   },
+   "2": {
+    "did": "11250900",
+    "status": "proses",
+    "at": "2026-11-25T09:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T08:03+09:00",
+  "dibuat": "2026-11-25T09:03+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6536,9 +6585,10 @@
     "tipe": "reels",
     "jenis": "Video Edukasi",
     "pilar": "Digitalisasi ASN",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Laporan Excel Berantakan? Pakai Trik Ini!",
+    "id": "11250900",
+    "status": "terbit",
+    "terbit": "09:03"
    },
    {
     "slot": 3,
@@ -6548,7 +6598,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 4,
