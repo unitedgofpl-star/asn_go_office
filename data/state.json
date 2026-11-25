@@ -5561,7 +5561,7 @@
   },
   "11251147": {
    "id": "11251147",
-   "status": "draft",
+   "status": "published",
    "created": "2026-11-25T11:47+09:00",
    "pillar": "Digitalisasi ASN",
    "topic": "10",
@@ -5656,7 +5656,13 @@
     "public/11251147/slide_07.jpg",
     "public/11251147/slide_08.jpg"
    ],
-   "scheduled_at": "2026-11-25T19:00+09:00"
+   "scheduled_at": "2026-11-25T13:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgJn7WnoLhu/",
+    "fb": "https://facebook.com/468307299696116_122226261050589464"
+   },
+   "published_at": "2026-11-25T13:01+09:00",
+   "errors": []
   },
   "11251202": {
    "id": "11251202",
@@ -5749,7 +5755,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-25 12:06"
+   "at": "2026-11-25 13:00"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -5778,8 +5784,8 @@
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11251202 dikirim ke Bos",
-   "at": "2026-11-25 12:05"
+   "last": "Paket TikTok #11251147 dikirim ke Bos",
+   "at": "2026-11-25 13:02"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -5795,6 +5801,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-25 13:02",
+   "agent": "humas",
+   "msg": "Paket TikTok #11251147 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-25 13:01",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11251147..."
+  },
+  {
+   "at": "2026-11-25 13:01",
+   "agent": "humas",
+   "msg": "#11251147 → ig, fb"
+  },
+  {
+   "at": "2026-11-25 13:00",
+   "agent": "humas",
+   "msg": "Menerbitkan #11251147 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-25 13:00",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-25 13:00",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-25 12:06",
    "agent": "kepala",
@@ -6064,43 +6100,13 @@
    "at": "2026-11-25 09:00",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-25 09:00",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-25 09:00",
-   "agent": "kepala",
-   "msg": "Jadwal 09:00 WIT: reels asn"
-  },
-  {
-   "at": "2026-11-25 08:03",
-   "agent": "humas",
-   "msg": "Paket TikTok #11250801 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 08:02",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11250801..."
-  },
-  {
-   "at": "2026-11-25 08:02",
-   "agent": "humas",
-   "msg": "#11250801 → ig, fb"
-  },
-  {
-   "at": "2026-11-25 08:01",
-   "agent": "humas",
-   "msg": "Menerbitkan #11250801 ke IG & FB..."
   }
  ],
  "stats": {
-  "published": 64,
+  "published": 65,
   "drafts": 79
  },
- "updated": "2026-11-25T12:06+09:00",
+ "updated": "2026-11-25T13:02+09:00",
  "cuan_rot": 65,
  "last_followers": 130,
  "style_hist": [
@@ -6724,7 +6730,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-25",
-  "dibuat": "2026-11-25T12:06+09:00",
+  "dibuat": "2026-11-25T13:02+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -6827,11 +6833,11 @@
     "status": "terbit"
    },
    {
-    "jam": "19:00",
+    "jam": "13:01",
     "id": "11251147",
     "jenis": "Carousel",
     "judul": "Langkah Praktis Kelola Dana Desa Tepat Sasaran",
-    "status": "menunggu"
+    "status": "terbit"
    }
   ],
   "besok_tanggal": "2026-11-26",
