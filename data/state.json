@@ -6353,50 +6353,136 @@
    },
    "published_at": "2026-11-26T12:02+09:00",
    "errors": []
+  },
+  "11261531": {
+   "id": "11261531",
+   "status": "published",
+   "created": "2026-11-26T15:31+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "administrasi desa, tata naskah dinas desa, SK Kades, Perdes",
+   "format": "carousel_mitos",
+   "product": "kantor",
+   "content": {
+    "hook": "Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!",
+    "subtitle": "Jangan salah kaprah soal digitalisasi administrasi desa, Rekan ASN!",
+    "mood": "terkejut",
+    "items": [
+     {
+      "title": "MITOS: AI Susun Produk Hukum",
+      "sub": "Keputusan akhir tetap di tangan manusia.",
+      "icon": "🤖"
+     },
+     {
+      "title": "MITOS: Format Desa Jadi Berubah",
+      "sub": "Struktur baku tata naskah tetap dipatuhi.",
+      "icon": "📜"
+     },
+     {
+      "title": "MITOS: Data Desa Bisa Bocor",
+      "sub": "Keamanan data ada di tangan Anda.",
+      "icon": "🔒"
+     }
+    ],
+    "details": [
+     {
+      "title": "MITOS: AI Susun Produk Hukum",
+      "body": "AI hanya membantu merumuskan draf awal atau menyempurnakan tata bahasa SK Kades dan Perdes agar lebih cepat. Validasi, substansi, dan keputusan hukum mutlak wewenang Kepala Desa dan perangkat.",
+      "icon": "🤖"
+     },
+     {
+      "title": "MITOS: Format Desa Jadi Berubah",
+      "sub": "Struktur baku tata naskah tetap dipatuhi.",
+      "body": "Pemanfaatan teknologi tidak mengubah hierarki perundang-undangan atau pedoman tata naskah dinas desa. AI hanya mempercepat pengetikan, pastikan tetap sesuaikan dengan ketentuan terbaru.",
+      "icon": "📜"
+     },
+     {
+      "title": "MITOS: Data Desa Bisa Bocor",
+      "sub": "Keamanan data ada di tangan Anda.",
+      "body": "Jangan pernah menginput data rahasia warga atau keuangan desa ke platform publik. Gunakan AI hanya untuk menyusun kerangka umum administrasi.",
+      "icon": "🔒"
+     }
+    ],
+    "note": "Selalu verifikasi regulasi dan tata naskah dinas di daerah masing-masing.",
+    "cta": "Ketik 'SIAP' di kolom komentar jika kantor desa mau coba trik ini!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering dengar bisikan kalau bikin SK Kades atau Perdes pakai AI itu melanggar aturan? Yuk, kita luruskan lewat fakta sebenarnya! Sebagai abdi negara yang adaptif, AI bukan untuk menggantikan peran kita, tapi jadi asisten virtual yang bikin kerja administrasi jauh lebih cepat dan efisien. Pastikan selalu teliti sebelum produk hukum disahkan ya! SIMPAN postingan ini supaya tidak lupa dan BAGIKAN ke rekan sesama perangkat desa. Bagaimana pengalaman kantor desa Sobat dalam memanfaatkan teknologi sejauh ini?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — Paket Kantor — Rp149.000 (10 perangkat). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asngodigital",
+     "#pemerintahandesa",
+     "#administrasidesa",
+     "#perangkatdesa",
+     "#skkades",
+     "#perdes",
+     "#transformasidigital",
+     "#asnberakhlak"
+    ],
+    "_qc": {
+     "issues": [
+      "Terdapat typo pada hashtag: '#phemerintahandesa' seharusnya '#pemerintahan_desa' dan '#asn_go_digitals' sebaiknya disesuaikan.",
+      "Panjang teks pada detail slide 1 (41 kata) dan slide 2 (39 kata) mendekati batas maksimal, namun masih dalam batas aman.",
+      "Secara keseluruhan substansi sudah sesuai dengan etika ASN dan tidak mencantumkan nomor regulasi yang spesifik."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11261531/slide_01.jpg",
+    "public/11261531/slide_02.jpg",
+    "public/11261531/slide_03.jpg",
+    "public/11261531/slide_04.jpg",
+    "public/11261531/slide_05.jpg",
+    "public/11261531/slide_06.jpg"
+   ],
+   "scheduled_at": "2026-11-26T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgMd9KSlwnx/",
+    "fb": "https://facebook.com/468307299696116_122226466664589464"
+   },
+   "published_at": "2026-11-26T15:32+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11261201 dikirim ke Bos",
-   "at": "2026-11-26 12:02"
+   "last": "Draft #11261531 dikirim ke Bos",
+   "at": "2026-11-26 15:31"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
    "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-26 12:01"
+   "at": "2026-11-26 15:31"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Bikin Narasi Program Desa Nggak Pake Lama\"",
-   "at": "2026-11-26 12:01"
+   "last": "Draft selesai: \"Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!\"",
+   "at": "2026-11-26 15:31"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 1 catatan",
-   "at": "2026-11-26 12:01"
+   "last": "QC selesai — risiko rendah, 3 catatan",
+   "at": "2026-11-26 15:31"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya tosca siap",
-   "at": "2026-11-26 12:01"
+   "last": "6 slide gaya merah siap",
+   "at": "2026-11-26 15:31"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11261201 dikirim ke Bos",
-   "at": "2026-11-26 12:03"
+   "last": "Paket TikTok #11261531 dikirim ke Bos",
+   "at": "2026-11-26 15:33"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-26 12:01"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-26 15:31"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -6406,6 +6492,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-26 15:33",
+   "agent": "humas",
+   "msg": "Paket TikTok #11261531 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 15:32",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11261531..."
+  },
+  {
+   "at": "2026-11-26 15:32",
+   "agent": "humas",
+   "msg": "#11261531 → ig, fb"
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "humas",
+   "msg": "Menerbitkan #11261531 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "kepala",
+   "msg": "Draft #11261531 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "desain",
+   "msg": "6 slide gaya merah siap"
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "desain",
+   "msg": "Mendesain gaya merah/kanan/ceklis/versus..."
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 3 catatan"
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!\""
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "naskah",
+   "msg": "Menulis carousel: administrasi desa, tata naskah dinas desa, SK Kade"
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-26 15:31",
+   "agent": "kepala",
+   "msg": "Jadwal 15:30 WIT: carousel desa"
+  },
   {
    "at": "2026-11-26 12:03",
    "agent": "humas",
@@ -6625,107 +6791,16 @@
    "at": "2026-11-26 08:01",
    "agent": "riset",
    "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-26 08:01",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-26 08:01",
-   "agent": "kepala",
-   "msg": "Jadwal 08:00 WIT: berita desa"
-  },
-  {
-   "at": "2026-11-26 06:37",
-   "agent": "humas",
-   "msg": "Paket TikTok #11260635 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 06:35",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11260635..."
-  },
-  {
-   "at": "2026-11-26 06:35",
-   "agent": "humas",
-   "msg": "#11260635 → ig, fb"
-  },
-  {
-   "at": "2026-11-26 06:35",
-   "agent": "humas",
-   "msg": "Menerbitkan #11260635 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-26 06:35",
-   "agent": "kepala",
-   "msg": "Draft #11260635 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 06:35",
-   "agent": "desain",
-   "msg": "7 slide gaya tosca siap"
-  },
-  {
-   "at": "2026-11-26 06:35",
-   "agent": "desain",
-   "msg": "Mendesain gaya tosca/angka/grid/kartu..."
-  },
-  {
-   "at": "2026-11-26 06:35",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 2 catatan"
-  },
-  {
-   "at": "2026-11-26 06:32",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-26 06:32",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"4 Tools Digital Gratis Bikin Kerja ASN Tanpa Lembur\""
-  },
-  {
-   "at": "2026-11-26 06:31",
-   "agent": "naskah",
-   "msg": "Menulis carousel: tips produktivitas ASN pakai tools digital gratis"
-  },
-  {
-   "at": "2026-11-26 06:31",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-26 06:31",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-26 06:31",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
-  "published": 73,
-  "drafts": 88
+  "published": 74,
+  "drafts": 89
  },
- "updated": "2026-11-26T13:24+09:00",
- "cuan_rot": 71,
+ "updated": "2026-11-26T15:33+09:00",
+ "cuan_rot": 72,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "gembira",
-   "theme": "merah",
-   "cover": "kanan",
-   "list": "grid",
-   "detail": "chat",
-   "pose": "semangat__tangan_mengepal",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "terkejut",
    "expr": "terkejut",
@@ -6934,10 +7009,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "badan"
+  },
+  {
+   "mood": "terkejut",
+   "expr": "terkejut",
+   "theme": "merah",
+   "cover": "kanan",
+   "list": "ceklis",
+   "detail": "versus",
+   "pose": "terkejut__tangan_di_pipi",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih",
   "Bikin SK Kades dan Perdes sekarang anti ribet!",
   "Pekerjaan Rutin Kantor Bisa Selesai Pakai AI?",
   "Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif",
@@ -6976,7 +7061,8 @@
   "4 Tools Digital Bantu Kerja ASN Lebih Efisien",
   "Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas",
   "Bikin paparan kantor cuma dalam satu menit?",
-  "Bikin Narasi Program Desa Nggak Pake Lama"
+  "Bikin Narasi Program Desa Nggak Pake Lama",
+  "Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -7336,12 +7422,17 @@
     "did": "11261201",
     "status": "proses",
     "at": "2026-11-26T12:02+09:00"
+   },
+   "4": {
+    "did": "11261531",
+    "status": "proses",
+    "at": "2026-11-26T15:31+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-26",
-  "dibuat": "2026-11-26T13:24+09:00",
+  "dibuat": "2026-11-26T15:33+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -7393,9 +7484,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Mitos vs Fakta",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!",
+    "id": "11261531",
+    "status": "terbit",
+    "terbit": "15:32"
    },
    {
     "slot": 5,
@@ -7405,7 +7497,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 6,
