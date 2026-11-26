@@ -6797,7 +6797,7 @@
   "published": 74,
   "drafts": 89
  },
- "updated": "2026-11-26T15:33+09:00",
+ "updated": "2026-11-26T17:01+09:00",
  "cuan_rot": 72,
  "last_followers": 130,
  "style_hist": [
@@ -7432,7 +7432,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-26",
-  "dibuat": "2026-11-26T15:33+09:00",
+  "dibuat": "2026-11-26T17:01+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -7497,7 +7497,7 @@
     "pilar": "Berita pilihan",
     "judul": "",
     "id": "",
-    "status": "berikutnya"
+    "status": "proses"
    },
    {
     "slot": 6,
@@ -7507,7 +7507,7 @@
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 7,
