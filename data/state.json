@@ -6269,50 +6269,134 @@
    },
    "published_at": "2026-11-26T09:03+09:00",
    "errors": []
+  },
+  "11261201": {
+   "id": "11261201",
+   "status": "published",
+   "created": "2026-11-26T12:01+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Office",
+   "format": "carousel_prompt",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin Narasi Program Desa Nggak Pake Lama",
+    "subtitle": "Contekan prompt AI siap salin untuk kerjaan kantor cepat kelar.",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Susun Laporan Stunting",
+      "sub": "Bikin draft laporan pencegahan stunting kilat.",
+      "icon": "👶"
+     },
+     {
+      "title": "Evaluasi Dana Desa",
+      "sub": "Rangkum data evaluasi akuntabilitas program desa.",
+      "icon": "📊"
+     },
+     {
+      "title": "Konsep Surat Dinas",
+      "sub": "Buat undangan pembinaan kecamatan praktis.",
+      "icon": "✉️"
+     }
+    ],
+    "details": [
+     {
+      "title": "Susun Laporan Stunting",
+      "body": "Prompt: 'Bertindaklah sebagai tenaga pendamping profesional. Buatkan draf laporan naratif program pencegahan stunting di tingkat desa dengan bahasa formal, padat, dan menyoroti keterlibatan kader posyandu secara efektif.'",
+      "icon": "👶"
+     },
+     {
+      "title": "Evaluasi Dana Desa",
+      "body": "Prompt: 'Bertindaklah sebagai auditor internal pemerintah. Buatkan poin-poin evaluasi pengelolaan dana desa agar transparan, akuntabel, dan sesuai prinsip tata kelola yang baik tanpa menyebut nomor pasal spesifik.'",
+      "icon": "📊"
+     },
+     {
+      "title": "Konsep Surat Dinas",
+      "body": "Prompt: 'Buatkan draf undangan resmi dari kantor camat kepada para kepala desa untuk agenda koordinasi pembinaan administrasi keuangan, gunakan tata naskah dinas instansi pemerintah yang umum dan santun.'",
+      "icon": "✉️"
+     }
+    ],
+    "note": "Sesuaikan hasil AI dengan kondisi riil instansi dan regulasi yang berlaku.",
+    "cta": "Simpan postingan ini dan praktikkan saat menyusun laporan kantor ya!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering merasa waktu habis buat mikirin draf tulisan di kantor? Tenang, ada contekan prompt AI siap pakai nih buat bantu tugas-tugas rutin biar selesai lebih cepat. Mulai dari draf laporan program desa sampai konsep surat dinas, semua bisa beres dalam hitungan detik. Ingat, AI itu alat bantu, jadi pastikan selalu melakukan pengecekan ulang data dan menyesuaikannya dengan aturan di instansi masing-masing ya! Rekan ASN paling sering terbantu sama prompt untuk urusan apa nih? Coba tulis di kolom komentar ya!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#DigitalisasiASN",
+     "#PemerintahanDesa",
+     "#AIPerkantoran",
+     "#ASNBerAKHLAK",
+     "#Siskeudes",
+     "#InovasiDesa",
+     "#KinerjaASN",
+     "#TransformasiDigital",
+     "#SobatDesa",
+     "#TipsASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Nama panggilan 'Cicilia' pada caption tidak sesuai dengan persona Kaka Agus, diganti agar lebih netral."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11261201/slide_01.jpg",
+    "public/11261201/slide_02.jpg",
+    "public/11261201/slide_03.jpg",
+    "public/11261201/slide_04.jpg",
+    "public/11261201/slide_05.jpg",
+    "public/11261201/slide_06.jpg"
+   ],
+   "scheduled_at": "2026-11-26T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgMF-tPl3Cv/",
+    "fb": "https://facebook.com/468307299696116_122226449204589464"
+   },
+   "published_at": "2026-11-26T12:02+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Reels #11260901 dikirim ke Bos",
-   "at": "2026-11-26 09:02"
+   "last": "Draft #11261201 dikirim ke Bos",
+   "at": "2026-11-26 12:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 4 berita tren minggu ini",
-   "at": "2026-11-26 09:01"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-26 12:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Naskah Reels: \"Bikin paparan kantor cuma dalam satu menit?\"",
-   "at": "2026-11-26 09:01"
+   "last": "Draft selesai: \"Bikin Narasi Program Desa Nggak Pake Lama\"",
+   "at": "2026-11-26 12:01"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "Cek berita selesai — risiko sedang",
-   "at": "2026-11-26 08:03"
+   "last": "QC selesai — risiko rendah, 1 catatan",
+   "at": "2026-11-26 12:01"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Reels 46 detik siap (gaya kertas)",
-   "at": "2026-11-26 09:02"
+   "last": "6 slide gaya tosca siap",
+   "at": "2026-11-26 12:01"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11260901 dikirim ke Bos",
-   "at": "2026-11-26 09:03"
+   "last": "Paket TikTok #11261201 dikirim ke Bos",
+   "at": "2026-11-26 12:03"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-26 09:01"
+   "at": "2026-11-26 12:01"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -6322,6 +6406,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-26 12:03",
+   "agent": "humas",
+   "msg": "Paket TikTok #11261201 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 12:02",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11261201..."
+  },
+  {
+   "at": "2026-11-26 12:02",
+   "agent": "humas",
+   "msg": "#11261201 → ig, fb"
+  },
+  {
+   "at": "2026-11-26 12:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11261201 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-26 12:02",
+   "agent": "kepala",
+   "msg": "Draft #11261201 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "desain",
+   "msg": "6 slide gaya tosca siap"
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "desain",
+   "msg": "Mendesain gaya tosca/potret/grid/chat..."
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 1 catatan"
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Bikin Narasi Program Desa Nggak Pake Lama\""
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "naskah",
+   "msg": "Menulis carousel: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Offic"
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-26 12:01",
+   "agent": "kepala",
+   "msg": "Jadwal 12:00 WIT: carousel asn"
+  },
   {
    "at": "2026-11-26 09:03",
    "agent": "humas",
@@ -6541,107 +6705,16 @@
    "at": "2026-11-26 06:31",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-26 06:31",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-26 06:31",
-   "agent": "kepala",
-   "msg": "Jadwal 06:30 WIT: carousel asn"
-  },
-  {
-   "at": "2026-11-26 06:31",
-   "agent": "naskah",
-   "msg": "Brief video Flow #F11260631 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 06:31",
-   "agent": "naskah",
-   "msg": "Menulis brief video Flow: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-"
-  },
-  {
-   "at": "2026-11-25 22:40",
-   "agent": "kepala",
-   "msg": "Perintah selesai diproses"
-  },
-  {
-   "at": "2026-11-25 22:40",
-   "agent": "kepala",
-   "msg": "Menerima perintah dari Bos"
-  },
-  {
-   "at": "2026-11-25 20:05",
-   "agent": "humas",
-   "msg": "Paket TikTok #11252002 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 20:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11252002..."
-  },
-  {
-   "at": "2026-11-25 20:03",
-   "agent": "humas",
-   "msg": "#11252002 → ig, fb"
-  },
-  {
-   "at": "2026-11-25 20:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11252002 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-25 20:02",
-   "agent": "kepala",
-   "msg": "Draft #11252002 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-25 20:02",
-   "agent": "desain",
-   "msg": "7 slide gaya ungu siap"
-  },
-  {
-   "at": "2026-11-25 20:02",
-   "agent": "desain",
-   "msg": "Mendesain gaya ungu/berita/ceklis/chat..."
-  },
-  {
-   "at": "2026-11-25 20:02",
-   "agent": "qc",
-   "msg": "QC selesai — risiko sedang, 4 catatan"
-  },
-  {
-   "at": "2026-11-25 20:02",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-25 20:02",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"5 Tools AI Gratis Andalan ASN Kerja Super Cepat\""
   }
  ],
  "stats": {
-  "published": 72,
-  "drafts": 87
+  "published": 73,
+  "drafts": 88
  },
- "updated": "2026-11-26T09:03+09:00",
- "cuan_rot": 70,
+ "updated": "2026-11-26T12:03+09:00",
+ "cuan_rot": 71,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "gembira",
-   "theme": "ungu",
-   "cover": "potret",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "semangat__tangan_mengepal",
-   "flip": false,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -6850,10 +6923,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "tosca",
+   "cover": "potret",
+   "list": "grid",
+   "detail": "chat",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Langkah Bikin Dokumen Dinas Cepat Pakai AI",
   "Kejelasan Pemanfaatan Dana Desa untuk Koperasi Desa Merah Putih",
   "Bikin SK Kades dan Perdes sekarang anti ribet!",
   "Pekerjaan Rutin Kantor Bisa Selesai Pakai AI?",
@@ -6892,7 +6975,8 @@
   "Tools AI Andalan ASN untuk Kerja Lebih Efektif",
   "4 Tools Digital Bantu Kerja ASN Lebih Efisien",
   "Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas",
-  "Bikin paparan kantor cuma dalam satu menit?"
+  "Bikin paparan kantor cuma dalam satu menit?",
+  "Bikin Narasi Program Desa Nggak Pake Lama"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -7247,12 +7331,17 @@
     "did": "11260901",
     "status": "proses",
     "at": "2026-11-26T09:02+09:00"
+   },
+   "3": {
+    "did": "11261201",
+    "status": "proses",
+    "at": "2026-11-26T12:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-26",
-  "dibuat": "2026-11-26T09:03+09:00",
+  "dibuat": "2026-11-26T12:03+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -7293,9 +7382,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Contekan Prompt",
     "pilar": "Digitalisasi ASN",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin Narasi Program Desa Nggak Pake Lama",
+    "id": "11261201",
+    "status": "terbit",
+    "terbit": "12:02"
    },
    {
     "slot": 4,
@@ -7305,7 +7395,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 5,
