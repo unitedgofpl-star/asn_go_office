@@ -6439,44 +6439,91 @@
    },
    "published_at": "2026-11-26T15:32+09:00",
    "errors": []
+  },
+  "11261703": {
+   "id": "11261703",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-26T17:03+09:00",
+   "pillar": "ASN",
+   "topic": "Satukan Data, Percepat Transformasi Digital, Pemkab Mimika Perkuat Integrasi Data Antar OPD",
+   "format": "berita",
+   "content": {
+    "hook": "Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah",
+    "caption": "Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah\n\nTransformasi digital di instansi pemerintahan terus didorong demi pelayanan yang lebih optimal. Pemerintah Kabupaten Mimika dilaporkan memperkuat integrasi data antar OPD untuk menyatukan data pemerintahan. Sementara itu, BPSDM Hukum Kementerian Hukum juga mempercepat transformasi digital pada layanan pelatihan serta penilaian kompetensi aparatur sipil negara.\n\n💡 Artinya bagi kita: Digitalisasi layanan pengembangan kompetensi dan integrasi data membantu instansi pemerintah mewujudkan tata kelola yang lebih transparan serta berbasis data.\n\n📰 Sumber:\n• Pemerintah Kabupaten Mimika: https://mimikakab.go.id/berita/satukan-data-percepat-transformasi-digital-pemkab-mimika-perkuat-integrasi-data-antar-opd\n• ANTARA News Kalteng: https://kalteng.antaranews.com/berita/853823/bpsdm-hukum-percepat-transformasi-digital-layanan-pengembangan-kompetensi-asn\n📷 Foto: Pemerintah Kabupaten Mimika, ANTARA News Kalteng\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#AsnGoDigitals",
+     "#TransformasiDigital",
+     "#DigitalisasiASN",
+     "#SPBE",
+     "#ManajemenTalenta"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus nama 'Wisnu Nugroho Dewanto' dan 'Eva Gantini' karena tidak terdapat dalam penggalan teks SUMBER yang disediakan (meskipun ada di teks sumber asli, penggalan teks sumber yang diberikan terpotong dan tidak memuat nama tersebut secara lengkap sesuai aturan ketat, atau demi keamanan verifikasi dari potongan sumber).",
+      "Menghapus tanggal, lokasi spesifik, dan angka seperti '2026', 'Palangka Raya', 'Rabu', dan '80 peserta' karena tidak termuat secara lengkap dalam batas potongan SUMBER."
+     ],
+     "risk": "rendah"
+    },
+    "narasi": [
+     "Berita terkini. Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah. Instansi pemerintah memperkuat integrasi data dan digitalisasi layanan pelatihan kompetensi pegawai.",
+     "BPSDM Hukum mempercepat transformasi digital layanan pelatihan dan penilaian kompetensi ASN berbasis data. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11261703/slide_01.jpg",
+    "public/11261703/slide_02.jpg"
+   ],
+   "sources": [
+    "https://mimikakab.go.id/berita/satukan-data-percepat-transformasi-digital-pemkab-mimika-perkuat-integrasi-data-antar-opd",
+    "https://kalteng.antaranews.com/berita/853823/bpsdm-hukum-percepat-transformasi-digital-layanan-pengembangan-kompetensi-asn"
+   ],
+   "scheduled_at": "2026-11-26T17:03+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgMoadBDVEU/",
+    "fb": "https://facebook.com/468307299696116_122226475472589464"
+   },
+   "published_at": "2026-11-26T17:03+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11261531 dikirim ke Bos",
-   "at": "2026-11-26 15:31"
+   "last": "Berita #11261703 dikirim ke Bos",
+   "at": "2026-11-26 17:03"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-26 15:31"
+   "last": "Berita: \"Satukan Data, Percepat Transformasi Digital, Pemkab Mimika P\" (2 sumber, 2 foto)",
+   "at": "2026-11-26 17:02"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!\"",
-   "at": "2026-11-26 15:31"
+   "last": "Rangkuman: \"Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah\"",
+   "at": "2026-11-26 17:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-26 15:31"
+   "last": "Cek berita selesai — risiko rendah",
+   "at": "2026-11-26 17:03"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya merah siap",
-   "at": "2026-11-26 15:31"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-26 17:03"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11261531 dikirim ke Bos",
-   "at": "2026-11-26 15:33"
+   "last": "Paket TikTok #11261703 dikirim ke Bos",
+   "at": "2026-11-26 17:03"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -6492,6 +6539,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-26 17:03",
+   "agent": "humas",
+   "msg": "Paket TikTok #11261703 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 17:03",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11261703..."
+  },
+  {
+   "at": "2026-11-26 17:03",
+   "agent": "humas",
+   "msg": "#11261703 → ig, fb"
+  },
+  {
+   "at": "2026-11-26 17:03",
+   "agent": "humas",
+   "msg": "Menerbitkan #11261703 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-26 17:03",
+   "agent": "kepala",
+   "msg": "Berita #11261703 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 17:03",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-26 17:03",
+   "agent": "desain",
+   "msg": "Mendesain berita (2 foto)..."
+  },
+  {
+   "at": "2026-11-26 17:03",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko rendah"
+  },
+  {
+   "at": "2026-11-26 17:02",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-26 17:02",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah\""
+  },
+  {
+   "at": "2026-11-26 17:02",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 2 sumber..."
+  },
+  {
+   "at": "2026-11-26 17:02",
+   "agent": "riset",
+   "msg": "Berita: \"Satukan Data, Percepat Transformasi Digital, Pemkab Mimika P\" (2 sumber, 2 foto)"
+  },
+  {
+   "at": "2026-11-26 17:02",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-26 17:02",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-26 17:02",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita ai"
+  },
   {
    "at": "2026-11-26 15:33",
    "agent": "humas",
@@ -6716,88 +6838,13 @@
    "at": "2026-11-26 09:01",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-26 09:01",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-26 09:01",
-   "agent": "kepala",
-   "msg": "Jadwal 09:00 WIT: reels ai"
-  },
-  {
-   "at": "2026-11-26 08:05",
-   "agent": "humas",
-   "msg": "Paket TikTok #11260803 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 08:04",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11260803..."
-  },
-  {
-   "at": "2026-11-26 08:04",
-   "agent": "humas",
-   "msg": "#11260803 → ig, fb"
-  },
-  {
-   "at": "2026-11-26 08:03",
-   "agent": "humas",
-   "msg": "Menerbitkan #11260803 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-26 08:03",
-   "agent": "kepala",
-   "msg": "Berita #11260803 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 08:03",
-   "agent": "desain",
-   "msg": "Berita 2 slide siap"
-  },
-  {
-   "at": "2026-11-26 08:03",
-   "agent": "desain",
-   "msg": "Mendesain berita (1 foto)..."
-  },
-  {
-   "at": "2026-11-26 08:03",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko sedang"
-  },
-  {
-   "at": "2026-11-26 08:02",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-26 08:02",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas\""
-  },
-  {
-   "at": "2026-11-26 08:02",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 1 sumber..."
-  },
-  {
-   "at": "2026-11-26 08:02",
-   "agent": "riset",
-   "msg": "Berita: \"Viral 3 Pria Berseragam PNS di Pasuruan Pesta Miras, Kini Ke\" (1 sumber, 1 foto)"
-  },
-  {
-   "at": "2026-11-26 08:01",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
   }
  ],
  "stats": {
-  "published": 74,
-  "drafts": 89
+  "published": 75,
+  "drafts": 90
  },
- "updated": "2026-11-26T17:01+09:00",
+ "updated": "2026-11-26T17:03+09:00",
  "cuan_rot": 72,
  "last_followers": 130,
  "style_hist": [
@@ -7023,7 +7070,6 @@
   }
  ],
  "recent_hooks": [
-  "Bikin SK Kades dan Perdes sekarang anti ribet!",
   "Pekerjaan Rutin Kantor Bisa Selesai Pakai AI?",
   "Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif",
   "Laporan BUMDes ribet? Bikin kelar dalam hitungan menit!",
@@ -7062,7 +7108,8 @@
   "Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas",
   "Bikin paparan kantor cuma dalam satu menit?",
   "Bikin Narasi Program Desa Nggak Pake Lama",
-  "Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!"
+  "Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!",
+  "Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -7105,7 +7152,10 @@
   "berita kini   kemkomdigi tangani 67 578 konten penipuan digi",
   "video viral 3 pns di pasuruan pesta miras berujung sanksi te",
   "pns di pasuruan viral pesta miras  berujung disanksi teguran",
-  "viral 3 pria berseragam pns di pasuruan pesta miras  kini ke"
+  "viral 3 pria berseragam pns di pasuruan pesta miras  kini ke",
+  "percepat transformasi digital  dinkominfostasandi purworejo ",
+  "satukan data  percepat transformasi digital  pemkab mimika p",
+  "bpsdm hukum percepat transformasi digital layanan pengembang"
  ],
  "slot_log": {
   "2026-11-19": {
@@ -7427,12 +7477,17 @@
     "did": "11261531",
     "status": "proses",
     "at": "2026-11-26T15:31+09:00"
+   },
+   "5": {
+    "did": "11261703",
+    "status": "proses",
+    "at": "2026-11-26T17:03+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-26",
-  "dibuat": "2026-11-26T17:01+09:00",
+  "dibuat": "2026-11-26T17:03+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -7495,9 +7550,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "proses"
+    "judul": "Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah",
+    "id": "11261703",
+    "status": "terbit",
+    "terbit": "17:03"
    },
    {
     "slot": 6,
