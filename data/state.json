@@ -6938,7 +6938,7 @@
   "published": 76,
   "drafts": 91
  },
- "updated": "2026-11-26T21:13+09:00",
+ "updated": "2026-11-27T02:14+09:00",
  "cuan_rot": 73,
  "last_followers": 130,
  "style_hist": [
@@ -7590,19 +7590,18 @@
   }
  },
  "jadwal": {
-  "tanggal": "2026-11-26",
-  "dibuat": "2026-11-26T21:13+09:00",
+  "tanggal": "2026-11-27",
+  "dibuat": "2026-11-27T02:14+09:00",
   "hari_ini": [
    {
     "slot": 0,
     "jam": "06:30",
     "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Digitalisasi ASN",
-    "judul": "4 Tools Digital Bantu Kerja ASN Lebih Efisien",
-    "id": "11260635",
-    "status": "terbit",
-    "terbit": "06:35"
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "berikutnya"
    },
    {
     "slot": 1,
@@ -7610,43 +7609,39 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "Teguran Keras Bagi Perangkat Desa Akibat Perilaku Tidak Pantas",
-    "id": "11260803",
-    "status": "terbit",
-    "terbit": "08:04"
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 2,
     "jam": "09:00",
     "tipe": "reels",
     "jenis": "Video Edukasi",
-    "pilar": "AI untuk Kerja Kantor",
-    "judul": "Bikin paparan kantor cuma dalam satu menit?",
-    "id": "11260901",
-    "status": "terbit",
-    "terbit": "09:03"
+    "pilar": "Pemerintahan Desa",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 3,
     "jam": "12:00",
     "tipe": "carousel",
-    "jenis": "Carousel Contekan Prompt",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Bikin Narasi Program Desa Nggak Pake Lama",
-    "id": "11261201",
-    "status": "terbit",
-    "terbit": "12:02"
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 4,
     "jam": "15:30",
     "tipe": "carousel",
-    "jenis": "Carousel Mitos vs Fakta",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!",
-    "id": "11261531",
-    "status": "terbit",
-    "terbit": "15:32"
+    "jenis": "Carousel Listicle",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 5,
@@ -7654,42 +7649,40 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah",
-    "id": "11261703",
-    "status": "terbit",
-    "terbit": "17:03"
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 6,
     "jam": "18:30",
     "tipe": "reels",
     "jenis": "Video Flow",
-    "pilar": "Digitalisasi ASN",
-    "judul": "Bikin Naskah Dinas Cepat Pakai AI",
-    "id": "F11260631",
-    "status": "menunggu"
+    "pilar": "AI untuk Kerja Kantor",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    },
    {
     "slot": 7,
     "jam": "20:00",
     "tipe": "carousel",
-    "jenis": "Carousel Soft-selling",
-    "pilar": "Pemerintahan Desa",
-    "judul": "Website Desa Sepi Pengunjung? Ini Rahasia Layanan Modern",
-    "id": "11262004",
-    "status": "terbit",
-    "terbit": "20:05"
+    "jenis": "Carousel Tutorial",
+    "pilar": "Digitalisasi ASN",
+    "judul": "",
+    "id": "",
+    "status": "akan"
    }
   ],
   "manual": [],
-  "besok_tanggal": "2026-11-27",
+  "besok_tanggal": "2026-11-28",
   "besok": [
    {
     "slot": 0,
     "jam": "06:30",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
+    "jenis": "Carousel Contekan Prompt",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -7709,7 +7702,7 @@
     "jam": "09:00",
     "tipe": "reels",
     "jenis": "Video Edukasi",
-    "pilar": "Pemerintahan Desa",
+    "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -7718,8 +7711,8 @@
     "slot": 3,
     "jam": "12:00",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "AI untuk Kerja Kantor",
+    "jenis": "Carousel Listicle",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -7728,8 +7721,8 @@
     "slot": 4,
     "jam": "15:30",
     "tipe": "carousel",
-    "jenis": "Carousel Listicle",
-    "pilar": "Digitalisasi ASN",
+    "jenis": "Carousel Tutorial",
+    "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -7749,7 +7742,7 @@
     "jam": "18:30",
     "tipe": "reels",
     "jenis": "Video Flow",
-    "pilar": "AI untuk Kerja Kantor",
+    "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
     "status": "akan"
@@ -7758,8 +7751,8 @@
     "slot": 7,
     "jam": "20:00",
     "tipe": "carousel",
-    "jenis": "Carousel Tutorial",
-    "pilar": "Digitalisasi ASN",
+    "jenis": "Carousel Listicle",
+    "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
     "status": "akan"
