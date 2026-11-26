@@ -6706,44 +6706,94 @@
    },
    "published_at": "2026-11-27T06:34+09:00",
    "errors": []
+  },
+  "11270802": {
+   "id": "11270802",
+   "type": "berita",
+   "status": "published",
+   "created": "2026-11-27T08:02+09:00",
+   "pillar": "ASN",
+   "topic": "Berita Kini - Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI",
+   "format": "berita",
+   "content": {
+    "hook": "Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI",
+    "caption": "Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI\n\nHalo Rekan ASN & Sobat Desa! Kementerian Komunikasi dan Digital mengukuhkan Dewan Pengawas LPP RRI periode 2026-2031 di Kantor Kementerian Komdigi, Jakarta Pusat. Menteri Komunikasi dan Digital Meutya Hafid meminta agar Dewas yang baru melanjutkan langkah transformasi digital dari kepengurusan sebelumnya. Beliau juga mengingatkan pentingnya memahami batasan kewenangan sesuai Peraturan Pemerintah Nomor 3 Tahun 2024 tentang LPP RRI, di mana Dewas menetapkan arah dan mengawasi, sedangkan operasional dijalankan oleh Direksi. Independensi siaran, pembenahan tata kelola, dan akuntabilitas anggaran menjadi fokus penting agar RRI tetap relevan. Bagaimana pengalaman Rekan ASN dalam menjaga akuntabilitas di instansi masing-masing? Tulis pendapatmu di kolom komentar!\n\n💡 Artinya bagi kita: Menjadi pengingat mengenai pentingnya kepatuhan pada regulasi, batasan kewenangan, serta akuntabilitas dalam tata kelola instansi.\n\n📰 Sumber:\n• Kementerian Komunikasi dan Digital: https://portal.komdigi.go.id/kanal-publik/berita-kini/10744\n📷 Foto: Kementerian Komunikasi dan Digital\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#asn",
+     "#pemerintahan",
+     "#komdigi",
+     "#rri",
+     "#transformasidigital",
+     "#ASNGoDigitals"
+    ],
+    "_qc": {
+     "issues": [
+      "Ada sedikit penyalinan kalimat dari sumber yang perlu diubah agar lebih ringkas dan tidak plagiat."
+     ],
+     "risk": "rendah"
+    },
+    "narasi": [
+     "Berita terkini. Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI. Dewan Pengawas RRI periode 2026-2031 diminta lanjutkan transformasi digital dan jaga independensi siaran.",
+     "Dewas baru diminta melanjutkan fondasi transformasi digital serta pembenahan tata kelola dari kepengurusan sebelumnya.",
+     "Pengelolaan tugas Dewas berpedoman pada Peraturan Pemerintah Nomor 3 Tahun 2024 tentang LPP RRI.",
+     "Dewas diingatkan menjaga independensi siaran, mencermati anggaran, serta mengevaluasi kinerja secara konsisten. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11270802/slide_01.jpg",
+    "public/11270802/slide_02.jpg",
+    "public/11270802/slide_03.jpg",
+    "public/11270802/slide_04.jpg"
+   ],
+   "sources": [
+    "https://portal.komdigi.go.id/kanal-publik/berita-kini/10744"
+   ],
+   "scheduled_at": "2026-11-27T08:02+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgOPYCBkTsG/",
+    "fb": "https://facebook.com/468307299696116_122226819470589464"
+   },
+   "published_at": "2026-11-27T08:03+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11270633 dikirim ke Bos",
-   "at": "2026-11-27 06:33"
+   "last": "Berita #11270802 dikirim ke Bos",
+   "at": "2026-11-27 08:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-27 06:31"
+   "last": "Berita: \"Berita Kini - Menkomdigi Minta Dewas Baru Kawal Transformasi\" (1 sumber, 4 foto)",
+   "at": "2026-11-27 08:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Selesaikan Laporan dan Paparan Dinas dalam Hitungan Menit\"",
-   "at": "2026-11-27 06:33"
+   "last": "Rangkuman: \"Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI\"",
+   "at": "2026-11-27 08:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-27 06:33"
+   "last": "Cek berita selesai — risiko rendah",
+   "at": "2026-11-27 08:02"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya kertas siap",
-   "at": "2026-11-27 06:33"
+   "last": "Berita 4 slide siap",
+   "at": "2026-11-27 08:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11270633 dikirim ke Bos",
-   "at": "2026-11-27 06:35"
+   "last": "Paket TikTok #11270802 dikirim ke Bos",
+   "at": "2026-11-27 08:04"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -6759,6 +6809,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-27 08:04",
+   "agent": "humas",
+   "msg": "Paket TikTok #11270802 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-27 08:03",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11270802..."
+  },
+  {
+   "at": "2026-11-27 08:03",
+   "agent": "humas",
+   "msg": "#11270802 → ig, fb"
+  },
+  {
+   "at": "2026-11-27 08:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11270802 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-27 08:02",
+   "agent": "kepala",
+   "msg": "Berita #11270802 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-27 08:02",
+   "agent": "desain",
+   "msg": "Berita 4 slide siap"
+  },
+  {
+   "at": "2026-11-27 08:02",
+   "agent": "desain",
+   "msg": "Mendesain berita (4 foto)..."
+  },
+  {
+   "at": "2026-11-27 08:02",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko rendah"
+  },
+  {
+   "at": "2026-11-27 08:02",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-27 08:02",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI\""
+  },
+  {
+   "at": "2026-11-27 08:01",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-27 08:01",
+   "agent": "riset",
+   "msg": "Berita: \"Berita Kini - Menkomdigi Minta Dewas Baru Kawal Transformasi\" (1 sumber, 4 foto)"
+  },
+  {
+   "at": "2026-11-27 08:01",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-27 08:01",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-27 08:01",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita asn"
+  },
   {
    "at": "2026-11-27 06:35",
    "agent": "humas",
@@ -6983,88 +7108,13 @@
    "at": "2026-11-26 17:02",
    "agent": "qc",
    "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-26 17:02",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah\""
-  },
-  {
-   "at": "2026-11-26 17:02",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 2 sumber..."
-  },
-  {
-   "at": "2026-11-26 17:02",
-   "agent": "riset",
-   "msg": "Berita: \"Satukan Data, Percepat Transformasi Digital, Pemkab Mimika P\" (2 sumber, 2 foto)"
-  },
-  {
-   "at": "2026-11-26 17:02",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-26 17:02",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-26 17:02",
-   "agent": "kepala",
-   "msg": "Jadwal 17:00 WIT: berita ai"
-  },
-  {
-   "at": "2026-11-26 15:33",
-   "agent": "humas",
-   "msg": "Paket TikTok #11261531 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 15:32",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11261531..."
-  },
-  {
-   "at": "2026-11-26 15:32",
-   "agent": "humas",
-   "msg": "#11261531 → ig, fb"
-  },
-  {
-   "at": "2026-11-26 15:31",
-   "agent": "humas",
-   "msg": "Menerbitkan #11261531 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-26 15:31",
-   "agent": "kepala",
-   "msg": "Draft #11261531 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 15:31",
-   "agent": "desain",
-   "msg": "6 slide gaya merah siap"
-  },
-  {
-   "at": "2026-11-26 15:31",
-   "agent": "desain",
-   "msg": "Mendesain gaya merah/kanan/ceklis/versus..."
-  },
-  {
-   "at": "2026-11-26 15:31",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 3 catatan"
-  },
-  {
-   "at": "2026-11-26 15:31",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
   }
  ],
  "stats": {
-  "published": 77,
-  "drafts": 93
+  "published": 78,
+  "drafts": 94
  },
- "updated": "2026-11-27T06:35+09:00",
+ "updated": "2026-11-27T08:04+09:00",
  "cuan_rot": 75,
  "last_followers": 130,
  "style_hist": [
@@ -7290,7 +7340,6 @@
   }
  ],
  "recent_hooks": [
-  "Laporan BUMDes ribet? Bikin kelar dalam hitungan menit!",
   "Aturan Emas Pakai AI Agar Data Kantor Aman",
   "5 Contekan Prompt AI Bikin Layanan Desa Sat-Set",
   "Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP",
@@ -7329,7 +7378,8 @@
   "Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!",
   "Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah",
   "Website Desa Sepi Pengunjung? Ini Rahasia Layanan Modern",
-  "Selesaikan Laporan dan Paparan Dinas dalam Hitungan Menit"
+  "Selesaikan Laporan dan Paparan Dinas dalam Hitungan Menit",
+  "Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -7375,7 +7425,10 @@
   "viral 3 pria berseragam pns di pasuruan pesta miras  kini ke",
   "percepat transformasi digital  dinkominfostasandi purworejo ",
   "satukan data  percepat transformasi digital  pemkab mimika p",
-  "bpsdm hukum percepat transformasi digital layanan pengembang"
+  "bpsdm hukum percepat transformasi digital layanan pengembang",
+  "menkomdigi minta dewas baru kawal transformasi digital rri",
+  "pemkab bangka barat perkuat transformasi digital dukung spbe",
+  "berita kini   menkomdigi minta dewas baru kawal transformasi"
  ],
  "slot_log": {
   "2026-11-20": {
@@ -7677,12 +7730,17 @@
     "did": "11270633",
     "status": "proses",
     "at": "2026-11-27T06:33+09:00"
+   },
+   "1": {
+    "did": "11270802",
+    "status": "proses",
+    "at": "2026-11-27T08:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-27",
-  "dibuat": "2026-11-27T06:35+09:00",
+  "dibuat": "2026-11-27T08:04+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -7701,9 +7759,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI",
+    "id": "11270802",
+    "status": "terbit",
+    "terbit": "08:03"
    },
    {
     "slot": 2,
@@ -7713,7 +7772,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
