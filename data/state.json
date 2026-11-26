@@ -6486,50 +6486,144 @@
    },
    "published_at": "2026-11-26T17:03+09:00",
    "errors": []
+  },
+  "11262004": {
+   "id": "11262004",
+   "status": "published",
+   "created": "2026-11-26T20:04+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "digitalisasi layanan desa, website desa, Prodeskel/IDM",
+   "format": "carousel_promo",
+   "product": "naskah",
+   "content": {
+    "hook": "Website Desa Sepi Pengunjung? Ini Rahasia Layanan Modern",
+    "subtitle": "Tingkatkan skor IDM dan kualitas layanan publik desa Anda sekarang",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Update Data Prodeskel",
+      "sub": "Kunci utama validasi data kewilayahan desa",
+      "icon": "📊"
+     },
+     {
+      "title": "Optimalisasi Website Desa",
+      "sub": "Pintu masuk keterbukaan informasi publik desa",
+      "icon": "🌐"
+     },
+     {
+      "title": "Administrasi Cepat & Akurat",
+      "sub": "Kurangi tumpukan kertas dengan sistem digital",
+      "icon": "⚡"
+     },
+     {
+      "title": "Solusi Naskah Dinas",
+      "sub": "Buat surat resmi sesuai regulasi dengan mudah",
+      "icon": "📝"
+     }
+    ],
+    "details": [
+     {
+      "title": "Update Data Prodeskel",
+      "body": "Data Prodeskel dan IDM yang akurat adalah fondasi utama perencanaan pembangunan. Pastikan pemutakhiran berkala dilakukan agar kebijakan pemerintah desa tepat sasaran sesuai kebutuhan nyata masyarakat.",
+      "icon": "📊"
+     },
+     {
+      "title": "Optimalisasi Website Desa",
+      "body": "Website bukan sekadar pajangan. Aktifkan fitur pelayanan mandiri dan publikasi kegiatan agar warga mudah mengakses informasi secara transparan tanpa harus sering ke kantor desa.",
+      "icon": "🌐"
+     },
+     {
+      "title": "Administrasi Cepat & Akurat",
+      "body": "Transformasi digital dimulai dari meja kerja Anda. Tinggalkan cara manual yang lambat dan gunakan templat digital terstandarisasi agar setiap surat keluar berformat benar dan profesional.",
+      "icon": "⚡"
+     },
+     {
+      "title": "Solusi Naskah Dinas",
+      "body": "Manfaatkan perangkat bantu digital untuk naskah dinas. Sesuaikan kop surat, kode klasifikasi, dan format otomatis sesuai ketentuan yang berlaku agar pekerjaan selesai lebih cepat dan efisien.",
+      "icon": "📝"
+     }
+    ],
+    "note": "Selalu periksa regulasi terbaru terkait administrasi desa di instansi Anda.",
+    "cta": "Simpan dan praktikkan langkah digitalisasi ini di kantor desa Anda!",
+    "caption": "Halo Rekan ASN dan Sobat Desa! Sering merasa kewalahan menangani administrasi desa yang menumpuk? Digitalisasi layanan kini menjadi keharusan untuk meningkatkan skor IDM dan keterbukaan informasi di wilayah kita. Mari mulai dari pemutakhiran data Prodeskel hingga otomatisasi naskah dinas agar kerja lebih cepat, akurat, dan sesuai regulasi. Jangan sampai kantor desa kita tertinggal di era digitalisasi ini. Simpan postingan ini agar tidak lupa, dan bagikan ke grup perangkat desa kalian ya. Menurut Sobat Desa, apa kendala tersulit dalam mengelola administrasi saat ini? Tulis di kolom komentar!",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#digitalisasidesa",
+     "#perangkatdesa",
+     "#layananpublik",
+     "#desamodern",
+     "#siskeudes",
+     "#asnindonesia"
+    ],
+    "_qc": {
+     "issues": [
+      "Terdapat promosi komersial terselubung berbayar (mulai dari Rp49.000) yang kurang sesuai dengan standar konten edukasi ASN murni.",
+      "Beberapa teks pada bagian details melebihi batas 45 kata per slide.",
+      "Perlu penyempurnaan EYD dan penyesuaian klaim agar lebih umum dan profesional."
+     ],
+     "risk": "sedang"
+    }
+   },
+   "images": [
+    "public/11262004/slide_01.jpg",
+    "public/11262004/slide_02.jpg",
+    "public/11262004/slide_03.jpg",
+    "public/11262004/slide_04.jpg",
+    "public/11262004/slide_05.jpg",
+    "public/11262004/slide_06.jpg",
+    "public/11262004/slide_07.jpg"
+   ],
+   "scheduled_at": "2026-11-27T19:00+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/p/DgM9QXNlzDv/",
+    "fb": "https://facebook.com/468307299696116_122226491438589464"
+   },
+   "published_at": "2026-11-26T20:05+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Jadwal 18:30 WIT: reels asn",
-   "at": "2026-11-26 18:31"
+   "last": "Draft #11262004 dikirim ke Bos",
+   "at": "2026-11-26 20:05"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Satukan Data, Percepat Transformasi Digital, Pemkab Mimika P\" (2 sumber, 2 foto)",
-   "at": "2026-11-26 17:02"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-26 20:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah\"",
-   "at": "2026-11-26 17:02"
+   "last": "Draft selesai: \"Website Desa Sepi Pengunjung? Ini Rahasia Layanan Modern\"",
+   "at": "2026-11-26 20:04"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "Cek berita selesai — risiko rendah",
-   "at": "2026-11-26 17:03"
+   "last": "QC selesai — risiko sedang, 3 catatan",
+   "at": "2026-11-26 20:04"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 2 slide siap",
-   "at": "2026-11-26 17:03"
+   "last": "7 slide gaya ungu siap",
+   "at": "2026-11-26 20:04"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11261703 dikirim ke Bos",
-   "at": "2026-11-26 17:03"
+   "last": "Paket TikTok #11262004 dikirim ke Bos",
+   "at": "2026-11-26 20:07"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-26 15:31"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-26 20:01"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -6539,6 +6633,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-26 20:07",
+   "agent": "humas",
+   "msg": "Paket TikTok #11262004 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 20:05",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11262004..."
+  },
+  {
+   "at": "2026-11-26 20:05",
+   "agent": "humas",
+   "msg": "#11262004 → ig, fb"
+  },
+  {
+   "at": "2026-11-26 20:05",
+   "agent": "humas",
+   "msg": "Menerbitkan #11262004 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-26 20:05",
+   "agent": "kepala",
+   "msg": "Draft #11262004 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-26 20:04",
+   "agent": "desain",
+   "msg": "7 slide gaya ungu siap"
+  },
+  {
+   "at": "2026-11-26 20:04",
+   "agent": "desain",
+   "msg": "Mendesain gaya ungu/kiri/kartu/chat..."
+  },
+  {
+   "at": "2026-11-26 20:04",
+   "agent": "qc",
+   "msg": "QC selesai — risiko sedang, 3 catatan"
+  },
+  {
+   "at": "2026-11-26 20:04",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-26 20:04",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Website Desa Sepi Pengunjung? Ini Rahasia Layanan Modern\""
+  },
+  {
+   "at": "2026-11-26 20:01",
+   "agent": "naskah",
+   "msg": "Menulis carousel: digitalisasi layanan desa, website desa, Prodeskel"
+  },
+  {
+   "at": "2026-11-26 20:01",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-26 20:01",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-26 20:01",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-26 20:01",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-26 20:01",
+   "agent": "kepala",
+   "msg": "Jadwal 20:00 WIT: carousel desa"
+  },
   {
    "at": "2026-11-26 18:31",
    "agent": "kepala",
@@ -6758,107 +6932,16 @@
    "at": "2026-11-26 12:01",
    "agent": "riset",
    "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-26 12:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-26 12:01",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-26 12:01",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-26 12:01",
-   "agent": "kepala",
-   "msg": "Jadwal 12:00 WIT: carousel asn"
-  },
-  {
-   "at": "2026-11-26 09:03",
-   "agent": "humas",
-   "msg": "Paket TikTok #11260901 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 09:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11260901..."
-  },
-  {
-   "at": "2026-11-26 09:03",
-   "agent": "humas",
-   "msg": "#11260901 → ig, fb"
-  },
-  {
-   "at": "2026-11-26 09:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11260901 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-26 09:02",
-   "agent": "kepala",
-   "msg": "Reels #11260901 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 09:02",
-   "agent": "desain",
-   "msg": "Reels 46 detik siap (gaya kertas)"
-  },
-  {
-   "at": "2026-11-26 09:01",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-26 09:01",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya kertas..."
-  },
-  {
-   "at": "2026-11-26 09:01",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Bikin paparan kantor cuma dalam satu menit?\""
-  },
-  {
-   "at": "2026-11-26 09:01",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: AI untuk membuat bahan paparan, ringkasan reg"
-  },
-  {
-   "at": "2026-11-26 09:01",
-   "agent": "riset",
-   "msg": "Menemukan 4 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-26 09:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
   }
  ],
  "stats": {
-  "published": 75,
-  "drafts": 90
+  "published": 76,
+  "drafts": 91
  },
- "updated": "2026-11-26T18:31+09:00",
- "cuan_rot": 72,
+ "updated": "2026-11-26T20:07+09:00",
+ "cuan_rot": 73,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "terkejut",
-   "expr": "terkejut",
-   "theme": "navy",
-   "cover": "kiri",
-   "list": "kartu",
-   "detail": "versus",
-   "pose": "terkejut__tangan_di_pipi",
-   "flip": false,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "semangat",
@@ -7067,10 +7150,20 @@
    "pose": "terkejut__tangan_di_pipi",
    "flip": true,
    "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "ungu",
+   "cover": "kiri",
+   "list": "kartu",
+   "detail": "chat",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Pekerjaan Rutin Kantor Bisa Selesai Pakai AI?",
   "Kemenkomdigi Tampung Aspirasi Kurir Online Terkait Pengaturan Tarif",
   "Laporan BUMDes ribet? Bikin kelar dalam hitungan menit!",
   "Aturan Emas Pakai AI Agar Data Kantor Aman",
@@ -7109,7 +7202,8 @@
   "Bikin paparan kantor cuma dalam satu menit?",
   "Bikin Narasi Program Desa Nggak Pake Lama",
   "Bikin SK Kades dan Perdes Pakai AI? Ini Faktanya!",
-  "Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah"
+  "Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah",
+  "Website Desa Sepi Pengunjung? Ini Rahasia Layanan Modern"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -7487,12 +7581,17 @@
     "did": "F11260631",
     "status": "proses",
     "at": "2026-11-26T18:31+09:00"
+   },
+   "7": {
+    "did": "11262004",
+    "status": "proses",
+    "at": "2026-11-26T20:05+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-26",
-  "dibuat": "2026-11-26T18:31+09:00",
+  "dibuat": "2026-11-26T20:07+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -7576,9 +7675,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Soft-selling",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Website Desa Sepi Pengunjung? Ini Rahasia Layanan Modern",
+    "id": "11262004",
+    "status": "terbit",
+    "terbit": "20:05"
    }
   ],
   "manual": [],
