@@ -6756,26 +6756,89 @@
    },
    "published_at": "2026-11-27T08:03+09:00",
    "errors": []
+  },
+  "11270902": {
+   "id": "11270902",
+   "type": "reels",
+   "status": "published",
+   "created": "2026-11-27T09:02+09:00",
+   "pillar": "Pemerintahan Desa",
+   "topic": "dana desa, BUMDes, pelaporan & pertanggungjawaban",
+   "format": "reels",
+   "product": "kantor",
+   "content": {
+    "hook": "Bikin laporan Dana Desa anti pusing?",
+    "caption": "Halo Rekan ASN & Sobat Desa! Laporan Dana Desa dan BUMDes sering bikin keteteran? Tenang, sekarang kita bisa manfaatkan teknologi buat bantu percepat administrasi desa tanpa takut salah data. Yuk, mulai biasakan kerja cerdas biar waktu luang lebih banyak buat warga. Simpan video ini dan bagikan ke rekan kerja desa lainnya ya! Menurut Sobat Desa, bagian mana nih yang paling bikin pusing saat bikin laporan? Tulis di komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — Paket Kantor — Rp149.000 (10 perangkat). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#AsnGoDigitals",
+     "#PemerintahanDesa",
+     "#DanaDesa",
+     "#BUMDes",
+     "#AparaturDesa",
+     "#DigitalisasiDesa"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN & Sobat Desa!",
+      "icon": "👋"
+     },
+     {
+      "text": "Perencanaan dana desa wajib berbasis data aktual.",
+      "icon": "📊"
+     },
+     {
+      "text": "Jangan tunggu ditegur inspektorat baru panik.",
+      "icon": "🚨"
+     },
+     {
+      "text": "Gunakan AI ringkas laporan pertanggungjawaban cepat.",
+      "icon": "🤖"
+     },
+     {
+      "text": "Bikin SK dan Perdes pakai template praktis.",
+      "icon": "⚡"
+     },
+     {
+      "text": "Yuk, kerja lebih rapi dan bebas lembur!",
+      "icon": "✨"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11270902/cover.jpg"
+   ],
+   "video": "public/11270902/reels.mp4",
+   "scheduled_at": "2026-11-27T09:02+09:00",
+   "published": {
+    "ig": "https://www.instagram.com/reel/DgOWR_EC3pp/",
+    "fb": "https://facebook.com/891765707328655"
+   },
+   "published_at": "2026-11-27T09:03+09:00",
+   "errors": []
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11270802 dikirim ke Bos",
-   "at": "2026-11-27 08:02"
+   "last": "Reels #11270902 dikirim ke Bos",
+   "at": "2026-11-27 09:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Berita Kini - Menkomdigi Minta Dewas Baru Kawal Transformasi\" (1 sumber, 4 foto)",
-   "at": "2026-11-27 08:01"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-27 09:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI\"",
-   "at": "2026-11-27 08:02"
+   "last": "Naskah Reels: \"Bikin laporan Dana Desa anti pusing?\"",
+   "at": "2026-11-27 09:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -6786,20 +6849,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 4 slide siap",
-   "at": "2026-11-27 08:02"
+   "last": "Reels 41 detik siap (gaya merah)",
+   "at": "2026-11-27 09:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11270802 dikirim ke Bos",
-   "at": "2026-11-27 08:04"
+   "last": "Paket TikTok #11270902 dikirim ke Bos",
+   "at": "2026-11-27 09:04"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-27 06:31"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
+   "at": "2026-11-27 09:01"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -6809,6 +6872,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-27 09:04",
+   "agent": "humas",
+   "msg": "Paket TikTok #11270902 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-27 09:03",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11270902..."
+  },
+  {
+   "at": "2026-11-27 09:03",
+   "agent": "humas",
+   "msg": "#11270902 → ig, fb"
+  },
+  {
+   "at": "2026-11-27 09:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11270902 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-27 09:02",
+   "agent": "kepala",
+   "msg": "Reels #11270902 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-27 09:02",
+   "agent": "desain",
+   "msg": "Reels 41 detik siap (gaya merah)"
+  },
+  {
+   "at": "2026-11-27 09:02",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-27 09:02",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya merah..."
+  },
+  {
+   "at": "2026-11-27 09:02",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"Bikin laporan Dana Desa anti pusing?\""
+  },
+  {
+   "at": "2026-11-27 09:01",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: dana desa, BUMDes, pelaporan & pertanggungjaw"
+  },
+  {
+   "at": "2026-11-27 09:01",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-27 09:01",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-27 09:01",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
+  },
+  {
+   "at": "2026-11-27 09:01",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-27 09:01",
+   "agent": "kepala",
+   "msg": "Jadwal 09:00 WIT: reels desa"
+  },
   {
    "at": "2026-11-27 08:04",
    "agent": "humas",
@@ -7033,102 +7171,16 @@
    "at": "2026-11-26 20:01",
    "agent": "naskah",
    "msg": "Menulis carousel: digitalisasi layanan desa, website desa, Prodeskel"
-  },
-  {
-   "at": "2026-11-26 20:01",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-26 20:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-26 20:01",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-26 20:01",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-26 20:01",
-   "agent": "kepala",
-   "msg": "Jadwal 20:00 WIT: carousel desa"
-  },
-  {
-   "at": "2026-11-26 18:31",
-   "agent": "kepala",
-   "msg": "Jadwal 18:30 WIT: reels asn"
-  },
-  {
-   "at": "2026-11-26 17:03",
-   "agent": "humas",
-   "msg": "Paket TikTok #11261703 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 17:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11261703..."
-  },
-  {
-   "at": "2026-11-26 17:03",
-   "agent": "humas",
-   "msg": "#11261703 → ig, fb"
-  },
-  {
-   "at": "2026-11-26 17:03",
-   "agent": "humas",
-   "msg": "Menerbitkan #11261703 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-26 17:03",
-   "agent": "kepala",
-   "msg": "Berita #11261703 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-26 17:03",
-   "agent": "desain",
-   "msg": "Berita 2 slide siap"
-  },
-  {
-   "at": "2026-11-26 17:03",
-   "agent": "desain",
-   "msg": "Mendesain berita (2 foto)..."
-  },
-  {
-   "at": "2026-11-26 17:03",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko rendah"
-  },
-  {
-   "at": "2026-11-26 17:02",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
   }
  ],
  "stats": {
-  "published": 78,
-  "drafts": 94
+  "published": 79,
+  "drafts": 95
  },
- "updated": "2026-11-27T08:04+09:00",
- "cuan_rot": 75,
+ "updated": "2026-11-27T09:04+09:00",
+ "cuan_rot": 76,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "tegas",
-   "expr": "cemberut",
-   "theme": "kertas",
-   "cover": "potret",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "tegas__cemberut_tangan_di_pinggang",
-   "flip": false,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "semangat",
@@ -7337,10 +7389,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "merah",
+   "cover": "kiri",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": true,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Aturan Emas Pakai AI Agar Data Kantor Aman",
   "5 Contekan Prompt AI Bikin Layanan Desa Sat-Set",
   "Sorotan Draf PP Pengadaan Khusus PNS untuk Jabatan Satpol PP",
   "Kerja ASN masih lembur padahal ada tools gratisan?",
@@ -7379,7 +7441,8 @@
   "Percepatan Transformasi Digital dan Integrasi Data Instansi Pemerintah",
   "Website Desa Sepi Pengunjung? Ini Rahasia Layanan Modern",
   "Selesaikan Laporan dan Paparan Dinas dalam Hitungan Menit",
-  "Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI"
+  "Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI",
+  "Bikin laporan Dana Desa anti pusing?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -7735,12 +7798,17 @@
     "did": "11270802",
     "status": "proses",
     "at": "2026-11-27T08:02+09:00"
+   },
+   "2": {
+    "did": "11270902",
+    "status": "proses",
+    "at": "2026-11-27T09:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-27",
-  "dibuat": "2026-11-27T08:04+09:00",
+  "dibuat": "2026-11-27T09:04+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -7770,9 +7838,10 @@
     "tipe": "reels",
     "jenis": "Video Edukasi",
     "pilar": "Pemerintahan Desa",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin laporan Dana Desa anti pusing?",
+    "id": "11270902",
+    "status": "terbit",
+    "terbit": "09:03"
    },
    {
     "slot": 3,
@@ -7782,7 +7851,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 4,
