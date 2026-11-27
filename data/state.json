@@ -7054,8 +7054,8 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11271703 dikirim ke Bos",
-   "at": "2026-11-27 17:03"
+   "last": "Jadwal 18:30 WIT: reels ai",
+   "at": "2026-11-27 18:31"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -7101,6 +7101,11 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-27 18:31",
+   "agent": "kepala",
+   "msg": "Jadwal 18:30 WIT: reels ai"
+  },
   {
    "at": "2026-11-27 17:04",
    "agent": "humas",
@@ -7395,18 +7400,13 @@
    "at": "2026-11-27 09:01",
    "agent": "riset",
    "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-27 09:01",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
   }
  ],
  "stats": {
   "published": 81,
   "drafts": 98
  },
- "updated": "2026-11-27T17:05+09:00",
+ "updated": "2026-11-27T18:31+09:00",
  "cuan_rot": 78,
  "last_followers": 130,
  "style_hist": [
@@ -8050,12 +8050,17 @@
     "did": "11271703",
     "status": "proses",
     "at": "2026-11-27T17:03+09:00"
+   },
+   "6": {
+    "did": "F11270631",
+    "status": "proses",
+    "at": "2026-11-27T18:31+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-27",
-  "dibuat": "2026-11-27T17:05+09:00",
+  "dibuat": "2026-11-27T18:31+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -8129,9 +8134,9 @@
     "tipe": "reels",
     "jenis": "Video Flow",
     "pilar": "AI untuk Kerja Kantor",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin Paparan Cepat Pakai AI",
+    "id": "F11270631",
+    "status": "menunggu"
    },
    {
     "slot": 7,
@@ -8141,18 +8146,10 @@
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    }
   ],
-  "manual": [
-   {
-    "jam": "06:31",
-    "id": "F11270631",
-    "jenis": "Carousel",
-    "judul": "Bikin Paparan Cepat Pakai AI",
-    "status": "proses"
-   }
-  ],
+  "manual": [],
   "besok_tanggal": "2026-11-28",
   "besok": [
    {
