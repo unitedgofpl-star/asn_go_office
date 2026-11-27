@@ -6998,44 +6998,94 @@
    },
    "published_at": "2026-11-27T15:32+09:00",
    "errors": []
+  },
+  "11271703": {
+   "id": "11271703",
+   "type": "berita",
+   "status": "manual",
+   "created": "2026-11-27T17:03+09:00",
+   "pillar": "ASN",
+   "topic": "Prabowo: Guru PPPK Usia 35 Tahun ke Atas Bisa Ikut Seleksi CPNS Formasi Khusus",
+   "format": "berita",
+   "content": {
+    "hook": "Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS",
+    "caption": "Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS\n\nHalo Rekan ASN & Sobat Desa! Ada kabar penting mengenai dunia pendidikan. Presiden menyampaikan bahwa para guru berstatus PPPK diberikan kesempatan untuk mengikuti seleksi CPNS melalui formasi khusus, termasuk bagi yang usianya di atas 35 tahun. Kebijakan ini diumumkan pada Peringatan Hari Guru Nasional di Bogor.\n\nSelain itu, disiapkan pula pengangkatan guru PPPK paruh waktu menjadi penuh waktu tanpa melalui tes, serta rencana pengangkatan CPNS guru secara bertahap. Penyaluran tunjangan bagi guru ASN maupun non-ASN juga terus berjalan untuk mendukung kesejahteraan tenaga pendidik. Bagaimana pendapat Rekan ASN mengenai kebijakan ini? Tulis di kolom komentar ya!\n\n💡 Artinya bagi kita: Kebijakan ini memberikan kepastian karier dan peningkatan kesejahteraan bagi tenaga pendidik.\n\n📰 Sumber:\n• Kompas.com: https://nasional.kompas.com/read/2026/11/27/05044961/prabowo-guru-pppk-usia-35-tahun-ke-atas-bisa-ikut-seleksi-cpns-formasi\n• ANTARA News Gorontalo: https://gorontalo.antaranews.com/amp/berita/438427/presiden-siapkan-formasi-guru-pppk-di-atas-35-tahun-bisa-ikut-cpns\n📷 Foto: Kompas.com, ANTARA News Gorontalo\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#asn",
+     "#gurupppk",
+     "#cpns",
+     "#asngodigitals",
+     "#beritaasn"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus klaim 'jutaan guru PPPK' yang terlalu generik karena sumber menyebutkan angka spesifik atau langsung menggunakan informasi spesifik.",
+      "Memastikan tanggal Hari Guru Nasional 2026 sesuai dengan sumber (Kamis, 26/11/2026).",
+      "Menyesuaikan rincian pengangkatan guru PPPK paruh waktu dan formasi CPNS agar selaras dengan data di sumber."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS. Pemerintah membuka formasi khusus seleksi CPNS bagi guru PPPK.",
+     "Presiden menyampaikan kebijakan ini dalam acara Hari Guru Nasional 2026 di Sentul, Bogor.",
+     "Kesempatan ini diberikan untuk meningkatkan kesejahteraan serta kepastian jenjang karier tenaga pendidik. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11271703/slide_01.jpg",
+    "public/11271703/slide_02.jpg",
+    "public/11271703/slide_03.jpg"
+   ],
+   "sources": [
+    "https://nasional.kompas.com/read/2026/11/27/05044961/prabowo-guru-pppk-usia-35-tahun-ke-atas-bisa-ikut-seleksi-cpns-formasi",
+    "https://gorontalo.antaranews.com/amp/berita/438427/presiden-siapkan-formasi-guru-pppk-di-atas-35-tahun-bisa-ikut-cpns"
+   ],
+   "scheduled_at": "2026-11-27T17:03+09:00",
+   "published": {},
+   "published_at": "2026-11-27T17:03+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11271531 dikirim ke Bos",
-   "at": "2026-11-27 15:32"
+   "last": "Berita #11271703 dikirim ke Bos",
+   "at": "2026-11-27 17:03"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-27 15:31"
+   "last": "Berita: \"Prabowo: Guru PPPK Usia 35 Tahun ke Atas Bisa Ikut Seleksi C\" (2 sumber, 3 foto)",
+   "at": "2026-11-27 17:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"4 Trik Excel Ini Bikin Laporan Kantor Cepat Kelar\"",
-   "at": "2026-11-27 15:31"
+   "last": "Rangkuman: \"Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS\"",
+   "at": "2026-11-27 17:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 4 catatan",
-   "at": "2026-11-27 15:31"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-27 17:03"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "7 slide gaya tosca siap",
-   "at": "2026-11-27 15:31"
+   "last": "Berita 3 slide siap",
+   "at": "2026-11-27 17:03"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11271531 dikirim ke Bos",
-   "at": "2026-11-27 15:34"
+   "last": "Paket TikTok #11271703 dikirim ke Bos",
+   "at": "2026-11-27 17:04"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -7051,6 +7101,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-27 17:04",
+   "agent": "humas",
+   "msg": "Paket TikTok #11271703 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-27 17:03",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11271703..."
+  },
+  {
+   "at": "2026-11-27 17:03",
+   "agent": "humas",
+   "msg": "#11271703 dikirim sebagai paket manual (token Meta mati)"
+  },
+  {
+   "at": "2026-11-27 17:03",
+   "agent": "humas",
+   "msg": "Menerbitkan #11271703 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-27 17:03",
+   "agent": "kepala",
+   "msg": "Berita #11271703 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-27 17:03",
+   "agent": "desain",
+   "msg": "Berita 3 slide siap"
+  },
+  {
+   "at": "2026-11-27 17:03",
+   "agent": "desain",
+   "msg": "Mendesain berita (3 foto)..."
+  },
+  {
+   "at": "2026-11-27 17:03",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-27 17:02",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-27 17:02",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS\""
+  },
+  {
+   "at": "2026-11-27 17:01",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 2 sumber..."
+  },
+  {
+   "at": "2026-11-27 17:01",
+   "agent": "riset",
+   "msg": "Berita: \"Prabowo: Guru PPPK Usia 35 Tahun ke Atas Bisa Ikut Seleksi C\" (2 sumber, 3 foto)"
+  },
+  {
+   "at": "2026-11-27 17:01",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-27 17:01",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-27 17:01",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita desa"
+  },
   {
    "at": "2026-11-27 15:34",
    "agent": "humas",
@@ -7275,88 +7400,13 @@
    "at": "2026-11-27 09:01",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-27 09:01",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-27 09:01",
-   "agent": "kepala",
-   "msg": "Jadwal 09:00 WIT: reels desa"
-  },
-  {
-   "at": "2026-11-27 08:04",
-   "agent": "humas",
-   "msg": "Paket TikTok #11270802 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-27 08:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11270802..."
-  },
-  {
-   "at": "2026-11-27 08:03",
-   "agent": "humas",
-   "msg": "#11270802 → ig, fb"
-  },
-  {
-   "at": "2026-11-27 08:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11270802 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-27 08:02",
-   "agent": "kepala",
-   "msg": "Berita #11270802 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-27 08:02",
-   "agent": "desain",
-   "msg": "Berita 4 slide siap"
-  },
-  {
-   "at": "2026-11-27 08:02",
-   "agent": "desain",
-   "msg": "Mendesain berita (4 foto)..."
-  },
-  {
-   "at": "2026-11-27 08:02",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko rendah"
-  },
-  {
-   "at": "2026-11-27 08:02",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-27 08:02",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI\""
-  },
-  {
-   "at": "2026-11-27 08:01",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 1 sumber..."
-  },
-  {
-   "at": "2026-11-27 08:01",
-   "agent": "riset",
-   "msg": "Berita: \"Berita Kini - Menkomdigi Minta Dewas Baru Kawal Transformasi\" (1 sumber, 4 foto)"
-  },
-  {
-   "at": "2026-11-27 08:01",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
   }
  ],
  "stats": {
   "published": 81,
-  "drafts": 97
+  "drafts": 98
  },
- "updated": "2026-11-27T15:34+09:00",
+ "updated": "2026-11-27T17:04+09:00",
  "cuan_rot": 78,
  "last_followers": 130,
  "style_hist": [
@@ -7582,7 +7632,6 @@
   }
  ],
  "recent_hooks": [
-  "Kerja ASN masih lembur padahal ada tools gratisan?",
   "Kesalahan Perencanaan Desa yang Sering Menyebabkan Siskeudes Error",
   "Desa Makin Digital, Ini Tools AI Gratis Wajib Punya",
   "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
@@ -7621,7 +7670,8 @@
   "Menkomdigi Minta Dewas Baru Kawal Transformasi Digital RRI",
   "Bikin laporan Dana Desa anti pusing?",
   "Kerja Kantor Kilat Pakai AI, Beres Tanpa Lembur",
-  "Trik Excel Ini Bikin Laporan Kantor Cepat Kelar"
+  "Trik Excel Ini Bikin Laporan Kantor Cepat Kelar",
+  "Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -7670,7 +7720,10 @@
   "bpsdm hukum percepat transformasi digital layanan pengembang",
   "menkomdigi minta dewas baru kawal transformasi digital rri",
   "pemkab bangka barat perkuat transformasi digital dukung spbe",
-  "berita kini   menkomdigi minta dewas baru kawal transformasi"
+  "berita kini   menkomdigi minta dewas baru kawal transformasi",
+  "prabowo  guru pppk usia 35 tahun ke atas bisa ikut seleksi c",
+  "guru pppk di atas usia 35 tahun bisa ikut seleksi cpns 2027",
+  "presiden siapkan formasi  guru pppk di atas 35 tahun bisa ik"
  ],
  "slot_log": {
   "2026-11-20": {
@@ -7992,12 +8045,17 @@
     "did": "11271531",
     "status": "proses",
     "at": "2026-11-27T15:32+09:00"
+   },
+   "5": {
+    "did": "11271703",
+    "status": "proses",
+    "at": "2026-11-27T17:03+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-27",
-  "dibuat": "2026-11-27T15:34+09:00",
+  "dibuat": "2026-11-27T17:04+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -8060,9 +8118,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS",
+    "id": "11271703",
+    "status": "manual",
+    "terbit": "17:03"
    },
    {
     "slot": 6,
@@ -8072,7 +8131,7 @@
     "pilar": "AI untuk Kerja Kantor",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 7,
@@ -8185,7 +8244,9 @@
    "hasil": "halaman terbuka tapi harga tidak terbaca"
   }
  },
- "meta": {},
+ "meta": {
+  "token_mati": "2026-11-27T17:03+09:00"
+ },
  "flow_lokasi": [
   "Ruang kerja kantor desa dengan tumpukan ",
   "Ruang rapat koordinasi kantor dinas deng",
