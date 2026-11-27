@@ -185,12 +185,10 @@ def unduh(file_id, out):
 
 
 def _small_badge(cfg):
-    im = Image.new("RGBA", (W, 160), (0, 0, 0, 0))
-    d = ImageDraw.Draw(im)
-    d.rounded_rectangle([W - 360, 40, W - 30, 118], 39, fill=(11, 31, 58, 215))
-    d.rounded_rectangle([W - 350, 50, W - 292, 108], 14, fill=VK.RED + (255,))
-    d.text((W - 321, 79), "AG", font=VK.font("int_k", 28), fill=VK.WHITE, anchor="mm")
-    d.text((W - 278, 79), cfg["brand"]["handle"], font=VK.font("pop_b", 26), fill=VK.WHITE, anchor="lm")
+    from .desain import logo_badge
+    im = Image.new("RGBA", (W, 170), (0, 0, 0, 0))
+    lb = logo_badge(84)
+    im.alpha_composite(lb, (W - lb.width - 30, 40))
     return im
 
 

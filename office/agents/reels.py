@@ -57,11 +57,9 @@ def _bg(t):
 
 
 def _brand(img, t, cfg):
+    lw = D.put_logo(img, 60, 140, 84)
     d = ImageDraw.Draw(img)
-    d.rounded_rectangle([60, 150, 116, 206], 14, fill=D.hexc(t["accent"]))
-    d.text((88, 178), "AG", font=D.F("pop_b", 24), fill="white", anchor="mm")
-    d.text((132, 158), cfg["brand"]["name"], font=D.F("pop_b", 28), fill=D.hexc(t["text"]))
-    d.text((132, 190), cfg["brand"]["handle"], font=D.F("pop_r", 22), fill=D.hexc(t["muted"]))
+    d.text((60 + lw + 14, 182), cfg["brand"]["handle"], font=D.F("pop_m", 24), fill=D.hexc(t["muted"]), anchor="lm")
 
 
 def frame_hook(cfg, t, st, sc):

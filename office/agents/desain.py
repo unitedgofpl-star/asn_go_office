@@ -233,12 +233,52 @@ def dramatic_bg(seed=0):
 
 
 # ------------------------------------------------------------------ elemen
+_LOGO = {}
+
+
+def logo_badge(h=80, pad=None):
+    """Logo resmi ASN Go Digital di atas kapsul putih (terbaca di latar gelap maupun terang)."""
+    if h in _LOGO:
+        return _LOGO[h]
+    src = ROOT / "assets" / "logo_asn_go_digital.png"
+    pad = pad or max(6, int(h * 0.14))
+    if not src.exists():
+        im = Image.new("RGBA", (h * 2, h), (0, 0, 0, 0))
+        ImageDraw.Draw(im).rounded_rectangle([0, 0, h * 2 - 1, h - 1], h // 4, fill=(255, 255, 255, 240))
+        _LOGO[h] = im
+        return im
+    lg = Image.open(src).convert("RGBA")
+    lh = h - 2 * pad
+    lg = lg.resize((int(lg.width * lh / lg.height), lh), Image.LANCZOS)
+    im = Image.new("RGBA", (lg.width + 2 * pad + int(h * .12), h), (0, 0, 0, 0))
+    sh = Image.new("RGBA", im.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle([2, 4, im.width - 1, h - 1], int(h * .3), fill=(0, 0, 0, 70))
+    im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(3)))
+    ImageDraw.Draw(im).rounded_rectangle([0, 0, im.width - 3, h - 4], int(h * .3), fill=(255, 255, 255, 250))
+    im.alpha_composite(lg, (pad + int(h * .05), pad - 2))
+    _LOGO[h] = im
+    return im
+
+
+def put_logo(img, x, y, h=80, anchor="la"):
+    lb = logo_badge(h)
+    if anchor[0] == "r":
+        x -= lb.width
+    elif anchor[0] == "m":
+        x -= lb.width // 2
+    if img.mode != "RGBA":
+        base = img.convert("RGBA")
+        base.alpha_composite(lb, (int(x), int(y)))
+        img.paste(base.convert(img.mode))
+    else:
+        img.alpha_composite(lb, (int(x), int(y)))
+    return lb.width
+
+
 def chrome(img, t, brand, pillar, idx, total):
+    lw = put_logo(img, 52, 46, 78)
     d = ImageDraw.Draw(img)
-    d.rounded_rectangle([60, 56, 116, 112], 14, fill=hexc(t["accent"]))
-    d.text((88, 84), "AG", font=F("pop_b", 24), fill="white", anchor="mm")
-    d.text((132, 62), brand["name"], font=F("pop_b", 28), fill=hexc(t["text"]))
-    d.text((132, 94), brand["handle"], font=F("pop_r", 22), fill=hexc(t["muted"]))
+    d.text((52 + lw + 14, 85), brand["handle"], font=F("pop_m", 22), fill=hexc(t["muted"]), anchor="lm")
     tag = pillar.upper()
     tf = F("pop_m", 22)
     tw = d.textlength(tag, font=tf)
@@ -453,7 +493,7 @@ def cover(cfg, t, st, content, pillar, total, scene=None):
             lines_at(d, (70, y + 24), sl, sf, ss, hexc(t["muted"]))
         portrait(img, t, face_crop(st["pose"], st["flip"], st.get("expr")), W - 200, 330 if nw < 600 else 1130, 120)
         if name:
-            d.text((W - 200, 470 if nw < 600 else 990), f"{name} • AI", font=F("pop_i", 22), fill=hexc(t["muted"]), anchor="mm")
+            d.text((W - 200, 470 if nw < 600 else 990), f"{name}", font=F("pop_i", 22), fill=hexc(t["muted"]), anchor="mm")
 
     else:  # potret
         portrait(img, t, face_crop(st["pose"], st["flip"], st.get("expr")), W // 2, 380, 190)
@@ -743,10 +783,9 @@ def news_cover(cfg, photo, data, sources, date_text, total, credit=None, show_po
     else:
         img = background(THEMES["navy"])
     d = ImageDraw.Draw(img)
-    d.rounded_rectangle([50, 50, 106, 106], 14, fill=hexc("#E63946"))
-    d.text((78, 78), "AG", font=F("pop_b", 24), fill="white", anchor="mm")
-    d.text((122, 56), brand["name"], font=F("pop_b", 28), fill="white")
-    d.text((122, 88), brand["handle"], font=F("pop_r", 22), fill=(220, 225, 235, 255))
+    lw = put_logo(img, 46, 42, 76)
+    d = ImageDraw.Draw(img)
+    d.text((46 + lw + 12, 80), brand["handle"], font=F("pop_m", 22), fill=(230, 234, 242, 255), anchor="lm")
     if total > 1:
         d.text((W - 60, 78), f"1/{total}", font=F("int_sb", 26), fill="white", anchor="rm")
     y = 700 if photo is not None else 230
@@ -779,6 +818,8 @@ def news_photo_slide(cfg, photo, text, credit, idx, total, pilar):
     img.alpha_composite(ph, (0, 0))
     img = _shade(img, 640, 880, 0, 120)
     d = ImageDraw.Draw(img)
+    put_logo(img, 40, 36, 66)
+    d = ImageDraw.Draw(img)
     d.rounded_rectangle([W - 140, 40, W - 40, 88], 24, fill=(0, 0, 0, 150))
     d.text((W - 90, 64), f"{idx}/{total}", font=F("int_sb", 26), fill="white", anchor="mm")
     d.text((W - 40, 860), f"Foto: {credit}"[:48], font=F("pop_i", 20), fill=(235, 238, 245, 255), anchor="rb")
@@ -806,6 +847,8 @@ def news_points_slide(cfg, data, photo, credit, idx, total):
         img.alpha_composite(ph, (0, 0))
         img = _shade(img, 300, 470, 0, 200)
         top = 560
+    d = ImageDraw.Draw(img)
+    put_logo(img, 40, 36, 66)
     d = ImageDraw.Draw(img)
     d.rounded_rectangle([W - 140, 40, W - 40, 88], 24, fill=(0, 0, 0, 150))
     d.text((W - 90, 64), f"{idx}/{total}", font=F("int_sb", 26), fill="white", anchor="mm")

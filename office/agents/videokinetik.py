@@ -188,12 +188,10 @@ def badge(cfg):
     d.rectangle([W * 0.62, 0, W, 22], fill=WHITE + (255,))
     d.rounded_rectangle([764, 22, W + 60, 256], 50, fill=(11, 31, 58, 255))
     d.rectangle([900, 22, W, 70], fill=(11, 31, 58, 255))
-    d.rounded_rectangle([790, 104, 902, 216], 24, fill=WHITE + (255,))
-    d.rounded_rectangle([800, 114, 892, 206], 18, fill=RED + (255,))
-    d.text((846, 160), "AG", font=font("int_k", 46), fill=WHITE, anchor="mm")
-    nm = cfg["brand"]["name"].split()
-    d.text((918, 118), " ".join(nm[:2]) if len(nm) > 2 else nm[0], font=font("pop_b", 38), fill=WHITE)
-    d.text((918, 166), " ".join(nm[2:]) if len(nm) > 2 else " ".join(nm[1:]), font=font("pop_b", 32), fill=GOLD)
+    lb = D.logo_badge(110)
+    s_ = min(1.0, 290 / lb.width)
+    lb = lb.resize((int(lb.width * s_), int(lb.height * s_)), Image.LANCZOS)
+    im.alpha_composite(lb, (int(922 - lb.width / 2 + 6), int(139 - lb.height / 2)))
     return im
 
 
@@ -250,7 +248,8 @@ def end_card(cfg, sc, product, harga_txt, ket_txt, t, promo):
         di.rectangle([62, 56 + k * 22, 128 - (20 if k == 3 else 0), 64 + k * 22], fill=NAVY + (255,))
     di.rounded_rectangle([96, 118, 166, 170], 12, fill=RED + (255,))
     di.text((131, 144), "AI", font=font("int_k", 30), fill=WHITE, anchor="mm")
-    paste_scaled(im, ic, W / 2, 250, 0.6 + 0.4 * a1, a1)
+    lb = D.logo_badge(150)
+    paste_scaled(im, lb, W / 2, 250, 0.6 + 0.4 * a1, a1)
     d = ImageDraw.Draw(im)
     nama = product["name"] if (promo and product) else "Simpan & bagikan"
     f = font("pop_b", 64)

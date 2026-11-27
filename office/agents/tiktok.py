@@ -26,8 +26,10 @@ def _frame(slide_path, cfg, idx, total):
     bg = Image.new("RGB", (W, H), c["bg"])
     d = ImageDraw.Draw(bg)
     # header & footer bermerek (area aman TikTok: atas 150px, bawah 400px tertutup UI)
-    d.text((W / 2, 200), cfg["brand"].get("wordmark", "ASN GO DIGITALS"), font=_font("BoldItalic", 44), fill=c["gold"], anchor="mm")
-    d.text((W / 2, 255), f"{idx}/{total}", font=_font("Medium", 30), fill=c["muted"], anchor="mm")
+    from .desain import put_logo
+    put_logo(bg, W / 2, 150, 90, anchor="ma")
+    d = ImageDraw.Draw(bg)
+    d.text((W / 2, 268), f"{idx}/{total}", font=_font("Medium", 28), fill=c["muted"], anchor="mm")
     sl = Image.open(slide_path).convert("RGB").resize((W, 1350))
     bg.paste(sl, (0, 300))
     d.rectangle([0, 1650, W / 2, 1662], fill="#E63946")
