@@ -7264,44 +7264,92 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11280803": {
+   "id": "11280803",
+   "type": "berita",
+   "status": "manual",
+   "created": "2026-11-28T08:03+09:00",
+   "pillar": "ASN",
+   "topic": "Guru PPPK Paruh Waktu di Karanganyar Didata, Diusulkan Jadi Penuh Waktu Tanpa Tes",
+   "format": "berita",
+   "content": {
+    "hook": "Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu",
+    "caption": "Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu\n\nHalo Rekan ASN & Sobat Desa! BKPSDM Kabupaten Karanganyar melakukan pendataan terhadap guru berstatus Pegawai Pemerintah dengan Perjanjian Kerja Paruh Waktu. Guru yang masuk Data Pokok Pendidikan serta memiliki sertifikasi Pendidikan Profesi Guru akan diusulkan beralih status menjadi PPPK Penuh Waktu tanpa tes seleksi. Sementara itu, tenaga kesehatan dan teknis masih menunggu petunjuk lanjutan dari pusat. Bagaimana persiapan data kepegawaian di instansi tempat Rekan ASN bertugas?\n\n💡 Artinya bagi kita: Kebijakan ini menjadi langkah penting bagi tenaga pendidik untuk mendapatkan kejelasan status kepegawaian tanpa melalui tahapan tes.\n\n📰 Sumber:\n• Kompas.com: https://regional.kompas.com/read/2026/11/27/164618978/guru-pppk-paruh-waktu-di-karanganyar-didata-diusulkan-jadi-penuh-waktu\n📷 Foto: Kompas.com\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#ASN",
+     "#PPPK",
+     "#KabupatenKaranganyar",
+     "#BKPSDM",
+     "#GuruPPPK",
+     "#BeritaASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Menghapus klaim penyebutan tanggal spesifik Senin tanpa tanggal lengkap yang tidak sesuai sumber (sumber menyebut Senin (30/11/2026)).",
+      "Menyesuaikan kalimat pada poin agar tidak menyalin kalimat panjang dari sumber."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu. BKPSDM Karanganyar mendata guru PPPK paruh waktu untuk diusulkan menjadi penuh waktu tanpa tes.",
+     "Poin pentingnya. BKPSDM Kabupaten Karanganyar mendata guru berstatus PPPK Paruh Waktu.. Peralihan status menjadi Penuh Waktu direncanakan tanpa melalui tes seleksi.. Syarat pengusulan meliputi masuk Dapodik serta memiliki sertifikasi PPG.. Pendataan khusus guru ditargetkan rampung paling lambat hari Senin.. Kebijakan ini menjadi langkah penting bagi tenaga pendidik untuk mendapatkan kejelasan status kepegawaian tanpa melalui tahapan tes. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11280803/slide_01.jpg",
+    "public/11280803/slide_02.jpg"
+   ],
+   "sources": [
+    "https://regional.kompas.com/read/2026/11/27/164618978/guru-pppk-paruh-waktu-di-karanganyar-didata-diusulkan-jadi-penuh-waktu"
+   ],
+   "scheduled_at": "2026-11-28T08:03+09:00",
+   "published": {},
+   "published_at": "2026-11-28T08:03+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11280631 dikirim ke Bos",
-   "at": "2026-11-28 06:32"
+   "last": "Berita #11280803 dikirim ke Bos",
+   "at": "2026-11-28 08:03"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-28 06:31"
+   "last": "Berita: \"Guru PPPK Paruh Waktu di Karanganyar Didata, Diusulkan Jadi \" (1 sumber, 1 foto)",
+   "at": "2026-11-28 08:02"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Bikin Draft SK Kades dan Perdes Kilat Pakai AI\"",
-   "at": "2026-11-28 06:31"
+   "last": "Rangkuman: \"Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu\"",
+   "at": "2026-11-28 08:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 3 catatan",
-   "at": "2026-11-28 06:31"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-28 08:03"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "6 slide gaya kertas siap",
-   "at": "2026-11-28 06:31"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-28 08:03"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11280631 dikirim ke Bos",
-   "at": "2026-11-28 06:33"
+   "last": "Paket TikTok #11280803 dikirim ke Bos",
+   "at": "2026-11-28 08:04"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -7317,6 +7365,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-28 08:04",
+   "agent": "humas",
+   "msg": "Paket TikTok #11280803 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-28 08:03",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11280803..."
+  },
+  {
+   "at": "2026-11-28 08:03",
+   "agent": "humas",
+   "msg": "#11280803 dikirim sebagai paket manual (token Meta mati)"
+  },
+  {
+   "at": "2026-11-28 08:03",
+   "agent": "humas",
+   "msg": "Menerbitkan #11280803 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-28 08:03",
+   "agent": "kepala",
+   "msg": "Berita #11280803 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-28 08:03",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-28 08:03",
+   "agent": "desain",
+   "msg": "Mendesain berita (1 foto)..."
+  },
+  {
+   "at": "2026-11-28 08:03",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-28 08:02",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-28 08:02",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu\""
+  },
+  {
+   "at": "2026-11-28 08:02",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-28 08:02",
+   "agent": "riset",
+   "msg": "Berita: \"Guru PPPK Paruh Waktu di Karanganyar Didata, Diusulkan Jadi \" (1 sumber, 1 foto)"
+  },
+  {
+   "at": "2026-11-28 08:02",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-28 08:02",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-28 08:02",
+   "agent": "kepala",
+   "msg": "Jadwal 08:00 WIT: berita ai"
+  },
   {
    "at": "2026-11-28 06:33",
    "agent": "humas",
@@ -7541,88 +7664,13 @@
    "at": "2026-11-27 17:02",
    "agent": "naskah",
    "msg": "Rangkuman: \"Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS\""
-  },
-  {
-   "at": "2026-11-27 17:01",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 2 sumber..."
-  },
-  {
-   "at": "2026-11-27 17:01",
-   "agent": "riset",
-   "msg": "Berita: \"Prabowo: Guru PPPK Usia 35 Tahun ke Atas Bisa Ikut Seleksi C\" (2 sumber, 3 foto)"
-  },
-  {
-   "at": "2026-11-27 17:01",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
-  },
-  {
-   "at": "2026-11-27 17:01",
-   "agent": "kepala",
-   "msg": "Meminta tim memantau berita terkini"
-  },
-  {
-   "at": "2026-11-27 17:01",
-   "agent": "kepala",
-   "msg": "Jadwal 17:00 WIT: berita desa"
-  },
-  {
-   "at": "2026-11-27 15:34",
-   "agent": "humas",
-   "msg": "Paket TikTok #11271531 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-27 15:32",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11271531..."
-  },
-  {
-   "at": "2026-11-27 15:32",
-   "agent": "humas",
-   "msg": "#11271531 → ig, fb"
-  },
-  {
-   "at": "2026-11-27 15:32",
-   "agent": "humas",
-   "msg": "Menerbitkan #11271531 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-27 15:32",
-   "agent": "kepala",
-   "msg": "Draft #11271531 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-27 15:31",
-   "agent": "desain",
-   "msg": "7 slide gaya tosca siap"
-  },
-  {
-   "at": "2026-11-27 15:31",
-   "agent": "desain",
-   "msg": "Mendesain gaya tosca/kiri/grid/kartu..."
-  },
-  {
-   "at": "2026-11-27 15:31",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 4 catatan"
-  },
-  {
-   "at": "2026-11-27 15:31",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-27 15:31",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"4 Trik Excel Ini Bikin Laporan Kantor Cepat Kelar\""
   }
  ],
  "stats": {
   "published": 81,
-  "drafts": 101
+  "drafts": 102
  },
- "updated": "2026-11-28T06:33+09:00",
+ "updated": "2026-11-28T08:04+09:00",
  "cuan_rot": 80,
  "last_followers": 130,
  "style_hist": [
@@ -7848,7 +7896,6 @@
   }
  ],
  "recent_hooks": [
-  "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
   "Bikin SKP digital lama banget?",
   "Duh, Bikin SK Kades dan Perdes Masih Manual?",
   "4 Kebiasaan ASN yang Bikin SKP Digital Macet",
@@ -7887,7 +7934,8 @@
   "Trik Excel Ini Bikin Laporan Kantor Cepat Kelar",
   "Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS",
   "Bikin Laporan Kantor Tanpa Rumus Rumit",
-  "Bikin Draft SK Kades dan Perdes Kilat Pakai AI"
+  "Bikin Draft SK Kades dan Perdes Kilat Pakai AI",
+  "Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -7939,7 +7987,9 @@
   "berita kini   menkomdigi minta dewas baru kawal transformasi",
   "prabowo  guru pppk usia 35 tahun ke atas bisa ikut seleksi c",
   "guru pppk di atas usia 35 tahun bisa ikut seleksi cpns 2027",
-  "presiden siapkan formasi  guru pppk di atas 35 tahun bisa ik"
+  "presiden siapkan formasi  guru pppk di atas 35 tahun bisa ik",
+  "januari 2027  579 guru pppk paruh waktu di riau ditargetkan ",
+  "guru pppk paruh waktu di karanganyar didata  diusulkan jadi "
  ],
  "slot_log": {
   "2026-11-21": {
@@ -8241,12 +8291,17 @@
     "did": "11280631",
     "status": "proses",
     "at": "2026-11-28T06:32+09:00"
+   },
+   "1": {
+    "did": "11280803",
+    "status": "proses",
+    "at": "2026-11-28T08:03+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-28",
-  "dibuat": "2026-11-28T06:33+09:00",
+  "dibuat": "2026-11-28T08:04+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -8265,9 +8320,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu",
+    "id": "11280803",
+    "status": "manual",
+    "terbit": "08:03"
    },
    {
     "slot": 2,
@@ -8277,7 +8333,7 @@
     "pilar": "Digitalisasi ASN",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 3,
@@ -8431,7 +8487,7 @@
   }
  },
  "meta": {
-  "token_mati": "2026-11-28T06:32+09:00"
+  "token_mati": "2026-11-28T08:03+09:00"
  },
  "flow_lokasi": [
   "Ruang kerja kantor desa dengan tumpukan ",
