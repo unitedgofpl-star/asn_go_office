@@ -7048,50 +7048,134 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11272002": {
+   "id": "11272002",
+   "status": "manual",
+   "created": "2026-11-27T20:02+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "Google Workspace / Excel untuk laporan kantor",
+   "format": "carousel_tutorial",
+   "product": "naskah",
+   "content": {
+    "hook": "Bikin Laporan Kantor Tanpa Rumus Rumit",
+    "subtitle": "Trik Excel kilat khusus rekan ASN dan Sobat Desa",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Gunakan Fitur Flash Fill",
+      "sub": "Gabung atau pisah teks otomatis tanpa rumus",
+      "icon": "⚡"
+     },
+     {
+      "title": "Manfaatkan Quick Analysis",
+      "sub": "Bikin grafik dan tabel dalam sekali klik",
+      "icon": "📊"
+     },
+     {
+      "title": "Gunakan Fungsi XLOOKUP",
+      "sub": "Cari data laporan lebih akurat dan cepat",
+      "icon": "🔍"
+     }
+    ],
+    "details": [
+     {
+      "title": "Gunakan Fitur Flash Fill",
+      "body": "Halo Rekan ASN! Ketik manual contoh data pertama di kolom sebelah, lalu tekan Ctrl + E. Excel otomatis merapikan nama atau NIP tanpa rumus panjang.",
+      "icon": "⚡"
+     },
+     {
+      "title": "Manfaatkan Quick Analysis",
+      "sub": "",
+      "body": "Sobat Desa sering buru-buru bikin laporan? Blok tabel data Anda, lalu klik ikon kecil di pojok kanan bawah atau tekan Ctrl + Q. Pilih format, grafik, atau total data secara instan.",
+      "icon": "📊"
+     },
+     {
+      "title": "Gunakan Fungsi XLOOKUP",
+      "sub": "",
+      "body": "Gunakan fungsi XLOOKUP untuk mencocokkan data kegiatan atau anggaran dengan jauh lebih mudah dan akurat.",
+      "icon": "🔍"
+     }
+    ],
+    "note": "Sesuaikan format laporan dengan pedoman instansi masing-masing ya.",
+    "cta": "Bagikan trik ini ke rekan kerja semeja Anda!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering pusing pas deadline laporan kantor menumpuk tapi rumus Excel malah error? Tenang, ada trik kilat nih buat bikin pekerjaan selesai lebih cepat tanpa perlu lembur.\n\nMulai dari merapikan data pakai Flash Fill sampai bikin grafik instan, semua bisa dipraktikkan sekarang juga. Kerja beres, hati tenang, pulang tepat waktu!\n\nSIMPAN postingan ini supaya tidak lupa waktu menyusun laporan, dan BAGIKAN ke grup WhatsApp kantor ya. Apa rumus Excel yang paling sering bikin Anda pusing? Coba tulis di kolom komentar!\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#DigitalisasiASN",
+     "#PemerintahanDesa",
+     "#TipsExcel",
+     "#ASNproduktif",
+     "#Siskeudes",
+     "#PNS",
+     "#PPPK"
+    ],
+    "_qc": {
+     "issues": [
+      "Nama karakter 'Cicilia' dihapus karena tidak relevan dengan identitas editor Kaka Agus.",
+      "Tagar '#asn_go_digitals' diperbaiki menjadi lebih sesuai kaidah EYD/umum."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11272002/slide_01.jpg",
+    "public/11272002/slide_02.jpg",
+    "public/11272002/slide_03.jpg",
+    "public/11272002/slide_04.jpg",
+    "public/11272002/slide_05.jpg",
+    "public/11272002/slide_06.jpg"
+   ],
+   "scheduled_at": "2026-11-28T19:00+09:00",
+   "published": {},
+   "published_at": "2026-11-27T20:02+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Jadwal 18:30 WIT: reels ai",
-   "at": "2026-11-27 18:31"
+   "last": "Draft #11272002 dikirim ke Bos",
+   "at": "2026-11-27 20:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Prabowo: Guru PPPK Usia 35 Tahun ke Atas Bisa Ikut Seleksi C\" (2 sumber, 3 foto)",
-   "at": "2026-11-27 17:01"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-27 20:02"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS\"",
-   "at": "2026-11-27 17:02"
+   "last": "Draft selesai: \"Bikin Laporan Kantor Tanpa Rumus Rumit\"",
+   "at": "2026-11-27 20:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "Cek berita selesai — risiko sedang",
-   "at": "2026-11-27 17:03"
+   "last": "QC selesai — risiko rendah, 2 catatan",
+   "at": "2026-11-27 20:02"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 3 slide siap",
-   "at": "2026-11-27 17:03"
+   "last": "6 slide gaya merah siap",
+   "at": "2026-11-27 20:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11271703 dikirim ke Bos",
-   "at": "2026-11-27 17:04"
+   "last": "Paket TikTok #11272002 dikirim ke Bos",
+   "at": "2026-11-27 20:03"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-27 15:31"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-27 20:02"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -7101,6 +7185,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-27 20:03",
+   "agent": "humas",
+   "msg": "Paket TikTok #11272002 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11272002..."
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "humas",
+   "msg": "#11272002 dikirim sebagai paket manual (token Meta mati)"
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11272002 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "kepala",
+   "msg": "Draft #11272002 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "desain",
+   "msg": "6 slide gaya merah siap"
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "desain",
+   "msg": "Mendesain gaya merah/kanan/kartu/angka..."
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 2 catatan"
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"Bikin Laporan Kantor Tanpa Rumus Rumit\""
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "naskah",
+   "msg": "Menulis carousel: Google Workspace / Excel untuk laporan kantor"
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-27 20:02",
+   "agent": "kepala",
+   "msg": "Jadwal 20:00 WIT: carousel asn"
+  },
   {
    "at": "2026-11-27 18:31",
    "agent": "kepala",
@@ -7320,107 +7484,16 @@
    "at": "2026-11-27 12:02",
    "agent": "riset",
    "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-27 12:02",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-27 12:02",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-27 12:02",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-27 12:02",
-   "agent": "kepala",
-   "msg": "Jadwal 12:00 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-27 09:04",
-   "agent": "humas",
-   "msg": "Paket TikTok #11270902 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-27 09:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11270902..."
-  },
-  {
-   "at": "2026-11-27 09:03",
-   "agent": "humas",
-   "msg": "#11270902 → ig, fb"
-  },
-  {
-   "at": "2026-11-27 09:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11270902 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-27 09:02",
-   "agent": "kepala",
-   "msg": "Reels #11270902 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-27 09:02",
-   "agent": "desain",
-   "msg": "Reels 41 detik siap (gaya merah)"
-  },
-  {
-   "at": "2026-11-27 09:02",
-   "agent": "desain",
-   "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-27 09:02",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya merah..."
-  },
-  {
-   "at": "2026-11-27 09:02",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Bikin laporan Dana Desa anti pusing?\""
-  },
-  {
-   "at": "2026-11-27 09:01",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: dana desa, BUMDes, pelaporan & pertanggungjaw"
-  },
-  {
-   "at": "2026-11-27 09:01",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-27 09:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
   }
  ],
  "stats": {
   "published": 81,
-  "drafts": 98
+  "drafts": 99
  },
- "updated": "2026-11-27T18:31+09:00",
- "cuan_rot": 78,
+ "updated": "2026-11-27T20:03+09:00",
+ "cuan_rot": 79,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "tegas",
-   "expr": "cemberut",
-   "theme": "ungu",
-   "cover": "kiri",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "tegas__cemberut_tangan_di_pinggang",
-   "flip": true,
-   "cta": "potret"
-  },
   {
    "mood": "terkejut",
    "expr": "terkejut",
@@ -7629,10 +7702,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": false,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "merah",
+   "cover": "kanan",
+   "list": "kartu",
+   "detail": "angka",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Kesalahan Perencanaan Desa yang Sering Menyebabkan Siskeudes Error",
   "Desa Makin Digital, Ini Tools AI Gratis Wajib Punya",
   "106 Desa di Tabalong Tuntaskan Pembangunan RTH Smart",
   "Bikin SKP digital lama banget?",
@@ -7671,7 +7754,8 @@
   "Bikin laporan Dana Desa anti pusing?",
   "Kerja Kantor Kilat Pakai AI, Beres Tanpa Lembur",
   "Trik Excel Ini Bikin Laporan Kantor Cepat Kelar",
-  "Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS"
+  "Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS",
+  "Bikin Laporan Kantor Tanpa Rumus Rumit"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -8055,12 +8139,17 @@
     "did": "F11270631",
     "status": "proses",
     "at": "2026-11-27T18:31+09:00"
+   },
+   "7": {
+    "did": "11272002",
+    "status": "proses",
+    "at": "2026-11-27T20:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-27",
-  "dibuat": "2026-11-27T18:31+09:00",
+  "dibuat": "2026-11-27T20:03+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -8144,9 +8233,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Tutorial",
     "pilar": "Digitalisasi ASN",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Bikin Laporan Kantor Tanpa Rumus Rumit",
+    "id": "11272002",
+    "status": "manual",
+    "terbit": "20:02"
    }
   ],
   "manual": [],
@@ -8242,7 +8332,7 @@
   }
  },
  "meta": {
-  "token_mati": "2026-11-27T17:03+09:00"
+  "token_mati": "2026-11-27T20:02+09:00"
  },
  "flow_lokasi": [
   "Ruang kerja kantor desa dengan tumpukan ",
