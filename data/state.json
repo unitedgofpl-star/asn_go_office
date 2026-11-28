@@ -7599,9 +7599,9 @@
    "sources": [
     "https://www.setneg.go.id/baca/index/pendaftaran_cpns_2026_dibuka_hari_ini_pemerintah_sederhanakan_persyaratan"
    ],
-   "scheduled_at": "2026-11-28T17:04+09:00",
+   "scheduled_at": "2026-11-28T17:12+09:00",
    "published": {},
-   "published_at": "2026-11-28T17:04+09:00",
+   "published_at": "2026-11-28T17:12+09:00",
    "errors": [
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
@@ -7612,8 +7612,8 @@
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11281704 dikirim ke Bos",
-   "at": "2026-11-28 17:04"
+   "last": "Perintah selesai diproses",
+   "at": "2026-11-28 17:12"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -7643,7 +7643,7 @@
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
    "last": "Paket TikTok #11281704 dikirim ke Bos",
-   "at": "2026-11-28 17:05"
+   "at": "2026-11-28 17:12"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -7659,6 +7659,36 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-28 17:12",
+   "agent": "humas",
+   "msg": "Paket TikTok #11281704 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-28 17:12",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11281704..."
+  },
+  {
+   "at": "2026-11-28 17:12",
+   "agent": "humas",
+   "msg": "#11281704 dikirim sebagai paket manual (token Meta mati)"
+  },
+  {
+   "at": "2026-11-28 17:12",
+   "agent": "humas",
+   "msg": "Menerbitkan #11281704 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-28 17:12",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-28 17:12",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-28 17:05",
    "agent": "humas",
@@ -7928,43 +7958,13 @@
    "at": "2026-11-28 09:01",
    "agent": "desain",
    "msg": "Merekam suara Cicilia & meracik musik latar..."
-  },
-  {
-   "at": "2026-11-28 09:01",
-   "agent": "desain",
-   "msg": "Membuat Reels gaya berita..."
-  },
-  {
-   "at": "2026-11-28 09:01",
-   "agent": "naskah",
-   "msg": "Naskah Reels: \"Mau SKP digital beres tanpa ribet?\""
-  },
-  {
-   "at": "2026-11-28 09:01",
-   "agent": "naskah",
-   "msg": "Menulis naskah Reels: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-"
-  },
-  {
-   "at": "2026-11-28 09:01",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-28 09:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-28 09:01",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
   }
  ],
  "stats": {
   "published": 81,
   "drafts": 106
  },
- "updated": "2026-11-28T17:05+09:00",
+ "updated": "2026-11-28T17:12+09:00",
  "cuan_rot": 83,
  "last_followers": 130,
  "style_hist": [
@@ -8617,7 +8617,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-28",
-  "dibuat": "2026-11-28T17:05+09:00",
+  "dibuat": "2026-11-28T17:12+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -8683,7 +8683,7 @@
     "judul": "Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas",
     "id": "11281704",
     "status": "manual",
-    "terbit": "17:04"
+    "terbit": "17:12"
    },
    {
     "slot": 6,
@@ -8807,7 +8807,7 @@
   }
  },
  "meta": {
-  "token_mati": "2026-11-28T17:04+09:00"
+  "token_mati": "2026-11-28T17:12+09:00"
  },
  "flow_lokasi": [
   "Ruang kerja kantor desa dengan tumpukan ",
