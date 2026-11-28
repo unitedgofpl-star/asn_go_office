@@ -7606,50 +7606,134 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11282005": {
+   "id": "11282005",
+   "status": "manual",
+   "created": "2026-11-28T20:05+09:00",
+   "pillar": "AI untuk Kerja Kantor",
+   "topic": "AI untuk membuat bahan paparan, ringkasan regulasi, analisis data",
+   "format": "carousel_listicle",
+   "product": "naskah",
+   "content": {
+    "hook": "Cara Cepat Pakai AI Bereskan Tugas Kantor",
+    "subtitle": "Paparan, regulasi, dan analisis data selesai tanpa lembur!",
+    "mood": "semangat",
+    "items": [
+     {
+      "title": "Bikin Bahan Paparan Kilat",
+      "sub": "Sulap draf laporan jadi slide menarik otomatis",
+      "icon": "📊"
+     },
+     {
+      "title": "Ringkas Regulasi Tanpa Pusing",
+      "sub": "Pahami aturan tebal dalam hitungan detik",
+      "icon": "📜"
+     },
+     {
+      "title": "Analisis Data Jadi Narasi",
+      "sub": "Ubah tabel angka mentah jadi laporan siap cetak",
+      "icon": "📈"
+     }
+    ],
+    "details": [
+     {
+      "title": "Bikin Bahan Paparan Kilat",
+      "body": "Halo Rekan ASN! Salin laporan kegiatan kantor Anda ke AI pembuat presentasi. AI akan langsung menyusun poin-poin penting ke dalam slide siap pakai untuk rapat dinas.",
+      "icon": "📊"
+     },
+     {
+      "title": "Ringkas Regulasi Tanpa Pusing",
+      "body": "Gunakan AI untuk merangkum dokumen peraturan yang tebal. Pastikan selalu memverifikasi ulang hasil ringkasan tersebut dengan naskah asli regulasi yang berlaku.",
+      "icon": "📜"
+     },
+     {
+      "title": "Analisis Data Jadi Narasi",
+      "body": "Sobat Desa sering pusing rekap data? Unggah file kerja ke AI dengan tetap menjaga kerahasiaan data, lalu minta buatkan narasi laporan perkembangan kegiatan untuk dokumen resmi.",
+      "icon": "📈"
+     }
+    ],
+    "note": "Selalu perhatikan aspek keamanan data instansi dan cek regulasi terbaru sebelum menggunakan AI.",
+    "cta": "Simpan postingan ini agar tidak lupa saat butuh!",
+    "caption": "Halo Rekan ASN & Sobat Desa! Sering keteteran bikin paparan, baca regulasi tebal, atau rekap data? Tenang, Kaka Agus punya triknya! Manfaatkan AI untuk meringkas tugas agar bisa pulang tepat waktu tanpa bawa kerjaan ke rumah. Yuk, terapkan digitalisasi kerja demi pelayanan publik yang makin gesit! Simpan dan bagikan postingan ini ke rekan sekantor ya.\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#digitalisasiasn",
+     "#pemerintahandesa",
+     "#asnberakhlak",
+     "#tipsasn",
+     "#perangkatdesa",
+     "#sipd",
+     "#siskeudes"
+    ],
+    "_qc": {
+     "issues": [
+      "Memperbaiki nama panggilan di caption dari 'Cicilia' menjadi 'Kaka Agus' agar konsisten dengan persona.",
+      "Memperbaiki struktur pada item details kedua yang sebelumnya keliru menggunakan sub dan icon, disesuaikan menjadi body dengan teks penjelasan yang sesuai.",
+      "Memastikan panjang teks pada setiap bagian sesuai batas maksimal 45 kata dan sesuai kaidah EYD serta etika ASN."
+     ],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11282005/slide_01.jpg",
+    "public/11282005/slide_02.jpg",
+    "public/11282005/slide_03.jpg",
+    "public/11282005/slide_04.jpg",
+    "public/11282005/slide_05.jpg",
+    "public/11282005/slide_06.jpg"
+   ],
+   "scheduled_at": "2026-11-29T19:00+09:00",
+   "published": {},
+   "published_at": "2026-11-28T20:05+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Jadwal 18:30 WIT: reels desa",
-   "at": "2026-11-28 18:31"
+   "last": "Draft #11282005 dikirim ke Bos",
+   "at": "2026-11-28 20:05"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Pendaftaran CPNS 2026 Dibuka Hari Ini, Pemerintah Sederhanak\" (1 sumber, 1 foto)",
-   "at": "2026-11-28 17:02"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-28 20:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas\"",
-   "at": "2026-11-28 17:02"
+   "last": "Draft selesai: \"3 Cara Kilat Pakai AI Bereskan Tugas Kantor\"",
+   "at": "2026-11-28 20:03"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "Cek berita selesai — risiko sedang",
-   "at": "2026-11-28 17:04"
+   "last": "QC selesai — risiko rendah, 3 catatan",
+   "at": "2026-11-28 20:05"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 2 slide siap",
-   "at": "2026-11-28 17:04"
+   "last": "6 slide gaya berita siap",
+   "at": "2026-11-28 20:05"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11281704 dikirim ke Bos",
-   "at": "2026-11-28 17:12"
+   "last": "Paket TikTok #11282005 dikirim ke Bos",
+   "at": "2026-11-28 20:06"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
    "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
-   "at": "2026-11-28 15:31"
+   "at": "2026-11-28 20:01"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -7659,6 +7743,86 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-28 20:06",
+   "agent": "humas",
+   "msg": "Paket TikTok #11282005 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-28 20:05",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11282005..."
+  },
+  {
+   "at": "2026-11-28 20:05",
+   "agent": "humas",
+   "msg": "#11282005 dikirim sebagai paket manual (token Meta mati)"
+  },
+  {
+   "at": "2026-11-28 20:05",
+   "agent": "humas",
+   "msg": "Menerbitkan #11282005 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-28 20:05",
+   "agent": "kepala",
+   "msg": "Draft #11282005 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-28 20:05",
+   "agent": "desain",
+   "msg": "6 slide gaya berita siap"
+  },
+  {
+   "at": "2026-11-28 20:05",
+   "agent": "desain",
+   "msg": "Mendesain gaya berita/kiri/grid/angka..."
+  },
+  {
+   "at": "2026-11-28 20:05",
+   "agent": "qc",
+   "msg": "QC selesai — risiko rendah, 3 catatan"
+  },
+  {
+   "at": "2026-11-28 20:03",
+   "agent": "qc",
+   "msg": "Mengecek fakta, regulasi & bahasa..."
+  },
+  {
+   "at": "2026-11-28 20:03",
+   "agent": "naskah",
+   "msg": "Draft selesai: \"3 Cara Kilat Pakai AI Bereskan Tugas Kantor\""
+  },
+  {
+   "at": "2026-11-28 20:01",
+   "agent": "naskah",
+   "msg": "Menulis carousel: AI untuk membuat bahan paparan, ringkasan regulasi"
+  },
+  {
+   "at": "2026-11-28 20:01",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-28 20:01",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-28 20:01",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-28 20:01",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi konten"
+  },
+  {
+   "at": "2026-11-28 20:01",
+   "agent": "kepala",
+   "msg": "Jadwal 20:00 WIT: carousel ai"
+  },
   {
    "at": "2026-11-28 18:31",
    "agent": "kepala",
@@ -7878,107 +8042,16 @@
    "at": "2026-11-28 12:01",
    "agent": "desain",
    "msg": "7 slide gaya merah siap"
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "desain",
-   "msg": "Mendesain gaya merah/kiri/grid/angka..."
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "qc",
-   "msg": "QC selesai — risiko rendah, 1 catatan"
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "qc",
-   "msg": "Mengecek fakta, regulasi & bahasa..."
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "naskah",
-   "msg": "Draft selesai: \"4 Langkah Jitu Wujudkan Digitalisasi Layanan Desa Mandiri\""
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "naskah",
-   "msg": "Menulis carousel: digitalisasi layanan desa, website desa, Prodeskel"
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "riset",
-   "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor"
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "kepala",
-   "msg": "Jadwal 12:00 WIT: carousel desa"
-  },
-  {
-   "at": "2026-11-28 09:02",
-   "agent": "humas",
-   "msg": "Paket TikTok #11280901 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-28 09:02",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11280901..."
-  },
-  {
-   "at": "2026-11-28 09:02",
-   "agent": "humas",
-   "msg": "#11280901 dikirim sebagai paket manual (token Meta mati)"
-  },
-  {
-   "at": "2026-11-28 09:02",
-   "agent": "humas",
-   "msg": "Menerbitkan #11280901 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-28 09:02",
-   "agent": "kepala",
-   "msg": "Reels #11280901 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-28 09:02",
-   "agent": "desain",
-   "msg": "Reels 38 detik siap (gaya berita)"
   }
  ],
  "stats": {
   "published": 81,
-  "drafts": 106
+  "drafts": 107
  },
- "updated": "2026-11-28T18:31+09:00",
- "cuan_rot": 83,
+ "updated": "2026-11-28T20:06+09:00",
+ "cuan_rot": 84,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "semangat",
-   "expr": "gembira",
-   "theme": "merah",
-   "cover": "kiri",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "semangat__tangan_mengepal",
-   "flip": false,
-   "cta": "potret"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -8187,10 +8260,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "potret"
+  },
+  {
+   "mood": "semangat",
+   "expr": "gembira",
+   "theme": "berita",
+   "cover": "kiri",
+   "list": "grid",
+   "detail": "angka",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "badan"
   }
  ],
  "recent_hooks": [
-  "Pekerjaan rutin ASN digantikan AI?",
   "Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!",
   "Bikin SK Kades dan Perdes Masih Manual?",
   "Trik Produktivitas ASN: Kerja Sat-Set Tanpa Lembur",
@@ -8229,7 +8312,8 @@
   "Mau SKP digital beres tanpa ribet?",
   "Langkah Jitu Wujudkan Digitalisasi Layanan Desa Mandiri",
   "Bikin Surat dan Notulen Kilat Pakai AI",
-  "Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas"
+  "Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas",
+  "Cara Cepat Pakai AI Bereskan Tugas Kantor"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -8617,12 +8701,17 @@
     "did": "F11280631",
     "status": "proses",
     "at": "2026-11-28T18:31+09:00"
+   },
+   "7": {
+    "did": "11282005",
+    "status": "proses",
+    "at": "2026-11-28T20:05+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-28",
-  "dibuat": "2026-11-28T18:31+09:00",
+  "dibuat": "2026-11-28T20:06+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -8706,9 +8795,10 @@
     "tipe": "carousel",
     "jenis": "Carousel Listicle",
     "pilar": "AI untuk Kerja Kantor",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Cara Cepat Pakai AI Bereskan Tugas Kantor",
+    "id": "11282005",
+    "status": "manual",
+    "terbit": "20:05"
    }
   ],
   "manual": [],
@@ -8804,7 +8894,7 @@
   }
  },
  "meta": {
-  "token_mati": "2026-11-28T17:12+09:00"
+  "token_mati": "2026-11-28T20:05+09:00"
  },
  "flow_lokasi": [
   "Ruang kerja kantor desa dengan tumpukan ",
