@@ -44,6 +44,25 @@ def token_info():
     return me.get("name"), ("Page" if is_page else "pengguna")
 
 
+def token_umur():
+    """Info token di GitHub Secret: (jenis, kedaluwarsa 'tidak pernah'/'YYYY-MM-DD', valid) via debug_token."""
+    import datetime as dt
+    t = env("META_PAGE_TOKEN").strip().strip('"')
+    r = requests.get(f"{_base()}/debug_token", params={"input_token": t, "access_token": t}, timeout=30).json().get("data", {})
+    if not r:
+        return None
+    exp = r.get("expires_at", 0)
+    data_exp = r.get("data_access_expires_at", 0)
+    jenis = {"SYSTEM_USER": "Pengguna Sistem", "USER": "pengguna pribadi", "PAGE": "Page"}.get(r.get("type"), r.get("type", "?"))
+    sisa = None
+    if exp:
+        sisa = (dt.datetime.fromtimestamp(exp) - dt.datetime.now()).days
+    return {"jenis": jenis, "valid": r.get("is_valid", False), "tidak_pernah": not exp,
+            "kedaluwarsa": dt.datetime.fromtimestamp(exp).strftime("%d-%m-%Y") if exp else "tidak pernah",
+            "sisa_hari": sisa, "akses_data": dt.datetime.fromtimestamp(data_exp).strftime("%d-%m-%Y") if data_exp else "-",
+            "system_user": r.get("type") == "SYSTEM_USER"}
+
+
 def _check(r):
     js = r.json()
     if "error" in js:

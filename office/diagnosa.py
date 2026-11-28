@@ -92,6 +92,15 @@ def run(cfg, state):
                 say(WARN if ok else BAD, f"Token Meta milik pengguna '{name}'. "
                     + ("Token Page diambil otomatis (berfungsi, tapi ikut kedaluwarsa ±60 hari; sebaiknya simpan token Page)." if ok
                        else "Token Page TIDAK bisa diambil — pastikan izin pages_show_list & Page dicentang."))
+            try:
+                u = meta.token_umur()
+                if u:
+                    say(OK if (u["valid"] and u["tidak_pernah"]) else WARN,
+                        f"Jenis token: {u['jenis']} • kedaluwarsa: {u['kedaluwarsa']}"
+                        + ("" if u["system_user"] else " • ⚠️ token pribadi ikut mati bila Anda logout/ganti sandi/verifikasi keamanan — "
+                           "pakai token Pengguna Sistem agar abadi"))
+            except Exception as e:
+                print("debug_token gagal:", e)
             if env("IG_USER_ID"):
                 r = requests.get(f"https://graph.facebook.com/{v}/{env('IG_USER_ID')}",
                                  params={"fields": "username", "access_token": meta._token()}, timeout=30).json()

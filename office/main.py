@@ -507,6 +507,19 @@ def handle_update(cfg, state, upd):
     state.done("kepala", "Perintah selesai diproses")
 
 
+def cek_token_pagi(cfg, state):
+    """Peringatan dini: token Meta akan kedaluwarsa ≤ 10 hari (sekali sehari)."""
+    from . import meta
+    try:
+        u = meta.token_umur()
+    except Exception as e:
+        print("cek token gagal:", e)
+        return
+    if u and u["valid"] and u["sisa_hari"] is not None and u["sisa_hari"] <= 10:
+        telegram.send(f"⏳ <b>Token Meta kedaluwarsa {u['kedaluwarsa']}</b> ({u['sisa_hari']} hari lagi). "
+                      "Ganti dengan token Pengguna Sistem (tidak pernah kedaluwarsa) supaya posting tidak berhenti. Cek: /cek")
+
+
 def harga_pagi(cfg, state):
     """Cek harga di lynk.id sekali sehari (slot pertama); kabari Bos hanya bila ada perubahan."""
     if state.d.get("harga", {}).get("sync", {}).get("at", "")[:10] == now_wit().date().isoformat():
@@ -566,6 +579,7 @@ def run(mode):
             if int(os.environ.get("SLOT", "0")) == 0 and cfg.get("harga_sync_lynk"):
                 harga_pagi(cfg, state)
             if int(os.environ.get("SLOT", "0")) == 0:
+                cek_token_pagi(cfg, state)
                 brief_pagi(cfg, state)
             run_slot(cfg, state, int(os.environ.get("SLOT", "0")))
             humas.publish_due(cfg, state)
