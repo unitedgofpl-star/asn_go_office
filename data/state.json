@@ -7697,7 +7697,7 @@
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
    "last": "Perintah selesai diproses",
-   "at": "2026-11-28 21:30"
+   "at": "2026-11-28 21:33"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
@@ -7738,11 +7738,31 @@
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
    "status": "idle",
-   "last": "Laporan mingguan selesai — 130 followers",
-   "at": "2026-11-25 11:46"
+   "last": "Gagal ambil data: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+   "at": "2026-11-28 21:33"
   }
  },
  "log": [
+  {
+   "at": "2026-11-28 21:33",
+   "agent": "kepala",
+   "msg": "Perintah selesai diproses"
+  },
+  {
+   "at": "2026-11-28 21:33",
+   "agent": "analis",
+   "msg": "Gagal ambil data: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+  },
+  {
+   "at": "2026-11-28 21:33",
+   "agent": "analis",
+   "msg": "Menarik data performa Instagram..."
+  },
+  {
+   "at": "2026-11-28 21:33",
+   "agent": "kepala",
+   "msg": "Menerima perintah dari Bos"
+  },
   {
    "at": "2026-11-28 21:30",
    "agent": "kepala",
@@ -8022,33 +8042,13 @@
    "at": "2026-11-28 15:31",
    "agent": "kepala",
    "msg": "Jadwal 15:30 WIT: carousel ai"
-  },
-  {
-   "at": "2026-11-28 12:02",
-   "agent": "humas",
-   "msg": "Paket TikTok #11281201 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11281201..."
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "humas",
-   "msg": "#11281201 dikirim sebagai paket manual (token Meta mati)"
-  },
-  {
-   "at": "2026-11-28 12:01",
-   "agent": "humas",
-   "msg": "Menerbitkan #11281201 ke IG & FB..."
   }
  ],
  "stats": {
   "published": 81,
   "drafts": 107
  },
- "updated": "2026-11-28T21:30+09:00",
+ "updated": "2026-11-28T21:33+09:00",
  "cuan_rot": 84,
  "last_followers": 130,
  "style_hist": [
@@ -8711,7 +8711,7 @@
  },
  "jadwal": {
   "tanggal": "2026-11-28",
-  "dibuat": "2026-11-28T21:30+09:00",
+  "dibuat": "2026-11-28T21:33+09:00",
   "hari_ini": [
    {
     "slot": 0,
