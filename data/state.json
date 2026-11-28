@@ -7560,44 +7560,90 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11281704": {
+   "id": "11281704",
+   "type": "berita",
+   "status": "manual",
+   "created": "2026-11-28T17:04+09:00",
+   "pillar": "ASN",
+   "topic": "Pendaftaran CPNS 2026 Dibuka Hari Ini, Pemerintah Sederhanakan Persyaratan | Sekretariat Negara",
+   "format": "berita",
+   "content": {
+    "hook": "Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas",
+    "caption": "Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas\n\nHalo Rekan ASN! Pemerintah resmi membuka pendaftaran seleksi Calon Pegawai Negeri Sipil Tahun 2026 mulai hari ini, Jumat (27/11/2026). Proses seleksi dirancang lebih transparan melalui penyederhanaan berkas administratif.\n\nKepala BKN Zudan menyatakan kebijakan ini dibuat untuk memberikan kemudahan bagi seluruh pelamar. Bentuk penyederhanaannya antara lain penggabungan surat lamaran dan surat pernyataan dalam satu dokumen serta pasfoto yang tidak lagi menjadi syarat wajib.\n\nTotal kebutuhan ASN pada pengadaan tahun ini mencapai 167.113 formasi, dengan rincian 154.052 formasi CPNS. Pendaftaran dilakukan secara daring melalui portal resmi SSCASN hingga 21 Desember 2026. Pelaksanaan seleksi berikutnya mencakup Seleksi Administrasi hingga 4 Januari 2027, dilanjutkan SKD dan SKB pada Februari hingga April 2027 menggunakan sistem CAT BKN.\n\nBagaimana persiapan Rekan ASN untuk menginformasikan proses seleksi ini?\n\n💡 Artinya bagi kita: Penyederhanaan dokumen membuat proses pendaftaran bagi calon pelamar menjadi lebih mudah dan tidak memberatkan.\n\n📰 Sumber:\n• Kementerian Sekretariat Negara: https://www.setneg.go.id/baca/index/pendaftaran_cpns_2026_dibuka_hari_ini_pemerintah_sederhanakan_persyaratan\n📷 Foto: Kementerian Sekretariat Negara\n\nDirangkum ulang oleh tim ASN GO Digitals. Baca berita lengkap di sumber aslinya.",
+    "hashtags": [
+     "#ASNGoDigitals",
+     "#CPNS2026",
+     "#InfoASN",
+     "#BKN",
+     "#SSCASN"
+    ],
+    "_qc": {
+     "issues": [
+      "Ada kutipan atau penyalinan kalimat panjang yang mirip dengan sumber pada bagian poin dan caption.",
+      "Beberapa tanggal atau detail spesifik perlu dicocokkan kembali agar sepenuhnya berpijak pada teks sumber."
+     ],
+     "risk": "sedang"
+    },
+    "narasi": [
+     "Berita terkini. Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas. Pemerintah resmi membuka pendaftaran CPNS 2026 mulai hari ini dengan berbagai kemudahan administratif.",
+     "Poin pentingnya. Pendaftaran seleksi CPNS 2026 dimulai pada Jumat, 27 November 2026 dan berlangsung hingga 21 Desember 2026.. Persyaratan administrasi disederhanakan melalui penggabungan surat lamaran serta pernyataan dan penghapusan pasfoto wajib.. Total kebutuhan ASN ditetapkan sebanyak 167.113 formasi dengan 154.052 formasi dialokasikan untuk CPNS.. Tahapan seleksi menggunakan sistem CAT BKN yang mencakup Seleksi Administrasi hingga SKD serta SKB.. Penyederhanaan dokumen membuat proses pendaftaran bagi calon pelamar menjadi lebih mudah dan tidak memberatkan. Info lengkap dan sumbernya ada di caption."
+    ],
+    "mood": "tenang"
+   },
+   "images": [
+    "public/11281704/slide_01.jpg",
+    "public/11281704/slide_02.jpg"
+   ],
+   "sources": [
+    "https://www.setneg.go.id/baca/index/pendaftaran_cpns_2026_dibuka_hari_ini_pemerintah_sederhanakan_persyaratan"
+   ],
+   "scheduled_at": "2026-11-28T17:04+09:00",
+   "published": {},
+   "published_at": "2026-11-28T17:04+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Draft #11281533 dikirim ke Bos",
-   "at": "2026-11-28 15:33"
+   "last": "Berita #11281704 dikirim ke Bos",
+   "at": "2026-11-28 17:04"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Menemukan 10 berita tren minggu ini",
-   "at": "2026-11-28 15:31"
+   "last": "Berita: \"Pendaftaran CPNS 2026 Dibuka Hari Ini, Pemerintah Sederhanak\" (1 sumber, 1 foto)",
+   "at": "2026-11-28 17:02"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Draft selesai: \"Bikin Surat dan Notulen Kilat Pakai AI\"",
-   "at": "2026-11-28 15:32"
+   "last": "Rangkuman: \"Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas\"",
+   "at": "2026-11-28 17:02"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
    "status": "idle",
-   "last": "QC selesai — risiko rendah, 2 catatan",
-   "at": "2026-11-28 15:33"
+   "last": "Cek berita selesai — risiko sedang",
+   "at": "2026-11-28 17:04"
   },
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "7 slide gaya navy siap",
-   "at": "2026-11-28 15:33"
+   "last": "Berita 2 slide siap",
+   "at": "2026-11-28 17:04"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11281533 dikirim ke Bos",
-   "at": "2026-11-28 15:34"
+   "last": "Paket TikTok #11281704 dikirim ke Bos",
+   "at": "2026-11-28 17:05"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
@@ -7613,6 +7659,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-28 17:05",
+   "agent": "humas",
+   "msg": "Paket TikTok #11281704 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-28 17:04",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11281704..."
+  },
+  {
+   "at": "2026-11-28 17:04",
+   "agent": "humas",
+   "msg": "#11281704 dikirim sebagai paket manual (token Meta mati)"
+  },
+  {
+   "at": "2026-11-28 17:04",
+   "agent": "humas",
+   "msg": "Menerbitkan #11281704 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-28 17:04",
+   "agent": "kepala",
+   "msg": "Berita #11281704 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-28 17:04",
+   "agent": "desain",
+   "msg": "Berita 2 slide siap"
+  },
+  {
+   "at": "2026-11-28 17:04",
+   "agent": "desain",
+   "msg": "Mendesain berita (1 foto)..."
+  },
+  {
+   "at": "2026-11-28 17:04",
+   "agent": "qc",
+   "msg": "Cek berita selesai — risiko sedang"
+  },
+  {
+   "at": "2026-11-28 17:02",
+   "agent": "qc",
+   "msg": "Mencocokkan rangkuman berita dengan sumber..."
+  },
+  {
+   "at": "2026-11-28 17:02",
+   "agent": "naskah",
+   "msg": "Rangkuman: \"Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas\""
+  },
+  {
+   "at": "2026-11-28 17:02",
+   "agent": "naskah",
+   "msg": "Merangkum berita dari 1 sumber..."
+  },
+  {
+   "at": "2026-11-28 17:02",
+   "agent": "riset",
+   "msg": "Berita: \"Pendaftaran CPNS 2026 Dibuka Hari Ini, Pemerintah Sederhanak\" (1 sumber, 1 foto)"
+  },
+  {
+   "at": "2026-11-28 17:01",
+   "agent": "riset",
+   "msg": "Mencari berita terkini dari media tepercaya..."
+  },
+  {
+   "at": "2026-11-28 17:01",
+   "agent": "kepala",
+   "msg": "Meminta tim memantau berita terkini"
+  },
+  {
+   "at": "2026-11-28 17:01",
+   "agent": "kepala",
+   "msg": "Jadwal 17:00 WIT: berita asn"
+  },
   {
    "at": "2026-11-28 15:34",
    "agent": "humas",
@@ -7837,88 +7958,13 @@
    "at": "2026-11-28 09:01",
    "agent": "cuan",
    "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-28 09:01",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi Reels"
-  },
-  {
-   "at": "2026-11-28 09:01",
-   "agent": "kepala",
-   "msg": "Jadwal 09:00 WIT: reels asn"
-  },
-  {
-   "at": "2026-11-28 08:04",
-   "agent": "humas",
-   "msg": "Paket TikTok #11280803 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-28 08:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11280803..."
-  },
-  {
-   "at": "2026-11-28 08:03",
-   "agent": "humas",
-   "msg": "#11280803 dikirim sebagai paket manual (token Meta mati)"
-  },
-  {
-   "at": "2026-11-28 08:03",
-   "agent": "humas",
-   "msg": "Menerbitkan #11280803 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-28 08:03",
-   "agent": "kepala",
-   "msg": "Berita #11280803 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-28 08:03",
-   "agent": "desain",
-   "msg": "Berita 2 slide siap"
-  },
-  {
-   "at": "2026-11-28 08:03",
-   "agent": "desain",
-   "msg": "Mendesain berita (1 foto)..."
-  },
-  {
-   "at": "2026-11-28 08:03",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko sedang"
-  },
-  {
-   "at": "2026-11-28 08:02",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-28 08:02",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu\""
-  },
-  {
-   "at": "2026-11-28 08:02",
-   "agent": "naskah",
-   "msg": "Merangkum berita dari 1 sumber..."
-  },
-  {
-   "at": "2026-11-28 08:02",
-   "agent": "riset",
-   "msg": "Berita: \"Guru PPPK Paruh Waktu di Karanganyar Didata, Diusulkan Jadi \" (1 sumber, 1 foto)"
-  },
-  {
-   "at": "2026-11-28 08:02",
-   "agent": "riset",
-   "msg": "Mencari berita terkini dari media tepercaya..."
   }
  ],
  "stats": {
   "published": 81,
-  "drafts": 105
+  "drafts": 106
  },
- "updated": "2026-11-28T16:32+09:00",
+ "updated": "2026-11-28T17:05+09:00",
  "cuan_rot": 83,
  "last_followers": 130,
  "style_hist": [
@@ -8144,7 +8190,6 @@
   }
  ],
  "recent_hooks": [
-  "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital",
   "Pekerjaan rutin ASN digantikan AI?",
   "Biar Indeks SPBE Instansi Naik, Pakai Prompt AI Ini!",
   "Bikin SK Kades dan Perdes Masih Manual?",
@@ -8183,7 +8228,8 @@
   "Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu",
   "Mau SKP digital beres tanpa ribet?",
   "Langkah Jitu Wujudkan Digitalisasi Layanan Desa Mandiri",
-  "Bikin Surat dan Notulen Kilat Pakai AI"
+  "Bikin Surat dan Notulen Kilat Pakai AI",
+  "Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -8237,7 +8283,9 @@
   "guru pppk di atas usia 35 tahun bisa ikut seleksi cpns 2027",
   "presiden siapkan formasi  guru pppk di atas 35 tahun bisa ik",
   "januari 2027  579 guru pppk paruh waktu di riau ditargetkan ",
-  "guru pppk paruh waktu di karanganyar didata  diusulkan jadi "
+  "guru pppk paruh waktu di karanganyar didata  diusulkan jadi ",
+  "pendaftaran cpns 2026 dibuka  prabowo  guru pppk bisa ikut s",
+  "pendaftaran cpns 2026 dibuka hari ini  pemerintah sederhanak"
  ],
  "slot_log": {
   "2026-11-21": {
@@ -8559,12 +8607,17 @@
     "did": "11281533",
     "status": "proses",
     "at": "2026-11-28T15:33+09:00"
+   },
+   "5": {
+    "did": "11281704",
+    "status": "proses",
+    "at": "2026-11-28T17:04+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-28",
-  "dibuat": "2026-11-28T16:32+09:00",
+  "dibuat": "2026-11-28T17:05+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -8627,9 +8680,10 @@
     "tipe": "berita",
     "jenis": "Berita Terkini",
     "pilar": "Berita pilihan",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Seleksi CPNS 2026 Resmi Dibuka dengan Persyaratan Lebih Ringkas",
+    "id": "11281704",
+    "status": "manual",
+    "terbit": "17:04"
    },
    {
     "slot": 6,
@@ -8639,7 +8693,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 7,
@@ -8753,7 +8807,7 @@
   }
  },
  "meta": {
-  "token_mati": "2026-11-28T15:33+09:00"
+  "token_mati": "2026-11-28T17:04+09:00"
  },
  "flow_lokasi": [
   "Ruang kerja kantor desa dengan tumpukan ",
