@@ -7312,26 +7312,87 @@
     "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
     "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
    ]
+  },
+  "11280901": {
+   "id": "11280901",
+   "type": "reels",
+   "status": "manual",
+   "created": "2026-11-28T09:02+09:00",
+   "pillar": "Digitalisasi ASN",
+   "topic": "SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-Office",
+   "format": "reels",
+   "product": "naskah",
+   "content": {
+    "hook": "Mau SKP digital beres tanpa ribet?",
+    "caption": "Halo Rekan ASN & Sobat Desa! Pemerintah lagi jor-joran dorong SPBE dan layanan digital, mulai dari cloud first sampai e-Kinerja. Jangan sampai kita ketinggalan adaptasi ya. Yuk, cicil tugas administratif lewat aplikasi resmi biar kerjaan beres tepat waktu tanpa lembur. Simpan postingan ini dan tulis di komentar, gimana progres e-Kinerja instansi Rekan sekalian minggu ini?\n\n🛠 Capek ngetik surat dinas dari nol? Generator Naskah Dinas — mulai Rp49.000 (sekali bayar). Cek link di bio 👉 https://lynk.id/asngodigital",
+    "hashtags": [
+     "#asn_go_digitals",
+     "#DigitalisasiASN",
+     "#SPBE",
+     "#EKinerja",
+     "#MyASN",
+     "#SIASN",
+     "#PemerintahanDigital",
+     "#ASNkece"
+    ],
+    "beats": [
+     {
+      "text": "Halo Rekan ASN & Sobat Desa!",
+      "icon": "👋"
+     },
+     {
+      "text": "Transformasi digital birokrasi makin ngebut sekarang.",
+      "icon": "🚀"
+     },
+     {
+      "text": "Login MyASN dan SIASN buat cek data berkala.",
+      "icon": "💻"
+     },
+     {
+      "text": "Pastikan e-Kinerja diisi rutin tiap bulan.",
+      "icon": "📊"
+     },
+     {
+      "text": "Biar nggak panik pas rating kinerja dinilai.",
+      "icon": "✨"
+     }
+    ],
+    "_qc": {
+     "issues": [],
+     "risk": "rendah"
+    }
+   },
+   "images": [
+    "public/11280901/cover.jpg"
+   ],
+   "video": "public/11280901/reels.mp4",
+   "scheduled_at": "2026-11-28T09:02+09:00",
+   "published": {},
+   "published_at": "2026-11-28T09:02+09:00",
+   "errors": [
+    "IG: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+    "FB: Meta API: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+   ]
   }
  },
  "agents": {
   "kepala": {
    "name": "Bapa Yohanis Rumbewas (Kepala Kantor / Manajer Konten)",
    "status": "idle",
-   "last": "Berita #11280803 dikirim ke Bos",
-   "at": "2026-11-28 08:03"
+   "last": "Reels #11280901 dikirim ke Bos",
+   "at": "2026-11-28 09:02"
   },
   "riset": {
    "name": "Kaka Maria Kafiar (Analis Riset & Tren)",
    "status": "idle",
-   "last": "Berita: \"Guru PPPK Paruh Waktu di Karanganyar Didata, Diusulkan Jadi \" (1 sumber, 1 foto)",
-   "at": "2026-11-28 08:02"
+   "last": "Menemukan 10 berita tren minggu ini",
+   "at": "2026-11-28 09:01"
   },
   "naskah": {
    "name": "Kaka Selfina Rumansara (Penulis Konten Senior)",
    "status": "idle",
-   "last": "Rangkuman: \"Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu\"",
-   "at": "2026-11-28 08:02"
+   "last": "Naskah Reels: \"Mau SKP digital beres tanpa ribet?\"",
+   "at": "2026-11-28 09:01"
   },
   "qc": {
    "name": "Kaka Agustinus Karubaba (Verifikator Fakta & Regulasi)",
@@ -7342,20 +7403,20 @@
   "desain": {
    "name": "Kaka Elisa Wanggai (Desainer Grafis & Video)",
    "status": "idle",
-   "last": "Berita 2 slide siap",
-   "at": "2026-11-28 08:03"
+   "last": "Reels 38 detik siap (gaya berita)",
+   "at": "2026-11-28 09:02"
   },
   "humas": {
    "name": "Kaka Natalia Ayomi (Humas & Publikasi Medsos)",
    "status": "idle",
-   "last": "Paket TikTok #11280803 dikirim ke Bos",
-   "at": "2026-11-28 08:04"
+   "last": "Paket TikTok #11280901 dikirim ke Bos",
+   "at": "2026-11-28 09:02"
   },
   "cuan": {
    "name": "Kaka Yance Mansoben (Kepala Pemasaran & Penjualan)",
    "status": "idle",
-   "last": "Menyiapkan CTA produk: Generator Naskah Dinas — Paket Kantor",
-   "at": "2026-11-28 06:31"
+   "last": "Menyiapkan CTA produk: Generator Naskah Dinas",
+   "at": "2026-11-28 09:01"
   },
   "analis": {
    "name": "Kaka Ruth Imbiri (Analis Data & Performa)",
@@ -7365,6 +7426,81 @@
   }
  },
  "log": [
+  {
+   "at": "2026-11-28 09:02",
+   "agent": "humas",
+   "msg": "Paket TikTok #11280901 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-28 09:02",
+   "agent": "humas",
+   "msg": "Menyiapkan paket TikTok #11280901..."
+  },
+  {
+   "at": "2026-11-28 09:02",
+   "agent": "humas",
+   "msg": "#11280901 dikirim sebagai paket manual (token Meta mati)"
+  },
+  {
+   "at": "2026-11-28 09:02",
+   "agent": "humas",
+   "msg": "Menerbitkan #11280901 ke IG & FB..."
+  },
+  {
+   "at": "2026-11-28 09:02",
+   "agent": "kepala",
+   "msg": "Reels #11280901 dikirim ke Bos"
+  },
+  {
+   "at": "2026-11-28 09:02",
+   "agent": "desain",
+   "msg": "Reels 38 detik siap (gaya berita)"
+  },
+  {
+   "at": "2026-11-28 09:01",
+   "agent": "desain",
+   "msg": "Merekam suara Cicilia & meracik musik latar..."
+  },
+  {
+   "at": "2026-11-28 09:01",
+   "agent": "desain",
+   "msg": "Membuat Reels gaya berita..."
+  },
+  {
+   "at": "2026-11-28 09:01",
+   "agent": "naskah",
+   "msg": "Naskah Reels: \"Mau SKP digital beres tanpa ribet?\""
+  },
+  {
+   "at": "2026-11-28 09:01",
+   "agent": "naskah",
+   "msg": "Menulis naskah Reels: SPBE, e-Kinerja/SKP digital, MyASN, SIASN, e-"
+  },
+  {
+   "at": "2026-11-28 09:01",
+   "agent": "riset",
+   "msg": "Menemukan 10 berita tren minggu ini"
+  },
+  {
+   "at": "2026-11-28 09:01",
+   "agent": "riset",
+   "msg": "Memantau berita ASN, desa & AI..."
+  },
+  {
+   "at": "2026-11-28 09:01",
+   "agent": "cuan",
+   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
+  },
+  {
+   "at": "2026-11-28 09:01",
+   "agent": "kepala",
+   "msg": "Membagi tugas produksi Reels"
+  },
+  {
+   "at": "2026-11-28 09:01",
+   "agent": "kepala",
+   "msg": "Jadwal 09:00 WIT: reels asn"
+  },
   {
    "at": "2026-11-28 08:04",
    "agent": "humas",
@@ -7589,102 +7725,16 @@
    "at": "2026-11-27 20:02",
    "agent": "riset",
    "msg": "Menemukan 10 berita tren minggu ini"
-  },
-  {
-   "at": "2026-11-27 20:02",
-   "agent": "riset",
-   "msg": "Memantau berita ASN, desa & AI..."
-  },
-  {
-   "at": "2026-11-27 20:02",
-   "agent": "cuan",
-   "msg": "Menyiapkan CTA produk: Generator Naskah Dinas"
-  },
-  {
-   "at": "2026-11-27 20:02",
-   "agent": "kepala",
-   "msg": "Membagi tugas produksi konten"
-  },
-  {
-   "at": "2026-11-27 20:02",
-   "agent": "kepala",
-   "msg": "Jadwal 20:00 WIT: carousel asn"
-  },
-  {
-   "at": "2026-11-27 18:31",
-   "agent": "kepala",
-   "msg": "Jadwal 18:30 WIT: reels ai"
-  },
-  {
-   "at": "2026-11-27 17:04",
-   "agent": "humas",
-   "msg": "Paket TikTok #11271703 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-27 17:03",
-   "agent": "humas",
-   "msg": "Menyiapkan paket TikTok #11271703..."
-  },
-  {
-   "at": "2026-11-27 17:03",
-   "agent": "humas",
-   "msg": "#11271703 dikirim sebagai paket manual (token Meta mati)"
-  },
-  {
-   "at": "2026-11-27 17:03",
-   "agent": "humas",
-   "msg": "Menerbitkan #11271703 ke IG & FB..."
-  },
-  {
-   "at": "2026-11-27 17:03",
-   "agent": "kepala",
-   "msg": "Berita #11271703 dikirim ke Bos"
-  },
-  {
-   "at": "2026-11-27 17:03",
-   "agent": "desain",
-   "msg": "Berita 3 slide siap"
-  },
-  {
-   "at": "2026-11-27 17:03",
-   "agent": "desain",
-   "msg": "Mendesain berita (3 foto)..."
-  },
-  {
-   "at": "2026-11-27 17:03",
-   "agent": "qc",
-   "msg": "Cek berita selesai — risiko sedang"
-  },
-  {
-   "at": "2026-11-27 17:02",
-   "agent": "qc",
-   "msg": "Mencocokkan rangkuman berita dengan sumber..."
-  },
-  {
-   "at": "2026-11-27 17:02",
-   "agent": "naskah",
-   "msg": "Rangkuman: \"Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS\""
   }
  ],
  "stats": {
   "published": 81,
-  "drafts": 102
+  "drafts": 103
  },
- "updated": "2026-11-28T08:04+09:00",
- "cuan_rot": 80,
+ "updated": "2026-11-28T09:02+09:00",
+ "cuan_rot": 81,
  "last_followers": 130,
  "style_hist": [
-  {
-   "mood": "terkejut",
-   "expr": "terkejut",
-   "theme": "berita",
-   "cover": "potret",
-   "list": "kartu",
-   "detail": "kartu",
-   "pose": "terkejut__tangan_di_pipi",
-   "flip": true,
-   "cta": "badan"
-  },
   {
    "mood": "semangat",
    "expr": "gembira",
@@ -7893,10 +7943,20 @@
    "pose": "semangat__tangan_mengepal",
    "flip": true,
    "cta": "badan"
+  },
+  {
+   "mood": "semangat",
+   "expr": "semangat",
+   "theme": "berita",
+   "cover": "kanan",
+   "list": "kartu",
+   "detail": "kartu",
+   "pose": "semangat__tangan_mengepal",
+   "flip": false,
+   "cta": "potret"
   }
  ],
  "recent_hooks": [
-  "Bikin SKP digital lama banget?",
   "Duh, Bikin SK Kades dan Perdes Masih Manual?",
   "4 Kebiasaan ASN yang Bikin SKP Digital Macet",
   "Mukernas ke-7 Indonesiapersada.id Perkuat Sinergi LPPL Era Digital",
@@ -7935,7 +7995,8 @@
   "Peluang Guru PPPK Usia di Atas 35 Tahun Ikut Seleksi CPNS",
   "Bikin Laporan Kantor Tanpa Rumus Rumit",
   "Bikin Draft SK Kades dan Perdes Kilat Pakai AI",
-  "Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu"
+  "Pendataan Guru PPPK Karanganyar Menuju Status Penuh Waktu",
+  "Mau SKP digital beres tanpa ribet?"
  ],
  "news_used": [
   "kecamatan busungbiu hadiri rapat koordinasi penyelenggaraan ",
@@ -8296,12 +8357,17 @@
     "did": "11280803",
     "status": "proses",
     "at": "2026-11-28T08:03+09:00"
+   },
+   "2": {
+    "did": "11280901",
+    "status": "proses",
+    "at": "2026-11-28T09:02+09:00"
    }
   }
  },
  "jadwal": {
   "tanggal": "2026-11-28",
-  "dibuat": "2026-11-28T08:04+09:00",
+  "dibuat": "2026-11-28T09:02+09:00",
   "hari_ini": [
    {
     "slot": 0,
@@ -8331,9 +8397,10 @@
     "tipe": "reels",
     "jenis": "Video Edukasi",
     "pilar": "Digitalisasi ASN",
-    "judul": "",
-    "id": "",
-    "status": "berikutnya"
+    "judul": "Mau SKP digital beres tanpa ribet?",
+    "id": "11280901",
+    "status": "manual",
+    "terbit": "09:02"
    },
    {
     "slot": 3,
@@ -8343,7 +8410,7 @@
     "pilar": "Pemerintahan Desa",
     "judul": "",
     "id": "",
-    "status": "akan"
+    "status": "berikutnya"
    },
    {
     "slot": 4,
@@ -8487,7 +8554,7 @@
   }
  },
  "meta": {
-  "token_mati": "2026-11-28T08:03+09:00"
+  "token_mati": "2026-11-28T09:02+09:00"
  },
  "flow_lokasi": [
   "Ruang kerja kantor desa dengan tumpukan ",
